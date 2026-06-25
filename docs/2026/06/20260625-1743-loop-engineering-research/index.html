@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Loop Engineering 冷静版速览</title>
+<style>
+:root{--bg:#0f172a;--panel:#111827;--panel2:#172033;--text:#e5e7eb;--muted:#94a3b8;--line:#334155;--green:#22c55e;--amber:#f59e0b;--red:#ef4444;--blue:#38bdf8;--violet:#a78bfa}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#0b1020,#111827 45%,#0f172a);color:var(--text);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:#7dd3fc}.wrap{max-width:1180px;margin:0 auto;padding:32px 20px 56px}.hero{display:grid;grid-template-columns:1.35fr .65fr;gap:18px;align-items:stretch}.card{background:rgba(17,24,39,.88);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 18px 50px rgba(0,0,0,.22)}h1{font-size:34px;line-height:1.15;margin:0 0 12px}h2{font-size:22px;margin:0 0 14px}h3{font-size:17px;margin:0 0 8px}.lead{font-size:18px;color:#dbeafe;margin:0 0 18px}.muted{color:var(--muted)}.badge{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:4px 9px;margin:3px 4px 3px 0;color:#cbd5e1;background:#0b1220;font-size:13px}.good{color:#86efac}.warn{color:#fcd34d}.bad{color:#fca5a5}.grid{display:grid;gap:16px}.grid3{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:repeat(2,1fr)}.section{margin-top:18px}.thesis{font-size:20px;border-left:4px solid var(--blue);padding-left:14px}.timeline{position:relative;margin-top:8px}.item{display:grid;grid-template-columns:120px 1fr;gap:14px;border-top:1px solid var(--line);padding:13px 0}.date{color:#93c5fd;font-weight:700}.quote{font-size:14px;color:#cbd5e1;background:#0b1220;border:1px solid #1e293b;border-radius:12px;padding:12px;margin-top:8px}.matrix{width:100%;border-collapse:collapse;overflow:hidden;border-radius:12px}.matrix th,.matrix td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}.matrix th{background:#0b1220;color:#bfdbfe}.risk{border-left:4px solid var(--amber)}.risk.high{border-left-color:var(--red)}.risk.ok{border-left-color:var(--green)}.pill{font-size:12px;border-radius:999px;padding:2px 7px;font-weight:700}.p-blue{background:#0c4a6e;color:#bae6fd}.p-amber{background:#78350f;color:#fde68a}.p-red{background:#7f1d1d;color:#fecaca}.p-green{background:#14532d;color:#bbf7d0}.source{font-size:13px;color:#93c5fd}.check li{margin:8px 0}.footer{margin-top:22px;color:#94a3b8;font-size:13px}.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.tabs button{background:#0b1220;color:#cbd5e1;border:1px solid var(--line);border-radius:999px;padding:7px 11px;cursor:pointer}.tabs button.active{background:#1d4ed8;color:white;border-color:#60a5fa}.tab{display:none}.tab.active{display:block}@media(max-width:850px){.hero,.grid2,.grid3{grid-template-columns:1fr}.item{grid-template-columns:1fr}.wrap{padding:20px 12px}h1{font-size:28px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <section class="card">
+      <div class="badge">本地 review artifact</div><div class="badge">无远程依赖</div><div class="badge">证据见 source-ledger.md</div>
+      <h1>Loop Engineering：把“继续 prompt”变成可验证的反馈系统</h1>
+      <p class="lead">它不是魔法新范式。冷静看，它是 agent loop、automation、外置状态、验证器和权限边界的组合。真正的问题不是“能不能自动跑”，而是“跑错时谁发现、谁付钱、谁负责”。</p>
+      <p class="thesis"><b>当前判断：</b>适合低风险、反馈明确、可拆解、可回滚的工程任务；不适合拿来遮盖需求不清、验证薄弱和人工责任缺位。</p>
+    </section>
+    <aside class="card">
+      <h2>一句话区别</h2>
+      <p><b>Prompt Engineering</b>：这一轮怎么问模型。</p>
+      <p><b>Loop Engineering</b>：下一轮由谁触发、读什么状态、怎么验证、何时停止、失败后怎么处理。</p>
+      <div class="quote">“Loop changes the work, it does not delete you from it.” — Addy Osmani</div>
+    </aside>
+  </div>
+
+  <section class="card section">
+    <h2>来源脉络：不是单一发明，更像术语收束</h2>
+    <div class="timeline">
+      <div class="item"><div class="date">2026-03</div><div><b>Karpathy autoresearch</b>：agent 自动改训练代码、跑 5 分钟、看指标、保留或丢弃、继续。<div class="source">source: karpathy-autoresearch-readme.md</div></div></div>
+      <div class="item"><div class="date">2026-06</div><div><b>Peter / Boris / Andrej 的 loop 话题</b> 被多篇文章引用：不要手动连续 prompt，要设计会 prompt agent 的 loop。<div class="source">source: addy, latent-space, register</div></div></div>
+      <div class="item"><div class="date">Addy</div><div><b>系统化落地解释</b>：automations、worktrees、skills、connectors、sub-agents、state。<div class="source">source: addy-loop-engineering.md</div></div></div>
+      <div class="item"><div class="date">LangChain</div><div><b>分层框架</b>：agent loop、verification loop、event-driven loop、hill-climbing loop。<div class="source">source: langchain-art-of-loop-engineering.md</div></div></div>
+      <div class="item"><div class="date">冷静评论</div><div><b>The Register / Jeena / HN</b> 提醒成本、comprehension debt、critic loop 失效和生产责任。<div class="source">source: register, jeena, hn</div></div></div>
+    </div>
+  </section>
+
+  <section class="grid grid3 section">
+    <div class="card risk ok"><h3>什么时候值得做</h3><p>有明确验收信号：测试、lint、benchmark、链接检查、格式校验、指标改善。</p><span class="pill p-green">good fit</span></div>
+    <div class="card risk"><h3>什么时候要小心</h3><p>需要业务判断、架构取舍、用户体验判断，或者会制造大量 review backlog。</p><span class="pill p-amber">needs human gate</span></div>
+    <div class="card risk high"><h3>什么时候不要全自动</h3><p>线上写操作、资金、权限、隐私、不可逆变更，或停止条件只是模型自评。</p><span class="pill p-red">do not autopilot</span></div>
+  </section>
+
+  <section class="card section">
+    <h2>一个靠谱 loop 至少要有这些部件</h2>
+    <table class="matrix">
+      <thead><tr><th>部件</th><th>作用</th><th>缺失后的典型坏味道</th></tr></thead>
+      <tbody>
+        <tr><td>触发器</td><td>cron、事件、webhook、队列</td><td>靠人想起来跑；谈不上 loop</td></tr>
+        <tr><td>外置状态</td><td>记录已做、待做、失败、证据</td><td>每轮从聊天里猜历史</td></tr>
+        <tr><td>隔离环境</td><td>worktree / sandbox / 权限边界</td><td>并发互踩、误写真实系统</td></tr>
+        <tr><td>技能 / harness</td><td>固化项目知识、命令、约束</td><td>agent 每轮重学项目，空白处乱补</td></tr>
+        <tr><td>验证器</td><td>测试、rubric、judge、human review</td><td>“完成”只是生成者自己的说法</td></tr>
+        <tr><td>预算与刹车</td><td>token、时间、重试、并发、停止条件</td><td>自动烧钱，自动扩大错误</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card section">
+    <h2>几篇文章分别补了什么</h2>
+    <div class="tabs" role="tablist">
+      <button class="active" data-tab="addy">Addy</button><button data-tab="lc">LangChain</button><button data-tab="reg">The Register</button><button data-tab="jeena">Jeena</button><button data-tab="typical">Typical Set</button>
+    </div>
+    <div id="addy" class="tab active"><p><b>最适合做工程拆解。</b>它把 loop 的基础设施讲清楚，但结尾也明确提醒：loop 改变工作，不删除工程师。</p></div>
+    <div id="lc" class="tab"><p><b>最适合做分层判断。</b>很多人只做了 agent loop，却以为自己在做 event-driven 或 hill-climbing loop。越往外层，复利越强，治理成本也越高。</p></div>
+    <div id="reg" class="tab"><p><b>最适合降温。</b>它提醒 loop 叙事也服务 token 消费。供应商喜欢“自动跑更久”，工程团队需要预算、审计和人审。</p></div>
+    <div id="jeena" class="tab"><p><b>最适合反证。</b>planner → executor → critic → repair 看起来完整，但 critic 持续打回而 executor 无法改善时，loop 只会增加成本和延迟。</p></div>
+    <div id="typical" class="tab"><p><b>最适合看组织瓶颈。</b>代码变便宜以后，spec、上下文、团队共识会变成新瓶颈。没有外置上下文，loop 只是更快地做错题。</p></div>
+  </section>
+
+  <section class="grid grid2 section">
+    <div class="card"><h2>第一版建议</h2><ol class="check"><li>从 CI 归因、文档链接修复、issue triage 这类低风险闭环开始。</li><li>停止条件必须是机器可检查的信号。</li><li>每轮写外置状态：尝试、证据、失败原因、下一步。</li><li>maker 和 checker 分离，别让生成者自己宣布成功。</li><li>先产出建议或 PR 草稿，不自动 merge。</li></ol></div>
+    <div class="card"><h2>上线前追问</h2><ol class="check"><li>谁触发？读什么？能写哪里？</li><li>失败后怎么避免重复同错？</li><li>token、时间、并发、重试有没有硬上限？</li><li>人在哪些点必须介入？能看到哪些证据？</li><li>写坏了怎么回滚？模型换了还能跑吗？</li></ol></div>
+  </section>
+
+  <p class="footer">Generated in scratch workspace: /Users/caoziyu/data/scratch-reports/20260625-1707-loop-engineering-research · Source truth: report.md + source-ledger.md</p>
+</div>
+<script>
+for (const btn of document.querySelectorAll('.tabs button')) {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  });
+}
+</script>
+</body>
+</html>
