@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgentOS subagent reducer PR 评审</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --paper: #ffffff;
+      --ink: #18202a;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #edf1f6;
+      --good: #16794c;
+      --good-bg: #e8f5ee;
+      --warn: #98690c;
+      --warn-bg: #fff4d8;
+      --bad: #b42318;
+      --bad-bg: #ffe7e3;
+      --info: #2457a6;
+      --info-bg: #e8f0ff;
+      --shadow: 0 10px 26px rgba(17, 24, 39, 0.08);
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.58;
+      letter-spacing: 0;
+    }
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 28px 24px 24px;
+      border-bottom: 4px solid #5b8def;
+    }
+    .wrap { max-width: 1160px; margin: 0 auto; }
+    h1 { margin: 0 0 10px; font-size: 30px; line-height: 1.2; font-weight: 760; }
+    .subtitle { max-width: 920px; margin: 0; color: #d5dce8; font-size: 15px; }
+    main { padding: 22px 24px 36px; }
+    section { margin: 18px 0; }
+    h2 { margin: 0 0 12px; font-size: 20px; line-height: 1.3; }
+    h3 { margin: 0 0 8px; font-size: 16px; }
+    p { margin: 8px 0; }
+    .grid { display: grid; gap: 14px; }
+    .grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px;
+    }
+    .flat {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+    }
+    .judgment {
+      border-left: 5px solid var(--good);
+      background: linear-gradient(90deg, var(--good-bg), #fff 55%);
+    }
+    .risk {
+      border-left: 5px solid var(--warn);
+      background: linear-gradient(90deg, var(--warn-bg), #fff 62%);
+    }
+    .bad {
+      border-left: 5px solid var(--bad);
+      background: linear-gradient(90deg, var(--bad-bg), #fff 62%);
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #344054;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+    .chip.good { color: var(--good); background: var(--good-bg); border-color: #b9ddca; }
+    .chip.warn { color: var(--warn); background: var(--warn-bg); border-color: #efd79e; }
+    .chip.bad { color: var(--bad); background: var(--bad-bg); border-color: #f5b6af; }
+    .chip.info { color: var(--info); background: var(--info-bg); border-color: #bfd0f7; }
+    code, .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 0.94em;
+    }
+    code { background: #eef2f7; padding: 1px 5px; border-radius: 5px; }
+    .kpi { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+    .kpi strong { font-size: 28px; line-height: 1; }
+    .kpi span { color: var(--muted); font-size: 13px; text-align: right; }
+    table { width: 100%; border-collapse: collapse; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+    th, td { padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    th { background: #eef2f7; font-size: 13px; color: #344054; }
+    tr:last-child td { border-bottom: 0; }
+    ul { margin: 8px 0 0 20px; padding: 0; }
+    li { margin: 5px 0; }
+    .flow {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr auto 1fr;
+      align-items: stretch;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .step {
+      padding: 13px;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: var(--radius);
+      min-height: 118px;
+    }
+    .arrow { align-self: center; color: var(--muted); font-size: 22px; }
+    .quote {
+      border-left: 4px solid #9aa7bc;
+      padding-left: 12px;
+      color: #344054;
+      background: #f8fafc;
+    }
+    .controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 14px; }
+    button {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      border-radius: 7px;
+      padding: 7px 10px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button[aria-pressed="true"] { border-color: #5b8def; background: var(--info-bg); color: var(--info); }
+    .finding[data-hidden="true"] { display: none; }
+    details { border: 1px solid var(--line); border-radius: var(--radius); background: #fff; padding: 10px 12px; }
+    summary { cursor: pointer; font-weight: 650; }
+    .small { color: var(--muted); font-size: 13px; }
+    .source { color: var(--muted); font-size: 12px; margin-top: 8px; }
+    footer { color: var(--muted); font-size: 12px; padding: 20px 24px 32px; }
+    @media (max-width: 840px) {
+      h1 { font-size: 24px; }
+      .grid.cols-3, .grid.cols-2 { grid-template-columns: 1fr; }
+      .flow { grid-template-columns: 1fr; }
+      .arrow { display: none; }
+      th, td { display: block; width: 100%; }
+      th { border-bottom: 0; }
+      td { padding-top: 6px; }
+      tr { display: block; border-bottom: 1px solid var(--line); }
+      tr:last-child { border-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>AgentOS subagent reducer PR 评审</h1>
+      <p class="subtitle">评审对象是分支 <code>fix/subagent-runs-concurrent-reducer</code> 上的单个提交 <code>a5457440</code>。这页只回答一件事：这个改动有没有用，解决了什么，证据够不够。</p>
+      <div class="meta">
+        <span class="chip good">当前判断：有用，但合并前应补测试</span>
+        <span class="chip info">范围：1 个提交，1 个文件</span>
+        <span class="chip warn">MR 元数据未通过 Codeup API 验到</span>
+        <span class="chip">生成时间：2026-06-29 15:11</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel judgment">
+      <h2>这个 PR 到底有没有用</h2>
+      <p><strong>有用，但它现在更像一个合理的运行时修补，不是完整收口。</strong></p>
+      <p>它解决的是 LangGraph 同一步里多个动态 subagent 同时返回 <code>subagent_runs</code> 更新时的冲突。改法方向对：给 <code>subagent_runs</code> 加 <code>operator.add</code> reducer，并且每个 subagent 只返回自己的新增 entry，避免多个并发结果互相覆盖或触发 <code>InvalidUpdateError</code>。</p>
+      <p>问题也很直接：没有新增回归测试，也没有在这次评审里跑出一个真实并发复现。所以我的判断不是“已经证明没问题”，而是“从代码和 LangChain schema 合并机制看，这个修补大概率打在正确位置”。</p>
+    </section>
+
+    <section class="grid cols-3">
+      <div class="panel"><div class="kpi"><strong>1</strong><span>提交数</span></div><p class="small">分支相对刷新后的 <code>origin/dev</code> 是 <code>0 behind / 1 ahead</code>。</p></div>
+      <div class="panel"><div class="kpi"><strong>1</strong><span>文件改动</span></div><p class="small">只改 <code>src/star_core/dynamic_subagents.py</code>。</p></div>
+      <div class="panel"><div class="kpi"><strong>0</strong><span>测试文件改动</span></div><p class="small">这是合并前最需要补的缺口。</p></div>
+    </section>
+
+    <section class="panel">
+      <h2>它想解决什么</h2>
+      <div class="flow" aria-label="问题到修复的流程">
+        <div class="step">
+          <h3>触发场景</h3>
+          <p>一个编排步骤里同时发出多个 <code>run_dynamic_subagent</code> 调用。</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <h3>原来的冲突</h3>
+          <p>每个 child 都返回 <code>Command(update={"subagent_runs": ...})</code>。同一步多个值写到同一个 state key，LangGraph 会拒绝。</p>
+        </div>
+        <div class="arrow">→</div>
+        <div class="step">
+          <h3>这次改法</h3>
+          <p>把 <code>subagent_runs</code> 变成可相加的 list reducer，每个 child 只交自己的新增 entry。</p>
+        </div>
+      </div>
+      <p class="source">证据：commit message、<code>DynamicSubagentsState.subagent_runs</code> 的 reducer 注解、<code>_append_registry_entry</code> 的返回值变化。</p>
+    </section>
+
+    <section class="grid cols-2">
+      <div class="panel">
+        <h2>效果如何</h2>
+        <p><strong>静态看，效果是对的。</strong> reducer 让同一步的多个 list delta 可以合并；helper 改成只返回 <code>[entry]</code>，避免 reducer 再把“完整旧列表加新 entry”重复拼进去。</p>
+        <p>还有一个容易忽略的点：AgentOS 主 runtime 传入的是 <code>AgentOSRuntimeState</code>，不是这个 middleware 自己的 <code>DynamicSubagentsState</code>。我查了本机 LangChain 的 <code>create_agent</code>，它会把 middleware 的 <code>state_schema</code> 和 base schema 合并后再建图，所以这个 reducer 注解应该能进入最终图状态。</p>
+      </div>
+      <div class="panel risk">
+        <h2>还不能说已经稳了</h2>
+        <p>这次没有新增测试，尤其缺少“同一步两个动态 subagent 同时完成，最终 <code>subagent_runs</code> 有两个 entry”的图级测试。</p>
+        <p>也没有看到真实错误栈复现和修复后同场景通过的记录。commit message 说得很清楚，但评审不能把 commit message 当成运行证据。</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>改动点和风险</h2>
+      <div class="controls" aria-label="筛选评审点">
+        <button type="button" data-filter="all" aria-pressed="true">全部</button>
+        <button type="button" data-filter="useful">有效点</button>
+        <button type="button" data-filter="weak">薄弱点</button>
+        <button type="button" data-filter="next">建议</button>
+      </div>
+      <table>
+        <thead><tr><th>类型</th><th>判断</th><th>证据</th><th>风险</th></tr></thead>
+        <tbody>
+          <tr class="finding" data-kind="useful"><td><span class="chip good">有效点</span></td><td>给 <code>subagent_runs</code> 加 <code>operator.add</code> reducer，方向正确。</td><td>分支源码中 <code>DynamicSubagentsState</code> 把字段改成 <code>Annotated[list[DynamicSubagentRun], operator.add]</code>。</td><td>依赖 LangChain 对 middleware state schema 的合并行为；本机源码已验证，但仍应有测试保护。</td></tr>
+          <tr class="finding" data-kind="useful"><td><span class="chip good">有效点</span></td><td><code>_append_registry_entry</code> 只返回新增 entry，避免 reducer 下重复计数。</td><td>helper 从读取旧 state 并拼完整列表，改成直接返回 <code>[entry]</code>。</td><td>如果未来又有人改回“返回全量列表”，并发场景会重复写 entry。</td></tr>
+          <tr class="finding" data-kind="weak"><td><span class="chip bad">薄弱点</span></td><td>没有新增测试。</td><td><code>git diff --name-only ... -- tests</code> 为空。</td><td>最关键的并发 fan-in 行为没有被锁住，后续很容易被无意改坏。</td></tr>
+          <tr class="finding" data-kind="weak"><td><span class="chip warn">薄弱点</span></td><td>Codeup MR 元数据没有验证到。</td><td>官方 <code>mr list</code> endpoint 返回 500；分支和提交是通过 Git 验证的。</td><td>无法从 MR 描述、讨论、CI 状态里拿到更多上下文。</td></tr>
+          <tr class="finding" data-kind="next"><td><span class="chip info">建议</span></td><td>合并前补一个图级并发回归测试。</td><td>现有测试只覆盖单个 <code>arun_dynamic_subagent</code> 返回 shape 和失败路径。</td><td>测试要验证 reducer 后的最终 state，不只是 helper 返回 <code>[entry]</code>。</td></tr>
+          <tr class="finding" data-kind="next"><td><span class="chip info">建议</span></td><td>把“返回 delta，不能返回全量列表”写进测试名或断言。</td><td>这正是 reducer 修复里最容易被误改的点。</td><td>只靠注释不够，注释不能阻止回归。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="grid cols-2">
+      <div class="panel">
+        <h2>合并前建议补什么</h2>
+        <ul>
+          <li>补一个最小并发测试：同一步让两个 <code>run_dynamic_subagent</code> tool call 都返回 <code>Command</code>，最终 state 里应该有两个 <code>subagent_runs</code> entry。</li>
+          <li>测试成功和失败各至少覆盖一个路径，确认 <code>completed</code> 和 <code>failed</code> entry 都能作为 delta 合并。</li>
+          <li>测试里明确断言 helper 不读取旧 state、不返回全量列表，避免未来出现重复计数。</li>
+          <li>如果 CI 成本允许，跑 <code>uv run pytest tests/unit/star_core/test_dynamic_subagents.py -v</code>，再加一个面向 graph execution 的窄测试。</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2>我这次没有证明什么</h2>
+        <ul>
+          <li>没有证明线上真实 case 已恢复。</li>
+          <li>没有证明所有动态 subagent 编排都安全。</li>
+          <li>没有通过 Codeup API 拿到 MR 评论或 CI 状态。</li>
+          <li>没有跑 PR 分支 pytest。当前判断来自 diff、分支源码和本机 LangChain schema 合并逻辑。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>可以怎么跟作者说</h2>
+      <div class="quote">
+        <p>这个改动方向是对的，确实是在处理动态 subagent 并发 fan-in 时 <code>subagent_runs</code> 多写同一个 key 的问题。reducer 加在 middleware state 上也不是空改，因为 LangChain 会合并 middleware schema 和 base state schema。</p>
+        <p>但现在缺一个并发回归测试。建议补一个同一步两个 <code>run_dynamic_subagent</code> 的图级测试，断言最终 <code>subagent_runs</code> 有两个 entry，并且 helper 只返回 delta。补完这个测试后，这个 PR 才算比较稳。</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>证据和限制</h2>
+      <details open>
+        <summary>已读证据</summary>
+        <ul>
+          <li>Codeup repo resolve 成功，repo id 为 <code>6660696</code>。</li>
+          <li>远端分支 <code>fix/subagent-runs-concurrent-reducer</code> 指向 <code>a5457440</code>。</li>
+          <li>刷新后的比较结果为 <code>0 behind / 1 ahead</code>。</li>
+          <li>diff 只有 <code>src/star_core/dynamic_subagents.py</code>，统计为 <code>+11/-8</code>。</li>
+          <li>本机 LangChain <code>create_agent</code> 源码显示 middleware state schema 会和 base state schema 合并。</li>
+          <li><code>git diff --check</code> 无输出，未发现 whitespace 问题。</li>
+        </ul>
+      </details>
+      <details>
+        <summary>没有放进公开页的内容</summary>
+        <p>没有放原始 Codeup API 响应、request id、凭据、日志、环境变量、完整 diff。公开页只保留评审需要的代码事实和判断。本地 <code>source-ledger.md</code> 保留更完整的证据清单。</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>这是临时 HTML 评审页，不是代码或长期文档的来源。后续判断应回到 Git diff、测试结果和本地 source ledger。</p>
+  </footer>
+
+  <script>
+    const buttons = Array.from(document.querySelectorAll('button[data-filter]'));
+    const rows = Array.from(document.querySelectorAll('.finding'));
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+        buttons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
+        rows.forEach((row) => {
+          const show = filter === 'all' || row.dataset.kind === filter;
+          row.dataset.hidden = String(!show);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
