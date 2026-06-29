@@ -5,17 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Seedance 2.0 Mini Overseas Dev MCP Review</title>
   <style>
-    :root { color-scheme: light; --ink:#172026; --muted:#5b6770; --line:#d8dee4; --bg:#f7f8fa; --panel:#ffffff; --ok:#126b3a; --warn:#9a5b00; --bad:#a7352a; --chip:#eef2f6; }
+    :root {
+      color-scheme: light;
+      --ink: #172026;
+      --muted: #5b6770;
+      --line: #d8dee4;
+      --bg: #f7f8fa;
+      --panel: #ffffff;
+      --ok: #126b3a;
+      --warn: #9a5b00;
+      --bad: #a7352a;
+      --chip: #eef2f6;
+      --blue: #174ea6;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.55; }
-    header { background: #16212b; color: white; padding: 28px 32px; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+    header { background: #17202a; color: white; padding: 28px 32px; }
     header h1 { margin: 0 0 8px; font-size: 28px; line-height: 1.2; letter-spacing: 0; }
-    header p { margin: 0; color: #d5dde5; max-width: 980px; }
-    main { max-width: 1120px; margin: 0 auto; padding: 24px; }
+    header p { margin: 0; color: #d5dde5; max-width: 1000px; }
+    main { max-width: 1160px; margin: 0 auto; padding: 24px; }
     section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px; margin: 0 0 18px; }
     h2 { margin: 0 0 12px; font-size: 20px; letter-spacing: 0; }
-    h3 { margin: 18px 0 8px; font-size: 16px; letter-spacing: 0; }
+    h3 { margin: 0 0 10px; font-size: 17px; letter-spacing: 0; }
     p { margin: 8px 0; }
+    a { color: var(--blue); overflow-wrap: anywhere; }
+    code { background: #eef2f6; padding: 1px 5px; border-radius: 4px; font-size: 0.95em; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; }
+    th { background: #f2f4f7; font-weight: 700; }
     .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
     .metric { border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: #fbfcfd; }
     .metric strong { display: block; font-size: 24px; margin-bottom: 4px; }
@@ -24,74 +47,94 @@
     .ok { color: var(--ok); }
     .warn { color: var(--warn); }
     .bad { color: var(--bad); }
-    .callout { border-left: 4px solid var(--warn); background: #fff8eb; padding: 12px 14px; border-radius: 6px; }
-    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px; }
-    th, td { border-bottom: 1px solid var(--line); padding: 10px 8px; text-align: left; vertical-align: top; }
-    th { background: #f2f4f7; font-weight: 700; }
-    code { background: #eef2f6; padding: 1px 5px; border-radius: 4px; font-size: 0.95em; }
-    ul { margin: 8px 0 0 20px; padding: 0; }
-    .message { white-space: pre-wrap; background: #f8fafc; border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+    .callout { border-left: 4px solid var(--ok); background: #f1faf4; padding: 12px 14px; border-radius: 6px; }
+    .warnbox { border-left: 4px solid var(--warn); background: #fff8eb; padding: 12px 14px; border-radius: 6px; }
+    .case-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .case-card { border: 1px solid var(--line); border-radius: 8px; padding: 16px; background: #fbfcfd; }
+    .case-card video { width: 100%; aspect-ratio: 16 / 9; background: #0f1419; border: 1px solid var(--line); border-radius: 6px; margin: 10px 0 8px; display: block; }
+    .kv { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 6px 10px; font-size: 14px; margin-top: 10px; }
+    .kv div:nth-child(odd) { color: var(--muted); }
     footer { color: var(--muted); font-size: 13px; padding: 8px 2px 24px; }
-    @media (max-width: 760px) { header { padding: 22px 18px; } main { padding: 16px; } .grid { grid-template-columns: 1fr; } table { font-size: 13px; } th, td { padding: 8px 6px; } }
+    @media (max-width: 860px) {
+      header { padding: 22px 18px; }
+      main { padding: 16px; }
+      .grid, .case-grid { grid-template-columns: 1fr; }
+      .kv { grid-template-columns: 1fr; }
+      .kv div:nth-child(odd) { font-weight: 650; }
+      table { font-size: 13px; }
+      th, td { padding: 8px 6px; }
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Seedance 2.0 mini 海外 dev MCP 走查</h1>
-    <p>2026-06-26 的 live MCP 验证摘要。这个页面是审阅层，不是原始日志；公开分享版已移除认证、配置、topic、service config 和原始协议输出。</p>
+    <h1>Seedance 2.0 mini 海外 dev MCP 已调通 case</h1>
+    <p>更新时间：2026-06-29。这个页面只记录两个已经完成闭环的 case：纯文本生视频、图生视频。它是公开审阅页，不包含认证信息、原始日志、内部 service config 或私有 topic。</p>
   </header>
   <main>
     <section>
-      <h2>现在能确认什么</h2>
+      <h2>当前结论</h2>
       <div class="grid">
-        <div class="metric"><strong class="ok">6/6</strong><span>视频生成/编辑 MCP 工具已看到 <code>video_model_2</code></span></div>
-        <div class="metric"><strong class="ok">6/6</strong><span>mini 请求被 MCP submit 接受</span></div>
-        <div class="metric"><strong class="bad">0/6</strong><span>mini 任务产出视频 artifact</span></div>
+        <div class="metric"><strong class="ok">2/2</strong><span>本页覆盖的 case 已返回 verified 视频产物</span></div>
+        <div class="metric"><strong class="ok">video_model_2</strong><span>公开模型名可走 Seedance 2.0 mini 路由</span></div>
+        <div class="metric"><strong class="ok">is_pulsar=0</strong><span>已验证 Kafka 任务配置可被调度接受</span></div>
       </div>
-      <p class="callout">当前判断：网关侧 discovery、schema、submit 路径已经通了；mini 下游执行还没有被证明跑通。默认 <code>sota</code> 视频路由可以完成，所以这不像是整个 MCP 或视频队列不可用。</p>
+      <p class="callout">硬结论：这两个最小闭环已经跑通。之前的 Error 2001 不应再被当成 Seedance mini 路由失败证据；那次是输入图片 key 对应的对象不存在，下载阶段失败。</p>
     </section>
 
     <section>
-      <h2>工具逐项结果</h2>
-      <table aria-label="Seedance mini MCP tool validation matrix">
-        <thead><tr><th>工具</th><th>公开模型</th><th>提交结果</th><th>后续状态</th><th>判断</th></tr></thead>
+      <h2>两个已调通 case</h2>
+      <div class="case-grid">
+        <article class="case-card">
+          <h3>Case 1：纯文本生视频</h3>
+          <span class="badge ok">succeeded / artifact verified</span>
+          <video controls preload="metadata" src="https://media.vivago.ai/107c8a74-8bd5-483d-b172-8f5579f35ed0.mp4"></video>
+          <p>输出视频：<a href="https://media.vivago.ai/107c8a74-8bd5-483d-b172-8f5579f35ed0.mp4">https://media.vivago.ai/107c8a74-8bd5-483d-b172-8f5579f35ed0.mp4</a></p>
+          <div class="kv">
+            <div>工具</div><div><code>text_to_video_generation</code></div>
+            <div>公开模型</div><div><code>video_model_2</code></div>
+            <div>task handle</div><div><code>video_generation_model_2|86308e26-c30d-4cba-99af-5d92cf0c2258</code></div>
+            <div>sub task id</div><div><code>dccaf8b2-37e8-4e2b-afa2-66d12a982015</code></div>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <h3>Case 2：图生视频</h3>
+          <span class="badge ok">succeeded / artifact verified</span>
+          <video controls preload="metadata" src="https://media.vivago.ai/a77a1d8a-6170-47d1-8312-263fc1cbea54.mp4"></video>
+          <p>输出视频：<a href="https://media.vivago.ai/a77a1d8a-6170-47d1-8312-263fc1cbea54.mp4">https://media.vivago.ai/a77a1d8a-6170-47d1-8312-263fc1cbea54.mp4</a></p>
+          <div class="kv">
+            <div>工具</div><div><code>reference_image_to_video_generation</code></div>
+            <div>公开模型</div><div><code>video_model_2</code></div>
+            <div>输入图片 key</div><div><code>p_e0fe865b-2f90-4282-9bd1-0c8499face35</code></div>
+            <div>图片生成任务</div><div><code>image_generation_default|7317e1c8-d153-4b25-9bd5-169c347c73dc</code></div>
+            <div>视频 task handle</div><div><code>video_generation_model_2|5af16fde-b71b-48e2-973a-875a487778d3</code></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>调度和配置判断</h2>
+      <table aria-label="Seedance mini validation summary">
+        <thead><tr><th>检查点</th><th>当前事实</th><th>判断</th></tr></thead>
         <tbody>
-          <tr><td><code>text_to_video_generation</code></td><td><span class="badge ok">sota + video_model_2</span></td><td>accepted</td><td><span class="bad">waiting, 0%, no artifact</span></td><td>submit 通，生成未证明</td></tr>
-          <tr><td><code>reference_image_to_video_generation</code></td><td><span class="badge ok">sota + video_model_2</span></td><td>accepted</td><td><span class="bad">waiting, 0%, no artifact</span></td><td>submit 通，生成未证明</td></tr>
-          <tr><td><code>first_frame_to_video_generation</code></td><td><span class="badge ok">sota + video_model_2</span></td><td>accepted</td><td><span class="bad">waiting, 0%, no artifact</span></td><td>submit 通，生成未证明；做过重复确认</td></tr>
-          <tr><td><code>first_last_frame_to_video_generation</code></td><td><span class="badge ok">sota + video_model_2</span></td><td>accepted</td><td><span class="bad">waiting, 0%, no artifact</span></td><td>submit 通，生成未证明；同图做首尾帧，只验证路由</td></tr>
-          <tr><td><code>multimodal_reference_to_video_generation</code></td><td><span class="badge ok">sota + video_model_2</span></td><td>accepted</td><td><span class="bad">waiting, 0%, no artifact</span></td><td>submit 通，生成未证明</td></tr>
-          <tr><td><code>video_editing</code></td><td><span class="badge ok">sota + video_model_2</span></td><td>accepted with real video input</td><td><span class="bad">waiting, 0%, no artifact</span></td><td>真实 video_key 下 submit 通，编辑结果未证明</td></tr>
+          <tr><td>网关公开模型</td><td><code>video_model_2</code> 可被 MCP 工具接受并映射到 mini 后端昵称。</td><td><span class="ok">通过</span></td></tr>
+          <tr><td>ACRC/task_configs</td><td>按 Kafka 版本注册，<code>is_pulsar=0</code> 后调度可接受请求。</td><td><span class="ok">通过</span></td></tr>
+          <tr><td>pipeline 配置</td><td>这两个 case 没有看到还需要额外 pipeline_config 的证据。</td><td><span class="ok">暂不需要</span></td></tr>
+          <tr><td>图生视频输入</td><td>必须传真实存在的图片 key；不存在的上传 key 会在下游下载阶段失败。</td><td><span class="warn">注意输入有效性</span></td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>对照组很关键</h2>
-      <p>为了排除“整个视频环境都没跑起来”的可能，我额外用默认 <code>sota</code> 路由跑了一次文生视频。这个任务完成了，并返回 verified video artifact。</p>
-      <p>这个对照不能直接证明 mini backend 有问题，但它说明：MCP bridge、默认视频 submit、等待结果、artifact 回传这几个动作在海外 dev 是能工作的。mini 全部卡在 waiting，更像是 mini backend 的下游消费、调度或激活状态还没完全闭合。</p>
+      <h2>纠偏记录</h2>
+      <p>之前失败的图片 key <code>p_f9071677-0454-49a7-a0fb-747312976dcf</code> 实际对象不存在，访问对象路径返回 NoSuchKey。因此那次 Error 2001 的核心原因是图片资源下载失败，不是 Seedance mini 的 MCP 路由没有打通。</p>
+      <p>后续用 MCP 文生图先生成有效 key <code>p_e0fe865b-2f90-4282-9bd1-0c8499face35</code>，再走图生视频，任务成功并返回上面的 mp4。</p>
+      <p class="warnbox">范围边界：本页只更新已经调通的两个 case。其他 Seedance MCP 视频工具没有在这个页面里重新声明为已跑通。</p>
     </section>
 
-    <section>
-      <h2>公开面没有看到私有路由泄漏</h2>
-      <p>逐个检查 <code>get_media_model_schema</code> 后，没有在公开 schema/examples 里看到私有 backend route、服务配置、topic、provider 名称等敏感实现细节。页面没有复刻这些检查字符串，避免公开页面本身传播内部命名。</p>
-      <p class="muted">备注：公开 schema 里会看到 public backend nickname，这是当前接口设计的一部分，不等同于私有服务路由。</p>
-    </section>
-
-    <section>
-      <h2>飞书聊天框版本</h2>
-      <div class="message">海外 dev 的 Seedance 2.0 mini MCP 进展我已经走查完了，先同步一个比较实在的状态：
-
-好的部分：网关侧已经生效。6 个视频生成/编辑工具都能在 MCP discovery 里看到 `video_model_2`，schema 也没有把私有路由、service config、topic 这类实现细节暴露出去。
-
-我也逐个做了真实提交，不是只看 schema。所有 mini 请求都被 MCP 接受并进入新的视频 backend，说明 agent-gateway 这层的公开模型名、参数、submit 路由基本是通的。
-
-但现在还不能说 mini 已经完整可用。所有 mini 任务在后续查询里都停在 `waiting`、0%，没有产出 video artifact。作为对照，我用默认 `sota` 路由跑了一次同样的文生视频，任务是能完成的，并且拿到了视频文件；所以目前更像是 mini 这个 backend 下游还没有真正被消费，或者调度/worker 侧还有开关没完全打开，不像是 MCP 或整个视频队列挂了。
-
-一句话：海外 dev 现在已经完成 MCP 暴露和提交验收，mini 的下游执行还没被证明跑通。建议先别对外说“Seedance 2.0 mini 已可生成”，更准确的说法是“海外 dev 已接入并可提交，等待下游路由/worker 完成激活验证”。</div>
-    </section>
-
-    <footer>Source truth: local source-ledger.md in the scratch workspace. No remote dependencies, no raw logs, no credentials.</footer>
+    <footer>Source truth: local source-ledger.md in the scratch workspace. Remote dependencies are limited to the two requested public media.vivago.ai video outputs.</footer>
   </main>
 </body>
 </html>
