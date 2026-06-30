@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>韩红“走个面”事件时间线</title>
+  <style>
+    :root{
+      --bg:#f5efe5;
+      --ink:#17130f;
+      --muted:#75695c;
+      --paper:#fffaf0;
+      --paper2:#f0e2cd;
+      --line:rgba(23,19,15,.16);
+      --red:#b8322a;
+      --orange:#db7c26;
+      --blue:#243e63;
+      --green:#596d4b;
+      --black:#15120f;
+      --shadow:0 18px 54px rgba(58,40,18,.16);
+      --radius:28px;
+      --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+      --serif:"Songti SC","STSong","Noto Serif CJK SC",serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 18% 6%, rgba(219,124,38,.20), transparent 30rem),
+        radial-gradient(circle at 82% 2%, rgba(36,62,99,.16), transparent 28rem),
+        linear-gradient(180deg,#fbf5ea 0%,#efe0cc 58%,#e7d3ba 100%);
+    }
+    a{color:inherit}
+    .wrap{width:min(1160px,calc(100vw - 32px));margin:0 auto;padding:34px 0 58px}
+    .hero{
+      position:relative;
+      overflow:hidden;
+      border-radius:38px;
+      padding:clamp(26px,5vw,64px);
+      background:
+        linear-gradient(135deg,rgba(255,250,240,.98),rgba(242,225,199,.94)),
+        repeating-linear-gradient(90deg,rgba(23,19,15,.04) 0 1px,transparent 1px 18px);
+      box-shadow:var(--shadow);
+      min-height:560px;
+      isolation:isolate;
+    }
+    .hero:before{content:"";position:absolute;right:-150px;top:-150px;width:430px;height:430px;border-radius:50%;background:rgba(184,50,42,.14);z-index:-1}
+    .hero:after{content:"";position:absolute;left:-260px;bottom:-340px;width:640px;height:640px;border-radius:50%;background:rgba(36,62,99,.10);z-index:-1}
+    .topbar{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:58px;color:var(--muted);font-size:14px}
+    .badge{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.48);padding:9px 13px;font-weight:900;color:#4e4338}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--red);box-shadow:16px 0 0 var(--orange),32px 0 0 var(--blue)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:clamp(24px,5vw,72px);align-items:center}
+    h1{margin:0;font-size:clamp(42px,7vw,84px);line-height:.96;letter-spacing:-.07em;text-wrap:balance}
+    h1 .small{display:block;font-size:.33em;letter-spacing:.06em;color:var(--muted);margin-bottom:18px}
+    .mark{position:relative;display:inline-block;color:var(--ink)}
+    .mark:after{content:"";position:absolute;left:-3%;right:-3%;bottom:.03em;height:.24em;background:rgba(219,124,38,.42);z-index:-1;border-radius:999px;transform:rotate(-1.5deg)}
+    .lead{margin:28px 0 0;max-width:730px;font-size:clamp(18px,2vw,23px);line-height:1.75;color:#3d342b}
+    .source-links{margin-top:24px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;max-width:760px}
+    .source-label{font-size:13px;font-weight:1000;letter-spacing:.10em;color:#5b4f42}
+    .source-link{display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:9px 13px;border-radius:999px;text-decoration:none;border:1px solid var(--line);background:rgba(255,255,255,.54);font-size:14px;font-weight:850;color:#261f18;box-shadow:0 8px 22px rgba(58,40,18,.08)}
+    .source-link:hover{background:#fff;transform:translateY(-1px)}
+    .source-link:before{content:"↗";color:var(--red);font-weight:1000}
+    .statement-card{
+      padding:28px;border-radius:30px;background:#181512;color:#fff7ec;box-shadow:0 20px 48px rgba(23,19,15,.22);position:relative;overflow:hidden;min-height:420px
+    }
+    .statement-card:before{content:"道歉声明";position:absolute;right:-38px;top:80px;transform:rotate(90deg);font-size:72px;font-weight:1000;color:rgba(255,255,255,.08);letter-spacing:-.08em}
+    .statement-card .label{font-size:13px;letter-spacing:.18em;color:#e0b884;font-weight:900}
+    .statement-card .quote{margin:28px 0 24px;font-family:var(--serif);font-size:30px;line-height:1.35;letter-spacing:-.04em}
+    .statement-card .meta{border-top:1px dashed rgba(255,250,240,.28);padding-top:18px;display:grid;gap:12px;color:rgba(255,250,240,.74);font-size:15px;line-height:1.6}
+    .statement-card b{color:#fff7ec}
+    .section{margin-top:28px;background:rgba(255,250,240,.95);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+    .inner{padding:clamp(26px,4vw,48px)}
+    h2{margin:0 0 12px;font-size:clamp(28px,4vw,48px);line-height:1.08;letter-spacing:-.06em}
+    .sub{margin:0;max-width:850px;color:var(--muted);font-size:17px;line-height:1.75}
+    .timeline{margin-top:34px;display:grid;gap:18px}
+    .tl{display:grid;grid-template-columns:160px 1fr;gap:22px;padding:22px;border-radius:22px;border:1px solid var(--line);background:rgba(255,255,255,.42)}
+    .time{font-weight:1000;font-size:18px;color:var(--blue);letter-spacing:-.03em}
+    .tl h3{margin:0 0 8px;font-size:22px;letter-spacing:-.03em}
+    .tl p{margin:0;color:#463b30;line-height:1.72;font-size:16px}
+    .confidence{display:inline-block;margin-left:8px;padding:3px 8px;border-radius:999px;background:#efe1cc;color:#665744;font-size:12px;font-weight:800;vertical-align:middle}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px}
+    .card{border-radius:24px;padding:23px;background:#17130f;color:#fff7ec;min-height:230px;position:relative;overflow:hidden}
+    .card:after{content:"";position:absolute;right:-44px;bottom:-44px;width:124px;height:124px;border-radius:50%;background:rgba(219,124,38,.22)}
+    .card:nth-child(2):after{background:rgba(184,50,42,.24)}
+    .card:nth-child(3):after{background:rgba(36,62,99,.30)}
+    .card b{display:block;color:#e6b267;letter-spacing:.10em;font-size:14px;margin-bottom:16px}
+    .card strong{display:block;font-size:26px;line-height:1.15;letter-spacing:-.05em;margin-bottom:14px}
+    .card p{margin:0;color:rgba(255,247,236,.75);line-height:1.65;font-size:15px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+    .panel{padding:24px;border-radius:24px;border:1px solid var(--line);background:rgba(255,255,255,.42)}
+    .panel h3{margin:0 0 14px;font-size:23px;letter-spacing:-.04em}
+    .panel ul{margin:0;padding-left:1.2em;color:#463b30;line-height:1.8}
+    .panel li{margin:7px 0}
+    .quote-strip{margin-top:28px;border-radius:28px;background:linear-gradient(135deg,#263f63,#172235);color:#fff7ec;padding:32px;display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;align-items:center}
+    .quote-strip h2{color:#fff7ec}
+    .quote-strip p{margin:0;color:rgba(255,247,236,.82);font-size:18px;line-height:1.75}
+    .fact-table{width:100%;border-collapse:collapse;margin-top:28px;overflow:hidden;border-radius:20px;background:rgba(255,255,255,.36)}
+    .fact-table th,.fact-table td{padding:16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;line-height:1.6}
+    .fact-table th{font-size:14px;color:#5b4f42;background:rgba(240,226,205,.72)}
+    .fact-table tr:last-child td{border-bottom:none}
+    .final{margin-top:28px;border-radius:36px;color:#fff7ec;background:radial-gradient(circle at 12% 20%,rgba(219,124,38,.20),transparent 25rem),#15120f;padding:clamp(30px,5vw,58px);display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;box-shadow:var(--shadow)}
+    .final h2{margin:0;font-size:clamp(34px,5vw,62px);line-height:.98;color:#fff7ec}
+    .final p{margin:0;color:rgba(255,247,236,.80);font-size:19px;line-height:1.8}
+    .note{margin-top:18px;color:rgba(255,247,236,.56);font-size:13px;line-height:1.7}
+    @media(max-width:900px){.hero-grid,.split,.quote-strip,.final{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.statement-card{min-height:auto}.tl{grid-template-columns:1fr;gap:8px}}
+    @media(max-width:560px){.wrap{width:min(100vw - 18px,1160px);padding-top:10px}.hero,.section,.final{border-radius:24px}.topbar{align-items:flex-start;flex-direction:column;margin-bottom:34px}.statement-card .quote{font-size:25px}.tl{padding:18px}.fact-table th,.fact-table td{padding:12px;font-size:14px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="title">
+      <div class="topbar">
+        <div class="badge"><span class="dot" aria-hidden="true"></span> 舆情时间线</div>
+        <div>韩红 · 冯小刚《抓特务》 · “走个面”</div>
+      </div>
+      <div class="hero-grid">
+        <div>
+          <h1 id="title"><span class="small">一句“走个面”之后</span><span class="mark">韩红为什么道歉</span></h1>
+          <p class="lead">这件事不是单纯的“口误被骂”。它把三件事搅在一起：电影宣传话术、冯小刚相关舆论、韩红多年公益形象带来的公众信任。</p>
+          <nav class="source-links" aria-label="原始信息来源">
+            <span class="source-label">原始信息</span>
+            <a class="source-link" href="https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_3765531325430542436&sourceFrom=homepage" target="_blank" rel="noopener noreferrer">韩红百度动态原文</a>
+            <a class="source-link" href="https://so.toutiao.com/search?keyword=%E9%9F%A9%E7%BA%A2%20%E8%B5%B0%E4%B8%AA%E9%9D%A2%20%E5%86%AF%E5%B0%8F%E5%88%9A%20%E9%A6%96%E6%98%A0" target="_blank" rel="noopener noreferrer">头条搜索线索</a>
+          </nav>
+        </div>
+        <aside class="statement-card" aria-label="韩红声明摘要">
+          <div class="label">2026-06-30 17:11 · 百度动态</div>
+          <div class="quote">“随口一句‘走个面’，确实过于轻率随意。”</div>
+          <div class="meta">
+            <div><b>发文主体：</b>西藏昌都人韩红 / 歌手韩红</div>
+            <div><b>声明对象：</b>关心、支持、包容以及批评她的社会各界朋友</div>
+            <div><b>核心态度：</b>道歉、自责、承诺谨言慎行</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <h2>事件怎么走到道歉这一步</h2>
+        <p class="sub">下面按证据强弱排列：韩红本人声明是最硬来源；首映现场和发酵过程主要来自搜索摘要、评论区和相关媒体标题，所以我把它们标成“二手线索”。</p>
+        <div class="timeline">
+          <article class="tl"><div class="time">6月下旬</div><div><h3>《抓特务》进入首映/宣传期 <span class="confidence">二手线索</span></h3><p>搜索结果集中指向冯小刚新片《抓特务》的首映或宣传活动。韩红出现在相关活动中，为影片助阵或站台。</p></div></article>
+          <article class="tl"><div class="time">首映现场</div><div><h3>韩红说出“走个面” <span class="confidence">一手确认</span></h3><p>韩红在道歉声明中明确承认“随口一句‘走个面’”，并称这句话轻率随意、思虑不周、措辞失当。</p></div></article>
+          <article class="tl"><div class="time">6月29日前后</div><div><h3>视频片段和讨论扩散 <span class="confidence">二手线索</span></h3><p>相关标题和搜索摘要显示，网友围绕“给面子看电影”开始争论。部分讨论把焦点转到冯小刚本人和影片宣传方式。</p></div></article>
+          <article class="tl"><div class="time">发酵阶段</div><div><h3>争议从电影宣传外溢到公益信任 <span class="confidence">评论区可见</span></h3><p>评论区出现两类声音：一类支持韩红公益贡献，另一类质疑是否把公益积累的公众信任用于商业电影宣传。</p></div></article>
+          <article class="tl"><div class="time">2026-06-30 17:11</div><div><h3>韩红公开发文道歉 <span class="confidence">一手来源</span></h3><p>她表示反复回看现场发言视频，逐条研读批评意见和理性建议，向公众郑重、诚恳致歉。</p></div></article>
+          <article class="tl"><div class="time">道歉后</div><div><h3>评论区继续分化 <span class="confidence">页面可见</span></h3><p>大量评论支持韩红，也有人继续批评“给面子式宣传”。道歉缓和了部分情绪，但没有让争议马上消失。</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <h2>争议真正卡在哪里</h2>
+        <p class="sub">如果只看一句话，会觉得舆论太重。但把场景放回商业电影宣传和公众人物信任里，就能看出为什么它会被放大。</p>
+        <div class="grid">
+          <article class="card"><b>01</b><strong>“走个面”有熟人压力</strong><p>朋友之间说“给个面子”问题不大。公众场合对观众说，就容易变成“你不买票是不是不给我面子”。</p></article>
+          <article class="card"><b>02</b><strong>公益信任和商业电影不是一回事</strong><p>韩红的公众信任很大部分来自公益。网友敏感的点是：这份信任能不能被拿去给电影宣传背书。</p></article>
+          <article class="card"><b>03</b><strong>冯小刚自带舆论包袱</strong><p>不少评论并非只针对韩红，而是把对冯小刚的旧情绪一起带进来。韩红站台后，被动卷进这部分争议。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <h2>评论区在吵什么</h2>
+        <p class="sub">评论区不是单向倒向批评。它更像两套价值在撞：一套看韩红过往公益，一套看这次宣传边界。</p>
+        <div class="split">
+          <div class="panel">
+            <h3>支持韩红的人</h3>
+            <ul>
+              <li>认为她多年公益贡献不能被一句话否定。</li>
+              <li>觉得“谁都有说错话的时候”，道歉已经足够。</li>
+              <li>担心恶意带节奏、造谣抹黑寒了好人的心。</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>批评这次表达的人</h3>
+            <ul>
+              <li>认为电影宣传不该用“给面子”的人情压力。</li>
+              <li>认为观众是否买票应由作品质量决定。</li>
+              <li>认为韩红替冯小刚站台，容易被冯小刚旧争议连带。</li>
+            </ul>
+          </div>
+        </div>
+        <table class="fact-table" aria-label="事实和判断区分">
+          <thead><tr><th>较确定的事实</th><th>需要谨慎的说法</th></tr></thead>
+          <tbody>
+            <tr><td>韩红 2026-06-30 17:11 在百度动态发道歉声明。</td><td>“票房遇冷”具体数据，本页未核验票房平台。</td></tr>
+            <tr><td>声明中明确出现“走个面”，并承认措辞失当。</td><td>“退出公益行业”等传言，只看到搜索线索，不应当事实引用。</td></tr>
+            <tr><td>评论区确实围绕冯小刚、电影宣传、公益信任展开争论。</td><td>关于基金会资金使用的网友评论，不能代替审计或官方披露。</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="quote-strip">
+      <h2>这不是简单的“说错话”</h2>
+      <p>更准确地说，是公众人物把个人信任、公益形象和商业电影宣传放在同一个场景里时，边界没有处理好。“走个面”只是引爆点，真正被讨论的是：观众为什么要为谁的面子买票。</p>
+    </section>
+
+    <section class="final">
+      <h2>如果只记一个判断</h2>
+      <div>
+        <p>韩红的道歉重点，不在于否定她过往公益，也不在于替所有网友情绪背锅，而是承认这次表达越过了公众宣传该有的分寸。电影可以宣传，朋友可以支持，但不能把观众选择说成“给不给面子”。</p>
+        <p class="note">资料来源：韩红百度动态原文、页面评论区可见内容、头条搜索结果摘要。首映现场细节和部分媒体说法为二手线索，页面内已标注证据强弱。</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
