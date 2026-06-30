@@ -149,6 +149,39 @@
     }
     .lead strong { color: #13120f; }
 
+    .source-links {
+      margin-top: 24px;
+      max-width: 720px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+    .source-links .source-label {
+      font-size: 13px;
+      font-weight: 900;
+      color: #5a4f36;
+      letter-spacing: .10em;
+      margin-right: 2px;
+    }
+    .source-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      min-height: 38px;
+      padding: 9px 13px;
+      border-radius: 999px;
+      border: 1px solid rgba(27,26,23,.22);
+      background: rgba(255,255,255,.48);
+      color: #262116;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+      box-shadow: 0 8px 22px rgba(80,53,2,.08);
+    }
+    .source-link:hover { background: rgba(255,255,255,.76); transform: translateY(-1px); }
+    .source-link::before { content: "↗"; color: var(--red); font-weight: 1000; }
+
     .ticket {
       position: relative;
       min-height: 460px;
@@ -523,6 +556,11 @@
           <p class="lead">
             这波“80后组团染黄毛”不是单纯装嫩。更像是一代人在40岁前后，用很低成本、很显眼、又不真正伤筋动骨的方式，给年轻时没敢做的那点叛逆补一张票。
           </p>
+          <nav class="source-links" aria-label="原始信息来源">
+            <span class="source-label">原始信息</span>
+            <a class="source-link" href="https://mbd.baidu.com/newspage/data/videolanding?nid=sv_13802149161427076162&sourceFrom=share" target="_blank" rel="noopener noreferrer">百度视频原页</a>
+            <a class="source-link" href="https://news.ycwb.com/ikimvkmthk/content_54203242.htm" target="_blank" rel="noopener noreferrer">羊城晚报·羊城派解读</a>
+          </nav>
           <div class="hairline" aria-hidden="true"></div>
         </div>
         <aside class="ticket" aria-label="补票式叛逆票根">
