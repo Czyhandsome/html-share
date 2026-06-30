@@ -51,7 +51,7 @@
     .hero:after{content:"";position:absolute;left:-260px;bottom:-340px;width:640px;height:640px;border-radius:50%;background:rgba(36,62,99,.10);z-index:-1}
     .topbar{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:58px;color:var(--muted);font-size:14px}
     .badge{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.48);padding:9px 13px;font-weight:900;color:#4e4338}
-    .dot{width:10px;height:10px;border-radius:50%;background:var(--red);box-shadow:16px 0 0 var(--orange),32px 0 0 var(--blue)}
+    .dot{width:42px;height:10px;display:inline-block;flex:0 0 42px;border-radius:999px;background:radial-gradient(circle at 5px 50%,var(--red) 0 5px,transparent 5.5px),radial-gradient(circle at 21px 50%,var(--orange) 0 5px,transparent 5.5px),radial-gradient(circle at 37px 50%,var(--blue) 0 5px,transparent 5.5px)}
     .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:clamp(24px,5vw,72px);align-items:center}
     h1{margin:0;font-size:clamp(42px,7vw,84px);line-height:.96;letter-spacing:-.07em;text-wrap:balance}
     h1 .small{display:block;font-size:.33em;letter-spacing:.06em;color:var(--muted);margin-bottom:18px}
