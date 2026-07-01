@@ -3,183 +3,45 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>2026 世界杯淘汰赛预测图｜阿根廷夺冠路径</title>
+  <title>2026 世界杯淘汰赛预测图｜Canvas 强渲染版</title>
   <style>
     :root{
-      --bg:#07130f;
-      --pitch:#0b2c20;
-      --pitch-2:#0f3b2a;
-      --line:rgba(255,255,255,.13);
-      --ink:#f7f1df;
-      --muted:#b9c4b4;
-      --gold:#f4c35c;
-      --sky:#82c7ff;
-      --blue:#3757c8;
-      --red:#d94c42;
-      --green:#39b478;
-      --paper:#f9f3e4;
-      --dark:#0b0f0d;
-      --shadow:0 22px 70px rgba(0,0,0,.30);
-      --radius:24px;
-      --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
-      --mono:"SFMono-Regular","Cascadia Mono","Roboto Mono",Menlo,monospace;
+      --bg:#07130f;--pitch:#0b2c20;--ink:#f7f1df;--muted:#b9c4b4;--gold:#f4c35c;--sky:#82c7ff;--blue:#3757c8;--paper:#f9f3e4;--dark:#0b0f0d;--shadow:0 22px 70px rgba(0,0,0,.30);--radius:28px;
+      --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;--mono:"SFMono-Regular","Cascadia Mono","Roboto Mono",Menlo,monospace;
     }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      font-family:var(--sans);
-      color:var(--ink);
-      background:
-        radial-gradient(circle at 20% 0%, rgba(130,199,255,.18), transparent 28rem),
-        radial-gradient(circle at 82% 8%, rgba(244,195,92,.16), transparent 28rem),
-        linear-gradient(180deg,#07130f 0%,#0a2118 44%,#08130f 100%);
-    }
-    .page{width:min(1440px,calc(100vw - 28px));margin:0 auto;padding:28px 0 54px}
-    .hero{
-      position:relative;
-      overflow:hidden;
-      min-height:520px;
-      border-radius:34px;
-      background:
-        linear-gradient(135deg, rgba(15,59,42,.94), rgba(7,19,15,.96)),
-        repeating-linear-gradient(90deg, rgba(255,255,255,.05) 0 1px, transparent 1px 74px);
-      box-shadow:var(--shadow);
-      padding:clamp(26px,5vw,62px);
-      isolation:isolate;
-    }
-    .hero:before{content:"";position:absolute;inset:28px;border:1px solid rgba(255,255,255,.12);border-radius:28px;z-index:-1}
-    .hero:after{content:"";position:absolute;right:-130px;top:-150px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(244,195,92,.26),transparent 70%);z-index:-1}
-    .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:58px;color:var(--muted);font-size:14px}
-    .badge{display:inline-flex;align-items:center;gap:10px;padding:9px 13px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.07);font-weight:900;color:#fff8e6;backdrop-filter:blur(8px)}
-    .badge-mark{width:36px;height:10px;flex:0 0 36px;border-radius:999px;background:linear-gradient(90deg,var(--sky) 0 31%,transparent 31% 36%,#fff 36% 64%,transparent 64% 69%,var(--sky) 69%)}
-    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:clamp(28px,6vw,82px);align-items:center}
-    h1{margin:0;font-size:clamp(42px,7vw,88px);line-height:.96;letter-spacing:-.075em;text-wrap:balance}
-    h1 .sub{display:block;font-size:.32em;letter-spacing:.08em;color:var(--muted);margin-bottom:16px}
-    .champion-word{position:relative;display:inline-block;color:#fff}
-    .champion-word:after{content:"";position:absolute;left:-2%;right:-2%;bottom:.02em;height:.22em;border-radius:999px;background:linear-gradient(90deg,var(--sky),#fff,var(--sky));z-index:-1;opacity:.72}
-    .lead{margin:28px 0 0;max-width:760px;color:#d8ded1;font-size:clamp(17px,2vw,22px);line-height:1.75}
-    .lead strong{color:#fff}
-    .quick-path{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
-    .pill{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:9px 13px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.07);font-size:14px;color:#eef4ea;font-weight:800}
-    .pill b{color:var(--gold)}
-    .trophy-card{position:relative;min-height:390px;border-radius:30px;background:linear-gradient(180deg,#f9f3e4,#ecd5a9);color:#14120d;padding:28px;box-shadow:0 24px 54px rgba(0,0,0,.26);overflow:hidden}
-    .trophy-card:before{content:"ARG";position:absolute;right:-18px;top:42px;font-family:var(--mono);font-size:116px;font-weight:1000;color:rgba(55,87,200,.11);letter-spacing:-.11em;transform:rotate(90deg)}
-    .trophy-card .kicker{font-family:var(--mono);font-size:13px;letter-spacing:.16em;color:#60705d;font-weight:900}
-    .trophy{margin:28px auto 20px;width:154px;height:154px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 38% 28%,#fff4bd,#f4c35c 54%,#b87322);box-shadow:inset 0 -16px 0 rgba(0,0,0,.10),0 18px 38px rgba(184,115,34,.25);font-size:72px}
-    .trophy-card h2{margin:0;text-align:center;font-size:48px;letter-spacing:-.06em;line-height:1}
-    .trophy-card p{margin:18px 0 0;color:#4b4538;line-height:1.7;font-size:16px;text-align:center}
-    .section{margin-top:28px;border-radius:var(--radius);background:rgba(249,243,228,.97);color:#14120d;box-shadow:var(--shadow);overflow:hidden}
-    .inner{padding:clamp(24px,4vw,44px)}
-    .section h2{margin:0 0 10px;font-size:clamp(30px,4vw,52px);letter-spacing:-.065em;line-height:1.05}
-    .section .desc{margin:0;color:#645d50;font-size:17px;line-height:1.75;max-width:900px}
-    .bracket-wrap{margin-top:30px;overflow-x:auto;padding-bottom:12px}
-    .bracket{min-width:1180px;display:grid;grid-template-columns:2.1fr 1.05fr 1.05fr 1.05fr .92fr;gap:18px;align-items:stretch}
-    .round{display:grid;gap:14px;align-content:stretch}
-    .round-title{height:38px;display:flex;align-items:center;justify-content:space-between;color:#645d50;font-weight:950;font-size:13px;letter-spacing:.10em;text-transform:uppercase}
-    .round-title span:last-child{font-family:var(--mono);letter-spacing:0;color:#9a8f7d;font-weight:800}
-    .block{border:1px solid rgba(20,18,13,.13);border-radius:20px;background:#fffaf0;box-shadow:0 10px 28px rgba(38,26,11,.07);overflow:hidden}
-    .block-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid rgba(20,18,13,.10);background:#f0e4cc;color:#5c5141;font-weight:950;font-size:13px}
-    .block-head b{color:#1b1711}
-    .mini-matches{display:grid;gap:8px;padding:12px}
-    .match{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;min-height:42px;border-radius:14px;background:#f8eedc;padding:9px 10px;color:#352d22;font-weight:820}
-    .match .vs{font-family:var(--mono);font-size:12px;color:#8a7c68;font-weight:900}
-    .team{text-wrap:balance}.team.right{text-align:right}
-    .winner-line{padding:12px 14px;border-top:1px dashed rgba(20,18,13,.16);display:flex;align-items:center;justify-content:space-between;gap:12px;font-weight:950;color:#1b1711}
-    .winner-line .label{font-size:12px;color:#857866;letter-spacing:.08em}
-    .winner{display:inline-flex;align-items:center;gap:8px;color:#0f3b2a}.winner:before{content:"晋级";font-size:11px;color:#fff;background:#0f3b2a;border-radius:999px;padding:3px 7px;letter-spacing:.06em}
-    .slot{min-height:102px;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;border-radius:20px;border:1px solid rgba(20,18,13,.13);background:#fffaf0;box-shadow:0 10px 28px rgba(38,26,11,.07);position:relative;font-size:23px;font-weight:1000;letter-spacing:-.04em}
-    .slot:before{content:attr(data-from);position:absolute;top:10px;left:12px;font-family:var(--mono);font-size:11px;color:#958976;letter-spacing:.02em;font-weight:850}
-    .slot.win{background:linear-gradient(180deg,#fff8e8,#f1dbad);border-color:rgba(184,115,34,.28)}
-    .slot.final{min-height:156px;font-size:32px;background:linear-gradient(180deg,#f8f1e1,#d7eefb);border-color:rgba(55,87,200,.28)}
-    .slot.champ{min-height:300px;flex-direction:column;gap:8px;font-size:46px;color:#fff;background:linear-gradient(180deg,#3757c8,#1f357e);border-color:rgba(130,199,255,.44)}
-    .slot.champ:after{content:"冠军预测";font-size:13px;letter-spacing:.16em;color:rgba(255,255,255,.74);font-weight:900}
-    .slot small{display:block;font-size:13px;color:#786d5d;font-weight:800;margin-top:8px;letter-spacing:0}.slot.champ small{color:rgba(255,255,255,.76)}
-    .stack-2{display:grid;gap:14px;align-content:space-around}.stack-4{display:grid;gap:14px;align-content:space-around}.stack-8{display:grid;gap:14px}
-    .paths{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}
-    .path-card{border-radius:22px;padding:20px;background:#14120d;color:#f9f3e4;min-height:190px;position:relative;overflow:hidden}
-    .path-card:after{content:"";position:absolute;right:-42px;bottom:-42px;width:122px;height:122px;border-radius:50%;background:rgba(244,195,92,.18)}
-    .path-card b{display:block;color:var(--gold);font-family:var(--mono);font-size:13px;letter-spacing:.12em;margin-bottom:14px}
-    .path-card strong{font-size:24px;letter-spacing:-.05em}.path-card p{margin:14px 0 0;color:rgba(249,243,228,.76);line-height:1.65;font-size:15px}
-    .note{margin-top:28px;border-radius:22px;background:#0f2119;color:#e8efe4;padding:22px;line-height:1.75}
-    .note b{color:#fff}.note p{margin:0;color:#c6d2c4}
-    @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.trophy-card{max-width:430px}.paths{grid-template-columns:1fr 1fr}.topbar{align-items:flex-start;flex-direction:column}}
-    @media(max-width:560px){.page{width:min(100vw - 18px,1440px);padding-top:10px}.hero,.section{border-radius:24px}.paths{grid-template-columns:1fr}.trophy-card h2{font-size:42px}.lead{font-size:17px}.bracket{min-width:1080px}.slot{font-size:20px}.slot.champ{font-size:40px}}
+    *{box-sizing:border-box} body{margin:0;font-family:var(--sans);color:var(--ink);background:radial-gradient(circle at 18% 0%,rgba(130,199,255,.18),transparent 28rem),radial-gradient(circle at 82% 8%,rgba(244,195,92,.16),transparent 28rem),linear-gradient(180deg,#07130f 0%,#0a2118 48%,#07130f 100%)}
+    .page{width:min(1440px,calc(100vw - 28px));margin:0 auto;padding:28px 0 54px}.hero{position:relative;overflow:hidden;border-radius:36px;background:linear-gradient(135deg,rgba(15,59,42,.94),rgba(7,19,15,.96));box-shadow:var(--shadow);padding:clamp(26px,5vw,62px);isolation:isolate}.hero:before{content:"";position:absolute;inset:28px;border:1px solid rgba(255,255,255,.12);border-radius:28px;z-index:-1}.hero:after{content:"";position:absolute;right:-130px;top:-150px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(244,195,92,.26),transparent 70%);z-index:-1}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:58px;color:var(--muted);font-size:14px}.badge{display:inline-flex;align-items:center;gap:10px;padding:9px 13px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.07);font-weight:900;color:#fff8e6}.badge-mark{width:36px;height:10px;flex:0 0 36px;border-radius:999px;background:linear-gradient(90deg,var(--sky) 0 31%,transparent 31% 36%,#fff 36% 64%,transparent 64% 69%,var(--sky) 69%)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:clamp(28px,6vw,82px);align-items:center}h1{margin:0;font-size:clamp(42px,7vw,88px);line-height:.96;letter-spacing:-.075em;text-wrap:balance}h1 .sub{display:block;font-size:.32em;letter-spacing:.08em;color:var(--muted);margin-bottom:16px}.champion-word{position:relative;display:inline-block;color:#fff}.champion-word:after{content:"";position:absolute;left:-2%;right:-2%;bottom:.02em;height:.22em;border-radius:999px;background:linear-gradient(90deg,var(--sky),#fff,var(--sky));z-index:-1;opacity:.72}.lead{margin:28px 0 0;max-width:760px;color:#d8ded1;font-size:clamp(17px,2vw,22px);line-height:1.75}.lead strong{color:#fff}.quick-path{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.pill{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:9px 13px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.07);font-size:14px;color:#eef4ea;font-weight:800}.pill b{color:var(--gold)}
+    .trophy-card{position:relative;min-height:390px;border-radius:30px;background:linear-gradient(180deg,#f9f3e4,#ecd5a9);color:#14120d;padding:28px;box-shadow:0 24px 54px rgba(0,0,0,.26);overflow:hidden}.trophy-card:before{content:"ARG";position:absolute;right:-18px;top:42px;font-family:var(--mono);font-size:116px;font-weight:1000;color:rgba(55,87,200,.11);letter-spacing:-.11em;transform:rotate(90deg)}.trophy-card .kicker{font-family:var(--mono);font-size:13px;letter-spacing:.16em;color:#60705d;font-weight:900}.trophy{margin:28px auto 20px;width:154px;height:154px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 38% 28%,#fff4bd,#f4c35c 54%,#b87322);box-shadow:inset 0 -16px 0 rgba(0,0,0,.10),0 18px 38px rgba(184,115,34,.25);font-size:72px}.trophy-card h2{margin:0;text-align:center;font-size:48px;letter-spacing:-.06em;line-height:1}.trophy-card p{margin:18px 0 0;color:#4b4538;line-height:1.7;font-size:16px;text-align:center}
+    .section{margin-top:28px;border-radius:var(--radius);background:rgba(249,243,228,.98);color:#14120d;box-shadow:var(--shadow);overflow:hidden}.inner{padding:clamp(24px,4vw,44px)}.section h2{margin:0 0 10px;font-size:clamp(30px,4vw,52px);letter-spacing:-.065em;line-height:1.05}.section .desc{margin:0;color:#645d50;font-size:17px;line-height:1.75;max-width:940px}.canvas-shell{margin-top:30px;position:relative;overflow:auto;border-radius:26px;background:#e9e3d4;border:1px solid rgba(20,18,13,.10);box-shadow:inset 0 1px 0 rgba(255,255,255,.7)}.canvas-frame{width:max-content;padding:22px}#bracketCanvas{display:block;width:1800px;height:1560px;border-radius:20px;background:#efe9dc}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.button{appearance:none;border:0;border-radius:999px;background:#10251b;color:#f7f1df;padding:11px 16px;font-weight:900;cursor:pointer}.button.secondary{background:#e5d7bd;color:#201a12}.note{margin-top:20px;border-radius:22px;background:#0f2119;color:#e8efe4;padding:22px;line-height:1.75}.note b{color:#fff}.note p{margin:0;color:#c6d2c4}.paths{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:28px}.path-card{border-radius:22px;padding:20px;background:#14120d;color:#f9f3e4;min-height:190px;position:relative;overflow:hidden}.path-card:after{content:"";position:absolute;right:-42px;bottom:-42px;width:122px;height:122px;border-radius:50%;background:rgba(244,195,92,.18)}.path-card b{display:block;color:var(--gold);font-family:var(--mono);font-size:13px;letter-spacing:.12em;margin-bottom:14px}.path-card strong{font-size:24px;letter-spacing:-.05em}.path-card p{margin:14px 0 0;color:rgba(249,243,228,.76);line-height:1.65;font-size:15px}.raw{font-family:var(--mono);white-space:pre-wrap;background:#14120d;color:#e8efe4;border-radius:20px;padding:20px;line-height:1.7;overflow:auto;margin-top:24px}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.trophy-card{max-width:430px}.paths{grid-template-columns:1fr 1fr}.topbar{align-items:flex-start;flex-direction:column}.canvas-frame{min-width:1120px}}
+    @media(max-width:560px){.page{width:min(100vw - 18px,1440px);padding-top:10px}.hero,.section{border-radius:24px}.paths{grid-template-columns:1fr}.trophy-card h2{font-size:42px}.lead{font-size:17px}.canvas-frame{min-width:1040px;padding:14px}.toolbar .button{width:100%}}
   </style>
 </head>
 <body>
   <main class="page">
     <section class="hero" aria-labelledby="title">
-      <div class="topbar">
-        <div class="badge"><span class="badge-mark" aria-hidden="true"></span> 2026 WORLD CUP BRACKET</div>
-        <div>用户预测稿 · 从 32 强赛后段到冠军</div>
-      </div>
+      <div class="topbar"><div class="badge"><span class="badge-mark" aria-hidden="true"></span> 2026 WORLD CUP BRACKET</div><div>Canvas 强渲染版 · 对齐节点与晋级箭头</div></div>
       <div class="hero-grid">
         <div>
           <h1 id="title"><span class="sub">你的淘汰赛预测图</span><span class="champion-word">阿根廷夺冠</span></h1>
-          <p class="lead">我把你给的 A–H 八个区块整理成一张可分享的预测图。第一行部分比赛你说已经确定结果，这里不展开争议，只保留路径关系：<strong>8强 → 4强 → 决赛 → 冠军</strong>。</p>
-          <div class="quick-path" aria-label="关键路径">
-            <span class="pill"><b>8强</b> 法国 / 摩洛哥 / 西班牙 / 比利时 / 巴西 / 英格兰 / 阿根廷 / 加纳</span>
-            <span class="pill"><b>4强</b> 法国 / 西班牙 / 英格兰 / 阿根廷</span>
-            <span class="pill"><b>决赛</b> 法国 vs 阿根廷</span>
-          </div>
+          <p class="lead">我把原来的纯文本方块改成 <strong>Canvas 绘制</strong>：所有节点用坐标锁死，晋级线用箭头连接，读图时能一眼看到每支球队从区块到冠军的推进路径。</p>
+          <div class="quick-path" aria-label="关键路径"><span class="pill"><b>8强</b> 法国 / 摩洛哥 / 西班牙 / 比利时 / 巴西 / 英格兰 / 阿根廷 / 加纳</span><span class="pill"><b>4强</b> 法国 / 西班牙 / 英格兰 / 阿根廷</span><span class="pill"><b>决赛</b> 法国 vs 阿根廷</span></div>
         </div>
-        <aside class="trophy-card" aria-label="冠军预测">
-          <div class="kicker">PREDICTED CHAMPION</div>
-          <div class="trophy" aria-hidden="true">🏆</div>
-          <h2>阿根廷</h2>
-          <p>预测路径：阿根廷从 G 区突围，半决赛压过英格兰，决赛击败法国。</p>
-        </aside>
+        <aside class="trophy-card" aria-label="冠军预测"><div class="kicker">PREDICTED CHAMPION</div><div class="trophy" aria-hidden="true">🏆</div><h2>阿根廷</h2><p>预测路径：阿根廷从 G 区突围，半决赛压过英格兰，决赛击败法国。</p></aside>
       </div>
     </section>
 
     <section class="section">
       <div class="inner">
-        <h2>淘汰赛预测图</h2>
-        <p class="desc">左侧是你给出的 A–H 区块。带括号的区块表示前面还有两场对位要先决出区块晋级者；右侧按你的预测继续推进。</p>
-        <div class="bracket-wrap" aria-label="可横向滚动的世界杯预测括号图">
-          <div class="bracket">
-            <div class="round">
-              <div class="round-title"><strong>A–H 区块</strong><span>32/16</span></div>
-              <div class="block"><div class="block-head"><b>A</b><span>已给定对位</span></div><div class="mini-matches"><div class="match"><span class="team">巴拉圭</span><span class="vs">vs</span><span class="team right">法国</span></div></div><div class="winner-line"><span class="label">区块晋级</span><span class="winner">法国</span></div></div>
-              <div class="block"><div class="block-head"><b>B</b><span>已给定对位</span></div><div class="mini-matches"><div class="match"><span class="team">加拿大</span><span class="vs">vs</span><span class="team right">摩洛哥</span></div></div><div class="winner-line"><span class="label">区块晋级</span><span class="winner">摩洛哥</span></div></div>
-              <div class="block"><div class="block-head"><b>C</b><span>双对位区块</span></div><div class="mini-matches"><div class="match"><span class="team">葡萄牙</span><span class="vs">vs</span><span class="team right">克罗地亚</span></div><div class="match"><span class="team">西班牙</span><span class="vs">vs</span><span class="team right">奥地利</span></div></div><div class="winner-line"><span class="label">区块晋级</span><span class="winner">西班牙</span></div></div>
-              <div class="block"><div class="block-head"><b>D</b><span>双对位区块</span></div><div class="mini-matches"><div class="match"><span class="team">美国</span><span class="vs">vs</span><span class="team right">波黑</span></div><div class="match"><span class="team">比利时</span><span class="vs">vs</span><span class="team right">塞内加尔</span></div></div><div class="winner-line"><span class="label">区块晋级</span><span class="winner">比利时</span></div></div>
-              <div class="block"><div class="block-head"><b>E</b><span>已给定对位</span></div><div class="mini-matches"><div class="match"><span class="team">巴西</span><span class="vs">vs</span><span class="team right">挪威</span></div></div><div class="winner-line"><span class="label">区块晋级</span><span class="winner">巴西</span></div></div>
-              <div class="block"><div class="block-head"><b>F</b><span>双对位区块</span></div><div class="mini-matches"><div class="match"><span class="team">墨西哥</span><span class="vs">vs</span><span class="team right">厄瓜多尔</span></div><div class="match"><span class="team">英格兰</span><span class="vs">vs</span><span class="team right">刚果</span></div></div><div class="winner-line"><span class="label">区块晋级</span><span class="winner">英格兰</span></div></div>
-              <div class="block"><div class="block-head"><b>G</b><span>双对位区块</span></div><div class="mini-matches"><div class="match"><span class="team">阿根廷</span><span class="vs">vs</span><span class="team right">佛得角</span></div><div class="match"><span class="team">澳大利亚</span><span class="vs">vs</span><span class="team right">埃及</span></div></div><div class="winner-line"><span class="label">区块晋级</span><span class="winner">阿根廷</span></div></div>
-              <div class="block"><div class="block-head"><b>H</b><span>双对位区块</span></div><div class="mini-matches"><div class="match"><span class="team">瑞士</span><span class="vs">vs</span><span class="team right">阿尔及利亚</span></div><div class="match"><span class="team">哥伦比亚</span><span class="vs">vs</span><span class="team right">加纳</span></div></div><div class="winner-line"><span class="label">区块晋级</span><span class="winner">加纳</span></div></div>
-            </div>
-            <div class="round stack-8">
-              <div class="round-title"><strong>8 强</strong><span>QF</span></div>
-              <div class="slot win" data-from="A">法国</div>
-              <div class="slot" data-from="B">摩洛哥</div>
-              <div class="slot win" data-from="C">西班牙</div>
-              <div class="slot" data-from="D">比利时</div>
-              <div class="slot" data-from="E">巴西</div>
-              <div class="slot win" data-from="F">英格兰</div>
-              <div class="slot win" data-from="G">阿根廷</div>
-              <div class="slot" data-from="H">加纳</div>
-            </div>
-            <div class="round stack-4">
-              <div class="round-title"><strong>4 强</strong><span>SF</span></div>
-              <div class="slot win" data-from="法国 / 摩洛哥">法国<small>胜摩洛哥</small></div>
-              <div class="slot win" data-from="西班牙 / 比利时">西班牙<small>胜比利时</small></div>
-              <div class="slot win" data-from="巴西 / 英格兰">英格兰<small>胜巴西</small></div>
-              <div class="slot win" data-from="阿根廷 / 加纳">阿根廷<small>胜加纳</small></div>
-            </div>
-            <div class="round stack-2">
-              <div class="round-title"><strong>决赛席位</strong><span>FINALISTS</span></div>
-              <div class="slot final" data-from="法国 / 西班牙">法国<small>胜西班牙</small></div>
-              <div class="slot final" data-from="英格兰 / 阿根廷">阿根廷<small>胜英格兰</small></div>
-            </div>
-            <div class="round">
-              <div class="round-title"><strong>冠军</strong><span>WINNER</span></div>
-              <div class="slot champ" data-from="法国 / 阿根廷">阿根廷<small>决赛胜法国</small></div>
-            </div>
-          </div>
+        <h2>Canvas 淘汰赛预测图</h2>
+        <p class="desc">这版不再依赖 HTML 方块自然排版。Canvas 使用固定逻辑坐标渲染卡片、箭头和阶段标题，因此节点能严格对齐；页面缩放时也会按比例重绘。</p>
+        <div class="canvas-shell" aria-label="可横向滚动查看完整预测图">
+          <div class="canvas-frame"><canvas id="bracketCanvas" width="1800" height="1150" aria-label="2026 世界杯预测图 Canvas"></canvas></div>
         </div>
-        <div class="note"><p><b>阅读说明：</b>这是一张“预测图”，不是赛果表。C/D/F/G/H 的括号区块保留了你给出的前置对位，但不额外编造每一场的比分，只突出你最终预测的区块晋级者。</p></div>
+        <div class="toolbar"><button class="button" id="downloadPng">下载 PNG 图</button><button class="button secondary" id="redraw">重新渲染</button></div>
+        <div class="note"><p><b>阅读说明：</b>左侧 A–H 是你给出的区块和前置对位；中间是区块晋级者、4强、决赛席位；右侧是冠军预测。箭头表示“按你的预测继续晋级”，不是官方赛果。</p></div>
       </div>
     </section>
 
@@ -193,8 +55,126 @@
           <article class="path-card"><b>PATH 03</b><strong>英格兰线</strong><p>英格兰从 F 区晋级，8 强阶段击败巴西，半决赛输给阿根廷。</p></article>
           <article class="path-card"><b>PATH 04</b><strong>阿根廷线</strong><p>阿根廷从 G 区晋级，连续击败加纳、英格兰、法国，最终夺冠。</p></article>
         </div>
+        <pre class="raw">原始预测稿：
+A 巴拉圭-法国
+B 加拿大-摩洛哥
+C【葡萄牙-克罗地亚；西班牙-奥地利】
+D【美国-波黑；比利时-塞内加尔】
+E 巴西-挪威
+F【墨西哥-厄瓜多尔；英格兰-刚果】
+G【阿根廷-佛得角；澳大利亚-埃及】
+H【瑞士-阿尔及利亚；哥伦比亚-加纳】
+
+8强：法国 摩洛哥 西班牙 比利时 巴西 英格兰 阿根廷 加纳
+4强：法国 西班牙 英格兰 阿根廷
+决赛：法国 阿根廷
+冠军：阿根廷</pre>
       </div>
     </section>
   </main>
+  <script>
+    const canvas = document.getElementById('bracketCanvas');
+    const ctx = canvas.getContext('2d');
+    const DPR = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+    const W = 1800, H = 1560;
+
+    const blocks = [
+      {id:'A', type:'已给定对位', games:[['巴拉圭','法国']], winner:'法国'},
+      {id:'B', type:'已给定对位', games:[['加拿大','摩洛哥']], winner:'摩洛哥'},
+      {id:'C', type:'双对位区块', games:[['葡萄牙','克罗地亚'],['西班牙','奥地利']], winner:'西班牙'},
+      {id:'D', type:'双对位区块', games:[['美国','波黑'],['比利时','塞内加尔']], winner:'比利时'},
+      {id:'E', type:'已给定对位', games:[['巴西','挪威']], winner:'巴西'},
+      {id:'F', type:'双对位区块', games:[['墨西哥','厄瓜多尔'],['英格兰','刚果']], winner:'英格兰'},
+      {id:'G', type:'双对位区块', games:[['阿根廷','佛得角'],['澳大利亚','埃及']], winner:'阿根廷'},
+      {id:'H', type:'双对位区块', games:[['瑞士','阿尔及利亚'],['哥伦比亚','加纳']], winner:'加纳'},
+    ];
+    const qf = ['法国','摩洛哥','西班牙','比利时','巴西','英格兰','阿根廷','加纳'];
+    const sf = [
+      {team:'法国', from:'法国 / 摩洛哥', note:'胜摩洛哥'},
+      {team:'西班牙', from:'西班牙 / 比利时', note:'胜比利时'},
+      {team:'英格兰', from:'巴西 / 英格兰', note:'胜巴西'},
+      {team:'阿根廷', from:'阿根廷 / 加纳', note:'胜加纳'},
+    ];
+    const finals = [
+      {team:'法国', from:'法国 / 西班牙', note:'胜西班牙'},
+      {team:'阿根廷', from:'英格兰 / 阿根廷', note:'胜英格兰'},
+    ];
+    const champ = {team:'阿根廷', from:'法国 / 阿根廷', note:'决赛胜法国'};
+
+    function setupCanvas(){
+      canvas.width = W * DPR; canvas.height = H * DPR;
+      canvas.style.aspectRatio = `${W}/${H}`;
+      ctx.setTransform(DPR,0,0,DPR,0,0);
+    }
+    function roundRect(x,y,w,h,r,fill,stroke,sw=2){
+      ctx.beginPath(); ctx.moveTo(x+r,y); ctx.arcTo(x+w,y,x+w,y+h,r); ctx.arcTo(x+w,y+h,x,y+h,r); ctx.arcTo(x,y+h,x,y,r); ctx.arcTo(x,y,x+w,y,r); ctx.closePath();
+      if(fill){ctx.fillStyle=fill; ctx.fill();} if(stroke){ctx.strokeStyle=stroke; ctx.lineWidth=sw; ctx.stroke();}
+    }
+    function text(txt,x,y,size=24,color='#14120d',weight='700',align='left',maxWidth=999){
+      ctx.fillStyle=color; ctx.font=`${weight} ${size}px ${getComputedStyle(document.body).fontFamily}`; ctx.textAlign=align; ctx.textBaseline='middle'; ctx.fillText(txt,x,y,maxWidth);
+    }
+    function multiLine(txt,x,y,size,color,weight,align,lineHeight,maxWidth){
+      const chars=[...txt]; let line='', lines=[];
+      ctx.font=`${weight} ${size}px ${getComputedStyle(document.body).fontFamily}`;
+      for(const ch of chars){ const test=line+ch; if(ctx.measureText(test).width>maxWidth && line){ lines.push(line); line=ch; } else line=test; }
+      if(line) lines.push(line);
+      const top=y-(lines.length-1)*lineHeight/2;
+      lines.forEach((l,i)=>text(l,x,top+i*lineHeight,size,color,weight,align,maxWidth));
+    }
+    function arrow(x1,y1,x2,y2,color='#6b7d6a',w=3){
+      const mid=(x1+x2)/2;
+      ctx.strokeStyle=color; ctx.lineWidth=w; ctx.lineCap='round'; ctx.lineJoin='round';
+      ctx.beginPath(); ctx.moveTo(x1,y1); ctx.bezierCurveTo(mid,y1,mid,y2,x2,y2); ctx.stroke();
+      const angle=Math.atan2(y2-y1,x2-mid); const len=12;
+      ctx.beginPath(); ctx.moveTo(x2,y2); ctx.lineTo(x2-len*Math.cos(angle-.45),y2-len*Math.sin(angle-.45)); ctx.lineTo(x2-len*Math.cos(angle+.45),y2-len*Math.sin(angle+.45)); ctx.closePath(); ctx.fillStyle=color; ctx.fill();
+    }
+    function card(x,y,w,h,title,sub,opts={}){
+      const fill=opts.fill||'#fffaf0', stroke=opts.stroke||'rgba(20,18,13,.15)';
+      ctx.shadowColor='rgba(40,27,12,.10)'; ctx.shadowBlur=22; ctx.shadowOffsetY=10;
+      roundRect(x,y,w,h,opts.r||22,fill,stroke,2); ctx.shadowColor='transparent';
+      if(opts.tag) text(opts.tag,x+20,y+26,18,'#8a806f','900');
+      multiLine(title,x+w/2,y+h/2+(sub? -8:0),opts.titleSize||34,opts.titleColor||'#14120d','1000','center',38,w-40);
+      if(sub) text(sub,x+w/2,y+h-28,18,opts.subColor||'#766d5e','850','center',w-40);
+    }
+    function blockCard(b,x,y,w,h){
+      ctx.shadowColor='rgba(40,27,12,.10)'; ctx.shadowBlur=18; ctx.shadowOffsetY=8;
+      roundRect(x,y,w,h,20,'#fffaf0','rgba(20,18,13,.13)',2); ctx.shadowColor='transparent';
+      roundRect(x,y,w,44,20,'#eadfc6',null); ctx.fillStyle='#eadfc6'; ctx.fillRect(x,y+24,w,20);
+      text(b.id,x+20,y+25,23,'#14120d','1000'); text(b.type,x+w-20,y+25,18,'#5f5548','900','right');
+      const rowStart = y + 56;
+      b.games.forEach((g,idx)=>{
+        const gy = rowStart + idx*38;
+        roundRect(x+16,gy,w-32,31,14,'#f3ead8',null);
+        text(g[0],x+28,gy+16,19,'#201a12','900');
+        text('vs',x+w/2,gy+16,15,'#887d6c','900','center');
+        text(g[1],x+w-28,gy+16,19,'#201a12','900','right');
+      });
+      const gamesEnd = rowStart + b.games.length*38 - 7;
+      const sep = Math.min(y+h-46, gamesEnd + 12);
+      ctx.setLineDash([6,5]); ctx.strokeStyle='rgba(20,18,13,.16)'; ctx.lineWidth=1.5; ctx.beginPath(); ctx.moveTo(x+18,sep); ctx.lineTo(x+w-18,sep); ctx.stroke(); ctx.setLineDash([]);
+      const labelY = Math.min(y+h-23, sep + 25);
+      text('区块晋级',x+20,labelY,17,'#7a705f','900');
+      roundRect(x+w-162,labelY-13,52,27,13,'#0f3b2a',null);
+      text('晋级',x+w-136,labelY+1,15,'#fff','900','center');
+      text(b.winner,x+w-20,labelY+1,21,'#0f3b2a','1000','right');
+    }
+    function draw(){
+      setupCanvas(); ctx.clearRect(0,0,W,H);
+      const bg=ctx.createLinearGradient(0,0,W,H); bg.addColorStop(0,'#f4eddd'); bg.addColorStop(1,'#e7decc'); ctx.fillStyle=bg; ctx.fillRect(0,0,W,H);
+      ctx.strokeStyle='rgba(20,18,13,.05)'; ctx.lineWidth=1; for(let x=80;x<W;x+=120){ctx.beginPath();ctx.moveTo(x,92);ctx.lineTo(x,H-70);ctx.stroke();}
+      text('A–H 区块',70,54,22,'#5c5549','1000'); text('8 强',490,54,22,'#5c5549','1000'); text('4 强',790,54,22,'#5c5549','1000'); text('决赛',1110,54,22,'#5c5549','1000'); text('冠军',1446,54,22,'#5c5549','1000');
+      const x0=70, x1=480, x2=790, x3=1110, x4=1450; const bw=330,bh=170, qW=220,qH=86,sW=250,sH=100,fW=260,fH=116,cW=230,cH=500; const startY=88, gap=12;
+      const blockPos=[], qPos=[];
+      blocks.forEach((b,i)=>{ const y=startY+i*(bh+gap); blockPos.push({x:x0,y,w:bw,h:bh}); blockCard(b,x0,y,bw,bh); const qy=y+(bh-qH)/2; qPos.push({x:x1,y:qy,w:qW,h:qH,team:qf[i]}); card(x1,qy,qW,qH,qf[i],null,{tag:b.id,fill:(['法国','西班牙','英格兰','阿根廷'].includes(qf[i])?'#f8e8b7':'#fffaf0'),stroke:(['法国','西班牙','英格兰','阿根廷'].includes(qf[i])?'#e2ba6b':'rgba(20,18,13,.12)'),titleSize:30}); arrow(x0+bw+10,y+bh/2,x1-12,qy+qH/2,'rgba(51,82,63,.42)',2.2); });
+      const sfPos=[]; [[0,1],[2,3],[4,5],[6,7]].forEach((pair,i)=>{ const y=(qPos[pair[0]].y+qPos[pair[1]].y+qH)/2-sH/2; sfPos.push({x:x2,y,w:sW,h:sH,team:sf[i].team}); pair.forEach(idx=>arrow(x1+qW+10,qPos[idx].y+qH/2,x2-12,y+sH/2, idx===pair[0]?'rgba(51,82,63,.35)':'rgba(51,82,63,.23)',2.3)); card(x2,y,sW,sH,sf[i].team,sf[i].note,{tag:sf[i].from,fill:'#f7e7b8',stroke:'#dfb765',titleSize:28}); });
+      const fPos=[]; [[0,1],[2,3]].forEach((pair,i)=>{ const y=(sfPos[pair[0]].y+sfPos[pair[1]].y+sH)/2-fH/2; fPos.push({x:x3,y,w:fW,h:fH,team:finals[i].team}); pair.forEach(idx=>arrow(x2+sW+10,sfPos[idx].y+sH/2,x3-12,y+fH/2, idx===pair[0]?'rgba(55,87,200,.45)':'rgba(55,87,200,.26)',2.8)); card(x3,y,fW,fH,finals[i].team,finals[i].note,{tag:finals[i].from,fill:'#e7f4f8',stroke:'#9cc9ff',titleSize:34}); });
+      const cy=(fPos[0].y+fPos[1].y+fH)/2-cH/2; fPos.forEach((p,i)=>arrow(x3+fW+10,p.y+fH/2,x4-14,cy+cH/2,i===1?'#3757c8':'rgba(55,87,200,.35)',3.4));
+      card(x4,cy,cW,cH,champ.team,champ.note,{tag:champ.from,fill:'#3757c8',stroke:'#82c7ff',titleColor:'#fff',subColor:'rgba(255,255,255,.82)',titleSize:52,r:24}); text('冠军预测',x4+cW/2,cy+64,18,'rgba(255,255,255,.74)','900','center');
+    }
+    draw();
+    window.addEventListener('resize', draw);
+    document.getElementById('redraw').addEventListener('click', draw);
+    document.getElementById('downloadPng').addEventListener('click',()=>{ const a=document.createElement('a'); a.href=canvas.toDataURL('image/png'); a.download='2026-worldcup-argentina-bracket.png'; a.click(); });
+  </script>
 </body>
 </html>
