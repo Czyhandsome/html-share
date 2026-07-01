@@ -41,7 +41,7 @@
           <div class="canvas-frame"><canvas id="bracketCanvas" width="1800" height="1560" aria-label="2026 世界杯预测图 Canvas"></canvas></div>
         </div>
         <div class="toolbar"><button class="button" id="downloadPng">下载 PNG 图</button><button class="button secondary" id="redraw">重新渲染</button></div>
-        <div class="note"><p><b>阅读说明：</b>左侧 A–H 是你给出的区块和前置对位；中间是区块晋级者、4强、决赛席位；右侧是冠军预测。箭头表示“按你的预测继续晋级”，不是官方赛果。</p></div>
+        <div class="note"><p><b>阅读说明：</b>左侧 A–H 是你给出的区块和前置对位；绿色底色/“胜”标记表示该小场或该区块中已经明确的预测晋级方；没有标色的对位表示你还没给出该小场具体胜者，我没有硬猜。中间是区块晋级者、4强、决赛席位；右侧是冠军预测。</p></div>
       </div>
     </section>
 
@@ -79,14 +79,14 @@ H【瑞士-阿尔及利亚；哥伦比亚-加纳】
     const W = 1800, H = 1560;
 
     const blocks = [
-      {id:'A', type:'已给定对位', games:[['巴拉圭','法国']], winner:'法国'},
-      {id:'B', type:'已给定对位', games:[['加拿大','摩洛哥']], winner:'摩洛哥'},
-      {id:'C', type:'双对位区块', games:[['葡萄牙','克罗地亚'],['西班牙','奥地利']], winner:'西班牙'},
-      {id:'D', type:'双对位区块', games:[['美国','波黑'],['比利时','塞内加尔']], winner:'比利时'},
-      {id:'E', type:'已给定对位', games:[['巴西','挪威']], winner:'巴西'},
-      {id:'F', type:'双对位区块', games:[['墨西哥','厄瓜多尔'],['英格兰','刚果']], winner:'英格兰'},
-      {id:'G', type:'双对位区块', games:[['阿根廷','佛得角'],['澳大利亚','埃及']], winner:'阿根廷'},
-      {id:'H', type:'双对位区块', games:[['瑞士','阿尔及利亚'],['哥伦比亚','加纳']], winner:'加纳'},
+      {id:'A', type:'已给定对位', games:[['巴拉圭','法国','法国']], winner:'法国'},
+      {id:'B', type:'已给定对位', games:[['加拿大','摩洛哥','摩洛哥']], winner:'摩洛哥'},
+      {id:'C', type:'双对位区块', games:[['葡萄牙','克罗地亚',null],['西班牙','奥地利','西班牙']], winner:'西班牙'},
+      {id:'D', type:'双对位区块', games:[['美国','波黑',null],['比利时','塞内加尔','比利时']], winner:'比利时'},
+      {id:'E', type:'已给定对位', games:[['巴西','挪威','巴西']], winner:'巴西'},
+      {id:'F', type:'双对位区块', games:[['墨西哥','厄瓜多尔',null],['英格兰','刚果','英格兰']], winner:'英格兰'},
+      {id:'G', type:'双对位区块', games:[['阿根廷','佛得角','阿根廷'],['澳大利亚','埃及',null]], winner:'阿根廷'},
+      {id:'H', type:'双对位区块', games:[['瑞士','阿尔及利亚',null],['哥伦比亚','加纳','加纳']], winner:'加纳'},
     ];
     const qf = ['法国','摩洛哥','西班牙','比利时','巴西','英格兰','阿根廷','加纳'];
     const sf = [
@@ -144,10 +144,21 @@ H【瑞士-阿尔及利亚；哥伦比亚-加纳】
       const rowStart = y + 56;
       b.games.forEach((g,idx)=>{
         const gy = rowStart + idx*38;
-        roundRect(x+16,gy,w-32,31,14,'#f3ead8',null);
-        text(g[0],x+28,gy+16,19,'#201a12','900');
-        text('vs',x+w/2,gy+16,15,'#887d6c','900','center');
-        text(g[1],x+w-28,gy+16,19,'#201a12','900','right');
+        const [left,right,gameWinner] = g;
+        const leftWins = gameWinner === left;
+        const rightWins = gameWinner === right;
+        const rowFill = gameWinner ? '#eef4de' : '#f3ead8';
+        roundRect(x+16,gy,w-32,31,14,rowFill,null);
+        if(leftWins) roundRect(x+22,gy+4,94,23,12,'#0f3b2a',null);
+        if(rightWins) roundRect(x+w-116,gy+4,94,23,12,'#0f3b2a',null);
+        text(left,x+28,gy+16,18,leftWins?'#fff':'#201a12','900');
+        text('vs',x+w/2,gy+16,14,'#887d6c','900','center');
+        text(right,x+w-28,gy+16,18,rightWins?'#fff':'#201a12','900','right');
+        if(gameWinner){
+          const chipX = leftWins ? x+122 : x+w-166;
+          roundRect(chipX,gy+6,36,19,10,'#d9b35b',null);
+          text('胜',chipX+18,gy+16,12,'#201a12','1000','center');
+        }
       });
       const gamesEnd = rowStart + b.games.length*38 - 7;
       const sep = Math.min(y+h-46, gamesEnd + 12);
