@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>杰伦·布朗去费城：一笔“被低估感”推动的分手</title>
+  <meta name="description" content="梳理 Jaylen Brown 被交易到 76 人、Paul George 加入凯尔特人的时间线、双方动机和证据强弱。" />
+  <style>
+    :root{
+      --bg:#f4eee4;
+      --paper:#fffaf1;
+      --paper2:#efe1cc;
+      --ink:#15120f;
+      --muted:#766b5f;
+      --line:rgba(21,18,15,.14);
+      --green:#214b3c;
+      --green2:#6f8b60;
+      --blue:#253d62;
+      --gold:#d49a3a;
+      --red:#a7372f;
+      --shadow:0 24px 70px rgba(60,42,22,.16);
+      --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+      --serif:"Songti SC","STSong","Noto Serif CJK SC",serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 8% 2%, rgba(212,154,58,.24), transparent 28rem),
+        radial-gradient(circle at 94% 8%, rgba(37,61,98,.18), transparent 30rem),
+        linear-gradient(180deg,#fbf5ea 0%,#f1e4d2 62%,#e4d0b7 100%);
+    }
+    a{color:inherit}
+    .wrap{width:min(1180px,calc(100vw - 32px));margin:0 auto;padding:34px 0 64px}
+    .hero{
+      position:relative;
+      overflow:hidden;
+      border-radius:42px;
+      padding:clamp(28px,5vw,68px);
+      background:
+        linear-gradient(135deg,rgba(255,250,241,.98),rgba(239,225,204,.94)),
+        repeating-linear-gradient(90deg,rgba(21,18,15,.035) 0 1px,transparent 1px 20px);
+      box-shadow:var(--shadow);
+      isolation:isolate;
+      min-height:610px;
+    }
+    .hero:before{content:"";position:absolute;right:-160px;top:-180px;width:520px;height:520px;border-radius:50%;background:rgba(33,75,60,.12);z-index:-1}
+    .hero:after{content:"";position:absolute;left:-240px;bottom:-280px;width:620px;height:620px;border-radius:50%;background:rgba(167,55,47,.10);z-index:-1}
+    .topbar{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:54px;color:var(--muted);font-size:14px}
+    .badge{display:inline-flex;gap:10px;align-items:center;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.58);padding:9px 14px;font-weight:900;color:#443a31}
+    .dot{width:42px;height:10px;display:inline-block;flex:0 0 42px;border-radius:999px;background:radial-gradient(circle at 5px 50%,var(--green) 0 5px,transparent 5.5px),radial-gradient(circle at 21px 50%,var(--gold) 0 5px,transparent 5.5px),radial-gradient(circle at 37px 50%,var(--blue) 0 5px,transparent 5.5px)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) 390px;gap:clamp(28px,5vw,76px);align-items:center}
+    h1{margin:0;font-size:clamp(42px,7vw,86px);line-height:.95;letter-spacing:-.075em;text-wrap:balance}
+    h1 .small{display:block;font-size:.31em;letter-spacing:.08em;color:var(--muted);margin-bottom:18px}
+    .mark{position:relative;display:inline-block;z-index:0}
+    .mark:after{content:"";position:absolute;left:-3%;right:-3%;bottom:.04em;height:.24em;background:rgba(212,154,58,.46);z-index:-1;border-radius:999px;transform:rotate(-1.4deg)}
+    .lead{margin:28px 0 0;max-width:760px;font-size:clamp(18px,2vw,23px);line-height:1.78;color:#3d352d}
+    .source-links{margin-top:25px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;max-width:860px}
+    .source-label{font-size:13px;font-weight:1000;letter-spacing:.12em;color:#5c5146}
+    .source-link{display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:9px 13px;border-radius:999px;text-decoration:none;border:1px solid var(--line);background:rgba(255,255,255,.58);font-size:14px;font-weight:850;color:#261f18;box-shadow:0 8px 22px rgba(58,40,18,.08)}
+    .source-link:hover{background:#fff;transform:translateY(-1px)}
+    .source-link:before{content:"↗";color:var(--red);font-weight:1000}
+    .trade-card{padding:28px;border-radius:32px;background:#171512;color:#fff7ec;box-shadow:0 22px 52px rgba(23,19,15,.24);position:relative;overflow:hidden;min-height:440px}
+    .trade-card:before{content:"BOS ⇄ PHI";position:absolute;right:-52px;top:98px;transform:rotate(90deg);font-size:70px;font-weight:1000;color:rgba(255,255,255,.08);letter-spacing:-.08em;white-space:nowrap}
+    .trade-card .label{font-size:13px;letter-spacing:.18em;color:#e2b468;font-weight:900;text-transform:uppercase}
+    .deal{display:grid;gap:18px;margin-top:26px}
+    .side{border:1px solid rgba(255,247,236,.18);border-radius:24px;padding:20px;background:rgba(255,255,255,.04)}
+    .side h3{margin:0 0 10px;font-size:18px;color:#f3c77a;letter-spacing:.02em}
+    .side ul{margin:0;padding-left:1.15em;color:rgba(255,247,236,.86);line-height:1.78}
+    .side li{margin:4px 0}
+    .status{margin-top:20px;border-top:1px dashed rgba(255,247,236,.28);padding-top:16px;color:rgba(255,247,236,.72);font-size:14px;line-height:1.7}
+    .section{margin-top:28px;background:rgba(255,250,241,.95);border-radius:30px;box-shadow:var(--shadow);overflow:hidden}
+    .inner{padding:clamp(26px,4vw,50px)}
+    h2{margin:0 0 12px;font-size:clamp(28px,4vw,48px);line-height:1.08;letter-spacing:-.06em;text-wrap:balance}
+    .sub{margin:0;max-width:900px;color:var(--muted);font-size:17px;line-height:1.78}
+    .judgment{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-top:32px}
+    .judgment .big{border-radius:28px;padding:30px;background:#193628;color:#fff7ec;min-height:260px}
+    .judgment .big h3{margin:0 0 16px;font-size:32px;letter-spacing:-.055em;line-height:1.12}
+    .judgment .big p{margin:0;color:rgba(255,247,236,.80);font-size:17px;line-height:1.78}
+    .mini-stack{display:grid;gap:14px}
+    .mini{border:1px solid var(--line);border-radius:24px;padding:22px;background:rgba(255,255,255,.50)}
+    .mini b{display:block;margin-bottom:8px;color:#243d31;font-size:15px;letter-spacing:.08em}
+    .mini p{margin:0;color:#4d4238;line-height:1.65;font-size:15px}
+    .timeline{margin-top:34px;display:grid;gap:16px}
+    .tl{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:22px;border-radius:24px;border:1px solid var(--line);background:rgba(255,255,255,.46)}
+    .time{font-weight:1000;font-size:18px;color:var(--blue);letter-spacing:-.03em}
+    .tl h3{margin:0 0 8px;font-size:22px;letter-spacing:-.04em;line-height:1.25}
+    .tl p{margin:0;color:#463b31;line-height:1.72;font-size:16px}
+    .tag{display:inline-flex;margin-left:8px;padding:3px 8px;border-radius:999px;background:#ead8bc;color:#665744;font-size:12px;font-weight:850;vertical-align:middle;white-space:nowrap}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+    .player{border-radius:28px;padding:26px;border:1px solid var(--line);background:rgba(255,255,255,.48);position:relative;overflow:hidden}
+    .player:after{content:"";position:absolute;right:-48px;bottom:-48px;width:140px;height:140px;border-radius:50%;background:rgba(37,61,98,.10)}
+    .player:nth-child(2):after{background:rgba(167,55,47,.10)}
+    .player h3{margin:0 0 12px;font-size:28px;letter-spacing:-.055em}
+    .player p{margin:0;color:#4a4037;line-height:1.72}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px;position:relative;z-index:1}
+    .stat{border-radius:18px;background:#171512;color:#fff7ec;padding:16px;min-height:92px}
+    .stat b{display:block;font-size:26px;letter-spacing:-.05em;color:#f1c16f}
+    .stat span{display:block;margin-top:6px;color:rgba(255,247,236,.70);font-size:13px;line-height:1.35}
+    table{width:100%;border-collapse:collapse;margin-top:28px;overflow:hidden;border-radius:22px;background:rgba(255,255,255,.42)}
+    th,td{padding:16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;line-height:1.62}
+    th{font-size:14px;color:#5b4f42;background:rgba(239,225,204,.75)}
+    tr:last-child td{border-bottom:none}
+    .source-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:28px}
+    .source-card{border:1px solid var(--line);border-radius:22px;padding:20px;background:rgba(255,255,255,.50)}
+    .source-card a{font-weight:900;text-decoration:none;color:#1d3c30}
+    .source-card p{margin:8px 0 0;color:#5b5046;line-height:1.65;font-size:14px}
+    .final{margin-top:28px;border-radius:36px;color:#fff7ec;background:radial-gradient(circle at 12% 20%,rgba(212,154,58,.22),transparent 25rem),#15120f;padding:clamp(30px,5vw,58px);display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;box-shadow:var(--shadow)}
+    .final h2{margin:0;font-size:clamp(34px,5vw,62px);line-height:.98;color:#fff7ec}
+    .final p{margin:0;color:rgba(255,247,236,.80);font-size:19px;line-height:1.8}
+    .note{margin-top:18px;color:rgba(255,247,236,.56);font-size:13px;line-height:1.7}
+    @media(max-width:920px){.hero-grid,.judgment,.two-col,.final{grid-template-columns:1fr}.trade-card{min-height:auto}.source-grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:640px){.wrap{width:min(100vw - 18px,1180px);padding-top:10px}.hero,.section,.final{border-radius:24px}.topbar{align-items:flex-start;flex-direction:column;margin-bottom:34px}.tl{grid-template-columns:1fr;gap:8px;padding:18px}.stats{grid-template-columns:1fr}th,td{padding:12px;font-size:14px}.trade-card{padding:22px}.source-link{width:100%;justify-content:flex-start}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="title">
+      <div class="topbar">
+        <div class="badge"><span class="dot" aria-hidden="true"></span> NBA 交易时间线</div>
+        <div>Jaylen Brown · Paul George · Celtics ⇄ 76ers</div>
+      </div>
+      <div class="hero-grid">
+        <div>
+          <h1 id="title"><span class="small">布朗去费城</span>一笔被<span class="mark">低估感</span>推着走的分手</h1>
+          <p class="lead">这不是“布朗单方面逼宫”这么简单。更像是：布朗长期觉得自己的赢球价值没有被充分承认；凯尔特人又真的把他放进过字母哥谈判；当 76 人愿意拿保罗·乔治和未来签补价，双方就走到了“不必强留”的位置。</p>
+          <div class="source-links" aria-label="主要来源">
+            <span class="source-label">主要来源</span>
+            <a class="source-link" href="https://www.nba.com/news/reports-sixers-to-acquire-jaylen-brown-from-celtics" target="_blank" rel="noopener">NBA.com 交易报道</a>
+            <a class="source-link" href="https://www.spotrac.com/nba/player/_/id/20208/jaylen-brown" target="_blank" rel="noopener">Spotrac：Brown 合同</a>
+            <a class="source-link" href="https://www.spotrac.com/nba/player/_/id/6892/paul-george" target="_blank" rel="noopener">Spotrac：George 合同</a>
+            <a class="source-link" href="https://www.basketball-reference.com/players/b/brownja02.html" target="_blank" rel="noopener">Basketball-Reference：Brown</a>
+            <a class="source-link" href="https://www.basketball-reference.com/players/g/georgpa01.html" target="_blank" rel="noopener">Basketball-Reference：George</a>
+          </div>
+        </div>
+        <aside class="trade-card" aria-label="交易结构">
+          <div class="label">reported deal</div>
+          <div class="deal">
+            <div class="side">
+              <h3>76 人得到</h3>
+              <ul><li>Jaylen Brown</li></ul>
+            </div>
+            <div class="side">
+              <h3>凯尔特人得到</h3>
+              <ul>
+                <li>Paul George</li>
+                <li>2028 首轮</li>
+                <li>2031 首轮，来自 76 人</li>
+                <li>2028 次轮，GSW / OKC / MIL 中最优</li>
+                <li>2030 次轮，WAS / POR / PHX 中最优</li>
+              </ul>
+            </div>
+          </div>
+          <div class="status">NBA.com 使用 “Reports” 口径：Shams 首报，The Athletic 与 The Boston Globe 确认。球队正式公告前仍属于高可信报道阶段。</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <h2>当前判断</h2>
+        <p class="sub">能确定的是交易本身已有可靠来源背书；能推断的是布朗的不满很可能是催化剂；不能直接下结论的是“布朗正式申请交易”。这三层要分开。</p>
+        <div class="judgment">
+          <div class="big">
+            <h3>不是单向逼宫，是双方互信已经松动。</h3>
+            <p>布朗打出生涯最佳赛季，却在字母哥交易市场上被球队当作筹码讨论。对一个刚拿过总决赛 MVP、又在塔图姆伤缺期扛球队的人来说，这种信号足够伤关系。凯尔特人则面对塔图姆恢复期、巨额薪资和未来弹性，选择在布朗价值高点换回乔治与签。</p>
+          </div>
+          <div class="mini-stack">
+            <div class="mini"><b>证据强</b><p>NBA.com 明确写到布朗似乎 felt underappreciated，尤其是在他被放进雄鹿/字母哥谈判后。</p></div>
+            <div class="mini"><b>证据中</b><p>布朗交易前公开强调自己十年赢球贡献，像是在回应“价值被低估”的叙事。</p></div>
+            <div class="mini"><b>证据不足</b><p>目前没有看到可靠源写 Brown requested a trade，不能说他正式逼宫。</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <h2>完整时间线</h2>
+        <p class="sub">这条线要同时看布朗和乔治。布朗线解释为什么会分手，乔治线解释为什么 76 人愿意贴签升级。</p>
+        <div class="timeline">
+          <article class="tl"><div class="time">2016</div><div><h3>布朗以探花身份进入凯尔特人 <span class="tag">基础事实</span></h3><p>他不是普通外来球星，而是凯尔特人自己培养了十年的核心。后续离队自然带有“一个时代结束”的意味。</p></div></article>
+          <article class="tl"><div class="time">2017–2023</div><div><h3>双探花持续赢球，但布朗长期处在“二号人物”叙事里 <span class="tag">背景判断</span></h3><p>塔图姆更像球队门面，布朗则常被视为副手。控运、左手、失误等问题长期被放大，这为后来的“被低估感”埋了土。</p></div></article>
+          <article class="tl"><div class="time">2024</div><div><h3>凯尔特人夺冠，布朗拿 ECF MVP 和 Finals MVP <span class="tag">高点</span></h3><p>按理说这是布朗身份跃迁的节点：他不只是冠军拼图，而是总决赛 MVP 级别核心。但外部叙事和球队价值排序未必真正改变。</p></div></article>
+          <article class="tl"><div class="time">2024 夏</div><div><h3>保罗·乔治加入 76 人，费城押注三巨头 <span class="tag">乔治线</span></h3><p>Spotrac 显示乔治合同为 4 年约 2.116 亿美元，全额保障。76 人当时押的是 Embiid + Maxey + George 的争冠窗口。</p></div></article>
+          <article class="tl"><div class="time">2024-25</div><div><h3>乔治在 76 人第一年出勤和产量下滑 <span class="tag">风险出现</span></h3><p>Basketball-Reference 数据显示，他从快船时期 74 场、22.6 分，变成 76 人第一年 41 场、16.2 分。不是不能打，但已经不是稳定二当家资产。</p></div></article>
+          <article class="tl"><div class="time">2025 季后赛</div><div><h3>塔图姆遭遇跟腱伤，凯尔特人结构动摇 <span class="tag">转折</span></h3><p>NBA.com 提到塔图姆因此错过 2025-26 赛季大部分时间。双探花争冠框架不再稳定，球队开始重新评估未来路线。</p></div></article>
+          <article class="tl"><div class="time">2025-26</div><div><h3>布朗打出生涯最佳赛季 <span class="tag">价值高点</span></h3><p>布朗场均 28.7 分、6.9 篮板、5.1 助攻，入选全明星和 All-NBA 二阵，MVP 投票第 6。站在布朗视角，他刚证明自己能扛球队。</p></div></article>
+          <article class="tl"><div class="time">2026</div><div><h3>凯尔特人把布朗放进字母哥交易谈判 <span class="tag">关系裂点</span></h3><p>NBA.com 明确写到：当 Antetokounmpo 进入市场时，Boston had included him in trade talks with Milwaukee。这件事被外界知道后，布朗似乎觉得自己被低估。</p></div></article>
+          <article class="tl"><div class="time">交易前周末</div><div><h3>布朗公开强调自己的赢球贡献 <span class="tag">公开信号</span></h3><p>他写道，自己进联盟十年来，没有人赢过更多常规赛 + 季后赛合计比赛。NBA.com 也补充：凯尔特人在布朗出场时合计赢了 523 场。</p></div></article>
+          <article class="tl"><div class="time">2026-07-01</div><div><h3>交易报道出现 <span class="tag">结果</span></h3><p>NBA.com 报道凯尔特人与 76 人达成交易：布朗去费城，乔治和多枚未来签去波士顿。双探花时代正式走向尾声。</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <h2>两名核心球员的资产形态完全不同</h2>
+        <p class="sub">这笔交易不能理解为“乔治等价换布朗”。真正结构是：乔治的大合同 + 首轮补偿 + 次轮补偿，换布朗的巅峰期。</p>
+        <div class="two-col">
+          <article class="player">
+            <h3>Jaylen Brown</h3>
+            <p>29-30 岁区间，刚打出生涯最佳，拥有冠军和总决赛 MVP 履历。合同很贵，但仍是巅峰侧翼资产。</p>
+            <div class="stats">
+              <div class="stat"><b>28.7</b><span>2025-26 场均得分</span></div>
+              <div class="stat"><b>6.9</b><span>场均篮板</span></div>
+              <div class="stat"><b>5.1</b><span>场均助攻</span></div>
+            </div>
+          </article>
+          <article class="player">
+            <h3>Paul George</h3>
+            <p>仍有投射、尺寸和经验，但年龄、出勤和合同风险都很明显。对凯尔特人来说，他更像薪资配平 + 短期可用侧翼。</p>
+            <div class="stats">
+              <div class="stat"><b>17.3</b><span>2025-26 场均得分</span></div>
+              <div class="stat"><b>37</b><span>2025-26 出场数</span></div>
+              <div class="stat"><b>39.2%</b><span>2025-26 三分命中率</span></div>
+            </div>
+          </article>
+        </div>
+
+        <table aria-label="关键合同对比">
+          <thead><tr><th>项目</th><th>Jaylen Brown</th><th>Paul George</th></tr></thead>
+          <tbody>
+            <tr><td>当前合同</td><td>5 年约 2.854 亿美元，2029 年 UFA</td><td>4 年约 2.116 亿美元，2028 年 UFA</td></tr>
+            <tr><td>2026-27 薪资 / cap hit</td><td>约 5707.9 万美元</td><td>约 5412.6 万美元</td></tr>
+            <tr><td>2027-28</td><td>约 6101.5 万美元</td><td>球员选项，约 5658.7 万美元</td></tr>
+            <tr><td>交易含义</td><td>76 人用未来签把乔治风险资产升级成巅峰 Brown</td><td>凯尔特人用可用老将 + 签位换未来弹性，也结束与 Brown 的关系消耗</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <h2>事实、判断和还不能说死的地方</h2>
+        <table aria-label="证据分层">
+          <thead><tr><th>层级</th><th>内容</th><th>目前证据</th></tr></thead>
+          <tbody>
+            <tr><td>事实</td><td>凯尔特人和 76 人已有 Brown / George 交易的高可信报道。</td><td>NBA.com 报道，称 Shams 首报，The Athletic 与 The Boston Globe 确认。</td></tr>
+            <tr><td>事实</td><td>交易包为 Brown 换 George + 两个首轮 + 两个次轮。</td><td>NBA.com 与 Spotrac 均列出交易结构，Spotrac 还标注部分签位细节。</td></tr>
+            <tr><td>判断</td><td>布朗不满和“被低估感”很可能是交易催化剂。</td><td>NBA.com 使用 felt underappreciated，并点名 Giannis 谈判伤害关系。</td></tr>
+            <tr><td>不能说死</td><td>布朗正式申请交易，或指定 76 人。</td><td>目前未见可靠来源直接写 Brown requested a trade。</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <h2>来源和读法</h2>
+        <p class="sub">这页没有引用中文流量号作为事实依据。中文文章可以作为“传播入口”，但交易事实应以后续可核验的英文来源和数据库更新为准。</p>
+        <div class="source-grid">
+          <div class="source-card"><a href="https://www.nba.com/news/reports-sixers-to-acquire-jaylen-brown-from-celtics" target="_blank" rel="noopener">NBA.com：Reports: Sixers to acquire Jaylen Brown from Celtics</a><p>交易事实、双方得到的筹码、布朗“不被充分重视”的背景、塔图姆伤病和布朗社媒表态。</p></div>
+          <div class="source-card"><a href="https://www.spotrac.com/nba/player/_/id/20208/jaylen-brown" target="_blank" rel="noopener">Spotrac：Jaylen Brown 合同页</a><p>Pending trade、Brown 合同金额、2026-27 cap hit、未来薪资。</p></div>
+          <div class="source-card"><a href="https://www.spotrac.com/nba/player/_/id/6892/paul-george" target="_blank" rel="noopener">Spotrac：Paul George 合同页</a><p>Pending trade、George 合同金额、球员选项和交易描述。</p></div>
+          <div class="source-card"><a href="https://www.basketball-reference.com/players/b/brownja02.html" target="_blank" rel="noopener">Basketball-Reference：Jaylen Brown</a><p>布朗近年数据、荣誉、2025-26 生涯高点。</p></div>
+          <div class="source-card"><a href="https://www.basketball-reference.com/players/g/georgpa01.html" target="_blank" rel="noopener">Basketball-Reference：Paul George</a><p>乔治近三年出勤和数据趋势，尤其是从快船到 76 人后的下滑。</p></div>
+          <div class="source-card"><a href="https://baijiahao.baidu.com/s?id=1869552901948674981" target="_blank" rel="noopener">百家号原传播页</a><p>只作为中文传播样本，不作为核心事实来源。它的标题和写法需要用外媒源反查。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final">
+      <h2>最后压成一句话</h2>
+      <div>
+        <p>这笔交易更像是布朗与凯尔特人互信松动后的和平拆伙：布朗的不满提供了情绪推力，凯尔特人的重构需求提供了管理层理由，76 人手里的乔治合同和未来签则提供了交易结构。</p>
+        <div class="note">更新口径：基于 2026-07-02 可访问的 NBA.com、Spotrac、Basketball-Reference 信息。若球队正式公告或体检细节改变，应以最新公告为准。</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
