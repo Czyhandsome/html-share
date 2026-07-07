@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>“丘班”风波与中国基础数学：一条时间线，两层问题</title>
+  <meta name="description" content="围绕澎湃社论《“丘班”突围，任重道远》，整理丘成桐数学领军计划时间线，并分析中国基础数学为什么薄弱、英法德美俄为什么能保住纯数学传统。" />
+  <style>
+    :root {
+      --bg: #f7f3ea;
+      --paper: #fffaf0;
+      --ink: #1e1a16;
+      --muted: #6f6255;
+      --line: #d8c9b5;
+      --soft: #efe4d2;
+      --accent: #8b3d2b;
+      --accent2: #215f73;
+      --green: #4f6d38;
+      --shadow: 0 18px 50px rgba(55, 38, 21, 0.12);
+      --radius: 22px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 18% 4%, rgba(139, 61, 43, .09), transparent 30%),
+        radial-gradient(circle at 84% 0%, rgba(33, 95, 115, .10), transparent 32%),
+        linear-gradient(180deg, #fbf7ee 0%, var(--bg) 46%, #f2eadb 100%);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.72;
+    }
+    a { color: var(--accent2); text-decoration: none; border-bottom: 1px solid rgba(33,95,115,.35); }
+    a:hover { border-bottom-color: var(--accent2); }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 28px 22px 72px; }
+    header.hero {
+      margin: 18px 0 28px;
+      padding: 54px 52px 44px;
+      border: 1px solid rgba(216,201,181,.75);
+      border-radius: 30px;
+      background: rgba(255,250,240,.82);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    header.hero:before {
+      content: "";
+      position: absolute;
+      inset: -120px -80px auto auto;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(139,61,43,.12), transparent 65%);
+    }
+    .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: .08em; font-size: 13px; text-transform: uppercase; }
+    h1 { font-size: clamp(34px, 5vw, 62px); line-height: 1.08; margin: 14px 0 18px; letter-spacing: -0.04em; }
+    .subtitle { max-width: 760px; font-size: 20px; color: #4d4035; margin: 0; }
+    .meta { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 14px; }
+    .pill { padding: 7px 12px; border-radius: 999px; background: var(--soft); border: 1px solid rgba(216,201,181,.85); }
+    nav.toc { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 28px; }
+    nav.toc a { border: 1px solid var(--line); background: rgba(255,250,240,.72); padding: 10px 14px; border-radius: 999px; color: #342a22; }
+    section { margin: 24px 0; padding: 32px; border-radius: var(--radius); background: rgba(255,250,240,.72); border: 1px solid rgba(216,201,181,.78); box-shadow: 0 10px 28px rgba(55,38,21,.06); }
+    h2 { font-size: 30px; line-height: 1.2; margin: 0 0 18px; letter-spacing: -0.02em; }
+    h3 { font-size: 20px; margin: 26px 0 10px; }
+    p { margin: 12px 0; }
+    .lead { font-size: 18px; color: #3f352d; }
+    .note { color: var(--muted); font-size: 14px; }
+    .callout { border-left: 5px solid var(--accent); background: #f6ecdc; padding: 18px 20px; border-radius: 14px; margin: 18px 0; }
+    .callout.blue { border-left-color: var(--accent2); background: #e9f0ef; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .card { padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.42); }
+    .card h3 { margin-top: 0; }
+    .tag { display: inline-block; color: var(--accent); font-weight: 700; font-size: 13px; margin-bottom: 8px; }
+    .timeline { position: relative; padding-left: 24px; }
+    .timeline:before { content: ""; position: absolute; left: 7px; top: 8px; bottom: 8px; width: 2px; background: var(--line); }
+    .event { position: relative; margin: 0 0 18px; padding: 16px 18px 16px 20px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,255,255,.50); }
+    .event:before { content: ""; position: absolute; left: -23px; top: 21px; width: 12px; height: 12px; background: var(--accent); border-radius: 50%; border: 3px solid var(--paper); }
+    .date { font-weight: 800; color: var(--accent); margin-bottom: 4px; }
+    .event p { margin: 5px 0; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0 4px; overflow: hidden; border-radius: 14px; }
+    th, td { padding: 13px 12px; vertical-align: top; border-bottom: 1px solid var(--line); }
+    th { text-align: left; color: #49392d; background: #efe2cf; }
+    tr:last-child td { border-bottom: 0; }
+    .quote { font-size: 22px; line-height: 1.55; padding: 22px 24px; background: #241f1a; color: #fff6e8; border-radius: 20px; margin: 20px 0; }
+    .cols3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .small { font-size: 14px; color: var(--muted); }
+    .sources li { margin-bottom: 9px; }
+    footer { margin-top: 28px; padding: 24px 4px; color: var(--muted); font-size: 14px; }
+    @media (max-width: 820px) {
+      .wrap { padding: 18px 14px 48px; }
+      header.hero { padding: 34px 24px 30px; }
+      section { padding: 24px 18px; }
+      .grid, .cols3 { grid-template-columns: 1fr; }
+      .subtitle { font-size: 18px; }
+    }
+    @media print {
+      body { background: white; }
+      header.hero, section { box-shadow: none; background: white; }
+      nav.toc { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="eyebrow">丘班风波 / 基础数学 / 中外对比</div>
+      <h1>“丘班”风波背后，是一个反内卷项目被内卷系统学会了</h1>
+      <p class="subtitle">这页把三件事放在一起看：澎湃社论触发的丘班时间线，中国基础数学为什么长期显得薄，英法德美俄为什么能在同样功利的社会里保住纯数学传统。</p>
+      <div class="meta">
+        <span class="pill">整理时间：2026-07-07 19:50 CST</span>
+        <span class="pill">公开分享稿</span>
+        <span class="pill">事实、判断、待核实分开写</span>
+      </div>
+    </header>
+
+    <nav class="toc">
+      <a href="#takeaway">先说判断</a>
+      <a href="#timeline">丘班时间线</a>
+      <a href="#weakness">中国基础数学为什么薄</a>
+      <a href="#comparison">为什么强国能缓冲功利压力</a>
+      <a href="#sources">来源</a>
+    </nav>
+
+    <section id="takeaway">
+      <h2>先说判断</h2>
+      <p class="lead">“丘班”不是一个笑话，也不该因为几名学生挂科就被一棍子打死。真正刺眼的是另一件事：一个本来想绕开高考和奥赛内卷的项目，几乎立刻被中学、家长和培训机构改造成新的升学赛道。</p>
+      <div class="callout">
+        <p>这不是学生个人“可悲”那么简单。更像是筛选系统被训练系统反向优化了：你设计一套机制想找数学志趣，市场很快拆出题型、话术、材料包装和定向培训。</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <span class="tag">事实层</span>
+          <h3>官方项目仍在运行</h3>
+          <p>求真书院 2026 年招生简章仍写明：每年不超过 100 人，初三至高三可报，八年制，3+2+3 本博衔接，预科考察合格后办理录取。</p>
+        </div>
+        <div class="card">
+          <span class="tag">争议层</span>
+          <h3>“挂科清退”公开细节有限</h3>
+          <p>澎湃社论采用“多名学生数学挂科、面临清退”的说法，但我没有看到清华公开发布具体名单或处分公告。这里更适合把它看成一场制度争议的导火索。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>丘班时间线</h2>
+      <div class="timeline">
+        <div class="event">
+          <div class="date">2021 年</div>
+          <p>清华大学丘成桐数学科学领军人才培养计划启动。项目面向中学阶段学生，目标是从本科连续培养到博士阶段，走八年制数学人才培养路线。</p>
+        </div>
+        <div class="event">
+          <div class="date">2021 年 4 月</div>
+          <p>首届预科班学生进入清华校园。求真书院后续介绍提到，首届预科班年龄跨度为初三至高三。</p>
+        </div>
+        <div class="event">
+          <div class="date">2022 年 5 月</div>
+          <p>求真书院发布严正声明：从未授权任何个人、中学及培训机构开展培训或指导，也未与任何个人、中学及培训机构有合作关系。</p>
+          <p class="small">这个节点很关键。它说明“借求真/丘班名义卖培训”的苗头，不是 2026 年才冒出来。</p>
+        </div>
+        <div class="event">
+          <div class="date">2023 年前后</div>
+          <p>澎湃社论提到，全国多地中学“丘成桐少年班”批量开班。地方中学、家长和机构逐渐把“丘班”理解成一条新升学通道。</p>
+        </div>
+        <div class="event">
+          <div class="date">2024 年 10 月</div>
+          <p>清华发布 2025 年数学领军计划招生简章。选拔对象仍是全球中学生，内地面向初三至高三。选拔包括材料评审、学科能力测试、面试、心理测试、体质测试和预科培养。</p>
+        </div>
+        <div class="event">
+          <div class="date">2025 年 3 月至 6 月</div>
+          <p>2025 级相关学生预科培养。简章明确：预科期间考察大学学习适应能力，合格方可办理录取手续。</p>
+        </div>
+        <div class="event">
+          <div class="date">2025 年 9 月</div>
+          <p>清华发布 2026 年招生简章。学科能力测试一试包括中学数学全部内容、微积分、线性代数、群与群作用的基本概念；二试为开放性内容。</p>
+        </div>
+        <div class="event">
+          <div class="date">2026 年 2 月至 6 月</div>
+          <p>2026 级入围学生原则上到校接受预科培养。预科本来就不是“提前锁定清华”的装饰环节，而是录取前的一道实际考察。</p>
+        </div>
+        <div class="event">
+          <div class="date">2026 年 7 月 7 日</div>
+          <p>澎湃发布社论《“丘班”突围，任重道远》，把“预科挂科/清退”放进更大的教育改革问题里看：反奥赛内卷的通道，被培训产业和功利升学观裹挟。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="weakness">
+      <h2>中国基础数学为什么显得薄</h2>
+      <p class="lead">中国不是不会数学。中小学训练、竞赛、工程应用、计算、统计、优化、AI 相关方向都不弱。相对薄的是现代基础数学的原创传统和持续产出世界级理论突破的共同体。</p>
+      <table>
+        <thead>
+          <tr><th>常见误解</th><th>更准确的说法</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>中国历史重视教育，所以应该自然重视数学。</td><td>传统教育主要服务经学、文章、选官和治理。数学长期更像历法、丈量、税粮、工程的工具，不是最高知识形态。</td></tr>
+          <tr><td>学生刻苦刷题，基础数学就会强。</td><td>刷题强能培养解题者，不自动培养能重新定义问题的人。研究数学需要长期选题、概念重构、容忍失败和学术审美。</td></tr>
+          <tr><td>中国不缺钱，数学应该很快追上。</td><td>基础数学追的是代际积累。老师、讨论班、问题谱系、同行判断和学派传统，靠钱能加速，但不能一夜补齐。</td></tr>
+          <tr><td>只要把最聪明的学生圈进项目就行。</td><td>入口一旦绑定清华录取，就会被培训市场攻克。真正难的是判断长期志趣，而不是判断谁更会准备一次选拔。</td></tr>
+        </tbody>
+      </table>
+      <div class="quote">中国很擅长培养“会做数学题的人”。基础数学强国要稳定培养的，是“能重新定义问题的人”。这两种能力有关，但不是一回事。</div>
+      <div class="cols3">
+        <div class="card"><h3>历史断层</h3><p>现代数学在 17 到 20 世纪形成制度和学科爆发。中国近代长期处在战争、救亡、重建和政治冲击中，现代数学共同体起步晚，还被多次打断。</p></div>
+        <div class="card"><h3>评价压力</h3><p>基础数学很多成果短期不可见。若高校评价长期盯论文数量、项目、帽子和可汇报成果，年轻人就会避开慢问题和高风险问题。</p></div>
+        <div class="card"><h3>人才流向</h3><p>数学能力最强的人，可以去计算机、AI、金融、量化、工程或海外体系。纯数学如果缺职业安全和声望，很难长期留住最强的一批。</p></div>
+      </div>
+    </section>
+
+    <section id="comparison">
+      <h2>英法德美俄为什么能在功利社会里保住数学</h2>
+      <p class="lead">功利、短平快、金融和科技行业吸人，这些压力不是中国独有。差别在于数学强国有更厚的缓冲层，能把一部分聪明人从短期激励里保护出来。</p>
+      <div class="grid">
+        <div class="card">
+          <span class="tag">先发复利</span>
+          <h3>他们不是每代从零开始</h3>
+          <p>法国、德国、英国、美国、俄罗斯都有较长的现代数学传统。学生进入的是一套已经存在的问题谱系、讨论班文化、师承网络和同行审美。</p>
+        </div>
+        <div class="card">
+          <span class="tag">职业化</span>
+          <h3>基础研究是一份正常职业</h3>
+          <p>法国有 CNRS、IHES、ENS，德国有 Max Planck，美国有 IAS、Princeton、MIT、Berkeley 等节点。它们给纯数学提供体面的职位、时间和同行尊重。</p>
+        </div>
+        <div class="card">
+          <span class="tag">学术岛屿</span>
+          <h3>不需要全社会都反功利</h3>
+          <p>美国社会很功利，华尔街和硅谷吸人更猛。但 IAS、Princeton、Chicago、Berkeley 这些高密度节点，足以在功利社会旁边保留少数学术岛屿。</p>
+        </div>
+        <div class="card">
+          <span class="tag">非市场声望</span>
+          <h3>数学也能给身份回报</h3>
+          <p>法国 ENS 学生选择纯数学，不会被默认看成“没想明白赚钱”。顶尖数学家的收入不如量化，但在学术和国家精英体系里的声望很高。</p>
+        </div>
+        <div class="card">
+          <span class="tag">美国特殊性</span>
+          <h3>全球人才收割机</h3>
+          <p>美国不只靠本土中小学系统。它靠顶尖 PhD 项目、英语学术中心、教职和博士后体系，把欧洲、俄罗斯、中国、印度、伊朗等地的人才吸进去。</p>
+        </div>
+        <div class="card">
+          <span class="tag">俄罗斯路径</span>
+          <h3>数学被放进国家精英体系</h3>
+          <p>俄罗斯/苏联的强项在数学圈、导师学派和 seminar 文化。它也有政治和制度问题，但数学曾是国家科学精英体系的重要上升通道。</p>
+        </div>
+      </div>
+      <div class="callout blue">
+        <p>所以答案不是“他们更不功利”。答案是：他们在功利洪流旁边，保住了足够宽、足够稳、足够有声望的纯数学通道。中国真正要补的，是这些缓冲层。</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>丘班这类项目到底该怎么改</h2>
+      <p>丘班的方向不是错的。中国确实需要给偏科数学苗子一条路，也需要允许高风险的基础学科人才试验。问题在于，只要这个通道和清华录取强绑定，它就一定会被当作升学工程来攻克。</p>
+      <table>
+        <thead><tr><th>问题</th><th>比较现实的修法</th></tr></thead>
+        <tbody>
+          <tr><td>培训机构拆题、包装材料、模拟面试。</td><td>提高长期观察、开放性问题、阅读和证明表达的权重，减少短期集训能复制的内容。</td></tr>
+          <tr><td>家长把项目当“不高考进清华”。</td><td>把预科分流和清退标准讲清楚。入场前就让家庭知道，这不是保送保险，而是高强度、高风险训练。</td></tr>
+          <tr><td>地方中学借“丘班/丘少班”招生。</td><td>官方声明之外，还要持续处理冒名合作、暗示升学绑定、借名培训宣传。</td></tr>
+          <tr><td>学生进来后才发现不适合。</td><td>分流不该被污名化。真正的问题不是分流本身，而是前端选拔有没有被培训生态污染。</td></tr>
+        </tbody>
+      </table>
+      <p class="lead">如果只记一个点：丘班风波不是“几个天才挂科”的八卦，而是一次压力测试。它测出来的，是中国教育系统会把任何稀缺通道迅速题型化、培训化、升学化。</p>
+    </section>
+
+    <section id="sources">
+      <h2>来源和说明</h2>
+      <ul class="sources">
+        <li>澎湃新闻社论：<a href="https://www.thepaper.cn/newsDetail_forward_33534020">《【社论】“丘班”突围，任重道远》</a>，2026-07-07。</li>
+        <li>清华大学求真书院：<a href="http://qzc.tsinghua.edu.cn/info/1070/7623.htm">《清华大学2026年丘成桐数学科学领军人才培养计划招生简章》</a>。</li>
+        <li>清华大学求真书院：<a href="http://qzc.tsinghua.edu.cn/info/1070/6528.htm">《清华大学2025年丘成桐数学科学领军人才培养计划招生简章》</a>。</li>
+        <li>清华大学求真书院：<a href="http://qzc.tsinghua.edu.cn/info/1018/1851.htm">《清华大学求真书院严正声明》</a>，2022-05。</li>
+      </ul>
+      <p class="note">说明：关于“多名学生数学挂科、面临清退”的细节，目前公开材料主要来自媒体报道和网络讨论；本页没有把未经官方公开的名单、人数或内部处分细节当作已核实事实。</p>
+    </section>
+
+    <footer>
+      <p>这是一份面向公开分享的整理稿。它保留事实来源、判断和不确定性，不包含私人信息、内部材料或未公开名单。</p>
+    </footer>
+  </div>
+</body>
+</html>
