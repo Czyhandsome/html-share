@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>大模型底层技术学习路线：每周 1–2 小时版</title>
+  <meta name="description" content="一份面向工程同学的大模型底层技术学习路线：从 micrograd、makemore 到 GPT from scratch，用少量精选材料打通 forward、loss、backprop、attention、tokenizer 与训练本质。" />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #10182f;
+      --panel-2: #121d38;
+      --card: rgba(255,255,255,.075);
+      --card-strong: rgba(255,255,255,.12);
+      --text: #edf3ff;
+      --muted: #aab7d6;
+      --faint: #7684a6;
+      --line: rgba(255,255,255,.16);
+      --blue: #7cc4ff;
+      --cyan: #69e2d6;
+      --green: #9df0ad;
+      --yellow: #ffd166;
+      --orange: #ff9f6e;
+      --red: #ff748d;
+      --purple: #c9a7ff;
+      --shadow: 0 22px 80px rgba(0,0,0,.35);
+      --radius: 22px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: var(--sans);
+      line-height: 1.72;
+      background:
+        radial-gradient(circle at 14% 10%, rgba(124,196,255,.22), transparent 34%),
+        radial-gradient(circle at 88% 8%, rgba(201,167,255,.16), transparent 30%),
+        radial-gradient(circle at 72% 70%, rgba(105,226,214,.12), transparent 32%),
+        linear-gradient(180deg, #080d1b 0%, var(--bg) 50%, #090d18 100%);
+      min-height: 100vh;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1180px, calc(100% - 36px)); margin: 0 auto; }
+    .hero { padding: 68px 0 30px; }
+    .eyebrow {
+      display: inline-flex; gap: 9px; align-items: center;
+      padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px;
+      color: var(--cyan); background: rgba(105,226,214,.08); font-size: 13px;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 18px var(--cyan); }
+    h1 { margin: 20px 0 14px; font-size: clamp(34px, 6vw, 74px); line-height: 1.02; letter-spacing: -.045em; max-width: 980px; }
+    .lead { margin: 0; max-width: 920px; color: #cfd9f6; font-size: clamp(17px, 2.1vw, 22px); }
+    .hero-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 18px; margin-top: 30px; }
+    .panel { border: 1px solid var(--line); background: linear-gradient(180deg, rgba(255,255,255,.09), rgba(255,255,255,.045)); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .hero-card { padding: 24px; }
+    .thesis { font-size: 22px; line-height: 1.55; margin: 0; }
+    .thesis strong { color: var(--yellow); font-weight: 720; }
+    .mini-list { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 12px; }
+    .mini-list li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; color: var(--muted); }
+    .tick { width: 24px; height: 24px; border-radius: 9px; display: grid; place-items: center; background: rgba(157,240,173,.13); color: var(--green); font-weight: 800; }
+    .profile { padding: 22px; }
+    .profile h2, .card h3, .section h2 { margin: 0; }
+    .profile h2 { font-size: 19px; }
+    .tag-grid { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 15px; }
+    .tag { border: 1px solid var(--line); background: rgba(255,255,255,.06); padding: 7px 10px; border-radius: 999px; color: #dbe5ff; font-size: 13px; }
+    .nav { position: sticky; top: 0; z-index: 10; backdrop-filter: blur(18px); background: rgba(8,13,27,.76); border-top: 1px solid rgba(255,255,255,.06); border-bottom: 1px solid rgba(255,255,255,.1); }
+    .nav-inner { display: flex; gap: 10px; overflow-x: auto; padding: 10px 0; }
+    .nav a { text-decoration: none; color: var(--muted); border: 1px solid transparent; padding: 8px 11px; border-radius: 999px; white-space: nowrap; font-size: 14px; }
+    .nav a:hover { color: var(--text); border-color: var(--line); background: rgba(255,255,255,.06); }
+    .section { padding: 54px 0 10px; }
+    .section-head { display: flex; justify-content: space-between; gap: 20px; align-items: end; margin-bottom: 20px; }
+    .section h2 { font-size: clamp(26px, 3.6vw, 42px); line-height: 1.12; letter-spacing: -.025em; }
+    .section .sub { color: var(--muted); margin: 8px 0 0; max-width: 760px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .card { padding: 21px; border: 1px solid var(--line); border-radius: 20px; background: var(--card); }
+    .card h3 { font-size: 19px; line-height: 1.35; }
+    .card p { color: var(--muted); margin: 10px 0 0; }
+    .num { font-family: var(--mono); color: var(--faint); font-size: 13px; margin-bottom: 8px; }
+    .accent-blue { border-color: rgba(124,196,255,.32); }
+    .accent-green { border-color: rgba(157,240,173,.32); }
+    .accent-yellow { border-color: rgba(255,209,102,.34); }
+    .accent-purple { border-color: rgba(201,167,255,.34); }
+    .path { position: relative; display: grid; gap: 16px; }
+    .phase { display: grid; grid-template-columns: 120px 1fr; gap: 16px; align-items: stretch; }
+    .phase-time { border: 1px solid var(--line); border-radius: 20px; padding: 18px; background: rgba(255,255,255,.05); color: var(--muted); }
+    .phase-time strong { display: block; color: var(--text); font-size: 24px; line-height: 1; margin-bottom: 8px; }
+    .phase-main { border: 1px solid var(--line); border-radius: 20px; background: linear-gradient(90deg, rgba(255,255,255,.09), rgba(255,255,255,.045)); padding: 20px; }
+    .phase-main h3 { margin: 0 0 8px; font-size: 22px; }
+    .phase-main p { margin: 0; color: var(--muted); }
+    .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .link-pill { color: var(--text); text-decoration: none; border: 1px solid var(--line); background: rgba(124,196,255,.08); border-radius: 999px; padding: 7px 10px; font-size: 13px; }
+    .link-pill:hover { background: rgba(124,196,255,.18); }
+    details { border: 1px solid var(--line); background: rgba(255,255,255,.055); border-radius: 18px; padding: 0; overflow: hidden; }
+    details + details { margin-top: 11px; }
+    summary { cursor: pointer; padding: 15px 18px; list-style: none; display: flex; justify-content: space-between; gap: 18px; align-items: center; }
+    summary::-webkit-details-marker { display: none; }
+    summary span:first-child { font-weight: 700; }
+    summary span:last-child { color: var(--faint); font-size: 13px; }
+    .detail-body { border-top: 1px solid var(--line); padding: 16px 18px 18px; color: var(--muted); }
+    .detail-body ul { margin: 8px 0 0; padding-left: 20px; }
+    code, pre { font-family: var(--mono); }
+    .codebox { margin: 14px 0 0; padding: 15px; border-radius: 16px; background: rgba(0,0,0,.26); border: 1px solid rgba(255,255,255,.1); overflow-x: auto; color: #d9f3ff; line-height: 1.55; }
+    .formula { color: var(--yellow); }
+    .shape-table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 16px; font-size: 14px; }
+    .shape-table th, .shape-table td { border-bottom: 1px solid rgba(255,255,255,.1); padding: 11px 12px; text-align: left; vertical-align: top; }
+    .shape-table th { color: #eaf2ff; background: rgba(255,255,255,.08); }
+    .shape-table td { color: var(--muted); }
+    .shape-table tr:last-child td { border-bottom: 0; }
+    .month-grid { display: grid; grid-template-columns: repeat(6, minmax(180px, 1fr)); gap: 12px; overflow-x: auto; padding-bottom: 6px; }
+    .month { min-height: 220px; border: 1px solid var(--line); border-radius: 20px; background: rgba(255,255,255,.06); padding: 16px; }
+    .month b { display: block; color: var(--cyan); margin-bottom: 9px; }
+    .month p { margin: 0; color: var(--muted); font-size: 14px; }
+    .month .out { margin-top: 14px; padding-top: 12px; border-top: 1px dashed rgba(255,255,255,.18); color: #e7eeff; }
+    .callout { border: 1px solid rgba(255,209,102,.35); background: rgba(255,209,102,.09); border-radius: 20px; padding: 20px; }
+    .callout strong { color: var(--yellow); }
+    .checklist { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 14px; }
+    .check { display: grid; grid-template-columns: 24px 1fr; gap: 9px; padding: 11px; border: 1px solid rgba(255,255,255,.1); border-radius: 14px; color: var(--muted); background: rgba(255,255,255,.045); }
+    .source-list { display: grid; gap: 10px; }
+    .source { display: flex; justify-content: space-between; gap: 14px; padding: 14px; border-radius: 16px; border: 1px solid var(--line); background: rgba(255,255,255,.045); }
+    .source a { color: var(--blue); overflow-wrap: anywhere; }
+    .source span { color: var(--muted); }
+    footer { padding: 54px 0 70px; color: var(--faint); }
+    .print-note { color: var(--faint); font-size: 13px; }
+    @media (max-width: 860px) {
+      .hero-grid, .grid-3, .grid-2, .checklist { grid-template-columns: 1fr; }
+      .section-head { display: block; }
+      .phase { grid-template-columns: 1fr; }
+      .phase-time { display: flex; justify-content: space-between; align-items: center; }
+      .source { display: block; }
+    }
+    @media print {
+      body { background: #fff; color: #111; }
+      .nav { display: none; }
+      .panel, .card, .phase-main, .phase-time, details, .callout, .month, .source { box-shadow: none; background: #fff; color: #111; border-color: #ccc; }
+      .lead, .card p, .phase-main p, .detail-body, .month p, .source span, .mini-list li { color: #333; }
+      a { color: #0645ad; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero wrap">
+    <div class="eyebrow"><span class="dot"></span> 每周 1–2 小时，也能稳步打通大模型底层</div>
+    <h1>大模型底层技术学习路线</h1>
+    <p class="lead">这份路线给工程背景、想理解公式和运行本质、但时间很少的人用。主线很克制：从 Karpathy 的 micrograd / makemore 走到 GPT from scratch，再补 tokenizer、nanoGPT 和少量现代 LLM 组件。</p>
+    <div class="hero-grid">
+      <section class="panel hero-card">
+        <p class="thesis"><strong>不要先啃论文和线代大部头。</strong> 先用代码和 shape 把计算链路跑通：token 怎么变向量，attention 怎么混合上下文，logits 怎么变概率，loss 怎么驱动参数更新。</p>
+        <ul class="mini-list">
+          <li><span class="tick">✓</span><span>主线材料少，避免收藏夹越来越满、真正学的越来越少。</span></li>
+          <li><span class="tick">✓</span><span>每周只要求一个小成果：看懂一段、跑通一段、写清一个 shape。</span></li>
+          <li><span class="tick">✓</span><span>公式放在代码之后看。公式是压缩总结，不是第一入口。</span></li>
+        </ul>
+      </section>
+      <aside class="panel profile">
+        <h2>适合的起点</h2>
+        <div class="tag-grid">
+          <span class="tag">微积分扎实</span>
+          <span class="tag">概率论够用</span>
+          <span class="tag">会基础神经网络</span>
+          <span class="tag">编程能力强</span>
+          <span class="tag">熟悉 LLM / Agent 调用</span>
+          <span class="tag">矩阵 shape 容易晕</span>
+          <span class="tag">不想靠硬背公式推进</span>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a href="#principle">先抓住什么</a>
+      <a href="#materials">精选材料</a>
+      <a href="#roadmap">6 个月路线</a>
+      <a href="#shapes">Shape 账本</a>
+      <a href="#weekly">每周怎么学</a>
+      <a href="#later">后面再补</a>
+      <a href="#sources">链接</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="principle" class="section wrap">
+      <div class="section-head">
+        <div>
+          <h2>先抓住什么</h2>
+          <p class="sub">你的短板不是“数学不够”，而是 Transformer 里到处都是高维张量，工作记忆容易被 shape 吃掉。先训练 shape 感，公式自然会落地。</p>
+        </div>
+      </div>
+      <div class="grid-3">
+        <article class="card accent-blue">
+          <div class="num">01</div>
+          <h3>把 LLM 看成一个可微函数</h3>
+          <p><code>fθ(tokens) → logits</code>。训练就是调参数 <code>θ</code>，让正确下一个 token 的概率更高。</p>
+        </article>
+        <article class="card accent-green">
+          <div class="num">02</div>
+          <h3>把公式翻译成代码和行为</h3>
+          <p><code>QKᵀ</code> 不是抽象符号，它在代码里是矩阵乘法，在行为上是每个 token 判断该看哪些前文 token。</p>
+        </article>
+        <article class="card accent-yellow">
+          <div class="num">03</div>
+          <h3>每周只吃一小块</h3>
+          <p>1–2 小时不适合刷课。适合看 40–60 分钟，剩下时间写笔记、打印 shape、跑一个小片段。</p>
+        </article>
+      </div>
+      <div class="callout" style="margin-top:16px">
+        <strong>最短本质链：</strong>
+        文本 → tokenizer → token ids → embedding → Transformer 混合上下文 → vocab logits → softmax 概率 → cross entropy loss → backprop → optimizer 更新参数。
+      </div>
+    </section>
+
+    <section id="materials" class="section wrap">
+      <div class="section-head">
+        <div>
+          <h2>精选材料，不铺太满</h2>
+          <p class="sub">主线只用 Karpathy。图解和文档只做辅助，不要同时开多个课程。</p>
+        </div>
+      </div>
+      <div class="path">
+        <div class="phase">
+          <div class="phase-time"><strong>A</strong>训练本质</div>
+          <div class="phase-main">
+            <h3>micrograd：把反向传播拆到最小</h3>
+            <p>先看神经网络训练到底怎么发生：forward 算 loss，backward 用链式法则算梯度，optimizer 改参数。</p>
+            <div class="links"><a class="link-pill" href="https://youtu.be/VMj-3S1tku0" target="_blank" rel="noreferrer">micrograd 视频</a><a class="link-pill" href="https://github.com/karpathy/nn-zero-to-hero" target="_blank" rel="noreferrer">课程代码</a></div>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-time"><strong>B</strong>语言模型</div>
+          <div class="phase-main">
+            <h3>makemore 1–2：从 bigram 到 MLP 语言模型</h3>
+            <p>建立 token → embedding → MLP → logits → loss 的链路。先理解“预测下一个 token”，再谈聊天和推理。</p>
+            <div class="links"><a class="link-pill" href="https://youtu.be/PaCmpygFfXo" target="_blank" rel="noreferrer">makemore Part 1</a><a class="link-pill" href="https://youtu.be/TCH_1BHY58I" target="_blank" rel="noreferrer">makemore Part 2</a></div>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-time"><strong>C</strong>训练稳定</div>
+          <div class="phase-main">
+            <h3>makemore 3，Part 4 选看</h3>
+            <p>只抓关键直觉：激活分布、梯度分布、初始化、归一化。不要陷入 BatchNorm 细节。</p>
+            <div class="links"><a class="link-pill" href="https://youtu.be/P6sfmUTpUmc" target="_blank" rel="noreferrer">makemore Part 3</a><a class="link-pill" href="https://youtu.be/q8SA3rM6ckI" target="_blank" rel="noreferrer">Part 4 选看</a></div>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-time"><strong>D</strong>GPT 主菜</div>
+          <div class="phase-main">
+            <h3>GPT from scratch：把 Transformer block 跑通</h3>
+            <p>这是关键终点。建议拆成 8–12 周，看 bigram、self-attention、causal mask、multi-head、Transformer block、generation。</p>
+            <div class="links"><a class="link-pill" href="https://www.youtube.com/watch?v=kCc8FmEb1nY" target="_blank" rel="noreferrer">GPT from scratch</a><a class="link-pill" href="https://jalammar.github.io/illustrated-transformer/" target="_blank" rel="noreferrer">图解辅助</a></div>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-time"><strong>E</strong>后置补充</div>
+          <div class="phase-main">
+            <h3>Tokenizer + nanoGPT</h3>
+            <p>先懂模型，再懂 tokenizer。最后用 nanoGPT 看真实但简洁的 GPT 代码组织。</p>
+            <div class="links"><a class="link-pill" href="https://youtu.be/zduSFxRajkE" target="_blank" rel="noreferrer">GPT Tokenizer</a><a class="link-pill" href="https://github.com/karpathy/nanoGPT" target="_blank" rel="noreferrer">nanoGPT</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section wrap">
+      <div class="section-head">
+        <div>
+          <h2>6 个月可行路线</h2>
+          <p class="sub">这个节奏故意保守。每月只解决一个主问题，避免把“看过很多材料”误当成“真的理解”。</p>
+        </div>
+      </div>
+      <div class="month-grid">
+        <div class="month"><b>第 1 月｜训练本质</b><p>看 micrograd。跑通一个最小计算图，知道 <code>loss.backward()</code> 和参数更新在做什么。</p><p class="out">产出：能解释神经网络为什么能通过梯度下降学习。</p></div>
+        <div class="month"><b>第 2 月｜语言模型任务</b><p>看 makemore Part 1–2。理解 token、embedding、logits、cross entropy。</p><p class="out">产出：能解释为什么 LLM 是 next-token prediction 起步。</p></div>
+        <div class="month"><b>第 3 月｜训练稳定性</b><p>看 makemore Part 3。Part 4 只在有余力时看。</p><p class="out">产出：知道初始化、激活分布、归一化为什么影响训练。</p></div>
+        <div class="month"><b>第 4 月｜Attention</b><p>开始 GPT from scratch。重点吃透 <code>QKᵀ</code>、causal mask、<code>[B,T,T]</code>。</p><p class="out">产出：能手写 single-head self-attention 的 shape。</p></div>
+        <div class="month"><b>第 5 月｜Transformer block</b><p>继续 GPT from scratch。看 multi-head、residual、norm、MLP、generation。</p><p class="out">产出：能画出一个 GPT block 的数据流。</p></div>
+        <div class="month"><b>第 6 月｜Tokenizer 和真实代码</b><p>看 GPT Tokenizer，粗读 nanoGPT 的 <code>model.py</code> 和 <code>train.py</code>。</p><p class="out">产出：能从代码定位 GPT 主要组件。</p></div>
+      </div>
+    </section>
+
+    <section id="shapes" class="section wrap">
+      <div class="section-head">
+        <div>
+          <h2>Shape 账本：先把这些看顺</h2>
+          <p class="sub">矩阵乘法只先记一条：<code>[..., A, B] @ [..., B, C] = [..., A, C]</code>。中间维度对上，结果留下两边。</p>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h3>GPT 里最常见的形状</h3>
+          <table class="shape-table" aria-label="GPT shape table">
+            <thead><tr><th>对象</th><th>常见 shape</th><th>意思</th></tr></thead>
+            <tbody>
+              <tr><td>token ids</td><td><code>[B, T]</code></td><td>B 个样本，每个样本 T 个 token。</td></tr>
+              <tr><td>embedding</td><td><code>[B, T, d]</code></td><td>每个 token 变成 d 维向量。</td></tr>
+              <tr><td>Q / K / V</td><td><code>[B, h, T, d_head]</code></td><td>多头注意力里的查询、键、值。</td></tr>
+              <tr><td>attention scores</td><td><code>[B, h, T, T]</code></td><td>每个 token 对每个 token 的注意力分数。</td></tr>
+              <tr><td>logits</td><td><code>[B, T, vocab]</code></td><td>每个位置对整个词表打分。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card">
+          <h3>Attention 的最小推导</h3>
+          <pre class="codebox"><span class="formula">Q</span>: [B, T, d_head]
+<span class="formula">K</span>: [B, T, d_head]
+Kᵀ: [B, d_head, T]
+
+Q @ Kᵀ
+= [B, T, d_head] @ [B, d_head, T]
+= [B, T, T]
+
+softmax(scores) @ V
+= [B, T, T] @ [B, T, d_head]
+= [B, T, d_head]</pre>
+          <p>直觉：每个 token 先给前文 token 打分，再按权重把它们的 value 混合成自己的新表示。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="weekly" class="section wrap">
+      <div class="section-head">
+        <div>
+          <h2>每周 1–2 小时怎么学</h2>
+          <p class="sub">时间少时，最怕只看不练。每周一个小成果，比“看完一整集”更重要。</p>
+        </div>
+      </div>
+      <div class="grid-2">
+        <article class="card accent-green">
+          <h3>只有 1 小时</h3>
+          <pre class="codebox">40 分钟：看视频
+20 分钟：写笔记 / 画 shape / 跑一个小片段</pre>
+        </article>
+        <article class="card accent-blue">
+          <h3>有 2 小时</h3>
+          <pre class="codebox">60 分钟：看视频
+40 分钟：复现代码
+20 分钟：写“我懂了什么 / 还卡什么”</pre>
+        </article>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <h3>每个模块都用这 6 个问题收尾</h3>
+        <div class="checklist">
+          <div class="check"><span class="tick">1</span><span>输入是什么？shape 是什么？</span></div>
+          <div class="check"><span class="tick">2</span><span>输出是什么？shape 是什么？</span></div>
+          <div class="check"><span class="tick">3</span><span>里面有哪些参数？</span></div>
+          <div class="check"><span class="tick">4</span><span>训练时哪些参数会更新？</span></div>
+          <div class="check"><span class="tick">5</span><span>这个模块解决什么问题？</span></div>
+          <div class="check"><span class="tick">6</span><span>如果去掉它，模型会怎样变差？</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="later" class="section wrap">
+      <div class="section-head">
+        <div>
+          <h2>后面再补，不要一开始就补</h2>
+          <p class="sub">这些都重要，但顺序要放后面。先把 tiny GPT 的计算链路打通，再补现代 LLM 组件。</p>
+        </div>
+      </div>
+      <details open>
+        <summary><span>RoPE：模型怎么知道位置</span><span>先要直觉，公式后置</span></summary>
+        <div class="detail-body">先理解 positional embedding 解决“顺序”问题。RoPE 用旋转方式把相对位置信息注入 Q/K。起步阶段不需要硬推复数旋转公式。</div>
+      </details>
+      <details>
+        <summary><span>KV cache：为什么生成可以缓存</span><span>理解推理成本</span></summary>
+        <div class="detail-body">生成第 n 个 token 时，前面 token 的 K/V 可以复用；只需要算新 token 的 Q，再和缓存 K/V 做 attention。这解释了长上下文为什么贵。</div>
+      </details>
+      <details>
+        <summary><span>LoRA：为什么微调可以只改少量参数</span><span>低秩更新</span></summary>
+        <div class="detail-body">不用直接改完整大矩阵 W，而是在旁边加一个低秩更新 ΔW≈AB。直觉上是用小参数量表达常见的微调方向。</div>
+      </details>
+      <details>
+        <summary><span>RLHF / DPO：base model 怎么变成 chat model</span><span>偏好优化</span></summary>
+        <div class="detail-body">先记顺序：pretraining 学续写，SFT 学按指令回答，preference optimization 学人类偏好。PPO 细节可以很晚再看。</div>
+      </details>
+      <details>
+        <summary><span>解释性：logit lens、SAE、Jacobian lens</span><span>等 GPT 看完再回头</span></summary>
+        <div class="detail-body">先有 residual stream、logits、attention、MLP 的计算图直觉，再看解释性会清楚很多。否则 J-space、SAE feature、activation patching 容易变成玄学词。</div>
+      </details>
+    </section>
+
+    <section id="sources" class="section wrap">
+      <div class="section-head">
+        <div>
+          <h2>链接收藏夹</h2>
+          <p class="sub">如果只收藏这些就够了。其它材料等这条主线推进到一半后再补。</p>
+        </div>
+      </div>
+      <div class="source-list">
+        <div class="source"><span>Karpathy Zero to Hero 主页</span><a href="https://karpathy.ai/zero-to-hero.html" target="_blank" rel="noreferrer">karpathy.ai/zero-to-hero.html</a></div>
+        <div class="source"><span>课程代码</span><a href="https://github.com/karpathy/nn-zero-to-hero" target="_blank" rel="noreferrer">github.com/karpathy/nn-zero-to-hero</a></div>
+        <div class="source"><span>micrograd</span><a href="https://youtu.be/VMj-3S1tku0" target="_blank" rel="noreferrer">youtu.be/VMj-3S1tku0</a></div>
+        <div class="source"><span>makemore Part 1</span><a href="https://youtu.be/PaCmpygFfXo" target="_blank" rel="noreferrer">youtu.be/PaCmpygFfXo</a></div>
+        <div class="source"><span>makemore Part 2</span><a href="https://youtu.be/TCH_1BHY58I" target="_blank" rel="noreferrer">youtu.be/TCH_1BHY58I</a></div>
+        <div class="source"><span>GPT from scratch</span><a href="https://www.youtube.com/watch?v=kCc8FmEb1nY" target="_blank" rel="noreferrer">youtube.com/watch?v=kCc8FmEb1nY</a></div>
+        <div class="source"><span>GPT Tokenizer</span><a href="https://youtu.be/zduSFxRajkE" target="_blank" rel="noreferrer">youtu.be/zduSFxRajkE</a></div>
+        <div class="source"><span>nanoGPT</span><a href="https://github.com/karpathy/nanoGPT" target="_blank" rel="noreferrer">github.com/karpathy/nanoGPT</a></div>
+        <div class="source"><span>The Illustrated Transformer</span><a href="https://jalammar.github.io/illustrated-transformer/" target="_blank" rel="noreferrer">jalammar.github.io/illustrated-transformer</a></div>
+        <div class="source"><span>The Annotated Transformer</span><a href="https://nlp.seas.harvard.edu/annotated-transformer/" target="_blank" rel="noreferrer">nlp.seas.harvard.edu/annotated-transformer</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>这份页面按“少材料、强主线、每周小产出”的原则整理。它不是完整课程表，而是一个能长期执行的学习支架。</p>
+    <p class="print-note">建议用法：先看全貌，再按阶段展开细节；每周只推进一个小目标。</p>
+  </footer>
+</body>
+</html>
