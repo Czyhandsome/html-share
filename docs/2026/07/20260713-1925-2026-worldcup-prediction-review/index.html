@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="对 2026 世界杯淘汰赛预测的逐场复盘：32 强 8/10、八强 6/8、四强 4/4。">
+  <title>四强全中，但路径没有全对｜2026 世界杯预测复盘</title>
+  <style>
+    :root{
+      --bg:#07130f;--deep:#0b241a;--paper:#f7f0df;--paper-2:#eee4cf;--ink:#18150f;--muted:#6f675a;
+      --line:#d9cdb6;--white:#fffaf0;--gold:#f0bf55;--sky:#86c9ff;--green:#1b6a45;--red:#a43e39;--blue:#3757c8;
+      --shadow:0 24px 72px rgba(0,0,0,.27);--radius:28px;
+      --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+      --serif:"Songti SC","STSong","Noto Serif CJK SC",serif;
+      --mono:"SFMono-Regular","Cascadia Mono",Menlo,monospace;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at 16% -6%,rgba(134,201,255,.16),transparent 31rem),radial-gradient(circle at 88% 4%,rgba(240,191,85,.14),transparent 28rem),linear-gradient(180deg,var(--bg),#0b2118 48%,var(--bg));color:#f8f2e3;font-family:var(--sans)}
+    a{color:inherit}
+    .page{width:min(1180px,calc(100vw - 28px));margin:auto;padding:22px 0 58px}
+    .hero{position:relative;overflow:hidden;padding:clamp(28px,6vw,72px);border:1px solid rgba(255,255,255,.11);border-radius:36px;background:linear-gradient(140deg,rgba(17,60,43,.95),rgba(6,19,14,.97));box-shadow:var(--shadow)}
+    .hero:after{content:"4/4";position:absolute;right:-.08em;bottom:-.25em;font:900 clamp(150px,26vw,330px)/1 var(--mono);color:rgba(255,255,255,.045);letter-spacing:-.14em;pointer-events:none}
+    .topline{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:clamp(50px,8vw,92px);font-size:13px;color:#c5d0c4;letter-spacing:.08em;text-transform:uppercase}
+    .flag{display:flex;align-items:center;gap:10px;font-weight:900;color:#fff}
+    .flag i{display:block;width:38px;height:11px;border-radius:99px;background:linear-gradient(90deg,var(--sky) 0 31%,transparent 31% 36%,#fff 36% 64%,transparent 64% 69%,var(--sky) 69%)}
+    h1{max-width:920px;margin:0;font-size:clamp(42px,7.7vw,88px);line-height:.98;letter-spacing:-.07em;text-wrap:balance}
+    h1 em{font-style:normal;color:var(--gold)}
+    .dek{max-width:780px;margin:28px 0 0;color:#d2dbd0;font-size:clamp(17px,2.2vw,22px);line-height:1.8}
+    .hero-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+    .hero-links a{display:inline-flex;min-height:44px;align-items:center;padding:10px 15px;border:1px solid rgba(255,255,255,.16);border-radius:999px;background:rgba(255,255,255,.07);text-decoration:none;font-weight:800;font-size:14px}
+    .hero-links a:first-child{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+    .paper{margin-top:26px;background:var(--paper);color:var(--ink);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+    .inner{padding:clamp(24px,5vw,54px)}
+    .eyebrow{margin:0 0 12px;font:900 12px/1.4 var(--mono);letter-spacing:.14em;color:#687264;text-transform:uppercase}
+    h2{margin:0;font-size:clamp(31px,5vw,55px);line-height:1.05;letter-spacing:-.06em;text-wrap:balance}
+    h3{margin:0;font-size:clamp(23px,3vw,33px);letter-spacing:-.045em;line-height:1.15}
+    .intro{max-width:900px;margin:18px 0 0;color:#595246;font-size:17px;line-height:1.8}
+    .scoreline{display:grid;grid-template-columns:1.5fr repeat(3,1fr);margin-top:32px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--white)}
+    .score{padding:22px;border-right:1px solid var(--line)}.score:last-child{border:0}
+    .score.primary{background:#102a1f;color:#fff}
+    .score small{display:block;margin-bottom:8px;color:var(--muted);font-weight:800}.score.primary small{color:#bfcdbf}
+    .score b{font:900 clamp(32px,5vw,54px)/1 var(--mono);letter-spacing:-.08em}.score span{display:block;margin-top:8px;color:var(--muted);font-size:13px}.score.primary span{color:#c8d4c9}
+    .truth{margin-top:28px;padding:23px 25px;border-radius:20px;background:#eadbb7;color:#2b251b;font-family:var(--serif);font-size:clamp(20px,2.8vw,29px);line-height:1.55}
+    .truth strong{font-family:var(--sans)}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+    .split article{padding:25px;border:1px solid var(--line);border-radius:20px;background:var(--white)}
+    .split p{margin:12px 0 0;color:#61594d;line-height:1.75}
+    .block-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}
+    .fraction{font:900 25px/1 var(--mono);color:var(--green);white-space:nowrap}
+    .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:20px;background:var(--white)}
+    table{width:100%;border-collapse:collapse;min-width:720px}
+    th,td{text-align:left;padding:15px 17px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.55}
+    th{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);background:var(--paper-2)}
+    tr:last-child td{border-bottom:0}
+    td:last-child{width:120px;font-weight:900}
+    .ok{color:var(--green)}.bad{color:var(--red)}.mixed{color:#856018}
+    .route{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}
+    .route article{position:relative;min-height:210px;padding:22px;border-radius:20px;background:#141b17;color:#f8f2e3;overflow:hidden}
+    .route article:after{content:attr(data-mark);position:absolute;right:-10px;bottom:-25px;font:900 82px/1 var(--mono);color:rgba(255,255,255,.055)}
+    .route b{display:block;margin-bottom:16px;color:var(--gold);font:900 12px/1.4 var(--mono);letter-spacing:.12em}
+    .route p{margin:12px 0 0;color:#bdc8bf;line-height:1.7;font-size:14px}
+    .route .exact{box-shadow:inset 0 0 0 1px rgba(240,191,85,.55)}
+    .analysis{display:grid;grid-template-columns:320px minmax(0,1fr);gap:38px;align-items:start}
+    .verdict{position:sticky;top:20px;padding:26px;border-radius:22px;background:#102a1f;color:#fff}
+    .verdict b{display:block;font:900 72px/1 var(--mono);letter-spacing:-.1em;color:var(--gold)}
+    .verdict span{display:block;margin-top:8px;color:#c8d4c9;line-height:1.65}
+    .prose h3{margin-top:30px}.prose h3:first-child{margin-top:0}.prose p{margin:11px 0 0;color:#5d5549;line-height:1.85;font-size:16px}.prose strong{color:var(--ink)}
+    .pending{background:linear-gradient(135deg,#e7f1ef,#e8dfc8)}
+    .pending-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:25px}
+    .pending-grid article{padding:22px;border-radius:18px;background:rgba(255,255,255,.7);border:1px solid rgba(24,21,15,.1)}
+    .pending-grid b{display:block;color:var(--blue);margin-bottom:8px}.pending-grid p{margin:0;line-height:1.7;color:#514b41}
+    .sources{margin-top:26px;padding:25px;border-top:1px solid var(--line)}
+    .sources h2{font-size:26px;letter-spacing:-.04em}.sources ul{margin:15px 0 0;padding-left:20px;color:#5c5549;line-height:1.9}.sources a{text-underline-offset:3px}
+    footer{padding:28px 4px 0;color:#aebcaf;font-size:13px;line-height:1.7;text-align:center}
+    @media(max-width:850px){.scoreline{grid-template-columns:1fr 1fr}.score:nth-child(2){border-right:0}.score:nth-child(-n+2){border-bottom:1px solid var(--line)}.route{grid-template-columns:1fr 1fr}.analysis{grid-template-columns:1fr}.verdict{position:static}.topline{align-items:flex-start;flex-direction:column}}
+    @media(max-width:560px){.page{width:calc(100vw - 16px);padding-top:8px}.hero,.paper{border-radius:23px}.scoreline,.split,.pending-grid,.route{grid-template-columns:1fr}.score{border-right:0;border-bottom:1px solid var(--line)!important}.score:last-child{border-bottom:0!important}.hero:after{display:none}.block-head{align-items:flex-start;flex-direction:column}.inner{padding:24px 18px}.sources{padding:24px 18px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="topline"><div class="flag"><i aria-hidden="true"></i> 2026 WORLD CUP REVIEW</div><div>预测发布 07.01 · 复盘截至 07.13</div></div>
+      <h1>四强全中，<br><em>但路径没有全对</em></h1>
+      <p class="dek">这是对 7 月 1 日淘汰赛预测的事后核对。法国、西班牙、英格兰、阿根廷四个半决赛席位全部命中；偏差主要出在克罗地亚、加纳和巴西所在的外围分支。</p>
+      <nav class="hero-links" aria-label="页面链接">
+        <a href="https://czyhandsome.github.io/html-share/2026/07/20260701-0929-2026-worldcup-argentina-bracket/" target="_blank" rel="noopener">查看 7 月 1 日原预测</a>
+        <a href="#matches">逐场核对</a><a href="#analysis">总结判断</a><a href="#pending">继续验证</a>
+      </nav>
+    </header>
+
+    <section class="paper" aria-labelledby="summary-title">
+      <div class="inner">
+        <p class="eyebrow">结论</p>
+        <h2 id="summary-title">主干很准，支线有偏差</h2>
+        <p class="intro">按“每轮预测谁晋级”统计，已经结算的判断是 18/22。最硬的成绩是四强 4/4；需要说清楚的是，四分之一决赛只有法国—摩洛哥、西班牙—比利时两组对阵被完整预测。</p>
+        <div class="scoreline" aria-label="预测命中统计">
+          <div class="score primary"><small>已结算晋级判断</small><b>18/22</b><span>81.8%</span></div>
+          <div class="score"><small>32 强明确胜者</small><b>8/10</b><span>80.0%</span></div>
+          <div class="score"><small>八强名单</small><b>6/8</b><span>75.0%</span></div>
+          <div class="score"><small>四强名单</small><b>4/4</b><span>100%</span></div>
+        </div>
+        <div class="truth"><strong>准确说法：</strong>四个半决赛名额全部命中，但通往四强的四条路线只有两条完整命中；另外两条是晋级队对、对手错。</div>
+        <div class="split">
+          <article><h3>判断得最好的部分</h3><p>法国、西班牙、英格兰、阿根廷都没有被淘汰赛噪声带偏。西班牙和阿根廷即使前置对手预测错了，区块胜者仍然判断正确。</p></article>
+          <article><h3>偏差最大的部分</h3><p>克罗地亚和加纳的上限给得偏高；巴西的稳定性被高估，挪威被低估。巴西—挪威是唯一直接改变八强主干的重大错判。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper" id="matches" aria-labelledby="r32-title">
+      <div class="inner">
+        <div class="block-head"><div><p class="eyebrow">Round of 32</p><h2 id="r32-title">32 强：10 场中 8 场</h2></div><div class="fraction">8 / 10</div></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>预测</th><th>实际赛果</th><th>判定</th></tr></thead>
+          <tbody>
+            <tr><td>克罗地亚胜葡萄牙</td><td>葡萄牙 2-1 克罗地亚</td><td class="bad">错</td></tr>
+            <tr><td>西班牙胜奥地利</td><td>西班牙 3-0 奥地利</td><td class="ok">对</td></tr>
+            <tr><td>美国胜波黑</td><td>美国 2-0 波黑</td><td class="ok">对</td></tr>
+            <tr><td>比利时胜塞内加尔</td><td>比利时 3-2 塞内加尔（加时）</td><td class="ok">对</td></tr>
+            <tr><td>墨西哥胜厄瓜多尔</td><td>墨西哥 2-0 厄瓜多尔</td><td class="ok">对</td></tr>
+            <tr><td>英格兰胜刚果民主共和国</td><td>英格兰 2-1 刚果民主共和国</td><td class="ok">对</td></tr>
+            <tr><td>阿根廷胜佛得角</td><td>阿根廷 3-2 佛得角（加时）</td><td class="ok">对</td></tr>
+            <tr><td>埃及胜澳大利亚</td><td>1-1，埃及点球 4-2</td><td class="ok">对</td></tr>
+            <tr><td>瑞士胜阿尔及利亚</td><td>瑞士 2-0 阿尔及利亚</td><td class="ok">对</td></tr>
+            <tr><td>加纳胜哥伦比亚</td><td>哥伦比亚 1-0 加纳</td><td class="bad">错</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <section class="paper" aria-labelledby="r16-title">
+      <div class="inner">
+        <div class="block-head"><div><p class="eyebrow">Round of 16</p><h2 id="r16-title">八强名单：命中 6 支</h2></div><div class="fraction">6 / 8</div></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>预测晋级</th><th>实际结果</th><th>判定</th></tr></thead>
+          <tbody>
+            <tr><td>法国胜巴拉圭</td><td>法国 1-0 巴拉圭</td><td class="ok">完全命中</td></tr>
+            <tr><td>摩洛哥胜加拿大</td><td>摩洛哥 3-0 加拿大</td><td class="ok">完全命中</td></tr>
+            <tr><td>西班牙从 C 区晋级</td><td>西班牙 1-0 葡萄牙；前置对手预测错</td><td class="mixed">队对，路径错</td></tr>
+            <tr><td>比利时胜美国</td><td>比利时 4-1 美国</td><td class="ok">完全命中</td></tr>
+            <tr><td>巴西胜挪威</td><td>挪威 2-1 巴西</td><td class="bad">错</td></tr>
+            <tr><td>英格兰胜墨西哥</td><td>英格兰 3-2 墨西哥</td><td class="ok">完全命中</td></tr>
+            <tr><td>阿根廷胜埃及</td><td>阿根廷 3-2 埃及</td><td class="ok">完全命中</td></tr>
+            <tr><td>加纳从 H 区晋级</td><td>瑞士点球淘汰哥伦比亚</td><td class="bad">错</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <section class="paper" aria-labelledby="qf-title">
+      <div class="inner">
+        <div class="block-head"><div><p class="eyebrow">Quarterfinals</p><h2 id="qf-title">四强 4/4，对阵 2/4</h2></div><div class="fraction">4 / 4</div></div>
+        <div class="route">
+          <article class="exact" data-mark="✓"><b>完全命中</b><h3>法国胜摩洛哥</h3><p>实际：法国 2-0 摩洛哥。球队、对阵、胜者全部一致。</p></article>
+          <article class="exact" data-mark="✓"><b>完全命中</b><h3>西班牙胜比利时</h3><p>实际：西班牙 2-1 比利时。球队、对阵、胜者全部一致。</p></article>
+          <article data-mark="≈"><b>晋级队正确</b><h3>英格兰胜巴西</h3><p>实际：英格兰加时 2-1 挪威。英格兰进入四强，但对手错了。</p></article>
+          <article data-mark="≈"><b>晋级队正确</b><h3>阿根廷胜加纳</h3><p>实际：阿根廷加时 3-1 瑞士。阿根廷进入四强，但对手错了。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper" id="analysis" aria-labelledby="analysis-title">
+      <div class="inner analysis">
+        <aside class="verdict"><p class="eyebrow" style="color:#aebfaf">综合评价</p><b>8.5</b><span>不是一张完整复刻所有路径的签表，但主干质量很高。32 强单场判断稳定，八强有两处明显偏差，四强判断则无可挑剔。</span></aside>
+        <div class="prose">
+          <h2 id="analysis-title">主干理性，支线略带浪漫</h2>
+          <h3>强项是争冠队分层</h3>
+          <p>法国、西班牙、英格兰、阿根廷四支球队全部留下。它们也正好是当时 FIFA 排名前四，所以这份预测没有押中四个离谱冷门；厉害之处在于，淘汰赛已经产生不少波动，主干仍然没有被带偏。</p>
+          <h3>西班牙和阿根廷的区块判断有韧性</h3>
+          <p>西班牙原本被预测淘汰克罗地亚，实际对手是葡萄牙；阿根廷原本被预测淘汰加纳，实际对手是瑞士。两条前置路线都变了，但最终区块胜者没变。这说明对球队上限的判断比对外围对阵更可靠。</p>
+          <h3>最大的错误不是加纳，而是巴西</h3>
+          <p>加纳是主动押冷，失败后影响一个支线。巴西输给挪威则不同：预测明显更信任巴西的传统实力，低估了挪威的冲击力，也低估了巴西自身的不稳定。这一场直接改变了八强名单和四分之一决赛对阵。</p>
+          <h3>预测风格</h3>
+          <p><strong>主干理性，支线略带浪漫。</strong>法国、西班牙、英格兰、阿根廷属于稳健选择；克罗地亚经验、加纳黑马和巴西声望则被赋予了过高权重。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper pending" id="pending" aria-labelledby="pending-title">
+      <div class="inner">
+        <p class="eyebrow">尚未结算</p>
+        <h2 id="pending-title">阿根廷夺冠，还要过两关</h2>
+        <p class="intro">截至 2026 年 7 月 13 日，半决赛、决赛和冠军预测都不能提前计入命中率。</p>
+        <div class="pending-grid">
+          <article><b>半决赛 01</b><p>法国 vs 西班牙<br>原预测：法国晋级</p></article>
+          <article><b>半决赛 02</b><p>英格兰 vs 阿根廷<br>原预测：阿根廷晋级</p></article>
+          <article><b>决赛对阵</b><p>原预测：法国 vs 阿根廷</p></article>
+          <article><b>冠军</b><p>原预测：阿根廷</p></article>
+        </div>
+      </div>
+      <div class="sources">
+        <h2>原始记录与赛果来源</h2>
+        <ul>
+          <li><a href="https://czyhandsome.github.io/html-share/2026/07/20260701-0929-2026-worldcup-argentina-bracket/" target="_blank" rel="noopener">7 月 1 日发布的原始预测图</a></li>
+          <li><a href="https://apnews.com/article/world-cup-semifinals-preview-messi-d271d7d89fe3384614357258687686a0" target="_blank" rel="noopener">AP：2026 世界杯半决赛前瞻</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage" target="_blank" rel="noopener">2026 世界杯淘汰赛逐场赛果</a></li>
+        </ul>
+      </div>
+    </section>
+    <footer>预测发布于 2026 年 7 月 1 日。本页复盘截至 2026 年 7 月 13 日四强产生后，未结束的比赛不计入命中率。</footer>
+  </main>
+</body>
+</html>
