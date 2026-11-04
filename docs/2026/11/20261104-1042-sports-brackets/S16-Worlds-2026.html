@@ -114,7 +114,7 @@ const origins = {
 const allen = ["德州艾伦 · Credit Union of Texas Event Center","America/Chicago"];
 const la = ["洛杉矶 · Riot Games Arena","America/Los_Angeles"];
 const ny = ["纽约布鲁克林 · Barclays Center","America/New_York"];
-const opener = {scores:[1,2], status:"进行中快照", checked:"2026-11-04 09:34"};
+const opener = {scores:[1,3], status:"已完赛", checked:"2026-11-04 12:00"};
 const ko = [
   {id:"Q1",label:"八强 · 第 1 场", at:"2026-11-03T22:00Z", slots:["TES","IG"], ...opener},
   {id:"Q2",label:"八强 · 第 2 场", at:"2026-11-04T22:00Z", slots:["GEN","LYON"]},
@@ -272,7 +272,7 @@ function card(match, style="") {
   const status = winner(match) >= 0 ? "已完赛" : match.status || "待开赛";
   const button = document.createElement("button");
   button.type = "button";
-  button.className = "match" + (hasLpl ? " has-lpl" : "") + (match.status ? " live" : "");
+  button.className = "match" + (hasLpl ? " has-lpl" : "") + (match.status && winner(match) < 0 ? " live" : "");
   button.dataset.id = match.id;
   button.setAttribute("aria-expanded","false");
   button.setAttribute("aria-controls","tip");
