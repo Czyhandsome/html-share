@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>S16 全球总决赛｜赛程与赛果</title>
+<style>
+:root{color-scheme:dark;--bg:#10121b;--surface:#191d2a;--edge:#343a4c;--ink:#f6f1e5;--muted:#b7bcd0;--gold:#f0cb83;--blue:#9ee7ec;--lpl:#ff9b9b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid var(--blue);outline-offset:4px}a{color:var(--blue)}
+.shell{max-width:1240px;margin:auto;padding:28px clamp(16px,4vw,54px) 46px}
+.hero{position:relative;isolation:isolate;overflow:hidden;min-height:240px;padding:clamp(22px,4vw,49px);border:1px solid #524737;border-radius:22px;background:radial-gradient(ellipse at 88% 35%,#484038,#232332 48%,#181b28 78%)}
+.hero svg{position:absolute;width:min(54%,510px);height:auto;right:-1%;top:50%;transform:translateY(-50%);z-index:-1;opacity:.75}
+.kicker,.eyebrow{font-size:11px;letter-spacing:.2em;font-weight:800;color:var(--gold)}h1{font-size:clamp(32px,6vw,69px);line-height:1.05;margin:15px 0 10px;letter-spacing:-.065em}h1 span{color:var(--gold);margin-right:.22em}p{margin:0}
+.hero p{color:var(--muted)}.hero .snapshot{display:inline-block;margin-top:20px;font-size:12px;color:#e2d2b2}
+.highlights{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0 26px}.highlight{border:1px solid var(--edge);background:var(--surface);border-radius:14px;padding:12px 16px}.highlight strong{display:block;font-size:clamp(15px,2vw,21px);margin-top:4px}
+.toolbar{display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--edge);padding-bottom:12px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap} .tabs button,#focus{border:1px solid var(--edge);background:#151824;padding:7px 12px;border-radius:8px}.tabs [aria-pressed=true]{background:var(--gold);border-color:var(--gold);color:#1b1720;font-weight:800}#focus[aria-pressed=true]{border-color:var(--lpl);color:var(--lpl)}
+.heading{display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:6px 16px;margin:18px 0 12px}.heading h2{margin:0;font-size:23px}.heading p,.legend,.date{color:var(--muted);font-size:12px}.legend{display:flex;gap:16px;flex-wrap:wrap;margin:13px 0}.legend b{color:var(--blue)}.legend i{color:var(--lpl);font-style:normal}
+.columns,.bracket{display:grid;grid-template-columns:29% 29% 29%;justify-content:space-between}.columns{margin:14px 0 6px}.columns div{border-bottom:1px solid #6d5b40;padding:6px 0;color:var(--gold);font-weight:800}.columns small{float:right;color:var(--muted);font-weight:500}
+.bracket{position:relative;isolation:isolate;grid-template-rows:repeat(8,77px)}.wires{position:absolute;inset:0;width:100%;height:100%;z-index:-1;fill:none;stroke:#907a56;stroke-width:1.5;pointer-events:none}
+.match{display:block;min-width:0;width:100%;text-align:left;align-self:center;background:#1a1e2c;border:1px solid #40465a;border-radius:11px;padding:9px;transition:border-color .15s,background .15s}.match:hover,.match[aria-expanded=true]{border-color:var(--gold);background:#212638}.match.live{border-color:#a28550}.match .meta{display:flex;align-items:center;gap:6px;justify-content:space-between;margin:0 2px 6px;color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}.match .meta strong{color:var(--gold);white-space:nowrap}
+.team{display:flex;align-items:center;gap:7px;min-height:29px;padding:3px 6px;margin-top:3px;border-radius:5px;background:#232838}.code{font-weight:850;white-space:nowrap}.flag{font-size:13px;min-width:18px;text-align:center}.tag{margin-left:auto;color:#c6c9d8;font-size:10px;white-space:nowrap}.tag.lpl{color:var(--lpl);border:1px solid #885b65;border-radius:4px;padding:0 4px}.score{margin-left:auto;min-width:18px;text-align:right;font-weight:850;font-variant-numeric:tabular-nums}.tag+.score{margin-left:0}.winner{background:#18363d;color:var(--blue)}.placeholder{color:var(--muted);font-size:12px;font-weight:500}.focused .match:not(.has-lpl){opacity:.58}.focused .match:hover,.focused .match:focus-visible,.focused .match[aria-expanded=true]{opacity:1}
+.history{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:9px}.day{margin:24px 0}.day h3{margin:0 0 8px;font-size:15px}.day h3 span{margin-left:9px;color:var(--muted);font-weight:500;font-size:12px}
+.mobile-stage{display:none}
+#tip{position:fixed;z-index:5;max-width:min(340px,calc(100vw - 24px));width:max-content;padding:14px 17px;background:#292f42;border:1px solid #9f875d;border-radius:11px;box-shadow:0 12px 40px #0009;pointer-events:none}#tip h3{margin:0 0 6px;font-size:15px;color:var(--gold)}#tip p{margin:3px 0;font-size:13px}#tip small{color:var(--muted)}
+footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:var(--muted);font-size:12px}footer a{display:inline-block;margin-right:12px;margin-top:5px}
+[hidden]{display:none!important}
+@media(max-width:680px){.hero svg{opacity:.35;width:75%;right:-20%}.columns,.wires{display:none}.bracket{display:block}.bracket .match{margin:0 0 9px}.mobile-stage{display:block;color:var(--gold);font-size:15px;margin:19px 0 7px}.highlights{margin-bottom:18px}.history{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
+.swiss-panel{border:1px solid var(--edge);border-radius:15px;background:var(--surface);padding:clamp(12px,2.4vw,24px);margin-bottom:26px}
+.swiss-intro{color:var(--muted);font-size:13px;margin-bottom:12px}
+.swiss-picker{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.swiss-picker button{display:flex;align-items:center;gap:4px;border:1px solid var(--edge);background:#232838;border-radius:7px;padding:4px 8px;font-size:12px;font-weight:700}
+.flag-icon{vertical-align:baseline}
+.swiss-picker button[aria-pressed=true]{border-color:var(--gold);background:#443927;color:#fff1d5}
+.swiss-scroll{overflow-x:auto;border:1px solid var(--edge);border-radius:11px;background:#141724}
+.swiss-scroll:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.swiss-chart{position:relative;min-width:740px;height:410px}
+.swiss-chart > svg{position:absolute;inset:0;width:100%;height:100%;fill:none;pointer-events:none}
+.swiss-edge{stroke:#606f89;stroke-opacity:.64;stroke-linecap:round}
+.swiss-selected-edge{stroke:var(--gold);stroke-width:4;stroke-linecap:round}
+.swiss-column{position:absolute;top:11px;transform:translateX(-50%);color:var(--muted);font-size:12px;font-weight:700;white-space:nowrap}
+.swiss-node{position:absolute;transform:translate(-50%,-50%);width:11.2%;min-height:42px;display:grid;place-content:center;text-align:center;background:#202637;border:1px solid #4c5971;border-radius:8px;font-variant-numeric:tabular-nums}
+.swiss-node b{font-size:16px;line-height:1.15}.swiss-node small{color:var(--muted);font-size:10px;white-space:nowrap}
+.swiss-node.advance{background:#163139;border-color:#477d86}.swiss-node.advance small{color:var(--blue)}
+.swiss-node.eliminated{background:#2c2532;border-color:#765a70}.swiss-node.eliminated small{color:#e8b6c9}
+.swiss-node.on-route{border:2px solid var(--gold);box-shadow:0 0 0 2px #f0cb8326}
+.swiss-key{display:flex;flex-wrap:wrap;gap:6px 16px;margin:9px 0 13px;color:var(--muted);font-size:12px}.swiss-key b{color:var(--gold)}
+.swiss-route{padding-top:13px;border-top:1px solid var(--edge)}.swiss-route h3{margin:0 0 8px;font-size:16px}
+.swiss-route .advance{color:var(--blue)}.swiss-route .eliminated{color:#e8b6c9}
+.swiss-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:7px;list-style:none;margin:0;padding:0}
+.swiss-steps li{border:1px solid var(--edge);border-radius:8px;background:#202637;padding:7px 9px;font-size:13px}
+.swiss-steps li b,.swiss-steps li small{display:block}.swiss-steps small{color:var(--muted)}
+.swiss-steps .win{color:var(--blue)}.swiss-steps .loss{color:#e8b6c9}
+.history-heading{margin:20px 0 0;font-size:19px}
+@media(max-width:760px){.swiss-scroll{margin-top:8px}.swiss-key::after{content:"左右滑动查看五轮";display:block}}
+</style>
+</head>
+<body>
+<main class="shell">
+<section class="hero" aria-labelledby="title">
+<svg viewBox="0 0 550 300" aria-hidden="true">
+<g fill="none" stroke="#d7af67"><path opacity=".22" d="M310 1 505 150 310 299 115 150Z M310 20 483 150 310 280 137 150Z M310 43 454 150 310 257 166 150Z"/><circle opacity=".34" cx="310" cy="150" r="115"/><path opacity=".5" d="M0 150h550m-240-150v300M119 102h68m-82 96h77m257-96h57m-55 96h57" stroke-dasharray="3 7"/></g>
+<g fill="#e3bd7c" fill-opacity=".1" stroke="#e3bd7c" stroke-width="2" stroke-linejoin="round"><path d="M252 82h116l-15 65-43 38-43-38Z"/><path d="M252 92h-31l14 46 32 9m101-55h31l-14 46-32 9M310 185v36m-35 0h70l11 13h-92Z"/><path d="m310 99 10 20 22 3-16 16 4 22-20-10-20 10 4-22-16-16 22-3Z"/></g>
+</svg>
+<div class="kicker">WORLDS 2026 · LEAGUE OF LEGENDS</div>
+<h1 id="title"><span>S16</span>全球总决赛</h1>
+<p>赛程 · 赛果 · 晋级路径</p>
+<span class="snapshot">离线快照 · <time id="snapshot">2026-11-04</time> · 默认北京时间</span>
+</section>
+<div class="highlights">
+<div class="highlight"><span id="lead-label" class="eyebrow">八强揭幕战</span><strong id="lead">TES vs IG</strong></div>
+<div class="highlight"><span class="eyebrow">总决赛 · 纽约布鲁克林</span><strong>11 月 15 日 03:00 <small class="date">北京时间</small></strong></div>
+</div>
+<div class="toolbar">
+<nav class="tabs" aria-label="赛事阶段">
+<button type="button" data-stage="ko" aria-pressed="true">淘汰赛</button>
+<button type="button" data-stage="swiss" aria-pressed="false">瑞士轮</button>
+<button type="button" data-stage="playin" aria-pressed="false">入围赛</button>
+</nav>
+<button type="button" id="focus" aria-pressed="false">突出 LPL</button>
+</div>
+<section id="stage" aria-labelledby="stage-title"></section>
+<footer>
+<p>离线赛程快照。历史赛程显示排定时间或当日开场时间，实际开打可能顺延。旗帜表示战队归属，字母标签表示参赛赛区。</p>
+<a href="https://lolesports.com/en-US/leagues/worlds">Riot 官方赛程与赛果</a>
+<a href="https://lolesports.com/en-GB/news/worlds-2026-primer">Riot 赛事指南</a>
+<a href="https://www.invenglobal.com/articles/27983/dk-vs-blg-matchup-and-more-quarterfinal-draw-results">八强抽签图</a>
+<a href="https://timesaver.gg/blog/worlds-2026-bracket">半决赛签位</a>
+<a href="https://lolesports.com/en-US/tournament/115660540725177488/stage/115660540725570706">Riot 瑞士轮战绩</a>
+<a href="https://joocgame.com/worlds-2026/results">瑞士轮分场排期</a>
+<a href="https://escharts.com/tournaments/lol/2026-world-championship">战队归属</a>
+<a href="https://g2esports.com/pages/contact">G2 俱乐部所在地</a>
+<a href="https://www.sheepesports.com/us/all/matches/2026%20Season%20World%20Championship%2FMain%20Event_Quarterfinals_1">TES 对 IG 比分</a>
+</footer>
+<noscript>请启用 JavaScript 查看签表和赛果。</noscript>
+</main>
+<div id="tip" role="region" aria-label="比赛详情" hidden></div>
+<script>
+const teams = {
+  AL:["Anyone’s Legend","LPL","CN"], BLG:["Bilibili Gaming","LPL","CN"], TES:["Top Esports","LPL","CN"], IG:["Invictus Gaming","LPL","CN"],
+  GEN:["Gen.G","LCK","KR"], HLE:["Hanwha Life Esports","LCK","KR"], T1:["T1","LCK","KR"], DK:["Dplus KIA","LCK","KR"],
+  G2:["G2 Esports","LEC","DE"], MKOI:["Movistar KOI","LEC","ES"], KC:["Karmine Corp","LEC","FR"],
+  TLAW:["Team Liquid Alienware","LCS","US"], LYON:["LYON","LCS","MX"], C9:["Cloud9 Kia","LCS","US"],
+  TSW:["Team Secret Whales","LCP","VN"], CFO:["CTBC Flying Oyster","LCP","TW"], MVK:["MVK Esports","LCP","VN"],
+  LOS:["LOS","CBLOL","BR"], FUR:["FURIA","CBLOL","BR"]
+};
+// Team origin and competition region are independent: LYON is Mexican and plays in LCS.
+const origins = {
+  CN:["中国","🇨🇳"], KR:["韩国","🇰🇷"], DE:["德国","🇩🇪"], ES:["西班牙","🇪🇸"], FR:["法国","🇫🇷"],
+  US:["美国","🇺🇸"], MX:["墨西哥","🇲🇽"], VN:["越南","🇻🇳"], TW:["中国台湾",'<svg class="flag-icon" viewBox="0 0 60 40" width="13" height="9" aria-hidden="true"><path fill="#fe0000" d="M0 0h60v40H0z"/><path fill="#000095" d="M0 0h30v20H0z"/><polygon fill="#fff" points="22.50,10.00 20.02,11.35 21.50,13.75 18.68,13.68 18.75,16.50 16.35,15.02 15.00,17.50 13.65,15.02 11.25,16.50 11.32,13.68 8.50,13.75 9.98,11.35 7.50,10.00 9.98,8.65 8.50,6.25 11.32,6.32 11.25,3.50 13.65,4.98 15.00,2.50 16.35,4.98 18.75,3.50 18.68,6.32 21.50,6.25 20.02,8.65"/><circle cx="15" cy="10" r="5.55" fill="#000095"/><circle cx="15" cy="10" r="5.05" fill="#fff"/></svg>'], BR:["巴西","🇧🇷"]
+};
+const allen = ["德州艾伦 · Credit Union of Texas Event Center","America/Chicago"];
+const la = ["洛杉矶 · Riot Games Arena","America/Los_Angeles"];
+const ny = ["纽约布鲁克林 · Barclays Center","America/New_York"];
+const opener = {scores:[1,2], status:"进行中快照", checked:"2026-11-04 09:34"};
+const ko = [
+  {id:"Q1",label:"八强 · 第 1 场", at:"2026-11-03T22:00Z", slots:["TES","IG"], ...opener},
+  {id:"Q2",label:"八强 · 第 2 场", at:"2026-11-04T22:00Z", slots:["GEN","LYON"]},
+  {id:"Q3",label:"八强 · 第 3 场", at:"2026-11-05T22:00Z", slots:["DK","BLG"]},
+  {id:"Q4",label:"八强 · 第 4 场", at:"2026-11-06T22:00Z", slots:["T1","KC"]},
+  {id:"S1",label:"半决赛 · 第 1 场", at:"2026-11-07T22:00Z", slots:["Q1","Q2"]},
+  {id:"S2",label:"半决赛 · 第 2 场", at:"2026-11-08T22:00Z", slots:["Q3","Q4"]},
+  {id:"F",label:"总决赛", at:"2026-11-14T19:00Z", slots:["S1","S2"]}
+].map(match => ({best:5, venue:match.id==="F" ? ny : allen, ...match}));
+const swissDays = [
+  [23,1,[[12,"GEN","IG",1,0],[13,"HLE","TES",1,0],[14,"BLG","MKOI",0,1],[15,"AL","KC",0,1],[16,"G2","DK",0,1],[17,"TLAW","CFO",0,1],[18,"LOS","T1",0,1],[19,"TSW","LYON",0,1]]],
+  [24,2,[[12,"TES","AL",1,0],[13,"CFO","MKOI",0,1],[14,"G2","LOS",1,0],[15,"LYON","KC",1,0],[16,"TSW","IG",0,1],[17,"HLE","GEN",0,1],[18,"T1","DK",0,1],[19,"TLAW","BLG",0,1]]],
+  [25,3,[[12,"HLE","IG",0,1],[13,"G2","TES",0,1],[14,"MKOI","DK",0,2],[17,"GEN","LYON",2,1]]],
+  [26,3,[[12,"CFO","T1",0,1],[13,"BLG","KC",1,0],[14,"LOS","TSW",2,0],[17,"TLAW","AL",2,0]]],
+  [28,4,[[15,"T1","MKOI",2,0],[18,"LYON","IG",1,2]]],
+  [29,4,[[15,"KC","CFO",2,0],[18,"BLG","TES",1,2]]],
+  [30,4,[[15,"LOS","TLAW",2,1],[18,"G2","HLE",0,2]]],
+  [31,5,[[12,"MKOI","KC",0,2],[15,"LOS","LYON",1,2],[18,"HLE","BLG",0,2]]]
+];
+const playinDays = [
+  [15,"首轮",[[11,"KC","C9",3,2],[null,"MVK","FUR",3,0]]],
+  [16,"胜者组 / 败者组",[[11,"KC","MVK",3,0],[null,"FUR","C9",3,1]]],
+  [17,"败者组决赛",[[11,"MVK","FUR",3,1]]],
+  [18,"晋级战",[[11,"KC","MVK",3,0]]]
+];
+const recordText = (wins, losses) => wins+"–"+losses;
+const swissRoutes = new Map();
+for (const [,round,matches] of swissDays) {
+  for (const [,a,b,aScore,bScore] of matches) {
+    for (const [code,opponent,score,otherScore] of [[a,b,aScore,bScore],[b,a,bScore,aScore]]) {
+      if (!swissRoutes.has(code)) swissRoutes.set(code, []);
+      const route = swissRoutes.get(code);
+      const previous = route.at(-1);
+      const won = score>otherScore;
+      route.push({round,opponent,score,otherScore,won,best:2*Math.max(score,otherScore)-1,
+        wins:(previous?.wins ?? 0)+Number(won), losses:(previous?.losses ?? 0)+Number(!won)});
+    }
+  }
+}
+const swissRecords = Object.fromEntries([...swissRoutes].flatMap(([code,route]) => {
+  const {wins,losses} = route.at(-1);
+  return wins===3 ? [[code,recordText(wins,losses)]] : [];
+}));
+
+function swissNode(round, wins, losses) {
+  const id = round+"-"+wins+"-"+losses;
+  const outcome = wins===3 ? "advance" : losses===3 ? "eliminated" : "";
+  return {id, wins, losses, outcome, x:75+170*round, y:216-52*(wins-losses)};
+}
+function swissPath(from,to) {
+  const start=from.x+56, end=to.x-56, middle=(start+end)/2;
+  return 'M'+start+' '+from.y+' C'+middle+' '+from.y+' '+middle+' '+to.y+' '+end+' '+to.y;
+}
+function renderSwissFlow() {
+  // Build counts and connections from the same series results as the match cards.
+  const start=swissNode(0,0,0);
+  const nodes=new Map([[start.id,{...start,count:swissRoutes.size}]]);
+  const edges=new Map();
+  for (const route of swissRoutes.values()) {
+    let from=start;
+    for (const {round,wins,losses} of route) {
+      const to=swissNode(round,wins,losses);
+      if (!nodes.has(to.id)) nodes.set(to.id,{...to,count:0});
+      nodes.get(to.id).count++;
+      const key=from.id+"_"+to.id;
+      if (!edges.has(key)) edges.set(key,{from,to,count:0});
+      edges.get(key).count++;
+      from=to;
+    }
+  }
+  const panel=document.createElement("section");
+  panel.className="swiss-panel";
+  panel.setAttribute("aria-label","瑞士轮战绩分流");
+  const picks=Object.keys(teams).filter(code=>swissRoutes.has(code)).map(code=>{
+    const [name,,origin]=teams[code];
+    return '<button type="button" data-team="'+code+'" aria-pressed="false" title="'+name+'">'+
+      '<span aria-hidden="true">'+origins[origin][1]+'</span>'+code+'</button>';
+  }).join("");
+  const columns=Array.from({length:6},(_,round)=>
+    '<span class="swiss-column" style="left:'+(75+170*round)/10+'%">'+(round ? '第 '+round+' 轮后' : '赛前')+'</span>').join("");
+  const branches=[...edges.values()].map(({from,to,count})=>
+    '<path class="swiss-edge" d="'+swissPath(from,to)+'" stroke-width="'+(1+Math.sqrt(count)*1.6)+'"/>').join("");
+  const boxes=[...nodes.values()].sort((a,b)=>a.x-b.x || a.y-b.y).map(({id,wins,losses,x,y,count,outcome})=>{
+    const description = outcome==="advance" ? "晋级" : outcome==="eliminated" ? "淘汰" : "";
+    return '<div class="swiss-node '+outcome+'" data-node="'+id+'" style="left:'+x/10+'%;top:'+y+'px">'+
+      '<b>'+recordText(wins,losses)+'</b><small>'+count+' 队'+(description ? ' · '+description : '')+'</small></div>';
+  }).join("");
+  panel.innerHTML='<p class="swiss-intro">16 队从 0–0 出发，首轮按种子档抽签，之后与同战绩队伍交手。先赢 3 场晋级，先输 3 场淘汰。点选队伍查看完整路线。</p>'+
+    '<div class="swiss-picker" role="group" aria-label="选择瑞士轮战队"><button type="button" data-team="" aria-pressed="false">全部路线</button>'+picks+'</div>'+
+    '<div class="swiss-scroll" tabindex="0" role="region" aria-label="五轮战绩分流图"><div class="swiss-chart">'+columns+
+    '<svg viewBox="0 0 1000 410" preserveAspectRatio="none" aria-hidden="true">'+branches+'<g class="swiss-overlay"></g></svg>'+boxes+'</div></div>'+
+    '<p class="swiss-key"><span><b>金线</b> 所选队伍</span><span>连线越粗，经过的队伍越多</span><span>数字为大场胜负</span></p>'+
+    '<div class="swiss-route" aria-live="polite"></div>';
+  const picker=panel.querySelector(".swiss-picker");
+  const overlay=panel.querySelector(".swiss-overlay");
+  const details=panel.querySelector(".swiss-route");
+  function select(code) {
+    picker.querySelectorAll("button").forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.team===code)));
+    const route=swissRoutes.get(code) ?? [];
+    const path=[start,...route.map(({round,wins,losses})=>swissNode(round,wins,losses))];
+    const visited=new Set(code ? path.map(node=>node.id) : []);
+    panel.querySelectorAll(".swiss-node").forEach(node=>node.classList.toggle("on-route",visited.has(node.dataset.node)));
+    overlay.innerHTML=path.slice(1).map((to,index)=>'<path class="swiss-selected-edge" d="'+swissPath(path[index],to)+'"/>').join("");
+    if (!code) {
+      details.innerHTML='<p class="swiss-intro">第 3、4、5 轮分别决出 2、3、3 个八强席位。</p>';
+      return;
+    }
+    const {wins,losses}=route.at(-1);
+    const outcome=wins===3 ? ["advance","晋级八强"] : ["eliminated","淘汰"];
+    details.innerHTML='<h3>'+code+' · '+teams[code][0]+' · <span class="'+outcome[0]+'">'+recordText(wins,losses)+' '+outcome[1]+'</span></h3>'+
+      '<ol class="swiss-steps">'+route.map(step=>
+        '<li><small>第 '+step.round+' 轮 · Bo'+step.best+'</small><b>对 '+step.opponent+' · '+
+        '<span class="'+(step.won ? 'win' : 'loss')+'">'+(step.won ? '胜 ' : '负 ')+step.score+':'+step.otherScore+
+        '</span></b><small>赛后 '+recordText(step.wins,step.losses)+'</small></li>').join("")+'</ol>';
+  }
+  picker.addEventListener("click",event=>{
+    const button=event.target.closest("button");
+    if (button) select(button.dataset.team);
+  });
+  select("BLG");
+  stage.append(panel);
+}
+const cn = "Asia/Shanghai";
+const stage = document.querySelector("#stage");
+const tip = document.querySelector("#tip");
+let activeCard;
+let pinned = false;
+const dateText = (at, zone=cn) => new Intl.DateTimeFormat("zh-CN",{
+  timeZone:zone, month:"numeric",day:"numeric", hour:"2-digit",minute:"2-digit",hourCycle:"h23"
+}).format(new Date(at));
+function winner(match) {
+  return match.scores && Math.max(...match.scores) === (match.best + 1) / 2
+    ? match.scores.indexOf(Math.max(...match.scores)) : -1;
+}
+function slotInfo(slot) {
+  if (teams[slot]) return {code:slot, text:slot};
+  const feeder = ko.find(match => match.id === slot);
+  const index = winner(feeder);
+  if (index >= 0) return slotInfo(feeder.slots[index]);
+  const path = feeder.slots.every(team => teams[team]) ? feeder.slots.join(" / ") + " 胜者" : feeder.label + "胜者";
+  return {text:path};
+}
+function teamRow({code,text},score,won) {
+  if (!code) return '<span class="team placeholder">' + text + '</span>';
+  const [,region,origin] = teams[code];
+  const [,flag] = origins[origin];
+  return '<span class="team ' + (won ? 'winner' : '') + '">' +
+    '<span class="flag" aria-hidden="true">'+flag+'</span>' +
+    '<span class="code">'+text+'</span><span class="tag '+region.toLowerCase()+'">'+region+'</span>' +
+    '<span class="score">'+(score ?? "–")+'</span></span>';
+}
+function card(match, style="") {
+  const slots = match.slots.map(slotInfo);
+  const hasLpl = slots.some(({code}) => teams[code]?.[1] === "LPL");
+  const status = winner(match) >= 0 ? "已完赛" : match.status || "待开赛";
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "match" + (hasLpl ? " has-lpl" : "") + (match.status ? " live" : "");
+  button.dataset.id = match.id;
+  button.setAttribute("aria-expanded","false");
+  button.setAttribute("aria-controls","tip");
+  button.style.cssText = style;
+  button.innerHTML = '<span class="meta"><span>'+ (match.at ? dateText(match.at) : "随当日赛程") +
+    '</span><strong>Bo'+match.best+' · '+status+'</strong></span>' +
+    slots.map((slot,i) => teamRow(slot,match.scores?.[i],winner(match)===i)).join("");
+  button.addEventListener("pointerenter",event => {
+    if (event.pointerType === "mouse" && !pinned) showDetails(button,match);
+  });
+  button.addEventListener("pointerleave",() => {
+    if (!pinned && activeCard===button && document.activeElement!==button) hideDetails();
+  });
+  button.addEventListener("focus",() => { if (!pinned) showDetails(button,match); });
+  button.addEventListener("blur",() => { if (!pinned && activeCard===button) hideDetails(); });
+  button.addEventListener("click",() => {
+    if (pinned && activeCard===button) hideDetails();
+    else { showDetails(button,match); pinned=true; }
+  });
+  return button;
+}
+function hideDetails() {
+  activeCard?.setAttribute("aria-expanded","false");
+  activeCard=null;
+  pinned=false;
+  tip.hidden=true;
+}
+function showDetails(button,match) {
+  activeCard?.setAttribute("aria-expanded","false");
+  activeCard=button;
+  button.setAttribute("aria-expanded","true");
+  const names=match.slots.map(slot => {
+    const {code,text}=slotInfo(slot);
+    if (!code) return text;
+    const [name,region,origin]=teams[code];
+    return name+" · "+origins[origin][0]+" · "+region+" 赛区"+(swissRecords[code] && ko.includes(match) ? " · 瑞士轮 "+swissRecords[code] : "");
+  });
+  const at = match.at || match.dayStart;
+  const time = match.at ? "排定开赛" : "当日开场 · 本场随前序比赛";
+  const won = winner(match);
+  const result = match.scores ? '<p>'+match.slots.map((slot,i)=>slotInfo(slot).text+" "+match.scores[i]).join(" : ")+
+    (won>=0 ? " · "+slotInfo(match.slots[won]).text+" 胜" : " · 进行中快照")+'</p>' : "";
+  tip.innerHTML = '<h3>'+match.label+' · Bo'+match.best+'</h3>'+names.map(name=>'<p>'+name+'</p>').join("")+result+
+    '<p><small>'+time+'<br>北京 '+dateText(at)+' · 当地 '+dateText(at,match.venue[1])+'<br>'+match.venue[0]+'</small></p>';
+  tip.hidden=false;
+  placeTip();
+}
+function placeTip() {
+  if (!activeCard) return;
+  const rect=activeCard.getBoundingClientRect();
+  const width=tip.offsetWidth, height=tip.offsetHeight;
+  tip.style.left=Math.max(12, Math.min(innerWidth-width-12,rect.left))+"px";
+  const top=rect.bottom+7+height<=innerHeight-8 ? rect.bottom+7 : rect.top-height-7;
+  tip.style.top=Math.max(8,top)+"px";
+}
+function title(name,description) {
+  stage.innerHTML='<div class="heading"><h2 id="stage-title">'+name+'</h2><p>'+description+'</p></div>';
+}
+function renderKnockout() {
+  title("淘汰赛签表","8 支队伍 · 7 场 Bo5 · 单败淘汰");
+  stage.insertAdjacentHTML("beforeend",'<p class="legend"><span><i>▣ LPL</i> 中国赛区</span><span><b>✓ 青色队伍</b> 已确认胜者</span><span>悬停、点击或键盘聚焦查看详情</span></p>'+
+    '<div class="columns" aria-hidden="true"><div>八强 <small>11.04–07</small></div><div>半决赛 <small>11.08–09</small></div><div>总决赛 <small>11.15</small></div></div>'+
+    '<div class="bracket"><svg class="wires" viewBox="0 0 1000 800" preserveAspectRatio="none" aria-hidden="true"><path vector-effect="non-scaling-stroke" d="M290 100H322V300H290 M322 200H355 M290 500H322V700H290 M322 600H355 M645 200H677V600H645 M677 400H710"/></svg></div>');
+  const bracket=stage.querySelector(".bracket");
+  const areas=[[1,1,2],[1,3,2],[1,5,2],[1,7,2],[2,1,4],[2,5,4],[3,1,8]];
+  const headings={0:"八强",4:"半决赛",6:"总决赛"};
+  ko.forEach((match,index)=>{
+    if(headings[index]) bracket.insertAdjacentHTML("beforeend",'<h3 class="mobile-stage">'+headings[index]+'</h3>');
+    const [column,row,span]=areas[index];
+    bracket.append(card(match,'grid-column:'+column+';grid-row:'+row+' / span '+span));
+  });
+}
+const octTime=(day,hour,offset)=>'2026-10-'+day+'T'+String(hour).padStart(2,"0")+':00'+offset;
+function renderHistory(swiss) {
+  title(swiss?"瑞士轮战绩分流":"入围赛赛果",swiss?"33 场 · 5 轮 · 8 队晋级":"6 场 Bo5 · KC 晋级瑞士轮");
+  if (swiss) {
+    renderSwissFlow();
+    stage.insertAdjacentHTML("beforeend",'<h3 class="history-heading">逐场赛果</h3>');
+  }
+  const days=swiss ? swissDays : playinDays;
+  const offset=swiss ? "-05:00" : "-07:00";
+  days.forEach(([day,round,rows])=>{
+    const section=document.createElement("section");
+    section.className="day";
+    const dayStart=octTime(day,rows[0][0],offset);
+    section.innerHTML='<h3>'+dateText(dayStart).split(" ")[0]+'<span>'+(swiss ? '第 '+round+' 轮' : round)+'</span></h3><div class="history"></div>';
+    rows.forEach(([hour,a,b,x,y],index)=>{
+      const match={id:(swiss?"swiss":"playin")+day+"-"+index,label:swiss?"瑞士轮 · 第 "+round+" 轮":"入围赛 · "+round,
+        best:swiss ? Math.max(x,y)*2-1 : 5, at:hour===null ? null : octTime(day,hour,offset),
+        dayStart, slots:[a,b], scores:[x,y], venue:swiss ? allen : la};
+      section.querySelector(".history").append(card(match));
+    });
+    stage.append(section);
+  });
+}
+document.querySelector("#snapshot").textContent=opener.checked+" · 赛况已核对";
+document.querySelector("#lead").textContent="TES "+opener.scores.join(" : ")+" IG";
+document.querySelector("#lead-label").textContent="八强揭幕战 · "+opener.status;
+document.querySelectorAll(".tabs button").forEach(button=>button.addEventListener("click",()=>{
+  hideDetails();
+  document.querySelector('.tabs [aria-pressed="true"]').setAttribute("aria-pressed","false");
+  button.setAttribute("aria-pressed","true");
+  if(button.dataset.stage==="ko") renderKnockout();
+  else renderHistory(button.dataset.stage==="swiss");
+}));
+document.querySelector("#focus").addEventListener("click",event=>{
+  const focus=stage.classList.toggle("focused");
+  event.currentTarget.setAttribute("aria-pressed",String(focus));
+});
+document.addEventListener("click",event=>{if(!event.target.closest(".match")) hideDetails();});
+document.addEventListener("keydown",event=>{if(event.key==="Escape") hideDetails();});
+window.addEventListener("scroll",placeTip,{passive:true});
+window.addEventListener("resize",placeTip);
+renderKnockout();
+</script>
+</body>
+</html>
