@@ -117,7 +117,7 @@ const ny = ["纽约布鲁克林 · Barclays Center","America/New_York"];
 const opener = {scores:[1,3], status:"已完赛", checked:"2026-11-04 12:00"};
 const ko = [
   {id:"Q1",label:"八强 · 第 1 场", at:"2026-11-03T22:00Z", slots:["TES","IG"], ...opener},
-  {id:"Q2",label:"八强 · 第 2 场", at:"2026-11-04T22:00Z", slots:["GEN","LYON"]},
+  {id:"Q2",label:"八强 · 第 2 场", at:"2026-11-04T22:00Z", slots:["GEN","LYON"], scores:[3,0], status:"已完赛", checked:"2026-11-05 09:06"},
   {id:"Q3",label:"八强 · 第 3 场", at:"2026-11-05T22:00Z", slots:["DK","BLG"]},
   {id:"Q4",label:"八强 · 第 4 场", at:"2026-11-06T22:00Z", slots:["T1","KC"]},
   {id:"S1",label:"半决赛 · 第 1 场", at:"2026-11-07T22:00Z", slots:["Q1","Q2"]},
@@ -368,7 +368,7 @@ function renderHistory(swiss) {
     stage.append(section);
   });
 }
-document.querySelector("#snapshot").textContent=opener.checked+" · 赛况已核对";
+document.querySelector("#snapshot").textContent="2026-11-05 09:06 · 赛况已核对";
 document.querySelector("#lead").textContent="TES "+opener.scores.join(" : ")+" IG";
 document.querySelector("#lead-label").textContent="八强揭幕战 · "+opener.status;
 document.querySelectorAll(".tabs button").forEach(button=>button.addEventListener("click",()=>{
