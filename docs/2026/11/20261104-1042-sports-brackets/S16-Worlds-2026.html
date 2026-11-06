@@ -67,10 +67,10 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:v
 <div class="kicker">WORLDS 2026 · LEAGUE OF LEGENDS</div>
 <h1 id="title"><span>S16</span>全球总决赛</h1><p class="back-link"><a href="index.html">← 返回赛事首页</a></p>
 <p>赛程 · 赛果 · 晋级路径</p>
-<span class="snapshot">离线快照 · <time id="snapshot">2026-11-04</time> · 默认北京时间</span>
+<span class="snapshot">离线快照 · <time id="snapshot">2026-11-06 08:47</time> · 默认北京时间</span>
 </section>
 <div class="highlights">
-<div class="highlight"><span id="lead-label" class="eyebrow">八强揭幕战</span><strong id="lead">TES vs IG</strong></div>
+<div class="highlight"><span id="lead-label" class="eyebrow">八强第 3 场 · 已完赛</span><strong id="lead">BLG 3 : 0 DK</strong></div>
 <div class="highlight"><span class="eyebrow">总决赛 · 纽约布鲁克林</span><strong>11 月 15 日 03:00 <small class="date">北京时间</small></strong></div>
 </div>
 <div class="toolbar">
@@ -93,6 +93,8 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:v
 <a href="https://escharts.com/tournaments/lol/2026-world-championship">战队归属</a>
 <a href="https://g2esports.com/pages/contact">G2 俱乐部所在地</a>
 <a href="https://www.sheepesports.com/us/all/matches/2026%20Season%20World%20Championship%2FMain%20Event_Quarterfinals_1">TES 对 IG 比分</a>
+<a href="https://lolesports.com/en-US/lolesports">Riot 官方最新赛果</a>
+<a href="https://www.reddit.com/r/leagueoflegends/comments/1xoz3ya/dplus_kia_vs_bilibili_gaming_world_championship/">BLG 对 DK 赛后逐局胜者</a>
 </footer>
 <noscript>请启用 JavaScript 查看签表和赛果。</noscript>
 </main>
@@ -118,7 +120,7 @@ const opener = {scores:[1,3], status:"已完赛", checked:"2026-11-04 12:00"};
 const ko = [
   {id:"Q1",label:"八强 · 第 1 场", at:"2026-11-03T22:00Z", slots:["TES","IG"], ...opener},
   {id:"Q2",label:"八强 · 第 2 场", at:"2026-11-04T22:00Z", slots:["GEN","LYON"], scores:[3,0], status:"已完赛", checked:"2026-11-05 09:06"},
-  {id:"Q3",label:"八强 · 第 3 场", at:"2026-11-05T22:00Z", slots:["DK","BLG"]},
+  {id:"Q3",label:"八强 · 第 3 场", at:"2026-11-05T22:00Z", slots:["DK","BLG"], scores:[0,3], status:"已完赛", checked:"2026-11-06 08:47", gameWinners:["BLG","BLG","BLG"]},
   {id:"Q4",label:"八强 · 第 4 场", at:"2026-11-06T22:00Z", slots:["T1","KC"]},
   {id:"S1",label:"半决赛 · 第 1 场", at:"2026-11-07T22:00Z", slots:["Q1","Q2"]},
   {id:"S2",label:"半决赛 · 第 2 场", at:"2026-11-08T22:00Z", slots:["Q3","Q4"]},
@@ -316,6 +318,7 @@ function showDetails(button,match) {
   const result = match.scores ? '<p>'+match.slots.map((slot,i)=>slotInfo(slot).text+" "+match.scores[i]).join(" : ")+
     (won>=0 ? " · "+slotInfo(match.slots[won]).text+" 胜" : " · 进行中快照")+'</p>' : "";
   tip.innerHTML = '<h3>'+match.label+' · Bo'+match.best+'</h3>'+names.map(name=>'<p>'+name+'</p>').join("")+result+
+    (match.gameWinners ? '<p>逐局胜者：'+match.gameWinners.map((code,i)=>'第 '+(i+1)+' 局 '+code).join(" · ")+'</p>' : "")+
     '<p><small>'+time+'<br>北京 '+dateText(at)+' · 当地 '+dateText(at,match.venue[1])+'<br>'+match.venue[0]+'</small></p>';
   tip.hidden=false;
   placeTip();
@@ -368,9 +371,9 @@ function renderHistory(swiss) {
     stage.append(section);
   });
 }
-document.querySelector("#snapshot").textContent="2026-11-05 09:06 · 赛况已核对";
-document.querySelector("#lead").textContent="TES "+opener.scores.join(" : ")+" IG";
-document.querySelector("#lead-label").textContent="八强揭幕战 · "+opener.status;
+document.querySelector("#snapshot").textContent="2026-11-06 08:47 · 赛况已核对";
+document.querySelector("#lead").textContent="BLG 3 : 0 DK · 晋级半决赛";
+document.querySelector("#lead-label").textContent="八强第 3 场 · 已完赛";
 document.querySelectorAll(".tabs button").forEach(button=>button.addEventListener("click",()=>{
   hideDetails();
   document.querySelector('.tabs [aria-pressed="true"]').setAttribute("aria-pressed","false");
