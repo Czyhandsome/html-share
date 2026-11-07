@@ -67,7 +67,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:v
 <div class="kicker">WORLDS 2026 · LEAGUE OF LEGENDS</div>
 <h1 id="title"><span>S16</span>全球总决赛</h1><p class="back-link"><a href="index.html">← 返回赛事首页</a></p>
 <p>赛程 · 赛果 · 晋级路径</p>
-<span class="snapshot">离线快照 · <time id="snapshot">2026-11-07 10:09</time> · 默认北京时间</span>
+<span class="snapshot">离线快照 · <time id="snapshot">2026-11-07 10:40</time> · 默认北京时间</span>
 </section>
 <div class="highlights">
 <div class="highlight"><span id="lead-label" class="eyebrow">八强第 4 场 · 已完赛</span><strong id="lead">T1 3 : 1 KC</strong></div>
@@ -102,7 +102,16 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:v
 <a href="https://www.osen.co.kr/article/G1112905707">T1 对 KC 第 1 局独立战报</a>
 <a href="https://www.osen.co.kr/article/G1112905717">T1 对 KC 第 2 局独立战报</a>
 <a href="https://www.inven.co.kr/webzine/news/?iskin=sgwf">Inven 前三局具名战报索引</a>
-<p>T1 对 KC 的 3:1 终局及半决赛晋级已由 Riot 官方赛程确认；逐局胜者 T1、T1、KC、T1 与 esport.vision 的赛后逐局记录一致。前三局另有 OSEN / Inven 具名战报交叉核对，部分战报正文暂仅能读取检索摘要。</p>
+<a href="https://www.strafe.com/news/read/t1-beat-karmine-corp-3-1-set-up-worlds-2026-semifinal-against-blg/">T1 对 KC 具名赛后战报</a>
+<p>T1 对 KC 的 3:1 终局及半决赛晋级已由 Riot 官方赛程确认；四局胜者 T1、T1、KC、T1 与 esport.vision 的赛后记录及 Strafe 具名战报一致。</p>
+<p>已补充 38 场历史比赛的逐局胜者。Bo1 与横扫的顺序由已核实总分唯一确定；非横扫比赛经独立来源交叉核验，其中 BLG 对 TES 沿用此前已读取的战报和逐局记录。10 月 28 日 IG 对 LYON 的逐局顺序仍待独立来源交叉核验，总比分不变。</p>
+<a href="https://www.strafe.com/news/read/worlds-2026-opens-with-na-vs-eu-banger-series/">KC 对 C9 逐局战报</a>
+<a href="https://www.sheepesports.com/us/articles/worlds-2026-cloud9-become-the-first-team-eliminated-after-losing-to-furia/en">FUR 对 C9 逐局战报</a>
+<a href="https://www.gosugamers.net/lol/news/79365-worlds-2026-play-ins-day-3-sees-mvk-esports-eliminate-furia-and-secure-karmine-corp-rematch">MVK 对 FUR 逐局战报</a>
+<a href="https://dotesports.com/league-of-legends/news/worlds-2026-knockout-day-2-results">GEN 对 LYON 瑞士轮回顾</a>
+<a href="https://dotesports.com/league-of-legends/news/worlds-2026-swiss-day-6-results">BLG 对 TES 瑞士轮战报</a>
+<a href="https://www.strafe.com/news/read/team-liquid-eliminated-from-worlds-2026-by-brazil-los-in-major-upset/">LOS 对 TLAW 逐局战报</a>
+<a href="https://www.gosugamers.net/lol/articles/79458">LOS 对 LYON 逐局战报</a>
 </footer>
 <noscript>请启用 JavaScript 查看签表和赛果。</noscript>
 </main>
@@ -150,6 +159,154 @@ const playinDays = [
   [17,"败者组决赛",[[11,"MVK","FUR",3,1]]],
   [18,"晋级战",[[11,"KC","MVK",3,0]]]
 ];
+const historyGameWinners = {
+  "playin15-1": [
+    "MVK",
+    "MVK",
+    "MVK"
+  ],
+  "playin16-0": [
+    "KC",
+    "KC",
+    "KC"
+  ],
+  "playin18-0": [
+    "KC",
+    "KC",
+    "KC"
+  ],
+  "swiss23-0": [
+    "GEN"
+  ],
+  "swiss23-1": [
+    "HLE"
+  ],
+  "swiss23-2": [
+    "MKOI"
+  ],
+  "swiss23-3": [
+    "KC"
+  ],
+  "swiss23-4": [
+    "DK"
+  ],
+  "swiss23-5": [
+    "CFO"
+  ],
+  "swiss23-6": [
+    "T1"
+  ],
+  "swiss23-7": [
+    "LYON"
+  ],
+  "swiss24-0": [
+    "TES"
+  ],
+  "swiss24-1": [
+    "MKOI"
+  ],
+  "swiss24-2": [
+    "G2"
+  ],
+  "swiss24-3": [
+    "LYON"
+  ],
+  "swiss24-4": [
+    "IG"
+  ],
+  "swiss24-5": [
+    "GEN"
+  ],
+  "swiss24-6": [
+    "DK"
+  ],
+  "swiss24-7": [
+    "BLG"
+  ],
+  "swiss25-0": [
+    "IG"
+  ],
+  "swiss25-1": [
+    "TES"
+  ],
+  "swiss25-2": [
+    "DK",
+    "DK"
+  ],
+  "swiss26-0": [
+    "T1"
+  ],
+  "swiss26-1": [
+    "BLG"
+  ],
+  "swiss26-2": [
+    "LOS",
+    "LOS"
+  ],
+  "swiss26-3": [
+    "TLAW",
+    "TLAW"
+  ],
+  "swiss28-0": [
+    "T1",
+    "T1"
+  ],
+  "swiss29-0": [
+    "KC",
+    "KC"
+  ],
+  "swiss30-1": [
+    "HLE",
+    "HLE"
+  ],
+  "swiss31-0": [
+    "KC",
+    "KC"
+  ],
+  "swiss31-2": [
+    "BLG",
+    "BLG"
+  ],
+  "playin15-0": [
+    "C9",
+    "KC",
+    "C9",
+    "KC",
+    "KC"
+  ],
+  "playin16-1": [
+    "C9",
+    "FUR",
+    "FUR",
+    "FUR"
+  ],
+  "playin17-0": [
+    "MVK",
+    "MVK",
+    "FUR",
+    "MVK"
+  ],
+  "swiss25-3": [
+    "LYON",
+    "GEN",
+    "GEN"
+  ],
+  "swiss29-1": [
+    "BLG",
+    "TES",
+    "TES"
+  ],
+  "swiss30-0": [
+    "LOS",
+    "TLAW",
+    "LOS"
+  ],
+  "swiss31-1": [
+    "LOS",
+    "LYON",
+    "LYON"
+  ]
+};
 const recordText = (wins, losses) => wins+"–"+losses;
 const swissRoutes = new Map();
 for (const [,round,matches] of swissDays) {
@@ -326,7 +483,7 @@ function showDetails(button,match) {
   const result = match.scores ? '<p>'+match.slots.map((slot,i)=>slotInfo(slot).text+" "+match.scores[i]).join(" : ")+
     (won>=0 ? " · "+slotInfo(match.slots[won]).text+" 胜" : " · 进行中快照")+'</p>' : "";
   tip.innerHTML = '<h3>'+match.label+' · Bo'+match.best+'</h3>'+names.map(name=>'<p>'+name+'</p>').join("")+result+
-    (match.gameWinners ? '<p>逐局胜者：'+match.gameWinners.map((code,i)=>'第 '+(i+1)+' 局 '+code).join(" · ")+'</p>' : "")+
+    (match.gameWinners ? '<p>逐局胜者：'+match.gameWinners.map((code,i)=>'第 '+(i+1)+' 局 '+code).join(" · ")+'</p>' : match.gamesPending ? '<p>逐局胜者：待交叉核验</p>' : "")+
     '<p><small>'+time+'<br>北京 '+dateText(at)+' · 当地 '+dateText(at,match.venue[1])+'<br>'+match.venue[0]+'</small></p>';
   tip.hidden=false;
   placeTip();
@@ -373,13 +530,14 @@ function renderHistory(swiss) {
     rows.forEach(([hour,a,b,x,y],index)=>{
       const match={id:(swiss?"swiss":"playin")+day+"-"+index,label:swiss?"瑞士轮 · 第 "+round+" 轮":"入围赛 · "+round,
         best:swiss ? Math.max(x,y)*2-1 : 5, at:hour===null ? null : octTime(day,hour,offset),
-        dayStart, slots:[a,b], scores:[x,y], venue:swiss ? allen : la};
+        dayStart, slots:[a,b], scores:[x,y], gameWinners:historyGameWinners[(swiss?"swiss":"playin")+day+"-"+index],
+        gamesPending:!historyGameWinners[(swiss?"swiss":"playin")+day+"-"+index], venue:swiss ? allen : la};
       section.querySelector(".history").append(card(match));
     });
     stage.append(section);
   });
 }
-document.querySelector("#snapshot").textContent="2026-11-07 10:09 · 赛况已核对";
+document.querySelector("#snapshot").textContent="2026-11-07 10:40 · 赛况已核对";
 document.querySelector("#lead").textContent="T1 3 : 1 KC · 晋级半决赛";
 document.querySelector("#lead-label").textContent="八强第 4 场 · 已完赛";
 document.querySelectorAll(".tabs button").forEach(button=>button.addEventListener("click",()=>{
