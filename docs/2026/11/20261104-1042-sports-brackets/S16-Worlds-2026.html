@@ -67,10 +67,10 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:v
 <div class="kicker">WORLDS 2026 · LEAGUE OF LEGENDS</div>
 <h1 id="title"><span>S16</span>全球总决赛</h1><p class="back-link"><a href="index.html">← 返回赛事首页</a></p>
 <p>赛程 · 赛果 · 晋级路径</p>
-<span class="snapshot">离线快照 · <time id="snapshot">2026-11-07 02:33</time> · 默认北京时间</span>
+<span class="snapshot">离线快照 · <time id="snapshot">2026-11-07 09:36</time> · 默认北京时间</span>
 </section>
 <div class="highlights">
-<div class="highlight"><span id="lead-label" class="eyebrow">八强第 3 场 · 已完赛</span><strong id="lead">BLG 3 : 0 DK</strong></div>
+<div class="highlight"><span id="lead-label" class="eyebrow">八强第 4 场 · 进行中快照</span><strong id="lead">T1 2 : 1 KC</strong></div>
 <div class="highlight"><span class="eyebrow">总决赛 · 纽约布鲁克林</span><strong>11 月 15 日 03:00 <small class="date">北京时间</small></strong></div>
 </div>
 <div class="toolbar">
@@ -98,6 +98,11 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:v
 <a href="https://riftcompass.com/en/esports/worlds/115660540726095109?game=1">TES 对 IG 逐局胜者</a>
 <a href="https://rg.org/news/esports/invictus-gaming-upset-top-esports-worlds-2026-quarterfinal-allen-texas-wei-mvp-first-semifinal-since-2019">TES 对 IG 独立赛后报道</a>
 <a href="https://www.strafe.com/match/gen-g-vs-lyon-quarterfinals-worlds-2026-ac73c5/">GEN 对 LYON 逐局胜者</a>
+<a href="https://esport.vision/lol/match/115660540726095103-t1-vs-karmine-corp">T1 对 KC 进行中赛况与逐局胜者</a>
+<a href="https://www.osen.co.kr/article/G1112905707">T1 对 KC 第 1 局独立战报</a>
+<a href="https://www.osen.co.kr/article/G1112905717">T1 对 KC 第 2 局独立战报</a>
+<a href="https://www.inven.co.kr/webzine/news/?iskin=sgwf">Inven 前三局具名战报索引</a>
+<p>T1 对 KC 为北京时间 11 月 7 日 09:36 的进行中快照，前三局胜者依次为 T1、T1、KC。第三局的独立战报依据为 Inven 具名报道的检索摘要，原站列表缓存尚未同步。</p>
 </footer>
 <noscript>请启用 JavaScript 查看签表和赛果。</noscript>
 </main>
@@ -124,7 +129,7 @@ const ko = [
   {id:"Q1",label:"八强 · 第 1 场", at:"2026-11-03T22:00Z", slots:["TES","IG"], ...opener},
   {id:"Q2",label:"八强 · 第 2 场", at:"2026-11-04T22:00Z", slots:["GEN","LYON"], scores:[3,0], status:"已完赛", checked:"2026-11-07 02:33", gameWinners:["GEN","GEN","GEN"]},
   {id:"Q3",label:"八强 · 第 3 场", at:"2026-11-05T22:00Z", slots:["DK","BLG"], scores:[0,3], status:"已完赛", checked:"2026-11-06 08:47", gameWinners:["BLG","BLG","BLG"]},
-  {id:"Q4",label:"八强 · 第 4 场", at:"2026-11-06T22:00Z", slots:["T1","KC"]},
+  {id:"Q4",label:"八强 · 第 4 场", at:"2026-11-06T22:00Z", slots:["T1","KC"], scores:[2,1], status:"进行中", checked:"2026-11-07 09:36", gameWinners:["T1","T1","KC"]},
   {id:"S1",label:"半决赛 · 第 1 场", at:"2026-11-07T22:00Z", slots:["Q1","Q2"]},
   {id:"S2",label:"半决赛 · 第 2 场", at:"2026-11-08T22:00Z", slots:["Q3","Q4"]},
   {id:"F",label:"总决赛", at:"2026-11-14T19:00Z", slots:["S1","S2"]}
@@ -374,9 +379,9 @@ function renderHistory(swiss) {
     stage.append(section);
   });
 }
-document.querySelector("#snapshot").textContent="2026-11-07 02:33 · 赛况已核对";
-document.querySelector("#lead").textContent="BLG 3 : 0 DK · 晋级半决赛";
-document.querySelector("#lead-label").textContent="八强第 3 场 · 已完赛";
+document.querySelector("#snapshot").textContent="2026-11-07 09:36 · 赛况已核对";
+document.querySelector("#lead").textContent="T1 2 : 1 KC · 进行中快照";
+document.querySelector("#lead-label").textContent="八强第 4 场 · 进行中快照";
 document.querySelectorAll(".tabs button").forEach(button=>button.addEventListener("click",()=>{
   hideDetails();
   document.querySelector('.tabs [aria-pressed="true"]').setAttribute("aria-pressed","false");
