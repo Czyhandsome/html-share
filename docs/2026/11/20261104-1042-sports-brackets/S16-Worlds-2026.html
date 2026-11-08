@@ -67,10 +67,10 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:v
 <div class="kicker">WORLDS 2026 · LEAGUE OF LEGENDS</div>
 <h1 id="title"><span>S16</span>全球总决赛</h1><p class="back-link"><a href="index.html">← 返回赛事首页</a></p>
 <p>赛程 · 赛果 · 晋级路径</p>
-<span class="snapshot">离线快照 · <time id="snapshot">2026-11-07 11:03</time> · 默认北京时间</span>
+<span class="snapshot">离线快照 · <time id="snapshot">2026-11-08 20:30 · 半决赛首场已核对</time> · 默认北京时间</span>
 </section>
 <div class="highlights">
-<div class="highlight"><span id="lead-label" class="eyebrow">八强第 4 场 · 已完赛</span><strong id="lead">T1 3 : 1 KC</strong></div>
+<div class="highlight"><span id="lead-label" class="eyebrow">半决赛第 1 场 · 已完赛</span><strong id="lead">GEN 3 : 0 IG · 晋级总决赛</strong></div>
 <div class="highlight"><span class="eyebrow">总决赛 · 纽约布鲁克林</span><strong>11 月 15 日 03:00 <small class="date">北京时间</small></strong></div>
 </div>
 <div class="toolbar">
@@ -103,8 +103,9 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:14px;color:v
 <a href="https://www.osen.co.kr/article/G1112905717">T1 对 KC 第 2 局独立战报</a>
 <a href="https://www.inven.co.kr/webzine/news/?iskin=sgwf">Inven 前三局具名战报索引</a>
 <a href="https://www.strafe.com/news/read/t1-beat-karmine-corp-3-1-set-up-worlds-2026-semifinal-against-blg/">T1 对 KC 具名赛后战报</a>
+<p>GEN 对 IG 的 3:0 半决赛终局及总决赛晋级已由 Riot 官方赛程确认；三局胜者均为 GEN，与 <a href="https://www.strafe.com/news/read/geng-become-first-team-to-reach-worlds-2026-final-after-3-0-sweep-of-ig/">Strafe 具名赛后战报</a>一致。另一场半决赛 BLG 对 T1 排定北京时间 11 月 9 日 06:00。</p>
 <p>T1 对 KC 的 3:1 终局及半决赛晋级已由 Riot 官方赛程确认；四局胜者 T1、T1、KC、T1 与 esport.vision 的赛后记录及 Strafe 具名战报一致。</p>
-<p>已补充全部 39 场历史比赛的逐局胜者。Bo1 与横扫的顺序由已核实总分唯一确定；非横扫比赛经独立来源交叉核验，其中 BLG 对 TES 沿用此前已读取的战报和逐局记录。</p>
+<p>已补充入围赛与瑞士轮全部 39 场比赛的逐局胜者。Bo1 与横扫的顺序由已核实总分唯一确定；非横扫比赛经独立来源交叉核验，其中 BLG 对 TES 沿用此前已读取的战报和逐局记录。</p>
 <a href="https://www.strafe.com/news/read/worlds-2026-opens-with-na-vs-eu-banger-series/">KC 对 C9 逐局战报</a>
 <a href="https://www.sheepesports.com/us/articles/worlds-2026-cloud9-become-the-first-team-eliminated-after-losing-to-furia/en">FUR 对 C9 逐局战报</a>
 <a href="https://www.gosugamers.net/lol/news/79365-worlds-2026-play-ins-day-3-sees-mvk-esports-eliminate-furia-and-secure-karmine-corp-rematch">MVK 对 FUR 逐局战报</a>
@@ -544,9 +545,9 @@ function renderHistory(swiss) {
     stage.append(section);
   });
 }
-document.querySelector("#snapshot").textContent="2026-11-07 11:03 · 赛况已核对";
-document.querySelector("#lead").textContent="T1 3 : 1 KC · 晋级半决赛";
-document.querySelector("#lead-label").textContent="八强第 4 场 · 已完赛";
+document.querySelector("#snapshot").textContent="2026-11-08 20:30 · 半决赛首场已核对";
+document.querySelector("#lead").textContent="GEN 3 : 0 IG · 晋级总决赛";
+document.querySelector("#lead-label").textContent="半决赛第 1 场 · 已完赛";
 document.querySelectorAll(".tabs button").forEach(button=>button.addEventListener("click",()=>{
   hideDetails();
   document.querySelector('.tabs [aria-pressed="true"]').setAttribute("aria-pressed","false");
