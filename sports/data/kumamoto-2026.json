@@ -10,7 +10,7 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 12 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
+    "已录入 23 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
     "11月11日首轮比赛从北京时间08:00开始；各场具体开赛时间尚待官方或双独立来源核实，不能将日程起始时间视为每场时间。"
@@ -19,7 +19,7 @@
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-11T03:30:00+08:00",
+      "snapshot_at": "2026-11-11T07:30:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -834,6 +834,46 @@
         "id": "ms-muhamad-yusuf",
         "name": "Muhamad Yusuf",
         "team": "INA"
+      },
+      {
+        "id": "ms-riku-hatano",
+        "name": "秦野陆",
+        "team": "JPN"
+      },
+      {
+        "id": "ws-chloe-hoang",
+        "name": "Chloe Hoang",
+        "team": "CAN"
+      },
+      {
+        "id": "ws-asuka-takahashi",
+        "name": "高桥明日香",
+        "team": "JPN"
+      },
+      {
+        "id": "ws-niina-matsuda",
+        "name": "松田仁衣菜",
+        "team": "JPN"
+      },
+      {
+        "id": "md-mitsuhashi-matsui",
+        "name": "三桥健也／松居圭一郎",
+        "team": "JPN"
+      },
+      {
+        "id": "md-yoshida-goto",
+        "name": "吉田翼／后藤拓人",
+        "team": "JPN"
+      },
+      {
+        "id": "wd-kiyose-hara",
+        "name": "清濑璃子／原菜那子",
+        "team": "JPN"
+      },
+      {
+        "id": "wd-igarashi-tanabe",
+        "name": "五十岚有纱／田边裕美",
+        "team": "JPN"
       }
     ],
     "sources": [
@@ -969,6 +1009,20 @@
         "label": "PB Djarum 官方俱乐部 · 男双首轮赛后报道（引用PBSI媒体组采访）",
         "kind": "official",
         "family": "pbdjarum.org"
+      },
+      {
+        "id": "badspi-day1",
+        "url": "https://www.badspi.jp/202611102225/",
+        "label": "Badminton Spirit · 首日现场报道及完整日本选手赛果",
+        "kind": "independent",
+        "family": "badspi.jp"
+      },
+      {
+        "id": "smash-day1",
+        "url": "https://www.smash-net.tv/topic/2915/",
+        "label": "SMASH and NET. TV · 首日独立赛事报道",
+        "kind": "independent",
+        "family": "smash-net.tv"
       }
     ],
     "rules": {
@@ -1323,7 +1377,7 @@
             "winner": "MS-Q-YOO-YUSUF"
           },
           {
-            "entry": "MS-15-1"
+            "winner": "MS-Q-TAKEI-HATANO"
           }
         ],
         "rule": "badminton",
@@ -1665,7 +1719,7 @@
             "entry": "WS-5-0"
           },
           {
-            "entry": "WS-5-1"
+            "winner": "WS-Q-SUGIYAMA-TAKAHASHI"
           }
         ],
         "rule": "badminton",
@@ -1733,7 +1787,7 @@
             "entry": "WS-9-0"
           },
           {
-            "entry": "WS-9-1"
+            "winner": "WS-Q-KANTEMYR-MATSUDA"
           }
         ],
         "rule": "badminton",
@@ -1781,7 +1835,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "WS-12-0"
+            "winner": "WS-Q-SUNAGAWA-HOANG"
           },
           {
             "entry": "WS-12-1"
@@ -2208,7 +2262,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "MD-6-0"
+            "winner": "MD-Q-HUNG-YOSHIDA"
           },
           {
             "entry": "MD-6-1"
@@ -2245,7 +2299,7 @@
             "entry": "MD-8-0"
           },
           {
-            "entry": "MD-8-1"
+            "winner": "MD-Q-KAWABE-MITSUHASHI"
           }
         ],
         "rule": "badminton",
@@ -2266,9 +2320,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-9-0",
+          "MD-9-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
       },
       {
         "id": "MD-R32-10",
@@ -2844,9 +2918,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "WD-5-0",
+          "WD-5-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
       },
       {
         "id": "WD-R32-6",
@@ -2961,7 +3055,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "WD-10-0"
+            "winner": "WD-Q-CHEN-KIYOSE"
           },
           {
             "entry": "WD-10-1"
@@ -3019,9 +3113,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "WD-13-0",
+          "WD-13-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
       },
       {
         "id": "WD-R32-14",
@@ -3046,7 +3160,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "WD-15-0"
+            "winner": "WD-Q-JONGSATHAPORNPARN-IGARASHI"
           },
           {
             "entry": "WD-15-1"
@@ -3849,6 +3963,314 @@
         "rule": "badminton",
         "status": "scheduled",
         "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+      },
+      {
+        "id": "MS-Q-TAKEI-HATANO",
+        "draw": "MS",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "MS-15-1"
+          },
+          {
+            "entry": "ms-riku-hatano"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            21,
+            17
+          ]
+        ],
+        "result_for": [
+          "MS-15-1",
+          "ms-riku-hatano"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "WS-Q-SUNAGAWA-HOANG",
+        "draw": "WS",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "WS-12-0"
+          },
+          {
+            "entry": "ws-chloe-hoang"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            11
+          ]
+        ],
+        "result_for": [
+          "WS-12-0",
+          "ws-chloe-hoang"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "WS-Q-SUGIYAMA-TAKAHASHI",
+        "draw": "WS",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "WS-5-1"
+          },
+          {
+            "entry": "ws-asuka-takahashi"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "WS-5-1",
+          "ws-asuka-takahashi"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "WS-Q-KANTEMYR-MATSUDA",
+        "draw": "WS",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "WS-9-1"
+          },
+          {
+            "entry": "ws-niina-matsuda"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            10
+          ],
+          [
+            21,
+            12
+          ]
+        ],
+        "result_for": [
+          "WS-9-1",
+          "ws-niina-matsuda"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "MD-Q-KAWABE-MITSUHASHI",
+        "draw": "MD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "MD-8-1"
+          },
+          {
+            "entry": "md-mitsuhashi-matsui"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            9
+          ]
+        ],
+        "result_for": [
+          "MD-8-1",
+          "md-mitsuhashi-matsui"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "MD-Q-HUNG-YOSHIDA",
+        "draw": "MD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "MD-6-0"
+          },
+          {
+            "entry": "md-yoshida-goto"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            23,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-6-0",
+          "md-yoshida-goto"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "WD-Q-CHEN-KIYOSE",
+        "draw": "WD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "WD-10-0"
+          },
+          {
+            "entry": "wd-kiyose-hara"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            21,
+            8
+          ],
+          [
+            21,
+            19
+          ]
+        ],
+        "result_for": [
+          "WD-10-0",
+          "wd-kiyose-hara"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "WD-Q-JONGSATHAPORNPARN-IGARASHI",
+        "draw": "WD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "WD-15-0"
+          },
+          {
+            "entry": "wd-igarashi-tanabe"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            21,
+            11
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "WD-15-0",
+          "wd-igarashi-tanabe"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
       }
     ]
   }
