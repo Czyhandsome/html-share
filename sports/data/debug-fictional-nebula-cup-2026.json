@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "kind": "bracket-v1",
+  "id": "debug-fictional-nebula-cup-2026",
+  "output": "docs/2026/11/debug-fictional-nebula-cup-2026/index.html",
+  "event_dates": {
+    "start": "2026-11-10",
+    "end": "2026-11-10"
+  },
+  "notices": [
+    "【调试假赛事】所有赛事、选手、时间与比分均为人工模拟测试数据，不属于任何真实赛事。",
+    "本页仅验证新增赛事、更新比分、自动生成索引与GitHub Pages发布；赛事日期按虚构赛地Europe/Berlin当地日期填写。",
+    "来源中的official类型仅沿用仓库虚构示例的测试来源结构，不是真实官方核验。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "【调试假赛事】虚构星云杯乒乓球发布演练",
+      "snapshot_at": "2026-11-10T14:00:00+01:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/Berlin"
+    },
+    "entries": [
+      {
+        "id": "a",
+        "name": "虚构选手·星云甲",
+        "team": ""
+      },
+      {
+        "id": "b",
+        "name": "虚构选手·月兔乙",
+        "team": ""
+      },
+      {
+        "id": "c",
+        "name": "虚构选手·纸鹤丙",
+        "team": ""
+      },
+      {
+        "id": "d",
+        "name": "虚构选手·积木丁",
+        "team": ""
+      }
+    ],
+    "sources": [
+      {
+        "id": "demo",
+        "url": "https://github.com/Czyhandsome/html-share/blob/main/sports/data/debug-fictional-nebula-cup-2026.json",
+        "label": "【模拟测试】本仓库人工构造的虚构赛果；非真实赛事官方来源",
+        "kind": "official",
+        "family": "simulated-test-fixture"
+      }
+    ],
+    "rules": {
+      "early": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2
+      },
+      "final": {
+        "best_of": 7,
+        "points": 11,
+        "win_by": 2
+      }
+    },
+    "groups": [],
+    "matches": [
+      {
+        "id": "SF1",
+        "result_for": [
+          "a",
+          "b"
+        ],
+        "round": "半决赛",
+        "slots": [
+          {
+            "entry": "a"
+          },
+          {
+            "entry": "b"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "demo"
+          ],
+          "verified_at": "2026-11-10T13:00:00+01:00"
+        },
+        "draw": "debug-singles"
+      },
+      {
+        "id": "SF2",
+        "result_for": [
+          "c",
+          "d"
+        ],
+        "round": "半决赛",
+        "slots": [
+          {
+            "entry": "c"
+          },
+          {
+            "entry": "d"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "demo"
+          ],
+          "verified_at": "2026-11-10T13:00:00+01:00"
+        },
+        "draw": "debug-singles"
+      },
+      {
+        "id": "F",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "SF1"
+          },
+          {
+            "winner": "SF2"
+          }
+        ],
+        "rule": "final",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-10T15:00:00+01:00",
+        "draw": "debug-singles"
+      }
+    ],
+    "draws": [
+      {
+        "id": "debug-singles",
+        "name": "【调试假赛事】虚构单打"
+      }
+    ]
+  }
+}
