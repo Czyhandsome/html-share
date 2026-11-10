@@ -1,0 +1,3625 @@
+{
+  "schema_version": 1,
+  "kind": "bracket-v1",
+  "id": "kumamoto-2026",
+  "output": "docs/2026/11/20261110-2200-kumamoto-masters-2026/index.html",
+  "notices": [
+    "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
+    "五个正赛项目的首轮及后续轮次已建档。部分首轮签位在赛前重排，标为待核实的卡片仍待官方签表或赛果确认。",
+    "已录入男单资格赛古贺穂对李梓嘉，以及女双正赛首轮福岛由纪／松本麻佑对李怡婧／王漪朵。逐局比分和来源见对应卡片。",
+    "BWF 11 月 3 日初签：https://extranet.bwf.sport/docs/events/5194/docs/Draws%20-%20Kumamoto%20Masters%20Japan%202026.pdf 。实时对阵和赛果可从赛事官网 https://kumamotomasters-japan.com/ 进入。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "熊本羽毛球大师赛 2026 · 五项目签表",
+      "snapshot_at": "2026-11-10T19:13:18+08:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Asia/Tokyo",
+      "back_link": "../20261104-1042-sports-brackets/index.html"
+    },
+    "entries": [
+      {
+        "id": "MS-1-0",
+        "name": "Christo POPOV",
+        "team": "FRA"
+      },
+      {
+        "id": "MS-1-1",
+        "name": "古贺穂（Minoru Koga）",
+        "team": "JPN"
+      },
+      {
+        "id": "MS-2-0",
+        "name": "Moh. Zaki UBAIDILLAH",
+        "team": "INA"
+      },
+      {
+        "id": "MS-2-1",
+        "name": "Brian YANG",
+        "team": "CAN"
+      },
+      {
+        "id": "MS-3-0",
+        "name": "Alwi FARHAN",
+        "team": "INA"
+      },
+      {
+        "id": "MS-3-1",
+        "name": "LIN Chun-Yi",
+        "team": "TPE"
+      },
+      {
+        "id": "MS-4-0",
+        "name": "Nhat NGUYEN",
+        "team": "IRL"
+      },
+      {
+        "id": "MS-4-1",
+        "name": "西本拳太",
+        "team": "JPN"
+      },
+      {
+        "id": "MS-5-0",
+        "name": "Victor LAI",
+        "team": "CAN"
+      },
+      {
+        "id": "MS-5-1",
+        "name": "沖本優大",
+        "team": "JPN"
+      },
+      {
+        "id": "MS-6-0",
+        "name": "田中湧士",
+        "team": "JPN"
+      },
+      {
+        "id": "MS-6-1",
+        "name": "ZHU Xuan Chen",
+        "team": "CHN"
+      },
+      {
+        "id": "MS-7-0",
+        "name": "Lakshya SEN",
+        "team": "IND"
+      },
+      {
+        "id": "MS-7-1",
+        "name": "CHI Yu Jen",
+        "team": "TPE"
+      },
+      {
+        "id": "MS-8-0",
+        "name": "DONG Tian Yao",
+        "team": "CHN"
+      },
+      {
+        "id": "MS-8-1",
+        "name": "LEE Chia Hao",
+        "team": "TPE"
+      },
+      {
+        "id": "MS-9-0",
+        "name": "KIDAMBI Srikanth",
+        "team": "IND"
+      },
+      {
+        "id": "MS-9-1",
+        "name": "Rasmus GEMKE",
+        "team": "DEN"
+      },
+      {
+        "id": "MS-10-0",
+        "name": "Panitchaphon TEERARATSAKUL",
+        "team": "THA"
+      },
+      {
+        "id": "MS-10-1",
+        "name": "奈良岡功大",
+        "team": "JPN"
+      },
+      {
+        "id": "MS-11-0",
+        "name": "渡邉航貴",
+        "team": "JPN"
+      },
+      {
+        "id": "MS-11-1",
+        "name": "JEON Hyeok Jin",
+        "team": "KOR"
+      },
+      {
+        "id": "MS-12-0",
+        "name": "HU Zhe An",
+        "team": "CHN"
+      },
+      {
+        "id": "MS-12-1",
+        "name": "CHOU Tien Chen",
+        "team": "TPE"
+      },
+      {
+        "id": "MS-13-0",
+        "name": "WANG Po-Wei",
+        "team": "TPE"
+      },
+      {
+        "id": "MS-13-1",
+        "name": "WANG Tzu Wei",
+        "team": "TPE"
+      },
+      {
+        "id": "MS-14-0",
+        "name": "SU Li Yang",
+        "team": "TPE"
+      },
+      {
+        "id": "MS-14-1",
+        "name": "Toma Junior POPOV",
+        "team": "FRA"
+      },
+      {
+        "id": "MS-15-0",
+        "name": "YOO Tae Bin",
+        "team": "KOR"
+      },
+      {
+        "id": "MS-15-1",
+        "name": "Riki TAKEI",
+        "team": "JPN"
+      },
+      {
+        "id": "MS-16-0",
+        "name": "Magnus JOHANNESEN",
+        "team": "DEN"
+      },
+      {
+        "id": "MS-16-1",
+        "name": "Kunlavut VITIDSARN",
+        "team": "THA"
+      },
+      {
+        "id": "WS-1-0",
+        "name": "山口茜",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-1-1",
+        "name": "明地陽菜",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-2-0",
+        "name": "Supanida KATETHONG",
+        "team": "THA"
+      },
+      {
+        "id": "WS-2-1",
+        "name": "HUANG Yu-Hsun",
+        "team": "TPE"
+      },
+      {
+        "id": "WS-3-0",
+        "name": "Putri Kusuma WARDANI",
+        "team": "INA"
+      },
+      {
+        "id": "WS-3-1",
+        "name": "郡司莉子",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-4-0",
+        "name": "HAN Qian Xi",
+        "team": "CHN"
+      },
+      {
+        "id": "WS-4-1",
+        "name": "TUNG Ciou-Tong",
+        "team": "TPE"
+      },
+      {
+        "id": "WS-5-0",
+        "name": "CHEN Yu Fei",
+        "team": "CHN"
+      },
+      {
+        "id": "WS-5-1",
+        "name": "Kaoru SUGIYAMA",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-6-0",
+        "name": "Kaloyana NALBANTOVA",
+        "team": "BUL"
+      },
+      {
+        "id": "WS-6-1",
+        "name": "Michelle LI",
+        "team": "CAN"
+      },
+      {
+        "id": "WS-7-0",
+        "name": "Pornpawee CHOCHUWONG",
+        "team": "THA"
+      },
+      {
+        "id": "WS-7-1",
+        "name": "WONG Ling Ching",
+        "team": "MAS"
+      },
+      {
+        "id": "WS-8-0",
+        "name": "Karupathevan LETSHANAA",
+        "team": "MAS"
+      },
+      {
+        "id": "WS-8-1",
+        "name": "仁平菜月",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-9-0",
+        "name": "Line Højmark KJAERSFELDT",
+        "team": "DEN"
+      },
+      {
+        "id": "WS-9-1",
+        "name": "Yevheniia KANTEMYR",
+        "team": "UKR"
+      },
+      {
+        "id": "WS-10-0",
+        "name": "Manami SUIZU",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-10-1",
+        "name": "宮崎友花",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-11-0",
+        "name": "LIN Hsiang Ti",
+        "team": "TPE"
+      },
+      {
+        "id": "WS-11-1",
+        "name": "CHIU Pin-Chian",
+        "team": "TPE"
+      },
+      {
+        "id": "WS-12-0",
+        "name": "Nodoka SUNAKAWA",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-12-1",
+        "name": "Ratchanok INTANON",
+        "team": "THA"
+      },
+      {
+        "id": "WS-13-0",
+        "name": "SUNG Shuo Yun",
+        "team": "TPE"
+      },
+      {
+        "id": "WS-13-1",
+        "name": "Amalie SCHULZ",
+        "team": "DEN"
+      },
+      {
+        "id": "WS-14-0",
+        "name": "Polina BUHROVA",
+        "team": "UKR"
+      },
+      {
+        "id": "WS-14-1",
+        "name": "奥原希望",
+        "team": "JPN"
+      },
+      {
+        "id": "WS-15-0",
+        "name": "Mia BLICHFELDT",
+        "team": "DEN"
+      },
+      {
+        "id": "WS-15-1",
+        "name": "XU Wen Jing",
+        "team": "CHN"
+      },
+      {
+        "id": "WS-16-0",
+        "name": "Rachel CHAN",
+        "team": "CAN"
+      },
+      {
+        "id": "WS-16-1",
+        "name": "WANG Zhi Yi",
+        "team": "CHN"
+      },
+      {
+        "id": "MD-1-0",
+        "name": "KIM Won Ho／SEO Seung Jae",
+        "team": "KOR"
+      },
+      {
+        "id": "MD-1-1",
+        "name": "Christo POPOV／Toma Junior POPOV",
+        "team": "FRA"
+      },
+      {
+        "id": "MD-2-0",
+        "name": "KANG Min Hyuk／LEE JONGMIN",
+        "team": "KOR"
+      },
+      {
+        "id": "MD-2-1",
+        "name": "JIN Yong／JO Song Hyun",
+        "team": "KOR"
+      },
+      {
+        "id": "MD-3-0",
+        "name": "CHEN Bo Yang／LIU Yi",
+        "team": "CHN"
+      },
+      {
+        "id": "MD-3-1",
+        "name": "WANG Chang／XIE Haonan",
+        "team": "CHN"
+      },
+      {
+        "id": "MD-4-0",
+        "name": "HE Ji Ting／REN Xiang Yu",
+        "team": "CHN"
+      },
+      {
+        "id": "MD-4-1",
+        "name": "CHIA Weijie／TEO Ee Yi",
+        "team": "MAS"
+      },
+      {
+        "id": "MD-5-0",
+        "name": "Aaron CHIA／SOH Wooi Yik",
+        "team": "MAS"
+      },
+      {
+        "id": "MD-5-1",
+        "name": "Hariharan AMSAKARUNAN／M.R. ARJUN",
+        "team": "IND"
+      },
+      {
+        "id": "MD-6-0",
+        "name": "HUNG Kuei Chun／LUI Chun Wai",
+        "team": "HKG"
+      },
+      {
+        "id": "MD-6-1",
+        "name": "保木卓朗／小林優吾",
+        "team": "JPN"
+      },
+      {
+        "id": "MD-7-0",
+        "name": "Ben LANE／Sean VENDY",
+        "team": "GB-ENG"
+      },
+      {
+        "id": "MD-7-1",
+        "name": "Fang-Chih LEE／Fang-Jen LEE",
+        "team": "TPE"
+      },
+      {
+        "id": "MD-8-0",
+        "name": "CHEN ZHI YI／Presley SMITH",
+        "team": "USA"
+      },
+      {
+        "id": "MD-8-1",
+        "name": "Haruki KAWABE／Kenta MATSUKAWA",
+        "team": "JPN"
+      },
+      {
+        "id": "MD-9-0",
+        "name": "LEE Jhe-Huei／YANG Po-Hsuan",
+        "team": "TPE"
+      },
+      {
+        "id": "MD-9-1",
+        "name": "Takumi NOMURA／霜上雄一",
+        "team": "JPN"
+      },
+      {
+        "id": "MD-10-0",
+        "name": "HU Ke Yuan／LIANG Wei Keng",
+        "team": "CHN"
+      },
+      {
+        "id": "MD-10-1",
+        "name": "Sabar Karyaman GUTAMA／Moh Reza Pahlevi ISFAHANI",
+        "team": "INA"
+      },
+      {
+        "id": "MD-11-0",
+        "name": "Aaron TAI／YAP Roy King",
+        "team": "MAS"
+      },
+      {
+        "id": "MD-11-1",
+        "name": "熊谷翔／西大輝",
+        "team": "JPN"
+      },
+      {
+        "id": "MD-12-0",
+        "name": "Christian Faust KJÆR／Rasmus KJÆR",
+        "team": "DEN"
+      },
+      {
+        "id": "MD-12-1",
+        "name": "GOH Sze Fei／Nur IZZUDDIN",
+        "team": "MAS"
+      },
+      {
+        "id": "MD-13-0",
+        "name": "Daniel LUNDGAARD／Mads VESTERGAARD",
+        "team": "DEN"
+      },
+      {
+        "id": "MD-13-1",
+        "name": "Nur Mohd Azriyn Ayub AZRIYN／TAN Wee Kiong",
+        "team": "MAS"
+      },
+      {
+        "id": "MD-14-0",
+        "name": "Peeratchai SUKPHUN／Pakkapon TEERARATSAKUL",
+        "team": "THA"
+      },
+      {
+        "id": "MD-14-1",
+        "name": "MAN Wei Chong／TEE Kai Wun",
+        "team": "MAS"
+      },
+      {
+        "id": "MD-15-0",
+        "name": "CHIU Hsiang Chieh／WANG Chi-Lin",
+        "team": "TPE"
+      },
+      {
+        "id": "MD-15-1",
+        "name": "CHEN Zhi Ray／LIN Yu Chieh",
+        "team": "TPE"
+      },
+      {
+        "id": "MD-16-0",
+        "name": "岡村洋輝／山下恭平",
+        "team": "JPN"
+      },
+      {
+        "id": "MD-16-1",
+        "name": "Fajar ALFIAN／Muhammad Shohibul FIKRI",
+        "team": "INA"
+      },
+      {
+        "id": "WD-1-0",
+        "name": "福島由紀／松本麻佑",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-2-0",
+        "name": "KIM Hye Jeong／LEE Yeon Woo",
+        "team": "KOR"
+      },
+      {
+        "id": "WD-2-1",
+        "name": "Jackie DENT／Crystal LAI",
+        "team": "CAN"
+      },
+      {
+        "id": "WD-3-0",
+        "name": "Gabriela STOEVA／Stefani STOEVA",
+        "team": "BUL"
+      },
+      {
+        "id": "WD-3-1",
+        "name": "KIM Yu Jung／LEE Yu Lim",
+        "team": "KOR"
+      },
+      {
+        "id": "WD-4-0",
+        "name": "LUI Lok Lok／TSANG Hiu Yan",
+        "team": "HKG"
+      },
+      {
+        "id": "WD-4-1",
+        "name": "LIN Chih-Chun／YANG Chu Yun",
+        "team": "TPE"
+      },
+      {
+        "id": "WD-5-0",
+        "name": "岩永鈴／中西貴映",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-5-1",
+        "name": "Francesca CORBETT／Jennie GAI",
+        "team": "USA"
+      },
+      {
+        "id": "WD-6-0",
+        "name": "鈴木陽向／山北奈緖",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-6-1",
+        "name": "Treesa JOLLY／GAYATRI GOPICHAND PULLELA",
+        "team": "IND"
+      },
+      {
+        "id": "WD-7-0",
+        "name": "Febriana Dwipuji KUSUMA／Meilysa Trias PUSPITASARI",
+        "team": "INA"
+      },
+      {
+        "id": "WD-7-1",
+        "name": "CHANG Ching Hui／YANG Ching Tun",
+        "team": "TPE"
+      },
+      {
+        "id": "WD-8-0",
+        "name": "Mio KONEGAWA／An UESUGI",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-8-1",
+        "name": "YEUNG Nga Ting／YEUNG Pui Lam",
+        "team": "HKG"
+      },
+      {
+        "id": "WD-9-0",
+        "name": "HSU Ya Ching／SUNG Yu-Hsuan",
+        "team": "TPE"
+      },
+      {
+        "id": "WD-9-1",
+        "name": "LUO Yi／WANG Ting Ge",
+        "team": "CHN"
+      },
+      {
+        "id": "WD-10-0",
+        "name": "CHEN Fan Shu Tian／LUO Xu Min",
+        "team": "CHN"
+      },
+      {
+        "id": "WD-10-1",
+        "name": "中出すみれ／髙橋美優",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-11-0",
+        "name": "Miki KANEHIRO／Yuna KATO",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-11-1",
+        "name": "石川心菜／Haruna KONISHI",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-12-0",
+        "name": "BAO Li Jing／CAO Zi Han",
+        "team": "CHN"
+      },
+      {
+        "id": "WD-12-1",
+        "name": "HSU Yin-Hui／LIN Jhih Yun",
+        "team": "TPE"
+      },
+      {
+        "id": "WD-13-0",
+        "name": "廣田彩花／櫻本絢子",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-13-1",
+        "name": "Polina BUHROVA／Yevheniia KANTEMYR",
+        "team": "UKR"
+      },
+      {
+        "id": "WD-14-0",
+        "name": "廣上瑠依／保原彩夏",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-14-1",
+        "name": "Amallia Cahaya PRATIWI／Siti Fadia Silva RAMADHANTI",
+        "team": "INA"
+      },
+      {
+        "id": "WD-15-0",
+        "name": "Ornnicha JONGSATHAPORNPARN／Sabrina Sophita WEDLER",
+        "team": "THA"
+      },
+      {
+        "id": "WD-15-1",
+        "name": "Lauren LAM／Allison Quynh LEE",
+        "team": "USA"
+      },
+      {
+        "id": "WD-16-0",
+        "name": "Ririna HIRAMOTO／Chiharu SHIDA",
+        "team": "JPN"
+      },
+      {
+        "id": "WD-16-1",
+        "name": "Pearly TAN／THINAAH Muralitharan",
+        "team": "MAS"
+      },
+      {
+        "id": "XD-1-0",
+        "name": "JIANG Zhen Bang／WEI Ya Xin",
+        "team": "CHN"
+      },
+      {
+        "id": "XD-1-1",
+        "name": "Hariharan AMSAKARUNAN／Tanisha CRASTO",
+        "team": "IND"
+      },
+      {
+        "id": "XD-2-0",
+        "name": "Jonathan Bing Tsan LAI／Crystal LAI",
+        "team": "CAN"
+      },
+      {
+        "id": "XD-2-1",
+        "name": "HOO Pang Ron／LAI Pei Jing",
+        "team": "MAS"
+      },
+      {
+        "id": "XD-3-0",
+        "name": "CHENG Xing／ZHANG Chi",
+        "team": "CHN"
+      },
+      {
+        "id": "XD-3-1",
+        "name": "CHEN ZHI YI／Francesca CORBETT",
+        "team": "USA"
+      },
+      {
+        "id": "XD-4-0",
+        "name": "KIM Jae Hyeon／JANG Ha Jeong",
+        "team": "KOR"
+      },
+      {
+        "id": "XD-4-1",
+        "name": "Presley SMITH／Jennie GAI",
+        "team": "USA"
+      },
+      {
+        "id": "XD-5-0",
+        "name": "YE Hong Wei／Nicole Gonzales CHAN",
+        "team": "TPE"
+      },
+      {
+        "id": "XD-5-1",
+        "name": "Dhruv RAWAT／MANEESHA K",
+        "team": "IND"
+      },
+      {
+        "id": "XD-6-0",
+        "name": "Pakkapon TEERARATSAKUL／Sapsiree TAERATTANACHAI",
+        "team": "THA"
+      },
+      {
+        "id": "XD-6-1",
+        "name": "LIU Kuang Heng／HSU Yin-Hui",
+        "team": "TPE"
+      },
+      {
+        "id": "XD-7-0",
+        "name": "Amri SYAHNAWI／Nita Violina MARWAH",
+        "team": "INA"
+      },
+      {
+        "id": "XD-7-1",
+        "name": "Ruben GARCIA／Lucia RODRIGUEZ",
+        "team": "ESP"
+      },
+      {
+        "id": "XD-8-0",
+        "name": "Marwan FAZA／Aisyah Salsabila Putri PRANATA",
+        "team": "INA"
+      },
+      {
+        "id": "XD-8-1",
+        "name": "渡辺勇大／田口真彩",
+        "team": "JPN"
+      },
+      {
+        "id": "XD-9-0",
+        "name": "霜上雄一／保原彩夏",
+        "team": "JPN"
+      },
+      {
+        "id": "XD-9-1",
+        "name": "CHEN Tang Jie／CHAN Wen Tse",
+        "team": "MAS"
+      },
+      {
+        "id": "XD-10-0",
+        "name": "ZHU Yi Jun／LI Qian",
+        "team": "CHN"
+      },
+      {
+        "id": "XD-10-1",
+        "name": "GOH Soon Huat／LAI Shevon Jemie",
+        "team": "MAS"
+      },
+      {
+        "id": "XD-11-0",
+        "name": "GAO Jia Xuan／WU Meng Ying",
+        "team": "CHN"
+      },
+      {
+        "id": "XD-11-1",
+        "name": "Dejan FERDINANSYAH／Felisha Alberta Nathaniel PASARIBU",
+        "team": "INA"
+      },
+      {
+        "id": "XD-12-0",
+        "name": "Jimmy WONG／CHENG Su Yin",
+        "team": "MAS"
+      },
+      {
+        "id": "XD-12-1",
+        "name": "GUO Xin Wa／CHEN Fang Hui",
+        "team": "CHN"
+      },
+      {
+        "id": "XD-13-0",
+        "name": "WU Hsuan-Yi／YANG Chu Yun",
+        "team": "TPE"
+      },
+      {
+        "id": "XD-13-1",
+        "name": "Hiroki MIDORIKAWA／Mao YAMAKITA",
+        "team": "JPN"
+      },
+      {
+        "id": "XD-14-0",
+        "name": "Haruki KAWABE／石川心菜",
+        "team": "JPN"
+      },
+      {
+        "id": "XD-14-1",
+        "name": "YANG Po-Hsuan／HU Ling Fang",
+        "team": "TPE"
+      },
+      {
+        "id": "XD-15-0",
+        "name": "古賀輝／齋藤夏",
+        "team": "JPN"
+      },
+      {
+        "id": "XD-15-1",
+        "name": "CHAN Yin Chak／NG Tsz Yau",
+        "team": "HKG"
+      },
+      {
+        "id": "XD-16-0",
+        "name": "YU Zhirui Jerry／TSE Ying Suet",
+        "team": "HKG"
+      },
+      {
+        "id": "XD-16-1",
+        "name": "Dechapol PUAVARANUKROH／Supissara PAEWSAMPRAN",
+        "team": "THA"
+      },
+      {
+        "id": "ms-lee-zii-jia",
+        "name": "李梓嘉（Lee Zii Jia）",
+        "team": "MAS"
+      },
+      {
+        "id": "wd-li-wang",
+        "name": "李怡婧／王漪朵",
+        "team": "CHN"
+      }
+    ],
+    "sources": [
+      {
+        "id": "official",
+        "url": "https://kumamotomasters-japan.com/",
+        "label": "赛事官网（赛期与场馆）",
+        "kind": "official",
+        "family": "kumamotomasters-japan.com"
+      },
+      {
+        "id": "schedule",
+        "url": "https://kumamotomasters-japan.com/schedule/",
+        "label": "官方会期日程",
+        "kind": "official",
+        "family": "kumamotomasters-japan.com"
+      },
+      {
+        "id": "gugu",
+        "url": "https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/",
+        "label": "Sportzorg24（签位待核实）",
+        "kind": "independent",
+        "family": "unverified-aggregator-family"
+      },
+      {
+        "id": "zutto",
+        "url": "https://zutto-sports.com/badminton-japan-masters-results",
+        "label": "Zutto（资格赛来源）",
+        "kind": "independent",
+        "family": "zutto-sports.com"
+      },
+      {
+        "id": "csw",
+        "url": "https://cswsports.co.uk/badminton/japan-masters",
+        "label": "CSW（独立性未证实）",
+        "kind": "independent",
+        "family": "unverified-aggregator-family"
+      },
+      {
+        "id": "astro",
+        "url": "https://stadiumastro.com/sukan/masters-jepun-lee-zii-jia-pulang-awal",
+        "label": "Stadium Astro（前次审计来源）",
+        "kind": "independent",
+        "family": "stadiumastro.com"
+      },
+      {
+        "id": "badspi",
+        "url": "https://www.badspi.jp/202611101742/",
+        "kind": "independent",
+        "family": "badspi.jp",
+        "label": "Badminton Spirit · 赛后现场采访"
+      },
+      {
+        "id": "jsports",
+        "url": "https://sports.yahoo.co.jp/video/player/28642068",
+        "kind": "independent",
+        "family": "jsports",
+        "label": "J SPORTS · 女双首轮精华"
+      },
+      {
+        "id": "365ls",
+        "url": "https://365ls.org/scores/badminton",
+        "kind": "independent",
+        "family": "365ls.org",
+        "label": "365LS · 比分汇总"
+      }
+    ],
+    "rules": {
+      "badminton": {
+        "best_of": 3,
+        "points": 21,
+        "win_by": 2,
+        "cap": 30
+      }
+    },
+    "draws": [
+      {
+        "id": "MS",
+        "name": "男单"
+      },
+      {
+        "id": "WS",
+        "name": "女单"
+      },
+      {
+        "id": "MD",
+        "name": "男双"
+      },
+      {
+        "id": "WD",
+        "name": "女双"
+      },
+      {
+        "id": "XD",
+        "name": "混双"
+      }
+    ],
+    "groups": [],
+    "matches": [
+      {
+        "id": "MS-Q4",
+        "draw": "MS",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "MS-1-1"
+          },
+          {
+            "entry": "ms-lee-zii-jia"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            10
+          ]
+        ],
+        "result_for": [
+          "MS-1-1",
+          "ms-lee-zii-jia"
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T19:13:18+08:00",
+          "source_ids": [
+            "zutto",
+            "astro"
+          ]
+        }
+      },
+      {
+        "id": "MS-R32-1",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-1-0"
+          },
+          {
+            "winner": "MS-Q4"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-2",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-2-0"
+          },
+          {
+            "entry": "MS-2-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-3",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-3-0"
+          },
+          {
+            "entry": "MS-3-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-4",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-4-0"
+          },
+          {
+            "entry": "MS-4-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-5",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-5-0"
+          },
+          {
+            "entry": "MS-5-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-6",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-6-0"
+          },
+          {
+            "entry": "MS-6-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-7",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-7-0"
+          },
+          {
+            "entry": "MS-7-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-8",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-8-0"
+          },
+          {
+            "entry": "MS-8-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-9",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-9-0"
+          },
+          {
+            "entry": "MS-9-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-10",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-10-0"
+          },
+          {
+            "entry": "MS-10-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-11",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-11-0"
+          },
+          {
+            "entry": "MS-11-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-12",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-12-0"
+          },
+          {
+            "entry": "MS-12-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-13",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-13-0"
+          },
+          {
+            "entry": "MS-13-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-14",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-14-0"
+          },
+          {
+            "entry": "MS-14-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-15",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-15-0"
+          },
+          {
+            "entry": "MS-15-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R32-16",
+        "draw": "MS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MS-16-0"
+          },
+          {
+            "entry": "MS-16-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R16-1",
+        "draw": "MS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R16-2",
+        "draw": "MS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R16-3",
+        "draw": "MS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R16-4",
+        "draw": "MS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R16-5",
+        "draw": "MS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R16-6",
+        "draw": "MS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R16-7",
+        "draw": "MS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-R16-8",
+        "draw": "MS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-QF-1",
+        "draw": "MS",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-QF-2",
+        "draw": "MS",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-QF-3",
+        "draw": "MS",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-QF-4",
+        "draw": "MS",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-SF-1",
+        "draw": "MS",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-SF-2",
+        "draw": "MS",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MS-F-1",
+        "draw": "MS",
+        "round": "决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-1",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-1-0"
+          },
+          {
+            "entry": "WS-1-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-2",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-2-0"
+          },
+          {
+            "entry": "WS-2-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-3",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-3-0"
+          },
+          {
+            "entry": "WS-3-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-4",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-4-0"
+          },
+          {
+            "entry": "WS-4-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-5",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-5-0"
+          },
+          {
+            "entry": "WS-5-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-6",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-6-0"
+          },
+          {
+            "entry": "WS-6-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-7",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-7-0"
+          },
+          {
+            "entry": "WS-7-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-8",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-8-0"
+          },
+          {
+            "entry": "WS-8-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-9",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-9-0"
+          },
+          {
+            "entry": "WS-9-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-10",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-10-0"
+          },
+          {
+            "entry": "WS-10-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-11",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-11-0"
+          },
+          {
+            "entry": "WS-11-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-12",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-12-0"
+          },
+          {
+            "entry": "WS-12-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-13",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-13-0"
+          },
+          {
+            "entry": "WS-13-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-14",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-14-0"
+          },
+          {
+            "entry": "WS-14-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-15",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-15-0"
+          },
+          {
+            "entry": "WS-15-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R32-16",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-16-0"
+          },
+          {
+            "entry": "WS-16-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R16-1",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R16-2",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R16-3",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R16-4",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R16-5",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R16-6",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R16-7",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-R16-8",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-QF-1",
+        "draw": "WS",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-QF-2",
+        "draw": "WS",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-QF-3",
+        "draw": "WS",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-QF-4",
+        "draw": "WS",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-SF-1",
+        "draw": "WS",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-SF-2",
+        "draw": "WS",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WS-F-1",
+        "draw": "WS",
+        "round": "决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-1",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-1-0"
+          },
+          {
+            "entry": "MD-1-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-2",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-2-0"
+          },
+          {
+            "entry": "MD-2-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-3",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-3-0"
+          },
+          {
+            "entry": "MD-3-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-4",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-4-0"
+          },
+          {
+            "entry": "MD-4-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-5",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-5-0"
+          },
+          {
+            "entry": "MD-5-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-6",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-6-0"
+          },
+          {
+            "entry": "MD-6-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-7",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-7-0"
+          },
+          {
+            "entry": "MD-7-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-8",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-8-0"
+          },
+          {
+            "entry": "MD-8-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-9",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-9-0"
+          },
+          {
+            "entry": "MD-9-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-10",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-10-0"
+          },
+          {
+            "entry": "MD-10-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-11",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-11-0"
+          },
+          {
+            "entry": "MD-11-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-12",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-12-0"
+          },
+          {
+            "entry": "MD-12-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-13",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-13-0"
+          },
+          {
+            "entry": "MD-13-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-14",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-14-0"
+          },
+          {
+            "entry": "MD-14-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-15",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-15-0"
+          },
+          {
+            "entry": "MD-15-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R32-16",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-16-0"
+          },
+          {
+            "entry": "MD-16-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R16-1",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R16-2",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R16-3",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R16-4",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R16-5",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R16-6",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R16-7",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-R16-8",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-QF-1",
+        "draw": "MD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-QF-2",
+        "draw": "MD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-QF-3",
+        "draw": "MD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-QF-4",
+        "draw": "MD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-SF-1",
+        "draw": "MD",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-SF-2",
+        "draw": "MD",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "MD-F-1",
+        "draw": "MD",
+        "round": "决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-1",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-1-0"
+          },
+          {
+            "entry": "wd-li-wang"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "WD-1-0",
+          "wd-li-wang"
+        ],
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            21,
+            9
+          ],
+          [
+            23,
+            21
+          ]
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T19:13:18+08:00",
+          "source_ids": [
+            "badspi",
+            "jsports",
+            "gugu",
+            "365ls"
+          ]
+        }
+      },
+      {
+        "id": "WD-R32-2",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-2-0"
+          },
+          {
+            "entry": "WD-2-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-3",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-3-0"
+          },
+          {
+            "entry": "WD-3-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-4",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-4-0"
+          },
+          {
+            "entry": "WD-4-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-5",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-5-0"
+          },
+          {
+            "entry": "WD-5-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-6",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-6-0"
+          },
+          {
+            "entry": "WD-6-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-7",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-7-0"
+          },
+          {
+            "entry": "WD-7-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-8",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-8-0"
+          },
+          {
+            "entry": "WD-8-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-9",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-9-0"
+          },
+          {
+            "entry": "WD-9-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-10",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-10-0"
+          },
+          {
+            "entry": "WD-10-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-11",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-11-0"
+          },
+          {
+            "entry": "WD-11-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-12",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-12-0"
+          },
+          {
+            "entry": "WD-12-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-13",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-13-0"
+          },
+          {
+            "entry": "WD-13-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-14",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-14-0"
+          },
+          {
+            "entry": "WD-14-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-15",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-15-0"
+          },
+          {
+            "entry": "WD-15-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R32-16",
+        "draw": "WD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WD-16-0"
+          },
+          {
+            "entry": "WD-16-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R16-1",
+        "draw": "WD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R16-2",
+        "draw": "WD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R16-3",
+        "draw": "WD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R16-4",
+        "draw": "WD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R16-5",
+        "draw": "WD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R16-6",
+        "draw": "WD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R16-7",
+        "draw": "WD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-R16-8",
+        "draw": "WD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-QF-1",
+        "draw": "WD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-QF-2",
+        "draw": "WD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-QF-3",
+        "draw": "WD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-QF-4",
+        "draw": "WD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-SF-1",
+        "draw": "WD",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-SF-2",
+        "draw": "WD",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "WD-F-1",
+        "draw": "WD",
+        "round": "决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-1",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-1-0"
+          },
+          {
+            "entry": "XD-1-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-2",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-2-0"
+          },
+          {
+            "entry": "XD-2-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-3",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-3-0"
+          },
+          {
+            "entry": "XD-3-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-4",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-4-0"
+          },
+          {
+            "entry": "XD-4-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-5",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-5-0"
+          },
+          {
+            "entry": "XD-5-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-6",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-6-0"
+          },
+          {
+            "entry": "XD-6-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-7",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-7-0"
+          },
+          {
+            "entry": "XD-7-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-8",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-8-0"
+          },
+          {
+            "entry": "XD-8-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-9",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-9-0"
+          },
+          {
+            "entry": "XD-9-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-10",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-10-0"
+          },
+          {
+            "entry": "XD-10-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-11",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-11-0"
+          },
+          {
+            "entry": "XD-11-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-12",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-12-0"
+          },
+          {
+            "entry": "XD-12-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-13",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-13-0"
+          },
+          {
+            "entry": "XD-13-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-14",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-14-0"
+          },
+          {
+            "entry": "XD-14-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-15",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-15-0"
+          },
+          {
+            "entry": "XD-15-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R32-16",
+        "draw": "XD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "XD-16-0"
+          },
+          {
+            "entry": "XD-16-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R16-1",
+        "draw": "XD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R16-2",
+        "draw": "XD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R16-3",
+        "draw": "XD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R16-4",
+        "draw": "XD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R16-5",
+        "draw": "XD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R16-6",
+        "draw": "XD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R16-7",
+        "draw": "XD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-R16-8",
+        "draw": "XD",
+        "round": "16强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-QF-1",
+        "draw": "XD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-QF-2",
+        "draw": "XD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-QF-3",
+        "draw": "XD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-QF-4",
+        "draw": "XD",
+        "round": "八强",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-SF-1",
+        "draw": "XD",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-SF-2",
+        "draw": "XD",
+        "round": "半决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      },
+      {
+        "id": "XD-F-1",
+        "draw": "XD",
+        "round": "决赛",
+        "slots": [
+          {
+            "tbd": "晋级者待核实"
+          },
+          {
+            "tbd": "晋级者待核实"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+      }
+    ]
+  }
+}

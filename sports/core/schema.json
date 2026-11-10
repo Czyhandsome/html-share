@@ -1,0 +1,540 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/bracket-kit/schema-v1.json",
+  "title": "Bracket Kit DSL v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "snapshot_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "timezone": {
+          "type": "string",
+          "minLength": 1
+        },
+        "venue_timezone": {
+          "type": "string",
+          "minLength": 1
+        },
+        "back_link": {
+          "type": "string",
+          "pattern": "^(?:[A-Za-z0-9_.-]+/)*[A-Za-z0-9_.-]+\\.html$"
+        }
+      },
+      "required": [
+        "name",
+        "snapshot_at",
+        "timezone",
+        "venue_timezone"
+      ]
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "team": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "team"
+        ]
+      },
+      "minItems": 0
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "label": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "official",
+              "independent"
+            ]
+          },
+          "family": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "url",
+          "kind",
+          "family"
+        ]
+      },
+      "minItems": 0
+    },
+    "rules": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "best_of": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "points": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "win_by": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "cap": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          }
+        },
+        "required": [
+          "best_of",
+          "points",
+          "win_by"
+        ]
+      }
+    },
+    "draws": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name"
+        ]
+      },
+      "minItems": 0
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/group"
+      },
+      "minItems": 0
+    },
+    "matches": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/match"
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "event",
+    "entries",
+    "sources",
+    "rules",
+    "matches"
+  ],
+  "$defs": {
+    "slot": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "entry": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "entry"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "winner": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "winner"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "tbd": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "tbd"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "bye": {
+              "const": true
+            }
+          },
+          "required": [
+            "bye"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "group_rank": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              ],
+              "items": false,
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "group_rank"
+          ]
+        }
+      ]
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "source_ids",
+        "verified_at"
+      ]
+    },
+    "match": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "draw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "round": {
+          "type": "string"
+        },
+        "slots": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/slot"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "rule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "scheduled",
+            "live",
+            "completed",
+            "retired",
+            "walkover",
+            "bye",
+            "cancelled"
+          ]
+        },
+        "scheduled_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "schedule_verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "completed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "completed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "result_for": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "games": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "minItems": 0
+        },
+        "in_progress_game": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "winner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blocker": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        }
+      },
+      "required": [
+        "id",
+        "round",
+        "slots",
+        "rule",
+        "status"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "completed",
+                  "retired",
+                  "walkover",
+                  "bye",
+                  "cancelled"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "verification"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "completed",
+                  "retired",
+                  "walkover",
+                  "live"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "result_for"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "result_for"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "group": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string"
+        },
+        "draw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2,
+          "uniqueItems": true
+        },
+        "ranking": {
+          "enum": [
+            [
+              "wins"
+            ],
+            [
+              "wins",
+              "game_ratio",
+              "point_ratio"
+            ]
+          ]
+        },
+        "adjudication": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "order": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 2,
+              "uniqueItems": true
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "verification": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "verified_at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              },
+              "required": [
+                "source_ids",
+                "verified_at"
+              ]
+            }
+          },
+          "required": [
+            "order",
+            "reason",
+            "verification"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "entries",
+        "ranking"
+      ]
+    }
+  }
+}

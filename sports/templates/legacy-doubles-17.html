@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <link rel="icon" href="data:," />
+  <title>2026 全国乒乓球锦标赛｜双打淘汰赛进度图</title>
+  <style>
+    :root{
+      --bg:#080a18;--panel:#11152a;--panel-2:#171d36;--paper:#f4f0e6;--ink:#111322;
+      --white:#f7f8ff;--muted:#aab2ce;--muted-dark:#60677e;--line:#2b345b;
+      --ball:#ff6846;--ball-2:#ff9e64;--winner:#6ee7a8;--winner-deep:#0f553c;
+      --pending:#ffd166;--pending-deep:#6d4d00;--lost:#d8dbea;--future:#c6cbe0;
+      --shadow:0 26px 80px rgba(0,0,0,.34);--radius:28px;
+      --sans:ui-sans-serif,-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+      --mono:"SFMono-Regular","Cascadia Mono","Roboto Mono",Menlo,monospace;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:var(--sans);color:var(--white);background:
+      radial-gradient(circle at 14% -8%,rgba(255,104,70,.24),transparent 34rem),
+      radial-gradient(circle at 88% 6%,rgba(110,231,168,.12),transparent 30rem),
+      linear-gradient(180deg,#080a18 0%,#0d1022 52%,#080a18 100%)}
+    a{color:inherit}.page{width:min(1500px,calc(100vw - 28px));margin:0 auto;padding:24px 0 64px}
+    .hero{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.10);border-radius:38px;background:linear-gradient(145deg,rgba(20,25,51,.96),rgba(8,10,24,.98));box-shadow:var(--shadow);padding:clamp(28px,5vw,66px);isolation:isolate}
+    .hero:before{content:"";position:absolute;inset:24px;border:1px solid rgba(255,255,255,.08);border-radius:29px;z-index:-1}
+    .hero:after{content:"";position:absolute;width:390px;height:390px;right:-125px;top:-125px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffb176 0 8%,#ff6846 28%,#b82636 64%,rgba(184,38,54,0) 67%);filter:drop-shadow(0 30px 70px rgba(255,104,70,.18));z-index:-1}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;color:var(--muted);font-size:14px;margin-bottom:clamp(42px,6vw,72px)}
+    .badge{display:inline-flex;align-items:center;gap:10px;padding:9px 14px;border:1px solid rgba(255,255,255,.14);border-radius:999px;background:rgba(255,255,255,.06);font-weight:900;letter-spacing:.04em}
+    .ball-mark{width:15px;height:15px;border-radius:50%;background:linear-gradient(145deg,#ffd4a8,var(--ball) 64%);box-shadow:0 0 0 5px rgba(255,104,70,.12)}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,390px);gap:clamp(28px,6vw,82px);align-items:end}
+    h1{margin:0;font-size:clamp(42px,7vw,88px);line-height:.98;letter-spacing:-.072em;text-wrap:balance}
+    h1 .eyebrow{display:block;margin-bottom:14px;color:var(--ball-2);font-family:var(--mono);font-size:.20em;letter-spacing:.15em;text-transform:uppercase}
+    .accent{position:relative;display:inline-block}.accent:after{content:"";position:absolute;left:-1%;right:-1%;bottom:.02em;height:.16em;background:linear-gradient(90deg,var(--ball),var(--ball-2));border-radius:99px;opacity:.7;z-index:-1}
+    .lead{max-width:820px;margin:26px 0 0;color:#d8dcef;font-size:clamp(17px,2vw,22px);line-height:1.75}.lead strong{color:#fff}
+    .legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.legend span{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid rgba(255,255,255,.12);border-radius:999px;background:rgba(255,255,255,.05);font-size:14px;font-weight:800;color:#e8eaf5}.legend i{width:10px;height:10px;border-radius:50%}.legend .done i{background:var(--winner)}.legend .pending i{background:var(--pending)}.legend .future i{background:#7e88ae}
+    .scoreboard{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:18px;border-radius:28px;background:linear-gradient(180deg,#f5f1e8,#ddd8ca);color:var(--ink);box-shadow:0 22px 60px rgba(0,0,0,.25)}
+    .scoreboard .big{grid-column:1/-1;min-height:150px;padding:22px;border-radius:22px;background:linear-gradient(145deg,#191d37,#0f1227);color:#fff;position:relative;overflow:hidden}.scoreboard .big:after{content:"12/24";position:absolute;right:-10px;bottom:-18px;font:1000 76px/1 var(--mono);color:rgba(255,255,255,.07);letter-spacing:-.08em}.scoreboard .kicker{font:900 12px/1.3 var(--mono);letter-spacing:.13em;color:#8992b7}.scoreboard .big strong{display:block;margin-top:13px;font-size:50px;letter-spacing:-.07em}.scoreboard .big p{margin:8px 0 0;color:#bfc5dd;line-height:1.5}.metric{padding:17px;border-radius:19px;background:#fffaf0;border:1px solid rgba(17,19,34,.10)}.metric b{display:block;font:900 12px/1.3 var(--mono);color:#70768b;letter-spacing:.1em}.metric strong{display:block;margin-top:9px;font-size:27px;letter-spacing:-.05em}.metric small{display:block;margin-top:5px;color:#6c7182}
+    .jump{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 0}.jump a{text-decoration:none;padding:10px 14px;border:1px solid rgba(255,255,255,.12);border-radius:999px;background:rgba(255,255,255,.05);font-weight:900;font-size:14px}.jump a:hover{background:rgba(255,255,255,.11)}
+    .section{margin-top:28px;border-radius:var(--radius);background:var(--paper);color:var(--ink);box-shadow:var(--shadow);overflow:hidden}.inner{padding:clamp(24px,4vw,44px)}
+    .section-head{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}.section h2{margin:0;font-size:clamp(31px,4vw,54px);letter-spacing:-.065em;line-height:1.05}.desc{margin:10px 0 0;color:#5e6476;font-size:17px;line-height:1.72;max-width:900px}.progress{flex:0 0 auto;display:flex;align-items:center;gap:9px;padding:10px 13px;border-radius:999px;background:#171b33;color:#fff;font-weight:900}.progress i{width:10px;height:10px;border-radius:50%;background:var(--winner);box-shadow:0 0 0 5px rgba(110,231,168,.12)}
+    .canvas-shell{margin-top:28px;overflow:auto;border:1px solid rgba(17,19,34,.11);border-radius:25px;background:#d9d6cc;box-shadow:inset 0 1px 0 rgba(255,255,255,.8)}.canvas-frame{width:max-content;padding:18px}.bracket{display:block;width:1980px;height:1100px;border-radius:18px;background:#ece8de}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.button{appearance:none;border:0;border-radius:999px;padding:11px 16px;background:#14182e;color:#fff;font-weight:900;cursor:pointer}.button:hover{transform:translateY(-1px)}.button.secondary{background:#dfd8c8;color:#26283a}
+    .callouts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}.callout{padding:18px;border-radius:20px;background:#151a31;color:#f5f6ff;min-height:132px}.callout b{display:block;font:900 12px/1.3 var(--mono);letter-spacing:.12em;color:var(--ball-2)}.callout strong{display:block;margin-top:12px;font-size:21px;letter-spacing:-.04em}.callout p{margin:10px 0 0;color:#bcc2db;line-height:1.58;font-size:14px}
+    details.text-view{margin-top:18px;border:1px solid rgba(17,19,34,.12);border-radius:19px;background:#ebe5d8;padding:0 18px}details.text-view summary{cursor:pointer;padding:16px 0;font-weight:900}.match-list{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 0 18px}.match-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;padding:11px 12px;border-radius:14px;background:#fffaf0;font-size:14px}.match-row .right{text-align:right}.match-row .score{font-family:var(--mono);font-weight:1000}.match-row .win{color:#0c6544;font-weight:1000}.match-row.pending{border-left:4px solid var(--pending)}
+    .schedule{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:26px}.day{position:relative;overflow:hidden;padding:19px;border-radius:21px;background:#151a31;color:#fff;min-height:150px}.day:after{content:attr(data-day);position:absolute;right:-4px;bottom:-15px;font:1000 66px/1 var(--mono);color:rgba(255,255,255,.06)}.day b{font:900 12px/1.3 var(--mono);color:var(--ball-2);letter-spacing:.12em}.day strong{display:block;margin-top:12px;font-size:22px}.day p{margin:9px 0 0;color:#bfc5dc;line-height:1.58;font-size:14px}.day.now{outline:2px solid var(--pending);outline-offset:-2px}
+    .sources{margin-top:28px;border-radius:var(--radius);background:#151a31;box-shadow:var(--shadow);padding:clamp(24px,4vw,42px)}.sources h2{margin:0;font-size:32px;letter-spacing:-.05em}.sources p{color:#c1c7dc;line-height:1.75}.source-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}.source{display:block;text-decoration:none;padding:17px;border:1px solid rgba(255,255,255,.10);border-radius:18px;background:rgba(255,255,255,.05)}.source b{display:block;color:#fff}.source span{display:block;margin-top:8px;color:#aeb5cf;font-size:14px;line-height:1.55}.source:hover{background:rgba(255,255,255,.09)}.boundary{margin-top:18px;padding:17px;border-left:4px solid var(--pending);border-radius:14px;background:rgba(255,209,102,.08);color:#e7e9f3;line-height:1.65}
+    footer{padding:22px 4px 0;color:#8e96b6;font-size:13px;line-height:1.6}
+    @media(max-width:1000px){.hero-grid{grid-template-columns:1fr}.scoreboard{max-width:520px}.callouts,.source-grid{grid-template-columns:1fr}.schedule{grid-template-columns:1fr 1fr}.match-list{grid-template-columns:1fr}.section-head{display:block}.progress{display:inline-flex;margin-top:16px}}
+    @media(max-width:620px){.page{width:calc(100vw - 18px);padding-top:9px}.hero,.section,.sources{border-radius:24px}.hero{padding:26px 22px}.topbar{align-items:flex-start;flex-direction:column;margin-bottom:42px}.scoreboard{grid-template-columns:1fr}.scoreboard .big{grid-column:1}.schedule{grid-template-columns:1fr}.canvas-frame{padding:12px}.toolbar .button{width:100%}.jump a{flex:1;text-align:center}}
+    @media(prefers-reduced-motion:no-preference){.hero,.section,.sources{animation:rise .5s ease both}.section:nth-of-type(2){animation-delay:.05s}.section:nth-of-type(3){animation-delay:.1s}.section:nth-of-type(4){animation-delay:.15s}@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="topbar">
+        <div class="badge"><span class="ball-mark" aria-hidden="true"></span>{{text:text_001}}</div>
+        <div>{{text:text_002}}</div>
+      </div>
+      <div class="hero-grid">
+        <div>
+          <h1 id="page-title"><span class="eyebrow">{{text:text_003}}</span>{{text:text_004}}<br><span class="accent">{{text:text_005}}</span></h1>
+          <p class="lead">{{text:text_006}}<strong>{{text:text_007}}</strong>{{text:text_008}}</p>
+          <div class="legend" aria-label="状态图例"><span class="done"><i></i>{{text:text_009}}</span><span class="pending"><i></i>{{text:text_010}}</span><span class="future"><i></i>{{text:text_011}}</span></div>
+          <nav class="jump" aria-label="跳转到各项目"><a href="#mixed">{{text:text_012}}</a><a href="#men">{{text:text_013}}</a><a href="#women">{{text:text_014}}</a><a href="#schedule">{{text:text_015}}</a></nav>
+        </div>
+        <aside class="scoreboard" aria-label="当前赛事进度">
+          <div class="big"><div class="kicker">{{text:text_016}}</div><strong>{{text:text_017}}</strong><p>{{text:text_018}}</p></div>
+          <div class="metric"><b>{{text:text_019}}</b><strong>{{text:text_020}}</strong><small>{{text:text_021}}</small></div>
+          <div class="metric"><b>{{text:text_022}}</b><strong>{{text:text_023}}</strong><small>{{text:text_024}}</small></div>
+          <div class="metric"><b>{{text:text_025}}</b><strong>{{text:text_026}}</strong><small>{{text:text_027}}</small></div>
+          <div class="metric"><b>{{text:text_028}}</b><strong>{{text:text_029}}</strong><small>{{text:text_030}}</small></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="mixed">
+      <div class="inner">
+        <div class="section-head"><div><h2>{{text:text_031}}</h2><p class="desc">{{text:text_032}}</p></div><div class="progress"><i></i>{{text:text_033}}</div></div>
+        <div class="canvas-shell" aria-label="混合双打淘汰赛图，可横向滚动"><div class="canvas-frame"><canvas class="bracket" id="mixedCanvas" width="1980" height="1100" aria-label="混合双打淘汰赛进度图"></canvas></div></div>
+        <div class="toolbar"><button class="button download" data-canvas="mixedCanvas" data-name="2026-national-table-tennis-mixed-doubles.png">{{text:text_034}}</button><button class="button secondary redraw" data-canvas="mixedCanvas">{{text:text_035}}</button></div>
+        <div class="callouts">
+          <article class="callout"><b>{{text:text_036}}</b><strong>{{text:text_037}}</strong><p>{{text:text_038}}</p></article>
+          <article class="callout"><b>{{text:text_039}}</b><strong>{{text:text_040}}</strong><p>{{text:text_041}}</p></article>
+          <article class="callout"><b>{{text:text_042}}</b><strong>{{text:text_043}}</strong><p>{{text:text_044}}</p></article>
+        </div>
+        <details class="text-view"><summary>{{text:text_045}}</summary><div class="match-list" id="mixedList"></div></details>
+      </div>
+    </section>
+
+    <section class="section" id="men">
+      <div class="inner">
+        <div class="section-head"><div><h2>{{text:text_046}}</h2><p class="desc">{{text:text_047}}</p></div><div class="progress"><i></i>{{text:text_048}}</div></div>
+        <div class="canvas-shell" aria-label="男子双打淘汰赛图，可横向滚动"><div class="canvas-frame"><canvas class="bracket" id="menCanvas" width="1980" height="1100" aria-label="男子双打淘汰赛进度图"></canvas></div></div>
+        <div class="toolbar"><button class="button download" data-canvas="menCanvas" data-name="2026-national-table-tennis-mens-doubles.png">{{text:text_049}}</button><button class="button secondary redraw" data-canvas="menCanvas">{{text:text_035}}</button></div>
+        <div class="callouts">
+          <article class="callout"><b>{{text:text_050}}</b><strong>{{text:text_051}}</strong><p>{{text:text_052}}</p></article>
+          <article class="callout"><b>{{text:text_053}}</b><strong>{{text:text_054}}</strong><p>{{text:text_055}}</p></article>
+          <article class="callout"><b>{{text:text_042}}</b><strong>{{text:text_056}}</strong><p>{{text:text_057}}</p></article>
+        </div>
+        <details class="text-view"><summary>{{text:text_045}}</summary><div class="match-list" id="menList"></div></details>
+      </div>
+    </section>
+
+    <section class="section" id="women">
+      <div class="inner">
+        <div class="section-head"><div><h2>{{text:text_058}}</h2><p class="desc">{{text:text_059}}</p></div><div class="progress"><i></i>{{text:text_060}}</div></div>
+        <div class="canvas-shell" aria-label="女子双打淘汰赛图，可横向滚动"><div class="canvas-frame"><canvas class="bracket" id="womenCanvas" width="1980" height="1100" aria-label="女子双打淘汰赛进度图"></canvas></div></div>
+        <div class="toolbar"><button class="button download" data-canvas="womenCanvas" data-name="2026-national-table-tennis-womens-doubles.png">{{text:text_061}}</button><button class="button secondary redraw" data-canvas="womenCanvas">{{text:text_035}}</button></div>
+        <div class="callouts">
+          <article class="callout"><b>{{text:text_062}}</b><strong>{{text:text_063}}</strong><p>{{text:text_064}}</p></article>
+          <article class="callout"><b>{{text:text_053}}</b><strong>{{text:text_065}}</strong><p>{{text:text_066}}</p></article>
+          <article class="callout"><b>{{text:text_042}}</b><strong>{{text:text_067}}</strong><p>{{text:text_068}}</p></article>
+        </div>
+        <details class="text-view"><summary>{{text:text_045}}</summary><div class="match-list" id="womenList"></div></details>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="inner">
+        <h2>{{text:text_069}}</h2><p class="desc">{{text:text_070}}</p>
+        <div class="schedule">
+          <article class="day" data-day="13–15"><b>{{text:text_071}}</b><strong>{{text:text_072}}</strong><p>{{text:text_073}}</p></article>
+          <article class="day" data-day="16"><b>{{text:text_074}}</b><strong>{{text:text_075}}</strong><p>{{text:text_076}}</p></article>
+          <article class="day now" data-day="17"><b>{{text:text_077}}</b><strong>{{text:text_078}}</strong><p>{{text:text_079}}</p></article>
+          <article class="day" data-day="18"><b>{{text:text_080}}</b><strong>{{text:text_081}}</strong><p>{{text:text_082}}</p></article>
+          <article class="day" data-day="19"><b>{{text:text_083}}</b><strong>{{text:text_084}}</strong><p>{{text:text_085}}</p></article>
+          <article class="day" data-day="19"><b>{{text:text_086}}</b><strong>{{text:text_087}}</strong><p>{{text:text_088}}</p></article>
+          <article class="day" data-day="DEC"><b>{{text:text_089}}</b><strong>{{text:text_090}}</strong><p>{{text:text_091}}</p></article>
+          <article class="day" data-day="NOTE"><b>{{text:text_092}}</b><strong>{{text:text_093}}</strong><p>{{text:text_094}}</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">{{text:text_095}}</h2>
+      <p>{{text:text_096}}</p>
+      <div class="source-grid">
+        <a class="source" href="https://www.news.cn/20260710/efe02f5810b9420f81606fa684234f94/c.html" target="_blank" rel="noopener"><b>{{text:text_097}}</b><span>{{text:text_098}}</span></a>
+        <a class="source" href="https://k.sina.com.cn/article_7880068727_1d5b04e7702004g2wy.html" target="_blank" rel="noopener"><b>{{text:text_099}}</b><span>{{text:text_100}}</span></a>
+        <a class="source" href="https://m.sohu.com/a/1051431861_121801094" target="_blank" rel="noopener"><b>{{text:text_101}}</b><span>{{text:text_102}}</span></a>
+      </div>
+      <div class="boundary"><strong>{{text:text_103}}</strong>{{text:text_104}}</div>
+    </section>
+    <footer>{{text:text_105}}</footer>
+  </main>
+
+  <script>
+    const DATA = {{js:DATA}};
+    const CSS = getComputedStyle(document.documentElement);
+    const COLORS = {
+      bg:'#e9e5db',ink:'#111322',muted:'#646b80',line:'#8b93aa',winner:'#d9f7e6',winnerStroke:'#48b982',pending:'#fff0bd',pendingStroke:'#d6a52b',future:'#f5f2e9',futureStroke:'#b8bdcd',dark:'#151a31',ball:'#ff6846',white:'#fffdf7'
+    };
+    const FONT = getComputedStyle(document.body).fontFamily;
+    const W=1980,H=1100;
+
+    function rr(ctx,x,y,w,h,r,fill,stroke,sw=2){
+      ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath();
+      if(fill){ctx.fillStyle=fill;ctx.fill()}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=sw;ctx.stroke()}
+    }
+    function txt(ctx,value,x,y,size=20,color=COLORS.ink,weight='800',align='left',max=999){ctx.fillStyle=color;ctx.font=`${weight} ${size}px ${FONT}`;ctx.textAlign=align;ctx.textBaseline='middle';ctx.fillText(value,x,y,max)}
+    function fit(ctx,value,x,y,maxWidth,maxSize=22,minSize=14,color=COLORS.ink,weight='900',align='left'){
+      let size=maxSize;while(size>minSize){ctx.font=`${weight} ${size}px ${FONT}`;if(ctx.measureText(value).width<=maxWidth)break;size--}txt(ctx,value,x,y,size,color,weight,align,maxWidth)
+    }
+    function connector(ctx,x1,y1,x2,y2,color='rgba(83,91,119,.46)',width=2.5){
+      const mid=(x1+x2)/2;ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineCap='round';ctx.lineJoin='round';ctx.beginPath();ctx.moveTo(x1,y1);ctx.bezierCurveTo(mid,y1,mid,y2,x2,y2);ctx.stroke();
+      ctx.fillStyle=color;ctx.beginPath();ctx.moveTo(x2,y2);ctx.lineTo(x2-11,y2-6);ctx.lineTo(x2-11,y2+6);ctx.closePath();ctx.fill();
+    }
+    function matchCard(ctx,m,x,y,w,h,index){
+      const pending=m.status==='pending';const fill=pending?COLORS.pending:COLORS.white;const stroke=pending?COLORS.pendingStroke:'rgba(17,19,34,.14)';
+      ctx.shadowColor='rgba(32,34,50,.10)';ctx.shadowBlur=18;ctx.shadowOffsetY=8;rr(ctx,x,y,w,h,17,fill,stroke,2);ctx.shadowColor='transparent';
+      txt(ctx,`R16 · ${String(index+1).padStart(2,'0')}`,x+16,y+17,12,pending?COLORS.pendingStroke:COLORS.muted,'1000');txt(ctx,m.time,x+w-16,y+17,12,COLORS.muted,'900','right');
+      ctx.strokeStyle='rgba(17,19,34,.10)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x+14,y+32);ctx.lineTo(x+w-14,y+32);ctx.stroke();
+      const row1=y+52,row2=y+78;const aWin=m.winner===0,bWin=m.winner===1;
+      if(aWin)rr(ctx,x+11,row1-12,w-22,24,11,COLORS.winner,null);if(bWin)rr(ctx,x+11,row2-12,w-22,24,11,COLORS.winner,null);
+      fit(ctx,m.a,x+20,row1,w-86,20,13,aWin?'#0c5f41':COLORS.ink,aWin?'1000':'850');fit(ctx,m.b,x+20,row2,w-86,20,13,bWin?'#0c5f41':COLORS.ink,bWin?'1000':'850');
+      if(m.status==='done'){
+        const parts=m.score.split('–');txt(ctx,parts[0],x+w-22,row1,19,aWin?'#0c5f41':COLORS.muted,'1000','right');txt(ctx,parts[1],x+w-22,row2,19,bWin?'#0c5f41':COLORS.muted,'1000','right');
+      }else{rr(ctx,x+w-54,y+45,38,38,19,'#171b33',null);txt(ctx,'VS',x+w-35,y+64,13,'#fff','1000','center')}
+    }
+    function slotCard(ctx,title,a,b,x,y,w,h,state='future'){
+      const knownA=!a.startsWith('待定'),knownB=!b.startsWith('待定');const ready=knownA&&knownB;const fill=ready?COLORS.pending:COLORS.future;const stroke=ready?COLORS.pendingStroke:COLORS.futureStroke;
+      ctx.shadowColor='rgba(32,34,50,.08)';ctx.shadowBlur=16;ctx.shadowOffsetY=7;rr(ctx,x,y,w,h,18,fill,stroke,2);ctx.shadowColor='transparent';
+      txt(ctx,title,x+16,y+18,12,ready?COLORS.pendingStroke:COLORS.muted,'1000');
+      const row1=y+50,row2=y+79;fit(ctx,a,x+18,row1,w-36,20,13,knownA?COLORS.ink:COLORS.muted,knownA?'1000':'800');fit(ctx,b,x+18,row2,w-36,20,13,knownB?COLORS.ink:COLORS.muted,knownB?'1000':'800');
+    }
+    function winnerOf(match,index){return match.winner===null?`待定 · R16-${index+1}`:(match.winner===0?match.a:match.b)}
+    function drawBracket(dataset){
+      const canvas=document.getElementById(dataset.canvas);const ctx=canvas.getContext('2d');const dpr=Math.max(1,Math.min(2,window.devicePixelRatio||1));canvas.width=W*dpr;canvas.height=H*dpr;canvas.style.aspectRatio=`${W}/${H}`;ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,W,H);
+      const grad=ctx.createLinearGradient(0,0,W,H);grad.addColorStop(0,'#f2eee5');grad.addColorStop(1,'#dedbd2');ctx.fillStyle=grad;ctx.fillRect(0,0,W,H);
+      ctx.strokeStyle='rgba(17,19,34,.05)';ctx.lineWidth=1;for(let x=45;x<W;x+=95){ctx.beginPath();ctx.moveTo(x,58);ctx.lineTo(x,H-36);ctx.stroke()}
+      txt(ctx,'1/8 决赛',50,34,18,COLORS.muted,'1000');txt(ctx,'1/4 决赛 · 7月18日',505,34,18,COLORS.muted,'1000');txt(ctx,'半决赛',940,34,18,COLORS.muted,'1000');txt(ctx,'决赛 · 7月19日',1370,34,18,COLORS.muted,'1000');txt(ctx,'冠军',1810,34,18,COLORS.muted,'1000');
+      const x0=50,w0=360,h0=100,start=62,gap=32;const x1=505,w1=330,h1=104;const x2=940,w2=320,h2=112;const x3=1370,w3=330,h3=120;const x4=1810,w4=130,h4=450;
+      const r16=[];dataset.matches.forEach((m,i)=>{const y=start+i*(h0+gap);r16.push({x:x0,y,w:w0,h:h0});matchCard(ctx,m,x0,y,w0,h0,i)});
+      const qf=[];for(let i=0;i<4;i++){const aIdx=i*2,bIdx=i*2+1;const y=((r16[aIdx].y+h0/2)+(r16[bIdx].y+h0/2))/2-h1/2;qf.push({x:x1,y,w:w1,h:h1});connector(ctx,x0+w0+8,r16[aIdx].y+h0/2,x1-10,y+h1/2);connector(ctx,x0+w0+8,r16[bIdx].y+h0/2,x1-10,y+h1/2);slotCard(ctx,`QF ${i+1}`,winnerOf(dataset.matches[aIdx],aIdx),winnerOf(dataset.matches[bIdx],bIdx),x1,y,w1,h1)}
+      const sf=[];for(let i=0;i<2;i++){const a=i*2,b=i*2+1;const y=((qf[a].y+h1/2)+(qf[b].y+h1/2))/2-h2/2;sf.push({x:x2,y,w:w2,h:h2});connector(ctx,x1+w1+8,qf[a].y+h1/2,x2-10,y+h2/2);connector(ctx,x1+w1+8,qf[b].y+h1/2,x2-10,y+h2/2);slotCard(ctx,`SF ${i+1}`,`待定 · QF ${a+1}`,`待定 · QF ${b+1}`,x2,y,w2,h2)}
+      const fy=((sf[0].y+h2/2)+(sf[1].y+h2/2))/2-h3/2;sf.forEach((s)=>connector(ctx,x2+w2+8,s.y+h2/2,x3-10,fy+h3/2));slotCard(ctx,'FINAL','待定 · SF 1','待定 · SF 2',x3,fy,w3,h3);
+      const cy=fy+h3/2-h4/2;connector(ctx,x3+w3+8,fy+h3/2,x4-10,fy+h3/2,COLORS.ball,3.2);rr(ctx,x4,cy,w4,h4,24,COLORS.dark,COLORS.ball,3);txt(ctx,'冠军',x4+w4/2,cy+48,17,'#aeb5cf','900','center');ctx.save();ctx.translate(x4+w4/2,cy+h4/2+10);ctx.rotate(-Math.PI/2);txt(ctx,'7月19日待定',0,0,28,'#fff','1000','center');ctx.restore();ctx.beginPath();ctx.arc(x4+w4/2,cy+h4-58,25,0,Math.PI*2);ctx.fillStyle=COLORS.ball;ctx.fill();txt(ctx,'🏓',x4+w4/2,cy+h4-58,24,'#fff','900','center');
+    }
+    function renderList(dataset){
+      const root=document.getElementById(dataset.list);root.innerHTML='';dataset.matches.forEach((m)=>{const row=document.createElement('div');row.className=`match-row ${m.status}`;const a=document.createElement('span'),score=document.createElement('span'),b=document.createElement('span');a.textContent=m.a;b.textContent=m.b;score.textContent=m.score;a.className=m.winner===0?'win':'';b.className=`right ${m.winner===1?'win':''}`;score.className='score';row.append(a,score,b);root.append(row)})
+    }
+    Object.values(DATA).forEach(d=>{drawBracket(d);renderList(d)});
+    window.addEventListener('resize',()=>Object.values(DATA).forEach(drawBracket));
+    document.querySelectorAll('.redraw').forEach(btn=>btn.addEventListener('click',()=>{const data=Object.values(DATA).find(d=>d.canvas===btn.dataset.canvas);drawBracket(data)}));
+    document.querySelectorAll('.download').forEach(btn=>btn.addEventListener('click',()=>{const canvas=document.getElementById(btn.dataset.canvas);const a=document.createElement('a');a.href=canvas.toDataURL('image/png');a.download=btn.dataset.name;a.click()}));
+  </script>
+</body>
+</html>

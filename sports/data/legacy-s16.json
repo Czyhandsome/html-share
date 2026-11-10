@@ -1,0 +1,900 @@
+{
+  "schema_version": 1,
+  "kind": "worlds-swiss",
+  "id": "legacy-s16",
+  "template": "sports/templates/legacy-s16.html",
+  "output": "docs/2026/11/20261104-1042-sports-brackets/S16-Worlds-2026.html",
+  "maintenance": {
+    "mode": "maintained-snapshot",
+    "note": "Preserve source facts; verify sources before editing results. Swiss routing is derived from swissDays.",
+    "original_sha256": "91361c48a2e80de6be1685bd8f63a7a7cadd7ea094b1ff45157350dad3423b7e"
+  },
+  "data": {
+    "teams": {
+      "AL": [
+        "Anyone’s Legend",
+        "LPL",
+        "CN"
+      ],
+      "BLG": [
+        "Bilibili Gaming",
+        "LPL",
+        "CN"
+      ],
+      "TES": [
+        "Top Esports",
+        "LPL",
+        "CN"
+      ],
+      "IG": [
+        "Invictus Gaming",
+        "LPL",
+        "CN"
+      ],
+      "GEN": [
+        "Gen.G",
+        "LCK",
+        "KR"
+      ],
+      "HLE": [
+        "Hanwha Life Esports",
+        "LCK",
+        "KR"
+      ],
+      "T1": [
+        "T1",
+        "LCK",
+        "KR"
+      ],
+      "DK": [
+        "Dplus KIA",
+        "LCK",
+        "KR"
+      ],
+      "G2": [
+        "G2 Esports",
+        "LEC",
+        "DE"
+      ],
+      "MKOI": [
+        "Movistar KOI",
+        "LEC",
+        "ES"
+      ],
+      "KC": [
+        "Karmine Corp",
+        "LEC",
+        "FR"
+      ],
+      "TLAW": [
+        "Team Liquid Alienware",
+        "LCS",
+        "US"
+      ],
+      "LYON": [
+        "LYON",
+        "LCS",
+        "MX"
+      ],
+      "C9": [
+        "Cloud9 Kia",
+        "LCS",
+        "US"
+      ],
+      "TSW": [
+        "Team Secret Whales",
+        "LCP",
+        "VN"
+      ],
+      "CFO": [
+        "CTBC Flying Oyster",
+        "LCP",
+        "TW"
+      ],
+      "MVK": [
+        "MVK Esports",
+        "LCP",
+        "VN"
+      ],
+      "LOS": [
+        "LOS",
+        "CBLOL",
+        "BR"
+      ],
+      "FUR": [
+        "FURIA",
+        "CBLOL",
+        "BR"
+      ]
+    },
+    "origins": {
+      "CN": [
+        "中国",
+        "🇨🇳"
+      ],
+      "KR": [
+        "韩国",
+        "🇰🇷"
+      ],
+      "DE": [
+        "德国",
+        "🇩🇪"
+      ],
+      "ES": [
+        "西班牙",
+        "🇪🇸"
+      ],
+      "FR": [
+        "法国",
+        "🇫🇷"
+      ],
+      "US": [
+        "美国",
+        "🇺🇸"
+      ],
+      "MX": [
+        "墨西哥",
+        "🇲🇽"
+      ],
+      "VN": [
+        "越南",
+        "🇻🇳"
+      ],
+      "TW": [
+        "中国台湾",
+        "<svg class=\"flag-icon\" viewBox=\"0 0 60 40\" width=\"13\" height=\"9\" aria-hidden=\"true\"><path fill=\"#fe0000\" d=\"M0 0h60v40H0z\"/><path fill=\"#000095\" d=\"M0 0h30v20H0z\"/><polygon fill=\"#fff\" points=\"22.50,10.00 20.02,11.35 21.50,13.75 18.68,13.68 18.75,16.50 16.35,15.02 15.00,17.50 13.65,15.02 11.25,16.50 11.32,13.68 8.50,13.75 9.98,11.35 7.50,10.00 9.98,8.65 8.50,6.25 11.32,6.32 11.25,3.50 13.65,4.98 15.00,2.50 16.35,4.98 18.75,3.50 18.68,6.32 21.50,6.25 20.02,8.65\"/><circle cx=\"15\" cy=\"10\" r=\"5.55\" fill=\"#000095\"/><circle cx=\"15\" cy=\"10\" r=\"5.05\" fill=\"#fff\"/></svg>"
+      ],
+      "BR": [
+        "巴西",
+        "🇧🇷"
+      ]
+    },
+    "allen": [
+      "德州艾伦 · Credit Union of Texas Event Center",
+      "America/Chicago"
+    ],
+    "la": [
+      "洛杉矶 · Riot Games Arena",
+      "America/Los_Angeles"
+    ],
+    "ny": [
+      "纽约布鲁克林 · Barclays Center",
+      "America/New_York"
+    ],
+    "ko": [
+      {
+        "best": 5,
+        "venue": [
+          "德州艾伦 · Credit Union of Texas Event Center",
+          "America/Chicago"
+        ],
+        "id": "Q1",
+        "label": "八强 · 第 1 场",
+        "at": "2026-11-03T22:00Z",
+        "slots": [
+          "TES",
+          "IG"
+        ],
+        "scores": [
+          1,
+          3
+        ],
+        "status": "已完赛",
+        "checked": "2026-11-07 02:33",
+        "gameWinners": [
+          "IG",
+          "TES",
+          "IG",
+          "IG"
+        ]
+      },
+      {
+        "best": 5,
+        "venue": [
+          "德州艾伦 · Credit Union of Texas Event Center",
+          "America/Chicago"
+        ],
+        "id": "Q2",
+        "label": "八强 · 第 2 场",
+        "at": "2026-11-04T22:00Z",
+        "slots": [
+          "GEN",
+          "LYON"
+        ],
+        "scores": [
+          3,
+          0
+        ],
+        "status": "已完赛",
+        "checked": "2026-11-07 02:33",
+        "gameWinners": [
+          "GEN",
+          "GEN",
+          "GEN"
+        ]
+      },
+      {
+        "best": 5,
+        "venue": [
+          "德州艾伦 · Credit Union of Texas Event Center",
+          "America/Chicago"
+        ],
+        "id": "Q3",
+        "label": "八强 · 第 3 场",
+        "at": "2026-11-05T22:00Z",
+        "slots": [
+          "DK",
+          "BLG"
+        ],
+        "scores": [
+          0,
+          3
+        ],
+        "status": "已完赛",
+        "checked": "2026-11-06 08:47",
+        "gameWinners": [
+          "BLG",
+          "BLG",
+          "BLG"
+        ]
+      },
+      {
+        "best": 5,
+        "venue": [
+          "德州艾伦 · Credit Union of Texas Event Center",
+          "America/Chicago"
+        ],
+        "id": "Q4",
+        "label": "八强 · 第 4 场",
+        "at": "2026-11-06T22:00Z",
+        "slots": [
+          "T1",
+          "KC"
+        ],
+        "scores": [
+          3,
+          1
+        ],
+        "status": "已完赛",
+        "checked": "2026-11-07 10:09",
+        "gameWinners": [
+          "T1",
+          "T1",
+          "KC",
+          "T1"
+        ]
+      },
+      {
+        "best": 5,
+        "venue": [
+          "德州艾伦 · Credit Union of Texas Event Center",
+          "America/Chicago"
+        ],
+        "id": "S1",
+        "label": "半决赛 · 第 1 场",
+        "at": "2026-11-07T22:00Z",
+        "slots": [
+          "Q1",
+          "Q2"
+        ],
+        "scores": [
+          0,
+          3
+        ],
+        "status": "已完赛",
+        "checked": "2026-11-08 09:00",
+        "gameWinners": [
+          "GEN",
+          "GEN",
+          "GEN"
+        ]
+      },
+      {
+        "best": 5,
+        "venue": [
+          "德州艾伦 · Credit Union of Texas Event Center",
+          "America/Chicago"
+        ],
+        "id": "S2",
+        "label": "半决赛 · 第 2 场",
+        "at": "2026-11-08T22:00Z",
+        "slots": [
+          "Q3",
+          "Q4"
+        ],
+        "scores": [
+          3,
+          1
+        ],
+        "status": "已完赛",
+        "checked": "2026-11-09 10:00",
+        "gameWinners": [
+          "BLG",
+          "T1",
+          "BLG",
+          "BLG"
+        ]
+      },
+      {
+        "best": 5,
+        "venue": [
+          "纽约布鲁克林 · Barclays Center",
+          "America/New_York"
+        ],
+        "id": "F",
+        "label": "总决赛",
+        "at": "2026-11-14T19:00Z",
+        "slots": [
+          "S1",
+          "S2"
+        ]
+      }
+    ],
+    "swissDays": [
+      [
+        23,
+        1,
+        [
+          [
+            12,
+            "GEN",
+            "IG",
+            1,
+            0
+          ],
+          [
+            13,
+            "HLE",
+            "TES",
+            1,
+            0
+          ],
+          [
+            14,
+            "BLG",
+            "MKOI",
+            0,
+            1
+          ],
+          [
+            15,
+            "AL",
+            "KC",
+            0,
+            1
+          ],
+          [
+            16,
+            "G2",
+            "DK",
+            0,
+            1
+          ],
+          [
+            17,
+            "TLAW",
+            "CFO",
+            0,
+            1
+          ],
+          [
+            18,
+            "LOS",
+            "T1",
+            0,
+            1
+          ],
+          [
+            19,
+            "TSW",
+            "LYON",
+            0,
+            1
+          ]
+        ]
+      ],
+      [
+        24,
+        2,
+        [
+          [
+            12,
+            "TES",
+            "AL",
+            1,
+            0
+          ],
+          [
+            13,
+            "CFO",
+            "MKOI",
+            0,
+            1
+          ],
+          [
+            14,
+            "G2",
+            "LOS",
+            1,
+            0
+          ],
+          [
+            15,
+            "LYON",
+            "KC",
+            1,
+            0
+          ],
+          [
+            16,
+            "TSW",
+            "IG",
+            0,
+            1
+          ],
+          [
+            17,
+            "HLE",
+            "GEN",
+            0,
+            1
+          ],
+          [
+            18,
+            "T1",
+            "DK",
+            0,
+            1
+          ],
+          [
+            19,
+            "TLAW",
+            "BLG",
+            0,
+            1
+          ]
+        ]
+      ],
+      [
+        25,
+        3,
+        [
+          [
+            12,
+            "HLE",
+            "IG",
+            0,
+            1
+          ],
+          [
+            13,
+            "G2",
+            "TES",
+            0,
+            1
+          ],
+          [
+            14,
+            "MKOI",
+            "DK",
+            0,
+            2
+          ],
+          [
+            17,
+            "GEN",
+            "LYON",
+            2,
+            1
+          ]
+        ]
+      ],
+      [
+        26,
+        3,
+        [
+          [
+            12,
+            "CFO",
+            "T1",
+            0,
+            1
+          ],
+          [
+            13,
+            "BLG",
+            "KC",
+            1,
+            0
+          ],
+          [
+            14,
+            "LOS",
+            "TSW",
+            2,
+            0
+          ],
+          [
+            17,
+            "TLAW",
+            "AL",
+            2,
+            0
+          ]
+        ]
+      ],
+      [
+        28,
+        4,
+        [
+          [
+            15,
+            "T1",
+            "MKOI",
+            2,
+            0
+          ],
+          [
+            18,
+            "LYON",
+            "IG",
+            1,
+            2
+          ]
+        ]
+      ],
+      [
+        29,
+        4,
+        [
+          [
+            15,
+            "KC",
+            "CFO",
+            2,
+            0
+          ],
+          [
+            18,
+            "BLG",
+            "TES",
+            1,
+            2
+          ]
+        ]
+      ],
+      [
+        30,
+        4,
+        [
+          [
+            15,
+            "LOS",
+            "TLAW",
+            2,
+            1
+          ],
+          [
+            18,
+            "G2",
+            "HLE",
+            0,
+            2
+          ]
+        ]
+      ],
+      [
+        31,
+        5,
+        [
+          [
+            12,
+            "MKOI",
+            "KC",
+            0,
+            2
+          ],
+          [
+            15,
+            "LOS",
+            "LYON",
+            1,
+            2
+          ],
+          [
+            18,
+            "HLE",
+            "BLG",
+            0,
+            2
+          ]
+        ]
+      ]
+    ],
+    "playinDays": [
+      [
+        15,
+        "首轮",
+        [
+          [
+            11,
+            "KC",
+            "C9",
+            3,
+            2
+          ],
+          [
+            null,
+            "MVK",
+            "FUR",
+            3,
+            0
+          ]
+        ]
+      ],
+      [
+        16,
+        "胜者组 / 败者组",
+        [
+          [
+            11,
+            "KC",
+            "MVK",
+            3,
+            0
+          ],
+          [
+            null,
+            "FUR",
+            "C9",
+            3,
+            1
+          ]
+        ]
+      ],
+      [
+        17,
+        "败者组决赛",
+        [
+          [
+            11,
+            "MVK",
+            "FUR",
+            3,
+            1
+          ]
+        ]
+      ],
+      [
+        18,
+        "晋级战",
+        [
+          [
+            11,
+            "KC",
+            "MVK",
+            3,
+            0
+          ]
+        ]
+      ]
+    ],
+    "historyGameWinners": {
+      "playin15-1": [
+        "MVK",
+        "MVK",
+        "MVK"
+      ],
+      "playin16-0": [
+        "KC",
+        "KC",
+        "KC"
+      ],
+      "playin18-0": [
+        "KC",
+        "KC",
+        "KC"
+      ],
+      "swiss23-0": [
+        "GEN"
+      ],
+      "swiss23-1": [
+        "HLE"
+      ],
+      "swiss23-2": [
+        "MKOI"
+      ],
+      "swiss23-3": [
+        "KC"
+      ],
+      "swiss23-4": [
+        "DK"
+      ],
+      "swiss23-5": [
+        "CFO"
+      ],
+      "swiss23-6": [
+        "T1"
+      ],
+      "swiss23-7": [
+        "LYON"
+      ],
+      "swiss24-0": [
+        "TES"
+      ],
+      "swiss24-1": [
+        "MKOI"
+      ],
+      "swiss24-2": [
+        "G2"
+      ],
+      "swiss24-3": [
+        "LYON"
+      ],
+      "swiss24-4": [
+        "IG"
+      ],
+      "swiss24-5": [
+        "GEN"
+      ],
+      "swiss24-6": [
+        "DK"
+      ],
+      "swiss24-7": [
+        "BLG"
+      ],
+      "swiss25-0": [
+        "IG"
+      ],
+      "swiss25-1": [
+        "TES"
+      ],
+      "swiss25-2": [
+        "DK",
+        "DK"
+      ],
+      "swiss26-0": [
+        "T1"
+      ],
+      "swiss26-1": [
+        "BLG"
+      ],
+      "swiss26-2": [
+        "LOS",
+        "LOS"
+      ],
+      "swiss26-3": [
+        "TLAW",
+        "TLAW"
+      ],
+      "swiss28-0": [
+        "T1",
+        "T1"
+      ],
+      "swiss29-0": [
+        "KC",
+        "KC"
+      ],
+      "swiss30-1": [
+        "HLE",
+        "HLE"
+      ],
+      "swiss31-0": [
+        "KC",
+        "KC"
+      ],
+      "swiss31-2": [
+        "BLG",
+        "BLG"
+      ],
+      "playin15-0": [
+        "C9",
+        "KC",
+        "C9",
+        "KC",
+        "KC"
+      ],
+      "playin16-1": [
+        "C9",
+        "FUR",
+        "FUR",
+        "FUR"
+      ],
+      "playin17-0": [
+        "MVK",
+        "MVK",
+        "FUR",
+        "MVK"
+      ],
+      "swiss25-3": [
+        "LYON",
+        "GEN",
+        "GEN"
+      ],
+      "swiss29-1": [
+        "BLG",
+        "TES",
+        "TES"
+      ],
+      "swiss30-0": [
+        "LOS",
+        "TLAW",
+        "LOS"
+      ],
+      "swiss31-1": [
+        "LOS",
+        "LYON",
+        "LYON"
+      ],
+      "swiss28-1": [
+        "IG",
+        "LYON",
+        "IG"
+      ]
+    }
+  },
+  "content": {
+    "text_001": "WORLDS 2026 · LEAGUE OF LEGENDS",
+    "text_002": "S16",
+    "text_003": "全球总决赛",
+    "text_004": "← 返回赛事首页",
+    "text_005": "赛程 · 赛果 · 晋级路径",
+    "text_006": "离线快照 · ",
+    "text_007": "2026-11-09 10:00 · 两场半决赛已核对",
+    "text_008": " · 默认北京时间",
+    "text_009": "半决赛第 2 场 · 已完赛",
+    "text_010": "BLG 3 : 1 T1 · 晋级总决赛",
+    "text_011": "总决赛 · GEN 对 BLG · 纽约布鲁克林",
+    "text_012": "11 月 15 日 03:00 ",
+    "text_013": "北京时间",
+    "text_014": "淘汰赛",
+    "text_015": "瑞士轮",
+    "text_016": "入围赛",
+    "text_017": "突出 LPL",
+    "text_018": "离线赛程快照。历史赛程显示排定时间或当日开场时间，实际开打可能顺延。旗帜表示战队归属，字母标签表示参赛赛区。",
+    "text_019": "Riot 官方赛程与赛果",
+    "text_020": "Riot 赛事指南",
+    "text_021": "八强抽签图",
+    "text_022": "半决赛签位",
+    "text_023": "Riot 瑞士轮战绩",
+    "text_024": "瑞士轮分场排期",
+    "text_025": "战队归属",
+    "text_026": "G2 俱乐部所在地",
+    "text_027": "TES 对 IG 比分",
+    "text_028": "Riot 官方最新赛果",
+    "text_029": "BLG 对 DK 赛后逐局胜者",
+    "text_030": "TES 对 IG 逐局胜者",
+    "text_031": "TES 对 IG 独立赛后报道",
+    "text_032": "GEN 对 LYON 逐局胜者",
+    "text_033": "T1 对 KC 赛后逐局胜者",
+    "text_034": "T1 对 KC 第 1 局独立战报",
+    "text_035": "T1 对 KC 第 2 局独立战报",
+    "text_036": "Inven 前三局具名战报索引",
+    "text_037": "T1 对 KC 具名赛后战报",
+    "text_038": "GEN 对 IG 的 3:0 半决赛终局及总决赛晋级已由 Riot 官方赛程确认；三局胜者均为 GEN，与 ",
+    "text_039": "Strafe 具名赛后战报",
+    "text_040": "一致。",
+    "text_041": "BLG 对 T1 的 3:1 半决赛终局及 GEN 对 BLG 的总决赛对阵已由 Riot 官方赛程确认。逐局胜者为 BLG、T1、BLG、BLG：前三局经 ",
+    "text_042": "Inven 第 1 局",
+    "text_043": "、",
+    "text_044": "Inven 第 2 局",
+    "text_045": "Inven 第 3 局",
+    "text_046": "与 ",
+    "text_047": "eToday 第 1 局",
+    "text_048": "eToday 第 2 局",
+    "text_049": "eToday 第 3 局",
+    "text_050": "具名战报的索引正文交叉核验；第四局胜者由已核实前三局与官方 3:1 终局唯一确定。上述战报直链读取受限。总决赛排定北京时间 11 月 15 日 03:00。",
+    "text_051": "T1 对 KC 的 3:1 终局及半决赛晋级已由 Riot 官方赛程确认；四局胜者 T1、T1、KC、T1 与 esport.vision 的赛后记录及 Strafe 具名战报一致。",
+    "text_052": "已补充入围赛与瑞士轮全部 39 场比赛的逐局胜者。Bo1 与横扫的顺序由已核实总分唯一确定；非横扫比赛经独立来源交叉核验，其中 BLG 对 TES 沿用此前已读取的战报和逐局记录。",
+    "text_053": "KC 对 C9 逐局战报",
+    "text_054": "FUR 对 C9 逐局战报",
+    "text_055": "MVK 对 FUR 逐局战报",
+    "text_056": "GEN 对 LYON 瑞士轮回顾",
+    "text_057": "BLG 对 TES 瑞士轮战报",
+    "text_058": "LOS 对 TLAW 逐局战报",
+    "text_059": "LOS 对 LYON 逐局战报",
+    "text_060": "IG 对 LYON 逐局战报 · GosuGamers",
+    "text_061": "IG 对 LYON 独立逐局战报 · Sheep Esports",
+    "text_062": "请启用 JavaScript 查看签表和赛果。"
+  }
+}

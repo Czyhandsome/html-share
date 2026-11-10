@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "event": {
+    "name": "演示 · 羽毛球小组赛 + 淘汰赛（虚构数据）",
+    "snapshot_at": "2026-11-10T12:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "venue_timezone": "Asia/Tokyo",
+    "back_link": "index.html"
+  },
+  "entries": [
+    {
+      "id": "a",
+      "name": "示例选手甲",
+      "team": "CHN"
+    },
+    {
+      "id": "b",
+      "name": "示例选手乙",
+      "team": "JPN"
+    },
+    {
+      "id": "c",
+      "name": "示例选手丙",
+      "team": "GER"
+    },
+    {
+      "id": "d",
+      "name": "示例组合丁 / 戊",
+      "team": "CHN"
+    },
+    {
+      "id": "e",
+      "name": "示例组合己 / 庚",
+      "team": "KOR"
+    },
+    {
+      "id": "f",
+      "name": "示例组合辛 / 壬",
+      "team": "DEN"
+    }
+  ],
+  "sources": [
+    {
+      "id": "demo",
+      "url": "https://example.com/fictional-results",
+      "label": "虚构示例来源（仅用于演示）",
+      "kind": "official",
+      "family": "example.com"
+    }
+  ],
+  "rules": {
+    "badminton": {
+      "best_of": 3,
+      "points": 21,
+      "win_by": 2,
+      "cap": 30
+    }
+  },
+  "groups": [
+    {
+      "id": "A",
+      "name": "A组",
+      "entries": [
+        "a",
+        "b",
+        "c"
+      ],
+      "ranking": [
+        "wins",
+        "game_ratio",
+        "point_ratio"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "B组",
+      "entries": [
+        "d",
+        "e",
+        "f"
+      ],
+      "ranking": [
+        "wins",
+        "game_ratio",
+        "point_ratio"
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "A-0-1",
+      "result_for": [
+        "a",
+        "b"
+      ],
+      "group": "A",
+      "round": "A组",
+      "slots": [
+        {
+          "entry": "a"
+        },
+        {
+          "entry": "b"
+        }
+      ],
+      "rule": "badminton",
+      "status": "completed",
+      "games": [
+        [
+          21,
+          16
+        ],
+        [
+          21,
+          18
+        ]
+      ],
+      "verification": {
+        "source_ids": [
+          "demo"
+        ],
+        "verified_at": "2026-11-10T11:00:00+08:00"
+      }
+    },
+    {
+      "id": "A-0-2",
+      "result_for": [
+        "a",
+        "c"
+      ],
+      "group": "A",
+      "round": "A组",
+      "slots": [
+        {
+          "entry": "a"
+        },
+        {
+          "entry": "c"
+        }
+      ],
+      "rule": "badminton",
+      "status": "completed",
+      "games": [
+        [
+          21,
+          16
+        ],
+        [
+          21,
+          18
+        ]
+      ],
+      "verification": {
+        "source_ids": [
+          "demo"
+        ],
+        "verified_at": "2026-11-10T11:00:00+08:00"
+      }
+    },
+    {
+      "id": "A-1-2",
+      "result_for": [
+        "b",
+        "c"
+      ],
+      "group": "A",
+      "round": "A组",
+      "slots": [
+        {
+          "entry": "b"
+        },
+        {
+          "entry": "c"
+        }
+      ],
+      "rule": "badminton",
+      "status": "completed",
+      "games": [
+        [
+          21,
+          16
+        ],
+        [
+          21,
+          18
+        ]
+      ],
+      "verification": {
+        "source_ids": [
+          "demo"
+        ],
+        "verified_at": "2026-11-10T11:00:00+08:00"
+      }
+    },
+    {
+      "id": "B-0-1",
+      "result_for": [
+        "d",
+        "e"
+      ],
+      "group": "B",
+      "round": "B组",
+      "slots": [
+        {
+          "entry": "d"
+        },
+        {
+          "entry": "e"
+        }
+      ],
+      "rule": "badminton",
+      "status": "completed",
+      "games": [
+        [
+          21,
+          16
+        ],
+        [
+          21,
+          18
+        ]
+      ],
+      "verification": {
+        "source_ids": [
+          "demo"
+        ],
+        "verified_at": "2026-11-10T11:00:00+08:00"
+      }
+    },
+    {
+      "id": "B-0-2",
+      "result_for": [
+        "d",
+        "f"
+      ],
+      "group": "B",
+      "round": "B组",
+      "slots": [
+        {
+          "entry": "d"
+        },
+        {
+          "entry": "f"
+        }
+      ],
+      "rule": "badminton",
+      "status": "completed",
+      "games": [
+        [
+          21,
+          16
+        ],
+        [
+          21,
+          18
+        ]
+      ],
+      "verification": {
+        "source_ids": [
+          "demo"
+        ],
+        "verified_at": "2026-11-10T11:00:00+08:00"
+      }
+    },
+    {
+      "id": "B-1-2",
+      "result_for": [
+        "e",
+        "f"
+      ],
+      "group": "B",
+      "round": "B组",
+      "slots": [
+        {
+          "entry": "e"
+        },
+        {
+          "entry": "f"
+        }
+      ],
+      "rule": "badminton",
+      "status": "completed",
+      "games": [
+        [
+          21,
+          16
+        ],
+        [
+          21,
+          18
+        ]
+      ],
+      "verification": {
+        "source_ids": [
+          "demo"
+        ],
+        "verified_at": "2026-11-10T11:00:00+08:00"
+      }
+    },
+    {
+      "id": "SF1",
+      "result_for": [
+        "a",
+        "e"
+      ],
+      "round": "半决赛",
+      "slots": [
+        {
+          "group_rank": [
+            "A",
+            1
+          ]
+        },
+        {
+          "group_rank": [
+            "B",
+            2
+          ]
+        }
+      ],
+      "rule": "badminton",
+      "status": "completed",
+      "games": [
+        [
+          21,
+          14
+        ],
+        [
+          22,
+          20
+        ]
+      ],
+      "verification": {
+        "source_ids": [
+          "demo"
+        ],
+        "verified_at": "2026-11-10T11:00:00+08:00"
+      }
+    },
+    {
+      "id": "SF2",
+      "result_for": [
+        "d",
+        "b"
+      ],
+      "round": "半决赛",
+      "slots": [
+        {
+          "group_rank": [
+            "B",
+            1
+          ]
+        },
+        {
+          "group_rank": [
+            "A",
+            2
+          ]
+        }
+      ],
+      "rule": "badminton",
+      "status": "completed",
+      "games": [
+        [
+          21,
+          14
+        ],
+        [
+          22,
+          20
+        ]
+      ],
+      "verification": {
+        "source_ids": [
+          "demo"
+        ],
+        "verified_at": "2026-11-10T11:00:00+08:00"
+      }
+    },
+    {
+      "id": "F",
+      "round": "决赛",
+      "slots": [
+        {
+          "winner": "SF1"
+        },
+        {
+          "winner": "SF2"
+        }
+      ],
+      "rule": "badminton",
+      "status": "scheduled",
+      "scheduled_at": "2026-11-10T18:00:00+09:00"
+    }
+  ]
+}

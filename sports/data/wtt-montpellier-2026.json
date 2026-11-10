@@ -1,0 +1,3608 @@
+{
+  "schema_version": 1,
+  "kind": "bracket-v1",
+  "id": "wtt-montpellier-2026",
+  "output": "docs/2026/11/20261104-1042-sports-brackets/WTT-Montpellier-2026.html",
+  "notices": [
+    "页面已改为JSON DSL生成；全部历史比分和代表队沿用迁移前快照，不代表本次重新核验。"
+  ],
+  "inherited_evidence": {
+    "men-r32-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-1": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-2": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-3": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-4": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-5": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-6": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-7": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-8": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-9": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-10": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-11": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-12": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-13": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-14": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-r32-15": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l1-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l1-1": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l1-2": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l1-3": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l1-4": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l1-5": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l1-6": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l1-7": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l2-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l2-1": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l2-2": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l2-3": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l3-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l3-1": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "men-l4-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-1": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-2": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-3": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-4": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-5": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-6": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-7": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-8": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-9": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-10": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-11": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-12": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-13": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-14": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-r32-15": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l1-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l1-1": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l1-2": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l1-3": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l1-4": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l1-5": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l1-6": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l1-7": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l2-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l2-1": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l2-2": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l2-3": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l3-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l3-1": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    },
+    "women-l4-0": {
+      "notice": "原页面赛果迁移；来源链接保留，未将迁移视为重新完成官方/双独立来源核验。"
+    }
+  },
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 WTT 蒙彼利埃冠军赛",
+      "snapshot_at": "2026-11-10T14:00:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/Paris",
+      "back_link": "index.html"
+    },
+    "entries": [
+      {
+        "id": "p1",
+        "name": "松岛辉空",
+        "team": "JPN"
+      },
+      {
+        "id": "p2",
+        "name": "邱党",
+        "team": "GER"
+      },
+      {
+        "id": "p3",
+        "name": "约奇奇",
+        "team": "SLO"
+      },
+      {
+        "id": "p4",
+        "name": "西多连科",
+        "team": "RUS"
+      },
+      {
+        "id": "p5",
+        "name": "向鹏",
+        "team": "CHN"
+      },
+      {
+        "id": "p6",
+        "name": "奥恰洛夫",
+        "team": "GER"
+      },
+      {
+        "id": "p7",
+        "name": "篠塚大登",
+        "team": "JPN"
+      },
+      {
+        "id": "p8",
+        "name": "卡尔德拉诺",
+        "team": "BRA"
+      },
+      {
+        "id": "p9",
+        "name": "张本智和",
+        "team": "JPN"
+      },
+      {
+        "id": "p10",
+        "name": "高茨",
+        "team": "FRA"
+      },
+      {
+        "id": "p11",
+        "name": "温瑞博",
+        "team": "CHN"
+      },
+      {
+        "id": "p12",
+        "name": "梁靖崑",
+        "team": "CHN"
+      },
+      {
+        "id": "p13",
+        "name": "科顿",
+        "team": "FRA"
+      },
+      {
+        "id": "p14",
+        "name": "张禹珍",
+        "team": "KOR"
+      },
+      {
+        "id": "p15",
+        "name": "热拉尔多",
+        "team": "POR"
+      },
+      {
+        "id": "p16",
+        "name": "林昀儒",
+        "team": "TPE"
+      },
+      {
+        "id": "p17",
+        "name": "林诗栋",
+        "team": "CHN"
+      },
+      {
+        "id": "p18",
+        "name": "林钟勋",
+        "team": "KOR"
+      },
+      {
+        "id": "p19",
+        "name": "安宰贤",
+        "team": "KOR"
+      },
+      {
+        "id": "p20",
+        "name": "阿萨尔",
+        "team": "EGY"
+      },
+      {
+        "id": "p21",
+        "name": "户上隼辅",
+        "team": "JPN"
+      },
+      {
+        "id": "p22",
+        "name": "普察尔",
+        "team": "CRO"
+      },
+      {
+        "id": "p23",
+        "name": "波雷",
+        "team": "FRA"
+      },
+      {
+        "id": "p24",
+        "name": "莫雷加德",
+        "team": "SWE"
+      },
+      {
+        "id": "p25",
+        "name": "大勒布伦",
+        "team": "FRA"
+      },
+      {
+        "id": "p26",
+        "name": "弗兰西斯卡",
+        "team": "GER"
+      },
+      {
+        "id": "p27",
+        "name": "拉内富尔",
+        "team": "SWE"
+      },
+      {
+        "id": "p28",
+        "name": "安东·卡尔伯格",
+        "team": "SWE"
+      },
+      {
+        "id": "p29",
+        "name": "吴晙诚",
+        "team": "KOR"
+      },
+      {
+        "id": "p30",
+        "name": "周启豪",
+        "team": "CHN"
+      },
+      {
+        "id": "p31",
+        "name": "林德",
+        "team": "DEN"
+      },
+      {
+        "id": "p32",
+        "name": "小勒布伦",
+        "team": "FRA"
+      },
+      {
+        "id": "p33",
+        "name": "王曼昱",
+        "team": "CHN"
+      },
+      {
+        "id": "p34",
+        "name": "汉娜·高达",
+        "team": "EGY"
+      },
+      {
+        "id": "p35",
+        "name": "陈熠",
+        "team": "CHN"
+      },
+      {
+        "id": "p36",
+        "name": "彭郁涵",
+        "team": "TPE"
+      },
+      {
+        "id": "p37",
+        "name": "温特",
+        "team": "GER"
+      },
+      {
+        "id": "p38",
+        "name": "袁嘉楠",
+        "team": "FRA"
+      },
+      {
+        "id": "p39",
+        "name": "帕瓦德",
+        "team": "FRA"
+      },
+      {
+        "id": "p40",
+        "name": "佐藤瞳",
+        "team": "JPN"
+      },
+      {
+        "id": "p41",
+        "name": "张本美和",
+        "team": "JPN"
+      },
+      {
+        "id": "p42",
+        "name": "布鲁娜",
+        "team": "BRA"
+      },
+      {
+        "id": "p43",
+        "name": "张安",
+        "team": "USA"
+      },
+      {
+        "id": "p44",
+        "name": "刘杨子",
+        "team": "AUS"
+      },
+      {
+        "id": "p45",
+        "name": "朱芊曦",
+        "team": "KOR"
+      },
+      {
+        "id": "p46",
+        "name": "迪亚兹",
+        "team": "PUR"
+      },
+      {
+        "id": "p47",
+        "name": "赫尔西",
+        "team": "WLS"
+      },
+      {
+        "id": "p48",
+        "name": "蒯曼",
+        "team": "CHN"
+      },
+      {
+        "id": "p49",
+        "name": "陈幸同",
+        "team": "CHN"
+      },
+      {
+        "id": "p50",
+        "name": "佩索茨卡",
+        "team": "UKR"
+      },
+      {
+        "id": "p51",
+        "name": "考夫曼",
+        "team": "GER"
+      },
+      {
+        "id": "p52",
+        "name": "大藤沙月",
+        "team": "JPN"
+      },
+      {
+        "id": "p53",
+        "name": "韩莹",
+        "team": "GER"
+      },
+      {
+        "id": "p54",
+        "name": "萨马拉",
+        "team": "ROU"
+      },
+      {
+        "id": "p55",
+        "name": "梅谢芙",
+        "team": "EGY"
+      },
+      {
+        "id": "p56",
+        "name": "王艺迪",
+        "team": "CHN"
+      },
+      {
+        "id": "p57",
+        "name": "早田希娜",
+        "team": "JPN"
+      },
+      {
+        "id": "p58",
+        "name": "杜凯琹",
+        "team": "HKG"
+      },
+      {
+        "id": "p59",
+        "name": "金娜英",
+        "team": "KOR"
+      },
+      {
+        "id": "p60",
+        "name": "斯佐科斯",
+        "team": "ROU"
+      },
+      {
+        "id": "p61",
+        "name": "申裕斌",
+        "team": "KOR"
+      },
+      {
+        "id": "p62",
+        "name": "郑怡静",
+        "team": "TPE"
+      },
+      {
+        "id": "p63",
+        "name": "卡米耶·卢茨",
+        "team": "FRA"
+      },
+      {
+        "id": "p64",
+        "name": "孙颖莎",
+        "team": "CHN"
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://11edge.io/tournaments/38691/draw?gender=men&year=2026",
+        "label": "11edge.io",
+        "kind": "independent",
+        "family": "11edge.io"
+      },
+      {
+        "id": "s2",
+        "url": "https://pingpongtimes.com/events/champions-montpellier-2026?day=all&discipline=all&search=&stage=&tab=matches",
+        "label": "pingpongtimes.com",
+        "kind": "independent",
+        "family": "pingpongtimes.com"
+      },
+      {
+        "id": "s3",
+        "url": "https://tabletennisapi.com/results/2026-10-27",
+        "label": "tabletennisapi.com",
+        "kind": "independent",
+        "family": "tabletennisapi.com"
+      },
+      {
+        "id": "s4",
+        "url": "https://tabletennisapi.com/results/2026-10-28",
+        "label": "tabletennisapi.com",
+        "kind": "independent",
+        "family": "tabletennisapi.com"
+      },
+      {
+        "id": "s5",
+        "url": "https://tabletennisapi.com/results/2026-10-29",
+        "label": "tabletennisapi.com",
+        "kind": "independent",
+        "family": "tabletennisapi.com"
+      },
+      {
+        "id": "s6",
+        "url": "https://11edge.io/tournaments/38691",
+        "label": "11edge.io",
+        "kind": "independent",
+        "family": "11edge.io"
+      },
+      {
+        "id": "s7",
+        "url": "https://tabletennisapi.com/results/2026-10-30",
+        "label": "tabletennisapi.com",
+        "kind": "independent",
+        "family": "tabletennisapi.com"
+      },
+      {
+        "id": "s8",
+        "url": "https://tabletennisapi.com/results/2026-10-31",
+        "label": "tabletennisapi.com",
+        "kind": "independent",
+        "family": "tabletennisapi.com"
+      },
+      {
+        "id": "s9",
+        "url": "https://www.fftt.com/actualites/wtt/les-finales-sont-connues/",
+        "label": "www.fftt.com",
+        "kind": "independent",
+        "family": "www.fftt.com"
+      },
+      {
+        "id": "s10",
+        "url": "https://11edge.io/tournaments/38691/draw?gender=women&year=2026",
+        "label": "11edge.io",
+        "kind": "independent",
+        "family": "11edge.io"
+      },
+      {
+        "id": "s11",
+        "url": "https://11edge.io/tournaments/38691?gender=women&year=2026",
+        "label": "11edge.io",
+        "kind": "independent",
+        "family": "11edge.io"
+      }
+    ],
+    "rules": {
+      "early": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2
+      },
+      "late": {
+        "best_of": 7,
+        "points": 11,
+        "win_by": 2
+      }
+    },
+    "draws": [
+      {
+        "id": "men",
+        "name": "男子单打"
+      },
+      {
+        "id": "women",
+        "name": "女子单打"
+      }
+    ],
+    "matches": [
+      {
+        "id": "men-r32-0",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p1"
+          },
+          {
+            "entry": "p2"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p1",
+          "p2"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            2
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "men-r32-1",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p3"
+          },
+          {
+            "entry": "p4"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p3",
+          "p4"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            13
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "men-r32-2",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p5"
+          },
+          {
+            "entry": "p6"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p5",
+          "p6"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "men-r32-3",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p7"
+          },
+          {
+            "entry": "p8"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p7",
+          "p8"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "men-r32-4",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p9"
+          },
+          {
+            "entry": "p10"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p9",
+          "p10"
+        ],
+        "games": [
+          [
+            13,
+            15
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "men-r32-5",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p11"
+          },
+          {
+            "entry": "p12"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p11",
+          "p12"
+        ],
+        "games": [
+          [
+            11,
+            13
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "men-r32-6",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p13"
+          },
+          {
+            "entry": "p14"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p13",
+          "p14"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "men-r32-7",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p15"
+          },
+          {
+            "entry": "p16"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p15",
+          "p16"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-27"
+      },
+      {
+        "id": "men-r32-8",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p17"
+          },
+          {
+            "entry": "p18"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p17",
+          "p18"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            2
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-27"
+      },
+      {
+        "id": "men-r32-9",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p19"
+          },
+          {
+            "entry": "p20"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p19",
+          "p20"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            13,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-27"
+      },
+      {
+        "id": "men-r32-10",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p21"
+          },
+          {
+            "entry": "p22"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p21",
+          "p22"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "men-r32-11",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p23"
+          },
+          {
+            "entry": "p24"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p23",
+          "p24"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "men-r32-12",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p25"
+          },
+          {
+            "entry": "p26"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p25",
+          "p26"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            12,
+            14
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "men-r32-13",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p27"
+          },
+          {
+            "entry": "p28"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p27",
+          "p28"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-27"
+      },
+      {
+        "id": "men-r32-14",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p29"
+          },
+          {
+            "entry": "p30"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p29",
+          "p30"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "men-r32-15",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p31"
+          },
+          {
+            "entry": "p32"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p31",
+          "p32"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            3,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "men-l1-0",
+        "draw": "men",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "men-r32-0"
+          },
+          {
+            "winner": "men-r32-1"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T03:50:00+08:00",
+        "result_for": [
+          "p1",
+          "p4"
+        ],
+        "games": [
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "men-l1-1",
+        "draw": "men",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "men-r32-2"
+          },
+          {
+            "winner": "men-r32-3"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T02:05:00+08:00",
+        "result_for": [
+          "p6",
+          "p8"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "men-l1-2",
+        "draw": "men",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "men-r32-4"
+          },
+          {
+            "winner": "men-r32-5"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T20:45:00+08:00",
+        "result_for": [
+          "p10",
+          "p12"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "men-l1-3",
+        "draw": "men",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "men-r32-6"
+          },
+          {
+            "winner": "men-r32-7"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T02:40:00+08:00",
+        "result_for": [
+          "p14",
+          "p16"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "men-l1-4",
+        "draw": "men",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "men-r32-8"
+          },
+          {
+            "winner": "men-r32-9"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T19:35:00+08:00",
+        "result_for": [
+          "p17",
+          "p19"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "men-l1-5",
+        "draw": "men",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "men-r32-10"
+          },
+          {
+            "winner": "men-r32-11"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T01:30:00+08:00",
+        "result_for": [
+          "p21",
+          "p24"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            12,
+            14
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "men-l1-6",
+        "draw": "men",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "men-r32-12"
+          },
+          {
+            "winner": "men-r32-13"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T21:55:00+08:00",
+        "result_for": [
+          "p26",
+          "p27"
+        ],
+        "games": [
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "men-l1-7",
+        "draw": "men",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "men-r32-14"
+          },
+          {
+            "winner": "men-r32-15"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T03:15:00+08:00",
+        "result_for": [
+          "p30",
+          "p32"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "men-l2-0",
+        "draw": "men",
+        "round": "1/4决赛 · 8进4",
+        "slots": [
+          {
+            "winner": "men-l1-0"
+          },
+          {
+            "winner": "men-l1-1"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T19:45:00+08:00",
+        "result_for": [
+          "p4",
+          "p8"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s8"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "men-l2-1",
+        "draw": "men",
+        "round": "1/4决赛 · 8进4",
+        "slots": [
+          {
+            "winner": "men-l1-2"
+          },
+          {
+            "winner": "men-l1-3"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T21:15:00+08:00",
+        "result_for": [
+          "p12",
+          "p14"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s8"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "men-l2-2",
+        "draw": "men",
+        "round": "1/4决赛 · 8进4",
+        "slots": [
+          {
+            "winner": "men-l1-4"
+          },
+          {
+            "winner": "men-l1-5"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "scheduled_at": "2026-11-01T01:45:00+08:00",
+        "result_for": [
+          "p17",
+          "p24"
+        ],
+        "games": [
+          [
+            11,
+            1
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s8"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-01"
+      },
+      {
+        "id": "men-l2-3",
+        "draw": "men",
+        "round": "1/4决赛 · 8进4",
+        "slots": [
+          {
+            "winner": "men-l1-6"
+          },
+          {
+            "winner": "men-l1-7"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "scheduled_at": "2026-11-01T03:15:00+08:00",
+        "result_for": [
+          "p26",
+          "p30"
+        ],
+        "games": [
+          [
+            13,
+            15
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s2",
+            "s8"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-01"
+      },
+      {
+        "id": "men-l3-0",
+        "draw": "men",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "men-l2-0"
+          },
+          {
+            "winner": "men-l2-1"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "result_for": [
+          "p8",
+          "p14"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            12,
+            14
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            14
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s9"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-01"
+      },
+      {
+        "id": "men-l3-1",
+        "draw": "men",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "men-l2-2"
+          },
+          {
+            "winner": "men-l2-3"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "result_for": [
+          "p24",
+          "p26"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6",
+            "s9"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-01"
+      },
+      {
+        "id": "men-l4-0",
+        "draw": "men",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "men-l3-0"
+          },
+          {
+            "winner": "men-l3-1"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "result_for": [
+          "p14",
+          "p26"
+        ],
+        "games": [
+          [
+            3,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s6"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-02"
+      },
+      {
+        "id": "women-r32-0",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p33"
+          },
+          {
+            "entry": "p34"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p33",
+          "p34"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "women-r32-1",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p35"
+          },
+          {
+            "entry": "p36"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p35",
+          "p36"
+        ],
+        "games": [
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "women-r32-2",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p37"
+          },
+          {
+            "entry": "p38"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p37",
+          "p38"
+        ],
+        "games": [
+          [
+            11,
+            4
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "women-r32-3",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p39"
+          },
+          {
+            "entry": "p40"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p39",
+          "p40"
+        ],
+        "games": [
+          [
+            10,
+            12
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "women-r32-4",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p41"
+          },
+          {
+            "entry": "p42"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p41",
+          "p42"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "women-r32-5",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p43"
+          },
+          {
+            "entry": "p44"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p43",
+          "p44"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "women-r32-6",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p45"
+          },
+          {
+            "entry": "p46"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p45",
+          "p46"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "women-r32-7",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p47"
+          },
+          {
+            "entry": "p48"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p47",
+          "p48"
+        ],
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            14
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "women-r32-8",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p49"
+          },
+          {
+            "entry": "p50"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p49",
+          "p50"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "women-r32-9",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p51"
+          },
+          {
+            "entry": "p52"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p51",
+          "p52"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-29"
+      },
+      {
+        "id": "women-r32-10",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p53"
+          },
+          {
+            "entry": "p54"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p53",
+          "p54"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "women-r32-11",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p55"
+          },
+          {
+            "entry": "p56"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p55",
+          "p56"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s4"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-28"
+      },
+      {
+        "id": "women-r32-12",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p57"
+          },
+          {
+            "entry": "p58"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p57",
+          "p58"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-27"
+      },
+      {
+        "id": "women-r32-13",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p59"
+          },
+          {
+            "entry": "p60"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p59",
+          "p60"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-27"
+      },
+      {
+        "id": "women-r32-14",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p61"
+          },
+          {
+            "entry": "p62"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p61",
+          "p62"
+        ],
+        "games": [
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-27"
+      },
+      {
+        "id": "women-r32-15",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "p63"
+          },
+          {
+            "entry": "p64"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "p63",
+          "p64"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            3,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s10",
+            "s2",
+            "s3"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-27"
+      },
+      {
+        "id": "women-l1-0",
+        "draw": "women",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "women-r32-0"
+          },
+          {
+            "winner": "women-r32-1"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T19:00:00+08:00",
+        "result_for": [
+          "p33",
+          "p35"
+        ],
+        "games": [
+          [
+            11,
+            13
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "women-l1-1",
+        "draw": "women",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "women-r32-2"
+          },
+          {
+            "winner": "women-r32-3"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T03:50:00+08:00",
+        "result_for": [
+          "p37",
+          "p40"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "women-l1-2",
+        "draw": "women",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "women-r32-4"
+          },
+          {
+            "winner": "women-r32-5"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T21:20:00+08:00",
+        "result_for": [
+          "p41",
+          "p43"
+        ],
+        "games": [
+          [
+            16,
+            14
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "women-l1-3",
+        "draw": "women",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "women-r32-6"
+          },
+          {
+            "winner": "women-r32-7"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T01:30:00+08:00",
+        "result_for": [
+          "p46",
+          "p48"
+        ],
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "women-l1-4",
+        "draw": "women",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "women-r32-8"
+          },
+          {
+            "winner": "women-r32-9"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T02:05:00+08:00",
+        "result_for": [
+          "p49",
+          "p51"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "women-l1-5",
+        "draw": "women",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "women-r32-10"
+          },
+          {
+            "winner": "women-r32-11"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T03:15:00+08:00",
+        "result_for": [
+          "p54",
+          "p56"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s5"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "women-l1-6",
+        "draw": "women",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "women-r32-12"
+          },
+          {
+            "winner": "women-r32-13"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T02:40:00+08:00",
+        "result_for": [
+          "p57",
+          "p60"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "women-l1-7",
+        "draw": "women",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "women-r32-14"
+          },
+          {
+            "winner": "women-r32-15"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "scheduled_at": "2026-10-30T20:10:00+08:00",
+        "result_for": [
+          "p61",
+          "p64"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s7"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-30"
+      },
+      {
+        "id": "women-l2-0",
+        "draw": "women",
+        "round": "1/4决赛 · 8进4",
+        "slots": [
+          {
+            "winner": "women-l1-0"
+          },
+          {
+            "winner": "women-l1-1"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "scheduled_at": "2026-11-01T02:30:00+08:00",
+        "result_for": [
+          "p35",
+          "p40"
+        ],
+        "games": [
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s8"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-01"
+      },
+      {
+        "id": "women-l2-1",
+        "draw": "women",
+        "round": "1/4决赛 · 8进4",
+        "slots": [
+          {
+            "winner": "women-l1-2"
+          },
+          {
+            "winner": "women-l1-3"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "scheduled_at": "2026-11-01T01:00:00+08:00",
+        "result_for": [
+          "p41",
+          "p48"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s8"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-01"
+      },
+      {
+        "id": "women-l2-2",
+        "draw": "women",
+        "round": "1/4决赛 · 8进4",
+        "slots": [
+          {
+            "winner": "women-l1-4"
+          },
+          {
+            "winner": "women-l1-5"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T19:00:00+08:00",
+        "result_for": [
+          "p49",
+          "p56"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s8"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "women-l2-3",
+        "draw": "women",
+        "round": "1/4决赛 · 8进4",
+        "slots": [
+          {
+            "winner": "women-l1-6"
+          },
+          {
+            "winner": "women-l1-7"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "scheduled_at": "2026-10-31T20:30:00+08:00",
+        "result_for": [
+          "p57",
+          "p64"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s2",
+            "s8"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-10-31"
+      },
+      {
+        "id": "women-l3-0",
+        "draw": "women",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "women-l2-0"
+          },
+          {
+            "winner": "women-l2-1"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "result_for": [
+          "p35",
+          "p48"
+        ],
+        "games": [
+          [
+            11,
+            13
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s9"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-01"
+      },
+      {
+        "id": "women-l3-1",
+        "draw": "women",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "women-l2-2"
+          },
+          {
+            "winner": "women-l2-3"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "result_for": [
+          "p56",
+          "p64"
+        ],
+        "games": [
+          [
+            11,
+            13
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11",
+            "s9"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-01"
+      },
+      {
+        "id": "women-l4-0",
+        "draw": "women",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "women-l3-0"
+          },
+          {
+            "winner": "women-l3-1"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "result_for": [
+          "p48",
+          "p64"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "s11"
+          ],
+          "verified_at": "2026-11-10T06:00:00+08:00"
+        },
+        "completed_date": "2026-11-02"
+      }
+    ]
+  }
+}

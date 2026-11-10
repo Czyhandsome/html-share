@@ -1,0 +1,87 @@
+schema_version: 1
+event:
+  name: 演示 · 乒乓球淘汰赛（虚构数据）
+  snapshot_at: '2026-11-10T12:00:00+08:00'
+  timezone: Asia/Shanghai
+  venue_timezone: Europe/Berlin
+  back_link: index.html
+entries:
+- id: a
+  name: 示例选手甲
+  team: CHN
+- id: b
+  name: 示例选手乙
+  team: JPN
+- id: c
+  name: 示例选手丙
+  team: GER
+- id: d
+  name: 示例组合丁 / 戊
+  team: CHN
+sources:
+- id: demo
+  url: https://example.com/fictional-results
+  label: 虚构示例来源（仅用于演示）
+  kind: official
+  family: example.com
+rules:
+  early:
+    best_of: 5
+    points: 11
+    win_by: 2
+  final:
+    best_of: 7
+    points: 11
+    win_by: 2
+groups: []
+matches:
+- id: SF1
+  result_for:
+  - a
+  - b
+  round: 半决赛
+  slots:
+  - entry: a
+  - entry: b
+  rule: early
+  status: completed
+  games:
+  - - 11
+    - 8
+  - - 9
+    - 11
+  - - 12
+    - 10
+  - - 11
+    - 4
+  verification: &id001
+    source_ids:
+    - demo
+    verified_at: '2026-11-10T11:00:00+08:00'
+- id: SF2
+  result_for:
+  - c
+  - d
+  round: 半决赛
+  slots:
+  - entry: c
+  - entry: d
+  rule: early
+  status: retired
+  winner: d
+  games:
+  - - 11
+    - 9
+  in_progress_game:
+  - 3
+  - 5
+  reason: 示例：选手丙因伤退赛，总比分不虚构成0–3
+  verification: *id001
+- id: F
+  round: 决赛
+  slots:
+  - winner: SF1
+  - winner: SF2
+  rule: final
+  status: scheduled
+  scheduled_at: '2026-11-10T14:00:00+01:00'
