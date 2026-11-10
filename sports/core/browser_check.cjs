@@ -79,10 +79,16 @@ async function checkConnectedBracket(page, groupFixture = false) {
     }
     if (kumamoto) {
         assert.deepEqual(drawIds, ['MS', 'WS', 'MD', 'WD', 'XD']);
+        const chineseEntries = Object.values(draws).flat().flatMap(match => match.players)
+            .filter(player => player.team === 'CHN');
+        assert.ok(chineseEntries.length > 0 && chineseEntries.every(player => !/[A-Za-z]/.test(player.name)),
+            'Chinese entries should use their Chinese names');
+        assert.deepEqual(await matchFor('MS-R32-1').locator('.name').allTextContents(), ['小波波夫', '古贺穗']);
+        assert.deepEqual(await matchFor('MS-R32-6').locator('.name').allTextContents(), ['田中涌士', '朱轩辰']);
         assert.deepEqual(await matchFor('MS-Q4').locator('.score').allTextContents(), ['2', '0']);
         assert.deepEqual(await matchFor('MS-R32-1').locator('.score').allTextContents(), ['—', '—']);
         assert.deepEqual(await matchFor('WD-R32-1').locator('.score').allTextContents(), ['2', '1']);
-        assert.deepEqual(await matchFor('WD-R16-1').locator('.name').allTextContents(), ['福島由紀／松本麻佑', '第 02 场胜者']);
+        assert.deepEqual(await matchFor('WD-R16-1').locator('.name').allTextContents(), ['福岛由纪／松本麻佑', '第 02 场胜者']);
     }
 
     await firstTab.click();
