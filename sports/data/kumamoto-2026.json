@@ -10,7 +10,7 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入男单资格赛古贺穗对李梓嘉，以及女双正赛首轮福岛由纪／松本麻佑对李怡婧／王漪朵。逐局比分和来源见对应卡片。",
+    "已录入 5 场终局：男单资格赛古贺穗对李梓嘉，女双福岛由纪／松本麻佑对李怡婧／王漪朵、平本梨梨菜／志田千阳对陈康乐／蒂娜，以及男双冈村洋辉／山下恭平对阿尔菲安／菲克里、戴伟钦／叶睿庆对熊谷翔／西大辉。逐局比分和来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。"
   ],
@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-10T19:13:18+08:00",
+      "snapshot_at": "2026-11-10T20:12:01+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -900,6 +900,27 @@
         "label": "BWF 11 月 3 日官方初签",
         "kind": "official",
         "family": "bwf.sport"
+      },
+      {
+        "id": "bola-nov10",
+        "url": "https://www.bola.com/ragam/read/8332443/rekap-hasil-kumamoto-masters-2026-fajarfikri-dan-sabarreza-tersingkir",
+        "label": "Bola · 11月10日赛果报道",
+        "kind": "independent",
+        "family": "bola.com"
+      },
+      {
+        "id": "thestar-nov10",
+        "url": "https://www.thestar.com.my/sport/badminton/2026/11/10/pearly-thinaah039s-japan-masters-title-defence-ends-in-first-round",
+        "label": "The Star · 女双首轮赛后报道",
+        "kind": "independent",
+        "family": "thestar.com.my"
+      },
+      {
+        "id": "bernama-nov10",
+        "url": "https://bernama.com/bm/sukan/news.php?id=2632481",
+        "label": "Bernama · 11月10日赛果报道",
+        "kind": "independent",
+        "family": "bernama.com"
       }
     ],
     "rules": {
@@ -2178,9 +2199,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-11-0",
+          "MD-11-1"
+        ],
+        "games": [
+          [
+            21,
+            8
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T20:12:01+08:00",
+          "source_ids": [
+            "zutto",
+            "bernama-nov10"
+          ]
+        }
       },
       {
         "id": "MD-R32-12",
@@ -2263,9 +2304,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-16-0",
+          "MD-16-1"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            11,
+            21
+          ],
+          [
+            29,
+            27
+          ]
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T20:12:01+08:00",
+          "source_ids": [
+            "zutto",
+            "bola-nov10"
+          ]
+        }
       },
       {
         "id": "MD-R16-1",
@@ -2801,9 +2866,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "WD-16-0",
+          "WD-16-1"
+        ],
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T20:12:01+08:00",
+          "source_ids": [
+            "zutto",
+            "thestar-nov10"
+          ]
+        }
       },
       {
         "id": "WD-R16-1",
