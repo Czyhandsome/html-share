@@ -7,7 +7,7 @@ import unittest
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1] / 'core'))
 from bracketkit import compile_data,render,load,ValidationError
-from sports.build import INDEX, build
+from sports.build import INDEX, build, parse_event_dates
 ROOT=Path(__file__).resolve().parents[1] / 'core'
 class Inspect(HTMLParser):
  def __init__(self):
@@ -59,9 +59,38 @@ class OutputTests(unittest.TestCase):
    data = load(ROOT/'examples/knockout.json')
    data['event'].pop('back_link')
    target = 'docs/example/index.html'
-   record = {'id': 'example', 'kind': 'bracket-v1', 'output': target, 'data': data}
-   (root/'sports/data/example.json').write_text(json.dumps(record), encoding='utf-8')
+   record = {'kind': 'bracket-v1', 'data': data}
+   examples = [
+       ('a-undated', 'docs/2099/undated/index.html', None),
+       ('b-current', target, {'start': '2026-11-10', 'end': '2026-11-15'}),
+       ('c-earlier', 'docs/2099/earlier/index.html', {
+           'start': '2026-07-17', 'end': '2026-07-19', 'snapshot': '2026-07-17'}),
+       ('d-later', 'docs/1999/later/index.html', {
+           'start': '2026-07-17', 'end': '2026-07-19', 'snapshot': '2026-07-18'}),
+   ]
+   for ident, output, dates in examples:
+    example = dict(record, id=ident, output=output)
+    if dates is not None:
+     example['event_dates'] = dates
+    (root/'sports/data'/f'{ident}.json').write_text(json.dumps(example), encoding='utf-8')
    build(root=root)
-   self.assertIn('../../../example/index.html', (root/INDEX).read_text())
+   index = (root/INDEX).read_text(encoding='utf-8')
+   links = [f'../../../{page}/index.html' for page in ('example', '1999/later', '2099/earlier', '2099/undated')]
+   positions = [index.index(f'href="{link}"') for link in links]
+   self.assertEqual(positions, sorted(positions))
+   self.assertIn('<time datetime="2026-11-10">2026年11月10日</time>–<time datetime="2026-11-15">11月15日</time>', index)
+   self.assertIn('快照 <time datetime="2026-07-18">2026年7月18日</time>', index)
    self.assertIn('data-match-id=', (root/target).read_text())
    build(check=True, root=root)
+ def test_catalog_event_dates_reject_invalid_input(self):
+  for start, end in [('2026-1-01', '2026-01-02'), ('2026-02-30', '2026-03-01'), ('2026-01-02', '2026-01-01')]:
+   with self.subTest(start=start, end=end), self.assertRaisesRegex(ValueError, 'event_dates'):
+    parse_event_dates({'event_dates': {'start': start, 'end': end}})
+ def test_catalog_event_dates_load_yaml_dates(self):
+  try:import yaml
+  except ImportError:self.skipTest('PyYAML optional')
+  with tempfile.TemporaryDirectory() as directory:
+   path = Path(directory) / 'event.yaml'
+   path.write_text('event_dates:\n  start: 2026-11-10\n  end: 2026-11-15\n')
+   dates = parse_event_dates(load(path))
+   self.assertEqual([value.isoformat() for value in dates[:2]], ['2026-11-10', '2026-11-15'])

@@ -23,6 +23,15 @@ class LegacyTests(unittest.TestCase):
                 self.assertEqual(json.loads(expression), value)
             self.assertEqual(rendered, render_record(r, ROOT))
 
+    def test_historical_pages_link_back_to_the_event_catalog(self):
+        catalog = ROOT / 'docs/2026/11/20261104-1042-sports-brackets/index.html'
+        for record in RECORDS:
+            with self.subTest(output=record['output']):
+                rendered = render_record(record, ROOT)
+                links = re.findall(r'<a\b[^>]*\bhref="([^"]+)"[^>]*>← 返回赛事首页</a>', rendered)
+                self.assertEqual(len(links), 1)
+                self.assertEqual(((ROOT / record['output']).parent / links[0]).resolve(), catalog)
+
     def test_swiss_history_not_single_elimination(self):
         r = next(r for r in RECORDS if r['kind'] == 'worlds-swiss')
         self.assertEqual(sum(len(d[2]) for d in r['data']['swissDays']), 33)

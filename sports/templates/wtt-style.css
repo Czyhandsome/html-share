@@ -115,6 +115,8 @@ h1{max-width:calc(100% - 280px);overflow:hidden;text-overflow:ellipsis;white-spa
 .group-matches{margin-top:12px}
 .group-matches summary{cursor:pointer}
 .group-matches .match{position:relative;inset:auto!important;width:auto!important;height:auto;min-height:88px;margin-top:10px}
+.preliminaries{width:min(385px,var(--chrome-width));margin:0 0 18px;color:var(--green);font-size:19px}
+.preliminaries summary{cursor:pointer}
 @container (max-width:1100px){
   .toolbar{gap:12px}
   h1{max-width:100%}

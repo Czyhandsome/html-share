@@ -23,6 +23,8 @@ python sports/build.py --check
 ```
 完整可运行DSL见core/examples，字段规则见core/schema.json、core/bracketkit.py。新增数据文件会自动加入赛事索引，省略 `back_link` 时自动返回索引。构建器会拒绝丢失或越出 `docs/` 的路径。
 
+在记录顶层填写 `event_dates` 后，索引会显示 `start` 至 `end` 的赛事日期，并按开赛日降序排列。日期格式为 `YYYY-MM-DD`。同一赛事的多份快照可填 `snapshot`，用于区分展示和排序。未填赛事日期的记录排在最后。
+
 ## 签表页面
 
 所有 `bracket-v1` 赛事共用一套单页模板。比赛的 `draw` 和 `round` 决定项目和列，`slots` 的 `winner` 引用生成晋级连线。待定签位按轮次展示，填入明确的晋级引用后才会连线。有小组赛时，`groups` 生成积分榜，淘汰赛使用 `group_rank` 引用出线名次。模板沿用原 WTT 页的项目切换、路线高亮和单场详情。

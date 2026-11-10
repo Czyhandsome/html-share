@@ -1,13 +1,17 @@
 {
   "schema_version": 1,
+  "event_dates": {
+    "start": "2026-11-10",
+    "end": "2026-11-15"
+  },
   "kind": "bracket-v1",
   "id": "kumamoto-2026",
   "output": "docs/2026/11/20261110-2200-kumamoto-masters-2026/index.html",
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
-    "五个正赛项目的首轮及后续轮次已建档。部分首轮签位在赛前重排，标为待核实的卡片仍待官方签表或赛果确认。",
+    "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
     "已录入男单资格赛古贺穂对李梓嘉，以及女双正赛首轮福岛由纪／松本麻佑对李怡婧／王漪朵。逐局比分和来源见对应卡片。",
-    "BWF 11 月 3 日初签：https://extranet.bwf.sport/docs/events/5194/docs/Draws%20-%20Kumamoto%20Masters%20Japan%202026.pdf 。实时对阵和赛果可从赛事官网 https://kumamotomasters-japan.com/ 进入。"
+    "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。"
   ],
   "data": {
     "schema_version": 1,
@@ -888,6 +892,13 @@
         "kind": "independent",
         "family": "365ls.org",
         "label": "365LS · 比分汇总"
+      },
+      {
+        "id": "bwf-initial-draw",
+        "url": "https://extranet.bwf.sport/docs/events/5194/docs/Draws%20-%20Kumamoto%20Masters%20Japan%202026.pdf",
+        "label": "BWF 11 月 3 日官方初签",
+        "kind": "official",
+        "family": "bwf.sport"
       }
     ],
     "rules": {
@@ -1237,16 +1248,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-R16-2",
@@ -1254,16 +1264,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-R16-3",
@@ -1271,16 +1280,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-R16-4",
@@ -1288,16 +1296,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-R16-5",
@@ -1305,16 +1312,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-9"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-10"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-R16-6",
@@ -1322,16 +1328,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-11"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-12"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-R16-7",
@@ -1339,16 +1344,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-13"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-14"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-R16-8",
@@ -1356,16 +1360,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-15"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R32-16"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-QF-1",
@@ -1373,16 +1376,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R16-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R16-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-QF-2",
@@ -1390,16 +1392,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R16-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R16-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-QF-3",
@@ -1407,16 +1408,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R16-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R16-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-QF-4",
@@ -1424,16 +1424,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R16-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-R16-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-SF-1",
@@ -1441,16 +1440,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-QF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-QF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-SF-2",
@@ -1458,16 +1456,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-QF-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-QF-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MS-F-1",
@@ -1475,16 +1472,15 @@
         "round": "决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-SF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MS-SF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-R32-1",
@@ -1764,16 +1760,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-R16-2",
@@ -1781,16 +1776,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-R16-3",
@@ -1798,16 +1792,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-R16-4",
@@ -1815,16 +1808,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-R16-5",
@@ -1832,16 +1824,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-9"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-10"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-R16-6",
@@ -1849,16 +1840,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-11"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-12"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-R16-7",
@@ -1866,16 +1856,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-13"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-14"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-R16-8",
@@ -1883,16 +1872,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-15"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R32-16"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-QF-1",
@@ -1900,16 +1888,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R16-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R16-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-QF-2",
@@ -1917,16 +1904,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R16-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R16-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-QF-3",
@@ -1934,16 +1920,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R16-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R16-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-QF-4",
@@ -1951,16 +1936,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R16-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-R16-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-SF-1",
@@ -1968,16 +1952,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-QF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-QF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-SF-2",
@@ -1985,16 +1968,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-QF-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-QF-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WS-F-1",
@@ -2002,16 +1984,15 @@
         "round": "决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-SF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WS-SF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-R32-1",
@@ -2291,16 +2272,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-R16-2",
@@ -2308,16 +2288,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-R16-3",
@@ -2325,16 +2304,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-R16-4",
@@ -2342,16 +2320,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-R16-5",
@@ -2359,16 +2336,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-9"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-10"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-R16-6",
@@ -2376,16 +2352,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-11"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-12"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-R16-7",
@@ -2393,16 +2368,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-13"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-14"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-R16-8",
@@ -2410,16 +2384,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-15"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R32-16"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-QF-1",
@@ -2427,16 +2400,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R16-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R16-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-QF-2",
@@ -2444,16 +2416,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R16-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R16-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-QF-3",
@@ -2461,16 +2432,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R16-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R16-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-QF-4",
@@ -2478,16 +2448,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R16-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-R16-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-SF-1",
@@ -2495,16 +2464,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-QF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-QF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-SF-2",
@@ -2512,16 +2480,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-QF-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-QF-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "MD-F-1",
@@ -2529,16 +2496,15 @@
         "round": "决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-SF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "MD-SF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-R32-1",
@@ -2844,16 +2810,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-R16-2",
@@ -2861,16 +2826,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-R16-3",
@@ -2878,16 +2842,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-R16-4",
@@ -2895,16 +2858,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-R16-5",
@@ -2912,16 +2874,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-9"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-10"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-R16-6",
@@ -2929,16 +2890,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-11"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-12"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-R16-7",
@@ -2946,16 +2906,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-13"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-14"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-R16-8",
@@ -2963,16 +2922,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-15"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R32-16"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-QF-1",
@@ -2980,16 +2938,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R16-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R16-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-QF-2",
@@ -2997,16 +2954,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R16-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R16-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-QF-3",
@@ -3014,16 +2970,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R16-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R16-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-QF-4",
@@ -3031,16 +2986,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R16-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-R16-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-SF-1",
@@ -3048,16 +3002,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-QF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-QF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-SF-2",
@@ -3065,16 +3018,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-QF-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-QF-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "WD-F-1",
@@ -3082,16 +3034,15 @@
         "round": "决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-SF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "WD-SF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-R32-1",
@@ -3371,16 +3322,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-R16-2",
@@ -3388,16 +3338,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-R16-3",
@@ -3405,16 +3354,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-R16-4",
@@ -3422,16 +3370,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-R16-5",
@@ -3439,16 +3386,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-9"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-10"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-R16-6",
@@ -3456,16 +3402,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-11"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-12"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-R16-7",
@@ -3473,16 +3418,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-13"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-14"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-R16-8",
@@ -3490,16 +3434,15 @@
         "round": "16强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-15"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R32-16"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-QF-1",
@@ -3507,16 +3450,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R16-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R16-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-QF-2",
@@ -3524,16 +3466,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R16-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R16-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-QF-3",
@@ -3541,16 +3482,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R16-5"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R16-6"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-QF-4",
@@ -3558,16 +3498,15 @@
         "round": "八强",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R16-7"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-R16-8"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-SF-1",
@@ -3575,16 +3514,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-QF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-QF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-SF-2",
@@ -3592,16 +3530,15 @@
         "round": "半决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-QF-3"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-QF-4"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       },
       {
         "id": "XD-F-1",
@@ -3609,16 +3546,15 @@
         "round": "决赛",
         "slots": [
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-SF-1"
           },
           {
-            "tbd": "晋级者待核实"
+            "winner": "XD-SF-2"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待定：晋级者及对阵连接尚未核实，不根据单源比分自动晋级。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
       }
     ]
   }

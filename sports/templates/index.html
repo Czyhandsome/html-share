@@ -8,11 +8,13 @@
 body{margin:0;padding:40px 22px;color:#162a29;background:#f0f1e9;font:16px/1.65 system-ui,sans-serif}
 main{max-width:640px;margin:auto}h1{margin:0;font-size:clamp(30px,7vw,44px)}p{color:#4c5c58}
 ul{padding:0;list-style:none}li{margin:10px 0}a{display:block;padding:14px 18px;border:1px solid #bfcac2;border-radius:12px;background:#fcfdf8;color:#0e5547;text-decoration:none;font-weight:700}
-a:hover,a:focus-visible{border-color:#0e5547;text-decoration:underline}a span{display:block;color:#4c5c58;font-size:14px;font-weight:400}
+a:hover,a:focus-visible{border-color:#0e5547;text-decoration:underline}
+.event-date,.snapshot-date{display:block;color:#4c5c58;font-size:14px;font-weight:400}
+.snapshot-date{color:#596861;font-size:13px}
 </style>
 <main>
 <h1>2026 赛事签表</h1>
-<p>数据驱动的独立 HTML 赛况快照；来源边界见各赛事页。</p>
+<p>按开赛日倒序，日期以赛地当地时间为准。</p>
 <ul>
 {{events}}
 </ul>

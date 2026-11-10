@@ -16,6 +16,20 @@ def script_json(value):
     return json.dumps(value, ensure_ascii=False, separators=(',', ':')).replace('<', r'\u003c')
 
 
+def split_preliminaries(matches):
+    """Keep a sparse opening round that feeds the main draw beside the board."""
+    rounds = defaultdict(list)
+    for match in matches:
+        rounds[match['round']].append(match)
+    if len(rounds) < 2:
+        return [], matches
+    opening, first = list(rounds.values())[:2]
+    seeds = {ident for match in first for ident in match['feeders']}
+    if len(opening) * 2 <= len(first) and all(match['id'] in seeds for match in opening):
+        return opening, [match for match in matches if match['round'] != opening[0]['round']]
+    return [], matches
+
+
 def layout(matches):
     """Use round labels for draft columns and validated feeders for the wires."""
     by_id = {match['id']: match for match in matches}
@@ -27,7 +41,7 @@ def layout(matches):
         ident = match['id']
         if ident not in position:
             # A data file can list its matches in any order. Always place a feeder first.
-            earliest = max((column(by_id[feeder]) + 1 for feeder in match['feeders']), default=0)
+            earliest = max((column(by_id[feeder]) + 1 for feeder in match['feeders'] if feeder in by_id), default=0)
             position[ident] = max(round_order[match['round']], earliest)
         return position[ident]
 
@@ -112,6 +126,8 @@ def match_card(match, assets, zone, hidden):
     label = STATUS[match['status']]
     if match['status'] == 'scheduled' and match.get('blocker'):
         label = '赛况待核实'
+    elif match['status'] == 'scheduled' and not match['scheduled']:
+        date, label = '', '赛果待录'
     rows = ''.join(player_row(player, match['scores'][i] if match['scores'] is not None else None,
                               i == match['winner'] if match['winner'] is not None else None, assets)
                    for i, player in enumerate(match['players']))
@@ -154,6 +170,12 @@ def render(model):
     group_for = {match['id']: match['group'] for match in model['matches'] if match.get('group')}
     draws = {draw: [] for draw in draw_names}
     group_matches = defaultdict(list)
+    match_numbers = {}
+    counts = defaultdict(int)
+    for match in model['matches']:
+        draw = match.get('draw', 'main')
+        counts[draw] += 1
+        match_numbers[match['id']] = counts[draw]
 
     for index, match in enumerate(model['matches']):
         draw = match.get('draw', 'main')
@@ -164,6 +186,8 @@ def render(model):
             elif 'group_rank' in slot:
                 group_id, rank = slot['group_rank']
                 players.append({'name': f'{groups[group_id]["name"]} 第 {rank} 名', 'team': ''})
+            elif 'winner' in slot:
+                players.append({'name': f'第 {match_numbers[slot["winner"]]:02} 场胜者', 'team': ''})
             else:
                 players.append({'name': slot.get('tbd', '轮空' if 'bye' in slot else '晋级席位待定'), 'team': ''})
         winner = match['players'].index(match['winner']) if match['winner'] is not None else None
@@ -177,7 +201,7 @@ def render(model):
                 else:
                     feeders.append(ident)
         view = {
-            'id': match['id'], 'draw': draw, 'domId': f'match-{index}', 'number': len(draws[draw]) + 1,
+            'id': match['id'], 'draw': draw, 'domId': f'match-{index}', 'number': match_numbers[match['id']],
             'round': match['round'], 'players': players, 'scores': match['score'], 'winner': winner,
             'feeders': feeders, 'groupFeeders': group_feed, 'group': match.get('group'),
             'games': match['games'], 'inProgressGame': match.get('in_progress_game'),
@@ -193,7 +217,7 @@ def render(model):
 
     event = model['event']
     zone = ZoneInfo(event['timezone'])
-    tabs, columns, cards, wires = [], [], [], []
+    tabs, columns, cards, wires, preliminary_panels = [], [], [], [], []
     board_width, board_height = 660, 162
     active = next(iter(draws), None)
     for draw, matches in draws.items():
@@ -203,6 +227,15 @@ def render(model):
         tabs.append(f'<button role="tab" id="tab-{draw_attr}" aria-controls="bracket"'
                     f' aria-selected="{str(selected).lower()}" data-sex="{draw_attr}">{escape(draw_names[draw])}</button>')
         knockout = [match for match in matches if not match['group']]
+        preliminary, knockout = split_preliminaries(knockout)
+        if preliminary:
+            for match in preliminary:
+                match['preliminary'] = True
+            fixtures = ''.join(match_card(match, assets, zone, '') for match in preliminary)
+            title = escape(preliminary[0]['round'])
+            preliminary_panels.append(f'<details class="preliminaries" data-sex="{draw_attr}"{hidden}>'
+                                      f'<summary>{title} · {len(preliminary)} 场已录入</summary>'
+                                      f'<div class="group-matches">{fixtures}</div></details>')
         starts, labels, width, height, halves = layout(knockout)
         board_width, board_height = max(board_width, width), max(board_height, height)
         headings = ''.join(f'<span style="left:{starts[col]}px">{escape(" / ".join(names))}</span>'
@@ -218,6 +251,8 @@ def render(model):
             cards.append(match_card(match, assets, zone, hidden))
             x, _, _, y = match['box']
             for feeder in match['feeders']:
+                if feeder not in positions:
+                    continue  # The qualification card is in the preliminary panel.
                 fx, _, fw, fy = positions[feeder]
                 center = (fx + fw + x) / 2
                 wires.append(f'<path data-sex="{draw_attr}" data-from="{escape(feeder)}" data-to="{escape(match["id"])}"'
@@ -235,7 +270,8 @@ def render(model):
     values = {
         'title': escape(event['name']), 'heading': escape(event['name']), 'eyebrow': '赛事签表 · 赛果快照',
         'back_link': escape(event.get('back_link', 'index.html')), 'snapshot': escape(f'赛况快照 · {time_label} {checked}'),
-        'summary': f'{len(model["matches"])} 场比赛', 'tabs': ''.join(tabs), 'columns': ''.join(columns), 'groups': standings,
+        'summary': f'{len(model["matches"])} 场比赛', 'tabs': ''.join(tabs), 'columns': ''.join(columns),
+        'groups': standings + ''.join(preliminary_panels),
         'cards': '\n'.join(cards), 'wires': '\n'.join(wires), 'sources': notices + f'<p>{source_html}</p>',
         'data': script_json(view), 'assets': script_json(assets),
         'styles': (TEMPLATES / 'wtt-style.css').read_text(encoding='utf-8'),

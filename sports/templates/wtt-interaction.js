@@ -10,7 +10,7 @@ const tooltip = document.getElementById('tooltip');
 const cards = [...board.querySelectorAll('.match')];
 const paths = [...board.querySelectorAll('.wires path')];
 const groups = [...board.querySelectorAll('.group[data-group-id]')];
-const drawSections = [...board.querySelectorAll('.columns[data-sex], .group[data-sex], .board-item[data-sex]')];
+const drawSections = [...board.querySelectorAll('.columns[data-sex], .group[data-sex], .board-item[data-sex], .preliminaries[data-sex]')];
 const tabs = [...document.querySelectorAll('.tabs button')];
 const shell = document.querySelector('.shell');
 const canvas = document.querySelector('.canvas');
@@ -60,8 +60,9 @@ function show(draw) {
 
     const groupMatches = matches.some(match => match.group || match.groupFeeders?.length);
     const bracket = board.querySelector('.board');
-    const knockout = matches.filter(match => !match.group);
-    const feederEdges = knockout.reduce((count, match) => count + match.feeders.length, 0);
+    const knockout = matches.filter(match => !match.group && !match.preliminary);
+    const feederEdges = knockout.reduce((count, match) =>
+        count + match.feeders.filter(id => !lookup.get(id).preliminary).length, 0);
     bracket.hidden = !knockout.length;
     canvas.querySelector('.edition strong').textContent = groupMatches ? (bracket.hidden ? '分组赛' : '小组 + 淘汰')
         : final && feederEdges === knockout.length - 1 ? `${knockout.length + 1} → 1` : '签表';

@@ -23,6 +23,7 @@
       radial-gradient(circle at 88% 6%,rgba(110,231,168,.12),transparent 30rem),
       linear-gradient(180deg,#080a18 0%,#0d1022 52%,#080a18 100%)}
     a{color:inherit}.page{width:min(1500px,calc(100vw - 28px));margin:0 auto;padding:24px 0 64px}
+    .back-link{display:inline-block;margin-bottom:12px;color:var(--muted);font-size:14px;text-underline-offset:.2em}
     .hero{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.10);border-radius:38px;background:linear-gradient(145deg,rgba(20,25,51,.96),rgba(8,10,24,.98));box-shadow:var(--shadow);padding:clamp(28px,5vw,66px);isolation:isolate}
     .hero:before{content:"";position:absolute;inset:24px;border:1px solid rgba(255,255,255,.08);border-radius:29px;z-index:-1}
     .hero:after{content:"";position:absolute;width:390px;height:390px;right:-125px;top:-125px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffb176 0 8%,#ff6846 28%,#b82636 64%,rgba(184,38,54,0) 67%);filter:drop-shadow(0 30px 70px rgba(255,104,70,.18));z-index:-1}
@@ -54,6 +55,7 @@
 </head>
 <body>
   <main class="page">
+    <a class="back-link" href="../../11/20261104-1042-sports-brackets/index.html">← 返回赛事首页</a>
     <section class="hero" aria-labelledby="page-title">
       <div class="topbar">
         <div class="badge"><span class="ball-mark" aria-hidden="true"></span>{{text:text_001}}</div>

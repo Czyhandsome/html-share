@@ -1,5 +1,10 @@
 {
   "schema_version": 1,
+  "event_dates": {
+    "start": "2026-07-13",
+    "end": "2026-07-19",
+    "snapshot": "2026-07-17"
+  },
   "kind": "doubles-archive",
   "id": "legacy-doubles-17",
   "template": "sports/templates/legacy-doubles-17.html",

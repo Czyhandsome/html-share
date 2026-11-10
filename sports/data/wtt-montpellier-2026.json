@@ -1,5 +1,9 @@
 {
   "schema_version": 1,
+  "event_dates": {
+    "start": "2026-10-27",
+    "end": "2026-11-01"
+  },
   "kind": "bracket-v1",
   "id": "wtt-montpellier-2026",
   "output": "docs/2026/11/20261104-1042-sports-brackets/WTT-Montpellier-2026.html",

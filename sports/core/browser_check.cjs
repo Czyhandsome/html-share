@@ -31,11 +31,11 @@ async function checkConnectedBracket(page, groupFixture = false) {
         assert.equal(await panel.getAttribute('aria-labelledby'), `tab-${draw}`);
         if (wtt || kumamoto) {
             const rounds = page.locator('.columns:visible span');
-            assert.equal(await rounds.count(), kumamoto && draw === 'MS' ? 6 : 5);
+            assert.equal(await rounds.count(), 5);
             if (wtt) assert.equal(matches.length, 31);
         }
 
-        const groupFixtures = page.locator('.group details:not([open]) summary:visible');
+        const groupFixtures = page.locator('.group details:not([open]) summary:visible, .preliminaries:not([open]) summary:visible');
         while (await groupFixtures.count()) await groupFixtures.first().click();
         const visible = await page.locator('.match:visible').evaluateAll(elements => elements.map(card => ({
             id: card.dataset.matchId,
@@ -55,8 +55,19 @@ async function checkConnectedBracket(page, groupFixture = false) {
         const edges = await panel.locator('.wires path').evaluateAll(paths => paths
             .filter(path => getComputedStyle(path).display !== 'none')
             .map(path => `${path.dataset.sex}:${path.dataset.from}:${path.dataset.to}`));
-        const expectedEdges = matches.flatMap(match => match.feeders.map(from => `${draw}:${from}:${match.id}`));
-        if (wtt) assert.equal(expectedEdges.length, 30);
+        const preliminary = new Set(matches.filter(match => match.preliminary).map(match => match.id));
+        const expectedEdges = matches.flatMap(match => match.feeders.filter(from => !preliminary.has(from))
+            .map(from => `${draw}:${from}:${match.id}`));
+        if (wtt || kumamoto) assert.equal(edges.length, 30);
+        if (kumamoto) {
+            assert.equal(preliminary.size, draw === 'MS' ? 1 : 0);
+            for (const [from, to, count] of [['R32', 'R16', 8], ['R16', 'QF', 4], ['QF', 'SF', 2], ['SF', 'F', 1]]) {
+                for (let i = 1; i <= count; i++) {
+                    assert.ok(edges.includes(`${draw}:${draw}-${from}-${i * 2 - 1}:${draw}-${to}-${i}`));
+                    assert.ok(edges.includes(`${draw}:${draw}-${from}-${i * 2}:${draw}-${to}-${i}`));
+                }
+            }
+        }
         assert.deepEqual(edges.sort(), expectedEdges.sort());
     }
 
@@ -71,6 +82,7 @@ async function checkConnectedBracket(page, groupFixture = false) {
         assert.deepEqual(await matchFor('MS-Q4').locator('.score').allTextContents(), ['2', '0']);
         assert.deepEqual(await matchFor('MS-R32-1').locator('.score').allTextContents(), ['—', '—']);
         assert.deepEqual(await matchFor('WD-R32-1').locator('.score').allTextContents(), ['2', '1']);
+        assert.deepEqual(await matchFor('WD-R16-1').locator('.name').allTextContents(), ['福島由紀／松本麻佑', '第 02 场胜者']);
     }
 
     await firstTab.click();
@@ -84,8 +96,10 @@ async function checkConnectedBracket(page, groupFixture = false) {
     await firstMatch.hover();
     assert.ok(await tooltip.isVisible());
     if (scoredMatch) assert.match(await tooltip.locator('.tip-note').allTextContents().then(lines => lines.join(' ')), /逐局/);
-    if (wtt) {
+    if (wtt || kumamoto) {
         assert.equal(await panel.locator('.wires path.hot').count(), 4);
+    }
+    if (wtt) {
         assert.ok(await firstMatch.locator('.flag').count() > 0);
     }
 
@@ -155,20 +169,24 @@ async function main() {
         await page.goto(index);
         const links = await page.locator('main li a').evaluateAll(anchors => anchors.map(anchor => anchor.href));
         assert.ok(links.length >= 7, 'the tournament index is incomplete');
+        const dates = await page.locator('main li .event-date time:first-child').evaluateAll(times => times.map(time => time.dateTime));
+        assert.ok(dates.length >= 7, 'the tournament dates are missing');
+        assert.deepEqual(dates, [...dates].sort().reverse());
         let brackets = 0;
         for (const link of links) {
             await page.setViewportSize({width: 1280, height: 900});
             await page.goto(link);
             assert.ok(await page.title(), link);
             const connected = /\/(?:WTT-(?:Frankfurt|Montpellier)-2026\.html|20261110-2200-kumamoto-masters-2026\/index\.html)$/.test(new URL(link).pathname);
-            if (connected || await page.locator('#wtt-data').count()) {
+            const hasBracket = await page.locator('#wtt-data').count();
+            if (connected || hasBracket) {
                 await checkConnectedBracket(page);
-                const backLink = page.getByRole('link', {name: '返回赛事', exact: false});
-                const back = await backLink.evaluate(anchor => anchor.href);
-                await backLink.click();
-                assert.equal(page.url(), connected ? index : back);
                 brackets++;
             }
+            const backLink = page.getByRole('link', {name: '返回赛事', exact: false});
+            const back = await backLink.evaluate(anchor => anchor.href);
+            await backLink.click();
+            assert.equal(page.url(), connected || !hasBracket ? index : back);
         }
         const example = path.join(scratch, 'groups-knockout.html');
         execFileSync(process.env.PYTHON || 'python3', ['sports/core/bracketkit.py',
