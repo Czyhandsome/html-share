@@ -4,12 +4,16 @@ import argparse
 import copy
 from datetime import date, datetime
 from fractions import Fraction
-import html
 import json
 from pathlib import Path
 import re
 from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
+
+if __package__:
+    from .board import render
+else:
+    from board import render
 
 class ValidationError(ValueError):
     pass
@@ -363,104 +367,6 @@ def compile_data(data):
         return Compiler(data).compile()
     except (KeyError, TypeError, IndexError, AttributeError) as exc:
         raise ValidationError('missing/invalid DSL field: ' + str(exc)) from exc
-
-LABELS = {'scheduled': '待赛', 'live': '进行中（来源快照）', 'completed': '已完赛', 'retired': '退赛',
-          'walkover': '弃权／未赛胜出', 'bye': '轮空', 'cancelled': '取消'}
-
-def render(data):
-    """Render only compiler output; static cards and JSON are generated from one model."""
-    esc = lambda x: html.escape(str(x), quote=True)
-    entries = {e['id']: e for e in data['entries']}
-    sources = {s['id']: s for s in data['sources']}
-    event = data['event']
-    draw_names = {d['id']: d['name'] for d in data['draws']}
-    def dt(s, zone):
-        return timestamp(s).astimezone(ZoneInfo(zone)).strftime('%Y-%m-%d %H:%M %Z')
-    def source_links(ids):
-        return ' · '.join('<a rel="noopener noreferrer" target="_blank" href="' + esc(sources[s]['url']) + '">' +
-                          esc(sources[s].get('label', s)) + '</a>' for s in ids)
-    def slot_label(m, i):
-        e = m['players'][i]
-        if e:
-            item = entries[e]
-            return esc(item['name']) + ' <span class="team">' + esc(item['team']) + '</span>' + (' <span class="china">中国</span>' if item['team'] == 'CHN' else '')
-        s = m['slots'][i]
-        return esc(s.get('tbd') or ('轮空' if 'bye' in s else ('胜者：' + s['winner'] if 'winner' in s else '小组名次：' + str(s['group_rank']))))
-    rounds = {d: {} for d in draw_names}
-    for n, m in enumerate(data['matches']):
-        players = ''.join('<div class="player ' + ('winner' if p and p == m['winner'] else '') + '">' +
-                          '<span>' + slot_label(m, i) + '</span><strong>' +
-                          (str(m['score'][i]) if m['score'] is not None else '—') + '</strong></div>' for i, p in enumerate(m['players']))
-        games = ' · '.join(f'{a}–{b}' for a, b in m['games']) or '无逐局比分'
-        if m.get('in_progress_game') is not None:
-            games += ' · 当前局 ' + '–'.join(map(str, m['in_progress_game']))
-        times = ''
-        if m.get('scheduled_at'):
-            zone_label = '北京时间' if event['timezone'] == 'Asia/Shanghai' else event['timezone']
-            times += ('<p class="times">计划开赛 · ' + esc(zone_label) + ' ' + esc(dt(m['scheduled_at'], event['timezone'])) +
-                      '<br>当地 ' + esc(dt(m['scheduled_at'], event['venue_timezone'])) + '</p>')
-        if m.get('completed_at'):
-            times += '<p class="times">完赛 · ' + esc(dt(m['completed_at'], event['timezone'])) + '</p>'
-        if m.get('completed_date'):
-            times += '<p class="times">完赛日期 · ' + esc(m['completed_date']) + '</p>'
-        proof = source_links(m['verified_source_ids'])
-        schedule_proof = ''
-        if m.get('schedule_verification'):
-            checked = dt(m['schedule_verification']['verified_at'], event['timezone'])
-            schedule_proof = '<p>赛程核验 ' + esc(checked) + ' · ' + source_links(m['schedule_source_ids']) + '</p>'
-        note = ''.join('<p class="note">' + esc(m[k]) + '</p>' for k in ('reason', 'blocker') if m.get(k))
-        verified = '<p>' + ('原记录导入（未重新核验）：' if m.get('verification_status') == 'imported_unverified' else '核验：') + esc(dt(m['verification']['verified_at'], event['timezone'])) + '</p>' if m.get('verification') else ''
-        draw = m.get('draw', 'main')
-        cards = rounds[draw].setdefault(m['round'], [])
-        status = '赛果待核实' if m['status'] == 'scheduled' and m.get('blocker') else LABELS[m['status']]
-        cards.append('<article class="match" id="match-' + str(n) + '" data-match-id="' + esc(m['id']) +
-                     '" data-round="' + esc(m['round']) + '"><button class="route" type="button" aria-label="高亮晋级路线">↗</button>' +
-                     '<h4>' + esc(m['id']) + '</h4><p class="status">' + status + '</p>' +
-                     players + '<p class="games">' + esc(games) + '</p>' + times + note + ('<p class="note">' + esc(m['migration_notice']) + '</p>' if m.get('migration_notice') else '') +
-                     '<details><summary>来源与核验</summary>' + (proof or '尚无终局核验') + verified + schedule_proof + '</details></article>')
-    brackets = []
-    feeders = {s['winner'] for m in data['matches'] for s in m['slots'] if 'winner' in s}
-    for draw, columns in rounds.items():
-        if not columns:
-            continue
-        matches = [m for m in data['matches'] if m.get('draw', 'main') == draw]
-        finished = sum(m['status'] in TERMINAL for m in matches)
-        finals = [m for m in matches if not m.get('group') and m['id'] not in feeders]
-        winner = finals[0]['winner'] if len(finals) == 1 and len(matches) > 1 else None
-        summary = f'{finished} / {len(matches)} 场已有结果'
-        if winner:
-            summary += ' · 冠军 ' + entries[winner]['name']
-        columns_html = ''.join('<section class="round"><h3>' + esc(label) + '</h3>' + ''.join(cards) + '</section>'
-                               for label, cards in columns.items())
-        brackets.append('<section class="draw"><h2>' + esc(draw_names[draw]) + '</h2><p>' + esc(summary) +
-                        '</p><div class="bracket" tabindex="0" aria-label="按轮次浏览">' + columns_html + '</div></section>')
-    groups = []
-    for g in data['groups']:
-        rows = ''.join('<tr><td>' + str(i+1) + '</td><td>' + esc(entries[r['entry']]['name']) + '</td>' +
-                       ''.join('<td>' + str(r[k]) + '</td>' for k in ('played', 'wins', 'games_for', 'games_against', 'points_for', 'points_against')) + '</tr>'
-                       for i, r in enumerate(g['rows']))
-        groups.append('<section class="group"><h2>' + esc(g['name']) + '</h2><p>' + esc(g['reason']) +
-                      '</p><table><thead><tr><th>序</th><th>选手／组合</th><th>赛</th><th>胜</th><th>胜局</th><th>负局</th><th>得分</th><th>失分</th></tr></thead><tbody>' + rows + '</tbody></table></section>')
-    payload = json.dumps(data, ensure_ascii=False, sort_keys=True, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
-    css = Path(__file__).with_name('theme.css').read_text()
-    js = Path(__file__).with_name('interaction.js').read_text()
-    notices = ''.join('<p class="note">' + esc(n) + '</p>' for n in data.get('notices', []))
-    options = ''.join('<option value="' + esc(d['id']) + '">' + esc(d['name']) + '</option>' for d in data['draws'])
-    return f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'">
-<title>{esc(event['name'])}</title><style>{css}</style></head><body><main>
-<a href="{esc(event.get('back_link', 'index.html'))}">← 返回赛事索引</a>
-<header><h1>{esc(event['name'])}</h1><p>快照 · {esc(dt(event['snapshot_at'], event['timezone']))}</p>
-<p>比分按卡片上下选手顺序。点击箭头可高亮晋级路线。</p>{notices}</header>
-<nav><label>项目 <select id="draw-filter"><option value="">全部</option>{options}</select></label>
-<label>搜索 <input id="search" type="search" placeholder="选手、轮次、比赛 ID"></label>
-<label><input type="checkbox" id="china-only"> 只看中国选手</label>
-<button id="clear" type="button">清除筛选／路线</button></nav>
-{''.join(groups)}{''.join(brackets)}<p id="empty" hidden>没有匹配的比赛。</p>
-<footer>离线赛况快照。来源随比赛展示。</footer></main>
-<script type="application/json" id="tournament-data">{payload}</script><script>{js}</script></body></html>
-'''
 
 def load(path):
     text = Path(path).read_text(encoding='utf-8')

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'">
+  <link rel="icon" href="data:,">
+  <title>{{title}}</title>
+  <style>
+{{styles}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <main class="canvas" style="--board-width:{{board_width}}px;--board-height:{{board_height}}px">
+      <header>
+        <p class="eyebrow">{{eyebrow}}</p>
+        <p class="back-link"><a href="{{back_link}}">← 返回赛事首页</a></p>
+        <h1 title="{{heading}}">{{heading}}</h1>
+        <p class="subtitle">{{snapshot}}</p>
+        <div class="edition"><strong>签表</strong><small>TOURNAMENT DRAW</small></div>
+      </header>
+      <div class="top-rule"></div>
+      <nav class="toolbar" aria-label="签表控制">
+        <div class="tabs" role="tablist" aria-label="项目">
+{{tabs}}
+        </div>
+        <div class="legend"><span><i></i>绿色为胜者</span><span><b class="team-badge">中国</b>国乒标识</span></div>
+        <button class="focus" aria-pressed="false" onclick="focusChina(this)">突出中国选手</button>
+      </nav>
+      <div class="guidance">
+        <span class="stat">{{summary}}</span>
+        <span>悬停看赛程与逐局比分 · 点击固定详情 · Esc 关闭</span>
+      </div>
+      <div class="bracket-content" id="bracket" role="tabpanel">
+        <div class="groups">
+{{groups}}
+        </div>
+{{columns}}
+        <section class="board" aria-label="淘汰赛签表">
+          <svg class="wires" viewBox="0 0 {{board_width}} {{board_height}}" aria-hidden="true">
+{{wires}}
+          </svg>
+{{cards}}
+        </section>
+      </div>
+      <footer class="footer">
+        <div>
+          <p class="takeaway" id="takeaway"></p>
+          <button class="source-button" id="source-button" aria-controls="sources" aria-expanded="false" onclick="toggleSources()">查看核验来源与时间说明 ↗</button>
+        </div>
+        <div class="footer-right fine">比分按签表上下行显示。<br>悬停或聚焦查看单场详情。</div>
+      </footer>
+      <aside id="sources" class="popover" hidden>
+{{sources}}
+      </aside>
+    </main>
+  </div>
+  <aside class="tooltip" id="tooltip" role="tooltip" tabindex="-1" hidden></aside>
+  <script id="wtt-data" type="application/json">{{data}}</script>
+  <script id="wtt-assets" type="application/json">{{assets}}</script>
+  <script>
+{{interaction}}
+  </script>
+</body>
+</html>

@@ -219,8 +219,11 @@ class RenderTests(unittest.TestCase):
         out = compile_data(d); page = render(out)
         self.assertNotIn(attack, page)
         self.assertIn('&lt;/script&gt;', page)
-        payload = re.search(r'<script type="application/json" id="tournament-data">(.*?)</script>', page, re.S).group(1)
-        self.assertEqual(json.loads(payload), out)
+        payload = re.search(r'<script[^>]+id="wtt-data"[^>]*>(.*?)</script>', page, re.S).group(1)
+        match = json.loads(payload)['draws']['main'][0]
+        self.assertEqual(match['round'], attack)
+        self.assertEqual(match['players'][0]['name'], attack)
+        self.assertEqual(match['scores'], out['matches'][0]['score'])
         self.assertIn('href="index.html"', page)
     def test_unsafe_source_scheme_rejected(self):
         for url in ['javascript:alert(1)', 'data:text/html,evil', '//example.com', 'https://user:pass@example.com']:

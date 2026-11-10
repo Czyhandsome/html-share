@@ -16,8 +16,8 @@ class Inspect(HTMLParser):
   d=dict(attrs)
   if 'id' in d:self.ids.append(d['id'])
   if 'data-match-id' in d:self.matches.append(d['data-match-id'])
-  if tag in ('script','img','iframe') and 'src' in d:self.external_assets.append(d['src'])
-  if tag=='link':self.external_assets.append(d.get('href'))
+  if tag in ('script','img','iframe') and 'src' in d and not d['src'].startswith('data:'):self.external_assets.append(d['src'])
+  if tag=='link' and not d.get('href','').startswith('data:'):self.external_assets.append(d.get('href'))
   if tag=='a' and d.get('href')=='index.html':self.back.append(True)
 class OutputTests(unittest.TestCase):
  def test_examples_have_unique_ids_and_one_card_per_match(self):
@@ -25,7 +25,7 @@ class OutputTests(unittest.TestCase):
    with self.subTest(file=file):
     model=compile_data(load(file));page=render(model);p=Inspect();p.feed(page)
     self.assertEqual(len(p.ids),len(set(p.ids)))
-    self.assertEqual(p.matches,[m['id'] for m in model['matches']])
+    self.assertCountEqual(p.matches,[m['id'] for m in model['matches']])
     self.assertEqual(p.external_assets,[]);self.assertEqual(len(p.back),1)
     self.assertEqual(page,render(compile_data(load(file))))
  def test_yaml_json_equivalent(self):

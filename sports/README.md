@@ -23,6 +23,10 @@ python sports/build.py --check
 ```
 完整可运行DSL见core/examples，字段规则见core/schema.json、core/bracketkit.py。新增数据文件会自动加入赛事索引，省略 `back_link` 时自动返回索引。构建器会拒绝丢失或越出 `docs/` 的路径。
 
+## 签表页面
+
+所有 `bracket-v1` 赛事共用一套单页模板。比赛的 `draw` 和 `round` 决定项目和列，`slots` 的 `winner` 引用生成晋级连线。待定签位按轮次展示，填入明确的晋级引用后才会连线。有小组赛时，`groups` 生成积分榜，淘汰赛使用 `group_rank` 引用出线名次。模板沿用原 WTT 页的项目切换、路线高亮和单场详情。
+
 ## 迁移边界
 
 WTT的旧比分、逐局与已知对阵原样迁入。`inherited_evidence`明确区分旧记录与本次重新核验；它不是官方证明。迁移锁防止静默改变继承记录。修订继承赛果时去掉该场的继承标记，提供核验来源和时间。首次补齐锁定的未核验比赛时，另在 `migration_releases` 记录依据，并检查整条晋级路线。
