@@ -10,7 +10,7 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 12 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
+    "已录入 10 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
     "11月11日首轮比赛从北京时间08:00开始；各场具体开赛时间尚待官方或双独立来源核实，不能将日程起始时间视为每场时间。"
@@ -948,13 +948,6 @@
         "label": "The Star · 苏伟译伤退及教练采访",
         "kind": "independent",
         "family": "thestar.com.my"
-      },
-      {
-        "id": "detik-nov10",
-        "url": "https://sport.detik.com/raket/d-8746989/kumamoto-masters-2026-fajar-fikri-langsung-tersingkir",
-        "label": "Detik · 首日印尼选手赛果",
-        "kind": "independent",
-        "family": "detik.com"
       },
       {
         "id": "pbsi-yusuf",
@@ -2276,29 +2269,9 @@
           }
         ],
         "rule": "badminton",
-        "status": "completed",
-        "games": [
-          [
-            23,
-            21
-          ],
-          [
-            21,
-            16
-          ]
-        ],
-        "completed_date": "2026-11-10",
-        "result_for": [
-          "MD-10-0",
-          "MD-10-1"
-        ],
-        "verification": {
-          "verified_at": "2026-11-10T20:33:33+08:00",
-          "source_ids": [
-            "bola-nov10",
-            "detik-nov10"
-          ]
-        }
+        "status": "scheduled",
+        "blocker": "待核实：Bola与Detik汇总比分一致，但尚不能确认独立原始来源，暂不录入终局。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
       },
       {
         "id": "MD-R32-11",
@@ -2891,29 +2864,9 @@
           }
         ],
         "rule": "badminton",
-        "status": "completed",
-        "games": [
-          [
-            21,
-            17
-          ],
-          [
-            21,
-            15
-          ]
-        ],
-        "completed_date": "2026-11-10",
-        "result_for": [
-          "WD-7-0",
-          "WD-7-1"
-        ],
-        "verification": {
-          "verified_at": "2026-11-10T20:33:33+08:00",
-          "source_ids": [
-            "bola-nov10",
-            "detik-nov10"
-          ]
-        }
+        "status": "scheduled",
+        "blocker": "待核实：Bola与Detik汇总比分一致，但尚不能确认独立原始来源，暂不录入终局。",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
       },
       {
         "id": "WD-R32-8",
