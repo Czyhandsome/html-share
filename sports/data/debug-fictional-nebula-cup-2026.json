@@ -16,7 +16,7 @@
     "schema_version": 1,
     "event": {
       "name": "【调试假赛事】虚构星云杯乒乓球发布演练",
-      "snapshot_at": "2026-11-10T14:00:00+01:00",
+      "snapshot_at": "2026-11-10T16:00:00+01:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Berlin"
     },
@@ -163,9 +163,42 @@
           }
         ],
         "rule": "final",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-10T15:00:00+01:00",
-        "draw": "debug-singles"
+        "draw": "debug-singles",
+        "result_for": [
+          "a",
+          "d"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "completed_at": "2026-11-10T15:45:00+01:00",
+        "verification": {
+          "source_ids": [
+            "demo"
+          ],
+          "verified_at": "2026-11-10T16:00:00+01:00"
+        }
       }
     ],
     "draws": [
