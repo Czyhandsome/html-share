@@ -11,6 +11,10 @@ const index = pathToFileURL(path.join(root, 'docs/2026/11/20261104-1042-sports-b
 
 async function checkConnectedBracket(page, groupFixture = false) {
     const {draws} = JSON.parse(await page.locator('#wtt-data').textContent());
+    const {countries, flags} = JSON.parse(await page.locator('#wtt-assets').textContent());
+    const flagLabels = player => player.teams.filter(code => Object.hasOwn(flags, code))
+        .map(code => countries[code] + '代表队旗帜');
+    const teamLabel = player => player.teams.map(code => countries[code]).join('／') || '代表队待定';
     const panel = page.locator('#bracket');
     const tooltip = page.locator('#tooltip');
     const tabs = page.getByRole('tab');
@@ -43,13 +47,17 @@ async function checkConnectedBracket(page, groupFixture = false) {
             scores: [...card.querySelectorAll('.player .score')].map(score => score.textContent),
             winners: [...card.querySelectorAll('.player')].map(player => player.classList.contains('winner')),
             china: card.classList.contains('contains-cn'),
+            flags: [...card.querySelectorAll('.player')].map(player =>
+                [...player.querySelectorAll('img.flag')].map(flag =>
+                    flag.complete && flag.naturalWidth > 0 && flag.src.startsWith('data:') ? flag.alt : null)),
         })));
         assert.deepEqual(visible.sort((a, b) => a.id.localeCompare(b.id)), matches.map(match => ({
             id: match.id,
             names: match.players.map(player => player.name),
             scores: match.scores ? match.scores.map(String) : ['—', '—'],
             winners: match.players.map((_, index) => match.winner === index),
-            china: match.players.some(player => player.team === 'CHN'),
+            china: match.players.some(player => player.teams.includes('CHN')),
+            flags: match.players.map(flagLabels),
         })).sort((a, b) => a.id.localeCompare(b.id)));
 
         const edges = await panel.locator('.wires path').evaluateAll(paths => paths
@@ -82,13 +90,8 @@ async function checkConnectedBracket(page, groupFixture = false) {
         assert.deepEqual(await matchFor('men-l4-0').locator('.player .name').allTextContents(), ['弗兰西斯卡', '张本智和']);
         assert.deepEqual(await matchFor('men-l4-0').locator('.player .score').allTextContents(), ['2', '4']);
     }
-    if (kumamoto) {
-        assert.deepEqual(drawIds, ['MS', 'WS', 'MD', 'WD', 'XD']);
-        const chineseEntries = Object.values(draws).flat().flatMap(match => match.players)
-            .filter(player => player.team === 'CHN');
-        assert.ok(chineseEntries.length > 0 && chineseEntries.every(player => !/[A-Za-z]/.test(player.name)),
-            'Chinese entries should use their Chinese names');
-    }
+    if (kumamoto) assert.deepEqual(drawIds, ['MS', 'WS', 'MD', 'WD', 'XD']);
+    if (wtt || kumamoto) assert.ok(await panel.locator('.match.contains-cn').count() > 0);
 
     await firstTab.click();
     if (drawIds.length > 1) assert.equal(await tabFor(drawIds[1]).getAttribute('aria-selected'), 'false');
@@ -115,6 +118,9 @@ async function checkConnectedBracket(page, groupFixture = false) {
     await firstMatch.click();
     await firstTab.hover();
     assert.ok(await tooltip.isVisible(), 'click should pin the tooltip');
+    assert.deepEqual(await tooltip.locator('.tip-country').allTextContents(), sampleMatch.players.map(teamLabel));
+    assert.deepEqual(await tooltip.locator('img.flag').evaluateAll(images => images.map(image => image.alt)),
+        sampleMatch.players.flatMap(flagLabels));
     if (scoredMatch) {
         const links = await tooltip.locator('.tip-sources a').evaluateAll(anchors => anchors.map(anchor => anchor.getAttribute('href')));
         assert.ok(scoredMatch.resultLinks.every(link => links.includes(link.url)));
@@ -135,10 +141,12 @@ async function checkConnectedBracket(page, groupFixture = false) {
     const focusButton = page.locator('button.focus');
     await focusButton.click();
     assert.equal(await focusButton.getAttribute('aria-pressed'), 'true');
-    if (wtt) {
-        assert.ok(await panel.locator('.match.contains-cn:visible').count() > 0);
-        await page.waitForFunction(id => getComputedStyle(document.querySelector(`[data-match-id="${CSS.escape(id)}"]`)).opacity === '0.28', scoredMatch.id);
-    }
+    const expectedOpacities = firstDraw.map(match => [
+        match.domId,
+        match.players.every(player => player.teams.length && !player.teams.includes('CHN')) ? '0.28' : '1',
+    ]);
+    await page.waitForFunction(opacities => opacities.every(([id, opacity]) =>
+        getComputedStyle(document.getElementById(id)).opacity === opacity), expectedOpacities);
     await focusButton.click();
     assert.equal(await focusButton.getAttribute('aria-pressed'), 'false');
 
@@ -166,6 +174,11 @@ async function checkConnectedBracket(page, groupFixture = false) {
         return button.left >= 0 && button.right <= innerWidth + 1;
     }, null, {timeout: 3000});
     if (wtt) assert.ok(await page.locator('.shell').evaluate(shell => shell.scrollWidth > shell.clientWidth), 'WTT bracket must scroll inside its shell on mobile');
+    if (sampleMatch.players.some(player => flagLabels(player).length)) {
+        const flag = firstMatch.locator('img.flag').first();
+        assert.ok(await flag.isVisible(), 'match flags should remain visible on mobile');
+        assert.ok(await flag.evaluate(image => image.complete && image.naturalWidth > 0));
+    }
 }
 
 async function main() {
@@ -174,6 +187,7 @@ async function main() {
     try {
         const desktopViewport = {width: 1280, height: 900};
         const page = await browser.newPage({viewport: desktopViewport});
+        await page.context().setOffline(true);
         const errors = [];
         page.on('pageerror', error => errors.push(error.message));
         await page.goto(index);

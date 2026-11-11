@@ -50,7 +50,7 @@ function show(draw) {
     const final = matches.find(match => match.isFinal);
     const finished = matches.filter(match => terminal.has(match.status)).length;
     const title = draw === 'men' ? '男单' : draw === 'women' ? '女单' : drawNames[draw];
-    const entry = player => player.name + (countries.has(player.team) ? '（' + countries.get(player.team) + '）' : '');
+    const entry = player => player.name + (player.teams.length ? '（' + teamNames(player) + '）' : '');
     const champion = final?.winner != null ? final.players[final.winner] : null;
     const progress = `${title} · ${finished} / ${matches.length} 场已有结果`;
     document.querySelector('.guidance .stat').textContent = champion ? `${progress} · 冠军 ${champion.name}` : progress;
@@ -118,13 +118,17 @@ function sourceLinks(label, links) {
     return anchors.length ? `<div class="tip-note tip-sources">${label} · ${anchors.join(' · ')}</div>` : '';
 }
 
+function teamNames(player) {
+    return player.teams.map(code => countries.get(code)).join('／');
+}
+
 function tooltipContent(match) {
     const pair = match.players.map(player => {
-        const country = countries.get(player.team);
-        const flag = flags.has(player.team)
-            ? `<img class="flag" src="${flags.get(player.team)}" alt="${escapeText(country || player.team)}代表队旗帜">`
-            : '<span class="tip-placeholder">?</span>';
-        const team = country ? country + ' · ' + player.team : player.team || '代表队待定';
+        const teamFlags = player.teams.filter(code => flags.has(code)).map(code =>
+            `<img class="flag" src="${escapeText(flags.get(code))}" alt="${escapeText(countries.get(code))}代表队旗帜">`
+        ).join('');
+        const flag = player.teams.length ? teamFlags : '<span class="tip-placeholder">?</span>';
+        const team = teamNames(player) || '代表队待定';
         return `<div class="tip-player">${flag}<div><div>${escapeText(player.name)}</div><div class="tip-country">${escapeText(team)}</div></div></div>`;
     }).join('<div class="tip-vs">VS</div>');
     const number = String(match.number).padStart(2, '0');

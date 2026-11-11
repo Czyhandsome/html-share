@@ -7,6 +7,11 @@ from pathlib import Path
 import re
 from zoneinfo import ZoneInfo
 
+if __package__:
+    from .teams import flag_license, team_assets, team_codes
+else:
+    from teams import flag_license, team_assets, team_codes
+
 TEMPLATES = Path(__file__).resolve().parents[1] / 'templates'
 STATUS = {'scheduled': '待赛', 'live': '进行中', 'completed': '已完赛', 'retired': '退赛',
           'walkover': '弃权', 'bye': '轮空', 'cancelled': '取消'}
@@ -82,20 +87,21 @@ def layout(matches):
 
 
 def player_row(player, score, won, assets):
-    name, team = player['name'], player['team']
-    classes = 'player'
-    if team == 'CHN':
-        classes += ' cn'
+    name, teams = player['name'], player['teams']
+    china = 'CHN' in teams
+    classes = 'player cn' if china else 'player'
     if won is not None:
         classes += ' winner' if won else ' loser'
-    flag = ''
-    if team in assets['flags']:
-        country = assets['countries'].get(team, team)
-        flag = f'<img class="flag" src="{escape(assets["flags"][team])}" alt="{escape(country)}代表队旗帜">'
-    elif team:
-        flag = f'<span class="team-badge">{escape(team)}</span>'
-    badge = '<span class="team-badge">中国</span>' if team == 'CHN' else ''
-    return (f'<div class="{classes}">{flag}<span class="name">{escape(name)}</span>{badge}'
+    flags = []
+    for team in teams:
+        country = escape(assets['countries'][team])
+        if team in assets['flags']:
+            flag = escape(assets['flags'][team])
+            flags.append(f'<img class="flag" src="{flag}" alt="{country}代表队旗帜">')
+        else:
+            flags.append(f'<span class="team-badge neutral">{country}</span>')
+    badge = '<span class="team-badge">中国</span>' if china else ''
+    return (f'<div class="{classes}">{"".join(flags)}<span class="name">{escape(name)}</span>{badge}'
             f'<b class="score">{score if score is not None else "—"}</b></div>')
 
 
@@ -105,8 +111,10 @@ def match_card(match, assets, zone, hidden):
         classes.append('done')
     else:
         classes.append('unverified' if match.get('blocker') else 'future')
-    if any(player['team'] == 'CHN' for player in match['players']):
+    if any('CHN' in player['teams'] for player in match['players']):
         classes.append('contains-cn')
+    elif all(player['teams'] for player in match['players']):
+        classes.append('known-no-cn')
     title = ''
     if match.get('isFinal'):
         classes.append('final')
@@ -161,8 +169,8 @@ def group_table(group, matches, entries, assets, zone, hidden):
 
 
 def render(model):
-    assets = json.loads((TEMPLATES / 'wtt-assets.json').read_text(encoding='utf-8'))
-    entries = {entry['id']: entry for entry in model['entries']}
+    entries = {entry['id']: dict(entry, teams=team_codes(entry['team'])) for entry in model['entries']}
+    used_teams = set()
     groups = {group['id']: group for group in model['groups']}
     draw_names = {draw['id']: draw['name'] for draw in model['draws']}
     sources = {item['id']: {'url': item['url'], 'label': item.get('label', item['id'])}
@@ -185,11 +193,12 @@ def render(model):
                 players.append(entries[ident])
             elif 'group_rank' in slot:
                 group_id, rank = slot['group_rank']
-                players.append({'name': f'{groups[group_id]["name"]} 第 {rank} 名', 'team': ''})
+                players.append({'name': f'{groups[group_id]["name"]} 第 {rank} 名', 'team': '', 'teams': ()})
             elif 'winner' in slot:
-                players.append({'name': f'第 {match_numbers[slot["winner"]]:02} 场胜者', 'team': ''})
+                players.append({'name': f'第 {match_numbers[slot["winner"]]:02} 场胜者', 'team': '', 'teams': ()})
             else:
-                players.append({'name': slot.get('tbd', '轮空' if 'bye' in slot else '晋级席位待定'), 'team': ''})
+                players.append({'name': slot.get('tbd', '轮空' if 'bye' in slot else '晋级席位待定'), 'team': '', 'teams': ()})
+        used_teams.update(code for player in players for code in player['teams'])
         winner = match['players'].index(match['winner']) if match['winner'] is not None else None
         group_feed = [slot['group_rank'][0] for slot in match['slots'] if 'group_rank' in slot]
         feeders = []
@@ -215,6 +224,7 @@ def render(model):
             group_matches[view['group']].append(view)
         draws[draw].append(view)
 
+    assets = team_assets(used_teams)
     event = model['event']
     zone = ZoneInfo(event['timezone'])
     tabs, columns, cards, wires, preliminary_panels = [], [], [], [], []
@@ -274,6 +284,7 @@ def render(model):
         'groups': standings + ''.join(preliminary_panels),
         'cards': '\n'.join(cards), 'wires': '\n'.join(wires), 'sources': notices + f'<p>{source_html}</p>',
         'data': script_json(view), 'assets': script_json(assets),
+        'flag_credit': f'<!-- Vendored flag-icons SVG license\n{flag_license().strip()}\n-->' if assets['flags'] else '',
         'styles': (TEMPLATES / 'wtt-style.css').read_text(encoding='utf-8'),
         'interaction': (TEMPLATES / 'wtt-interaction.js').read_text(encoding='utf-8'),
         'board_width': str(board_width), 'board_height': str(board_height),

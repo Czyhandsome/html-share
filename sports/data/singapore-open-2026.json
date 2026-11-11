@@ -8,7 +8,7 @@
   },
   "output": "docs/2026/05/singapore-open-2026/index.html",
   "notices": [
-    "依据日本羽毛球协会发布的官方赛果PDF录入全部五项目正赛，共155场。比分方向按原签表上方/下方；保留原文姓名缩写，代表队代码未逐一核验，暂留空；单场开赛时刻未提供，不猜测。",
+    "依据日本羽毛球协会发布的官方赛果PDF录入全部五项目正赛，共155场。比分方向按原签表上方/下方；代表队对照 BWF 签表和日本羽协赛果核对，姓名优先采用正式中文名或常用译名，暂缺可靠译名时保留官方原文；单场开赛时刻未提供，不猜测。",
     "所有日期采用赛事当地日期；页面显示时区为北京时间。未获逐场开赛时刻，不补造时间。伤退保留已完成局，未完成局单列，不以0分补全。"
   ],
   "data": {
@@ -22,803 +22,803 @@
     "entries": [
       {
         "id": "ms-entry-01",
-        "name": "SHI Yu Qi",
-        "team": ""
+        "name": "石宇奇",
+        "team": "CHN"
       },
       {
         "id": "ms-entry-02",
-        "name": "Kenta NISHIMOTO",
-        "team": ""
+        "name": "西本拳太",
+        "team": "JPN"
       },
       {
         "id": "ms-entry-03",
-        "name": "T POPOV",
-        "team": ""
+        "name": "大波波夫",
+        "team": "FRA"
       },
       {
         "id": "ms-entry-04",
-        "name": "Alwi FARHAN",
-        "team": ""
+        "name": "法汉",
+        "team": "INA"
       },
       {
         "id": "ms-entry-05",
-        "name": "CHOU Tien Chen",
-        "team": ""
+        "name": "周天成",
+        "team": "TPE"
       },
       {
         "id": "ms-entry-06",
-        "name": "Kodai NARAOKA",
-        "team": ""
+        "name": "奈良冈功大",
+        "team": "JPN"
       },
       {
         "id": "ms-entry-07",
-        "name": "LEONG Jun Hao",
-        "team": ""
+        "name": "梁峻豪",
+        "team": "MAS"
       },
       {
         "id": "ms-entry-08",
-        "name": "LEE Chia Hao",
-        "team": ""
+        "name": "李佳豪",
+        "team": "TPE"
       },
       {
         "id": "ms-entry-09",
-        "name": "Anders ANTONSEN",
-        "team": ""
+        "name": "安东森",
+        "team": "DEN"
       },
       {
         "id": "ms-entry-10",
-        "name": "Yushi TANAKA",
-        "team": ""
+        "name": "田中涌士",
+        "team": "JPN"
       },
       {
         "id": "ms-entry-11",
-        "name": "Victor LAI",
-        "team": ""
+        "name": "赖浩俊",
+        "team": "CAN"
       },
       {
         "id": "ms-entry-12",
-        "name": "Ayush SHETTY",
-        "team": ""
+        "name": "阿尤什·谢蒂",
+        "team": "IND"
       },
       {
         "id": "ms-entry-13",
-        "name": "LI Shi Feng",
-        "team": ""
+        "name": "李诗沣",
+        "team": "CHN"
       },
       {
         "id": "ms-entry-14",
-        "name": "WENG Hong Yang",
-        "team": ""
+        "name": "翁泓阳",
+        "team": "CHN"
       },
       {
         "id": "ms-entry-15",
-        "name": "Brian YANG",
-        "team": ""
+        "name": "杨灿",
+        "team": "CAN"
       },
       {
         "id": "ms-entry-16",
-        "name": "Alex LANIER",
-        "team": ""
+        "name": "拉尼尔",
+        "team": "FRA"
       },
       {
         "id": "ms-entry-17",
-        "name": "KIDAMBI S",
-        "team": ""
+        "name": "斯里坎特",
+        "team": "IND"
       },
       {
         "id": "ms-entry-18",
-        "name": "LOH Kean Yew",
-        "team": ""
+        "name": "骆建佑",
+        "team": "SGP"
       },
       {
         "id": "ms-entry-19",
-        "name": "PRANNOY H. S.",
-        "team": ""
+        "name": "普兰诺伊",
+        "team": "IND"
       },
       {
         "id": "ms-entry-20",
-        "name": "J CHRISTIE",
-        "team": ""
+        "name": "乔纳坦",
+        "team": "INA"
       },
       {
         "id": "ms-entry-21",
-        "name": "CHI Yu Jen",
-        "team": ""
+        "name": "戚又仁",
+        "team": "TPE"
       },
       {
         "id": "ms-entry-22",
-        "name": "J TEH",
-        "team": ""
+        "name": "郑加恒",
+        "team": "SGP"
       },
       {
         "id": "ms-entry-23",
-        "name": "Justin HOH",
-        "team": ""
+        "name": "贺首维",
+        "team": "MAS"
       },
       {
         "id": "ms-entry-24",
-        "name": "Christo POPOV",
-        "team": ""
+        "name": "小波波夫",
+        "team": "FRA"
       },
       {
         "id": "ms-entry-25",
-        "name": "Koki WATANABE",
-        "team": ""
+        "name": "渡边航贵",
+        "team": "JPN"
       },
       {
         "id": "ms-entry-26",
-        "name": "WANG Tzu Wei",
-        "team": ""
+        "name": "王子维",
+        "team": "TPE"
       },
       {
         "id": "ms-entry-27",
-        "name": "LEE Cheuk Yiu",
-        "team": ""
+        "name": "李卓耀",
+        "team": "HKG"
       },
       {
         "id": "ms-entry-28",
-        "name": "LIN Chun-Yi",
-        "team": ""
+        "name": "林俊易",
+        "team": "TPE"
       },
       {
         "id": "ms-entry-29",
-        "name": "LU Guang Zu",
-        "team": ""
+        "name": "陆光祖",
+        "team": "CHN"
       },
       {
         "id": "ms-entry-30",
-        "name": "Lakshya SEN",
-        "team": ""
+        "name": "拉克什亚·森",
+        "team": "IND"
       },
       {
         "id": "ms-entry-31",
-        "name": "Julien CARRAGGI",
-        "team": ""
+        "name": "朱利安",
+        "team": "BEL"
       },
       {
         "id": "ms-entry-32",
-        "name": "K VITIDSARN",
-        "team": ""
+        "name": "昆拉武特",
+        "team": "THA"
       },
       {
         "id": "ws-entry-01",
-        "name": "AN Se Young",
-        "team": ""
+        "name": "安洗莹",
+        "team": "KOR"
       },
       {
         "id": "ws-entry-02",
-        "name": "SIM Yu Jin",
-        "team": ""
+        "name": "沈有振",
+        "team": "KOR"
       },
       {
         "id": "ws-entry-03",
-        "name": "SUNG Shuo Yun",
-        "team": ""
+        "name": "宋硕芸",
+        "team": "TPE"
       },
       {
         "id": "ws-entry-04",
-        "name": "Neslihan ARIN",
-        "team": ""
+        "name": "伊吉特",
+        "team": "TUR"
       },
       {
         "id": "ws-entry-05",
-        "name": "P WARDANI",
-        "team": ""
+        "name": "瓦尔达尼",
+        "team": "INA"
       },
       {
         "id": "ws-entry-06",
-        "name": "PUSARLA V S",
-        "team": ""
+        "name": "辛杜",
+        "team": "IND"
       },
       {
         "id": "ws-entry-07",
-        "name": "WONG Ling Ching",
-        "team": ""
+        "name": "黄玲青",
+        "team": "MAS"
       },
       {
         "id": "ws-entry-08",
-        "name": "Riko GUNJI",
-        "team": ""
+        "name": "郡司莉子",
+        "team": "JPN"
       },
       {
         "id": "ws-entry-09",
-        "name": "CHEN Yu Fei",
-        "team": ""
+        "name": "陈雨菲",
+        "team": "CHN"
       },
       {
         "id": "ws-entry-10",
-        "name": "K LETSHANAA",
-        "team": ""
+        "name": "蕾莎娜",
+        "team": "MAS"
       },
       {
         "id": "ws-entry-11",
-        "name": "Hina AKECHI",
-        "team": ""
+        "name": "明地阳菜",
+        "team": "JPN"
       },
       {
         "id": "ws-entry-12",
-        "name": "ONGBAMRUNGPHAN",
-        "team": ""
+        "name": "布桑南",
+        "team": "THA"
       },
       {
         "id": "ws-entry-13",
-        "name": "Tomoka MIYAZAKI",
-        "team": ""
+        "name": "宫崎友花",
+        "team": "JPN"
       },
       {
         "id": "ws-entry-14",
-        "name": "Unnati HOODA",
-        "team": ""
+        "name": "胡达",
+        "team": "IND"
       },
       {
         "id": "ws-entry-15",
-        "name": "HUANG Yu-Hsun",
-        "team": ""
+        "name": "黄宥薰",
+        "team": "TPE"
       },
       {
         "id": "ws-entry-16",
-        "name": "CHIU Pin-Chian",
-        "team": ""
+        "name": "邱品蒨",
+        "team": "TPE"
       },
       {
         "id": "ws-entry-17",
-        "name": "Natsuki NIDAIRA",
-        "team": ""
+        "name": "仁平菜月",
+        "team": "JPN"
       },
       {
         "id": "ws-entry-18",
-        "name": "NGUYEN T L",
-        "team": ""
+        "name": "阮翠玲",
+        "team": "VIE"
       },
       {
         "id": "ws-entry-19",
-        "name": "Kirsty GILMOUR",
-        "team": ""
+        "name": "吉尔莫",
+        "team": "SCO"
       },
       {
         "id": "ws-entry-20",
-        "name": "R INTANON",
-        "team": ""
+        "name": "因达农",
+        "team": "THA"
       },
       {
         "id": "ws-entry-21",
-        "name": "Michelle LI",
-        "team": ""
+        "name": "李文珊",
+        "team": "CAN"
       },
       {
         "id": "ws-entry-22",
-        "name": "L KJAERSFELDT",
-        "team": ""
+        "name": "杰克斯菲德",
+        "team": "DEN"
       },
       {
         "id": "ws-entry-23",
-        "name": "YEO Jia Min",
-        "team": ""
+        "name": "杨佳敏",
+        "team": "SGP"
       },
       {
         "id": "ws-entry-24",
-        "name": "Akane YAMAGUCHI",
-        "team": ""
+        "name": "山口茜",
+        "team": "JPN"
       },
       {
         "id": "ws-entry-25",
-        "name": "Malvika BANSOD",
-        "team": ""
+        "name": "马尔维卡",
+        "team": "IND"
       },
       {
         "id": "ws-entry-26",
-        "name": "LIN Hsiang Ti",
-        "team": ""
+        "name": "林湘缇",
+        "team": "TPE"
       },
       {
         "id": "ws-entry-27",
-        "name": "KIM Ga Eun",
-        "team": ""
+        "name": "金佳恩",
+        "team": "KOR"
       },
       {
         "id": "ws-entry-28",
-        "name": "P CHOCHUWONG",
-        "team": ""
+        "name": "李美妙",
+        "team": "THA"
       },
       {
         "id": "ws-entry-29",
-        "name": "CHRISTOPHERSEN",
-        "team": ""
+        "name": "莱恩",
+        "team": "DEN"
       },
       {
         "id": "ws-entry-30",
-        "name": "Nozomi OKUHARA",
-        "team": ""
+        "name": "奥原希望",
+        "team": "JPN"
       },
       {
         "id": "ws-entry-31",
-        "name": "S KATETHONG",
-        "team": ""
+        "name": "革通",
+        "team": "THA"
       },
       {
         "id": "ws-entry-32",
-        "name": "WANG Zhi Yi",
-        "team": ""
+        "name": "王祉怡",
+        "team": "CHN"
       },
       {
         "id": "md-entry-01",
-        "name": "KIM Won Ho / SEO Seung Jae",
-        "team": ""
+        "name": "金元浩／徐承宰",
+        "team": "KOR"
       },
       {
         "id": "md-entry-02",
-        "name": "HU Ke Yuan / LIN Xiang Yi",
-        "team": ""
+        "name": "胡珂源／林祥毅",
+        "team": "CHN"
       },
       {
         "id": "md-entry-03",
-        "name": "CHOI Sol Gyu / GOH V Shem",
-        "team": ""
+        "name": "崔率圭／吴蔚昇",
+        "team": "KOR/MAS"
       },
       {
         "id": "md-entry-04",
-        "name": "Zhi-Wei HE / HUANG Jui-Hsuan",
-        "team": ""
+        "name": "何志伟／黄睿璿",
+        "team": "TPE"
       },
       {
         "id": "md-entry-05",
-        "name": "Takuro HOKI / Yugo KOBAYASHI",
-        "team": ""
+        "name": "保木卓朗／小林优吾",
+        "team": "JPN"
       },
       {
         "id": "md-entry-06",
-        "name": "H AMSAKARUNAN / M.R. ARJUN",
-        "team": ""
+        "name": "哈里哈兰／阿琼",
+        "team": "IND"
       },
       {
         "id": "md-entry-07",
-        "name": "H CHIU / WANG Chi-Lin",
-        "team": ""
+        "name": "邱相榤／王齐麟",
+        "team": "TPE"
       },
       {
         "id": "md-entry-08",
-        "name": "CHEN Bo Yang / LIU Yi",
-        "team": ""
+        "name": "陈柏阳／刘毅",
+        "team": "CHN"
       },
       {
         "id": "md-entry-09",
-        "name": "S RANKIREDDY / Chirag SHETTY",
-        "team": ""
+        "name": "兰基雷迪／谢提",
+        "team": "IND"
       },
       {
         "id": "md-entry-10",
-        "name": "CHEN ZHI YI / Presley SMITH",
-        "team": ""
+        "name": "陈子亦／贾士贤",
+        "team": "USA"
       },
       {
         "id": "md-entry-11",
-        "name": "LEE Jhe-Huei / YANG Po-Hsuan",
-        "team": ""
+        "name": "李哲辉／杨博轩",
+        "team": "TPE"
       },
       {
         "id": "md-entry-12",
-        "name": "HUANG Di / LIU Yang",
-        "team": ""
+        "name": "黄荻／刘阳",
+        "team": "CHN"
       },
       {
         "id": "md-entry-13",
-        "name": "S GUTAMA / M ISFAHANI",
-        "team": ""
+        "name": "咖塔曼／伊斯法哈尼",
+        "team": "INA"
       },
       {
         "id": "md-entry-14",
-        "name": "E KOH / Junsuke KUBO",
-        "team": ""
+        "name": "高永杰／洼纯佑",
+        "team": "SGP"
       },
       {
         "id": "md-entry-15",
-        "name": "N AZRIYN / TAN Wee Kiong",
-        "team": ""
+        "name": "阿兹林／陈蔚强",
+        "team": "MAS"
       },
       {
         "id": "md-entry-16",
-        "name": "KANG Khai Xing / Aaron TAI",
-        "team": ""
+        "name": "江凯兴／戴伟钦",
+        "team": "MAS"
       },
       {
         "id": "md-entry-17",
-        "name": "Takumi NOMURA / Y SHIMOGAMI",
-        "team": ""
+        "name": "野村拓海／霜上雄一",
+        "team": "JPN"
       },
       {
         "id": "md-entry-18",
-        "name": "Junaidi ARIF / YAP Roy King",
-        "team": ""
+        "name": "阿里夫／叶睿庆",
+        "team": "MAS"
       },
       {
         "id": "md-entry-19",
-        "name": "CHEN Cheng Kuan / LIU Kuang Heng",
-        "team": ""
+        "name": "陈政宽／刘广珩",
+        "team": "TPE"
       },
       {
         "id": "md-entry-20",
-        "name": "GOH Sze Fei / Nur IZZUDDIN",
-        "team": ""
+        "name": "吴世飞／伊祖丁",
+        "team": "MAS"
       },
       {
         "id": "md-entry-21",
-        "name": "D LUNDGAARD / M VESTERGAARD",
-        "team": ""
+        "name": "伦加德／麦斯",
+        "team": "DEN"
       },
       {
         "id": "md-entry-22",
-        "name": "Kevin LEE / T LINDEMAN",
-        "team": ""
+        "name": "凯文·李／林德曼",
+        "team": "CAN"
       },
       {
         "id": "md-entry-23",
-        "name": "Fang-Chih LEE / Fang-Jen LEE",
-        "team": ""
+        "name": "李芳至／李芳任",
+        "team": "TPE"
       },
       {
         "id": "md-entry-24",
-        "name": "Fajar ALFIAN / M FIKRI",
-        "team": ""
+        "name": "阿尔菲安／菲克里",
+        "team": "INA"
       },
       {
         "id": "md-entry-25",
-        "name": "KANG Min Hyuk / KI Dong Ju",
-        "team": ""
+        "name": "姜珉赫／奇东柱",
+        "team": "KOR"
       },
       {
         "id": "md-entry-26",
-        "name": "Jiří KRÁL / Ondřej KRÁL",
-        "team": ""
+        "name": "伊日／克雷尔",
+        "team": "CZE"
       },
       {
         "id": "md-entry-27",
-        "name": "CHIA Weijie / TEO Ee Yi",
-        "team": ""
+        "name": "谢炜杰／张御宇",
+        "team": "MAS"
       },
       {
         "id": "md-entry-28",
-        "name": "LIANG Wei Keng / WANG Chang",
-        "team": ""
+        "name": "梁伟铿／王昶",
+        "team": "CHN"
       },
       {
         "id": "md-entry-29",
-        "name": "Kakeru KUMAGAI / Hiroki NISHI",
-        "team": ""
+        "name": "熊谷翔／西大辉",
+        "team": "JPN"
       },
       {
         "id": "md-entry-30",
-        "name": "Ben LANE / Sean VENDY",
-        "team": ""
+        "name": "本·莱恩／文迪",
+        "team": "ENG"
       },
       {
         "id": "md-entry-31",
-        "name": "Christo POPOV / T POPOV",
-        "team": ""
+        "name": "小波波夫／大波波夫",
+        "team": "FRA"
       },
       {
         "id": "md-entry-32",
-        "name": "Aaron CHIA / SOH Wooi Yik",
-        "team": ""
+        "name": "谢定峰／苏伟译",
+        "team": "MAS"
       },
       {
         "id": "wd-entry-01",
-        "name": "LIU Sheng Shu / TAN Ning",
-        "team": ""
+        "name": "刘圣书／谭宁",
+        "team": "CHN"
       },
       {
         "id": "wd-entry-02",
-        "name": "A PRATIWI / S RAMADHANTI",
-        "team": ""
+        "name": "阿玛莉亚／拉马丹蒂",
+        "team": "INA"
       },
       {
         "id": "wd-entry-03",
-        "name": "Rui HIROKAMI / Sayaka HOBARA",
-        "team": ""
+        "name": "广上瑠依／保原彩夏",
+        "team": "JPN"
       },
       {
         "id": "wd-entry-04",
-        "name": "HSU Ya Ching / SUNG Yu-Hsuan",
-        "team": ""
+        "name": "许雅晴／宋祐媗",
+        "team": "TPE"
       },
       {
         "id": "wd-entry-05",
-        "name": "Rin IWANAGA / Kie NAKANISHI",
-        "team": ""
+        "name": "岩永铃／中西贵映",
+        "team": "JPN"
       },
       {
         "id": "wd-entry-06",
-        "name": "Hinata SUZUKI / Nao YAMAKITA",
-        "team": ""
+        "name": "铃木阳向／山北奈绪",
+        "team": "JPN"
       },
       {
         "id": "wd-entry-07",
-        "name": "CHANG C H / YANG Ching Tun",
-        "team": ""
+        "name": "张净惠／杨景惇",
+        "team": "TPE"
       },
       {
         "id": "wd-entry-08",
-        "name": "Ashwini BHAT K. / Shikha GAUTAM",
-        "team": ""
+        "name": "阿什维妮／高塔姆",
+        "team": "IND"
       },
       {
         "id": "wd-entry-09",
-        "name": "BAEK Ha Na / LEE So Hee",
-        "team": ""
+        "name": "白荷娜／李绍希",
+        "team": "KOR"
       },
       {
         "id": "wd-entry-10",
-        "name": "F CORBETT / Jennie GAI",
-        "team": ""
+        "name": "王曦曦／盖骆",
+        "team": "USA"
       },
       {
         "id": "wd-entry-11",
-        "name": "Paula LOPEZ / Lucia RODRIGUEZ",
-        "team": ""
+        "name": "洛佩兹／露西娅",
+        "team": "ESP"
       },
       {
         "id": "wd-entry-12",
-        "name": "K SELVAM / Simran SINGHI",
-        "team": ""
+        "name": "塞尔瓦姆／辛格",
+        "team": "IND"
       },
       {
         "id": "wd-entry-13",
-        "name": "Yuki FUKUSHIMA / Mayu MATSUMOTO",
-        "team": ""
+        "name": "福岛由纪／松本麻佑",
+        "team": "JPN"
       },
       {
         "id": "wd-entry-14",
-        "name": "Kaho OSAWA / Mai TANABE",
-        "team": ""
+        "name": "大泽佳步／田部真唯",
+        "team": "JPN"
       },
       {
         "id": "wd-entry-15",
-        "name": "Lauren LAM / A LEE",
-        "team": ""
+        "name": "林瑞蓉／李欣梅",
+        "team": "USA"
       },
       {
         "id": "wd-entry-16",
-        "name": "Polina BUHROVA / Y KANTEMYR",
-        "team": ""
+        "name": "布洛娃／坎特米尔",
+        "team": "UKR"
       },
       {
         "id": "wd-entry-17",
-        "name": "Rutaparna PANDA / S PANDA",
-        "team": ""
+        "name": "鲁塔帕尔娜／斯威达帕纳",
+        "team": "IND"
       },
       {
         "id": "wd-entry-18",
-        "name": "AIAMVAREESRISAKUL / Sarisa JANPENG",
-        "team": ""
+        "name": "博塔林／萨丽莎",
+        "team": "THA"
       },
       {
         "id": "wd-entry-19",
-        "name": "HSU Yin-Hui / LIN Jhih Yun",
-        "team": ""
+        "name": "许尹鏸／林芝昀",
+        "team": "TPE"
       },
       {
         "id": "wd-entry-20",
-        "name": "Gabriela STOEVA / Stefani STOEVA",
-        "team": ""
+        "name": "加夫列拉／斯蒂法尼",
+        "team": "BUL"
       },
       {
         "id": "wd-entry-21",
-        "name": "Bengisu ERCETIN / Nazlıcan INCI",
-        "team": ""
+        "name": "本吉苏／茵琦",
+        "team": "TUR"
       },
       {
         "id": "wd-entry-22",
-        "name": "CHONG Jie Yu / Vanessa NG",
-        "team": ""
+        "name": "钟洁瑜／吴保莲",
+        "team": "MAS"
       },
       {
         "id": "wd-entry-23",
-        "name": "YEUNG Nga Ting / YEUNG Pui Lam",
-        "team": ""
+        "name": "杨雅婷／杨霈霖",
+        "team": "HKG"
       },
       {
         "id": "wd-entry-24",
-        "name": "JIA Yi Fan / ZHANG Shu Xian",
-        "team": ""
+        "name": "贾一凡／张殊贤",
+        "team": "CHN"
       },
       {
         "id": "wd-entry-25",
-        "name": "Ririna HIRAMOTO / Kokona ISHIKAWA",
-        "team": ""
+        "name": "平本梨梨菜／石川心菜",
+        "team": "JPN"
       },
       {
         "id": "wd-entry-26",
-        "name": "LUI Lok Lok / TSANG Hiu Yan",
-        "team": ""
+        "name": "吕乐乐／曾晓昕",
+        "team": "HKG"
       },
       {
         "id": "wd-entry-27",
-        "name": "Arisa IGARASHI / Chiharu SHIDA",
-        "team": ""
+        "name": "五十岚有纱／志田千阳",
+        "team": "JPN"
       },
       {
         "id": "wd-entry-28",
-        "name": "HSIEH Pei Shan / HUNG En-Tzu",
-        "team": ""
+        "name": "谢沛珊／洪恩慈",
+        "team": "TPE"
       },
       {
         "id": "wd-entry-29",
-        "name": "B AIMSAARD / N AIMSAARD",
-        "team": ""
+        "name": "本雅帕／伦塔卡恩",
+        "team": "THA"
       },
       {
         "id": "wd-entry-30",
-        "name": "Jackie DENT / Crystal LAI",
-        "team": ""
+        "name": "魏晓梅／黎洁仪",
+        "team": "CAN"
       },
       {
         "id": "wd-entry-31",
-        "name": "HU Ling Fang / JHENG Yu Chieh",
-        "team": ""
+        "name": "胡绫芳／郑宇倢",
+        "team": "TPE"
       },
       {
         "id": "wd-entry-32",
-        "name": "Pearly TAN / THINAAH M",
-        "team": ""
+        "name": "陈康乐／蒂娜",
+        "team": "MAS"
       },
       {
         "id": "xd-entry-01",
-        "name": "FENG Yan Zhe / HUANG Dong Ping",
-        "team": ""
+        "name": "冯彦哲／黄东萍",
+        "team": "CHN"
       },
       {
         "id": "xd-entry-02",
-        "name": "Jimmy WONG / CHENG Su Yin",
-        "team": ""
+        "name": "黄显维／钟舒韵",
+        "team": "MAS"
       },
       {
         "id": "xd-entry-03",
-        "name": "Rohan KAPOOR / GADDE R S",
-        "team": ""
+        "name": "卡普尔／加德",
+        "team": "IND"
       },
       {
         "id": "xd-entry-04",
-        "name": "YANG Po-Hsuan / HU Ling Fang",
-        "team": ""
+        "name": "杨博轩／胡绫芳",
+        "team": "TPE"
       },
       {
         "id": "xd-entry-05",
-        "name": "M CHRISTIANSEN / Alexandra BØJE",
-        "team": ""
+        "name": "马蒂亚斯／博尔",
+        "team": "DEN"
       },
       {
         "id": "xd-entry-06",
-        "name": "Akira KOGA / Natsu SAITO",
-        "team": ""
+        "name": "古贺辉／斋藤夏",
+        "team": "JPN"
       },
       {
         "id": "xd-entry-07",
-        "name": "LIU Kuang Heng / HSU Yin-Hui",
-        "team": ""
+        "name": "刘广珩／许尹鏸",
+        "team": "TPE"
       },
       {
         "id": "xd-entry-08",
-        "name": "CHENG Xing / ZHANG Chi",
-        "team": ""
+        "name": "程星／张驰",
+        "team": "CHN"
       },
       {
         "id": "xd-entry-09",
-        "name": "Thom GICQUEL / Delphine DELRUE",
-        "team": ""
+        "name": "吉凯尔／德尔吕",
+        "team": "FRA"
       },
       {
         "id": "xd-entry-10",
-        "name": "R KUSHARJANTO / G WIDJAJA",
-        "team": ""
+        "name": "库沙扬托／维德佳佳",
+        "team": "INA"
       },
       {
         "id": "xd-entry-11",
-        "name": "Bobby SETIABUDI / M OKTAVIANTI",
-        "team": ""
+        "name": "塞蒂亚布迪／梅拉蒂",
+        "team": "INA"
       },
       {
         "id": "xd-entry-12",
-        "name": "GAO Jia Xuan / WEI Ya Xin",
-        "team": ""
+        "name": "高家炫／魏雅欣",
+        "team": "CHN"
       },
       {
         "id": "xd-entry-13",
-        "name": "TANG Chun Man / TSE Ying Suet",
-        "team": ""
+        "name": "邓俊文／谢影雪",
+        "team": "HKG"
       },
       {
         "id": "xd-entry-14",
-        "name": "Julien MAIO / Lea PALERMO",
-        "team": ""
+        "name": "马尤／巴莱尔莫",
+        "team": "FRA"
       },
       {
         "id": "xd-entry-15",
-        "name": "Marvin SEIDEL / T NGUYEN",
-        "team": ""
+        "name": "塞德尔／阮淑芳",
+        "team": "GER"
       },
       {
         "id": "xd-entry-16",
-        "name": "P TEERARATSAKUL / TAERATTANACHAI",
-        "team": ""
+        "name": "帕克卡波／沙西丽",
+        "team": "THA"
       },
       {
         "id": "xd-entry-17",
-        "name": "WONG Tien Ci / LIM Chiew Sien",
-        "team": ""
+        "name": "黄天启／林秋仙",
+        "team": "MAS"
       },
       {
         "id": "xd-entry-18",
-        "name": "DHRUV KAPILA / Tanisha CRASTO",
-        "team": ""
+        "name": "卡皮拉／克拉斯托",
+        "team": "IND"
       },
       {
         "id": "xd-entry-19",
-        "name": "Yuta WATANABE / Maya TAGUCHI",
-        "team": ""
+        "name": "渡边勇大／田口真彩",
+        "team": "JPN"
       },
       {
         "id": "xd-entry-20",
-        "name": "GUO Xin Wa / CHEN Fang Hui",
-        "team": ""
+        "name": "郭新娃／陈芳卉",
+        "team": "CHN"
       },
       {
         "id": "xd-entry-21",
-        "name": "KIM Jae Hyeon / JANG Ha Jeong",
-        "team": ""
+        "name": "金在贤／张荷贞",
+        "team": "KOR"
       },
       {
         "id": "xd-entry-22",
-        "name": "GOH Soon Huat / LAI S J",
-        "team": ""
+        "name": "吴埙阀／赖洁敏",
+        "team": "MAS"
       },
       {
         "id": "xd-entry-23",
-        "name": "HOO Pang Ron / LAI Pei Jing",
-        "team": ""
+        "name": "许邦荣／赖沛君",
+        "team": "MAS"
       },
       {
         "id": "xd-entry-24",
-        "name": "CHEN Tang Jie / TOH Ee Wei",
-        "team": ""
+        "name": "陈堂杰／杜颐沩",
+        "team": "MAS"
       },
       {
         "id": "xd-entry-25",
-        "name": "Kevin LEE / Eliana ZHANG",
-        "team": ""
+        "name": "凯文·李／埃莉安娜·张",
+        "team": "CAN"
       },
       {
         "id": "xd-entry-26",
-        "name": "R OUPTHONG / SUDJAIPRAPARAT",
-        "team": ""
+        "name": "鲁塔纳帕克／杰尼查",
+        "team": "THA"
       },
       {
         "id": "xd-entry-27",
-        "name": "Y SHIMOGAMI / Sayaka HOBARA",
-        "team": ""
+        "name": "霜上雄一／保原彩夏",
+        "team": "JPN"
       },
       {
         "id": "xd-entry-28",
-        "name": "YE Hong Wei / N CHAN",
-        "team": ""
+        "name": "叶宏蔚／詹又蓁",
+        "team": "TPE"
       },
       {
         "id": "xd-entry-29",
-        "name": "CHEN ZHI YI / F CORBETT",
-        "team": ""
+        "name": "陈子亦／王曦曦",
+        "team": "USA"
       },
       {
         "id": "xd-entry-30",
-        "name": "Ruben GARCIA / Lucia RODRIGUEZ",
-        "team": ""
+        "name": "加西亚／露西娅",
+        "team": "ESP"
       },
       {
         "id": "xd-entry-31",
-        "name": "Presley SMITH / Jennie GAI",
-        "team": ""
+        "name": "贾士贤／盖骆",
+        "team": "USA"
       },
       {
         "id": "xd-entry-32",
-        "name": "D PUAVARANUKROH / S PAEWSAMPRAN",
-        "team": ""
+        "name": "德差波／苏皮萨拉",
+        "team": "THA"
       }
     ],
     "sources": [
@@ -828,6 +828,55 @@
         "label": "日本羽毛球协会 · 新加坡公开赛五项目官方赛果（2026-06-02打印）",
         "kind": "official",
         "family": "badminton.or.jp"
+      },
+      {
+        "id": "bwf-draw",
+        "url": "https://extranet.bwf.sport/docs/events/5613/docs/Draws%20-%20KFF%20Singapore%20Badminton%20Open%202026.pdf",
+        "label": "BWF · 五项目官方初签及代表队代码",
+        "kind": "official",
+        "family": "bwf.sport"
+      },
+      {
+        "id": "cn-names-sgp",
+        "url": "https://www.badmintoncn.com/news.php?id=43423",
+        "label": "中羽在线 · 新加坡公开赛五项目中文签表",
+        "kind": "independent",
+        "family": "badmintoncn.com"
+      },
+      {
+        "id": "sgp-sport-cn",
+        "url": "https://www.sport.gov.cn/n20001280/n20745751/c29655350/content.html",
+        "label": "中国体育报 · 新加坡公开赛首轮中文人名",
+        "kind": "independent",
+        "family": "sport.gov.cn"
+      },
+      {
+        "id": "hkba-name-roster",
+        "url": "https://hkopenbadminton.org/wp-content/uploads/2025/08/%E7%90%83%E5%93%A1%E5%90%8D%E5%96%AE_2025_MQR.pdf",
+        "label": "中国香港羽毛球总会 · 香港公开赛双语参赛名单及 BWF 选手 ID",
+        "kind": "official",
+        "family": "hkopenbadminton.org"
+      },
+      {
+        "id": "jba-name-roster",
+        "url": "https://www.badminton.or.jp/national",
+        "label": "日本羽毛球协会 · 日本队选手姓名",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "macao-name-roster",
+        "url": "https://macauopenbadminton.org.mo/news/view/34",
+        "label": "澳门羽毛球公开赛组委会 · 双语签表，用于同选手译名对照",
+        "kind": "official",
+        "family": "macauopenbadminton.org.mo"
+      },
+      {
+        "id": "cn-mixed-name-roster",
+        "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c29339980/content.html",
+        "label": "中国体育报 · 国羽混双中文姓名",
+        "kind": "independent",
+        "family": "sport.gov.cn"
       }
     ],
     "rules": {

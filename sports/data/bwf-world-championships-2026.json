@@ -9,7 +9,7 @@
   "output": "docs/2026/08/bwf-world-championships-2026/index.html",
   "notices": [
     "依据日本羽毛球协会发布的BWF官方完整赛果，五项目64签；重复展示的后段签表已按项目及比赛编号去重。",
-    "本PDF逐局比分按胜者在前，录入时已转换为本签表上下方选手顺序。保留官方姓名缩写及代表队代码；单场开赛时刻未提供，不猜测。",
+    "本PDF逐局比分按胜者在前，录入时已转换为本签表上下方选手顺序。中文姓名据协会名单和媒体报道核对，无可靠译名时保留官方原文；单场开赛时刻未提供，不猜测。",
     "轮空为独立bye状态，不计作实际比赛；w.o.按官方判定不战而胜，不虚构比分。赛事日期为新德里当地日期，页面显示时区为北京时间。",
     "共272组选手，315个签表节点：259场正常完赛、4场伤退、4场不战而胜、48个轮空。"
   ],
@@ -24,12 +24,12 @@
     "entries": [
       {
         "id": "ms-entry-01",
-        "name": "Shi Yu Qi",
+        "name": "石宇奇",
         "team": "CHN"
       },
       {
         "id": "ms-entry-02",
-        "name": "Ayush Shetty",
+        "name": "阿尤什·谢蒂",
         "team": "IND"
       },
       {
@@ -44,27 +44,27 @@
       },
       {
         "id": "ms-entry-05",
-        "name": "A. Farhan",
+        "name": "法汉",
         "team": "INA"
       },
       {
         "id": "ms-entry-06",
-        "name": "Yoo Tae Bin",
+        "name": "俞泰彬",
         "team": "KOR"
       },
       {
         "id": "ms-entry-07",
-        "name": "Joakim Oldorff",
+        "name": "奥尔多夫",
         "team": "FIN"
       },
       {
         "id": "ms-entry-08",
-        "name": "Le Duc Phat",
+        "name": "黎德发",
         "team": "VIE"
       },
       {
         "id": "ms-entry-09",
-        "name": "Chou T.",
+        "name": "周天成",
         "team": "TPE"
       },
       {
@@ -79,17 +79,17 @@
       },
       {
         "id": "ms-entry-12",
-        "name": "Giovanni Toti",
+        "name": "托蒂·乔瓦尼",
         "team": "ITA"
       },
       {
         "id": "ms-entry-13",
-        "name": "Weng H.",
+        "name": "翁泓阳",
         "team": "CHN"
       },
       {
         "id": "ms-entry-14",
-        "name": "Yushi Tanaka",
+        "name": "田中涌士",
         "team": "JPN"
       },
       {
@@ -104,7 +104,7 @@
       },
       {
         "id": "ms-entry-17",
-        "name": "A. Antonsen",
+        "name": "安顿臣",
         "team": "DEN"
       },
       {
@@ -124,7 +124,7 @@
       },
       {
         "id": "ms-entry-21",
-        "name": "T. Popov",
+        "name": "大波波夫",
         "team": "FRA"
       },
       {
@@ -144,12 +144,12 @@
       },
       {
         "id": "ms-entry-25",
-        "name": "Li Shi Feng",
+        "name": "李诗沣",
         "team": "CHN"
       },
       {
         "id": "ms-entry-26",
-        "name": "Dmitriy Panarin",
+        "name": "帕纳林·德米特里",
         "team": "KAZ"
       },
       {
@@ -159,17 +159,17 @@
       },
       {
         "id": "ms-entry-28",
-        "name": "Leong Jun Hao",
+        "name": "梁峻豪",
         "team": "MAS"
       },
       {
         "id": "ms-entry-29",
-        "name": "K. Naraoka",
+        "name": "奈良冈功大",
         "team": "JPN"
       },
       {
         "id": "ms-entry-30",
-        "name": "Chi Yu Jen",
+        "name": "戚又仁",
         "team": "TPE"
       },
       {
@@ -184,22 +184,22 @@
       },
       {
         "id": "ms-entry-33",
-        "name": "Lee Cheuk Yiu",
+        "name": "李卓耀",
         "team": "HKG"
       },
       {
         "id": "ms-entry-34",
-        "name": "Nguyen Hai Dang",
+        "name": "阮海当",
         "team": "VIE"
       },
       {
         "id": "ms-entry-35",
-        "name": "Brian Yang",
+        "name": "杨灿",
         "team": "CAN"
       },
       {
         "id": "ms-entry-36",
-        "name": "Loh K.",
+        "name": "骆建佑",
         "team": "SGP"
       },
       {
@@ -214,37 +214,37 @@
       },
       {
         "id": "ms-entry-39",
-        "name": "Jeon Hyeok Jin",
+        "name": "全奕陈",
         "team": "KOR"
       },
       {
         "id": "ms-entry-40",
-        "name": "Victor Lai",
+        "name": "赖浩俊",
         "team": "CAN"
       },
       {
         "id": "ms-entry-41",
-        "name": "Rasmus Gemke",
+        "name": "张克",
         "team": "DEN"
       },
       {
         "id": "ms-entry-42",
-        "name": "Julien Carraggi",
+        "name": "卡拉吉·朱利安",
         "team": "BEL"
       },
       {
         "id": "ms-entry-43",
-        "name": "Justin Hoh",
+        "name": "贺首维",
         "team": "MAS"
       },
       {
         "id": "ms-entry-44",
-        "name": "Lin C.",
+        "name": "林俊易",
         "team": "TPE"
       },
       {
         "id": "ms-entry-45",
-        "name": "Teh Jia Heng",
+        "name": "郑加恒",
         "team": "SGP"
       },
       {
@@ -259,17 +259,17 @@
       },
       {
         "id": "ms-entry-48",
-        "name": "J. Christie",
+        "name": "乔纳坦",
         "team": "INA"
       },
       {
         "id": "ms-entry-49",
-        "name": "P. Teeraratsakul",
+        "name": "帕尼查蓬",
         "team": "THA"
       },
       {
         "id": "ms-entry-50",
-        "name": "Kalle Koljonen",
+        "name": "科尔约宁",
         "team": "FIN"
       },
       {
@@ -279,7 +279,7 @@
       },
       {
         "id": "ms-entry-52",
-        "name": "Alex Lanier",
+        "name": "拉尼尔",
         "team": "FRA"
       },
       {
@@ -289,17 +289,17 @@
       },
       {
         "id": "ms-entry-54",
-        "name": "Ng Ka Long Angus",
+        "name": "伍家朗",
         "team": "HKG"
       },
       {
         "id": "ms-entry-55",
-        "name": "Kenta Nishimoto",
+        "name": "西本拳太",
         "team": "JPN"
       },
       {
         "id": "ms-entry-56",
-        "name": "C. Popov",
+        "name": "小波波夫",
         "team": "FRA"
       },
       {
@@ -309,7 +309,7 @@
       },
       {
         "id": "ms-entry-58",
-        "name": "Garret Tan",
+        "name": "陈翃栎",
         "team": "USA"
       },
       {
@@ -319,7 +319,7 @@
       },
       {
         "id": "ms-entry-60",
-        "name": "L. Sen",
+        "name": "申恩",
         "team": "IND"
       },
       {
@@ -329,7 +329,7 @@
       },
       {
         "id": "ms-entry-62",
-        "name": "Daniil Dubovenko",
+        "name": "杜博文科·达尼尔",
         "team": "ISR"
       },
       {
@@ -339,12 +339,12 @@
       },
       {
         "id": "ms-entry-64",
-        "name": "K. Vitidsarn",
+        "name": "昆拉武特",
         "team": "THA"
       },
       {
         "id": "ws-entry-01",
-        "name": "An S.",
+        "name": "安洗莹",
         "team": "KOR"
       },
       {
@@ -364,7 +364,7 @@
       },
       {
         "id": "ws-entry-05",
-        "name": "M. Blichfeldt",
+        "name": "米亚",
         "team": "DEN"
       },
       {
@@ -374,17 +374,17 @@
       },
       {
         "id": "ws-entry-07",
-        "name": "B. Ongbamrungphan",
+        "name": "布莎兰",
         "team": "THA"
       },
       {
         "id": "ws-entry-08",
-        "name": "S. Katethong",
+        "name": "嘉蒂康",
         "team": "THA"
       },
       {
         "id": "ws-entry-09",
-        "name": "Han Yue",
+        "name": "韩悦",
         "team": "CHN"
       },
       {
@@ -394,17 +394,17 @@
       },
       {
         "id": "ws-entry-11",
-        "name": "Yvonne Li",
+        "name": "李怡逢",
         "team": "GER"
       },
       {
         "id": "ws-entry-12",
-        "name": "Agnes Korosi",
+        "name": "科罗西·安格妮思",
         "team": "HUN"
       },
       {
         "id": "ws-entry-13",
-        "name": "Kim G.",
+        "name": "金佳恩",
         "team": "KOR"
       },
       {
@@ -414,7 +414,7 @@
       },
       {
         "id": "ws-entry-15",
-        "name": "Vivien Sandorhazi",
+        "name": "桑多哈齐·维维安",
         "team": "HUN"
       },
       {
@@ -424,17 +424,17 @@
       },
       {
         "id": "ws-entry-17",
-        "name": "Wang Zhi Yi",
+        "name": "王祉怡",
         "team": "CHN"
       },
       {
         "id": "ws-entry-18",
-        "name": "Beiwen Zhang",
+        "name": "张蓓雯",
         "team": "USA"
       },
       {
         "id": "ws-entry-19",
-        "name": "K. Letshanaa",
+        "name": "蕾莎娜",
         "team": "MAS"
       },
       {
@@ -444,7 +444,7 @@
       },
       {
         "id": "ws-entry-21",
-        "name": "Pusarla V.",
+        "name": "仙杜",
         "team": "IND"
       },
       {
@@ -459,12 +459,12 @@
       },
       {
         "id": "ws-entry-24",
-        "name": "Wen Yu Zhang",
+        "name": "张雯语",
         "team": "CAN"
       },
       {
         "id": "ws-entry-25",
-        "name": "P. Wardani",
+        "name": "瓦尔达尼",
         "team": "INA"
       },
       {
@@ -484,12 +484,12 @@
       },
       {
         "id": "ws-entry-29",
-        "name": "L. Christophersen",
+        "name": "莱欣",
         "team": "DEN"
       },
       {
         "id": "ws-entry-30",
-        "name": "Lee Xin Yi Megan",
+        "name": "李心仪",
         "team": "SGP"
       },
       {
@@ -499,12 +499,12 @@
       },
       {
         "id": "ws-entry-32",
-        "name": "Liang Ka Wing",
+        "name": "梁珈颖",
         "team": "HKG"
       },
       {
         "id": "ws-entry-33",
-        "name": "Lin Hsiang Ti",
+        "name": "林湘缇",
         "team": "TPE"
       },
       {
@@ -519,7 +519,7 @@
       },
       {
         "id": "ws-entry-36",
-        "name": "N. Okuhara",
+        "name": "奥原希望",
         "team": "JPN"
       },
       {
@@ -539,7 +539,7 @@
       },
       {
         "id": "ws-entry-40",
-        "name": "R. Intanon",
+        "name": "拉特查诺",
         "team": "THA"
       },
       {
@@ -559,7 +559,7 @@
       },
       {
         "id": "ws-entry-44",
-        "name": "P. Chochuwong",
+        "name": "蓬帕威",
         "team": "THA"
       },
       {
@@ -569,37 +569,37 @@
       },
       {
         "id": "ws-entry-46",
-        "name": "Polina Buhrova",
+        "name": "毕露娃",
         "team": "UKR"
       },
       {
         "id": "ws-entry-47",
-        "name": "Lo Sin Yan Happy",
+        "name": "卢善恩",
         "team": "HKG"
       },
       {
         "id": "ws-entry-48",
-        "name": "Chen Yu Fei",
+        "name": "陈雨菲",
         "team": "CHN"
       },
       {
         "id": "ws-entry-49",
-        "name": "Thet Htar Thuzar",
+        "name": "德·塔·图萨",
         "team": "MYA"
       },
       {
         "id": "ws-entry-50",
-        "name": "Unnati Hooda",
+        "name": "荷达",
         "team": "IND"
       },
       {
         "id": "ws-entry-51",
-        "name": "Chiu Pin-Chian",
+        "name": "邱品蒨",
         "team": "TPE"
       },
       {
         "id": "ws-entry-52",
-        "name": "Michelle Li",
+        "name": "李文珊",
         "team": "CAN"
       },
       {
@@ -609,17 +609,17 @@
       },
       {
         "id": "ws-entry-54",
-        "name": "Y. Kantemyr",
+        "name": "简谈尔",
         "team": "UKR"
       },
       {
         "id": "ws-entry-55",
-        "name": "Riko Gunji",
+        "name": "郡司莉子",
         "team": "JPN"
       },
       {
         "id": "ws-entry-56",
-        "name": "T. Miyazaki",
+        "name": "宫崎友花",
         "team": "JPN"
       },
       {
@@ -639,12 +639,12 @@
       },
       {
         "id": "ws-entry-60",
-        "name": "Sim Yu Jin",
+        "name": "沈有振",
         "team": "KOR"
       },
       {
         "id": "ws-entry-61",
-        "name": "Wong Ling Ching",
+        "name": "黄玲青",
         "team": "MAS"
       },
       {
@@ -654,32 +654,32 @@
       },
       {
         "id": "ws-entry-63",
-        "name": "Nguyen Thuy Linh",
+        "name": "阮翠玲",
         "team": "VIE"
       },
       {
         "id": "ws-entry-64",
-        "name": "A. Yamaguchi",
+        "name": "山口茜",
         "team": "JPN"
       },
       {
         "id": "md-entry-01",
-        "name": "Kim Won Ho / Seo Seung Jae",
+        "name": "金元浩／徐承宰",
         "team": "KOR"
       },
       {
         "id": "md-entry-03",
-        "name": "Christo Popov / Toma Junior Popov",
+        "name": "小波波夫／大波波夫",
         "team": "FRA"
       },
       {
         "id": "md-entry-04",
-        "name": "Takumi Nomura / Yuichi Shimogami",
+        "name": "野村拓海／霜上雄一",
         "team": "JPN"
       },
       {
         "id": "md-entry-05",
-        "name": "Ben Lane / Sean Vendy",
+        "name": "宾莱恩／芬廸",
         "team": "ENG"
       },
       {
@@ -689,12 +689,12 @@
       },
       {
         "id": "md-entry-08",
-        "name": "Donovan Willard Wee / Jia Hao Howin Wong",
+        "name": "黄劲腾／黄家豪",
         "team": "SGP"
       },
       {
         "id": "md-entry-09",
-        "name": "Goh Sze Fei / Nur Izzuddin",
+        "name": "吴世飞／伊祖丁",
         "team": "MAS"
       },
       {
@@ -709,22 +709,22 @@
       },
       {
         "id": "md-entry-13",
-        "name": "Chiu Hsiang Chieh / Wang Chi-Lin",
+        "name": "邱相杰／王齐麟",
         "team": "TPE"
       },
       {
         "id": "md-entry-15",
-        "name": "Kakeru Kumagai / Hiroki Nishi",
+        "name": "熊谷翔／西大辉",
         "team": "JPN"
       },
       {
         "id": "md-entry-16",
-        "name": "Fang-Chih Lee / Fang-Jen Lee",
+        "name": "李芳至／李芳任",
         "team": "TPE"
       },
       {
         "id": "md-entry-17",
-        "name": "Aaron Chia / Soh Wooi Yik",
+        "name": "谢定峰／苏伟译",
         "team": "MAS"
       },
       {
@@ -734,32 +734,32 @@
       },
       {
         "id": "md-entry-20",
-        "name": "Peeratchai Sukphun / Pakkapon Teeraratsakul",
+        "name": "佩拉查伊／帕克卡波",
         "team": "THA"
       },
       {
         "id": "md-entry-21",
-        "name": "Man Wei Chong / Tee Kai Wun",
+        "name": "万炜聪／郑凯文",
         "team": "MAS"
       },
       {
         "id": "md-entry-23",
-        "name": "Chen Zhi Yi / Presley Smith",
+        "name": "陈子亦／贾士贤",
         "team": "USA"
       },
       {
         "id": "md-entry-24",
-        "name": "Huang Di / Liu Yang",
+        "name": "黄荻／刘阳",
         "team": "CHN"
       },
       {
         "id": "md-entry-25",
-        "name": "Chen Bo Yang / Liu Yi",
+        "name": "陈柏阳／刘毅",
         "team": "CHN"
       },
       {
         "id": "md-entry-27",
-        "name": "Hu Ke Yuan / Lin Xiang Yi",
+        "name": "胡珂源／林祥毅",
         "team": "CHN"
       },
       {
@@ -769,7 +769,7 @@
       },
       {
         "id": "md-entry-29",
-        "name": "Daniel Lundgaard / Mads Vestergaard",
+        "name": "龙格特／维斯达格",
         "team": "DEN"
       },
       {
@@ -789,12 +789,12 @@
       },
       {
         "id": "md-entry-34",
-        "name": "Junaidi Arif / Yap Roy King",
+        "name": "朱奈迪·阿里夫／叶睿庆",
         "team": "MAS"
       },
       {
         "id": "md-entry-36",
-        "name": "Raymond Indra / Nikolaus Joaquin",
+        "name": "因陀罗／华金",
         "team": "INA"
       },
       {
@@ -809,7 +809,7 @@
       },
       {
         "id": "md-entry-40",
-        "name": "S. Rankireddy / Chirag Shetty",
+        "name": "兰基雷迪／谢提",
         "team": "IND"
       },
       {
@@ -819,27 +819,27 @@
       },
       {
         "id": "md-entry-42",
-        "name": "Eng Keat Wesley Koh / Junsuke Kubo",
+        "name": "高永杰／洼纯佑",
         "team": "SGP"
       },
       {
         "id": "md-entry-44",
-        "name": "Kim Astrup / A. Rasmussen",
+        "name": "金阿斯楚普／安德斯.沙迦拉",
         "team": "DEN"
       },
       {
         "id": "md-entry-45",
         "name": "Rodion Alimov / Maksim Ogloblin",
-        "team": ""
+        "team": "AIN"
       },
       {
         "id": "md-entry-46",
-        "name": "Alex Green / Zach Russ",
+        "name": "亚历克斯·格林／鲁斯",
         "team": "ENG"
       },
       {
         "id": "md-entry-48",
-        "name": "Liang Wei Keng / Wang Chang",
+        "name": "梁伟铿／王昶",
         "team": "CHN"
       },
       {
@@ -849,17 +849,17 @@
       },
       {
         "id": "md-entry-50",
-        "name": "Jonathan Bing Tsan Lai / Nyl Yakura",
+        "name": "赖炳瓒／矢仓",
         "team": "CAN"
       },
       {
         "id": "md-entry-52",
-        "name": "Lee Jhe-Huei / Yang Po-Hsuan",
+        "name": "李哲辉／杨博轩",
         "team": "TPE"
       },
       {
         "id": "md-entry-53",
-        "name": "Hung Kuei Chun / Lui Chun Wai",
+        "name": "洪魁骏／吕俊玮",
         "team": "HKG"
       },
       {
@@ -869,7 +869,7 @@
       },
       {
         "id": "md-entry-56",
-        "name": "S. Gutama / M. Isfahani",
+        "name": "古塔马／伊斯法哈尼",
         "team": "INA"
       },
       {
@@ -879,12 +879,12 @@
       },
       {
         "id": "md-entry-58",
-        "name": "Hariharan Amsakarunan / M.R. Arjun",
+        "name": "哈里哈兰／阿琼",
         "team": "IND"
       },
       {
         "id": "md-entry-60",
-        "name": "Kang Min Hyuk / Ki Dong Ju",
+        "name": "姜珉赫／奇东柱",
         "team": "KOR"
       },
       {
@@ -899,12 +899,12 @@
       },
       {
         "id": "md-entry-64",
-        "name": "Fajar Alfian / M. Fikri",
+        "name": "法贾／菲克里",
         "team": "INA"
       },
       {
         "id": "wd-entry-01",
-        "name": "Liu Sheng Shu / Tan Ning",
+        "name": "刘圣书／谭宁",
         "team": "CHN"
       },
       {
@@ -934,12 +934,12 @@
       },
       {
         "id": "wd-entry-09",
-        "name": "Hsu Yin-Hui / Lin Jhih Yun",
+        "name": "许尹鏸／林芝昀",
         "team": "TPE"
       },
       {
         "id": "wd-entry-11",
-        "name": "Chang Ching Hui / Yang Ching Tun",
+        "name": "张净惠／杨景惇",
         "team": "TPE"
       },
       {
@@ -949,12 +949,12 @@
       },
       {
         "id": "wd-entry-13",
-        "name": "Yeung Nga Ting / Yeung Pui Lam",
+        "name": "杨雅婷／杨霈霖",
         "team": "HKG"
       },
       {
         "id": "wd-entry-15",
-        "name": "Francesca Corbett / Jennie Gai",
+        "name": "科比特／盖珍妮",
         "team": "USA"
       },
       {
@@ -964,12 +964,12 @@
       },
       {
         "id": "wd-entry-17",
-        "name": "Jia Yi Fan / Zhang Shu Xian",
+        "name": "贾一凡／张殊贤",
         "team": "CHN"
       },
       {
         "id": "wd-entry-19",
-        "name": "Lui Lok Lok / Tsang Hiu Yan",
+        "name": "吕乐乐／曾晓昕",
         "team": "HKG"
       },
       {
@@ -979,7 +979,7 @@
       },
       {
         "id": "wd-entry-21",
-        "name": "Hsieh Pei Shan / Hung En-Tzu",
+        "name": "谢沛珊／洪恩慈",
         "team": "TPE"
       },
       {
@@ -989,12 +989,12 @@
       },
       {
         "id": "wd-entry-24",
-        "name": "Aline Mueller / Kelly Van Buiten",
-        "team": "NED/SUI"
+        "name": "Aline Müller / Kelly van Buiten",
+        "team": "SUI/NED"
       },
       {
         "id": "wd-entry-25",
-        "name": "Rin Iwanaga / Kie Nakanishi",
+        "name": "岩永铃／中西贵映",
         "team": "JPN"
       },
       {
@@ -1009,12 +1009,12 @@
       },
       {
         "id": "wd-entry-29",
-        "name": "Lauren Lam / Allison Quynh Lee",
+        "name": "林萝伦／李艾莉森",
         "team": "USA"
       },
       {
         "id": "wd-entry-31",
-        "name": "Treesa Jolly / Gayatri Gopichand Pullela",
+        "name": "祖莉／蒲莉娜",
         "team": "IND"
       },
       {
@@ -1034,7 +1034,7 @@
       },
       {
         "id": "wd-entry-36",
-        "name": "F. Kusuma / M. Puspitasari",
+        "name": "费比安娜／梅丽莎",
         "team": "INA"
       },
       {
@@ -1049,12 +1049,12 @@
       },
       {
         "id": "wd-entry-40",
-        "name": "Pearly Tan / Thinaah Muralitharan",
+        "name": "陈康乐／蒂娜",
         "team": "MAS"
       },
       {
         "id": "wd-entry-41",
-        "name": "Luo Yi / Wang Ting Ge",
+        "name": "罗意／王汀戈",
         "team": "CHN"
       },
       {
@@ -1064,7 +1064,7 @@
       },
       {
         "id": "wd-entry-44",
-        "name": "Rui Hirokami / Sayaka Hobara",
+        "name": "广上瑠依／保原彩夏",
         "team": "JPN"
       },
       {
@@ -1074,17 +1074,17 @@
       },
       {
         "id": "wd-entry-46",
-        "name": "Kaho Osawa / Mai Tanabe",
+        "name": "大泽佳步／田部真唯",
         "team": "JPN"
       },
       {
         "id": "wd-entry-48",
-        "name": "Baek Ha Na / Lee So Hee",
+        "name": "白荷娜／李绍希",
         "team": "KOR"
       },
       {
         "id": "wd-entry-49",
-        "name": "Jackie Dent / Crystal Lai",
+        "name": "积琦登特／赖晶",
         "team": "CAN"
       },
       {
@@ -1094,7 +1094,7 @@
       },
       {
         "id": "wd-entry-52",
-        "name": "Hsu Ya Ching / Sung Yu-Hsuan",
+        "name": "许雅晴／宋祐媗",
         "team": "TPE"
       },
       {
@@ -1109,7 +1109,7 @@
       },
       {
         "id": "wd-entry-56",
-        "name": "Li Yi Jing / Luo Xu Min",
+        "name": "李怡婧／罗徐敏",
         "team": "CHN"
       },
       {
@@ -1124,47 +1124,47 @@
       },
       {
         "id": "wd-entry-60",
-        "name": "R. Rose / Febi Setianingrum",
+        "name": "阿莱西娅／费比",
         "team": "INA"
       },
       {
         "id": "wd-entry-61",
-        "name": "Ong Xin Yee / Carmen Ting",
+        "name": "王馨渝／陈韦妏",
         "team": "MAS"
       },
       {
         "id": "wd-entry-62",
-        "name": "Polina Buhrova / Yevheniia Kantemyr",
+        "name": "毕露娃／简谈尔",
         "team": "UKR"
       },
       {
         "id": "wd-entry-64",
-        "name": "Yuki Fukushima / Mayu Matsumoto",
+        "name": "福岛由纪／松本麻佑",
         "team": "JPN"
       },
       {
         "id": "xd-entry-01",
-        "name": "Feng Yan Zhe / Huang Dong Ping",
+        "name": "冯彦哲／黄东萍",
         "team": "CHN"
       },
       {
         "id": "xd-entry-03",
-        "name": "Jonathan Bing Tsan Lai / Crystal Lai",
+        "name": "赖炳瓒／赖晶",
         "team": "CAN"
       },
       {
         "id": "xd-entry-04",
-        "name": "Rohan Kapoor / Gadde Ruthvika Shivani",
+        "name": "罗汉／希雅尼",
         "team": "IND"
       },
       {
         "id": "xd-entry-05",
-        "name": "Yuta Watanabe / Maya Taguchi",
+        "name": "渡边勇大／田口真彩",
         "team": "JPN"
       },
       {
         "id": "xd-entry-07",
-        "name": "Chan Yin Chak / Ng Tsz Yau",
+        "name": "陈延泽／Ng Tsz Yau",
         "team": "HKG"
       },
       {
@@ -1174,7 +1174,7 @@
       },
       {
         "id": "xd-entry-09",
-        "name": "Cheng Xing / Zhang Chi",
+        "name": "程星／张驰",
         "team": "CHN"
       },
       {
@@ -1184,12 +1184,12 @@
       },
       {
         "id": "xd-entry-12",
-        "name": "Callum Hemming / Estelle Van Leeuwen",
+        "name": "亨明／艾丝特尔",
         "team": "ENG"
       },
       {
         "id": "xd-entry-13",
-        "name": "Goh Soon Huat / Lai Shevon Jemie",
+        "name": "吴埙阀／赖洁敏",
         "team": "MAS"
       },
       {
@@ -1199,17 +1199,17 @@
       },
       {
         "id": "xd-entry-16",
-        "name": "Chen Zhi Yi / Francesca Corbett",
+        "name": "陈子亦／科比特",
         "team": "USA"
       },
       {
         "id": "xd-entry-17",
-        "name": "M. Christiansen / Alexandra Bøje",
+        "name": "马蒂亚斯·克里斯蒂安森／亚历山德拉·博尔",
         "team": "DEN"
       },
       {
         "id": "xd-entry-19",
-        "name": "Marwan Faza / A. Pranata",
+        "name": "马尔万／普拉纳塔",
         "team": "INA"
       },
       {
@@ -1219,7 +1219,7 @@
       },
       {
         "id": "xd-entry-21",
-        "name": "Yang Po-Hsuan / Hu Ling Fang",
+        "name": "杨博轩／胡绫芳",
         "team": "TPE"
       },
       {
@@ -1234,22 +1234,22 @@
       },
       {
         "id": "xd-entry-25",
-        "name": "Ye Hong Wei / Nicole Gonzales Chan",
+        "name": "叶宏蔚／詹又蓁",
         "team": "TPE"
       },
       {
         "id": "xd-entry-27",
-        "name": "Wong Tien Ci / Lim Chiew Sien",
+        "name": "黄天启／林秋仙",
         "team": "MAS"
       },
       {
         "id": "xd-entry-28",
-        "name": "Rehan Naufal Kusharjanto / Gloria Emanuelle Widjaja",
+        "name": "雷汉／歌莉亚",
         "team": "INA"
       },
       {
         "id": "xd-entry-29",
-        "name": "Amri Syahnawi / Nita Violina Marwah",
+        "name": "西亚纳维／玛华",
         "team": "INA"
       },
       {
@@ -1274,7 +1274,7 @@
       },
       {
         "id": "xd-entry-36",
-        "name": "Presley Smith / Jennie Gai",
+        "name": "贾士贤／盖珍妮",
         "team": "USA"
       },
       {
@@ -1289,7 +1289,7 @@
       },
       {
         "id": "xd-entry-40",
-        "name": "Thom Gicquel / Delphine Delrue",
+        "name": "吉凯尔／德尔吕",
         "team": "FRA"
       },
       {
@@ -1304,12 +1304,12 @@
       },
       {
         "id": "xd-entry-44",
-        "name": "Yuichi Shimogami / Sayaka Hobara",
+        "name": "霜上雄一／保原彩夏",
         "team": "JPN"
       },
       {
         "id": "xd-entry-45",
-        "name": "Wu Guan Xun / Lee Chia Hsin",
+        "name": "吴冠勋／李佳馨",
         "team": "TPE"
       },
       {
@@ -1319,12 +1319,12 @@
       },
       {
         "id": "xd-entry-48",
-        "name": "D. Puavaranukroh / S. Paewsampran",
+        "name": "德差波／苏皮萨拉",
         "team": "THA"
       },
       {
         "id": "xd-entry-49",
-        "name": "Leong Iok Chong / Ng Weng Chi",
+        "name": "梁钰聪／吴颖翘",
         "team": "MAC"
       },
       {
@@ -1334,7 +1334,7 @@
       },
       {
         "id": "xd-entry-52",
-        "name": "Dhruv Kapila / Tanisha Crasto",
+        "name": "卡皮拉／唐妮莎",
         "team": "IND"
       },
       {
@@ -1349,7 +1349,7 @@
       },
       {
         "id": "xd-entry-56",
-        "name": "Guo Xin Wa / Chen Fang Hui",
+        "name": "郭新娃／陈芳卉",
         "team": "CHN"
       },
       {
@@ -1364,7 +1364,7 @@
       },
       {
         "id": "xd-entry-60",
-        "name": "P. Teeraratsakul / Sapsiree Taerattanachai",
+        "name": "帕克卡波／沙西丽",
         "team": "THA"
       },
       {
@@ -1379,7 +1379,7 @@
       },
       {
         "id": "xd-entry-64",
-        "name": "Jiang Zhen Bang / Wei Ya Xin",
+        "name": "蒋振邦／魏雅欣",
         "team": "CHN"
       }
     ],
@@ -1390,6 +1390,167 @@
         "family": "badminton.or.jp",
         "label": "日本羽毛球协会 · BWF世锦赛官方完整赛果（11页）",
         "url": "https://www.badminton.or.jp/storage/conventions/pdf/1260/free_form_1_20260904_144859.pdf"
+      },
+      {
+        "id": "chinese-olympic-draw",
+        "kind": "official",
+        "family": "olympic.cn",
+        "label": "中国奥委会 · 世锦赛签表及中文姓名",
+        "url": "https://www.olympic.cn/news/focus/2026/0806/704232.html"
+      },
+      {
+        "id": "gasc-roster-update",
+        "kind": "official",
+        "family": "sport.gov.cn",
+        "label": "国家体育总局 · 国羽递补组合",
+        "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c29857503/content.html"
+      },
+      {
+        "id": "gasc-finals-names",
+        "kind": "official",
+        "family": "sport.gov.cn",
+        "label": "国家体育总局 · 世锦赛参赛者中文姓名",
+        "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c29865168/content.html"
+      },
+      {
+        "id": "cba-neutral",
+        "kind": "official",
+        "family": "cba.hr",
+        "label": "克罗地亚羽协 · 世界羽联批准两名中立选手",
+        "url": "https://www.cba.hr/novosti/BWF-Ruski-igrai-Alimov-i-Ogloblin-dobili-doputenje-za-nastup-kao-neutralni-sportai-20250603080532"
+      },
+      {
+        "id": "tass-neutral-worlds",
+        "kind": "independent",
+        "family": "tass",
+        "label": "塔斯社采访 · 世锦赛中立组合身份",
+        "url": "https://sport.rambler.ru/summer/56911295-alimov-finansirovanie-stalo-glavnoy-problemoy-neytralnyh-badmintonistov/amp/"
+      },
+      {
+        "id": "bfm-names",
+        "kind": "official",
+        "family": "macauopenbadminton.org.mo",
+        "label": "澳门羽毛球总会 · 双语姓名对照",
+        "url": "https://macauopenbadminton.org.mo/uploads/ueditor/file/20240826/1724662122356265.pdf"
+      },
+      {
+        "id": "bcn-panitchaphon",
+        "kind": "independent",
+        "family": "badmintoncn.com",
+        "label": "中羽在线 · 帕尼查蓬姓名对照",
+        "url": "https://www.badmintoncn.com/starm.php?a=view&id=2744&mag_hide_progress=1"
+      },
+      {
+        "id": "hkba-bilingual",
+        "kind": "official",
+        "family": "hkopenbadminton.org",
+        "label": "中国香港羽协 · 中英姓名按 BWF ID 核对",
+        "url": "https://hkopenbadminton.org/wp-content/uploads/2025/08/%E7%90%83%E5%93%A1%E5%90%8D%E5%96%AE_2025_MQR.pdf"
+      },
+      {
+        "id": "bfm-bilingual-rosters",
+        "kind": "official",
+        "family": "macauopenbadminton.org.mo",
+        "label": "澳门羽毛球总会 · 五项目双语姓名对照",
+        "url": "https://macauopenbadminton.org.mo/news/view/34"
+      },
+      {
+        "id": "jba-japan-roster",
+        "kind": "official",
+        "family": "badminton.or.jp",
+        "label": "日本羽协 · 本届日本队参赛名单",
+        "url": "https://badminton.or.jp/news/detail/2255"
+      },
+      {
+        "id": "jba-japan-players",
+        "kind": "official",
+        "family": "badminton.or.jp",
+        "label": "日本羽协 · 女队选手姓名",
+        "url": "https://www.badminton.or.jp/national/player?gender=female"
+      },
+      {
+        "id": "cbc-worlds",
+        "kind": "official",
+        "family": "cba-roster",
+        "label": "中国羽协 · 世锦赛参赛者中文姓名（中羽在线转载）",
+        "url": "https://www.badmintoncn.com/newsm.php?a=view&id=45666&isPush=1&mag_hide_progress=1"
+      },
+      {
+        "id": "xinhua-worlds-names",
+        "kind": "independent",
+        "family": "xinhuanet.com",
+        "label": "新华社 · 世锦赛参赛者常用中文名",
+        "url": "https://www3.xinhuanet.com/sports/20260820/1ef8a52869614f59995630d75c787f50/c.html"
+      },
+      {
+        "id": "xinhua-kor-names",
+        "kind": "independent",
+        "family": "xinhuanet.com",
+        "label": "新华社 · 韩国队中文姓名对照",
+        "url": "https://www2.xinhuanet.com/sports/20260922/281dc5f67c0b47d09b36419feac69dfa/c.html"
+      },
+      {
+        "id": "zaobao-worlds-names",
+        "kind": "independent",
+        "family": "zaobao.com.sg",
+        "label": "联合早报 · 世锦赛新加坡双打中文名",
+        "url": "https://www.zaobao.com.sg/news/sports/story20260817-9533580"
+      },
+      {
+        "id": "zaobao-singapore-names",
+        "kind": "independent",
+        "family": "zaobao.com.sg",
+        "label": "联合早报 · 新加坡队中文名",
+        "url": "https://www.zaobao.com.sg/news/sports/story20260204-8311665"
+      },
+      {
+        "id": "bcn-ina-champions",
+        "kind": "independent",
+        "family": "badmintoncn.com",
+        "label": "中羽在线 · 印尼公开赛常用中文名",
+        "url": "https://www.badmintoncn.com/news.php?id=44499"
+      },
+      {
+        "id": "bcn-fin-names",
+        "kind": "independent",
+        "family": "badmintoncn.com",
+        "label": "中羽在线 · 芬兰球员中英文姓名",
+        "url": "https://www.badmintoncn.com/cbo_star/star_1769.html"
+      },
+      {
+        "id": "bcn-tpe-pair",
+        "kind": "independent",
+        "family": "badmintoncn.com",
+        "label": "中羽在线 · 吴冠勋／李佳馨姓名对照",
+        "url": "https://www.badmintoncn.com/cbo_star/star_view_tournament.php?sid=2835"
+      },
+      {
+        "id": "oriental-daily-mas",
+        "kind": "independent",
+        "family": "orientaldaily.com.my",
+        "label": "马来西亚东方日报 · 马来西亚女双中文名",
+        "url": "https://www.orientaldaily.com.my/news/sports/2025/07/23/749064"
+      },
+      {
+        "id": "bcn-eng-names",
+        "kind": "independent",
+        "family": "badmintoncn.com",
+        "label": "中羽在线 · 亚历克斯·格林／鲁斯中英文名",
+        "url": "https://www.badmintoncn.com/cbo_star/star_3961.html"
+      },
+      {
+        "id": "bcn-sgp-pair-names",
+        "kind": "independent",
+        "family": "badmintoncn.com",
+        "label": "中羽在线 · 新加坡公开赛双打中文名",
+        "url": "https://www.badmintoncn.com/news.php?id=44126"
+      },
+      {
+        "id": "oriental-daily-ina-pair",
+        "kind": "independent",
+        "family": "orientaldaily.com.my",
+        "label": "马来西亚东方日报 · 古塔马／伊斯法哈尼中英文名",
+        "url": "https://boron.orientaldaily.com.my/news/sports/2024/06/09/657443"
       }
     ],
     "rules": {

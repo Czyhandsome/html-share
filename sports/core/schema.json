@@ -55,7 +55,8 @@
             "minLength": 1
           },
           "team": {
-            "type": "string"
+            "type": "string",
+            "description": "Registered event association code, or two different codes joined by / in doubles member order. Empty only for the repository's fictional fixture."
           }
         },
         "required": [

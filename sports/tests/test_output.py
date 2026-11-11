@@ -1,14 +1,17 @@
+from copy import deepcopy
 import json
 import shutil
 import tempfile
 from pathlib import Path
 from html.parser import HTMLParser
 import unittest
+from unittest.mock import patch
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1] / 'core'))
 from bracketkit import compile_data,render,load,ValidationError
 from board import split_preliminaries
 from sports.build import INDEX, build, parse_event_dates
+from sports.core import teams
 ROOT=Path(__file__).resolve().parents[1] / 'core'
 class Inspect(HTMLParser):
  def __init__(self):
@@ -91,6 +94,44 @@ class OutputTests(unittest.TestCase):
    self.assertIn('快照 <time datetime="2026-07-18">2026年7月18日</time>', index)
    self.assertIn('data-match-id=', (root/target).read_text())
    build(check=True, root=root)
+ def test_team_metadata_renders_aliases_mixed_pairs_and_neutral_entries(self):
+  data = load(ROOT/'examples/knockout.json')
+  data['entries'][0].update(name='示例组合甲／乙', team='GB-ENG/CHN')
+  data['entries'][1]['team'] = 'AIN'
+  data['entries'].append({'id': 'unused', 'name': 'Unused', 'team': 'KOR'})
+  page = render(compile_data(data))
+  assets = json.loads(page.split('id="wtt-assets" type="application/json">', 1)[1].split('</script>', 1)[0])
+  view = json.loads(page.split('id="wtt-data" type="application/json">', 1)[1].split('</script>', 1)[0])
+  first_match = view['draws']['main'][0]
+  self.assertEqual([player['teams'] for player in first_match['players']], [['ENG', 'CHN'], ['AIN']])
+  self.assertEqual(assets['countries']['ENG'], '英格兰')
+  self.assertIn('中立', assets['countries']['AIN'])
+  self.assertEqual(set(assets['flags']), {'CHN', 'ENG', 'GER'})
+  self.assertNotIn('KOR', assets['countries'])
+  self.assertIn('class="match done contains-cn"', page)
+  self.assertIn('class="team-badge neutral"', page)
+  self.assertIn('The MIT License', page)
+
+ def test_build_rejects_invalid_real_entry_teams(self):
+  with tempfile.TemporaryDirectory() as directory:
+   root = Path(directory)
+   (root/'sports/data').mkdir(parents=True)
+   data = load(ROOT/'examples/knockout.json')
+   record = {'id': 'event', 'kind': 'bracket-v1', 'output': 'docs/example/index.html', 'data': data}
+   entry = data['entries'][0]
+   data_file = root/'sports/data/event.json'
+   for code, problem in [(None, 'team must be a string'), ('', 'team is required'), ('ZZZ', 'unregistered team code'),
+                         ('CHN', 'missing team flag')]:
+    with self.subTest(code=code):
+     entry['team'] = code
+     data_file.write_text(json.dumps(record), encoding='utf-8')
+     registry = deepcopy(teams.registry())
+     registry['teams']['CHN']['flag'] = 'missing-test-flag.svg'
+     with patch.object(teams, 'registry', return_value=registry), self.assertRaisesRegex(
+         ValueError, rf'event\.json: entry {entry["id"]}: {problem}'
+     ):
+      build(root=root)
+
  def test_catalog_event_dates_reject_invalid_input(self):
   for start, end in [('2026-1-01', '2026-01-02'), ('2026-02-30', '2026-03-01'), ('2026-01-02', '2026-01-01')]:
    with self.subTest(start=start, end=end), self.assertRaisesRegex(ValueError, 'event_dates'):

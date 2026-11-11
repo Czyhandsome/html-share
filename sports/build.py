@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from sports.compiler import compile_record
 from sports.core.bracketkit import load, render
+from sports.core.teams import validate_entry_teams
 from sports.legacy import KINDS, render_record
 
 INDEX = 'docs/2026/11/20261104-1042-sports-brackets/index.html'
@@ -82,6 +83,7 @@ def build(check=False, root=ROOT):
             record_ids.add(record['id'])
             if record['kind'] == 'bracket-v1':
                 model = compile_record(record, root)
+                validate_entry_teams(model['entries'], allow_empty=record['id'] == 'debug-fictional-nebula-cup-2026')
                 backlink = model['event'].setdefault('back_link', relpath(index, target.parent))
                 backlinks.append((target, (target.parent / backlink).resolve()))
                 page = render(model)

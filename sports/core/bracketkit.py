@@ -104,7 +104,7 @@ class Compiler:
         for e in self.entries.values():
             fields(e, 'id name team', 'entry')
             require(isinstance(e.get('name'), str) and e['name'], 'entry needs name')
-            require(isinstance(e.get('team'), str), 'entry needs team code (empty allowed)')
+            require(isinstance(e.get('team'), str), f'entry {e["id"]}: team must be a string')
         self.sources = unique(data.get('sources', []), 'sources')
         for s in self.sources.values():
             fields(s, 'id url label kind family', 'source')

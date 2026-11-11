@@ -1,0 +1,316 @@
+{
+  "teams": {
+    "AIN": {
+      "name": "中立个人运动员",
+      "flag": null
+    },
+    "ARG": {
+      "name": "阿根廷",
+      "flag": "4x3/ar.svg"
+    },
+    "AUS": {
+      "name": "澳大利亚",
+      "flag": "4x3/au.svg"
+    },
+    "AUT": {
+      "name": "奥地利",
+      "flag": "4x3/at.svg"
+    },
+    "AZE": {
+      "name": "阿塞拜疆",
+      "flag": "4x3/az.svg"
+    },
+    "BEL": {
+      "name": "比利时",
+      "flag": "4x3/be.svg"
+    },
+    "BRA": {
+      "name": "巴西",
+      "flag": "4x3/br.svg"
+    },
+    "BUL": {
+      "name": "保加利亚",
+      "flag": "4x3/bg.svg"
+    },
+    "CAN": {
+      "name": "加拿大",
+      "flag": "4x3/ca.svg"
+    },
+    "CHI": {
+      "name": "智利",
+      "flag": "4x3/cl.svg"
+    },
+    "CHN": {
+      "name": "中国",
+      "flag": "4x3/cn.svg"
+    },
+    "COL": {
+      "name": "哥伦比亚",
+      "flag": "4x3/co.svg"
+    },
+    "CRO": {
+      "name": "克罗地亚",
+      "flag": "4x3/hr.svg"
+    },
+    "CUB": {
+      "name": "古巴",
+      "flag": "4x3/cu.svg"
+    },
+    "CZE": {
+      "name": "捷克",
+      "flag": "4x3/cz.svg"
+    },
+    "DEN": {
+      "name": "丹麦",
+      "flag": "4x3/dk.svg"
+    },
+    "EGY": {
+      "name": "埃及",
+      "flag": "4x3/eg.svg"
+    },
+    "ENG": {
+      "name": "英格兰",
+      "flag": "4x3/gb-eng.svg"
+    },
+    "ESA": {
+      "name": "萨尔瓦多",
+      "flag": "4x3/sv.svg"
+    },
+    "ESP": {
+      "name": "西班牙",
+      "flag": "4x3/es.svg"
+    },
+    "EST": {
+      "name": "爱沙尼亚",
+      "flag": "4x3/ee.svg"
+    },
+    "FIN": {
+      "name": "芬兰",
+      "flag": "4x3/fi.svg"
+    },
+    "FRA": {
+      "name": "法国",
+      "flag": "4x3/fr.svg"
+    },
+    "GBR": {
+      "name": "英国",
+      "flag": "4x3/gb.svg"
+    },
+    "GER": {
+      "name": "德国",
+      "flag": "4x3/de.svg"
+    },
+    "GRE": {
+      "name": "希腊",
+      "flag": "4x3/gr.svg"
+    },
+    "GUA": {
+      "name": "危地马拉",
+      "flag": "4x3/gt.svg"
+    },
+    "HKG": {
+      "name": "中国香港",
+      "flag": "4x3/hk.svg"
+    },
+    "HUN": {
+      "name": "匈牙利",
+      "flag": "4x3/hu.svg"
+    },
+    "INA": {
+      "name": "印度尼西亚",
+      "flag": "4x3/id.svg"
+    },
+    "IND": {
+      "name": "印度",
+      "flag": "4x3/in.svg"
+    },
+    "IRI": {
+      "name": "伊朗",
+      "flag": "4x3/ir.svg"
+    },
+    "IRL": {
+      "name": "爱尔兰",
+      "flag": "4x3/ie.svg"
+    },
+    "ISR": {
+      "name": "以色列",
+      "flag": "4x3/il.svg"
+    },
+    "ITA": {
+      "name": "意大利",
+      "flag": "4x3/it.svg"
+    },
+    "JPN": {
+      "name": "日本",
+      "flag": "4x3/jp.svg"
+    },
+    "KAZ": {
+      "name": "哈萨克斯坦",
+      "flag": "4x3/kz.svg"
+    },
+    "KOR": {
+      "name": "韩国",
+      "flag": "4x3/kr.svg"
+    },
+    "LTU": {
+      "name": "立陶宛",
+      "flag": "4x3/lt.svg"
+    },
+    "LUX": {
+      "name": "卢森堡",
+      "flag": "4x3/lu.svg"
+    },
+    "MAC": {
+      "name": "中国澳门",
+      "flag": "4x3/mo.svg"
+    },
+    "MAS": {
+      "name": "马来西亚",
+      "flag": "4x3/my.svg"
+    },
+    "MDA": {
+      "name": "摩尔多瓦",
+      "flag": "4x3/md.svg"
+    },
+    "MEX": {
+      "name": "墨西哥",
+      "flag": "4x3/mx.svg"
+    },
+    "MGL": {
+      "name": "蒙古",
+      "flag": "4x3/mn.svg"
+    },
+    "MYA": {
+      "name": "缅甸",
+      "flag": "4x3/mm.svg"
+    },
+    "NED": {
+      "name": "荷兰",
+      "flag": "4x3/nl.svg"
+    },
+    "NOR": {
+      "name": "挪威",
+      "flag": "4x3/no.svg"
+    },
+    "NZL": {
+      "name": "新西兰",
+      "flag": "4x3/nz.svg"
+    },
+    "PAK": {
+      "name": "巴基斯坦",
+      "flag": "4x3/pk.svg"
+    },
+    "PER": {
+      "name": "秘鲁",
+      "flag": "4x3/pe.svg"
+    },
+    "PHI": {
+      "name": "菲律宾",
+      "flag": "4x3/ph.svg"
+    },
+    "POL": {
+      "name": "波兰",
+      "flag": "4x3/pl.svg"
+    },
+    "POR": {
+      "name": "葡萄牙",
+      "flag": "4x3/pt.svg"
+    },
+    "PRK": {
+      "name": "朝鲜",
+      "flag": "4x3/kp.svg"
+    },
+    "PUR": {
+      "name": "波多黎各",
+      "flag": "4x3/pr.svg"
+    },
+    "ROU": {
+      "name": "罗马尼亚",
+      "flag": "4x3/ro.svg"
+    },
+    "RSA": {
+      "name": "南非",
+      "flag": "4x3/za.svg"
+    },
+    "RUS": {
+      "name": "俄罗斯",
+      "flag": "4x3/ru.svg"
+    },
+    "SCO": {
+      "name": "苏格兰",
+      "flag": "4x3/gb-sct.svg"
+    },
+    "SGP": {
+      "name": "新加坡",
+      "flag": "4x3/sg.svg"
+    },
+    "SLO": {
+      "name": "斯洛文尼亚",
+      "flag": "4x3/si.svg"
+    },
+    "SRB": {
+      "name": "塞尔维亚",
+      "flag": "4x3/rs.svg"
+    },
+    "SRI": {
+      "name": "斯里兰卡",
+      "flag": "4x3/lk.svg"
+    },
+    "SUI": {
+      "name": "瑞士",
+      "flag": "4x3/ch.svg"
+    },
+    "SVK": {
+      "name": "斯洛伐克",
+      "flag": "4x3/sk.svg"
+    },
+    "SWE": {
+      "name": "瑞典",
+      "flag": "4x3/se.svg"
+    },
+    "THA": {
+      "name": "泰国",
+      "flag": "4x3/th.svg"
+    },
+    "TPE": {
+      "name": "中国台北",
+      "flag": "4x3/tpe.svg"
+    },
+    "TUR": {
+      "name": "土耳其",
+      "flag": "4x3/tr.svg"
+    },
+    "UAE": {
+      "name": "阿联酋",
+      "flag": "4x3/ae.svg"
+    },
+    "UGA": {
+      "name": "乌干达",
+      "flag": "4x3/ug.svg"
+    },
+    "UKR": {
+      "name": "乌克兰",
+      "flag": "4x3/ua.svg"
+    },
+    "USA": {
+      "name": "美国",
+      "flag": "4x3/us.svg"
+    },
+    "VIE": {
+      "name": "越南",
+      "flag": "4x3/vn.svg"
+    },
+    "WAL": {
+      "name": "威尔士",
+      "flag": "4x3/gb-wls.svg"
+    }
+  },
+  "aliases": {
+    "GB-ENG": "ENG",
+    "GB-SCT": "SCO",
+    "GB-WLS": "WAL",
+    "GRC": "GRE",
+    "SIN": "SGP",
+    "WLS": "WAL"
+  }
+}
