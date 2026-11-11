@@ -1,0 +1,1323 @@
+{
+  "id": "thomas-uber-cup-2026",
+  "kind": "team-bracket-v1",
+  "output": "docs/2026/04/thomas-uber-cup-2026/index.html",
+  "event_dates": {
+    "start": "2026-04-24",
+    "end": "2026-05-03"
+  },
+  "notices": [
+    "已核验汤杯、尤杯全部14场淘汰赛团体总比分，以及两杯B组12场团体总比分及官方排名。A、C、D组尚未收齐，当前并非完整小组赛档案。",
+    "团体总分及晋级依据日本羽协发布的官方结果；各场运动员阵容、出场顺序和逐局明细尚未录入，详情保留待核实。淘汰赛首轮按官方抽签签位录入，不推测其余小组名次。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026汤姆斯杯暨尤伯杯",
+      "snapshot_at": "2026-11-11T11:15:57+08:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/Copenhagen"
+    },
+    "draws": [
+      {
+        "id": "thomas",
+        "name": "汤姆斯杯（男团）"
+      },
+      {
+        "id": "uber",
+        "name": "尤伯杯（女团）"
+      }
+    ],
+    "teams": [
+      {
+        "id": "thomas-chn",
+        "draw": "thomas",
+        "team": "CHN",
+        "players": []
+      },
+      {
+        "id": "thomas-den",
+        "draw": "thomas",
+        "team": "DEN",
+        "players": []
+      },
+      {
+        "id": "thomas-eng",
+        "draw": "thomas",
+        "team": "ENG",
+        "players": []
+      },
+      {
+        "id": "thomas-fin",
+        "draw": "thomas",
+        "team": "FIN",
+        "players": []
+      },
+      {
+        "id": "thomas-fra",
+        "draw": "thomas",
+        "team": "FRA",
+        "players": []
+      },
+      {
+        "id": "thomas-ind",
+        "draw": "thomas",
+        "team": "IND",
+        "players": []
+      },
+      {
+        "id": "thomas-jpn",
+        "draw": "thomas",
+        "team": "JPN",
+        "players": []
+      },
+      {
+        "id": "thomas-mas",
+        "draw": "thomas",
+        "team": "MAS",
+        "players": []
+      },
+      {
+        "id": "thomas-tha",
+        "draw": "thomas",
+        "team": "THA",
+        "players": []
+      },
+      {
+        "id": "thomas-tpe",
+        "draw": "thomas",
+        "team": "TPE",
+        "players": []
+      },
+      {
+        "id": "uber-chn",
+        "draw": "uber",
+        "team": "CHN",
+        "players": []
+      },
+      {
+        "id": "uber-den",
+        "draw": "uber",
+        "team": "DEN",
+        "players": []
+      },
+      {
+        "id": "uber-ina",
+        "draw": "uber",
+        "team": "INA",
+        "players": []
+      },
+      {
+        "id": "uber-jpn",
+        "draw": "uber",
+        "team": "JPN",
+        "players": []
+      },
+      {
+        "id": "uber-kor",
+        "draw": "uber",
+        "team": "KOR",
+        "players": []
+      },
+      {
+        "id": "uber-mas",
+        "draw": "uber",
+        "team": "MAS",
+        "players": []
+      },
+      {
+        "id": "uber-rsa",
+        "draw": "uber",
+        "team": "RSA",
+        "players": []
+      },
+      {
+        "id": "uber-tha",
+        "draw": "uber",
+        "team": "THA",
+        "players": []
+      },
+      {
+        "id": "uber-tpe",
+        "draw": "uber",
+        "team": "TPE",
+        "players": []
+      },
+      {
+        "id": "uber-tur",
+        "draw": "uber",
+        "team": "TUR",
+        "players": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "nba-official",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf",
+        "label": "日本羽毛球协会官方结果：第1/7页淘汰签表，第3/10页B组赛果及名次",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      }
+    ],
+    "rules": {
+      "badminton": {
+        "best_of": 3,
+        "points": 21,
+        "win_by": 2,
+        "cap": 30
+      }
+    },
+    "stages": [
+      {
+        "id": "thomas-group",
+        "draw": "thomas",
+        "name": "小组赛（已核实B组）",
+        "kind": "group",
+        "mode": "play_all",
+        "order": [
+          {
+            "name": "第一单打",
+            "kind": "singles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第一双打",
+            "kind": "doubles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第二单打",
+            "kind": "singles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第二双打",
+            "kind": "doubles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第三单打",
+            "kind": "singles",
+            "rule": "badminton"
+          }
+        ]
+      },
+      {
+        "id": "thomas-knockout",
+        "draw": "thomas",
+        "name": "淘汰赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第一单打",
+            "kind": "singles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第一双打",
+            "kind": "doubles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第二单打",
+            "kind": "singles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第二双打",
+            "kind": "doubles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第三单打",
+            "kind": "singles",
+            "rule": "badminton"
+          }
+        ]
+      },
+      {
+        "id": "uber-group",
+        "draw": "uber",
+        "name": "小组赛（已核实B组）",
+        "kind": "group",
+        "mode": "play_all",
+        "order": [
+          {
+            "name": "第一单打",
+            "kind": "singles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第一双打",
+            "kind": "doubles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第二单打",
+            "kind": "singles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第二双打",
+            "kind": "doubles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第三单打",
+            "kind": "singles",
+            "rule": "badminton"
+          }
+        ]
+      },
+      {
+        "id": "uber-knockout",
+        "draw": "uber",
+        "name": "淘汰赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第一单打",
+            "kind": "singles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第一双打",
+            "kind": "doubles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第二单打",
+            "kind": "singles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第二双打",
+            "kind": "doubles",
+            "rule": "badminton"
+          },
+          {
+            "name": "第三单打",
+            "kind": "singles",
+            "rule": "badminton"
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": "thomas-b",
+        "stage": "thomas-group",
+        "name": "B组",
+        "teams": [
+          "thomas-jpn",
+          "thomas-mas",
+          "thomas-eng",
+          "thomas-fin"
+        ],
+        "standings": {
+          "order": [
+            "thomas-jpn",
+            "thomas-mas",
+            "thomas-eng",
+            "thomas-fin"
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-b",
+        "stage": "uber-group",
+        "name": "B组",
+        "teams": [
+          "uber-jpn",
+          "uber-mas",
+          "uber-tur",
+          "uber-rsa"
+        ],
+        "standings": {
+          "order": [
+            "uber-jpn",
+            "uber-mas",
+            "uber-tur",
+            "uber-rsa"
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      }
+    ],
+    "qualifications": [
+      {
+        "id": "thomas-chn-qualification",
+        "stage": "thomas-knockout",
+        "team": "thomas-chn",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "thomas-mas-qualification",
+        "stage": "thomas-knockout",
+        "team": "thomas-mas",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "thomas-tha-qualification",
+        "stage": "thomas-knockout",
+        "team": "thomas-tha",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "thomas-den-qualification",
+        "stage": "thomas-knockout",
+        "team": "thomas-den",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "thomas-fra-qualification",
+        "stage": "thomas-knockout",
+        "team": "thomas-fra",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "thomas-jpn-qualification",
+        "stage": "thomas-knockout",
+        "team": "thomas-jpn",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "thomas-ind-qualification",
+        "stage": "thomas-knockout",
+        "team": "thomas-ind",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "thomas-tpe-qualification",
+        "stage": "thomas-knockout",
+        "team": "thomas-tpe",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "uber-chn-qualification",
+        "stage": "uber-knockout",
+        "team": "uber-chn",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "uber-mas-qualification",
+        "stage": "uber-knockout",
+        "team": "uber-mas",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "uber-jpn-qualification",
+        "stage": "uber-knockout",
+        "team": "uber-jpn",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "uber-tha-qualification",
+        "stage": "uber-knockout",
+        "team": "uber-tha",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "uber-den-qualification",
+        "stage": "uber-knockout",
+        "team": "uber-den",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "uber-ina-qualification",
+        "stage": "uber-knockout",
+        "team": "uber-ina",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "uber-tpe-qualification",
+        "stage": "uber-knockout",
+        "team": "uber-tpe",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      },
+      {
+        "id": "uber-kor-qualification",
+        "stage": "uber-knockout",
+        "team": "uber-kor",
+        "label": "官方八强抽签签位",
+        "verification": {
+          "source_ids": [
+            "nba-official"
+          ],
+          "verified_at": "2026-11-11T11:15:57+08:00"
+        }
+      }
+    ],
+    "ties": [
+      {
+        "id": "thomas-b-1",
+        "stage": "thomas-group",
+        "group": "thomas-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "thomas-jpn"
+          },
+          {
+            "team": "thomas-mas"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-jpn",
+            "thomas-mas"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-b-2",
+        "stage": "thomas-group",
+        "group": "thomas-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "thomas-jpn"
+          },
+          {
+            "team": "thomas-eng"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-jpn",
+            "thomas-eng"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-b-3",
+        "stage": "thomas-group",
+        "group": "thomas-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "thomas-jpn"
+          },
+          {
+            "team": "thomas-fin"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-jpn",
+            "thomas-fin"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-b-4",
+        "stage": "thomas-group",
+        "group": "thomas-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "thomas-mas"
+          },
+          {
+            "team": "thomas-eng"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-mas",
+            "thomas-eng"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-b-5",
+        "stage": "thomas-group",
+        "group": "thomas-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "thomas-mas"
+          },
+          {
+            "team": "thomas-fin"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-mas",
+            "thomas-fin"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-b-6",
+        "stage": "thomas-group",
+        "group": "thomas-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "thomas-eng"
+          },
+          {
+            "team": "thomas-fin"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-eng",
+            "thomas-fin"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-qf-1",
+        "stage": "thomas-knockout",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "qualified": "thomas-chn-qualification"
+          },
+          {
+            "qualified": "thomas-mas-qualification"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-chn",
+            "thomas-mas"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-qf-2",
+        "stage": "thomas-knockout",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "qualified": "thomas-tha-qualification"
+          },
+          {
+            "qualified": "thomas-den-qualification"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-tha",
+            "thomas-den"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-qf-3",
+        "stage": "thomas-knockout",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "qualified": "thomas-fra-qualification"
+          },
+          {
+            "qualified": "thomas-jpn-qualification"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-fra",
+            "thomas-jpn"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-qf-4",
+        "stage": "thomas-knockout",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "qualified": "thomas-ind-qualification"
+          },
+          {
+            "qualified": "thomas-tpe-qualification"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-ind",
+            "thomas-tpe"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-sf-1",
+        "stage": "thomas-knockout",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "thomas-qf-1"
+          },
+          {
+            "winner": "thomas-qf-2"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-chn",
+            "thomas-den"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-sf-2",
+        "stage": "thomas-knockout",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "thomas-qf-3"
+          },
+          {
+            "winner": "thomas-qf-4"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-fra",
+            "thomas-ind"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-final-1",
+        "stage": "thomas-knockout",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "thomas-sf-1"
+          },
+          {
+            "winner": "thomas-sf-2"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-chn",
+            "thomas-fra"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-b-1",
+        "stage": "uber-group",
+        "group": "uber-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "uber-jpn"
+          },
+          {
+            "team": "uber-mas"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-jpn",
+            "uber-mas"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-b-2",
+        "stage": "uber-group",
+        "group": "uber-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "uber-jpn"
+          },
+          {
+            "team": "uber-tur"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-jpn",
+            "uber-tur"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-b-3",
+        "stage": "uber-group",
+        "group": "uber-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "uber-jpn"
+          },
+          {
+            "team": "uber-rsa"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-jpn",
+            "uber-rsa"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-b-4",
+        "stage": "uber-group",
+        "group": "uber-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "uber-mas"
+          },
+          {
+            "team": "uber-tur"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-mas",
+            "uber-tur"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-b-5",
+        "stage": "uber-group",
+        "group": "uber-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "uber-mas"
+          },
+          {
+            "team": "uber-rsa"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-mas",
+            "uber-rsa"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-b-6",
+        "stage": "uber-group",
+        "group": "uber-b",
+        "round": "B组",
+        "slots": [
+          {
+            "team": "uber-tur"
+          },
+          {
+            "team": "uber-rsa"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-tur",
+            "uber-rsa"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-qf-1",
+        "stage": "uber-knockout",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "qualified": "uber-chn-qualification"
+          },
+          {
+            "qualified": "uber-mas-qualification"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-chn",
+            "uber-mas"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-qf-2",
+        "stage": "uber-knockout",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "qualified": "uber-jpn-qualification"
+          },
+          {
+            "qualified": "uber-tha-qualification"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-jpn",
+            "uber-tha"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-qf-3",
+        "stage": "uber-knockout",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "qualified": "uber-den-qualification"
+          },
+          {
+            "qualified": "uber-ina-qualification"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-den",
+            "uber-ina"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-qf-4",
+        "stage": "uber-knockout",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "qualified": "uber-tpe-qualification"
+          },
+          {
+            "qualified": "uber-kor-qualification"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-tpe",
+            "uber-kor"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-sf-1",
+        "stage": "uber-knockout",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "uber-qf-1"
+          },
+          {
+            "winner": "uber-qf-2"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-chn",
+            "uber-jpn"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-sf-2",
+        "stage": "uber-knockout",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "uber-qf-3"
+          },
+          {
+            "winner": "uber-qf-4"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-ina",
+            "uber-kor"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-final-1",
+        "stage": "uber-knockout",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "uber-sf-1"
+          },
+          {
+            "winner": "uber-sf-2"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-chn",
+            "uber-kor"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "nba-official"
+            ],
+            "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      }
+    ]
+  }
+}
