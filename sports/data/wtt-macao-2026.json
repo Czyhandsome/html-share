@@ -9,15 +9,15 @@
   "output": "docs/2026/09/20260908-wtt-macao-2026/index.html",
   "notices": [
     "9月8–13日 · 澳门东亚运动会体育馆。完整男女单打签表，各32签、31场。",
-    "赛事已结束。本页是部分核验档案，不是实时赛况；待核实不表示比赛未举行。",
-    "官方完整逐局证据覆盖47场；其中29场上游链路闭合并录入终局，其余18场因上游尚未核全，暂不填入终局。",
-    "首轮签位与代表队依据9月6日官方抽签公告。未凭聚合网站或仅有总分的报道推定终局；未补造比赛时间。"
+    "赛事已结束。本页为已核验的完整男女单打赛果档案，62场均有完整逐局记录。",
+    "全部62场均依据官方完整逐局或两个独立来源交叉核验，双方参赛身份及晋级链路已逐场闭合。",
+    "首轮签位与代表队依据9月6日官方抽签公告。赛果采用官方完整逐局或两个独立来源交叉核验；未凭仅有总分的报道推定终局，未补造比赛时间。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 澳门冠军赛",
-      "snapshot_at": "2026-11-11T09:58:21+08:00",
+      "snapshot_at": "2026-11-11T10:43:59+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Macau"
     },
@@ -434,6 +434,118 @@
         "label": "澳门特区政府体育局：参赛球员中文姓名",
         "kind": "official",
         "family": "gov.mo"
+      },
+      {
+        "id": "cbtm-calderano-lum",
+        "url": "https://cbtm.org.br/noticia/detalhe/103274/hugo-calderano-supera-nicholas-lum-e-avanca-no-wtt-champions-macau",
+        "kind": "official",
+        "family": "cbtm",
+        "label": "cbtm · 澳门逐局赛果"
+      },
+      {
+        "id": "cbtm-goda-bruna",
+        "url": "https://cbtm.org.br/noticias/bruna-takahashi-e-superada-por-hana-goda-no-wtt-champions-macau",
+        "kind": "official",
+        "family": "cbtm",
+        "label": "cbtm · 澳门逐局赛果"
+      },
+      {
+        "id": "ntzs-jorgic-feng",
+        "url": "https://ntzs.si/2026/09/09/darko-jorgic-turnir-prvakov-v-macau-zacel-z-zmago/",
+        "kind": "official",
+        "family": "ntzs",
+        "label": "ntzs · 澳门逐局赛果"
+      },
+      {
+        "id": "macao-d11-pt",
+        "url": "https://www.gov.mo/pt/noticias/844425/",
+        "kind": "official",
+        "family": "macao-sports-bureau",
+        "label": "macao-sports-bureau · 澳门逐局赛果"
+      },
+      {
+        "id": "realtt-macao",
+        "url": "https://real-tt.com/en/blog/tournaments/wtt-champions-macao-2026/",
+        "kind": "independent",
+        "family": "wtt",
+        "label": "wtt · 澳门逐局赛果"
+      },
+      {
+        "id": "starsport-pucar-rassenfosse",
+        "url": "https://starsporttv.be/content/wtt-series-adrien-rassenfosse-raakt-niet-voorbij-eerste-ronde-in-macau",
+        "kind": "independent",
+        "family": "belga-starsporttv",
+        "label": "belga-starsporttv · 澳门逐局赛果"
+      },
+      {
+        "id": "dicodusport-coton-lin",
+        "url": "https://dicodusport.fr/blog/flavien-coton-se-paye-le-n6-mondial-dentree-de-jeu-au-wtt-champions-de-macao/",
+        "kind": "independent",
+        "family": "dicodusport-editorial",
+        "label": "dicodusport-editorial · 澳门逐局赛果"
+      },
+      {
+        "id": "mytt-duda-kuo",
+        "url": "https://www.mytischtennis.de/news/top-sport/fluch-gebrochen-duda-besiegt-kuo-guan-hong-mit-3-0",
+        "kind": "independent",
+        "family": "mytischtennis-editorial",
+        "label": "mytischtennis-editorial · 澳门逐局赛果"
+      },
+      {
+        "id": "dicodusport-alexis-thakkar",
+        "url": "https://dicodusport.fr/blog/alexis-lebrun-franchit-le-premier-tour-du-wtt-champions-de-macao-2026-sans-trembler/",
+        "kind": "independent",
+        "family": "dicodusport-editorial",
+        "label": "dicodusport-editorial · 澳门逐局赛果"
+      },
+      {
+        "id": "lequipe-yuan-polcanova",
+        "url": "https://www.lequipe.fr/Tennis-de-table/Actualites/A-la-fois-si-proche-et-si-loin-de-sofia-polcanova-jia-nan-yuan-s-incline-au-premier-tour-du-wtt-de-macao/1717306",
+        "kind": "independent",
+        "family": "lequipe-editorial",
+        "label": "lequipe-editorial · 澳门逐局赛果"
+      },
+      {
+        "id": "mytt-winter-szocs",
+        "url": "https://www.mytischtennis.de/news/top-sport/fruhes-aus-fur-winter-szocs-beendet-pleite-serie",
+        "kind": "independent",
+        "family": "mytischtennis-editorial",
+        "label": "mytischtennis-editorial · 澳门逐局赛果"
+      },
+      {
+        "id": "macao-d11-zh",
+        "url": "https://www.gcs.gov.mo/news/detail/zh-hans/N26IKs08if",
+        "kind": "official",
+        "family": "macao-sports-bureau",
+        "label": "macao-sports-bureau · 澳门逐局赛果"
+      },
+      {
+        "id": "dicodusport-pavade-bajor",
+        "url": "https://dicodusport.fr/blog/la-mauvaise-surprise-pour-prithika-pavade-eliminee-dentree-au-wtt-champions-de-macao/",
+        "kind": "independent",
+        "family": "dicodusport-editorial",
+        "label": "dicodusport-editorial · 澳门逐局赛果"
+      },
+      {
+        "id": "ttfr-abrahamian-liu",
+        "url": "https://ttfr.ru/news/4539",
+        "kind": "official",
+        "family": "ttfr.ru",
+        "label": "ttfr.ru · 澳门逐局赛果"
+      },
+      {
+        "id": "wtt-weibo-zhang",
+        "url": "https://weibo.com/2/detail/5341231525661638",
+        "kind": "official",
+        "family": "wtt",
+        "label": "wtt · 澳门逐局赛果"
+      },
+      {
+        "id": "shorouk-meshref-zhang",
+        "url": "https://www.shorouknews.com/news/view.aspx?cdate=11092026&id=cce8afc0-01a7-43dd-8aee-86432c99c411",
+        "kind": "independent",
+        "family": "shorouk-editorial",
+        "label": "shorouk-editorial · 澳门逐局赛果"
       }
     ],
     "rules": {
@@ -560,8 +672,37 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p5",
+          "men-p6"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "completed_date": "2026-09-09",
+        "verification": {
+          "source_ids": [
+            "realtt-macao",
+            "starsport-pucar-rassenfosse"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "men-r32-3",
@@ -576,8 +717,32 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p7",
+          "men-p8"
+        ],
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-09-08",
+        "verification": {
+          "source_ids": [
+            "cbtm-calderano-lum"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "men-r32-4",
@@ -592,8 +757,41 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p9",
+          "men-p10"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-09-08",
+        "verification": {
+          "source_ids": [
+            "realtt-macao",
+            "dicodusport-coton-lin"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "men-r32-5",
@@ -648,8 +846,33 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p13",
+          "men-p14"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "completed_date": "2026-09-10",
+        "verification": {
+          "source_ids": [
+            "realtt-macao",
+            "mytt-duda-kuo"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "men-r32-7",
@@ -664,8 +887,37 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p15",
+          "men-p16"
+        ],
+        "games": [
+          [
+            12,
+            14
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            3,
+            11
+          ]
+        ],
+        "completed_date": "2026-09-09",
+        "verification": {
+          "source_ids": [
+            "realtt-macao",
+            "dicodusport-alexis-thakkar"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "men-r32-8",
@@ -680,8 +932,32 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p17",
+          "men-p18"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "completed_date": "2026-09-09",
+        "verification": {
+          "source_ids": [
+            "ntzs-jorgic-feng"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "men-r32-9",
@@ -1048,8 +1324,36 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p5",
+          "men-p8"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            3,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d10"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-10"
       },
       {
         "id": "men-r16-2",
@@ -1064,8 +1368,32 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p10",
+          "men-p11"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d10"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-10"
       },
       {
         "id": "men-r16-3",
@@ -1080,8 +1408,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p14",
+          "men-p16"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "completed_date": "2026-09-11",
+        "verification": {
+          "source_ids": [
+            "macao-d11-zh"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "men-r16-4",
@@ -1096,8 +1456,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p17",
+          "men-p20"
+        ],
+        "games": [
+          [
+            11,
+            4
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d11"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-11"
       },
       {
         "id": "men-r16-5",
@@ -1240,8 +1632,44 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p1",
+          "men-p8"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            12,
+            14
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d12"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-12"
       },
       {
         "id": "men-qf-1",
@@ -1256,8 +1684,48 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p11",
+          "men-p16"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "swe12"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-12"
       },
       {
         "id": "men-qf-2",
@@ -1272,8 +1740,44 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p17",
+          "men-p24"
+        ],
+        "games": [
+          [
+            17,
+            15
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "swe12"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-12"
       },
       {
         "id": "men-qf-3",
@@ -1336,8 +1840,36 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p8",
+          "men-p11"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d13"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-13"
       },
       {
         "id": "men-sf-1",
@@ -1352,8 +1884,48 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p24",
+          "men-p32"
+        ],
+        "games": [
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            16,
+            14
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d13"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-13"
       },
       {
         "id": "men-final-0",
@@ -1368,8 +1940,40 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "men-p8",
+          "men-p24"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d13"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-13"
       },
       {
         "id": "women-r32-0",
@@ -1464,8 +2068,37 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p5",
+          "women-p6"
+        ],
+        "games": [
+          [
+            10,
+            12
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "completed_date": "2026-09-09",
+        "verification": {
+          "source_ids": [
+            "realtt-macao",
+            "lequipe-yuan-polcanova"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "women-r32-3",
@@ -1480,8 +2113,37 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p7",
+          "women-p8"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "completed_date": "2026-09-09",
+        "verification": {
+          "source_ids": [
+            "realtt-macao",
+            "mytt-winter-szocs"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "women-r32-4",
@@ -1540,8 +2202,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p11",
+          "women-p12"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            13
+          ]
+        ],
+        "completed_date": "2026-09-09",
+        "verification": {
+          "source_ids": [
+            "wtt-weibo-zhang"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "women-r32-6",
@@ -1556,8 +2250,36 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p13",
+          "women-p14"
+        ],
+        "games": [
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "completed_date": "2026-09-09",
+        "verification": {
+          "source_ids": [
+            "cbtm-goda-bruna"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "women-r32-7",
@@ -1828,8 +2550,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p27",
+          "women-p28"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "completed_date": "2026-09-08",
+        "verification": {
+          "source_ids": [
+            "ttfr-abrahamian-liu"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "women-r32-14",
@@ -1844,8 +2598,37 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p29",
+          "women-p30"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "completed_date": "2026-09-09",
+        "verification": {
+          "source_ids": [
+            "realtt-macao",
+            "dicodusport-pavade-bajor"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "women-r32-15",
@@ -1948,8 +2731,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p6",
+          "women-p7"
+        ],
+        "games": [
+          [
+            3,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d10"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-10"
       },
       {
         "id": "women-r16-2",
@@ -1964,8 +2779,33 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p10",
+          "women-p12"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            17,
+            15
+          ]
+        ],
+        "completed_date": "2026-09-11",
+        "verification": {
+          "source_ids": [
+            "shorouk-meshref-zhang",
+            "realtt-macao"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "women-r16-3",
@@ -1980,8 +2820,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p13",
+          "women-p16"
+        ],
+        "games": [
+          [
+            11,
+            3
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d11"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-11"
       },
       {
         "id": "women-r16-4",
@@ -2092,8 +2964,36 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p25",
+          "women-p28"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d11"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-11"
       },
       {
         "id": "women-r16-7",
@@ -2108,8 +3008,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p30",
+          "women-p31"
+        ],
+        "games": [
+          [
+            14,
+            12
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "completed_date": "2026-09-11",
+        "verification": {
+          "source_ids": [
+            "macao-d11-pt"
+          ],
+          "verified_at": "2026-11-11T10:43:59+08:00"
+        }
       },
       {
         "id": "women-qf-0",
@@ -2124,8 +3056,40 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p1",
+          "women-p7"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-12"
       },
       {
         "id": "women-qf-1",
@@ -2140,8 +3104,36 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p10",
+          "women-p16"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            13,
+            15
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d12"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-12"
       },
       {
         "id": "women-qf-2",
@@ -2204,8 +3196,36 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p25",
+          "women-p31"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d12"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-12"
       },
       {
         "id": "women-sf-0",
@@ -2220,8 +3240,40 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p1",
+          "women-p16"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d13"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-13"
       },
       {
         "id": "women-sf-1",
@@ -2236,8 +3288,48 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p24",
+          "women-p25"
+        ],
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d13"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-13"
       },
       {
         "id": "women-final-0",
@@ -2252,8 +3344,48 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p1",
+          "women-p25"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d13"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-13"
       }
     ]
   }
