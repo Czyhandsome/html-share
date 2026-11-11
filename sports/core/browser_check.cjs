@@ -181,6 +181,77 @@ async function checkConnectedBracket(page, groupFixture = false) {
     }
 }
 
+async function checkTeamBracket(page, fixture = false) {
+    const board = page.locator('#team-bracket');
+    const tabs = board.getByRole('tab');
+    const panels = board.getByRole('tabpanel');
+    const dialog = page.getByRole('dialog');
+    const focus = board.getByRole('button', {name: '突出中国队'});
+    const tie = id => board.locator(`[data-team-tie=${JSON.stringify(id)}]`);
+
+    assert.equal(await tabs.first().getAttribute('aria-selected'), 'true');
+    assert.equal(await panels.count(), 1);
+    if (fixture) {
+        await page.locator('.group[data-group="thomas-a"] summary').click();
+        await page.locator('.group[data-group="thomas-b"] summary').click();
+        assert.equal(await page.getByRole('table', {name: 'A组排名'}).count(), 1);
+        assert.deepEqual(await tie('thomas-group-1').locator('.score').allTextContents(), ['5', '0']);
+        await tie('thomas-group-1').press('Enter');
+        assert.ok(await dialog.isVisible());
+        assert.match(await dialog.locator('.rubber').first().innerText(), /CHN 示例选手甲.*JPN 示例选手甲/s);
+        assert.match(await dialog.locator('.rubber').first().innerText(), /21–17 · 21–18/);
+        assert.ok(await dialog.getByRole('link').count() > 0);
+        await page.keyboard.press('Escape');
+        assert.equal(await dialog.isVisible(), false);
+        assert.ok(await tie('thomas-group-1').evaluate(card => document.activeElement === card));
+        await tie('thomas-final-1').click();
+        assert.equal(await dialog.locator('.rubber[data-status="not_played"]').count(), 2);
+        await dialog.getByRole('button', {name: '关闭详情'}).click();
+
+        await focus.click();
+        assert.equal(await focus.getAttribute('aria-pressed'), 'true');
+        assert.equal(await tie('thomas-group-1').evaluate(card => getComputedStyle(card).opacity), '1');
+        assert.equal(await tie('thomas-group-2').evaluate(card => getComputedStyle(card).opacity), '0.28');
+        assert.equal(await tie('thomas-title').evaluate(card => getComputedStyle(card).opacity), '1');
+        await focus.click();
+        assert.equal(await focus.getAttribute('aria-pressed'), 'false');
+
+        await tabs.first().press('ArrowRight');
+        assert.equal(await tabs.nth(1).getAttribute('aria-selected'), 'true');
+        assert.equal(await tie('thomas-final-1').isVisible(), false);
+        await tabs.nth(1).press('ArrowRight');
+        await tie('asian-sf-1').click();
+        assert.match(await dialog.locator('.partial').innerText(), /官方总比分已核实/);
+        assert.equal(await dialog.locator('.rubber[data-status="unverified"]').count(), 4);
+        assert.match(await dialog.locator('.rubber[data-position="2"] .lineup-side').first().innerText(), /／/);
+        await page.keyboard.press('Escape');
+        await tabs.last().click();
+        const stages = await panels.locator('.stage h2').allTextContents();
+        assert.deepEqual(stages, ['资格小组（1B）', '资格附加赛', '种子小组（1A）', '正赛']);
+        assert.deepEqual(await tie('london-main-1').locator('.player .name').allTextContents(), ['韩国', '英格兰']);
+        const qualifications = panels.locator('[data-stage="london-main"] .qualifications');
+        await qualifications.locator('summary').click();
+        assert.match(await qualifications.locator('li').first().innerText(), /韩国/);
+        assert.ok(await qualifications.getByRole('link').count() > 0);
+        await tabs.first().click();
+    }
+
+    const flags = await board.locator('img.flag:visible').evaluateAll(images =>
+        images.map(image => image.complete && image.naturalWidth > 0 && image.src.startsWith('data:image/svg+xml')));
+    assert.ok(flags.every(Boolean), 'team flags should be available offline');
+    if (fixture) assert.ok(flags.length > 0);
+    await page.setViewportSize({width: 390, height: 844});
+    await page.waitForFunction(() => document.documentElement.scrollWidth <= innerWidth);
+    if (fixture) {
+        assert.ok(await board.locator('.board-scroll:visible').last().evaluate(area => area.scrollWidth > area.clientWidth));
+        await tie('thomas-final-1').click();
+        assert.ok(await dialog.isVisible());
+        const bounds = await dialog.boundingBox();
+        assert.ok(bounds.x >= 0 && bounds.x + bounds.width <= 390);
+        await dialog.getByRole('button', {name: '关闭详情'}).click();
+    }
+}
+
 async function main() {
     const browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH || undefined});
     const scratch = fs.mkdtempSync(path.join(os.tmpdir(), 'sports-browser-'));
@@ -203,6 +274,8 @@ async function main() {
             assert.ok(await page.title(), link);
             const connected = /\/(?:WTT-(?:Frankfurt|Montpellier)-2026\.html|20261110-2200-kumamoto-masters-2026\/index\.html)$/.test(new URL(link).pathname);
             const hasBracket = await page.locator('#wtt-data').count();
+            const hasTeamBracket = await page.locator('#team-bracket').count();
+            if (hasTeamBracket) await checkTeamBracket(page);
             if (connected || hasBracket) {
                 await checkConnectedBracket(page);
                 brackets++;
@@ -210,7 +283,7 @@ async function main() {
             const backLink = page.getByRole('link', {name: '返回赛事', exact: false});
             const back = await backLink.evaluate(anchor => anchor.href);
             await backLink.click();
-            assert.equal(page.url(), connected || !hasBracket ? index : back);
+            assert.equal(page.url(), connected || (!hasBracket && !hasTeamBracket) ? index : back);
         }
         const example = path.join(scratch, 'groups-knockout.html');
         execFileSync(process.env.PYTHON || 'python3', ['sports/core/bracketkit.py',
@@ -219,8 +292,14 @@ async function main() {
         await page.setViewportSize(desktopViewport);
         await page.goto(pathToFileURL(example).href);
         await checkConnectedBracket(page, true);
+        const teamExample = path.join(scratch, 'team-bracket.html');
+        execFileSync(process.env.PYTHON || 'python3', ['-m', 'sports.core.team_bracket',
+            'sports/core/examples/team-bracket.json', '-o', teamExample], {cwd: root});
+        await page.setViewportSize(desktopViewport);
+        await page.goto(pathToFileURL(teamExample).href);
+        await checkTeamBracket(page, true);
         assert.deepEqual(errors, []);
-        console.log(`Browser checks passed: ${links.length} tournament links, ${brackets} live brackets and the group-to-knockout example`);
+        console.log(`Browser checks passed: ${links.length} tournament links, ${brackets} live brackets plus group-to-knockout and team examples`);
     } finally {
         await browser.close();
         fs.rmSync(scratch, {recursive: true, force: true});

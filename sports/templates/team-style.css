@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #203832;
+  background: #f0f0e7;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+button { font: inherit; color: inherit; cursor: pointer; }
+a { color: #146552; overflow-wrap: anywhere; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid #177862; outline-offset: 3px; }
+main { max-width: 1360px; margin: auto; padding: 32px clamp(14px, 4vw, 54px) 42px; }
+header { padding-bottom: 17px; border-bottom: 1px solid #d6ddd0; }
+h1 { font-size: clamp(28px, 5vw, 50px); margin: 12px 0 4px; overflow-wrap: anywhere; }
+.snapshot { margin: 0; color: #54675a; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 16px 0; flex-wrap: wrap; }
+[role=tablist] { display: flex; flex-wrap: wrap; gap: 5px; }
+[role=tab], .focus, dialog form button { background: #fafbf7; border: 1px solid #cbd6c8; border-radius: 30px; padding: 7px 12px; }
+[aria-selected=true], .focus[aria-pressed=true] { background: #203832; border-color: #203832; color: #fff; }
+.stage { margin: 20px 0 28px; }
+.stage h2 { margin: 0 0 10px; font-size: 22px; }
+.board-scroll { overflow-x: auto; max-width: 100%; padding: 4px 4px 8px; }
+.board-width { position: relative; }
+.rounds { position: relative; height: 30px; color: #54675a; font-weight: 650; }
+.rounds span { position: absolute; }
+.board { position: relative; }
+.wires { position: absolute; inset: 0; width: 100%; height: 100%; fill: none; stroke: #a4b3a1; stroke-width: 2; }
+.tie-card { display: block; width: 100%; min-width: 0; padding: 7px 12px; text-align: left; background: #fafbf7; border: 1px solid #d8e0d5; border-radius: 10px; }
+.board .tie-card { position: absolute; height: 88px; }
+.tie-card:hover { border-color: #348670; }
+.focus-china .known-no-cn { opacity: .28; }
+.player { display: flex; align-items: center; min-width: 0; gap: 6px; line-height: 24px; }
+.player.winner, .lineup-side.winner { color: #146552; font-weight: 750; }
+.player .name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.flag { width: 27px; height: 19px; flex: none; object-fit: contain; background: white; border-radius: 2px; }
+.team-badge { font-size: 12px; line-height: 16px; padding: 0 4px; background: #f5e4dd; color: #993d2f; border-radius: 3px; flex: none; }
+.team-badge.neutral { color: #52645b; background: #e8eee6; }
+.score { margin-left: auto; flex: none; font-variant-numeric: tabular-nums; }
+.tie-meta { display: flex; justify-content: space-between; font-size: 12px; color: #54675a; }
+details { background: #f8faf4; border: 1px solid #d6ddd0; border-radius: 9px; padding: 9px 12px; }
+details + details { margin-top: 7px; }
+summary { cursor: pointer; font-weight: 650; }
+summary small { margin-left: 9px; color: #54675a; font-weight: 400; }
+table { width: 100%; border-collapse: collapse; text-align: left; margin: 9px 0; }
+th, td { border-bottom: 1px solid #dfe5dc; padding: 3px 6px; }
+th:first-child { width: 60px; }
+.group-ties { display: grid; gap: 7px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); }
+.evidence, .pending { color: #54675a; font-size: 14px; }
+.evidence:empty { display: none; }
+dialog { width: min(660px, calc(100% - 28px)); max-height: calc(100% - 28px); overflow: auto; padding: 17px 20px; background: #fbfcf8; color: inherit; border: 1px solid #cbd6c8; border-radius: 12px; }
+dialog::backdrop { background: #14262090; }
+dialog form { display: flex; justify-content: end; }
+dialog h2 { margin: 5px 0 9px; overflow-wrap: anywhere; }
+dialog p { margin: 7px 0; }
+.tie-result strong { color: #146552; font-size: 20px; }
+.partial { color: #705523; }
+.rubbers { margin: 12px 0 0; padding: 0; list-style: none; }
+.rubber { border-top: 1px solid #d6ddd0; padding: 8px 0; }
+.rubber h3 { font-size: 16px; margin: 0 0 5px; }
+.rubber small { margin-left: 9px; color: #54675a; font-weight: 400; }
+.lineup { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; align-items: baseline; gap: 8px; }
+.lineup-side { overflow-wrap: anywhere; }
+.rubber-score, .games { font-variant-numeric: tabular-nums; }
+.rubber[data-status=not_played] { color: #54675a; }
+@media (max-width: 430px) {
+  .board-width { zoom: .83; }
+}
+@media (max-width: 340px) {
+  .board-width { zoom: .75; }
+}

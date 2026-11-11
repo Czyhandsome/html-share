@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'">
+  <link rel="icon" href="data:,">
+  <title>{{title}}</title>
+  <style>
+{{styles}}
+  </style>
+</head>
+<body>
+  <main id="team-bracket">
+    <header>
+      <a class="back-link" href="{{back_link}}">← 返回赛事首页</a>
+      <h1>{{title}}</h1>
+      <p class="snapshot">{{snapshot}}</p>
+    </header>
+    <nav class="toolbar" aria-label="签表控制">
+      <div role="tablist" aria-label="项目">{{tabs}}</div>
+      <button type="button" class="focus" aria-pressed="false">突出中国队</button>
+    </nav>
+    {{panels}}
+    <details class="sources">
+      <summary>查看核验来源与时间说明</summary>
+      {{sources}}
+    </details>
+  </main>
+  <dialog id="tie-dialog" aria-labelledby="tie-heading">
+    <form method="dialog"><button type="submit" autofocus>关闭详情</button></form>
+    <div id="tie-detail"></div>
+  </dialog>
+  {{details}}
+  <script>
+{{interaction}}
+  </script>
+{{flag_credit}}
+</body>
+</html>

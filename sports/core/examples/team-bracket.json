@@ -1,0 +1,670 @@
+{
+  "id": "demo-team-bracket",
+  "kind": "team-bracket-v1",
+  "output": "docs/team-bracket-example/index.html",
+  "event_dates": {"start": "2026-11-09", "end": "2026-11-10"},
+  "notices": ["四个项目使用虚构阵容和赛果演示录入格式。"],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "乒羽团体赛录入示例（虚构）",
+      "snapshot_at": "2026-11-10T12:00:00+08:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/London"
+    },
+    "draws": [
+      {"id": "thomas", "name": "汤杯赛制示例"},
+      {"id": "uber", "name": "尤杯赛制示例"},
+      {"id": "asian", "name": "亚运羽毛球团体赛制示例"},
+      {"id": "london", "name": "伦敦世乒赛团体赛制示例"}
+    ],
+    "teams": [
+      {
+        "id": "thomas-cn",
+        "draw": "thomas",
+        "team": "CHN",
+        "players": [
+          {"id": "thomas-cn-1", "name": "CHN 示例选手甲"},
+          {"id": "thomas-cn-2", "name": "CHN 示例选手乙"},
+          {"id": "thomas-cn-3", "name": "CHN 示例选手丙"},
+          {"id": "thomas-cn-4", "name": "CHN 示例选手丁"}
+        ]
+      },
+      {
+        "id": "thomas-jp",
+        "draw": "thomas",
+        "team": "JPN",
+        "players": [
+          {"id": "thomas-jp-1", "name": "JPN 示例选手甲"},
+          {"id": "thomas-jp-2", "name": "JPN 示例选手乙"},
+          {"id": "thomas-jp-3", "name": "JPN 示例选手丙"},
+          {"id": "thomas-jp-4", "name": "JPN 示例选手丁"}
+        ]
+      },
+      {
+        "id": "thomas-kr",
+        "draw": "thomas",
+        "team": "KOR",
+        "players": [
+          {"id": "thomas-kr-1", "name": "KOR 示例选手甲"},
+          {"id": "thomas-kr-2", "name": "KOR 示例选手乙"},
+          {"id": "thomas-kr-3", "name": "KOR 示例选手丙"},
+          {"id": "thomas-kr-4", "name": "KOR 示例选手丁"}
+        ]
+      },
+      {
+        "id": "thomas-dk",
+        "draw": "thomas",
+        "team": "DEN",
+        "players": [
+          {"id": "thomas-dk-1", "name": "DEN 示例选手甲"},
+          {"id": "thomas-dk-2", "name": "DEN 示例选手乙"},
+          {"id": "thomas-dk-3", "name": "DEN 示例选手丙"},
+          {"id": "thomas-dk-4", "name": "DEN 示例选手丁"}
+        ]
+      },
+      {
+        "id": "uber-cn",
+        "draw": "uber",
+        "team": "CHN",
+        "players": [
+          {"id": "uber-cn-1", "name": "CHN 示例选手甲"},
+          {"id": "uber-cn-2", "name": "CHN 示例选手乙"},
+          {"id": "uber-cn-3", "name": "CHN 示例选手丙"},
+          {"id": "uber-cn-4", "name": "CHN 示例选手丁"}
+        ]
+      },
+      {
+        "id": "uber-jp",
+        "draw": "uber",
+        "team": "JPN",
+        "players": [
+          {"id": "uber-jp-1", "name": "JPN 示例选手甲"},
+          {"id": "uber-jp-2", "name": "JPN 示例选手乙"},
+          {"id": "uber-jp-3", "name": "JPN 示例选手丙"},
+          {"id": "uber-jp-4", "name": "JPN 示例选手丁"}
+        ]
+      },
+      {
+        "id": "uber-fr",
+        "draw": "uber",
+        "team": "FRA",
+        "players": [
+          {"id": "uber-fr-1", "name": "FRA 示例选手甲"},
+          {"id": "uber-fr-2", "name": "FRA 示例选手乙"},
+          {"id": "uber-fr-3", "name": "FRA 示例选手丙"},
+          {"id": "uber-fr-4", "name": "FRA 示例选手丁"}
+        ]
+      },
+      {
+        "id": "asian-cn",
+        "draw": "asian",
+        "team": "CHN",
+        "players": [
+          {"id": "asian-cn-1", "name": "CHN 示例选手甲"},
+          {"id": "asian-cn-2", "name": "CHN 示例选手乙"},
+          {"id": "asian-cn-3", "name": "CHN 示例选手丙"},
+          {"id": "asian-cn-4", "name": "CHN 示例选手丁"}
+        ]
+      },
+      {
+        "id": "asian-id",
+        "draw": "asian",
+        "team": "INA",
+        "players": [
+          {"id": "asian-id-1", "name": "INA 示例选手甲"},
+          {"id": "asian-id-2", "name": "INA 示例选手乙"},
+          {"id": "asian-id-3", "name": "INA 示例选手丙"},
+          {"id": "asian-id-4", "name": "INA 示例选手丁"}
+        ]
+      },
+      {
+        "id": "asian-jp",
+        "draw": "asian",
+        "team": "JPN",
+        "players": [
+          {"id": "asian-jp-1", "name": "JPN 示例选手甲"},
+          {"id": "asian-jp-2", "name": "JPN 示例选手乙"},
+          {"id": "asian-jp-3", "name": "JPN 示例选手丙"},
+          {"id": "asian-jp-4", "name": "JPN 示例选手丁"}
+        ]
+      },
+      {
+        "id": "london-cn",
+        "draw": "london",
+        "team": "CHN",
+        "players": [
+          {"id": "london-cn-1", "name": "CHN 示例选手甲"},
+          {"id": "london-cn-2", "name": "CHN 示例选手乙"},
+          {"id": "london-cn-3", "name": "CHN 示例选手丙"}
+        ]
+      },
+      {
+        "id": "london-se",
+        "draw": "london",
+        "team": "SWE",
+        "players": [
+          {"id": "london-se-1", "name": "SWE 示例选手甲"},
+          {"id": "london-se-2", "name": "SWE 示例选手乙"},
+          {"id": "london-se-3", "name": "SWE 示例选手丙"}
+        ]
+      },
+      {
+        "id": "london-hk",
+        "draw": "london",
+        "team": "HKG",
+        "players": [
+          {"id": "london-hk-1", "name": "HKG 示例选手甲"},
+          {"id": "london-hk-2", "name": "HKG 示例选手乙"},
+          {"id": "london-hk-3", "name": "HKG 示例选手丙"}
+        ]
+      },
+      {
+        "id": "london-en",
+        "draw": "london",
+        "team": "ENG",
+        "players": [
+          {"id": "london-en-1", "name": "ENG 示例选手甲"},
+          {"id": "london-en-2", "name": "ENG 示例选手乙"},
+          {"id": "london-en-3", "name": "ENG 示例选手丙"}
+        ]
+      },
+      {
+        "id": "london-de",
+        "draw": "london",
+        "team": "GER",
+        "players": [
+          {"id": "london-de-1", "name": "GER 示例选手甲"},
+          {"id": "london-de-2", "name": "GER 示例选手乙"},
+          {"id": "london-de-3", "name": "GER 示例选手丙"}
+        ]
+      },
+      {
+        "id": "london-fr",
+        "draw": "london",
+        "team": "FRA",
+        "players": [
+          {"id": "london-fr-1", "name": "FRA 示例选手甲"},
+          {"id": "london-fr-2", "name": "FRA 示例选手乙"},
+          {"id": "london-fr-3", "name": "FRA 示例选手丙"}
+        ]
+      },
+      {
+        "id": "london-tw",
+        "draw": "london",
+        "team": "TPE",
+        "players": [
+          {"id": "london-tw-1", "name": "TPE 示例选手甲"},
+          {"id": "london-tw-2", "name": "TPE 示例选手乙"},
+          {"id": "london-tw-3", "name": "TPE 示例选手丙"}
+        ]
+      },
+      {
+        "id": "london-kr",
+        "draw": "london",
+        "team": "KOR",
+        "players": [
+          {"id": "london-kr-1", "name": "KOR 示例选手甲"},
+          {"id": "london-kr-2", "name": "KOR 示例选手乙"},
+          {"id": "london-kr-3", "name": "KOR 示例选手丙"}
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "demo",
+        "url": "https://example.com/fictional-team-results",
+        "label": "示例来源（虚构）",
+        "kind": "official",
+        "family": "example.com"
+      }
+    ],
+    "rules": {
+      "badminton": {"best_of": 3, "points": 21, "win_by": 2, "cap": 30},
+      "table-tennis": {"best_of": 5, "points": 11, "win_by": 2}
+    },
+    "stages": [
+      {
+        "id": "thomas-group",
+        "draw": "thomas",
+        "name": "小组赛",
+        "kind": "group",
+        "mode": "play_all",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第一双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第二单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第二双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第三单打", "kind": "singles", "rule": "badminton"}
+        ]
+      },
+      {
+        "id": "thomas-final",
+        "draw": "thomas",
+        "name": "淘汰赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第一双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第二单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第二双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第三单打", "kind": "singles", "rule": "badminton"}
+        ]
+      },
+      {
+        "id": "uber-group",
+        "draw": "uber",
+        "name": "小组赛",
+        "kind": "group",
+        "mode": "play_all",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第一双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第二单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第二双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第三单打", "kind": "singles", "rule": "badminton"}
+        ]
+      },
+      {
+        "id": "uber-final",
+        "draw": "uber",
+        "name": "淘汰赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第一双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第二单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第二双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第三单打", "kind": "singles", "rule": "badminton"}
+        ]
+      },
+      {
+        "id": "asian-knockout",
+        "draw": "asian",
+        "name": "淘汰赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第一双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第二单打", "kind": "singles", "rule": "badminton"},
+          {"name": "第二双打", "kind": "doubles", "rule": "badminton"},
+          {"name": "第三单打", "kind": "singles", "rule": "badminton"}
+        ]
+      },
+      {
+        "id": "london-qualification",
+        "draw": "london",
+        "name": "资格小组（1B）",
+        "kind": "group",
+        "mode": "first_to_three",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第二单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第三单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第四单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第五单打", "kind": "singles", "rule": "table-tennis"}
+        ]
+      },
+      {
+        "id": "london-playoff",
+        "draw": "london",
+        "name": "资格附加赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第二单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第三单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第四单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第五单打", "kind": "singles", "rule": "table-tennis"}
+        ]
+      },
+      {
+        "id": "london-seeding",
+        "draw": "london",
+        "name": "种子小组（1A）",
+        "kind": "group",
+        "mode": "first_to_three",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第二单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第三单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第四单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第五单打", "kind": "singles", "rule": "table-tennis"}
+        ]
+      },
+      {
+        "id": "london-main",
+        "draw": "london",
+        "name": "正赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {"name": "第一单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第二单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第三单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第四单打", "kind": "singles", "rule": "table-tennis"},
+          {"name": "第五单打", "kind": "singles", "rule": "table-tennis"}
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": "thomas-a",
+        "stage": "thomas-group",
+        "name": "A组",
+        "teams": ["thomas-cn", "thomas-jp"],
+        "standings": {
+          "order": ["thomas-cn", "thomas-jp"],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "thomas-b",
+        "stage": "thomas-group",
+        "name": "B组",
+        "teams": ["thomas-dk", "thomas-kr"],
+        "standings": {
+          "order": ["thomas-dk", "thomas-kr"],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "uber-a",
+        "stage": "uber-group",
+        "name": "A组",
+        "teams": ["uber-cn", "uber-jp"],
+        "standings": {
+          "order": ["uber-cn", "uber-jp"],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-q1",
+        "stage": "london-qualification",
+        "name": "资格第1组",
+        "teams": ["london-hk", "london-en"],
+        "standings": {
+          "order": ["london-hk", "london-en"],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-q2",
+        "stage": "london-qualification",
+        "name": "资格第2组",
+        "teams": ["london-de", "london-fr"],
+        "standings": {
+          "order": ["london-de", "london-fr"],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-q3",
+        "stage": "london-qualification",
+        "name": "资格第3组",
+        "teams": ["london-tw", "london-kr"],
+        "standings": {
+          "order": ["london-tw", "london-kr"],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-s1",
+        "stage": "london-seeding",
+        "name": "种子第1组",
+        "teams": ["london-cn", "london-se"],
+        "standings": {
+          "order": ["london-cn", "london-se"],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      }
+    ],
+    "qualifications": [
+      {
+        "id": "london-direct",
+        "stage": "london-main",
+        "team": "london-kr",
+        "label": "按官方跨组名次直通",
+        "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+      }
+    ],
+    "ties": [
+      {
+        "id": "thomas-group-1",
+        "stage": "thomas-group",
+        "group": "thomas-a",
+        "round": "A组",
+        "slots": [{"team": "thomas-cn"}, {"team": "thomas-jp"}],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [["thomas-cn-1"], ["thomas-jp-1"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          },
+          {
+            "position": 2,
+            "lineup": [["thomas-cn-1", "thomas-cn-4"], ["thomas-jp-1", "thomas-jp-4"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          },
+          {
+            "position": 3,
+            "lineup": [["thomas-cn-2"], ["thomas-jp-2"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          },
+          {
+            "position": 4,
+            "lineup": [["thomas-cn-2", "thomas-cn-3"], ["thomas-jp-2", "thomas-jp-3"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          },
+          {
+            "position": 5,
+            "lineup": [["thomas-cn-3"], ["thomas-jp-3"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          }
+        ],
+        "completed_date": "2026-11-09",
+        "official_result": {
+          "result_for": ["thomas-cn", "thomas-jp"],
+          "score": [5, 0],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "thomas-group-2",
+        "stage": "thomas-group",
+        "group": "thomas-b",
+        "round": "B组",
+        "slots": [{"team": "thomas-dk"}, {"team": "thomas-kr"}],
+        "official_result": {
+          "result_for": ["thomas-dk", "thomas-kr"],
+          "score": [3, 2],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "thomas-final-1",
+        "stage": "thomas-final",
+        "round": "半决赛",
+        "slots": [{"group_rank": ["thomas-a", 1]}, {"group_rank": ["thomas-b", 2]}],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [["thomas-cn-1"], ["thomas-kr-1"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          },
+          {
+            "position": 2,
+            "lineup": [["thomas-cn-1", "thomas-cn-4"], ["thomas-kr-1", "thomas-kr-4"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          },
+          {
+            "position": 3,
+            "lineup": [["thomas-cn-2"], ["thomas-kr-2"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          }
+        ]
+      },
+      {
+        "id": "thomas-sf-2",
+        "stage": "thomas-final",
+        "round": "半决赛",
+        "slots": [{"group_rank": ["thomas-a", 2]}, {"tbd": "抽签结果待公布"}]
+      },
+      {
+        "id": "thomas-title",
+        "stage": "thomas-final",
+        "round": "决赛",
+        "slots": [{"winner": "thomas-final-1"}, {"winner": "thomas-sf-2"}]
+      },
+      {
+        "id": "uber-group-1",
+        "stage": "uber-group",
+        "group": "uber-a",
+        "round": "A组",
+        "slots": [{"team": "uber-cn"}, {"team": "uber-jp"}],
+        "official_result": {
+          "result_for": ["uber-cn", "uber-jp"],
+          "score": [4, 1],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "uber-final-1",
+        "stage": "uber-final",
+        "round": "决赛",
+        "slots": [{"group_rank": ["uber-a", 1]}, {"team": "uber-fr"}],
+        "official_result": {
+          "result_for": ["uber-cn", "uber-fr"],
+          "score": [3, 1],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "asian-sf-1",
+        "stage": "asian-knockout",
+        "round": "半决赛",
+        "slots": [{"team": "asian-cn"}, {"team": "asian-id"}],
+        "matches": [
+          {
+            "position": 2,
+            "lineup": [["asian-cn-1", "asian-cn-4"], ["asian-id-1", "asian-id-4"]],
+            "status": "completed",
+            "games": [[21, 17], [21, 18]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          }
+        ],
+        "official_result": {
+          "result_for": ["asian-cn", "asian-id"],
+          "score": [3, 2],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "asian-final",
+        "stage": "asian-knockout",
+        "round": "决赛",
+        "slots": [{"winner": "asian-sf-1"}, {"team": "asian-jp"}]
+      },
+      {
+        "id": "london-q1-1",
+        "stage": "london-qualification",
+        "group": "london-q1",
+        "round": "资格小组",
+        "slots": [{"team": "london-hk"}, {"team": "london-en"}],
+        "official_result": {
+          "result_for": ["london-hk", "london-en"],
+          "score": [3, 2],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-q2-1",
+        "stage": "london-qualification",
+        "group": "london-q2",
+        "round": "资格小组",
+        "slots": [{"team": "london-de"}, {"team": "london-fr"}],
+        "official_result": {
+          "result_for": ["london-de", "london-fr"],
+          "score": [3, 0],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-q3-1",
+        "stage": "london-qualification",
+        "group": "london-q3",
+        "round": "资格小组",
+        "slots": [{"team": "london-tw"}, {"team": "london-kr"}],
+        "official_result": {
+          "result_for": ["london-tw", "london-kr"],
+          "score": [3, 2],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-playoff-1",
+        "stage": "london-playoff",
+        "round": "资格附加赛",
+        "slots": [{"group_rank": ["london-q1", 2]}, {"group_rank": ["london-q2", 2]}],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [["london-en-1"], ["london-fr-1"]],
+            "status": "completed",
+            "games": [[11, 8], [9, 11], [11, 6], [11, 7]],
+            "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+          }
+        ],
+        "official_result": {
+          "result_for": ["london-en", "london-fr"],
+          "score": [3, 1],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-s1-1",
+        "stage": "london-seeding",
+        "group": "london-s1",
+        "round": "种子小组",
+        "slots": [{"team": "london-cn"}, {"team": "london-se"}],
+        "official_result": {
+          "result_for": ["london-cn", "london-se"],
+          "score": [3, 1],
+          "verification": {"source_ids": ["demo"], "verified_at": "2026-11-10T11:00:00+08:00"}
+        }
+      },
+      {
+        "id": "london-main-1",
+        "stage": "london-main",
+        "round": "首轮",
+        "slots": [{"qualified": "london-direct"}, {"winner": "london-playoff-1"}]
+      },
+      {
+        "id": "london-main-2",
+        "stage": "london-main",
+        "round": "首轮",
+        "slots": [{"group_rank": ["london-s1", 1]}, {"group_rank": ["london-q1", 1]}]
+      }
+    ]
+  }
+}

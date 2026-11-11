@@ -37,6 +37,25 @@ python sports/build.py --check
 
 所有 `bracket-v1` 赛事共用一套单页模板。比赛的 `draw` 和 `round` 决定项目和列，`slots` 的 `winner` 引用生成晋级连线。待定签位按轮次展示，填入明确的晋级引用后才会连线。有小组赛时，`groups` 生成积分榜，淘汰赛使用 `group_rank` 引用出线名次。模板沿用原 WTT 页的项目切换、路线高亮和单场详情。
 
+## 团体赛录入
+
+团体赛记录使用 `kind: team-bracket-v1`。结构见 [团体 schema](core/team-schema.json) 和 [四类赛制示例](core/examples/team-bracket.json)。示例使用虚构数据，可以在本地生成一张含四个项目的独立页面。
+
+```sh
+python -m sports.core.team_bracket sports/core/examples/team-bracket.json -o /tmp/team-bracket.html
+```
+
+给 Dot 的录入规则如下。
+
+- `draws` 分男团、女团等项目。`teams` 中的 `team` 填本届代表队的登记编码。`players` 用稳定 ID 记录已核实队员，中文名按上文规范核对。只知道团体赛果时，名单可先用空数组，待官方阵容可查时补录。
+- `stages` 按晋级依赖排列，分别填小组或淘汰阶段。`order` 声明五个出场位置的名称、单双打和计分规则。`play_all` 要打满五场，`first_to_three` 打到一方三胜。实际出场顺序和阶段默认不同的场次，用该场 `order` 填一个从 1 至 5 的排列，单场 `position` 仍是实际出场序号。
+- 小组对阵直接引用本组的 `team`。官方名次填 `groups[].standings`，包含完整队伍顺序和官方来源，供 `group_rank` 引用。`qualifications` 记录跨组直通、抽签分配等官方决定，`stage` 填目标阶段。下游签位分别用 `qualified`、`group_rank` 或淘汰赛 `winner` 引用，未核定的位置用 `tbd`。同一晋级名额只占一个签位。
+- 每场团体对阵的 `slots` 先确定双方顺序。`matches` 逐场填 `position`、对应双方队员 ID 的 `lineup`、状态和逐局 `games`。比分方向和 `slots` 一致。已结束的单场用官方来源或两家独立来源核验。伤退保留已完局，未完局填 `in_progress_game`。单场弃权填 `walkover`，提供胜方索引和原因。
+- 只有官方团体终局时填 `official_result`，包括按上下顺序绑定的 `result_for`、`score` 和官方 `verification`。程序据此确认团体胜者，未补的明细显示待核实。后补单场必须与总比分及出场顺序相容。整队弃权使用 `official_result.status: walkover`，记录官方确认的胜方索引与原因，有官方判定比分时才填 `score`。轮空使用 `bye: true` 和 `bye_verification`。超过计划时间仍缺结果的对阵，用 `blocker` 说明原因。
+- 汤尤杯小组阶段用 `play_all`，淘汰阶段用 `first_to_three`。亚运羽毛球团体可直接建淘汰阶段。伦敦世乒赛按官方资料录入资格小组、附加赛、种子小组和正赛，团体对阵用 `first_to_three`，五个位置都是五局三胜的单打。跨组资格以官方名单为准。
+
+真实赛事放入 `sports/data/` 后，按本页顶部的命令校验。示例留在示例目录，提交时只纳入真实赛事数据。推送后确认 Pages 部署成功，再回读索引、团体比分、阵容和晋级路线。
+
 ## 迁移边界
 
 WTT的旧比分、逐局与已知对阵原样迁入。`inherited_evidence`明确区分旧记录与本次重新核验；它不是官方证明。迁移锁防止静默改变继承记录。修订继承赛果时去掉该场的继承标记，提供核验来源和时间。首次补齐锁定的未核验比赛时，另在 `migration_releases` 记录依据，并检查整条晋级路线。

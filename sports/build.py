@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from sports.compiler import compile_record
 from sports.core.bracketkit import load, render
+from sports.core.team_board import render_team
+from sports.core.team_bracket import compile_team_record
 from sports.core.teams import validate_entry_teams
 from sports.legacy import KINDS, render_record
 
@@ -81,12 +83,17 @@ def build(check=False, root=ROOT):
             if target in pending or record['id'] in record_ids:
                 raise ValueError('duplicate output or record ID')
             record_ids.add(record['id'])
-            if record['kind'] == 'bracket-v1':
-                model = compile_record(record, root)
-                validate_entry_teams(model['entries'], allow_empty=record['id'] == 'debug-fictional-nebula-cup-2026')
+            if record['kind'] in ('bracket-v1', 'team-bracket-v1'):
+                if record['kind'] == 'bracket-v1':
+                    model = compile_record(record, root)
+                    validate_entry_teams(model['entries'], allow_empty=record['id'] == 'debug-fictional-nebula-cup-2026')
+                    renderer = render
+                else:
+                    model = compile_team_record(record)
+                    renderer = render_team
                 backlink = model['event'].setdefault('back_link', relpath(index, target.parent))
                 backlinks.append((target, (target.parent / backlink).resolve()))
-                page = render(model)
+                page = renderer(model)
             elif record['kind'] in KINDS:
                 page = render_record(record, root)
             else:
