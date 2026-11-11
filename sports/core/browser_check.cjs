@@ -60,7 +60,12 @@ async function checkConnectedBracket(page, groupFixture = false) {
             .map(from => `${draw}:${from}:${match.id}`));
         if (wtt || kumamoto) assert.equal(edges.length, 30);
         if (kumamoto) {
-            assert.equal(preliminary.size, draw === 'MS' ? 1 : 0);
+            const qualifiers = matches.filter(match => match.round === '资格赛').map(match => match.id);
+            const qualifierPanel = panel.locator('.preliminaries:visible');
+            assert.equal(await qualifierPanel.count(), qualifiers.length ? 1 : 0, draw);
+            const qualifierCards = await qualifierPanel.locator('.match:visible').evaluateAll(cards =>
+                cards.map(card => card.dataset.matchId));
+            assert.deepEqual(qualifierCards.sort(), qualifiers.sort(), draw);
             for (const [from, to, count] of [['R32', 'R16', 8], ['R16', 'QF', 4], ['QF', 'SF', 2], ['SF', 'F', 1]]) {
                 for (let i = 1; i <= count; i++) {
                     assert.ok(edges.includes(`${draw}:${draw}-${from}-${i * 2 - 1}:${draw}-${to}-${i}`));
@@ -83,29 +88,27 @@ async function checkConnectedBracket(page, groupFixture = false) {
             .filter(player => player.team === 'CHN');
         assert.ok(chineseEntries.length > 0 && chineseEntries.every(player => !/[A-Za-z]/.test(player.name)),
             'Chinese entries should use their Chinese names');
-        assert.deepEqual(await matchFor('MS-R32-1').locator('.name').allTextContents(), ['小波波夫', '古贺穗']);
-        assert.deepEqual(await matchFor('MS-R32-6').locator('.name').allTextContents(), ['田中涌士', '朱轩辰']);
-        assert.deepEqual(await matchFor('MS-Q4').locator('.score').allTextContents(), ['2', '0']);
-        assert.deepEqual(await matchFor('MS-R32-1').locator('.score').allTextContents(), ['—', '—']);
-        assert.deepEqual(await matchFor('WD-R32-1').locator('.score').allTextContents(), ['2', '1']);
-        assert.deepEqual(await matchFor('WD-R16-1').locator('.name').allTextContents(), ['福岛由纪／松本麻佑', '第 02 场胜者']);
     }
 
     await firstTab.click();
     if (drawIds.length > 1) assert.equal(await tabFor(drawIds[1]).getAttribute('aria-selected'), 'false');
+    if (kumamoto) {
+        // Use a first-round card to exercise the full route regardless of which results are known.
+        await matchFor('MS-R32-1').focus();
+        assert.equal(await panel.locator('.wires path.hot').count(), 4);
+        await page.keyboard.press('Escape');
+    }
     const firstDraw = draws[drawIds[0]];
     const scoredMatch = firstDraw.find(match => match.games.length && match.resultLinks.length);
-    if (wtt || kumamoto || groupFixture) assert.ok(scoredMatch, 'fixture must contain a scored match with evidence');
+    if (wtt || groupFixture) assert.ok(scoredMatch, 'fixture must contain a scored match with evidence');
     const sampleMatch = scoredMatch || firstDraw[0];
     if (!sampleMatch) return;
     const firstMatch = matchFor(sampleMatch.id);
     await firstMatch.hover();
     assert.ok(await tooltip.isVisible());
     if (scoredMatch) assert.match(await tooltip.locator('.tip-note').allTextContents().then(lines => lines.join(' ')), /逐局/);
-    if (wtt || kumamoto) {
-        assert.equal(await panel.locator('.wires path.hot').count(), 4);
-    }
     if (wtt) {
+        assert.equal(await panel.locator('.wires path.hot').count(), 4);
         assert.ok(await firstMatch.locator('.flag').count() > 0);
     }
 

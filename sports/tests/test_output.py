@@ -7,6 +7,7 @@ import unittest
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1] / 'core'))
 from bracketkit import compile_data,render,load,ValidationError
+from board import split_preliminaries
 from sports.build import INDEX, build, parse_event_dates
 ROOT=Path(__file__).resolve().parents[1] / 'core'
 class Inspect(HTMLParser):
@@ -28,6 +29,14 @@ class OutputTests(unittest.TestCase):
     self.assertCountEqual(p.matches,[m['id'] for m in model['matches']])
     self.assertEqual(p.external_assets,[]);self.assertEqual(len(p.back),1)
     self.assertEqual(page,render(compile_data(load(file))))
+ def test_appended_qualifier_stays_outside_main_bracket(self):
+  main_draw = [
+      {'id': 's1', 'round': '半决赛', 'feeders': ['q1']},
+      {'id': 's2', 'round': '半决赛', 'feeders': []},
+      {'id': 'f', 'round': '决赛', 'feeders': ['s1', 's2']},
+  ]
+  qualifier = {'id': 'q1', 'round': '资格赛', 'feeders': []}
+  self.assertEqual(split_preliminaries(main_draw + [qualifier]), ([qualifier], main_draw))
  def test_yaml_json_equivalent(self):
   try:import yaml
   except ImportError:self.skipTest('PyYAML optional')

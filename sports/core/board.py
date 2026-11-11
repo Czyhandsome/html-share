@@ -21,12 +21,12 @@ def split_preliminaries(matches):
     rounds = defaultdict(list)
     for match in matches:
         rounds[match['round']].append(match)
-    if len(rounds) < 2:
-        return [], matches
-    opening, first = list(rounds.values())[:2]
-    seeds = {ident for match in first for ident in match['feeders']}
-    if len(opening) * 2 <= len(first) and all(match['id'] in seeds for match in opening):
-        return opening, [match for match in matches if match['round'] != opening[0]['round']]
+    # Qualification results may be appended after the main draw in the source data.
+    for first in rounds.values():
+        seeds = {ident for match in first for ident in match['feeders']}
+        for label, opening in rounds.items():
+            if len(opening) * 2 <= len(first) and all(match['id'] in seeds for match in opening):
+                return opening, [match for match in matches if match['round'] != label]
     return [], matches
 
 
