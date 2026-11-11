@@ -172,7 +172,8 @@ async function main() {
     const browser = await chromium.launch({headless: true, executablePath: process.env.CHROMIUM_PATH || undefined});
     const scratch = fs.mkdtempSync(path.join(os.tmpdir(), 'sports-browser-'));
     try {
-        const page = await browser.newPage({viewport: {width: 1280, height: 900}});
+        const desktopViewport = {width: 1280, height: 900};
+        const page = await browser.newPage({viewport: desktopViewport});
         const errors = [];
         page.on('pageerror', error => errors.push(error.message));
         await page.goto(index);
@@ -183,7 +184,7 @@ async function main() {
         assert.deepEqual(dates, [...dates].sort().reverse());
         let brackets = 0;
         for (const link of links) {
-            await page.setViewportSize({width: 1280, height: 900});
+            await page.setViewportSize(desktopViewport);
             await page.goto(link);
             assert.ok(await page.title(), link);
             const connected = /\/(?:WTT-(?:Frankfurt|Montpellier)-2026\.html|20261110-2200-kumamoto-masters-2026\/index\.html)$/.test(new URL(link).pathname);
@@ -200,6 +201,8 @@ async function main() {
         const example = path.join(scratch, 'groups-knockout.html');
         execFileSync(process.env.PYTHON || 'python3', ['sports/core/bracketkit.py',
             'sports/core/examples/groups-knockout.json', '-o', example], {cwd: root});
+        // The previous bracket check may have left the page at the mobile viewport.
+        await page.setViewportSize(desktopViewport);
         await page.goto(pathToFileURL(example).href);
         await checkConnectedBracket(page, true);
         assert.deepEqual(errors, []);
