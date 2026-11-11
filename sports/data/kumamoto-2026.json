@@ -10,7 +10,7 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 24 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
+    "已录入 30 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
     "11月11日首轮比赛从北京时间08:00开始；各场具体开赛时间尚待官方或双独立来源核实，不能将日程起始时间视为每场时间。"
@@ -19,7 +19,7 @@
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-11T15:03:41+08:00",
+      "snapshot_at": "2026-11-11T23:00:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -1030,6 +1030,34 @@
         "label": "PBSI官方赛后采访：乌拜迪拉对杨灿（11月11日）",
         "kind": "official",
         "family": "pbsi.id"
+      },
+      {
+        "id": "pbsi-nov11-xd",
+        "url": "https://pbsi.id/2026/11/11/kumamoto-masters-2026-amri-nita-berjalan-sendiri-di-ganda-campuran/",
+        "label": "PBSI官方赛后战报：11月11日XD",
+        "kind": "official",
+        "family": "pbsi.id"
+      },
+      {
+        "id": "pbsi-nov11-ms",
+        "url": "https://pbsi.id/2026/11/11/kumamoto-masters-2026-alwi-tampil-apik-saat-hadapi-lin-chun-yi/",
+        "label": "PBSI官方赛后战报：11月11日MS",
+        "kind": "official",
+        "family": "pbsi.id"
+      },
+      {
+        "id": "pbsi-nov11-ws",
+        "url": "https://pbsi.id/2026/11/11/kumamoto-masters-2026-putri-belum-mampu-revans/",
+        "label": "PBSI官方赛后战报：11月11日WS",
+        "kind": "official",
+        "family": "pbsi.id"
+      },
+      {
+        "id": "pbsi-nov11-wd",
+        "url": "https://pbsi.id/2026/11/11/kumamoto-masters-2026-tiwi-fadia-ingin-teruskan-tren-positif/",
+        "label": "PBSI官方赛后战报：11月11日WD",
+        "kind": "official",
+        "family": "pbsi.id"
       }
     ],
     "rules": {
@@ -1207,9 +1235,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            12
+          ]
+        ],
+        "result_for": [
+          "MS-3-0",
+          "MS-3-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T23:00:00+08:00",
+          "source_ids": [
+            "pbsi-nov11-ms"
+          ]
+        }
       },
       {
         "id": "MS-R32-4",
@@ -1719,9 +1766,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            20,
+            22
+          ]
+        ],
+        "result_for": [
+          "WS-3-0",
+          "WS-3-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T23:00:00+08:00",
+          "source_ids": [
+            "pbsi-nov11-ws"
+          ]
+        }
       },
       {
         "id": "WS-R32-4",
@@ -3180,9 +3246,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            13,
+            21
+          ]
+        ],
+        "result_for": [
+          "WD-14-0",
+          "WD-14-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T23:00:00+08:00",
+          "source_ids": [
+            "pbsi-nov11-wd"
+          ]
+        }
       },
       {
         "id": "WD-R32-15",
@@ -3597,9 +3682,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            5
+          ]
+        ],
+        "result_for": [
+          "XD-7-0",
+          "XD-7-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T23:00:00+08:00",
+          "source_ids": [
+            "pbsi-nov11-xd"
+          ]
+        }
       },
       {
         "id": "XD-R32-8",
@@ -3614,9 +3718,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            10,
+            21
+          ]
+        ],
+        "result_for": [
+          "XD-8-0",
+          "XD-8-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T23:00:00+08:00",
+          "source_ids": [
+            "pbsi-nov11-xd"
+          ]
+        }
       },
       {
         "id": "XD-R32-9",
@@ -3665,9 +3788,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "XD-11-0",
+          "XD-11-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T23:00:00+08:00",
+          "source_ids": [
+            "pbsi-nov11-xd"
+          ]
+        }
       },
       {
         "id": "XD-R32-12",
