@@ -10,14 +10,14 @@
   "notices": [
     "9月8–13日 · 澳门东亚运动会体育馆。完整男女单打签表，各32签、31场。",
     "赛事已结束。本页是部分核验档案，不是实时赛况；待核实不表示比赛未举行。",
-    "官方完整逐局证据覆盖35场；其中17场上游链路闭合并录入终局，其余18场因上游尚未核全，暂不填入终局。",
+    "官方完整逐局证据覆盖47场；其中29场上游链路闭合并录入终局，其余18场因上游尚未核全，暂不填入终局。",
     "首轮签位与代表队依据9月6日官方抽签公告。未凭聚合网站或仅有总分的报道推定终局；未补造比赛时间。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 澳门冠军赛",
-      "snapshot_at": "2026-11-11T09:46:24+08:00",
+      "snapshot_at": "2026-11-11T09:58:21+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Macau"
     },
@@ -406,6 +406,13 @@
         "label": "瑞典乒协官方报道",
         "kind": "official",
         "family": "sbtf"
+      },
+      {
+        "id": "jtta-macao",
+        "url": "https://jtta.or.jp/tour/36665",
+        "label": "日本乒协 · 澳门冠军赛官方逐局",
+        "kind": "official",
+        "family": "jtta.or.jp"
       }
     ],
     "rules": {
@@ -444,8 +451,32 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p1",
+          "men-p2"
+        ],
+        "games": [
+          [
+            11,
+            4
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-09"
       },
       {
         "id": "men-r32-1",
@@ -684,8 +715,36 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p21",
+          "men-p22"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            14
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-10"
       },
       {
         "id": "men-r32-11",
@@ -924,8 +983,36 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p1",
+          "men-p4"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            14,
+            12
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-11"
       },
       {
         "id": "men-r16-1",
@@ -1004,8 +1091,36 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "men-p22",
+          "men-p24"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-11"
       },
       {
         "id": "men-r16-6",
@@ -1248,8 +1363,32 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p1",
+          "women-p2"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-08"
       },
       {
         "id": "women-r32-1",
@@ -1452,8 +1591,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p17",
+          "women-p18"
+        ],
+        "games": [
+          [
+            10,
+            12
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-08"
       },
       {
         "id": "women-r32-9",
@@ -1508,8 +1679,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p21",
+          "women-p22"
+        ],
+        "games": [
+          [
+            3,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-10"
       },
       {
         "id": "women-r32-11",
@@ -1524,8 +1727,32 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p23",
+          "women-p24"
+        ],
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-10"
       },
       {
         "id": "women-r32-12",
@@ -1660,8 +1887,32 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+        "status": "completed",
+        "result_for": [
+          "women-p1",
+          "women-p3"
+        ],
+        "games": [
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d10"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-10"
       },
       {
         "id": "women-r16-1",
@@ -1724,8 +1975,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p17",
+          "women-p19"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-11"
       },
       {
         "id": "women-r16-5",
@@ -1740,8 +2023,40 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p22",
+          "women-p24"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-11"
       },
       {
         "id": "women-r16-6",
@@ -1820,8 +2135,40 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
-        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+        "status": "completed",
+        "result_for": [
+          "women-p17",
+          "women-p24"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            15,
+            17
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "jtta-macao"
+          ],
+          "verified_at": "2026-11-11T09:58:21+08:00"
+        },
+        "completed_date": "2026-09-12"
       },
       {
         "id": "women-qf-3",
