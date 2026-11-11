@@ -296,6 +296,10 @@
       "name": "美国",
       "flag": "4x3/us.svg"
     },
+    "VEN": {
+      "name": "委内瑞拉",
+      "flag": "4x3/ve.svg"
+    },
     "VIE": {
       "name": "越南",
       "flag": "4x3/vn.svg"
