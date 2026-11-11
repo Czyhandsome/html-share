@@ -180,6 +180,10 @@
       "name": "蒙古",
       "flag": "4x3/mn.svg"
     },
+    "MON": {
+      "name": "摩纳哥",
+      "flag": "4x3/mc.svg"
+    },
     "MYA": {
       "name": "缅甸",
       "flag": "4x3/mm.svg"
@@ -187,6 +191,10 @@
     "NED": {
       "name": "荷兰",
       "flag": "4x3/nl.svg"
+    },
+    "NGR": {
+      "name": "尼日利亚",
+      "flag": "4x3/ng.svg"
     },
     "NOR": {
       "name": "挪威",
@@ -223,6 +231,10 @@
     "PUR": {
       "name": "波多黎各",
       "flag": "4x3/pr.svg"
+    },
+    "QAT": {
+      "name": "卡塔尔",
+      "flag": "4x3/qa.svg"
     },
     "ROU": {
       "name": "罗马尼亚",
