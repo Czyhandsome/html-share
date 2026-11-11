@@ -1,0 +1,6665 @@
+{
+  "schema_version": 1,
+  "kind": "bracket-v1",
+  "id": "malaysia-masters-2026",
+  "event_dates": {
+    "start": "2026-05-19",
+    "end": "2026-05-24"
+  },
+  "output": "docs/2026/05/malaysia-masters-2026/index.html",
+  "notices": [
+    "依据日本羽毛球协会发布的官方赛果PDF录入五项目正赛，未包含资格赛。比分按原签表上方/下方选手顺序录入，所有晋级均使用胜者引用。",
+    "参赛代表队逐项依据本届官方签表中的旗帜核对，跨协会双打按姓名顺序列出。中国选手使用核实中文姓名，外国选手有可靠译名时沿用，否则保留官方原文。未提供单场开赛时刻，不猜测。赛事日期为场馆当地日期，页面显示时区为北京时间。",
+    "伤退只计已完成局，未完成局单列；WO不虚构比分；轮空单独标记。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 马来西亚羽毛球大师赛",
+      "snapshot_at": "2026-11-11T10:57:36+08:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Asia/Kuala_Lumpur"
+    },
+    "entries": [
+      {
+        "id": "ms-entry-01",
+        "name": "乔纳坦",
+        "team": "INA"
+      },
+      {
+        "id": "ms-entry-02",
+        "name": "M JOHANNESEN",
+        "team": "DEN"
+      },
+      {
+        "id": "ms-entry-03",
+        "name": "WANG Po-Wei",
+        "team": "TPE"
+      },
+      {
+        "id": "ms-entry-04",
+        "name": "T MANNEPALLI",
+        "team": "IND"
+      },
+      {
+        "id": "ms-entry-05",
+        "name": "拉尼尔",
+        "team": "FRA"
+      },
+      {
+        "id": "ms-entry-06",
+        "name": "Kiran GEORGE",
+        "team": "IND"
+      },
+      {
+        "id": "ms-entry-07",
+        "name": "LEONG Jun Hao",
+        "team": "MAS"
+      },
+      {
+        "id": "ms-entry-08",
+        "name": "胡哲安",
+        "team": "CHN"
+      },
+      {
+        "id": "ms-entry-09",
+        "name": "李诗沣",
+        "team": "CHN"
+      },
+      {
+        "id": "ms-entry-10",
+        "name": "Minoru KOGA",
+        "team": "JPN"
+      },
+      {
+        "id": "ms-entry-11",
+        "name": "Yudai OKIMOTO",
+        "team": "JPN"
+      },
+      {
+        "id": "ms-entry-12",
+        "name": "LEE Chia Hao",
+        "team": "TPE"
+      },
+      {
+        "id": "ms-entry-13",
+        "name": "T POPOV",
+        "team": "FRA"
+      },
+      {
+        "id": "ms-entry-14",
+        "name": "NG K L A",
+        "team": "HKG"
+      },
+      {
+        "id": "ms-entry-15",
+        "name": "朱轩辰",
+        "team": "CHN"
+      },
+      {
+        "id": "ms-entry-16",
+        "name": "Brian YANG",
+        "team": "CAN"
+      },
+      {
+        "id": "ms-entry-17",
+        "name": "YOO Tae Bin",
+        "team": "KOR"
+      },
+      {
+        "id": "ms-entry-18",
+        "name": "P TEERARATSAKUL",
+        "team": "THA"
+      },
+      {
+        "id": "ms-entry-19",
+        "name": "WANG Tzu Wei",
+        "team": "TPE"
+      },
+      {
+        "id": "ms-entry-20",
+        "name": "翁泓阳",
+        "team": "CHN"
+      },
+      {
+        "id": "ms-entry-21",
+        "name": "Jason GUNAWAN",
+        "team": "HKG"
+      },
+      {
+        "id": "ms-entry-22",
+        "name": "陆光祖",
+        "team": "CHN"
+      },
+      {
+        "id": "ms-entry-23",
+        "name": "PRANNOY H. S.",
+        "team": "IND"
+      },
+      {
+        "id": "ms-entry-24",
+        "name": "奈良冈功大",
+        "team": "JPN"
+      },
+      {
+        "id": "ms-entry-25",
+        "name": "P SHUJIWO",
+        "team": "INA"
+      },
+      {
+        "id": "ms-entry-26",
+        "name": "JEON Hyeok Jin",
+        "team": "KOR"
+      },
+      {
+        "id": "ms-entry-27",
+        "name": "M UBAIDILLAH",
+        "team": "INA"
+      },
+      {
+        "id": "ms-entry-28",
+        "name": "Lakshya SEN",
+        "team": "IND"
+      },
+      {
+        "id": "ms-entry-29",
+        "name": "A GINTING",
+        "team": "INA"
+      },
+      {
+        "id": "ms-entry-30",
+        "name": "Justin HOH",
+        "team": "MAS"
+      },
+      {
+        "id": "ms-entry-31",
+        "name": "渡边航贵",
+        "team": "JPN"
+      },
+      {
+        "id": "ms-entry-32",
+        "name": "小波波夫",
+        "team": "FRA"
+      },
+      {
+        "id": "ws-entry-01",
+        "name": "陈雨菲",
+        "team": "CHN"
+      },
+      {
+        "id": "ws-entry-02",
+        "name": "Wen Yu ZHANG",
+        "team": "CAN"
+      },
+      {
+        "id": "ws-entry-03",
+        "name": "PARK Ga Eun",
+        "team": "KOR"
+      },
+      {
+        "id": "ws-entry-04",
+        "name": "Devika SIHAG",
+        "team": "IND"
+      },
+      {
+        "id": "ws-entry-05",
+        "name": "NGUYEN T L",
+        "team": "VIE"
+      },
+      {
+        "id": "ws-entry-06",
+        "name": "WONG Ling Ching",
+        "team": "MAS"
+      },
+      {
+        "id": "ws-entry-07",
+        "name": "P OPATNIPUTH",
+        "team": "THA"
+      },
+      {
+        "id": "ws-entry-08",
+        "name": "Tanvi SHARMA",
+        "team": "IND"
+      },
+      {
+        "id": "ws-entry-09",
+        "name": "宫崎友花",
+        "team": "JPN"
+      },
+      {
+        "id": "ws-entry-10",
+        "name": "TUNG Ciou-Tong",
+        "team": "TPE"
+      },
+      {
+        "id": "ws-entry-11",
+        "name": "K LETSHANAA",
+        "team": "MAS"
+      },
+      {
+        "id": "ws-entry-12",
+        "name": "Amalie SCHULZ",
+        "team": "DEN"
+      },
+      {
+        "id": "ws-entry-13",
+        "name": "Natsuki NIDAIRA",
+        "team": "JPN"
+      },
+      {
+        "id": "ws-entry-14",
+        "name": "韩千禧",
+        "team": "CHN"
+      },
+      {
+        "id": "ws-entry-15",
+        "name": "Hina AKECHI",
+        "team": "JPN"
+      },
+      {
+        "id": "ws-entry-16",
+        "name": "Polina BUHROVA",
+        "team": "UKR"
+      },
+      {
+        "id": "ws-entry-17",
+        "name": "Malvika BANSOD",
+        "team": "IND"
+      },
+      {
+        "id": "ws-entry-18",
+        "name": "Yvonne LI",
+        "team": "GER"
+      },
+      {
+        "id": "ws-entry-19",
+        "name": "Anmol KHARB",
+        "team": "IND"
+      },
+      {
+        "id": "ws-entry-20",
+        "name": "L KJAERSFELDT",
+        "team": "DEN"
+      },
+      {
+        "id": "ws-entry-21",
+        "name": "Ashmita CHALIHA",
+        "team": "IND"
+      },
+      {
+        "id": "ws-entry-22",
+        "name": "T WIRYAWAN",
+        "team": "INA"
+      },
+      {
+        "id": "ws-entry-23",
+        "name": "GOH Jin Wei",
+        "team": "MAS"
+      },
+      {
+        "id": "ws-entry-24",
+        "name": "ONGBAMRUNGPHAN",
+        "team": "THA"
+      },
+      {
+        "id": "ws-entry-25",
+        "name": "HUANG C P",
+        "team": "TPE"
+      },
+      {
+        "id": "ws-entry-26",
+        "name": "TANYA HEMANTH",
+        "team": "IND"
+      },
+      {
+        "id": "ws-entry-27",
+        "name": "Isharani BARUAH",
+        "team": "IND"
+      },
+      {
+        "id": "ws-entry-28",
+        "name": "莱恩·克里斯托弗森",
+        "team": "DEN"
+      },
+      {
+        "id": "ws-entry-29",
+        "name": "K NALBANTOVA",
+        "team": "BUL"
+      },
+      {
+        "id": "ws-entry-30",
+        "name": "Neslihan ARIN",
+        "team": "TUR"
+      },
+      {
+        "id": "ws-entry-31",
+        "name": "N PRATIWI",
+        "team": "INA"
+      },
+      {
+        "id": "ws-entry-32",
+        "name": "因达农",
+        "team": "THA"
+      },
+      {
+        "id": "md-entry-01",
+        "name": "谢定峰 / 苏伟译",
+        "team": "MAS"
+      },
+      {
+        "id": "md-entry-02",
+        "name": "E KOH / Junsuke KUBO",
+        "team": "SGP"
+      },
+      {
+        "id": "md-entry-03",
+        "name": "Julien MAIO / W VILLEGER",
+        "team": "FRA"
+      },
+      {
+        "id": "md-entry-04",
+        "name": "C GRIMLEY / Matthew GRIMLEY",
+        "team": "SCO"
+      },
+      {
+        "id": "md-entry-05",
+        "name": "小波波夫 / T POPOV",
+        "team": "FRA"
+      },
+      {
+        "id": "md-entry-06",
+        "name": "H AMSAKARUNAN / M.R. ARJUN",
+        "team": "IND"
+      },
+      {
+        "id": "md-entry-07",
+        "name": "L CARNANDO / Daniel MARTHIN",
+        "team": "INA"
+      },
+      {
+        "id": "md-entry-08",
+        "name": "胡珂源 / 林祥毅",
+        "team": "CHN"
+      },
+      {
+        "id": "md-entry-09",
+        "name": "吴世飞 / 伊祖丁",
+        "team": "MAS"
+      },
+      {
+        "id": "md-entry-10",
+        "name": "M ERWIANSYAH / Bagas MAULANA",
+        "team": "INA"
+      },
+      {
+        "id": "md-entry-11",
+        "name": "Kevin LEE / T LINDEMAN",
+        "team": "CAN"
+      },
+      {
+        "id": "md-entry-12",
+        "name": "CHIA Weijie / TEO Ee Yi",
+        "team": "MAS"
+      },
+      {
+        "id": "md-entry-13",
+        "name": "Kakeru KUMAGAI / Hiroki NISHI",
+        "team": "JPN"
+      },
+      {
+        "id": "md-entry-14",
+        "name": "LOW Hang Yee / NG Eng Cheong",
+        "team": "MAS"
+      },
+      {
+        "id": "md-entry-15",
+        "name": "LWI Sheng Hao / ONG Yew Sin",
+        "team": "MAS"
+      },
+      {
+        "id": "md-entry-16",
+        "name": "CHEN Zhi Ray / LIN Yu Chieh",
+        "team": "TPE"
+      },
+      {
+        "id": "md-entry-17",
+        "name": "LAI Po Yu / TSAI Fu Cheng",
+        "team": "TPE"
+      },
+      {
+        "id": "md-entry-18",
+        "name": "江凯兴 / 戴伟钦",
+        "team": "MAS"
+      },
+      {
+        "id": "md-entry-19",
+        "name": "Zhi-Wei HE / HUANG Jui-Hsuan",
+        "team": "TPE"
+      },
+      {
+        "id": "md-entry-20",
+        "name": "Junaidi ARIF / YAP Roy King",
+        "team": "MAS"
+      },
+      {
+        "id": "md-entry-21",
+        "name": "CHEN ZHI YI / Presley SMITH",
+        "team": "USA"
+      },
+      {
+        "id": "md-entry-22",
+        "name": "Jiří KRÁL / Ondřej KRÁL",
+        "team": "CZE"
+      },
+      {
+        "id": "md-entry-23",
+        "name": "N AZRIYN / TAN Wee Kiong",
+        "team": "MAS"
+      },
+      {
+        "id": "md-entry-24",
+        "name": "LEE Jhe-Huei / 杨博轩",
+        "team": "TPE"
+      },
+      {
+        "id": "md-entry-25",
+        "name": "黄荻 / 刘阳",
+        "team": "CHN"
+      },
+      {
+        "id": "md-entry-26",
+        "name": "CHEN Cheng Kuan / LIU Kuang Heng",
+        "team": "TPE"
+      },
+      {
+        "id": "md-entry-27",
+        "name": "P SUKPHUN / P TEERARATSAKUL",
+        "team": "THA"
+      },
+      {
+        "id": "md-entry-28",
+        "name": "D LUNDGAARD / M VESTERGAARD",
+        "team": "DEN"
+      },
+      {
+        "id": "md-entry-29",
+        "name": "谢浩南 / 曾维瀚",
+        "team": "CHN"
+      },
+      {
+        "id": "md-entry-30",
+        "name": "CHAROENKITAMORN / W THONGSA-NGA",
+        "team": "THA"
+      },
+      {
+        "id": "md-entry-31",
+        "name": "M ARDIANTO / Rahmat HIDAYAT",
+        "team": "INA"
+      },
+      {
+        "id": "md-entry-32",
+        "name": "保木卓朗 / 小林优吾",
+        "team": "JPN"
+      },
+      {
+        "id": "wd-entry-01",
+        "name": "Kaho OSAWA / Mai TANABE",
+        "team": "JPN"
+      },
+      {
+        "id": "wd-entry-02",
+        "name": "JONGSATHAPORNPARN / S WEDLER",
+        "team": "THA"
+      },
+      {
+        "id": "wd-entry-03",
+        "name": "F CORBETT / Jennie GAI",
+        "team": "USA"
+      },
+      {
+        "id": "wd-entry-04",
+        "name": "Cho Wai LAM / Jia Min SIM",
+        "team": "ENG/MAS"
+      },
+      {
+        "id": "wd-entry-05",
+        "name": "Arisa IGARASHI / Chiharu SHIDA",
+        "team": "JPN"
+      },
+      {
+        "id": "wd-entry-06",
+        "name": "CHENG Su Hui / TAN Zhing Hui",
+        "team": "MAS"
+      },
+      {
+        "id": "wd-entry-07",
+        "name": "Sayaka HIROTA / A SAKURAMOTO",
+        "team": "JPN"
+      },
+      {
+        "id": "wd-entry-08",
+        "name": "Paula LOPEZ / Lucia RODRIGUEZ",
+        "team": "ESP"
+      },
+      {
+        "id": "wd-entry-09",
+        "name": "Lauren LAM / A LEE",
+        "team": "USA"
+      },
+      {
+        "id": "wd-entry-10",
+        "name": "L GRISELDA / Nozomi SHIMIZU",
+        "team": "AUS"
+      },
+      {
+        "id": "wd-entry-11",
+        "name": "Ashwini BHAT K. / Shikha GAUTAM",
+        "team": "IND"
+      },
+      {
+        "id": "wd-entry-12",
+        "name": "Jackie DENT / Crystal LAI",
+        "team": "CAN"
+      },
+      {
+        "id": "wd-entry-13",
+        "name": "Bengisu ERCETIN / Nazlıcan INCI",
+        "team": "TUR"
+      },
+      {
+        "id": "wd-entry-14",
+        "name": "罗意 / 王汀戈",
+        "team": "CHN"
+      },
+      {
+        "id": "wd-entry-15",
+        "name": "LIN Chih-Chun / YANG Chu Yun",
+        "team": "TPE"
+      },
+      {
+        "id": "wd-entry-16",
+        "name": "AIAMVAREESRISAKUL / Sarisa JANPENG",
+        "team": "THA"
+      },
+      {
+        "id": "wd-entry-17",
+        "name": "CHONG Jie Yu / Vanessa NG",
+        "team": "MAS"
+      },
+      {
+        "id": "wd-entry-18",
+        "name": "Yan Fei CHEN / Liang Ching SUN",
+        "team": "TPE"
+      },
+      {
+        "id": "wd-entry-19",
+        "name": "Yi En HSIEH / TENG Chun Hsun",
+        "team": "TPE"
+      },
+      {
+        "id": "wd-entry-20",
+        "name": "ONG Xin Yee / Carmen TING",
+        "team": "MAS"
+      },
+      {
+        "id": "wd-entry-21",
+        "name": "鲍骊婧 / 曹梓涵",
+        "team": "CHN"
+      },
+      {
+        "id": "wd-entry-22",
+        "name": "LOW Zi Yu / N MAISARAH",
+        "team": "MAS"
+      },
+      {
+        "id": "wd-entry-23",
+        "name": "H MIJAD / N TUNGKASATAN",
+        "team": "THA"
+      },
+      {
+        "id": "wd-entry-24",
+        "name": "HSU Ya Ching / SUNG Yu-Hsuan",
+        "team": "TPE"
+      },
+      {
+        "id": "wd-entry-25",
+        "name": "I MEIDA / R NASTINE",
+        "team": "INA"
+      },
+      {
+        "id": "wd-entry-26",
+        "name": "L MAYASARI / Apriyani RAHAYU",
+        "team": "INA"
+      },
+      {
+        "id": "wd-entry-27",
+        "name": "Polina BUHROVA / Y KANTEMYR",
+        "team": "UKR"
+      },
+      {
+        "id": "wd-entry-28",
+        "name": "陈樊淑湉 / 罗徐敏",
+        "team": "CHN"
+      },
+      {
+        "id": "wd-entry-29",
+        "name": "FAN Ka Yan / YAU Mau Ying",
+        "team": "HKG"
+      },
+      {
+        "id": "wd-entry-30",
+        "name": "J MACPHERSON / Ciara TORRANCE",
+        "team": "SCO"
+      },
+      {
+        "id": "wd-entry-31",
+        "name": "Rutaparna PANDA / S PANDA",
+        "team": "IND"
+      },
+      {
+        "id": "wd-entry-32",
+        "name": "岩永铃 / 中西贵映",
+        "team": "JPN"
+      },
+      {
+        "id": "xd-entry-01",
+        "name": "德差波 / 苏皮萨拉",
+        "team": "THA"
+      },
+      {
+        "id": "xd-entry-02",
+        "name": "P TEERARATSAKUL / TAERATTANACHAI",
+        "team": "THA"
+      },
+      {
+        "id": "xd-entry-03",
+        "name": "Ashith SURYA / A PRAMUTHESH",
+        "team": "IND"
+      },
+      {
+        "id": "xd-entry-04",
+        "name": "Bobby SETIABUDI / M OKTAVIANTI",
+        "team": "INA"
+      },
+      {
+        "id": "xd-entry-05",
+        "name": "程星 / 张驰",
+        "team": "CHN"
+      },
+      {
+        "id": "xd-entry-06",
+        "name": "许邦荣 / 赖沛君",
+        "team": "MAS"
+      },
+      {
+        "id": "xd-entry-07",
+        "name": "WONG Tien Ci / LIM Chiew Sien",
+        "team": "MAS"
+      },
+      {
+        "id": "xd-entry-08",
+        "name": "CHAN Yin Chak / NG Tsz Yau",
+        "team": "HKG"
+      },
+      {
+        "id": "xd-entry-09",
+        "name": "郭新娃 / 陈芳卉",
+        "team": "CHN"
+      },
+      {
+        "id": "xd-entry-10",
+        "name": "古贺辉 / 斋藤夏",
+        "team": "JPN"
+      },
+      {
+        "id": "xd-entry-11",
+        "name": "Marvin SEIDEL / T NGUYEN",
+        "team": "GER"
+      },
+      {
+        "id": "xd-entry-12",
+        "name": "朱一珺 / 李茜",
+        "team": "CHN"
+      },
+      {
+        "id": "xd-entry-13",
+        "name": "J HIDAYATULLAH / F PASARIBU",
+        "team": "INA"
+      },
+      {
+        "id": "xd-entry-14",
+        "name": "Presley SMITH / Jennie GAI",
+        "team": "USA"
+      },
+      {
+        "id": "xd-entry-15",
+        "name": "S KANAPURAM / Radhika SHARMA",
+        "team": "IND"
+      },
+      {
+        "id": "xd-entry-16",
+        "name": "Alexander DUNN / J MACPHERSON",
+        "team": "SCO"
+      },
+      {
+        "id": "xd-entry-17",
+        "name": "WU Guan Xun / LEE Chia Hsin",
+        "team": "TPE"
+      },
+      {
+        "id": "xd-entry-18",
+        "name": "WU Hsuan-Yi / YANG Chu Yun",
+        "team": "TPE"
+      },
+      {
+        "id": "xd-entry-19",
+        "name": "CHEN ZHI YI / F CORBETT",
+        "team": "USA"
+      },
+      {
+        "id": "xd-entry-20",
+        "name": "GOH Soon Huat / LAI S J",
+        "team": "MAS"
+      },
+      {
+        "id": "xd-entry-21",
+        "name": "Ruben GARCIA / Lucia RODRIGUEZ",
+        "team": "ESP"
+      },
+      {
+        "id": "xd-entry-22",
+        "name": "Adnan MAULANA / I JAMIL",
+        "team": "INA"
+      },
+      {
+        "id": "xd-entry-23",
+        "name": "Jimmy WONG / CHENG Su Yin",
+        "team": "MAS"
+      },
+      {
+        "id": "xd-entry-24",
+        "name": "克里斯蒂安森 / 博尔",
+        "team": "DEN"
+      },
+      {
+        "id": "xd-entry-25",
+        "name": "Supak JOMKOH / JONGSATHAPORNPARN",
+        "team": "THA"
+      },
+      {
+        "id": "xd-entry-26",
+        "name": "Julien MAIO / Lea PALERMO",
+        "team": "FRA"
+      },
+      {
+        "id": "xd-entry-27",
+        "name": "D FERDINANSYAH / B WARDANA",
+        "team": "INA"
+      },
+      {
+        "id": "xd-entry-28",
+        "name": "高家炫 / 魏雅欣",
+        "team": "CHN"
+      },
+      {
+        "id": "xd-entry-29",
+        "name": "Amri SYAHNAWI / N MARWAH",
+        "team": "INA"
+      },
+      {
+        "id": "xd-entry-30",
+        "name": "Rohan KAPOOR / GADDE R S",
+        "team": "IND"
+      },
+      {
+        "id": "xd-entry-31",
+        "name": "J LAI / Crystal LAI",
+        "team": "CAN"
+      },
+      {
+        "id": "xd-entry-32",
+        "name": "CHEN Tang Jie / TOH Ee Wei",
+        "team": "MAS"
+      }
+    ],
+    "sources": [
+      {
+        "id": "official-results",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1178/free_form_1_20260604_130820.pdf",
+        "label": "日本羽毛球协会 · 马来西亚羽毛球大师赛官方完整正赛结果、报名代表队旗帜",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "name-asiaquarter",
+        "url": "https://www.news.cn/sports/20260410/498464765bc74239862921952002fc3b/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-chinafirst",
+        "url": "https://www.news.cn/sports/20260723/4efbd500e26946ce828edb6a829275e3/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-chinamix",
+        "url": "https://www.news.cn/sports/20260726/ec1c88927bbe4c05ae264a3ad4a9f274/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-chinaqf",
+        "url": "https://www.news.cn/sports/20260727/abf6715d5ca747b29fe3b0b31be60b78/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-chinasemi",
+        "url": "https://www.news.cn/20260726/8f33e2fe31bd43509be5aa38c90e5c58/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-christophersen",
+        "url": "https://www.news.cn/sports/20260528/965d7f18436d4fc2900dd49c3196a149/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-coc",
+        "url": "https://www.olympic.cn/news/focus/2026/0618/699828.html",
+        "label": "球员中文姓名核验",
+        "kind": "official",
+        "family": "www.olympic.cn"
+      },
+      {
+        "id": "name-france",
+        "url": "https://www.news.cn/sports/20261027/97b52eaf8ff9483ca2538dc5f459f6a1/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-japan",
+        "url": "https://www.news.cn/20260717/9e12ff2feb784b2a8832a5ef9dc51609/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-japanfirst",
+        "url": "https://www.news.cn/sports/20260715/0a4c59e900334ef7a9fda759270a58b9/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-japanlower",
+        "url": "https://www.news.cn/sports/20260525/c49264eef4764a1bb4d30160491e01e9/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-malaysia",
+        "url": "https://www.news.cn/20260524/251a85a8fe0e4d5594dc42f514becf13/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-miyazaki",
+        "url": "https://www.news.cn/sports/20260907/aabc9356799a4d17a9aa651f601a2472/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-singsemi",
+        "url": "https://www.news.cn/20260531/89058f69bdaa49418823d257a41e5250/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-worldfinal",
+        "url": "https://www.news.cn/20260823/c40e7060624347068ede27a0b9590a57/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-worldpreview",
+        "url": "https://www.news.cn/20260817/2e89e6cbd9e845628c3513af0b5429e0/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-worldquarter",
+        "url": "https://www.news.cn/sports/20260824/8bc9500510864ca7aec58400099fcf41/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "name-young",
+        "url": "https://www.news.cn/sports/20260907/78e7fd60b82d43f3a4acc8d5a8419c9b/c.html",
+        "label": "球员中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "additional-name-0",
+        "url": "https://www.news.cn/sports/20260201/27a490ca787a4a359d8357271bba7a7a/c.html",
+        "label": "中国球员正式中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "additional-name-1",
+        "url": "https://www.news.cn/sports/20260522/c8cef3ba31684e928a7f238c23e1501e/c.html",
+        "label": "中国球员正式中文姓名核验",
+        "kind": "independent",
+        "family": "www.news.cn"
+      },
+      {
+        "id": "additional-name-2",
+        "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c30103235/content.html",
+        "label": "中国球员正式中文姓名核验",
+        "kind": "official",
+        "family": "www.sport.gov.cn"
+      },
+      {
+        "id": "additional-name-3",
+        "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c30109409/content.html",
+        "label": "中国球员正式中文姓名核验",
+        "kind": "official",
+        "family": "www.sport.gov.cn"
+      }
+    ],
+    "rules": {
+      "badminton": {
+        "best_of": 3,
+        "points": 21,
+        "win_by": 2,
+        "cap": 30
+      }
+    },
+    "draws": [
+      {
+        "id": "ms",
+        "name": "男子单打"
+      },
+      {
+        "id": "ws",
+        "name": "女子单打"
+      },
+      {
+        "id": "md",
+        "name": "男子双打"
+      },
+      {
+        "id": "wd",
+        "name": "女子双打"
+      },
+      {
+        "id": "xd",
+        "name": "混合双打"
+      }
+    ],
+    "matches": [
+      {
+        "id": "ms-01",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-01"
+          },
+          {
+            "entry": "ms-entry-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-01",
+          "ms-entry-02"
+        ],
+        "games": [
+          [
+            21,
+            9
+          ],
+          [
+            21,
+            15
+          ]
+        ]
+      },
+      {
+        "id": "ms-02",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-03"
+          },
+          {
+            "entry": "ms-entry-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-03",
+          "ms-entry-04"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            8
+          ]
+        ]
+      },
+      {
+        "id": "ms-03",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-05"
+          },
+          {
+            "entry": "ms-entry-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "retired",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "winner": "ms-entry-05",
+        "result_for": [
+          "ms-entry-05",
+          "ms-entry-06"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ]
+        ],
+        "reason": "官方签表标记 RET（伤退），保留已记录的比分。",
+        "in_progress_game": [
+          6,
+          1
+        ]
+      },
+      {
+        "id": "ms-04",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-07"
+          },
+          {
+            "entry": "ms-entry-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-07",
+          "ms-entry-08"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            23
+          ]
+        ]
+      },
+      {
+        "id": "ms-05",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-09"
+          },
+          {
+            "entry": "ms-entry-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-09",
+          "ms-entry-10"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            15
+          ]
+        ]
+      },
+      {
+        "id": "ms-06",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-11"
+          },
+          {
+            "entry": "ms-entry-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-11",
+          "ms-entry-12"
+        ],
+        "games": [
+          [
+            24,
+            22
+          ],
+          [
+            21,
+            6
+          ]
+        ]
+      },
+      {
+        "id": "ms-07",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-13"
+          },
+          {
+            "entry": "ms-entry-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-13",
+          "ms-entry-14"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            15
+          ]
+        ]
+      },
+      {
+        "id": "ms-08",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-15"
+          },
+          {
+            "entry": "ms-entry-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-15",
+          "ms-entry-16"
+        ],
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            22,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "ms-09",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-17"
+          },
+          {
+            "entry": "ms-entry-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-17",
+          "ms-entry-18"
+        ],
+        "games": [
+          [
+            21,
+            23
+          ],
+          [
+            12,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-10",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-19"
+          },
+          {
+            "entry": "ms-entry-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-19",
+          "ms-entry-20"
+        ],
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "ms-11",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-21"
+          },
+          {
+            "entry": "ms-entry-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-21",
+          "ms-entry-22"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            17
+          ],
+          [
+            18,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-12",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-23"
+          },
+          {
+            "entry": "ms-entry-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-23",
+          "ms-entry-24"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            22,
+            20
+          ],
+          [
+            22,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "ms-13",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-25"
+          },
+          {
+            "entry": "ms-entry-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-25",
+          "ms-entry-26"
+        ],
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-14",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-27"
+          },
+          {
+            "entry": "ms-entry-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-27",
+          "ms-entry-28"
+        ],
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            21,
+            11
+          ]
+        ]
+      },
+      {
+        "id": "ms-15",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-29"
+          },
+          {
+            "entry": "ms-entry-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-29",
+          "ms-entry-30"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            14
+          ]
+        ]
+      },
+      {
+        "id": "ms-16",
+        "draw": "ms",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ms-entry-31"
+          },
+          {
+            "entry": "ms-entry-32"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-31",
+          "ms-entry-32"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            22,
+            24
+          ],
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-17",
+        "draw": "ms",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ms-01"
+          },
+          {
+            "winner": "ms-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-01",
+          "ms-entry-03"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "ms-18",
+        "draw": "ms",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ms-03"
+          },
+          {
+            "winner": "ms-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-05",
+          "ms-entry-08"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-19",
+        "draw": "ms",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ms-05"
+          },
+          {
+            "winner": "ms-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-09",
+          "ms-entry-11"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            9
+          ]
+        ]
+      },
+      {
+        "id": "ms-20",
+        "draw": "ms",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ms-07"
+          },
+          {
+            "winner": "ms-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-13",
+          "ms-entry-15"
+        ],
+        "games": [
+          [
+            23,
+            21
+          ],
+          [
+            14,
+            21
+          ],
+          [
+            21,
+            11
+          ]
+        ]
+      },
+      {
+        "id": "ms-21",
+        "draw": "ms",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ms-09"
+          },
+          {
+            "winner": "ms-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-18",
+          "ms-entry-19"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            17
+          ],
+          [
+            21,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "ms-22",
+        "draw": "ms",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ms-11"
+          },
+          {
+            "winner": "ms-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-22",
+          "ms-entry-24"
+        ],
+        "games": [
+          [
+            21,
+            7
+          ],
+          [
+            21,
+            19
+          ]
+        ]
+      },
+      {
+        "id": "ms-23",
+        "draw": "ms",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ms-13"
+          },
+          {
+            "winner": "ms-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-26",
+          "ms-entry-27"
+        ],
+        "games": [
+          [
+            10,
+            21
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-24",
+        "draw": "ms",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ms-15"
+          },
+          {
+            "winner": "ms-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-29",
+          "ms-entry-32"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-25",
+        "draw": "ms",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "ms-17"
+          },
+          {
+            "winner": "ms-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-01",
+          "ms-entry-08"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            13,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-26",
+        "draw": "ms",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "ms-19"
+          },
+          {
+            "winner": "ms-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-09",
+          "ms-entry-13"
+        ],
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            5
+          ]
+        ]
+      },
+      {
+        "id": "ms-27",
+        "draw": "ms",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "ms-21"
+          },
+          {
+            "winner": "ms-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-18",
+          "ms-entry-22"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "ms-28",
+        "draw": "ms",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "ms-23"
+          },
+          {
+            "winner": "ms-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-27",
+          "ms-entry-32"
+        ],
+        "games": [
+          [
+            21,
+            23
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-29",
+        "draw": "ms",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "ms-25"
+          },
+          {
+            "winner": "ms-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-08",
+          "ms-entry-09"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ms-30",
+        "draw": "ms",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "ms-27"
+          },
+          {
+            "winner": "ms-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-18",
+          "ms-entry-32"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "ms-31",
+        "draw": "ms",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "ms-29"
+          },
+          {
+            "winner": "ms-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ms-entry-09",
+          "ms-entry-18"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            17
+          ]
+        ]
+      },
+      {
+        "id": "ws-01",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-01"
+          },
+          {
+            "entry": "ws-entry-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-01",
+          "ws-entry-02"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "ws-02",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-03"
+          },
+          {
+            "entry": "ws-entry-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-03",
+          "ws-entry-04"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-03",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-05"
+          },
+          {
+            "entry": "ws-entry-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-05",
+          "ws-entry-06"
+        ],
+        "games": [
+          [
+            12,
+            21
+          ],
+          [
+            21,
+            13
+          ],
+          [
+            25,
+            23
+          ]
+        ]
+      },
+      {
+        "id": "ws-04",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-07"
+          },
+          {
+            "entry": "ws-entry-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-07",
+          "ws-entry-08"
+        ],
+        "games": [
+          [
+            21,
+            10
+          ],
+          [
+            21,
+            19
+          ]
+        ]
+      },
+      {
+        "id": "ws-05",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-09"
+          },
+          {
+            "entry": "ws-entry-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-09",
+          "ws-entry-10"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "ws-06",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-11"
+          },
+          {
+            "entry": "ws-entry-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-11",
+          "ws-entry-12"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            15
+          ]
+        ]
+      },
+      {
+        "id": "ws-07",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-13"
+          },
+          {
+            "entry": "ws-entry-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-13",
+          "ws-entry-14"
+        ],
+        "games": [
+          [
+            22,
+            24
+          ],
+          [
+            13,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-08",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-15"
+          },
+          {
+            "entry": "ws-entry-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-15",
+          "ws-entry-16"
+        ],
+        "games": [
+          [
+            21,
+            10
+          ],
+          [
+            21,
+            7
+          ]
+        ]
+      },
+      {
+        "id": "ws-09",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-17"
+          },
+          {
+            "entry": "ws-entry-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-17",
+          "ws-entry-18"
+        ],
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            21,
+            9
+          ]
+        ]
+      },
+      {
+        "id": "ws-10",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-19"
+          },
+          {
+            "entry": "ws-entry-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-19",
+          "ws-entry-20"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-11",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-21"
+          },
+          {
+            "entry": "ws-entry-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-21",
+          "ws-entry-22"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "ws-12",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-23"
+          },
+          {
+            "entry": "ws-entry-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-23",
+          "ws-entry-24"
+        ],
+        "games": [
+          [
+            21,
+            6
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            21,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "ws-13",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-25"
+          },
+          {
+            "entry": "ws-entry-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-25",
+          "ws-entry-26"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            7
+          ]
+        ]
+      },
+      {
+        "id": "ws-14",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-27"
+          },
+          {
+            "entry": "ws-entry-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-27",
+          "ws-entry-28"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            14
+          ],
+          [
+            18,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-15",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-29"
+          },
+          {
+            "entry": "ws-entry-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-29",
+          "ws-entry-30"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            6
+          ]
+        ]
+      },
+      {
+        "id": "ws-16",
+        "draw": "ws",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "ws-entry-31"
+          },
+          {
+            "entry": "ws-entry-32"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-31",
+          "ws-entry-32"
+        ],
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-17",
+        "draw": "ws",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ws-01"
+          },
+          {
+            "winner": "ws-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-01",
+          "ws-entry-04"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "ws-18",
+        "draw": "ws",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ws-03"
+          },
+          {
+            "winner": "ws-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-05",
+          "ws-entry-07"
+        ],
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            10,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-19",
+        "draw": "ws",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ws-05"
+          },
+          {
+            "winner": "ws-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-09",
+          "ws-entry-11"
+        ],
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-20",
+        "draw": "ws",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ws-07"
+          },
+          {
+            "winner": "ws-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-14",
+          "ws-entry-15"
+        ],
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-21",
+        "draw": "ws",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ws-09"
+          },
+          {
+            "winner": "ws-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-17",
+          "ws-entry-20"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            8,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-22",
+        "draw": "ws",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ws-11"
+          },
+          {
+            "winner": "ws-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-21",
+          "ws-entry-23"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "ws-23",
+        "draw": "ws",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ws-13"
+          },
+          {
+            "winner": "ws-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-25",
+          "ws-entry-28"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            12,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-24",
+        "draw": "ws",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "ws-15"
+          },
+          {
+            "winner": "ws-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-29",
+          "ws-entry-32"
+        ],
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            11,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-25",
+        "draw": "ws",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "ws-17"
+          },
+          {
+            "winner": "ws-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-01",
+          "ws-entry-07"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            9
+          ]
+        ]
+      },
+      {
+        "id": "ws-26",
+        "draw": "ws",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "ws-19"
+          },
+          {
+            "winner": "ws-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-11",
+          "ws-entry-15"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            12,
+            21
+          ],
+          [
+            10,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-27",
+        "draw": "ws",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "ws-21"
+          },
+          {
+            "winner": "ws-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-20",
+          "ws-entry-21"
+        ],
+        "games": [
+          [
+            21,
+            23
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            11
+          ]
+        ]
+      },
+      {
+        "id": "ws-28",
+        "draw": "ws",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "ws-23"
+          },
+          {
+            "winner": "ws-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-28",
+          "ws-entry-32"
+        ],
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            11,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-29",
+        "draw": "ws",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "ws-25"
+          },
+          {
+            "winner": "ws-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-01",
+          "ws-entry-15"
+        ],
+        "games": [
+          [
+            21,
+            11
+          ],
+          [
+            21,
+            14
+          ]
+        ]
+      },
+      {
+        "id": "ws-30",
+        "draw": "ws",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "ws-27"
+          },
+          {
+            "winner": "ws-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-20",
+          "ws-entry-32"
+        ],
+        "games": [
+          [
+            12,
+            21
+          ],
+          [
+            12,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "ws-31",
+        "draw": "ws",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "ws-29"
+          },
+          {
+            "winner": "ws-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "ws-entry-01",
+          "ws-entry-32"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-01",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-01"
+          },
+          {
+            "entry": "md-entry-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-01",
+          "md-entry-02"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            10
+          ],
+          [
+            21,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "md-02",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-03"
+          },
+          {
+            "entry": "md-entry-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-03",
+          "md-entry-04"
+        ],
+        "games": [
+          [
+            21,
+            12
+          ],
+          [
+            21,
+            15
+          ]
+        ]
+      },
+      {
+        "id": "md-03",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-05"
+          },
+          {
+            "entry": "md-entry-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-05",
+          "md-entry-06"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-04",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-07"
+          },
+          {
+            "entry": "md-entry-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-07",
+          "md-entry-08"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            13
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-05",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-09"
+          },
+          {
+            "entry": "md-entry-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-09",
+          "md-entry-10"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            14
+          ]
+        ]
+      },
+      {
+        "id": "md-06",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-11"
+          },
+          {
+            "entry": "md-entry-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-11",
+          "md-entry-12"
+        ],
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-07",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-13"
+          },
+          {
+            "entry": "md-entry-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-13",
+          "md-entry-14"
+        ],
+        "games": [
+          [
+            21,
+            9
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "md-08",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-15"
+          },
+          {
+            "entry": "md-entry-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-15",
+          "md-entry-16"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-09",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-17"
+          },
+          {
+            "entry": "md-entry-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-17",
+          "md-entry-18"
+        ],
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-10",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-19"
+          },
+          {
+            "entry": "md-entry-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-19",
+          "md-entry-20"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            15
+          ],
+          [
+            11,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-11",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-21"
+          },
+          {
+            "entry": "md-entry-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-21",
+          "md-entry-22"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            12,
+            21
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "md-12",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-23"
+          },
+          {
+            "entry": "md-entry-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-23",
+          "md-entry-24"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            14
+          ]
+        ]
+      },
+      {
+        "id": "md-13",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-25"
+          },
+          {
+            "entry": "md-entry-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-25",
+          "md-entry-26"
+        ],
+        "games": [
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            11
+          ]
+        ]
+      },
+      {
+        "id": "md-14",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-27"
+          },
+          {
+            "entry": "md-entry-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-27",
+          "md-entry-28"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-15",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-29"
+          },
+          {
+            "entry": "md-entry-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-29",
+          "md-entry-30"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            9
+          ]
+        ]
+      },
+      {
+        "id": "md-16",
+        "draw": "md",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "md-entry-31"
+          },
+          {
+            "entry": "md-entry-32"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-31",
+          "md-entry-32"
+        ],
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            18,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-17",
+        "draw": "md",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "md-01"
+          },
+          {
+            "winner": "md-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-01",
+          "md-entry-03"
+        ],
+        "games": [
+          [
+            21,
+            12
+          ],
+          [
+            21,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "md-18",
+        "draw": "md",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "md-03"
+          },
+          {
+            "winner": "md-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-06",
+          "md-entry-08"
+        ],
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-19",
+        "draw": "md",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "md-05"
+          },
+          {
+            "winner": "md-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-09",
+          "md-entry-12"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "md-20",
+        "draw": "md",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "md-07"
+          },
+          {
+            "winner": "md-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-13",
+          "md-entry-16"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "md-21",
+        "draw": "md",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "md-09"
+          },
+          {
+            "winner": "md-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-18",
+          "md-entry-20"
+        ],
+        "games": [
+          [
+            12,
+            21
+          ],
+          [
+            20,
+            22
+          ]
+        ]
+      },
+      {
+        "id": "md-22",
+        "draw": "md",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "md-11"
+          },
+          {
+            "winner": "md-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-21",
+          "md-entry-23"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "md-23",
+        "draw": "md",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "md-13"
+          },
+          {
+            "winner": "md-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-25",
+          "md-entry-28"
+        ],
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-24",
+        "draw": "md",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "md-15"
+          },
+          {
+            "winner": "md-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-29",
+          "md-entry-32"
+        ],
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            18,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-25",
+        "draw": "md",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "md-17"
+          },
+          {
+            "winner": "md-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-01",
+          "md-entry-08"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "md-26",
+        "draw": "md",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "md-19"
+          },
+          {
+            "winner": "md-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-09",
+          "md-entry-13"
+        ],
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "md-27",
+        "draw": "md",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "md-21"
+          },
+          {
+            "winner": "md-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-20",
+          "md-entry-21"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            19
+          ]
+        ]
+      },
+      {
+        "id": "md-28",
+        "draw": "md",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "md-23"
+          },
+          {
+            "winner": "md-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-28",
+          "md-entry-32"
+        ],
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            14
+          ]
+        ]
+      },
+      {
+        "id": "md-29",
+        "draw": "md",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "md-25"
+          },
+          {
+            "winner": "md-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-01",
+          "md-entry-09"
+        ],
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            12,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-30",
+        "draw": "md",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "md-27"
+          },
+          {
+            "winner": "md-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-20",
+          "md-entry-28"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "md-31",
+        "draw": "md",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "md-29"
+          },
+          {
+            "winner": "md-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "md-entry-09",
+          "md-entry-28"
+        ],
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-01",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-01"
+          },
+          {
+            "entry": "wd-entry-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-01",
+          "wd-entry-02"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-02",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-03"
+          },
+          {
+            "entry": "wd-entry-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-03",
+          "wd-entry-04"
+        ],
+        "games": [
+          [
+            21,
+            8
+          ],
+          [
+            21,
+            3
+          ]
+        ]
+      },
+      {
+        "id": "wd-03",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-05"
+          },
+          {
+            "entry": "wd-entry-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-05",
+          "wd-entry-06"
+        ],
+        "games": [
+          [
+            21,
+            8
+          ],
+          [
+            21,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "wd-04",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-07"
+          },
+          {
+            "entry": "wd-entry-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-07",
+          "wd-entry-08"
+        ],
+        "games": [
+          [
+            21,
+            5
+          ],
+          [
+            21,
+            17
+          ]
+        ]
+      },
+      {
+        "id": "wd-05",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-09"
+          },
+          {
+            "entry": "wd-entry-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-09",
+          "wd-entry-10"
+        ],
+        "games": [
+          [
+            21,
+            9
+          ],
+          [
+            21,
+            14
+          ]
+        ]
+      },
+      {
+        "id": "wd-06",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-11"
+          },
+          {
+            "entry": "wd-entry-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-11",
+          "wd-entry-12"
+        ],
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            17
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-07",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-13"
+          },
+          {
+            "entry": "wd-entry-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-13",
+          "wd-entry-14"
+        ],
+        "games": [
+          [
+            8,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-08",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-15"
+          },
+          {
+            "entry": "wd-entry-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-15",
+          "wd-entry-16"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "wd-09",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-17"
+          },
+          {
+            "entry": "wd-entry-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-17",
+          "wd-entry-18"
+        ],
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-10",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-19"
+          },
+          {
+            "entry": "wd-entry-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-19",
+          "wd-entry-20"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            22,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "wd-11",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-21"
+          },
+          {
+            "entry": "wd-entry-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-21",
+          "wd-entry-22"
+        ],
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "wd-12",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-23"
+          },
+          {
+            "entry": "wd-entry-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-23",
+          "wd-entry-24"
+        ],
+        "games": [
+          [
+            21,
+            10
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "wd-13",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-25"
+          },
+          {
+            "entry": "wd-entry-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-25",
+          "wd-entry-26"
+        ],
+        "games": [
+          [
+            20,
+            22
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-14",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-27"
+          },
+          {
+            "entry": "wd-entry-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-27",
+          "wd-entry-28"
+        ],
+        "games": [
+          [
+            9,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-15",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-29"
+          },
+          {
+            "entry": "wd-entry-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-29",
+          "wd-entry-30"
+        ],
+        "games": [
+          [
+            21,
+            11
+          ],
+          [
+            21,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "wd-16",
+        "draw": "wd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "wd-entry-31"
+          },
+          {
+            "entry": "wd-entry-32"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-31",
+          "wd-entry-32"
+        ],
+        "games": [
+          [
+            7,
+            21
+          ],
+          [
+            6,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-17",
+        "draw": "wd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "wd-01"
+          },
+          {
+            "winner": "wd-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-02",
+          "wd-entry-03"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            11,
+            21
+          ],
+          [
+            25,
+            23
+          ]
+        ]
+      },
+      {
+        "id": "wd-18",
+        "draw": "wd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "wd-03"
+          },
+          {
+            "winner": "wd-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-05",
+          "wd-entry-07"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            14,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-19",
+        "draw": "wd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "wd-05"
+          },
+          {
+            "winner": "wd-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-09",
+          "wd-entry-12"
+        ],
+        "games": [
+          [
+            21,
+            8
+          ],
+          [
+            21,
+            8
+          ]
+        ]
+      },
+      {
+        "id": "wd-20",
+        "draw": "wd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "wd-07"
+          },
+          {
+            "winner": "wd-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-14",
+          "wd-entry-15"
+        ],
+        "games": [
+          [
+            21,
+            12
+          ],
+          [
+            23,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-21",
+        "draw": "wd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "wd-09"
+          },
+          {
+            "winner": "wd-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-18",
+          "wd-entry-19"
+        ],
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "wd-22",
+        "draw": "wd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "wd-11"
+          },
+          {
+            "winner": "wd-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-21",
+          "wd-entry-23"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "wd-23",
+        "draw": "wd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "wd-13"
+          },
+          {
+            "winner": "wd-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-26",
+          "wd-entry-28"
+        ],
+        "games": [
+          [
+            10,
+            21
+          ],
+          [
+            21,
+            15
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-24",
+        "draw": "wd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "wd-15"
+          },
+          {
+            "winner": "wd-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-29",
+          "wd-entry-32"
+        ],
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            9,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-25",
+        "draw": "wd",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "wd-17"
+          },
+          {
+            "winner": "wd-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-02",
+          "wd-entry-07"
+        ],
+        "games": [
+          [
+            11,
+            21
+          ],
+          [
+            12,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-26",
+        "draw": "wd",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "wd-19"
+          },
+          {
+            "winner": "wd-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-09",
+          "wd-entry-14"
+        ],
+        "games": [
+          [
+            20,
+            22
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            17
+          ]
+        ]
+      },
+      {
+        "id": "wd-27",
+        "draw": "wd",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "wd-21"
+          },
+          {
+            "winner": "wd-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-18",
+          "wd-entry-21"
+        ],
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-28",
+        "draw": "wd",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "wd-23"
+          },
+          {
+            "winner": "wd-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-28",
+          "wd-entry-32"
+        ],
+        "games": [
+          [
+            24,
+            22
+          ],
+          [
+            21,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "wd-29",
+        "draw": "wd",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "wd-25"
+          },
+          {
+            "winner": "wd-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-07",
+          "wd-entry-09"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            11
+          ]
+        ]
+      },
+      {
+        "id": "wd-30",
+        "draw": "wd",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "wd-27"
+          },
+          {
+            "winner": "wd-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-21",
+          "wd-entry-28"
+        ],
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            9,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "wd-31",
+        "draw": "wd",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "wd-29"
+          },
+          {
+            "winner": "wd-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "wd-entry-07",
+          "wd-entry-28"
+        ],
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            23,
+            25
+          ]
+        ]
+      },
+      {
+        "id": "xd-01",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-01"
+          },
+          {
+            "entry": "xd-entry-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "retired",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "winner": "xd-entry-02",
+        "result_for": [
+          "xd-entry-01",
+          "xd-entry-02"
+        ],
+        "games": [],
+        "reason": "官方签表标记 RET（伤退），保留已记录的比分。",
+        "in_progress_game": [
+          11,
+          5
+        ]
+      },
+      {
+        "id": "xd-02",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-03"
+          },
+          {
+            "entry": "xd-entry-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-03",
+          "xd-entry-04"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            18,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-03",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-05"
+          },
+          {
+            "entry": "xd-entry-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-05",
+          "xd-entry-06"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            21,
+            12
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "xd-04",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-07"
+          },
+          {
+            "entry": "xd-entry-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-07",
+          "xd-entry-08"
+        ],
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-05",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-09"
+          },
+          {
+            "entry": "xd-entry-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-09",
+          "xd-entry-10"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            12,
+            21
+          ],
+          [
+            22,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "xd-06",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-11"
+          },
+          {
+            "entry": "xd-entry-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-11",
+          "xd-entry-12"
+        ],
+        "games": [
+          [
+            11,
+            21
+          ],
+          [
+            21,
+            13
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-07",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-13"
+          },
+          {
+            "entry": "xd-entry-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-13",
+          "xd-entry-14"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            12
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-08",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-15"
+          },
+          {
+            "entry": "xd-entry-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-15",
+          "xd-entry-16"
+        ],
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "xd-09",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-17"
+          },
+          {
+            "entry": "xd-entry-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-17",
+          "xd-entry-18"
+        ],
+        "games": [
+          [
+            20,
+            22
+          ],
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            17
+          ]
+        ]
+      },
+      {
+        "id": "xd-10",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-19"
+          },
+          {
+            "entry": "xd-entry-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-19",
+          "xd-entry-20"
+        ],
+        "games": [
+          [
+            8,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-11",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-21"
+          },
+          {
+            "entry": "xd-entry-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-21",
+          "xd-entry-22"
+        ],
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            13,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-12",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-23"
+          },
+          {
+            "entry": "xd-entry-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-23",
+          "xd-entry-24"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-13",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-25"
+          },
+          {
+            "entry": "xd-entry-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-25",
+          "xd-entry-26"
+        ],
+        "games": [
+          [
+            12,
+            21
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "xd-14",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-27"
+          },
+          {
+            "entry": "xd-entry-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-27",
+          "xd-entry-28"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-15",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-29"
+          },
+          {
+            "entry": "xd-entry-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-29",
+          "xd-entry-30"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            20,
+            22
+          ],
+          [
+            21,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "xd-16",
+        "draw": "xd",
+        "round": "32进16",
+        "slots": [
+          {
+            "entry": "xd-entry-31"
+          },
+          {
+            "entry": "xd-entry-32"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-31",
+          "xd-entry-32"
+        ],
+        "games": [
+          [
+            6,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-17",
+        "draw": "xd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "xd-01"
+          },
+          {
+            "winner": "xd-02"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-02",
+          "xd-entry-04"
+        ],
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "xd-18",
+        "draw": "xd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "xd-03"
+          },
+          {
+            "winner": "xd-04"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-05",
+          "xd-entry-08"
+        ],
+        "games": [
+          [
+            9,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-19",
+        "draw": "xd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "xd-05"
+          },
+          {
+            "winner": "xd-06"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-09",
+          "xd-entry-12"
+        ],
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            22,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "xd-20",
+        "draw": "xd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "xd-07"
+          },
+          {
+            "winner": "xd-08"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-14",
+          "xd-entry-15"
+        ],
+        "games": [
+          [
+            21,
+            12
+          ],
+          [
+            27,
+            25
+          ]
+        ]
+      },
+      {
+        "id": "xd-21",
+        "draw": "xd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "xd-09"
+          },
+          {
+            "winner": "xd-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-17",
+          "xd-entry-20"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            7,
+            21
+          ],
+          [
+            21,
+            19
+          ]
+        ]
+      },
+      {
+        "id": "xd-22",
+        "draw": "xd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "xd-11"
+          },
+          {
+            "winner": "xd-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-22",
+          "xd-entry-24"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            10,
+            21
+          ],
+          [
+            13,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-23",
+        "draw": "xd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "xd-13"
+          },
+          {
+            "winner": "xd-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-25",
+          "xd-entry-28"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            13,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-24",
+        "draw": "xd",
+        "round": "16进8",
+        "slots": [
+          {
+            "winner": "xd-15"
+          },
+          {
+            "winner": "xd-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-29",
+          "xd-entry-32"
+        ],
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            20,
+            22
+          ]
+        ]
+      },
+      {
+        "id": "xd-25",
+        "draw": "xd",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "xd-17"
+          },
+          {
+            "winner": "xd-18"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-02",
+          "xd-entry-08"
+        ],
+        "games": [
+          [
+            23,
+            21
+          ],
+          [
+            21,
+            19
+          ]
+        ]
+      },
+      {
+        "id": "xd-26",
+        "draw": "xd",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "xd-19"
+          },
+          {
+            "winner": "xd-20"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-09",
+          "xd-entry-14"
+        ],
+        "games": [
+          [
+            23,
+            21
+          ],
+          [
+            22,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "xd-27",
+        "draw": "xd",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "xd-21"
+          },
+          {
+            "winner": "xd-22"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-17",
+          "xd-entry-24"
+        ],
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-28",
+        "draw": "xd",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "xd-23"
+          },
+          {
+            "winner": "xd-24"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-28",
+          "xd-entry-32"
+        ],
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "xd-29",
+        "draw": "xd",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "xd-25"
+          },
+          {
+            "winner": "xd-26"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-02",
+          "xd-entry-09"
+        ],
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            17
+          ]
+        ]
+      },
+      {
+        "id": "xd-30",
+        "draw": "xd",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "xd-27"
+          },
+          {
+            "winner": "xd-28"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-24",
+          "xd-entry-28"
+        ],
+        "games": [
+          [
+            24,
+            22
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            18,
+            21
+          ]
+        ]
+      },
+      {
+        "id": "xd-31",
+        "draw": "xd",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "xd-29"
+          },
+          {
+            "winner": "xd-30"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "verification": {
+          "source_ids": [
+            "official-results"
+          ],
+          "verified_at": "2026-11-11T09:59:35+08:00"
+        },
+        "result_for": [
+          "xd-entry-02",
+          "xd-entry-28"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            21,
+            15
+          ],
+          [
+            11,
+            21
+          ]
+        ]
+      }
+    ]
+  }
+}
