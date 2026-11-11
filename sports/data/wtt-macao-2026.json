@@ -1,0 +1,1892 @@
+{
+  "schema_version": 1,
+  "event_dates": {
+    "start": "2026-09-08",
+    "end": "2026-09-13"
+  },
+  "kind": "bracket-v1",
+  "id": "wtt-macao-2026",
+  "output": "docs/2026/09/20260908-wtt-macao-2026/index.html",
+  "notices": [
+    "9月8–13日 · 澳门东亚运动会体育馆。完整男女单打签表，各32签、31场。",
+    "赛事已结束。本页是部分核验档案，不是实时赛况；待核实不表示比赛未举行。",
+    "官方完整逐局证据覆盖35场；其中17场上游链路闭合并录入终局，其余已核实逐局保存在随附证据清单，待上游核实。",
+    "首轮签位与代表队依据9月6日官方抽签公告。未凭聚合网站或仅有总分的报道推定终局；未补造比赛时间。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 WTT 澳门冠军赛",
+      "snapshot_at": "2026-11-11T09:46:24+08:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Asia/Macau"
+    },
+    "entries": [
+      {
+        "id": "men-p1",
+        "name": "Sora MATSUSHIMA",
+        "team": "JPN"
+      },
+      {
+        "id": "men-p2",
+        "name": "Tom JARVIS",
+        "team": "ENG"
+      },
+      {
+        "id": "men-p3",
+        "name": "Yukiya UDA",
+        "team": "JPN"
+      },
+      {
+        "id": "men-p4",
+        "name": "WONG Chun Ting",
+        "team": "HKG"
+      },
+      {
+        "id": "men-p5",
+        "name": "Tomislav PUCAR",
+        "team": "CRO"
+      },
+      {
+        "id": "men-p6",
+        "name": "Adrien RASSENFOSSE",
+        "team": "BEL"
+      },
+      {
+        "id": "men-p7",
+        "name": "Nicholas LUM",
+        "team": "AUS"
+      },
+      {
+        "id": "men-p8",
+        "name": "Hugo CALDERANO",
+        "team": "BRA"
+      },
+      {
+        "id": "men-p9",
+        "name": "LIN Yun-Ju",
+        "team": "TPE"
+      },
+      {
+        "id": "men-p10",
+        "name": "Flavien COTON",
+        "team": "FRA"
+      },
+      {
+        "id": "men-p11",
+        "name": "Anton KALLBERG",
+        "team": "SWE"
+      },
+      {
+        "id": "men-p12",
+        "name": "Manush SHAH",
+        "team": "IND"
+      },
+      {
+        "id": "men-p13",
+        "name": "KUO Guan-Hong",
+        "team": "TPE"
+      },
+      {
+        "id": "men-p14",
+        "name": "Benedikt DUDA",
+        "team": "GER"
+      },
+      {
+        "id": "men-p15",
+        "name": "Manav THAKKAR",
+        "team": "IND"
+      },
+      {
+        "id": "men-p16",
+        "name": "Alexis LEBRUN",
+        "team": "FRA"
+      },
+      {
+        "id": "men-p17",
+        "name": "Darko JORGIC",
+        "team": "SLO"
+      },
+      {
+        "id": "men-p18",
+        "name": "FENG Yi-Hsin",
+        "team": "TPE"
+      },
+      {
+        "id": "men-p19",
+        "name": "Omar ASSAR",
+        "team": "EGY"
+      },
+      {
+        "id": "men-p20",
+        "name": "CHEN Yuanyu",
+        "team": "CHN"
+      },
+      {
+        "id": "men-p21",
+        "name": "Simon GAUZY",
+        "team": "FRA"
+      },
+      {
+        "id": "men-p22",
+        "name": "Shunsuke TOGAMI",
+        "team": "JPN"
+      },
+      {
+        "id": "men-p23",
+        "name": "Patrick FRANZISKA",
+        "team": "GER"
+      },
+      {
+        "id": "men-p24",
+        "name": "Truls MOREGARD",
+        "team": "SWE"
+      },
+      {
+        "id": "men-p25",
+        "name": "Dang QIU",
+        "team": "GER"
+      },
+      {
+        "id": "men-p26",
+        "name": "ZHOU Qihao",
+        "team": "CHN"
+      },
+      {
+        "id": "men-p27",
+        "name": "Kanak JHA",
+        "team": "USA"
+      },
+      {
+        "id": "men-p28",
+        "name": "HUANG Youzheng",
+        "team": "CHN"
+      },
+      {
+        "id": "men-p29",
+        "name": "João GERALDO",
+        "team": "POR"
+      },
+      {
+        "id": "men-p30",
+        "name": "Anders LIND",
+        "team": "DEN"
+      },
+      {
+        "id": "men-p31",
+        "name": "MAK Tin Ian",
+        "team": "MAC"
+      },
+      {
+        "id": "men-p32",
+        "name": "Tomokazu HARIMOTO",
+        "team": "JPN"
+      },
+      {
+        "id": "women-p1",
+        "name": "Miwa HARIMOTO",
+        "team": "JPN"
+      },
+      {
+        "id": "women-p2",
+        "name": "ZENG Jian",
+        "team": "SGP"
+      },
+      {
+        "id": "women-p3",
+        "name": "Anna HURSEY",
+        "team": "WAL"
+      },
+      {
+        "id": "women-p4",
+        "name": "LEONG On Na",
+        "team": "MAC"
+      },
+      {
+        "id": "women-p5",
+        "name": "Jia Nan YUAN",
+        "team": "FRA"
+      },
+      {
+        "id": "women-p6",
+        "name": "Sofia POLCANOVA",
+        "team": "AUT"
+      },
+      {
+        "id": "women-p7",
+        "name": "Bernadette SZOCS",
+        "team": "ROU"
+      },
+      {
+        "id": "women-p8",
+        "name": "Sabine WINTER",
+        "team": "GER"
+      },
+      {
+        "id": "women-p9",
+        "name": "WANG Yidi",
+        "team": "CHN"
+      },
+      {
+        "id": "women-p10",
+        "name": "Dina MESHREF",
+        "team": "EGY"
+      },
+      {
+        "id": "women-p11",
+        "name": "Mo ZHANG",
+        "team": "CAN"
+      },
+      {
+        "id": "women-p12",
+        "name": "Lily ZHANG",
+        "team": "USA"
+      },
+      {
+        "id": "women-p13",
+        "name": "Hana GODA",
+        "team": "EGY"
+      },
+      {
+        "id": "women-p14",
+        "name": "Bruna TAKAHASHI",
+        "team": "BRA"
+      },
+      {
+        "id": "women-p15",
+        "name": "Nina MITTELHAM",
+        "team": "GER"
+      },
+      {
+        "id": "women-p16",
+        "name": "CHEN Xingtong",
+        "team": "CHN"
+      },
+      {
+        "id": "women-p17",
+        "name": "Satsuki ODO",
+        "team": "JPN"
+      },
+      {
+        "id": "women-p18",
+        "name": "Elizabeta SAMARA",
+        "team": "ROU"
+      },
+      {
+        "id": "women-p19",
+        "name": "CHENG I-Ching",
+        "team": "TPE"
+      },
+      {
+        "id": "women-p20",
+        "name": "DOO Hoi Kem",
+        "team": "HKG"
+      },
+      {
+        "id": "women-p21",
+        "name": "Adriana DIAZ",
+        "team": "PUR"
+      },
+      {
+        "id": "women-p22",
+        "name": "Honoka HASHIMOTO",
+        "team": "JPN"
+      },
+      {
+        "id": "women-p23",
+        "name": "Margaryta PESOTSKA",
+        "team": "UKR"
+      },
+      {
+        "id": "women-p24",
+        "name": "Hina HAYATA",
+        "team": "JPN"
+      },
+      {
+        "id": "women-p25",
+        "name": "CHEN Yi",
+        "team": "CHN"
+      },
+      {
+        "id": "women-p26",
+        "name": "YEH Yi-Tian",
+        "team": "TPE"
+      },
+      {
+        "id": "women-p27",
+        "name": "Yangzi LIU",
+        "team": "AUS"
+      },
+      {
+        "id": "women-p28",
+        "name": "Elizabet ABRAAMIAN",
+        "team": "RUS"
+      },
+      {
+        "id": "women-p29",
+        "name": "Prithika PAVADE",
+        "team": "FRA"
+      },
+      {
+        "id": "women-p30",
+        "name": "Natalia BAJOR",
+        "team": "POL"
+      },
+      {
+        "id": "women-p31",
+        "name": "Ying HAN",
+        "team": "GER"
+      },
+      {
+        "id": "women-p32",
+        "name": "KUAI Man",
+        "team": "CHN"
+      }
+    ],
+    "sources": [
+      {
+        "id": "draw",
+        "url": "https://wttmacao.sport.gov.mo/en/events/news/id/5746",
+        "label": "澳门赛事主办方官方签表",
+        "kind": "official",
+        "family": "macao-sports-bureau"
+      },
+      {
+        "id": "d8",
+        "url": "https://wttmacao.dscd.gov.mo/en/news/id/5748",
+        "label": "澳门赛事主办方逐日赛果",
+        "kind": "official",
+        "family": "macao-sports-bureau"
+      },
+      {
+        "id": "d9",
+        "url": "https://wttmacao.dscd.gov.mo/en/news/id/5749",
+        "label": "澳门赛事主办方逐日赛果",
+        "kind": "official",
+        "family": "macao-sports-bureau"
+      },
+      {
+        "id": "d10",
+        "url": "https://www.sport.gov.mo/en/news/id/5750",
+        "label": "澳门赛事主办方逐日赛果",
+        "kind": "official",
+        "family": "macao-sports-bureau"
+      },
+      {
+        "id": "d11",
+        "url": "https://www.sport.gov.mo/en/news/id/5754",
+        "label": "澳门赛事主办方逐日赛果",
+        "kind": "official",
+        "family": "macao-sports-bureau"
+      },
+      {
+        "id": "d12",
+        "url": "https://sport.gov.mo/en/news/id/5755",
+        "label": "澳门赛事主办方逐日赛果",
+        "kind": "official",
+        "family": "macao-sports-bureau"
+      },
+      {
+        "id": "d13",
+        "url": "https://sport.gov.mo/en/news/id/5757",
+        "label": "澳门赛事主办方逐日赛果",
+        "kind": "official",
+        "family": "macao-sports-bureau"
+      },
+      {
+        "id": "swe8",
+        "url": "https://nosbtf.sbtf.se/overtygande-3-0-seger-fran-anton/",
+        "label": "瑞典乒协官方报道",
+        "kind": "official",
+        "family": "sbtf"
+      },
+      {
+        "id": "swe12",
+        "url": "https://sbtf.se/landslag/blagul-superlordag-i-bade-macao-och-bulgarien/",
+        "label": "瑞典乒协官方报道",
+        "kind": "official",
+        "family": "sbtf"
+      }
+    ],
+    "rules": {
+      "early": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2
+      },
+      "late": {
+        "best_of": 7,
+        "points": 11,
+        "win_by": 2
+      }
+    },
+    "draws": [
+      {
+        "id": "men",
+        "name": "男子单打"
+      },
+      {
+        "id": "women",
+        "name": "女子单打"
+      }
+    ],
+    "matches": [
+      {
+        "id": "men-r32-0",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p1"
+          },
+          {
+            "entry": "men-p2"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r32-1",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p3"
+          },
+          {
+            "entry": "men-p4"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p3",
+          "men-p4"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d8"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "men-r32-2",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p5"
+          },
+          {
+            "entry": "men-p6"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r32-3",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p7"
+          },
+          {
+            "entry": "men-p8"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r32-4",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p9"
+          },
+          {
+            "entry": "men-p10"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r32-5",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p11"
+          },
+          {
+            "entry": "men-p12"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p11",
+          "men-p12"
+        ],
+        "games": [
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "swe8"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "men-r32-6",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p13"
+          },
+          {
+            "entry": "men-p14"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r32-7",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p15"
+          },
+          {
+            "entry": "men-p16"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r32-8",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p17"
+          },
+          {
+            "entry": "men-p18"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r32-9",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p19"
+          },
+          {
+            "entry": "men-p20"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p19",
+          "men-p20"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d8"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "men-r32-10",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p21"
+          },
+          {
+            "entry": "men-p22"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r32-11",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p23"
+          },
+          {
+            "entry": "men-p24"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p23",
+          "men-p24"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d9"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-09"
+      },
+      {
+        "id": "men-r32-12",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p25"
+          },
+          {
+            "entry": "men-p26"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p25",
+          "men-p26"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d10"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-10"
+      },
+      {
+        "id": "men-r32-13",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p27"
+          },
+          {
+            "entry": "men-p28"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p27",
+          "men-p28"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d9"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-09"
+      },
+      {
+        "id": "men-r32-14",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p29"
+          },
+          {
+            "entry": "men-p30"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p29",
+          "men-p30"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d8"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "men-r32-15",
+        "draw": "men",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "men-p31"
+          },
+          {
+            "entry": "men-p32"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p31",
+          "men-p32"
+        ],
+        "games": [
+          [
+            2,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d8"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "men-r16-0",
+        "draw": "men",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-0"
+          },
+          {
+            "winner": "men-r32-1"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r16-1",
+        "draw": "men",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-2"
+          },
+          {
+            "winner": "men-r32-3"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "men-r16-2",
+        "draw": "men",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-4"
+          },
+          {
+            "winner": "men-r32-5"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "men-r16-3",
+        "draw": "men",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-6"
+          },
+          {
+            "winner": "men-r32-7"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r16-4",
+        "draw": "men",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-8"
+          },
+          {
+            "winner": "men-r32-9"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "men-r16-5",
+        "draw": "men",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-10"
+          },
+          {
+            "winner": "men-r32-11"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "men-r16-6",
+        "draw": "men",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-12"
+          },
+          {
+            "winner": "men-r32-13"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p26",
+          "men-p27"
+        ],
+        "games": [
+          [
+            12,
+            10
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d11"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-11"
+      },
+      {
+        "id": "men-r16-7",
+        "draw": "men",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-14"
+          },
+          {
+            "winner": "men-r32-15"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "men-p30",
+          "men-p32"
+        ],
+        "games": [
+          [
+            3,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d10"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-10"
+      },
+      {
+        "id": "men-qf-0",
+        "draw": "men",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-r16-0"
+          },
+          {
+            "winner": "men-r16-1"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "men-qf-1",
+        "draw": "men",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-r16-2"
+          },
+          {
+            "winner": "men-r16-3"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "men-qf-2",
+        "draw": "men",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-r16-4"
+          },
+          {
+            "winner": "men-r16-5"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "men-qf-3",
+        "draw": "men",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-r16-6"
+          },
+          {
+            "winner": "men-r16-7"
+          }
+        ],
+        "rule": "late",
+        "status": "completed",
+        "result_for": [
+          "men-p26",
+          "men-p32"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d12"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-12"
+      },
+      {
+        "id": "men-sf-0",
+        "draw": "men",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "men-qf-0"
+          },
+          {
+            "winner": "men-qf-1"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "men-sf-1",
+        "draw": "men",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "men-qf-2"
+          },
+          {
+            "winner": "men-qf-3"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "men-final-0",
+        "draw": "men",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "men-sf-0"
+          },
+          {
+            "winner": "men-sf-1"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-r32-0",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p1"
+          },
+          {
+            "entry": "women-p2"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-1",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p3"
+          },
+          {
+            "entry": "women-p4"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "women-p3",
+          "women-p4"
+        ],
+        "games": [
+          [
+            11,
+            1
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d8"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "women-r32-2",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p5"
+          },
+          {
+            "entry": "women-p6"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-3",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p7"
+          },
+          {
+            "entry": "women-p8"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-4",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p9"
+          },
+          {
+            "entry": "women-p10"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "women-p9",
+          "women-p10"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d9"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-09"
+      },
+      {
+        "id": "women-r32-5",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p11"
+          },
+          {
+            "entry": "women-p12"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-6",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p13"
+          },
+          {
+            "entry": "women-p14"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-7",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p15"
+          },
+          {
+            "entry": "women-p16"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "women-p15",
+          "women-p16"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            3,
+            11
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d10"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-10"
+      },
+      {
+        "id": "women-r32-8",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p17"
+          },
+          {
+            "entry": "women-p18"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-9",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p19"
+          },
+          {
+            "entry": "women-p20"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "women-p19",
+          "women-p20"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d8"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "women-r32-10",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p21"
+          },
+          {
+            "entry": "women-p22"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-11",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p23"
+          },
+          {
+            "entry": "women-p24"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-12",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p25"
+          },
+          {
+            "entry": "women-p26"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "women-p25",
+          "women-p26"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d8"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-08"
+      },
+      {
+        "id": "women-r32-13",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p27"
+          },
+          {
+            "entry": "women-p28"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-14",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p29"
+          },
+          {
+            "entry": "women-p30"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r32-15",
+        "draw": "women",
+        "round": "首轮 · 32进16",
+        "slots": [
+          {
+            "entry": "women-p31"
+          },
+          {
+            "entry": "women-p32"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "women-p31",
+          "women-p32"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "verification": {
+          "source_ids": [
+            "d9"
+          ],
+          "verified_at": "2026-11-11T09:46:24+08:00"
+        },
+        "completed_date": "2026-09-09"
+      },
+      {
+        "id": "women-r16-0",
+        "draw": "women",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-0"
+          },
+          {
+            "winner": "women-r32-1"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-r16-1",
+        "draw": "women",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-2"
+          },
+          {
+            "winner": "women-r32-3"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-r16-2",
+        "draw": "women",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-4"
+          },
+          {
+            "winner": "women-r32-5"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r16-3",
+        "draw": "women",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-6"
+          },
+          {
+            "winner": "women-r32-7"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-r16-4",
+        "draw": "women",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-8"
+          },
+          {
+            "winner": "women-r32-9"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r16-5",
+        "draw": "women",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-10"
+          },
+          {
+            "winner": "women-r32-11"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-r16-6",
+        "draw": "women",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-12"
+          },
+          {
+            "winner": "women-r32-13"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-r16-7",
+        "draw": "women",
+        "round": "第二轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-14"
+          },
+          {
+            "winner": "women-r32-15"
+          }
+        ],
+        "rule": "early",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-qf-0",
+        "draw": "women",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-r16-0"
+          },
+          {
+            "winner": "women-r16-1"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-qf-1",
+        "draw": "women",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-r16-2"
+          },
+          {
+            "winner": "women-r16-3"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-qf-2",
+        "draw": "women",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-r16-4"
+          },
+          {
+            "winner": "women-r16-5"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "赛事已结束，但本场完整逐局或上游晋级链尚未核实，不能据总分推定终局。"
+      },
+      {
+        "id": "women-qf-3",
+        "draw": "women",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-r16-6"
+          },
+          {
+            "winner": "women-r16-7"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-sf-0",
+        "draw": "women",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "women-qf-0"
+          },
+          {
+            "winner": "women-qf-1"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-sf-1",
+        "draw": "women",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "women-qf-2"
+          },
+          {
+            "winner": "women-qf-3"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      },
+      {
+        "id": "women-final-0",
+        "draw": "women",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "women-sf-0"
+          },
+          {
+            "winner": "women-sf-1"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled",
+        "blocker": "本场完整逐局已有官方证据，但上游仍有未核实比赛；保留晋级引用，待链路核实后导入。"
+      }
+    ]
+  }
+}
