@@ -10,7 +10,7 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 64 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
+    "已录入 66 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
     "11月11日首轮比赛从北京时间08:00开始；各场具体开赛时间尚待官方或双独立来源核实，不能将日程起始时间视为每场时间。"
@@ -19,7 +19,7 @@
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-12T10:00:00+08:00",
+      "snapshot_at": "2026-11-12T11:00:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -1114,6 +1114,27 @@
         "label": "BadmintonPlanet Vincent Liew：11月11日战报",
         "kind": "independent",
         "family": "badmintonplanet.com"
+      },
+      {
+        "id": "kontan-day3",
+        "url": "https://momsmoney.kontan.co.id/news/hasil-kumamoto-masters-japan-2026-revans-ubed-gebuk-unggulan-1",
+        "label": "Kontan SS. Kurniawan：11月12日次轮",
+        "kind": "independent",
+        "family": "kontan.co.id"
+      },
+      {
+        "id": "inews-day3",
+        "url": "https://www.inews.id/sport/all-sport/hasil-kumamoto-masters-2026-amrinita-tumbang-dari-wakil-jepang",
+        "label": "iNews：11月12日Amri/Nita次轮",
+        "kind": "independent",
+        "family": "mncgroup"
+      },
+      {
+        "id": "radarmadiun-day3",
+        "url": "https://radarmadiun.jawapos.com/olahraga/2611120003/hasil-kumamoto-masters-2026-kejutan-ubed-kandaskan-tunggal-putra-nomor-1-dunia",
+        "label": "Radar Madiun Wawan Isdarwanto：11月12日男单次轮",
+        "kind": "independent",
+        "family": "jawapos.com"
       }
     ],
     "rules": {
@@ -1802,8 +1823,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ],
+        "result_for": [
+          "MS-1-0",
+          "MS-2-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T11:00:00+08:00",
+          "source_ids": [
+            "kontan-day3",
+            "radarmadiun-day3"
+          ]
+        }
       },
       {
         "id": "MS-R16-2",
@@ -4745,8 +4787,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            11
+          ],
+          [
+            8,
+            21
+          ]
+        ],
+        "result_for": [
+          "XD-7-0",
+          "XD-8-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T11:00:00+08:00",
+          "source_ids": [
+            "kontan-day3",
+            "inews-day3"
+          ]
+        }
       },
       {
         "id": "XD-R16-5",
