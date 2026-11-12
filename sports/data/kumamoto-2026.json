@@ -10,7 +10,7 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 112 场终局，其中 1 场伤退、1 场弃权；正赛首轮 80 场均已有终局。资格赛记录仍不完整；逐局比分、状态和核验来源见对应卡片。",
+    "已录入 119 场终局，其中 1 场伤退、1 场弃权；资格赛 17 场、正赛首轮 80 场均已有终局，次轮已录入 22 场。逐局比分、状态和核验来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
     "11月12日次轮从北京时间08:00开始，11月13日四分之一决赛从北京时间09:00开始。日程起始时间不代表每场时间；未取得终局的比赛不按计划时间推断完赛。"
@@ -874,6 +874,41 @@
         "id": "wd-igarashi-tanabe",
         "name": "五十岚有纱／田边裕美",
         "team": "JPN"
+      },
+      {
+        "id": "ms-timothy-lock",
+        "name": "Timothy LOCK",
+        "team": "CAN"
+      },
+      {
+        "id": "ws-kim-min-sun",
+        "name": "KIM Min Sun",
+        "team": "KOR"
+      },
+      {
+        "id": "md-lin-zeng",
+        "name": "林祥毅／曾维瀚",
+        "team": "CHN"
+      },
+      {
+        "id": "md-he-huang",
+        "name": "何志伟／黄睿璿",
+        "team": "TPE"
+      },
+      {
+        "id": "xd-lock-hoang",
+        "name": "Timothy LOCK／Chloe HOANG",
+        "team": "CAN"
+      },
+      {
+        "id": "xd-kapila-sharma",
+        "name": "DHRUV KAPILA／Radhika SHARMA",
+        "team": "IND"
+      },
+      {
+        "id": "xd-panev-stoeva",
+        "name": "Evgeni PANEV／加夫列拉·斯托伊娃",
+        "team": "BUL"
       }
     ],
     "sources": [
@@ -1184,6 +1219,13 @@
         "label": "BWF官方逐场API：2026年11月12日",
         "kind": "official",
         "family": "bwfbadminton.com"
+      },
+      {
+        "id": "cna-he-huang-name",
+        "url": "https://www.cna.com.tw/news/aspt/202608060294.aspx",
+        "label": "中央社：何志伟／黄睿璿中文姓名依据",
+        "kind": "independent",
+        "family": "cna.com.tw"
       }
     ],
     "rules": {
@@ -1686,7 +1728,7 @@
             "entry": "MS-11-0"
           },
           {
-            "entry": "MS-11-1"
+            "winner": "MS-Q-LOCK-JEON"
           }
         ],
         "rule": "badminton",
@@ -2829,7 +2871,7 @@
             "entry": "WS-15-0"
           },
           {
-            "entry": "WS-15-1"
+            "winner": "WS-Q-XU-KIM"
           }
         ],
         "rule": "badminton",
@@ -3317,7 +3359,7 @@
             "entry": "MD-4-0"
           },
           {
-            "entry": "MD-4-1"
+            "winner": "MD-Q-CHIA-LIN"
           }
         ],
         "rule": "badminton",
@@ -3688,7 +3730,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "MD-14-0"
+            "winner": "MD-Q-HE-SUKPHUN"
           },
           {
             "entry": "MD-14-1"
@@ -5058,7 +5100,7 @@
             "entry": "XD-3-0"
           },
           {
-            "entry": "XD-3-1"
+            "winner": "XD-Q-KAPILA-CHEN"
           }
         ],
         "rule": "badminton",
@@ -5426,7 +5468,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "XD-13-0"
+            "winner": "XD-Q-WU-LOCK"
           },
           {
             "entry": "XD-13-1"
@@ -5545,7 +5587,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "XD-16-0"
+            "winner": "XD-Q-PANEV-YU"
           },
           {
             "entry": "XD-16-1"
@@ -6291,6 +6333,258 @@
           "source_ids": [
             "badspi-day1",
             "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "MS-Q-LOCK-JEON",
+        "draw": "MS",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "ms-timothy-lock"
+          },
+          {
+            "entry": "MS-11-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            10,
+            21
+          ]
+        ],
+        "result_for": [
+          "ms-timothy-lock",
+          "MS-11-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "WS-Q-XU-KIM",
+        "draw": "WS",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "WS-15-1"
+          },
+          {
+            "entry": "ws-kim-min-sun"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            13
+          ]
+        ],
+        "result_for": [
+          "WS-15-1",
+          "ws-kim-min-sun"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-Q-CHIA-LIN",
+        "draw": "MD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "MD-4-1"
+          },
+          {
+            "entry": "md-lin-zeng"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "result_for": [
+          "MD-4-1",
+          "md-lin-zeng"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-Q-HE-SUKPHUN",
+        "draw": "MD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "md-he-huang"
+          },
+          {
+            "entry": "MD-14-0"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            11,
+            21
+          ],
+          [
+            23,
+            25
+          ]
+        ],
+        "result_for": [
+          "md-he-huang",
+          "MD-14-0"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "XD-Q-WU-LOCK",
+        "draw": "XD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "XD-13-0"
+          },
+          {
+            "entry": "xd-lock-hoang"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "XD-13-0",
+          "xd-lock-hoang"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "XD-Q-KAPILA-CHEN",
+        "draw": "XD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "xd-kapila-sharma"
+          },
+          {
+            "entry": "XD-3-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ],
+        "result_for": [
+          "xd-kapila-sharma",
+          "XD-3-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "XD-Q-PANEV-YU",
+        "draw": "XD",
+        "round": "资格赛",
+        "slots": [
+          {
+            "entry": "xd-panev-stoeva"
+          },
+          {
+            "entry": "XD-16-0"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "games": [
+          [
+            7,
+            21
+          ],
+          [
+            13,
+            21
+          ]
+        ],
+        "result_for": [
+          "xd-panev-stoeva",
+          "XD-16-0"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
           ]
         }
       }
