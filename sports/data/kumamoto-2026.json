@@ -10,7 +10,7 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 58 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
+    "已录入 64 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
     "11月11日首轮比赛从北京时间08:00开始；各场具体开赛时间尚待官方或双独立来源核实，不能将日程起始时间视为每场时间。"
@@ -19,7 +19,7 @@
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-12T09:30:00+08:00",
+      "snapshot_at": "2026-11-12T10:00:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -1100,6 +1100,20 @@
         "label": "RevSportz Amrin Siddique：11月11日印度选手首轮",
         "kind": "independent",
         "family": "revsportz.in"
+      },
+      {
+        "id": "bernama-day2",
+        "url": "https://www.malaymail.com/news/sports/2026/11/11/mixed-fortunes-in-kumamoto-two-malaysian-pairs-through-goh-soon-huat-shevon-lai-fall/242864",
+        "label": "Bernama：11月11日马来西亚选手赛果（Malay Mail转载）",
+        "kind": "independent",
+        "family": "bernama.com"
+      },
+      {
+        "id": "planet-day2",
+        "url": "https://www.badmintonplanet.com/badminton-news/kumamoto-masters-2026-man-tee-pang-ron-pei-jing-advance.html",
+        "label": "BadmintonPlanet Vincent Liew：11月11日战报",
+        "kind": "independent",
+        "family": "badmintonplanet.com"
       }
     ],
     "rules": {
@@ -2208,9 +2222,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            4
+          ],
+          [
+            21,
+            13
+          ]
+        ],
+        "result_for": [
+          "WS-7-0",
+          "WS-7-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
       },
       {
         "id": "WS-R32-8",
@@ -2756,9 +2794,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            10
+          ]
+        ],
+        "result_for": [
+          "MD-4-0",
+          "MD-4-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
       },
       {
         "id": "MD-R32-5",
@@ -3087,9 +3149,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            23,
+            21
+          ],
+          [
+            13,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-14-0",
+          "MD-14-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
       },
       {
         "id": "MD-R32-15",
@@ -4131,8 +4217,8 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "blocker": "待核实：Bernama记蒋振邦／魏雅欣首局21–17，BadmintonPlanet与RevSportz记21–7；第二局均21–9。保留待定，待官方逐局消除冲突。",
+        "reason": "来源：bernama-day2、planet-day2、revsportz-day2；转载与原稿只计同一来源。"
       },
       {
         "id": "XD-R32-2",
@@ -4147,9 +4233,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ],
+        "result_for": [
+          "XD-2-0",
+          "XD-2-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
       },
       {
         "id": "XD-R32-3",
@@ -4341,9 +4447,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            23
+          ],
+          [
+            23,
+            21
+          ]
+        ],
+        "result_for": [
+          "XD-10-0",
+          "XD-10-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
       },
       {
         "id": "XD-R32-11",
@@ -4394,9 +4524,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            8,
+            21
+          ],
+          [
+            21,
+            23
+          ]
+        ],
+        "result_for": [
+          "XD-12-0",
+          "XD-12-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
       },
       {
         "id": "XD-R32-13",
