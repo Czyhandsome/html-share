@@ -10,10 +10,10 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 69 场终局，其中 1 场为谢定峰／苏伟译首局6–11时伤退。资格赛记录仍不完整；逐局比分、退赛说明和核验来源见对应卡片。",
+    "已录入 112 场终局，其中 1 场伤退、1 场弃权；正赛首轮 80 场均已有终局。资格赛记录仍不完整；逐局比分、状态和核验来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
-    "11月11日首轮比赛从北京时间08:00开始；各场具体开赛时间尚待官方或双独立来源核实，不能将日程起始时间视为每场时间。"
+    "11月12日次轮从北京时间08:00开始，11月13日四分之一决赛从北京时间09:00开始。日程起始时间不代表每场时间；未取得终局的比赛不按计划时间推断完赛。"
   ],
   "data": {
     "schema_version": 1,
@@ -1163,6 +1163,27 @@
         "label": "自由时报粘藐云：11月10日男双首轮赛果",
         "kind": "independent",
         "family": "ltn.com.tw"
+      },
+      {
+        "id": "bwf-api-nov10",
+        "url": "https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=5CC4D285-D8E0-4747-A6BF-A2D271B94BC7&date=2026-11-10&order=2&court=0",
+        "label": "BWF官方逐场API：2026年11月10日",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-api-nov11",
+        "url": "https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=5CC4D285-D8E0-4747-A6BF-A2D271B94BC7&date=2026-11-11&order=2&court=0",
+        "label": "BWF官方逐场API：2026年11月11日",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-api-nov12",
+        "url": "https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=5CC4D285-D8E0-4747-A6BF-A2D271B94BC7&date=2026-11-12&order=2&court=0",
+        "label": "BWF官方逐场API：2026年11月12日",
+        "kind": "official",
+        "family": "bwfbadminton.com"
       }
     ],
     "rules": {
@@ -1548,9 +1569,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            10
+          ]
+        ],
+        "result_for": [
+          "MS-8-0",
+          "MS-8-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "MS-R32-9",
@@ -1834,9 +1878,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ],
+        "result_for": [
+          "MS-16-0",
+          "MS-16-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "MS-R16-1",
@@ -1888,8 +1951,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            6,
+            21
+          ],
+          [
+            21,
+            11
+          ]
+        ],
+        "result_for": [
+          "MS-3-0",
+          "MS-4-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MS-R16-3",
@@ -1904,8 +1991,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ],
+        "result_for": [
+          "MS-5-0",
+          "MS-6-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MS-R16-4",
@@ -1936,8 +2043,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            11,
+            21
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "result_for": [
+          "MS-9-0",
+          "MS-10-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MS-R16-6",
@@ -1952,8 +2083,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            24,
+            22
+          ],
+          [
+            21,
+            19
+          ]
+        ],
+        "result_for": [
+          "MS-11-0",
+          "MS-12-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MS-R16-7",
@@ -1968,8 +2119,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            9,
+            21
+          ],
+          [
+            18,
+            21
+          ]
+        ],
+        "result_for": [
+          "MS-13-0",
+          "MS-14-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MS-R16-8",
@@ -1984,8 +2155,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ],
+        "result_for": [
+          "MS-15-0",
+          "MS-16-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MS-QF-1",
@@ -2149,9 +2340,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            7
+          ]
+        ],
+        "result_for": [
+          "WS-2-0",
+          "WS-2-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "WS-R32-3",
@@ -2202,9 +2412,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            10,
+            21
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-4-0",
+          "WS-4-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "WS-R32-5",
@@ -2374,9 +2607,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "WS-9-0",
+          "WS-9-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "WS-R32-10",
@@ -2428,9 +2680,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "WS-11-0",
+          "WS-11-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "WS-R32-12",
@@ -2445,9 +2720,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：Badspi与SMASH均报因达农2–1胜砂川温香，但Badspi按砂川顺序记第三局21–11，与胜者矛盾；SMASH记因达农第三局21–11。保留旧状态，待官方逐局确认。",
-        "reason": "来源：https://www.badspi.jp/202611120104/ 与 https://www.smash-net.tv/topic/2916/"
+        "status": "completed",
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            21,
+            13
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-12-0",
+          "WS-12-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "WS-R32-13",
@@ -2462,9 +2760,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            17
+          ]
+        ],
+        "result_for": [
+          "WS-13-0",
+          "WS-13-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "WS-R32-14",
@@ -2556,9 +2873,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            20,
+            22
+          ]
+        ],
+        "result_for": [
+          "WS-16-0",
+          "WS-16-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "WS-R16-1",
@@ -2605,8 +2941,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            22,
+            20
+          ]
+        ],
+        "result_for": [
+          "WS-5-0",
+          "WS-6-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "WS-R16-4",
@@ -2621,8 +2981,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            10
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "WS-7-0",
+          "WS-8-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "WS-R16-5",
@@ -2653,8 +3033,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            19
+          ]
+        ],
+        "result_for": [
+          "WS-11-0",
+          "WS-12-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "WS-R16-7",
@@ -2813,9 +3213,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            11
+          ],
+          [
+            21,
+            17
+          ]
+        ],
+        "result_for": [
+          "MD-1-0",
+          "MD-1-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "MD-R32-2",
@@ -2830,9 +3249,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            20,
+            22
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-2-0",
+          "MD-2-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
       },
       {
         "id": "MD-R32-3",
@@ -2847,9 +3285,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            12,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-3-0",
+          "MD-3-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
       },
       {
         "id": "MD-R32-4",
@@ -2976,9 +3433,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "result_for": [
+          "MD-7-0",
+          "MD-7-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
       },
       {
         "id": "MD-R32-8",
@@ -3390,8 +3866,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "result_for": [
+          "MD-7-0",
+          "MD-8-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MD-R16-5",
@@ -3406,8 +3902,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "MD-9-0",
+          "MD-10-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MD-R16-6",
@@ -3422,8 +3938,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "result_for": [
+          "MD-11-0",
+          "MD-12-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MD-R16-7",
@@ -3454,8 +3990,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            9,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-15-0",
+          "MD-16-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "MD-QF-1",
@@ -3625,9 +4185,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            10
+          ],
+          [
+            21,
+            8
+          ]
+        ],
+        "result_for": [
+          "WD-2-0",
+          "WD-2-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
       },
       {
         "id": "WD-R32-3",
@@ -3642,9 +4221,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            13,
+            21
+          ],
+          [
+            5,
+            21
+          ]
+        ],
+        "result_for": [
+          "WD-3-0",
+          "WD-3-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "WD-R32-4",
@@ -3659,9 +4261,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            12,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ],
+        "result_for": [
+          "WD-4-0",
+          "WD-4-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
       },
       {
         "id": "WD-R32-5",
@@ -3827,9 +4448,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ],
+        "result_for": [
+          "WD-9-0",
+          "WD-9-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
       },
       {
         "id": "WD-R32-10",
@@ -3922,9 +4562,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            13,
+            21
+          ]
+        ],
+        "result_for": [
+          "WD-12-0",
+          "WD-12-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
       },
       {
         "id": "WD-R32-13",
@@ -4330,9 +4989,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：Bernama记蒋振邦／魏雅欣首局21–17，BadmintonPlanet与RevSportz记21–7；第二局均21–9。保留待定，待官方逐局消除冲突。",
-        "reason": "来源：bernama-day2、planet-day2、revsportz-day2；转载与原稿只计同一来源。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            7
+          ],
+          [
+            21,
+            9
+          ]
+        ],
+        "result_for": [
+          "XD-1-0",
+          "XD-1-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "XD-R32-2",
@@ -4384,9 +5062,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            13
+          ]
+        ],
+        "result_for": [
+          "XD-3-0",
+          "XD-3-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "XD-R32-4",
@@ -4401,9 +5098,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            25,
+            23
+          ]
+        ],
+        "result_for": [
+          "XD-4-0",
+          "XD-4-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "XD-R32-5",
@@ -4418,9 +5134,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "XD-5-0",
+          "XD-5-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "XD-R32-6",
@@ -4435,9 +5174,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "blocker": "待核实：签位、人名及代表队仅为公开单源资料；未确认赛果、比赛状态或单场时间。",
-        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            23
+          ],
+          [
+            16,
+            21
+          ]
+        ],
+        "result_for": [
+          "XD-6-0",
+          "XD-6-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
       },
       {
         "id": "XD-R32-7",
@@ -4831,8 +5589,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            12
+          ],
+          [
+            21,
+            19
+          ]
+        ],
+        "result_for": [
+          "XD-1-0",
+          "XD-2-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "XD-R16-2",
@@ -4847,8 +5625,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "XD-3-0",
+          "XD-4-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "XD-R16-3",
@@ -4863,8 +5661,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            12,
+            21
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "result_for": [
+          "XD-5-0",
+          "XD-6-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "XD-R16-4",
@@ -4920,8 +5742,21 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "walkover",
+        "games": [],
+        "result_for": [
+          "XD-9-0",
+          "XD-10-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        },
+        "winner": "XD-10-0",
+        "reason": "BWF官方标记Walkover；无已赛逐局比分。"
       },
       {
         "id": "XD-R16-6",
@@ -4936,8 +5771,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            19
+          ]
+        ],
+        "result_for": [
+          "XD-11-0",
+          "XD-12-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "XD-R16-7",
@@ -4952,8 +5811,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "result_for": [
+          "XD-13-0",
+          "XD-14-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "XD-R16-8",
@@ -4968,8 +5851,28 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "status": "completed",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            7
+          ]
+        ],
+        "result_for": [
+          "XD-15-0",
+          "XD-16-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
       },
       {
         "id": "XD-QF-1",
