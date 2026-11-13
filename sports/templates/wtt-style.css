@@ -46,7 +46,23 @@ h1{max-width:calc(100% - 280px);overflow:hidden;text-overflow:ellipsis;white-spa
 .match .num{position:absolute;left:11px;top:28px;font-size:16px;line-height:22px;color:#9aa38f;font-variant-numeric:tabular-nums}
 .player{height:31px;line-height:31px;display:flex;align-items:center;font-size:28px;letter-spacing:-.6px;gap:7px;white-space:nowrap}
 .name{white-space:nowrap}
-.player.winner{font-weight:680;color:var(--green)}
+.player.winner{
+  position:relative;
+  margin-inline:-5px;
+  padding-inline:5px;
+  border-radius:4px;
+  background:#e2f0e6;
+  color:var(--green);
+  font-weight:700;
+}
+.player.winner::before{
+  content:"";
+  position:absolute;
+  inset-block:5px;
+  inset-inline-start:0;
+  border-inline-start:3px solid currentColor;
+  border-radius:2px;
+}
 .player.loser{color:#99a291;font-weight:450}
 .flag{display:inline-block;width:30px;height:21px;object-fit:contain;flex:none;border-radius:2px;box-shadow:0 0 0 1px #20383218;background:#fff}
 .team-badge{font-size:16px;line-height:20px;height:21px;letter-spacing:0;font-weight:600;padding:0 4px;border-radius:4px;background:#f9e6e0;color:#a84839;flex:none;border:1px solid #ecd0c6}
