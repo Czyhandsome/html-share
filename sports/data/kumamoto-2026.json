@@ -10,16 +10,16 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 140 场终局，其中 1 场伤退、1 场弃权；资格赛 17 场、正赛首轮 80 场均已有终局，次轮已录入 40 场，八强已录入 3 场。逐局比分、状态和核验来源见对应卡片。",
+    "已录入 143 场终局，其中 1 场伤退、1 场弃权；资格赛 17 场、正赛首轮 80 场均已有终局，次轮已录入 40 场，八强已录入 6 场。逐局比分、状态和核验来源见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
-    "11月13日全部20场八强对阵和逐场赛程已核验：3场终局、3场进行中、14场未开始；此前137场终局复核一致。默认北京时间，日本当地时间快1小时；Followed by时间为官方预计，随前场顺延。11月14日逐场API尚未返回对阵。"
+    "11月13日全部20场八强对阵和逐场赛程已核验：6场终局，其余14场官方尚无终局；此前137场终局复核一致。默认北京时间，日本当地时间快1小时；Followed by时间为官方预计，随前场顺延。11月14日逐场API尚未返回对阵。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-13T10:11:49+08:00",
+      "snapshot_at": "2026-11-13T11:02:12+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -2260,16 +2260,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方赛程：Court 3，第2场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态P：进行中，未有终局，不录入临时比分。",
+        "status": "completed",
         "scheduled_at": "2026-11-13T10:00:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
         },
-        "blocker": "BWF官方赛程：Court 3，第2场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态P：进行中，未有终局，不录入临时比分。"
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            12,
+            21
+          ]
+        ],
+        "result_for": [
+          "MS-2-0",
+          "MS-3-0"
+        ],
+        "completed_date": "2026-11-13"
       },
       {
         "id": "MS-QF-2",
@@ -2285,10 +2298,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 1，第4场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 1，第4场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T11:35:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -2309,15 +2322,15 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 2，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 2，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态W：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T10:55:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
         },
-        "blocker": "BWF官方赛程：Court 2，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。"
+        "blocker": "BWF官方赛程：Court 2，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态W：尚无终局，不录入临时比分。"
       },
       {
         "id": "MS-QF-4",
@@ -2332,16 +2345,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方赛程：Court 1，第2场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态P：进行中，未有终局，不录入临时比分。",
+        "status": "completed",
         "scheduled_at": "2026-11-13T09:50:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
         },
-        "blocker": "BWF官方赛程：Court 1，第2场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态P：进行中，未有终局，不录入临时比分。"
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            7,
+            21
+          ]
+        ],
+        "result_for": [
+          "MS-14-1",
+          "MS-16-1"
+        ],
+        "completed_date": "2026-11-13"
       },
       {
         "id": "MS-SF-1",
@@ -3315,10 +3341,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 2，第5场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 2，第5场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T12:35:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -3339,10 +3365,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 1，第5场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 1，第5场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T12:25:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -3363,10 +3389,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 1，第7场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 1，第7场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T14:05:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -3387,10 +3413,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 3，第5场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 3，第5场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T12:30:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -4360,15 +4386,15 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 1，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 1，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态P：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T10:45:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
         },
-        "blocker": "BWF官方赛程：Court 1，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。"
+        "blocker": "BWF官方赛程：Court 1，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态P：尚无终局，不录入临时比分。"
       },
       {
         "id": "MD-QF-2",
@@ -4384,15 +4410,15 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 3，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 3，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态P：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T10:50:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
         },
-        "blocker": "BWF官方赛程：Court 3，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。"
+        "blocker": "BWF官方赛程：Court 3，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态P：尚无终局，不录入临时比分。"
       },
       {
         "id": "MD-QF-3",
@@ -4408,10 +4434,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 3，第4场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 3，第4场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T11:40:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -4432,10 +4458,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 1，第6场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 1，第6场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T13:15:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -5403,10 +5429,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 3，第6场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 3，第6场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T13:20:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -5427,10 +5453,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 2，第4场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 2，第4场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T11:45:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -5451,10 +5477,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 2，第6场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 2，第6场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T13:25:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -5475,10 +5501,10 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "BWF官方赛程：Court 1，第8场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态N：未开始；无终局可核验，不按计划时间推断完赛。",
+        "reason": "BWF官方赛程：Court 1，第8场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T11:02，官方状态N：尚无终局，不录入临时比分。",
         "scheduled_at": "2026-11-13T14:55:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -6447,7 +6473,7 @@
         "status": "completed",
         "scheduled_at": "2026-11-13T09:10:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -6484,7 +6510,7 @@
         "status": "completed",
         "scheduled_at": "2026-11-13T09:00:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -6521,7 +6547,7 @@
         "status": "completed",
         "scheduled_at": "2026-11-13T09:10:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
@@ -6555,16 +6581,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方赛程：Court 2，第2场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态P：进行中，未有终局，不录入临时比分。",
+        "status": "completed",
         "scheduled_at": "2026-11-13T10:00:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T10:11:49+08:00",
+          "verified_at": "2026-11-13T11:02:12+08:00",
           "source_ids": [
             "bwf-api-nov13"
           ]
         },
-        "blocker": "BWF官方赛程：Court 2，第2场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。截至北京时间2026-11-13T10:11，官方状态P：进行中，未有终局，不录入临时比分。"
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            16,
+            21
+          ]
+        ],
+        "result_for": [
+          "XD-13-0",
+          "XD-15-0"
+        ],
+        "completed_date": "2026-11-13"
       },
       {
         "id": "XD-SF-1",
