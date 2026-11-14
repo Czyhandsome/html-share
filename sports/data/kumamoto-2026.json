@@ -19,7 +19,7 @@
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-14T16:31:48+08:00",
+      "snapshot_at": "2026-11-14T17:03:27+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -1238,6 +1238,13 @@
         "id": "bwf-api-nov14",
         "url": "https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=5CC4D285-D8E0-4747-A6BF-A2D271B94BC7&date=2026-11-14&order=2&court=0",
         "label": "BWF官方逐场API：2026年11月14日",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-api-nov15",
+        "url": "https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=5CC4D285-D8E0-4747-A6BF-A2D271B94BC7&date=2026-11-15&order=2&court=0",
+        "label": "BWF官方逐场API：2026年11月15日",
         "kind": "official",
         "family": "bwfbadminton.com"
       }
@@ -2498,7 +2505,14 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "reason": "BWF官方决赛赛程；北京时间10:50为预计时间（Followed by），以前场结束后实际开赛为准。",
+        "scheduled_at": "2026-11-15T10:50:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-14T17:03:27+08:00",
+          "source_ids": [
+            "bwf-api-nov15"
+          ]
+        }
       },
       {
         "id": "WS-R32-1",
@@ -3660,7 +3674,14 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "reason": "BWF官方决赛赛程；北京时间13:20为预计时间（Followed by），以前场结束后实际开赛为准。",
+        "scheduled_at": "2026-11-15T13:20:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-14T17:03:27+08:00",
+          "source_ids": [
+            "bwf-api-nov15"
+          ]
+        }
       },
       {
         "id": "MD-R32-1",
@@ -4807,7 +4828,14 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "reason": "BWF官方决赛赛程；北京时间11:40为预计时间（Followed by），以前场结束后实际开赛为准。",
+        "scheduled_at": "2026-11-15T11:40:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-14T17:03:27+08:00",
+          "source_ids": [
+            "bwf-api-nov15"
+          ]
+        }
       },
       {
         "id": "WD-R32-1",
@@ -5931,7 +5959,14 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "reason": "BWF官方决赛赛程；北京时间12:30为预计时间（Followed by），以前场结束后实际开赛为准。",
+        "scheduled_at": "2026-11-15T12:30:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-14T17:03:27+08:00",
+          "source_ids": [
+            "bwf-api-nov15"
+          ]
+        }
       },
       {
         "id": "XD-R32-1",
@@ -7075,7 +7110,14 @@
         ],
         "rule": "badminton",
         "status": "scheduled",
-        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+        "reason": "BWF官方决赛赛程；北京时间10:00开赛（日本时间11:00）；其余场次依次进行。",
+        "scheduled_at": "2026-11-15T10:00:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-14T17:03:27+08:00",
+          "source_ids": [
+            "bwf-api-nov15"
+          ]
+        }
       },
       {
         "id": "MS-Q-TAKEI-HATANO",
