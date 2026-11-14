@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 39996)
-Total output lines: 7642
-
 {
   "schema_version": 1,
   "event_dates": {
@@ -2633,7 +2630,2021 @@ Total output lines: 7642
           ],
           [
             10,
-         …9996 tokens truncated…",
+            21
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-4-0",
+          "WS-4-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-5",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-5-0"
+          },
+          {
+            "winner": "WS-Q-SUGIYAMA-TAKAHASHI"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            17
+          ]
+        ],
+        "result_for": [
+          "WS-5-0",
+          "WS-5-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T01:00:00+08:00",
+          "source_ids": [
+            "badspi-day2",
+            "smash-day2"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-6",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-6-0"
+          },
+          {
+            "entry": "WS-6-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "WS-6-0",
+          "WS-6-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T09:30:00+08:00",
+          "source_ids": [
+            "bec-day2"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-7",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-7-0"
+          },
+          {
+            "entry": "WS-7-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            4
+          ],
+          [
+            21,
+            13
+          ]
+        ],
+        "result_for": [
+          "WS-7-0",
+          "WS-7-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-8",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-8-0"
+          },
+          {
+            "entry": "WS-8-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            12,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-8-0",
+          "WS-8-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T01:00:00+08:00",
+          "source_ids": [
+            "badspi-day2",
+            "smash-day2"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-9",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-9-0"
+          },
+          {
+            "winner": "WS-Q-KANTEMYR-MATSUDA"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "WS-9-0",
+          "WS-9-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-10",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-10-0"
+          },
+          {
+            "entry": "WS-10-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-10-0",
+          "WS-10-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T01:00:00+08:00",
+          "source_ids": [
+            "badspi-day2",
+            "smash-day2"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-11",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-11-0"
+          },
+          {
+            "entry": "WS-11-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "WS-11-0",
+          "WS-11-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-12",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "winner": "WS-Q-SUNAGAWA-HOANG"
+          },
+          {
+            "entry": "WS-12-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            21,
+            13
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-12-0",
+          "WS-12-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-13",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-13-0"
+          },
+          {
+            "entry": "WS-13-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            17
+          ]
+        ],
+        "result_for": [
+          "WS-13-0",
+          "WS-13-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-14",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-14-0"
+          },
+          {
+            "entry": "WS-14-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-14-0",
+          "WS-14-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T01:00:00+08:00",
+          "source_ids": [
+            "badspi-day2",
+            "smash-day2"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-15",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-15-0"
+          },
+          {
+            "winner": "WS-Q-XU-KIM"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            13,
+            21
+          ],
+          [
+            21,
+            13
+          ]
+        ],
+        "result_for": [
+          "WS-15-0",
+          "WS-15-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T09:30:00+08:00",
+          "source_ids": [
+            "bec-day2"
+          ]
+        }
+      },
+      {
+        "id": "WS-R32-16",
+        "draw": "WS",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "WS-16-0"
+          },
+          {
+            "entry": "WS-16-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            20,
+            22
+          ]
+        ],
+        "result_for": [
+          "WS-16-0",
+          "WS-16-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
+      },
+      {
+        "id": "WS-R16-1",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "WS-R32-1"
+          },
+          {
+            "winner": "WS-R32-2"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            11
+          ],
+          [
+            21,
+            13
+          ]
+        ],
+        "result_for": [
+          "WS-1-0",
+          "WS-2-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T14:30:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "WS-R16-2",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "WS-R32-3"
+          },
+          {
+            "winner": "WS-R32-4"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            16
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "WS-3-1",
+          "WS-4-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T16:30:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "WS-R16-3",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "WS-R32-5"
+          },
+          {
+            "winner": "WS-R32-6"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            22,
+            20
+          ]
+        ],
+        "result_for": [
+          "WS-5-0",
+          "WS-6-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "WS-R16-4",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "WS-R32-7"
+          },
+          {
+            "winner": "WS-R32-8"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            10
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "WS-7-0",
+          "WS-8-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "WS-R16-5",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "WS-R32-9"
+          },
+          {
+            "winner": "WS-R32-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            21,
+            12
+          ],
+          [
+            10,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-9-0",
+          "WS-10-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T14:30:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "WS-R16-6",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "WS-R32-11"
+          },
+          {
+            "winner": "WS-R32-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            19
+          ]
+        ],
+        "result_for": [
+          "WS-11-0",
+          "WS-12-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "WS-R16-7",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "WS-R32-13"
+          },
+          {
+            "winner": "WS-R32-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            10,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-13-0",
+          "WS-14-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T15:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "WS-R16-8",
+        "draw": "WS",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "WS-R32-15"
+          },
+          {
+            "winner": "WS-R32-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            22,
+            24
+          ],
+          [
+            16,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-15-0",
+          "WS-16-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T17:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "WS-QF-1",
+        "draw": "WS",
+        "round": "八强",
+        "slots": [
+          {
+            "winner": "WS-R16-1"
+          },
+          {
+            "winner": "WS-R16-2"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "scheduled_at": "2026-11-13T12:35:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-13T16:35:00+08:00",
+          "source_ids": [
+            "bwf-api-nov13"
+          ]
+        },
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            12
+          ]
+        ],
+        "result_for": [
+          "WS-1-0",
+          "WS-3-1"
+        ],
+        "completed_date": "2026-11-13"
+      },
+      {
+        "id": "WS-QF-2",
+        "draw": "WS",
+        "round": "八强",
+        "slots": [
+          {
+            "winner": "WS-R16-3"
+          },
+          {
+            "winner": "WS-R16-4"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "scheduled_at": "2026-11-13T12:25:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-13T16:35:00+08:00",
+          "source_ids": [
+            "bwf-api-nov13"
+          ]
+        },
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            17
+          ],
+          [
+            21,
+            11
+          ]
+        ],
+        "result_for": [
+          "WS-5-0",
+          "WS-7-0"
+        ],
+        "completed_date": "2026-11-13"
+      },
+      {
+        "id": "WS-QF-3",
+        "draw": "WS",
+        "round": "八强",
+        "slots": [
+          {
+            "winner": "WS-R16-5"
+          },
+          {
+            "winner": "WS-R16-6"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "scheduled_at": "2026-11-13T14:05:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-13T16:35:00+08:00",
+          "source_ids": [
+            "bwf-api-nov13"
+          ]
+        },
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            12
+          ]
+        ],
+        "result_for": [
+          "WS-10-1",
+          "WS-11-0"
+        ],
+        "completed_date": "2026-11-13"
+      },
+      {
+        "id": "WS-QF-4",
+        "draw": "WS",
+        "round": "八强",
+        "slots": [
+          {
+            "winner": "WS-R16-7"
+          },
+          {
+            "winner": "WS-R16-8"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "scheduled_at": "2026-11-13T12:30:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-13T16:35:00+08:00",
+          "source_ids": [
+            "bwf-api-nov13"
+          ]
+        },
+        "games": [
+          [
+            17,
+            21
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            8,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-14-1",
+          "WS-16-1"
+        ],
+        "completed_date": "2026-11-13"
+      },
+      {
+        "id": "WS-SF-1",
+        "draw": "WS",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "WS-QF-1"
+          },
+          {
+            "winner": "WS-QF-2"
+          }
+        ],
+        "rule": "badminton",
+        "status": "retired",
+        "reason": "BWF官方标记 Retired：陈雨菲在决胜局4–11时退赛，山口茜晋级；未完局不计入局分。具体退赛原因待官方说明。",
+        "scheduled_at": "2026-11-14T14:00:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-14T16:31:48+08:00",
+          "source_ids": [
+            "bwf-api-nov14"
+          ]
+        },
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            8
+          ]
+        ],
+        "in_progress_game": [
+          11,
+          4
+        ],
+        "winner": "WS-1-0",
+        "result_for": [
+          "WS-1-0",
+          "WS-5-0"
+        ],
+        "completed_date": "2026-11-14"
+      },
+      {
+        "id": "WS-SF-2",
+        "draw": "WS",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "WS-QF-3"
+          },
+          {
+            "winner": "WS-QF-4"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "scheduled_at": "2026-11-14T12:20:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-14T15:02:17+08:00",
+          "source_ids": [
+            "bwf-api-nov14"
+          ]
+        },
+        "games": [
+          [
+            10,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ],
+        "result_for": [
+          "WS-10-1",
+          "WS-16-1"
+        ],
+        "completed_date": "2026-11-14"
+      },
+      {
+        "id": "WS-F-1",
+        "draw": "WS",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "WS-SF-1"
+          },
+          {
+            "winner": "WS-SF-2"
+          }
+        ],
+        "rule": "badminton",
+        "status": "scheduled",
+        "reason": "晋级关系依据 BWF 11 月 3 日初签；胜者由已核验的前轮赛果确定。"
+      },
+      {
+        "id": "MD-R32-1",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-1-0"
+          },
+          {
+            "entry": "MD-1-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            11
+          ],
+          [
+            21,
+            17
+          ]
+        ],
+        "result_for": [
+          "MD-1-0",
+          "MD-1-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov11"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-2",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-2-0"
+          },
+          {
+            "entry": "MD-2-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            20,
+            22
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-2-0",
+          "MD-2-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-3",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-3-0"
+          },
+          {
+            "entry": "MD-3-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            16,
+            21
+          ],
+          [
+            12,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-3-0",
+          "MD-3-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-4",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-4-0"
+          },
+          {
+            "winner": "MD-Q-CHIA-LIN"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            10
+          ]
+        ],
+        "result_for": [
+          "MD-4-0",
+          "MD-4-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-5",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-5-0"
+          },
+          {
+            "entry": "MD-5-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "retired",
+        "reason": "首局6–11时苏伟译因脚跟伤势退赛，哈里哈兰／阿琼晋级；未完成局不计入局分。",
+        "games": [],
+        "in_progress_game": [
+          6,
+          11
+        ],
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-5-0",
+          "MD-5-1"
+        ],
+        "winner": "MD-5-1",
+        "verification": {
+          "verified_at": "2026-11-10T20:33:33+08:00",
+          "source_ids": [
+            "pti-nov10",
+            "thestar-retirement"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-6",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "winner": "MD-Q-HUNG-YOSHIDA"
+          },
+          {
+            "entry": "MD-6-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-6-0",
+          "MD-6-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T01:00:00+08:00",
+          "source_ids": [
+            "badspi-day2",
+            "smash-day2"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-7",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-7-0"
+          },
+          {
+            "entry": "MD-7-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "result_for": [
+          "MD-7-0",
+          "MD-7-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-8",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-8-0"
+          },
+          {
+            "winner": "MD-Q-KAWABE-MITSUHASHI"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-11",
+        "games": [
+          [
+            22,
+            20
+          ],
+          [
+            21,
+            19
+          ]
+        ],
+        "result_for": [
+          "MD-8-0",
+          "MD-8-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-12T01:00:00+08:00",
+          "source_ids": [
+            "badspi-day2",
+            "smash-day2"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-9",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-9-0"
+          },
+          {
+            "entry": "MD-9-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            17
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-9-0",
+          "MD-9-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T07:30:00+08:00",
+          "source_ids": [
+            "badspi-day1",
+            "smash-day1"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-10",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-10-0"
+          },
+          {
+            "entry": "MD-10-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "reason": "资料来源：Sportzorg24 https://www.sportzorg24.tv/kumamoto-masters-2026-badminton/",
+        "games": [
+          [
+            23,
+            21
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-10-0",
+          "MD-10-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-11T03:30:00+08:00",
+          "source_ids": [
+            "pbdjarum-md-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-11",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-11-0"
+          },
+          {
+            "entry": "MD-11-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-11-0",
+          "MD-11-1"
+        ],
+        "games": [
+          [
+            21,
+            8
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T20:12:01+08:00",
+          "source_ids": [
+            "zutto",
+            "bernama-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-12",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-12-0"
+          },
+          {
+            "entry": "MD-12-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ],
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-12-0",
+          "MD-12-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T20:33:33+08:00",
+          "source_ids": [
+            "bernama-nov10",
+            "kosmo-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-13",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-13-0"
+          },
+          {
+            "entry": "MD-13-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            22,
+            20
+          ]
+        ],
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-13-0",
+          "MD-13-1"
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T20:33:33+08:00",
+          "source_ids": [
+            "bernama-nov10",
+            "kosmo-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-14",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "winner": "MD-Q-HE-SUKPHUN"
+          },
+          {
+            "entry": "MD-14-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            23,
+            21
+          ],
+          [
+            13,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-14-0",
+          "MD-14-1"
+        ],
+        "completed_date": "2026-11-11",
+        "verification": {
+          "verified_at": "2026-11-12T10:00:00+08:00",
+          "source_ids": [
+            "bernama-day2",
+            "planet-day2"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-15",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-15-0"
+          },
+          {
+            "entry": "MD-15-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            21,
+            11
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "result_for": [
+          "MD-15-0",
+          "MD-15-1"
+        ],
+        "completed_date": "2026-11-10",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "cna-day1-md",
+            "ltn-day1-md"
+          ]
+        }
+      },
+      {
+        "id": "MD-R32-16",
+        "draw": "MD",
+        "round": "32强",
+        "slots": [
+          {
+            "entry": "MD-16-0"
+          },
+          {
+            "entry": "MD-16-1"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "completed_date": "2026-11-10",
+        "result_for": [
+          "MD-16-0",
+          "MD-16-1"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            11,
+            21
+          ],
+          [
+            29,
+            27
+          ]
+        ],
+        "verification": {
+          "verified_at": "2026-11-10T20:12:01+08:00",
+          "source_ids": [
+            "zutto",
+            "bola-nov10"
+          ]
+        }
+      },
+      {
+        "id": "MD-R16-1",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "MD-R32-1"
+          },
+          {
+            "winner": "MD-R32-2"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-1-0",
+          "MD-2-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T16:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "MD-R16-2",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "MD-R32-3"
+          },
+          {
+            "winner": "MD-R32-4"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            13
+          ]
+        ],
+        "result_for": [
+          "MD-3-1",
+          "MD-4-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T14:30:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "MD-R16-3",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "MD-R32-5"
+          },
+          {
+            "winner": "MD-R32-6"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-5-1",
+          "MD-6-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T14:30:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "MD-R16-4",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "MD-R32-7"
+          },
+          {
+            "winner": "MD-R32-8"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "result_for": [
+          "MD-7-0",
+          "MD-8-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "MD-R16-5",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "MD-R32-9"
+          },
+          {
+            "winner": "MD-R32-10"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            16
+          ]
+        ],
+        "result_for": [
+          "MD-9-0",
+          "MD-10-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "MD-R16-6",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "MD-R32-11"
+          },
+          {
+            "winner": "MD-R32-12"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "result_for": [
+          "MD-11-0",
+          "MD-12-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "MD-R16-7",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "MD-R32-13"
+          },
+          {
+            "winner": "MD-R32-14"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "result_for": [
+          "MD-13-0",
+          "MD-14-1"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:30:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "MD-R16-8",
+        "draw": "MD",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "MD-R32-15"
+          },
+          {
+            "winner": "MD-R32-16"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            19,
+            21
+          ],
+          [
+            9,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-15-0",
+          "MD-16-0"
+        ],
+        "completed_date": "2026-11-12",
+        "verification": {
+          "verified_at": "2026-11-12T13:00:00+08:00",
+          "source_ids": [
+            "bwf-api-nov12"
+          ]
+        }
+      },
+      {
+        "id": "MD-QF-1",
+        "draw": "MD",
+        "round": "八强",
+        "slots": [
+          {
+            "winner": "MD-R16-1"
+          },
+          {
+            "winner": "MD-R16-2"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "scheduled_at": "2026-11-13T10:45:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-13T16:35:00+08:00",
+          "source_ids": [
+            "bwf-api-nov13"
+          ]
+        },
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            16,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-2-1",
+          "MD-3-1"
+        ],
+        "completed_date": "2026-11-13"
+      },
+      {
+        "id": "MD-QF-2",
+        "draw": "MD",
+        "round": "八强",
+        "slots": [
+          {
+            "winner": "MD-R16-3"
+          },
+          {
+            "winner": "MD-R16-4"
+          }
+        ],
+        "rule": "badminton",
+        "status": "completed",
+        "scheduled_at": "2026-11-13T10:50:00+08:00",
+        "verification": {
+          "verified_at": "2026-11-13T16:35:00+08:00",
+          "source_ids": [
+            "bwf-api-nov13"
+          ]
+        },
+        "games": [
+          [
+            18,
+            21
+          ],
+          [
+            21,
+            12
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "result_for": [
+          "MD-6-1",
+          "MD-7-0"
+        ],
+        "completed_date": "2026-11-13"
+      },
+      {
+        "id": "MD-QF-3",
+        "draw": "MD",
+        "round": "八强",
         "slots": [
           {
             "winner": "MD-R16-5"
