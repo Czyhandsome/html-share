@@ -19,7 +19,7 @@
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-14T10:01:13+08:00",
+      "snapshot_at": "2026-11-14T11:02:31+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -2419,12 +2419,12 @@
         "reason": "BWF官方赛程：Court 1，第2场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。",
         "scheduled_at": "2026-11-14T09:50:00+08:00",
         "verification": {
-          "verified_at": "2026-11-14T10:01:13+08:00",
+          "verified_at": "2026-11-14T11:02:31+08:00",
           "source_ids": [
             "bwf-api-nov14"
           ]
         },
-        "blocker": "北京时间2026-11-14T10:01:13+08:00核验BWF官方11月14日逐场API：In Progress，winner=0，尚无终局；Followed by为预计时间，不能按计划判定完赛。"
+        "blocker": "北京时间2026-11-14T11:02:31+08:00核验BWF官方11月14日逐场API：In Progress，winner=0，尚无终局；Followed by为预计时间，不能按计划判定完赛。"
       },
       {
         "id": "MS-SF-2",
@@ -4663,11 +4663,12 @@
         "reason": "BWF官方赛程：Court 1，第3场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。",
         "scheduled_at": "2026-11-14T10:40:00+08:00",
         "verification": {
-          "verified_at": "2026-11-13T16:35:00+08:00",
+          "verified_at": "2026-11-14T11:02:31+08:00",
           "source_ids": [
             "bwf-api-nov14"
           ]
-        }
+        },
+        "blocker": "北京时间2026-11-14T11:02:31+08:00核验BWF官方11月14日逐场API：none，winner=0，尚无终局；Followed by为预计时间，不能按计划判定完赛。"
       },
       {
         "id": "MD-SF-2",
@@ -6917,16 +6918,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方赛程：Court 2，第1场。明确起始时间。",
+        "status": "completed",
         "scheduled_at": "2026-11-14T10:00:00+08:00",
         "verification": {
-          "verified_at": "2026-11-14T10:01:13+08:00",
+          "verified_at": "2026-11-14T11:02:31+08:00",
           "source_ids": [
             "bwf-api-nov14"
           ]
         },
-        "blocker": "北京时间2026-11-14T10:01:13+08:00核验BWF官方11月14日逐场API：none，winner=0，尚无终局；Followed by为预计时间，不能按计划判定完赛。"
+        "games": [
+          [
+            19,
+            21
+          ],
+          [
+            21,
+            7
+          ],
+          [
+            21,
+            18
+          ]
+        ],
+        "result_for": [
+          "XD-11-0",
+          "XD-15-0"
+        ],
+        "completed_date": "2026-11-14"
       },
       {
         "id": "XD-F-1",
