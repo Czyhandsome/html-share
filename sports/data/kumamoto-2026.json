@@ -19,7 +19,7 @@
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-14T11:02:31+08:00",
+      "snapshot_at": "2026-11-14T11:29:56+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -2415,16 +2415,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方赛程：Court 1，第2场。Followed by：所示时间为官方预计时间，实际随前场结束顺延。",
+        "status": "completed",
         "scheduled_at": "2026-11-14T09:50:00+08:00",
         "verification": {
-          "verified_at": "2026-11-14T11:02:31+08:00",
+          "verified_at": "2026-11-14T11:29:56+08:00",
           "source_ids": [
             "bwf-api-nov14"
           ]
         },
-        "blocker": "北京时间2026-11-14T11:02:31+08:00核验BWF官方11月14日逐场API：In Progress，winner=0，尚无终局；Followed by为预计时间，不能按计划判定完赛。"
+        "games": [
+          [
+            12,
+            21
+          ],
+          [
+            21,
+            15
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "result_for": [
+          "MS-3-0",
+          "MS-7-0"
+        ],
+        "completed_date": "2026-11-14"
       },
       {
         "id": "MS-SF-2",
