@@ -10,16 +10,16 @@
   "notices": [
     "11 月 10–15 日 · 熊本县立综合体育馆。11 月 10 日有资格赛及首轮，11 月 11 日继续首轮。",
     "五个项目的正赛晋级路线按 BWF 11 月 3 日初签录入。赛前有签位调整，首轮对阵仍按各场核验状态展示。",
-    "已录入 167 场终局，其中 2 场退赛、1 场弃权；资格赛 17 场、正赛首轮 80 场、次轮 40 场、八强 20 场均已有终局。逐局比分、状态和核验来源见对应卡片。 11月14日已确认10场半决赛终局。",
+    "已录入全部172场终局，其中2场退赛、1场弃权；资格赛17场、正赛155场。五项决赛已按BWF官方终局逐场核验，比分和冠军晋级路线见对应卡片。",
     "赛前初签用于核对晋级结构。最新对阵和赛果可从赛事官网进入。",
     "选手姓名优先展示中文原名或常见译名。暂时查不到可靠中文用名的，保留原拼写。",
-    "11月13日全部20场八强终局及此前137场终局复核一致。11月14日全部10场半决赛对阵和逐场赛程已按BWF官方API核验。默认北京时间，日本当地时间快1小时；Followed by时间为官方预计，随前场顺延。"
+    "11月15日五项决赛均已结束：男单拉克什亚·森、女单山口茜、男双戴伟钦／叶睿庆、女双岩永铃／中西贵映、混双蒋振邦／魏雅欣夺冠。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "熊本羽毛球大师赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-14T17:30:21+08:00",
+      "snapshot_at": "2026-11-16T17:50:24+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo",
       "back_link": "../20261104-1042-sports-brackets/index.html"
@@ -2504,15 +2504,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方决赛赛程；北京时间10:50为预计时间（Followed by），以前场结束后实际开赛为准。",
+        "status": "completed",
         "scheduled_at": "2026-11-15T10:50:00+08:00",
         "verification": {
-          "verified_at": "2026-11-14T17:03:27+08:00",
+          "verified_at": "2026-11-16T17:50:24+08:00",
           "source_ids": [
             "bwf-api-nov15"
           ]
-        }
+        },
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            21,
+            18
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "MS-7-0",
+          "MS-11-0"
+        ],
+        "completed_date": "2026-11-15"
       },
       {
         "id": "WS-R32-1",
@@ -3673,15 +3691,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方决赛赛程；北京时间13:20为预计时间（Followed by），以前场结束后实际开赛为准。",
+        "status": "completed",
         "scheduled_at": "2026-11-15T13:20:00+08:00",
         "verification": {
-          "verified_at": "2026-11-14T17:03:27+08:00",
+          "verified_at": "2026-11-16T17:50:24+08:00",
           "source_ids": [
             "bwf-api-nov15"
           ]
-        }
+        },
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            22,
+            20
+          ]
+        ],
+        "result_for": [
+          "WS-1-0",
+          "WS-16-1"
+        ],
+        "completed_date": "2026-11-15"
       },
       {
         "id": "MD-R32-1",
@@ -4827,15 +4859,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方决赛赛程；北京时间11:40为预计时间（Followed by），以前场结束后实际开赛为准。",
+        "status": "completed",
         "scheduled_at": "2026-11-15T11:40:00+08:00",
         "verification": {
-          "verified_at": "2026-11-14T17:03:27+08:00",
+          "verified_at": "2026-11-16T17:50:24+08:00",
           "source_ids": [
             "bwf-api-nov15"
           ]
-        }
+        },
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            13,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ],
+        "result_for": [
+          "MD-6-1",
+          "MD-11-0"
+        ],
+        "completed_date": "2026-11-15"
       },
       {
         "id": "WD-R32-1",
@@ -5971,15 +6021,29 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方决赛赛程；北京时间12:30为预计时间（Followed by），以前场结束后实际开赛为准。",
+        "status": "completed",
         "scheduled_at": "2026-11-15T12:30:00+08:00",
         "verification": {
-          "verified_at": "2026-11-14T17:03:27+08:00",
+          "verified_at": "2026-11-16T17:50:24+08:00",
           "source_ids": [
             "bwf-api-nov15"
           ]
-        }
+        },
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "result_for": [
+          "WD-5-0",
+          "WD-16-0"
+        ],
+        "completed_date": "2026-11-15"
       },
       {
         "id": "XD-R32-1",
@@ -7122,15 +7186,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
-        "reason": "BWF官方决赛赛程；北京时间10:00开赛（日本时间11:00）；其余场次依次进行。",
+        "status": "completed",
         "scheduled_at": "2026-11-15T10:00:00+08:00",
         "verification": {
-          "verified_at": "2026-11-14T17:03:27+08:00",
+          "verified_at": "2026-11-16T17:50:24+08:00",
           "source_ids": [
             "bwf-api-nov15"
           ]
-        }
+        },
+        "games": [
+          [
+            15,
+            21
+          ],
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            14
+          ]
+        ],
+        "result_for": [
+          "XD-1-0",
+          "XD-11-0"
+        ],
+        "completed_date": "2026-11-15"
       },
       {
         "id": "MS-Q-TAKEI-HATANO",
