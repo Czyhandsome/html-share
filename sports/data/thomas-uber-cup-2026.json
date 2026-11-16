@@ -7,14 +7,14 @@
     "end": "2026-05-03"
   },
   "notices": [
-    "已核验汤杯、尤杯全部14场淘汰赛团体总比分，以及两杯B组12场团体总比分及官方排名。A、C、D组尚未收齐，当前并非完整小组赛档案。",
-    "团体总分及晋级依据日本羽协发布的官方结果；各场运动员阵容、出场顺序和逐局明细尚未录入，详情保留待核实。淘汰赛首轮按官方抽签签位录入，不推测其余小组名次。"
+    "已核验并录入汤杯A、B、C组及尤杯全部四组，共42场小组赛和全部14场淘汰赛团体总比分；汤杯D组已取得官方赛果，但阿尔及利亚队编码ALG尚未在站点登记，暂未录入该组。",
+    "小组赛依据BWF官方赛果与排名；淘汰赛依据日本羽协官方结果及八强抽签签位。各场运动员阵容、出场顺序和逐局明细尚未录入，详情保留待核实。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026汤姆斯杯暨尤伯杯",
-      "snapshot_at": "2026-11-11T11:15:57+08:00",
+      "snapshot_at": "2026-11-17T01:07:15+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Copenhagen"
     },
@@ -148,6 +148,66 @@
         "draw": "uber",
         "team": "TUR",
         "players": []
+      },
+      {
+        "id": "thomas-can",
+        "draw": "thomas",
+        "team": "CAN",
+        "players": []
+      },
+      {
+        "id": "thomas-aus",
+        "draw": "thomas",
+        "team": "AUS",
+        "players": []
+      },
+      {
+        "id": "thomas-kor",
+        "draw": "thomas",
+        "team": "KOR",
+        "players": []
+      },
+      {
+        "id": "thomas-swe",
+        "draw": "thomas",
+        "team": "SWE",
+        "players": []
+      },
+      {
+        "id": "uber-ind",
+        "draw": "uber",
+        "team": "IND",
+        "players": []
+      },
+      {
+        "id": "uber-ukr",
+        "draw": "uber",
+        "team": "UKR",
+        "players": []
+      },
+      {
+        "id": "uber-can",
+        "draw": "uber",
+        "team": "CAN",
+        "players": []
+      },
+      {
+        "id": "uber-aus",
+        "draw": "uber",
+        "team": "AUS",
+        "players": []
+      },
+      {
+        "id": "uber-bul",
+        "draw": "uber",
+        "team": "BUL",
+        "players": []
+      },
+      {
+        "id": "uber-esp",
+        "draw": "uber",
+        "team": "ESP",
+        "players": []
       }
     ],
     "sources": [
@@ -157,6 +217,41 @@
         "label": "日本羽毛球协会官方结果：第1/7页淘汰签表，第3/10页B组赛果及名次",
         "kind": "official",
         "family": "badminton.or.jp"
+      },
+      {
+        "id": "bwf-group-1",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-draw-data-round-robin?tmtId=5600&tmtType=1&tmtTab=draw&drawId=1&isPara=false",
+        "label": "BWF官方：Thomas Cup A组完整赛果及排名",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-group-3",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-draw-data-round-robin?tmtId=5600&tmtType=1&tmtTab=draw&drawId=3&isPara=false",
+        "label": "BWF官方：Thomas Cup C组完整赛果及排名",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-group-6",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-draw-data-round-robin?tmtId=5600&tmtType=1&tmtTab=draw&drawId=6&isPara=false",
+        "label": "BWF官方：Uber Cup A组完整赛果及排名",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-group-8",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-draw-data-round-robin?tmtId=5600&tmtType=1&tmtTab=draw&drawId=8&isPara=false",
+        "label": "BWF官方：Uber Cup C组完整赛果及排名",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-group-9",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-draw-data-round-robin?tmtId=5600&tmtType=1&tmtTab=draw&drawId=9&isPara=false",
+        "label": "BWF官方：Uber Cup D组完整赛果及排名",
+        "kind": "official",
+        "family": "bwfbadminton.com"
       }
     ],
     "rules": {
@@ -171,7 +266,7 @@
       {
         "id": "thomas-group",
         "draw": "thomas",
-        "name": "小组赛（已核实B组）",
+        "name": "小组赛",
         "kind": "group",
         "mode": "play_all",
         "order": [
@@ -239,7 +334,7 @@
       {
         "id": "uber-group",
         "draw": "uber",
-        "name": "小组赛（已核实B组）",
+        "name": "小组赛",
         "kind": "group",
         "mode": "play_all",
         "order": [
@@ -307,6 +402,31 @@
     ],
     "groups": [
       {
+        "id": "thomas-a",
+        "stage": "thomas-group",
+        "name": "A组",
+        "teams": [
+          "thomas-chn",
+          "thomas-ind",
+          "thomas-can",
+          "thomas-aus"
+        ],
+        "standings": {
+          "order": [
+            "thomas-chn",
+            "thomas-ind",
+            "thomas-can",
+            "thomas-aus"
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-1"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
         "id": "thomas-b",
         "stage": "thomas-group",
         "name": "B组",
@@ -332,6 +452,56 @@
         }
       },
       {
+        "id": "thomas-c",
+        "stage": "thomas-group",
+        "name": "C组",
+        "teams": [
+          "thomas-tpe",
+          "thomas-den",
+          "thomas-kor",
+          "thomas-swe"
+        ],
+        "standings": {
+          "order": [
+            "thomas-tpe",
+            "thomas-den",
+            "thomas-kor",
+            "thomas-swe"
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-3"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-a",
+        "stage": "uber-group",
+        "name": "A组",
+        "teams": [
+          "uber-chn",
+          "uber-den",
+          "uber-ind",
+          "uber-ukr"
+        ],
+        "standings": {
+          "order": [
+            "uber-chn",
+            "uber-den",
+            "uber-ind",
+            "uber-ukr"
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-6"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
         "id": "uber-b",
         "stage": "uber-group",
         "name": "B组",
@@ -353,6 +523,56 @@
               "nba-official"
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-c",
+        "stage": "uber-group",
+        "name": "C组",
+        "teams": [
+          "uber-ina",
+          "uber-tpe",
+          "uber-can",
+          "uber-aus"
+        ],
+        "standings": {
+          "order": [
+            "uber-ina",
+            "uber-tpe",
+            "uber-can",
+            "uber-aus"
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-8"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-d",
+        "stage": "uber-group",
+        "name": "D组",
+        "teams": [
+          "uber-kor",
+          "uber-tha",
+          "uber-bul",
+          "uber-esp"
+        ],
+        "standings": {
+          "order": [
+            "uber-kor",
+            "uber-tha",
+            "uber-bul",
+            "uber-esp"
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-9"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
           }
         }
       }
@@ -1315,6 +1535,906 @@
               "nba-official"
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-a-1",
+        "stage": "thomas-group",
+        "group": "thomas-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "thomas-chn"
+          },
+          {
+            "team": "thomas-aus"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-chn",
+            "thomas-aus"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-1"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-a-2",
+        "stage": "thomas-group",
+        "group": "thomas-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "thomas-ind"
+          },
+          {
+            "team": "thomas-can"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-ind",
+            "thomas-can"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-1"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-a-3",
+        "stage": "thomas-group",
+        "group": "thomas-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "thomas-ind"
+          },
+          {
+            "team": "thomas-aus"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-ind",
+            "thomas-aus"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-1"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-a-4",
+        "stage": "thomas-group",
+        "group": "thomas-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "thomas-chn"
+          },
+          {
+            "team": "thomas-can"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-chn",
+            "thomas-can"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-1"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-a-5",
+        "stage": "thomas-group",
+        "group": "thomas-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "thomas-can"
+          },
+          {
+            "team": "thomas-aus"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-can",
+            "thomas-aus"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-1"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-a-6",
+        "stage": "thomas-group",
+        "group": "thomas-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "thomas-chn"
+          },
+          {
+            "team": "thomas-ind"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-chn",
+            "thomas-ind"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-1"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-c-1",
+        "stage": "thomas-group",
+        "group": "thomas-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "thomas-den"
+          },
+          {
+            "team": "thomas-kor"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-den",
+            "thomas-kor"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-3"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-c-2",
+        "stage": "thomas-group",
+        "group": "thomas-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "thomas-tpe"
+          },
+          {
+            "team": "thomas-swe"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-tpe",
+            "thomas-swe"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-3"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-c-3",
+        "stage": "thomas-group",
+        "group": "thomas-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "thomas-den"
+          },
+          {
+            "team": "thomas-swe"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-den",
+            "thomas-swe"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-3"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-c-4",
+        "stage": "thomas-group",
+        "group": "thomas-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "thomas-tpe"
+          },
+          {
+            "team": "thomas-kor"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-tpe",
+            "thomas-kor"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-3"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-c-5",
+        "stage": "thomas-group",
+        "group": "thomas-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "thomas-kor"
+          },
+          {
+            "team": "thomas-swe"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-kor",
+            "thomas-swe"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-3"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "thomas-c-6",
+        "stage": "thomas-group",
+        "group": "thomas-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "thomas-tpe"
+          },
+          {
+            "team": "thomas-den"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "thomas-tpe",
+            "thomas-den"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-3"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-a-1",
+        "stage": "uber-group",
+        "group": "uber-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "uber-chn"
+          },
+          {
+            "team": "uber-ukr"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-chn",
+            "uber-ukr"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-6"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-a-2",
+        "stage": "uber-group",
+        "group": "uber-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "uber-ind"
+          },
+          {
+            "team": "uber-den"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-ind",
+            "uber-den"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-6"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-a-3",
+        "stage": "uber-group",
+        "group": "uber-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "uber-ind"
+          },
+          {
+            "team": "uber-ukr"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-ind",
+            "uber-ukr"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-6"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-a-4",
+        "stage": "uber-group",
+        "group": "uber-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "uber-chn"
+          },
+          {
+            "team": "uber-den"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-chn",
+            "uber-den"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-6"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-a-5",
+        "stage": "uber-group",
+        "group": "uber-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "uber-den"
+          },
+          {
+            "team": "uber-ukr"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-den",
+            "uber-ukr"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-6"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-a-6",
+        "stage": "uber-group",
+        "group": "uber-a",
+        "round": "A组",
+        "slots": [
+          {
+            "team": "uber-chn"
+          },
+          {
+            "team": "uber-ind"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-chn",
+            "uber-ind"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-6"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-c-1",
+        "stage": "uber-group",
+        "group": "uber-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "uber-tpe"
+          },
+          {
+            "team": "uber-aus"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-tpe",
+            "uber-aus"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-8"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-c-2",
+        "stage": "uber-group",
+        "group": "uber-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "uber-ina"
+          },
+          {
+            "team": "uber-can"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-ina",
+            "uber-can"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-8"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-c-3",
+        "stage": "uber-group",
+        "group": "uber-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "uber-ina"
+          },
+          {
+            "team": "uber-aus"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-ina",
+            "uber-aus"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-8"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-c-4",
+        "stage": "uber-group",
+        "group": "uber-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "uber-tpe"
+          },
+          {
+            "team": "uber-can"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-tpe",
+            "uber-can"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-8"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-c-5",
+        "stage": "uber-group",
+        "group": "uber-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "uber-can"
+          },
+          {
+            "team": "uber-aus"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-can",
+            "uber-aus"
+          ],
+          "score": [
+            4,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-8"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-c-6",
+        "stage": "uber-group",
+        "group": "uber-c",
+        "round": "C组",
+        "slots": [
+          {
+            "team": "uber-tpe"
+          },
+          {
+            "team": "uber-ina"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-tpe",
+            "uber-ina"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-8"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-d-1",
+        "stage": "uber-group",
+        "group": "uber-d",
+        "round": "D组",
+        "slots": [
+          {
+            "team": "uber-kor"
+          },
+          {
+            "team": "uber-esp"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-kor",
+            "uber-esp"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-9"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-d-2",
+        "stage": "uber-group",
+        "group": "uber-d",
+        "round": "D组",
+        "slots": [
+          {
+            "team": "uber-tha"
+          },
+          {
+            "team": "uber-bul"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-tha",
+            "uber-bul"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-9"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-d-3",
+        "stage": "uber-group",
+        "group": "uber-d",
+        "round": "D组",
+        "slots": [
+          {
+            "team": "uber-tha"
+          },
+          {
+            "team": "uber-esp"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-tha",
+            "uber-esp"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-9"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-d-4",
+        "stage": "uber-group",
+        "group": "uber-d",
+        "round": "D组",
+        "slots": [
+          {
+            "team": "uber-kor"
+          },
+          {
+            "team": "uber-bul"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-kor",
+            "uber-bul"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-9"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-d-5",
+        "stage": "uber-group",
+        "group": "uber-d",
+        "round": "D组",
+        "slots": [
+          {
+            "team": "uber-bul"
+          },
+          {
+            "team": "uber-esp"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-bul",
+            "uber-esp"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-9"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
+          }
+        }
+      },
+      {
+        "id": "uber-d-6",
+        "stage": "uber-group",
+        "group": "uber-d",
+        "round": "D组",
+        "slots": [
+          {
+            "team": "uber-kor"
+          },
+          {
+            "team": "uber-tha"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "uber-kor",
+            "uber-tha"
+          ],
+          "score": [
+            5,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "bwf-group-9"
+            ],
+            "verified_at": "2026-11-17T01:07:15+08:00"
           }
         }
       }
