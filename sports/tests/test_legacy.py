@@ -32,12 +32,15 @@ class LegacyTests(unittest.TestCase):
                 self.assertEqual(len(links), 1)
                 self.assertEqual(((ROOT / record['output']).parent / links[0]).resolve(), catalog)
 
-    def test_swiss_history_not_single_elimination(self):
+    def test_swiss_history_and_knockout_results(self):
         r = next(r for r in RECORDS if r['kind'] == 'worlds-swiss')
         self.assertEqual(sum(len(d[2]) for d in r['data']['swissDays']), 33)
         self.assertEqual(sum(len(d[2]) for d in r['data']['playinDays']), 6)
         self.assertEqual(len(r['data']['ko']), 7)
-        self.assertNotIn('scores', r['data']['ko'][-1])
+        final = next(match for match in r['data']['ko'] if match['id'] == 'F')
+        self.assertEqual(final['slots'], ['S1', 'S2'])
+        self.assertEqual(final['scores'], [1, 3])
+        self.assertEqual(final['gameWinners'], ['GEN', 'BLG', 'BLG', 'BLG'])
         bad = copy.deepcopy(r)
         bad['data']['ko'][0]['scores'] = [3, 0]
         with self.assertRaises(ValueError):render_record(bad, ROOT)
