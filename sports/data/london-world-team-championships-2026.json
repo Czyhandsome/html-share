@@ -1,0 +1,3103 @@
+{
+  "id": "london-world-team-championships-2026",
+  "kind": "team-bracket-v1",
+  "output": "docs/2026/04/london-world-team-championships-2026/index.html",
+  "event_dates": {
+    "start": "2026-04-28",
+    "end": "2026-05-10"
+  },
+  "notices": [
+    "本页当前覆盖男、女团完整32强正赛淘汰赛：64队、62场团体总比分和晋级路线。尚未收录资格小组、资格附加赛及种子小组，不能视为完整赛事档案。",
+    "球员名单及单场逐局明细尚待补录。团体总比分与32强席位均取自WTT官方结果及签表，并逐场核对双方代表队、总比分和晋级关系。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026伦敦世乒赛团体赛",
+      "snapshot_at": "2026-11-16T17:08:56+00:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/London"
+    },
+    "draws": [
+      {
+        "id": "men",
+        "name": "男子团体"
+      },
+      {
+        "id": "women",
+        "name": "女子团体"
+      }
+    ],
+    "teams": [
+      {
+        "id": "men-chn",
+        "draw": "men",
+        "team": "CHN",
+        "players": []
+      },
+      {
+        "id": "men-swe",
+        "draw": "men",
+        "team": "SWE",
+        "players": []
+      },
+      {
+        "id": "men-kor",
+        "draw": "men",
+        "team": "KOR",
+        "players": []
+      },
+      {
+        "id": "men-eng",
+        "draw": "men",
+        "team": "ENG",
+        "players": []
+      },
+      {
+        "id": "men-fra",
+        "draw": "men",
+        "team": "FRA",
+        "players": []
+      },
+      {
+        "id": "men-jpn",
+        "draw": "men",
+        "team": "JPN",
+        "players": []
+      },
+      {
+        "id": "men-ger",
+        "draw": "men",
+        "team": "GER",
+        "players": []
+      },
+      {
+        "id": "men-tpe",
+        "draw": "men",
+        "team": "TPE",
+        "players": []
+      },
+      {
+        "id": "men-den",
+        "draw": "men",
+        "team": "DEN",
+        "players": []
+      },
+      {
+        "id": "men-bra",
+        "draw": "men",
+        "team": "BRA",
+        "players": []
+      },
+      {
+        "id": "men-hun",
+        "draw": "men",
+        "team": "HUN",
+        "players": []
+      },
+      {
+        "id": "men-slo",
+        "draw": "men",
+        "team": "SLO",
+        "players": []
+      },
+      {
+        "id": "men-esp",
+        "draw": "men",
+        "team": "ESP",
+        "players": []
+      },
+      {
+        "id": "men-por",
+        "draw": "men",
+        "team": "POR",
+        "players": []
+      },
+      {
+        "id": "men-ind",
+        "draw": "men",
+        "team": "IND",
+        "players": []
+      },
+      {
+        "id": "men-svk",
+        "draw": "men",
+        "team": "SVK",
+        "players": []
+      },
+      {
+        "id": "men-cro",
+        "draw": "men",
+        "team": "CRO",
+        "players": []
+      },
+      {
+        "id": "men-srb",
+        "draw": "men",
+        "team": "SRB",
+        "players": []
+      },
+      {
+        "id": "men-rou",
+        "draw": "men",
+        "team": "ROU",
+        "players": []
+      },
+      {
+        "id": "men-aus",
+        "draw": "men",
+        "team": "AUS",
+        "players": []
+      },
+      {
+        "id": "men-prk",
+        "draw": "men",
+        "team": "PRK",
+        "players": []
+      },
+      {
+        "id": "men-egy",
+        "draw": "men",
+        "team": "EGY",
+        "players": []
+      },
+      {
+        "id": "men-kaz",
+        "draw": "men",
+        "team": "KAZ",
+        "players": []
+      },
+      {
+        "id": "men-pol",
+        "draw": "men",
+        "team": "POL",
+        "players": []
+      },
+      {
+        "id": "men-mda",
+        "draw": "men",
+        "team": "MDA",
+        "players": []
+      },
+      {
+        "id": "men-aut",
+        "draw": "men",
+        "team": "AUT",
+        "players": []
+      },
+      {
+        "id": "men-ita",
+        "draw": "men",
+        "team": "ITA",
+        "players": []
+      },
+      {
+        "id": "men-usa",
+        "draw": "men",
+        "team": "USA",
+        "players": []
+      },
+      {
+        "id": "men-sgp",
+        "draw": "men",
+        "team": "SGP",
+        "players": []
+      },
+      {
+        "id": "men-hkg",
+        "draw": "men",
+        "team": "HKG",
+        "players": []
+      },
+      {
+        "id": "men-can",
+        "draw": "men",
+        "team": "CAN",
+        "players": []
+      },
+      {
+        "id": "men-bel",
+        "draw": "men",
+        "team": "BEL",
+        "players": []
+      },
+      {
+        "id": "women-chn",
+        "draw": "women",
+        "team": "CHN",
+        "players": []
+      },
+      {
+        "id": "women-kor",
+        "draw": "women",
+        "team": "KOR",
+        "players": []
+      },
+      {
+        "id": "women-tpe",
+        "draw": "women",
+        "team": "TPE",
+        "players": []
+      },
+      {
+        "id": "women-rou",
+        "draw": "women",
+        "team": "ROU",
+        "players": []
+      },
+      {
+        "id": "women-jpn",
+        "draw": "women",
+        "team": "JPN",
+        "players": []
+      },
+      {
+        "id": "women-ger",
+        "draw": "women",
+        "team": "GER",
+        "players": []
+      },
+      {
+        "id": "women-fra",
+        "draw": "women",
+        "team": "FRA",
+        "players": []
+      },
+      {
+        "id": "women-eng",
+        "draw": "women",
+        "team": "ENG",
+        "players": []
+      },
+      {
+        "id": "women-egy",
+        "draw": "women",
+        "team": "EGY",
+        "players": []
+      },
+      {
+        "id": "women-hkg",
+        "draw": "women",
+        "team": "HKG",
+        "players": []
+      },
+      {
+        "id": "women-ned",
+        "draw": "women",
+        "team": "NED",
+        "players": []
+      },
+      {
+        "id": "women-bra",
+        "draw": "women",
+        "team": "BRA",
+        "players": []
+      },
+      {
+        "id": "women-kaz",
+        "draw": "women",
+        "team": "KAZ",
+        "players": []
+      },
+      {
+        "id": "women-ind",
+        "draw": "women",
+        "team": "IND",
+        "players": []
+      },
+      {
+        "id": "women-ukr",
+        "draw": "women",
+        "team": "UKR",
+        "players": []
+      },
+      {
+        "id": "women-swe",
+        "draw": "women",
+        "team": "SWE",
+        "players": []
+      },
+      {
+        "id": "women-can",
+        "draw": "women",
+        "team": "CAN",
+        "players": []
+      },
+      {
+        "id": "women-srb",
+        "draw": "women",
+        "team": "SRB",
+        "players": []
+      },
+      {
+        "id": "women-pol",
+        "draw": "women",
+        "team": "POL",
+        "players": []
+      },
+      {
+        "id": "women-prk",
+        "draw": "women",
+        "team": "PRK",
+        "players": []
+      },
+      {
+        "id": "women-por",
+        "draw": "women",
+        "team": "POR",
+        "players": []
+      },
+      {
+        "id": "women-lux",
+        "draw": "women",
+        "team": "LUX",
+        "players": []
+      },
+      {
+        "id": "women-wal",
+        "draw": "women",
+        "team": "WAL",
+        "players": []
+      },
+      {
+        "id": "women-usa",
+        "draw": "women",
+        "team": "USA",
+        "players": []
+      },
+      {
+        "id": "women-mas",
+        "draw": "women",
+        "team": "MAS",
+        "players": []
+      },
+      {
+        "id": "women-cro",
+        "draw": "women",
+        "team": "CRO",
+        "players": []
+      },
+      {
+        "id": "women-ita",
+        "draw": "women",
+        "team": "ITA",
+        "players": []
+      },
+      {
+        "id": "women-pur",
+        "draw": "women",
+        "team": "PUR",
+        "players": []
+      },
+      {
+        "id": "women-aut",
+        "draw": "women",
+        "team": "AUT",
+        "players": []
+      },
+      {
+        "id": "women-sgp",
+        "draw": "women",
+        "team": "SGP",
+        "players": []
+      },
+      {
+        "id": "women-svk",
+        "draw": "women",
+        "team": "SVK",
+        "players": []
+      },
+      {
+        "id": "women-sui",
+        "draw": "women",
+        "team": "SUI",
+        "players": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "results",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitearchivedresults/3216/officialresult/officialresult.json",
+        "label": "WTT官方完整团体赛果归档",
+        "kind": "official",
+        "family": "WTT"
+      },
+      {
+        "id": "men-pool",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3216/poolstandings/MTEAM.json",
+        "label": "WTT官方小组最终排名（men）",
+        "kind": "official",
+        "family": "WTT"
+      },
+      {
+        "id": "men-bracket",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3216/brackets/TTEMTEAM----------------------------------.json",
+        "label": "WTT官方完整签表（men）",
+        "kind": "official",
+        "family": "WTT"
+      },
+      {
+        "id": "women-pool",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3216/poolstandings/WTEAM.json",
+        "label": "WTT官方小组最终排名（women）",
+        "kind": "official",
+        "family": "WTT"
+      },
+      {
+        "id": "women-bracket",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3216/brackets/TTEWTEAM----------------------------------.json",
+        "label": "WTT官方完整签表（women）",
+        "kind": "official",
+        "family": "WTT"
+      }
+    ],
+    "rules": {
+      "tt": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2
+      }
+    },
+    "stages": [
+      {
+        "id": "men-main",
+        "draw": "men",
+        "name": "正赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第1单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第2单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第3单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第4单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第5单打",
+            "kind": "singles",
+            "rule": "tt"
+          }
+        ]
+      },
+      {
+        "id": "women-main",
+        "draw": "women",
+        "name": "正赛",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第1单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第2单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第3单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第4单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第5单打",
+            "kind": "singles",
+            "rule": "tt"
+          }
+        ]
+      }
+    ],
+    "groups": [],
+    "qualifications": [
+      {
+        "id": "men-swe-main-entry",
+        "stage": "men-main",
+        "team": "men-swe",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-hun-main-entry",
+        "stage": "men-main",
+        "team": "men-hun",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-ita-main-entry",
+        "stage": "men-main",
+        "team": "men-ita",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-cro-main-entry",
+        "stage": "men-main",
+        "team": "men-cro",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-can-main-entry",
+        "stage": "men-main",
+        "team": "men-can",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-den-main-entry",
+        "stage": "men-main",
+        "team": "men-den",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-srb-main-entry",
+        "stage": "men-main",
+        "team": "men-srb",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-tpe-main-entry",
+        "stage": "men-main",
+        "team": "men-tpe",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-ger-main-entry",
+        "stage": "men-main",
+        "team": "men-ger",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-slo-main-entry",
+        "stage": "men-main",
+        "team": "men-slo",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-hkg-main-entry",
+        "stage": "men-main",
+        "team": "men-hkg",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-prk-main-entry",
+        "stage": "men-main",
+        "team": "men-prk",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-esp-main-entry",
+        "stage": "men-main",
+        "team": "men-esp",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-kaz-main-entry",
+        "stage": "men-main",
+        "team": "men-kaz",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-bel-main-entry",
+        "stage": "men-main",
+        "team": "men-bel",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-jpn-main-entry",
+        "stage": "men-main",
+        "team": "men-jpn",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-svk-main-entry",
+        "stage": "men-main",
+        "team": "men-svk",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-kor-main-entry",
+        "stage": "men-main",
+        "team": "men-kor",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-aut-main-entry",
+        "stage": "men-main",
+        "team": "men-aut",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-ind-main-entry",
+        "stage": "men-main",
+        "team": "men-ind",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-pol-main-entry",
+        "stage": "men-main",
+        "team": "men-pol",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-rou-main-entry",
+        "stage": "men-main",
+        "team": "men-rou",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-aus-main-entry",
+        "stage": "men-main",
+        "team": "men-aus",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-chn-main-entry",
+        "stage": "men-main",
+        "team": "men-chn",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-mda-main-entry",
+        "stage": "men-main",
+        "team": "men-mda",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-eng-main-entry",
+        "stage": "men-main",
+        "team": "men-eng",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-sgp-main-entry",
+        "stage": "men-main",
+        "team": "men-sgp",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-bra-main-entry",
+        "stage": "men-main",
+        "team": "men-bra",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-por-main-entry",
+        "stage": "men-main",
+        "team": "men-por",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-egy-main-entry",
+        "stage": "men-main",
+        "team": "men-egy",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-usa-main-entry",
+        "stage": "men-main",
+        "team": "men-usa",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "men-fra-main-entry",
+        "stage": "men-main",
+        "team": "men-fra",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "men-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-chn-main-entry",
+        "stage": "women-main",
+        "team": "women-chn",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-pol-main-entry",
+        "stage": "women-main",
+        "team": "women-pol",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-swe-main-entry",
+        "stage": "women-main",
+        "team": "women-swe",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-kaz-main-entry",
+        "stage": "women-main",
+        "team": "women-kaz",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-sgp-main-entry",
+        "stage": "women-main",
+        "team": "women-sgp",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-srb-main-entry",
+        "stage": "women-main",
+        "team": "women-srb",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-can-main-entry",
+        "stage": "women-main",
+        "team": "women-can",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-kor-main-entry",
+        "stage": "women-main",
+        "team": "women-kor",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-fra-main-entry",
+        "stage": "women-main",
+        "team": "women-fra",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-sui-main-entry",
+        "stage": "women-main",
+        "team": "women-sui",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-ita-main-entry",
+        "stage": "women-main",
+        "team": "women-ita",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-por-main-entry",
+        "stage": "women-main",
+        "team": "women-por",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-egy-main-entry",
+        "stage": "women-main",
+        "team": "women-egy",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-svk-main-entry",
+        "stage": "women-main",
+        "team": "women-svk",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-rou-main-entry",
+        "stage": "women-main",
+        "team": "women-rou",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-ned-main-entry",
+        "stage": "women-main",
+        "team": "women-ned",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-ger-main-entry",
+        "stage": "women-main",
+        "team": "women-ger",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-mas-main-entry",
+        "stage": "women-main",
+        "team": "women-mas",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-prk-main-entry",
+        "stage": "women-main",
+        "team": "women-prk",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-aut-main-entry",
+        "stage": "women-main",
+        "team": "women-aut",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-hkg-main-entry",
+        "stage": "women-main",
+        "team": "women-hkg",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-wal-main-entry",
+        "stage": "women-main",
+        "team": "women-wal",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-pur-main-entry",
+        "stage": "women-main",
+        "team": "women-pur",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-tpe-main-entry",
+        "stage": "women-main",
+        "team": "women-tpe",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-eng-main-entry",
+        "stage": "women-main",
+        "team": "women-eng",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-ukr-main-entry",
+        "stage": "women-main",
+        "team": "women-ukr",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-usa-main-entry",
+        "stage": "women-main",
+        "team": "women-usa",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-ind-main-entry",
+        "stage": "women-main",
+        "team": "women-ind",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-bra-main-entry",
+        "stage": "women-main",
+        "team": "women-bra",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-lux-main-entry",
+        "stage": "women-main",
+        "team": "women-lux",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-cro-main-entry",
+        "stage": "women-main",
+        "team": "women-cro",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      },
+      {
+        "id": "women-jpn-main-entry",
+        "stage": "women-main",
+        "team": "women-jpn",
+        "label": "官方正赛签表确认32强席位",
+        "verification": {
+          "source_ids": [
+            "women-bracket"
+          ],
+          "verified_at": "2026-11-16T17:08:56+00:00"
+        }
+      }
+    ],
+    "ties": [
+      {
+        "id": "men-r3200010000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-swe-main-entry"
+          },
+          {
+            "qualified": "men-hun-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-swe",
+            "men-hun"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200020000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-ita-main-entry"
+          },
+          {
+            "qualified": "men-cro-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-ita",
+            "men-cro"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200030000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-can-main-entry"
+          },
+          {
+            "qualified": "men-den-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-can",
+            "men-den"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200040000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-srb-main-entry"
+          },
+          {
+            "qualified": "men-tpe-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-srb",
+            "men-tpe"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200050000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-ger-main-entry"
+          },
+          {
+            "qualified": "men-slo-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-ger",
+            "men-slo"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200060000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-hkg-main-entry"
+          },
+          {
+            "qualified": "men-prk-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-hkg",
+            "men-prk"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200070000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-esp-main-entry"
+          },
+          {
+            "qualified": "men-kaz-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-esp",
+            "men-kaz"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200080000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-bel-main-entry"
+          },
+          {
+            "qualified": "men-jpn-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-bel",
+            "men-jpn"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200090000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-svk-main-entry"
+          },
+          {
+            "qualified": "men-kor-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-svk",
+            "men-kor"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200100000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-aut-main-entry"
+          },
+          {
+            "qualified": "men-ind-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-aut",
+            "men-ind"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200110000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-pol-main-entry"
+          },
+          {
+            "qualified": "men-rou-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-pol",
+            "men-rou"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200120000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-aus-main-entry"
+          },
+          {
+            "qualified": "men-chn-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-aus",
+            "men-chn"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200130000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-mda-main-entry"
+          },
+          {
+            "qualified": "men-eng-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-mda",
+            "men-eng"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200140000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-sgp-main-entry"
+          },
+          {
+            "qualified": "men-bra-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-sgp",
+            "men-bra"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200150000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-por-main-entry"
+          },
+          {
+            "qualified": "men-egy-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-por",
+            "men-egy"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-r3200160000",
+        "stage": "men-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "men-usa-main-entry"
+          },
+          {
+            "qualified": "men-fra-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-usa",
+            "men-fra"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-8fnl00010000",
+        "stage": "men-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "men-r3200020000"
+          },
+          {
+            "winner": "men-r3200010000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-cro",
+            "men-swe"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-8fnl00020000",
+        "stage": "men-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "men-r3200030000"
+          },
+          {
+            "winner": "men-r3200040000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-den",
+            "men-tpe"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-8fnl00030000",
+        "stage": "men-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "men-r3200050000"
+          },
+          {
+            "winner": "men-r3200060000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-ger",
+            "men-hkg"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-8fnl00040000",
+        "stage": "men-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "men-r3200070000"
+          },
+          {
+            "winner": "men-r3200080000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-kaz",
+            "men-jpn"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-8fnl00050000",
+        "stage": "men-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "men-r3200090000"
+          },
+          {
+            "winner": "men-r3200100000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-kor",
+            "men-aut"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-8fnl00060000",
+        "stage": "men-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "men-r3200110000"
+          },
+          {
+            "winner": "men-r3200120000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-rou",
+            "men-chn"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-8fnl00070000",
+        "stage": "men-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "men-r3200130000"
+          },
+          {
+            "winner": "men-r3200140000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-eng",
+            "men-bra"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-8fnl00080000",
+        "stage": "men-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "men-r3200160000"
+          },
+          {
+            "winner": "men-r3200150000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-fra",
+            "men-por"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-qfnl00010000",
+        "stage": "men-main",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-8fnl00010000"
+          },
+          {
+            "winner": "men-8fnl00020000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-swe",
+            "men-tpe"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-qfnl00020000",
+        "stage": "men-main",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-8fnl00040000"
+          },
+          {
+            "winner": "men-8fnl00030000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-jpn",
+            "men-ger"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-qfnl00030000",
+        "stage": "men-main",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-8fnl00060000"
+          },
+          {
+            "winner": "men-8fnl00050000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-chn",
+            "men-kor"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-qfnl00040000",
+        "stage": "men-main",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-8fnl00070000"
+          },
+          {
+            "winner": "men-8fnl00080000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-bra",
+            "men-fra"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-sfnl00010000",
+        "stage": "men-main",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "men-qfnl00020000"
+          },
+          {
+            "winner": "men-qfnl00010000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-jpn",
+            "men-tpe"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-sfnl00020000",
+        "stage": "men-main",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "men-qfnl00030000"
+          },
+          {
+            "winner": "men-qfnl00040000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-chn",
+            "men-fra"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-fnl00010000",
+        "stage": "men-main",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "men-sfnl00010000"
+          },
+          {
+            "winner": "men-sfnl00020000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "men-jpn",
+            "men-chn"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200010000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-chn-main-entry"
+          },
+          {
+            "qualified": "women-pol-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-chn",
+            "women-pol"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200020000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-swe-main-entry"
+          },
+          {
+            "qualified": "women-kaz-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-swe",
+            "women-kaz"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200030000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-sgp-main-entry"
+          },
+          {
+            "qualified": "women-srb-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-sgp",
+            "women-srb"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200040000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-can-main-entry"
+          },
+          {
+            "qualified": "women-kor-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-can",
+            "women-kor"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200050000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-fra-main-entry"
+          },
+          {
+            "qualified": "women-sui-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-fra",
+            "women-sui"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200060000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-ita-main-entry"
+          },
+          {
+            "qualified": "women-por-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-ita",
+            "women-por"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200070000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-egy-main-entry"
+          },
+          {
+            "qualified": "women-svk-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-egy",
+            "women-svk"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200080000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-rou-main-entry"
+          },
+          {
+            "qualified": "women-ned-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-rou",
+            "women-ned"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200090000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-ger-main-entry"
+          },
+          {
+            "qualified": "women-mas-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-ger",
+            "women-mas"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200100000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-prk-main-entry"
+          },
+          {
+            "qualified": "women-aut-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-prk",
+            "women-aut"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200110000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-hkg-main-entry"
+          },
+          {
+            "qualified": "women-wal-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-hkg",
+            "women-wal"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200120000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-pur-main-entry"
+          },
+          {
+            "qualified": "women-tpe-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-pur",
+            "women-tpe"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200130000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-eng-main-entry"
+          },
+          {
+            "qualified": "women-ukr-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-eng",
+            "women-ukr"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200140000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-usa-main-entry"
+          },
+          {
+            "qualified": "women-ind-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-usa",
+            "women-ind"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200150000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-bra-main-entry"
+          },
+          {
+            "qualified": "women-lux-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-bra",
+            "women-lux"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-r3200160000",
+        "stage": "women-main",
+        "round": "32强",
+        "slots": [
+          {
+            "qualified": "women-cro-main-entry"
+          },
+          {
+            "qualified": "women-jpn-main-entry"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-cro",
+            "women-jpn"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-8fnl00010000",
+        "stage": "women-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "women-r3200020000"
+          },
+          {
+            "winner": "women-r3200010000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-swe",
+            "women-chn"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-8fnl00020000",
+        "stage": "women-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "women-r3200030000"
+          },
+          {
+            "winner": "women-r3200040000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-sgp",
+            "women-kor"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-8fnl00030000",
+        "stage": "women-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "women-r3200050000"
+          },
+          {
+            "winner": "women-r3200060000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-fra",
+            "women-ita"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-8fnl00040000",
+        "stage": "women-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "women-r3200080000"
+          },
+          {
+            "winner": "women-r3200070000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-rou",
+            "women-egy"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-8fnl00050000",
+        "stage": "women-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "women-r3200100000"
+          },
+          {
+            "winner": "women-r3200090000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-prk",
+            "women-ger"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-8fnl00060000",
+        "stage": "women-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "women-r3200110000"
+          },
+          {
+            "winner": "women-r3200120000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-hkg",
+            "women-tpe"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-8fnl00070000",
+        "stage": "women-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "women-r3200130000"
+          },
+          {
+            "winner": "women-r3200140000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-ukr",
+            "women-usa"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-8fnl00080000",
+        "stage": "women-main",
+        "round": "16强",
+        "slots": [
+          {
+            "winner": "women-r3200150000"
+          },
+          {
+            "winner": "women-r3200160000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-lux",
+            "women-jpn"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qfnl00010000",
+        "stage": "women-main",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-8fnl00020000"
+          },
+          {
+            "winner": "women-8fnl00010000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-kor",
+            "women-chn"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qfnl00020000",
+        "stage": "women-main",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-8fnl00030000"
+          },
+          {
+            "winner": "women-8fnl00040000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-fra",
+            "women-rou"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qfnl00030000",
+        "stage": "women-main",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-8fnl00050000"
+          },
+          {
+            "winner": "women-8fnl00060000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-ger",
+            "women-hkg"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qfnl00040000",
+        "stage": "women-main",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-8fnl00070000"
+          },
+          {
+            "winner": "women-8fnl00080000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-ukr",
+            "women-jpn"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-sfnl00010000",
+        "stage": "women-main",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "women-qfnl00010000"
+          },
+          {
+            "winner": "women-qfnl00020000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-chn",
+            "women-rou"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-sfnl00020000",
+        "stage": "women-main",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "women-qfnl00040000"
+          },
+          {
+            "winner": "women-qfnl00030000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-jpn",
+            "women-ger"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-fnl00010000",
+        "stage": "women-main",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "women-sfnl00020000"
+          },
+          {
+            "winner": "women-sfnl00010000"
+          }
+        ],
+        "official_result": {
+          "result_for": [
+            "women-jpn",
+            "women-chn"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-16T17:08:56+00:00"
+          }
+        }
+      }
+    ]
+  }
+}
