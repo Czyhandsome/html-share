@@ -7,16 +7,18 @@
     "end": "2026-05-10"
   },
   "notices": [
-    "本页覆盖男、女团完整32强正赛淘汰赛62场，以及男子第1、2种子组12场团体总比分，共74场。尚未收录女子种子组、资格小组及资格附加赛，不能视为完整赛事档案。",
+    "本页覆盖男、女团完整32强正赛淘汰赛62场，以及男女第1、2种子组24场团体总比分，共86场。尚未收录资格小组及资格附加赛，不能视为完整赛事档案。",
     "球员名单及单场逐局明细尚待补录。团体总比分与32强席位均取自WTT官方结果及签表，并逐场核对双方代表队、总比分和晋级关系。",
     "男子Stage 1A种子组八队全员进入正赛，小组赛决定种子位置而非淘汰资格。第1组名次为瑞典、韩国、中国、英格兰；第2组为法国、日本、德国、中华台北。正赛仍沿用WTT官方实际抽签席位，未以小组名次猜接晋级线。",
-    "小组名次采用WTT官方组别终轮快照771220/771240：各队均已打满3场，并与全部12场赛果及独立赛果汇总交叉核验。接口将这两份快照标记INTERMEDIATE；较旧的OFFICIAL汇总尚未打完，未采用其过时名次。团体比分采用官方overallScores及FINAL_RESULT一致值，不采用不一致的resultOverallScores字段。"
+    "男子小组名次采用WTT官方组别终轮快照771220/771240：各队均已打满3场，并与全部12场赛果及独立赛果汇总交叉核验。接口将这两份快照标记INTERMEDIATE；较旧的OFFICIAL汇总尚未打完，未采用其过时名次。团体比分采用官方overallScores及FINAL_RESULT一致值，不采用不一致的resultOverallScores字段。",
+    "女子Stage 1A种子组八队全员进入正赛，小组赛决定种子位置而非淘汰资格。第1组名次为中国、罗马尼亚、中华台北、韩国；第2组为日本、德国、法国、英格兰。正赛保留WTT官方实际抽签席位，不以小组名次改写晋级关系。",
+    "女子第1组名次采用WTT终轮快照771234（接口标记INTERMEDIATE，但四队均已打满3场）；第2组采用771182中已打满3场的OFFICIAL组别记录。771182中的第1组尚未打完，未采用其过时名次。两组名次均与12场官方完整团体赛果及独立汇总交叉核验。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026伦敦世乒赛团体赛",
-      "snapshot_at": "2026-11-18T06:03:53+08:00",
+      "snapshot_at": "2026-11-18T07:04:27+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/London"
     },
@@ -458,6 +460,13 @@
         "label": "AATT男子第1、2种子组团体赛果和名次（与WTT归档交叉核验）",
         "kind": "independent",
         "family": "allabouttabletennis.com"
+      },
+      {
+        "id": "aatt-women-seed",
+        "url": "https://www.allabouttabletennis.com/world-championships-2026-womens-team-event.html",
+        "label": "AATT女子第1、2种子组团体赛果和名次（与WTT归档交叉核验）",
+        "kind": "independent",
+        "family": "allabouttabletennis.com"
       }
     ],
     "rules": {
@@ -507,6 +516,40 @@
         "draw": "men",
         "name": "正赛",
         "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第1单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第2单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第3单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第4单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第5单打",
+            "kind": "singles",
+            "rule": "tt"
+          }
+        ]
+      },
+      {
+        "id": "women-seeding",
+        "draw": "women",
+        "name": "女子种子小组（Stage 1A，全员进入正赛）",
+        "kind": "group",
         "mode": "first_to_three",
         "order": [
           {
@@ -619,6 +662,56 @@
               "men-pool"
             ],
             "verified_at": "2026-11-18T06:03:53+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-1",
+        "stage": "women-seeding",
+        "name": "女子种子第1组",
+        "teams": [
+          "women-chn",
+          "women-rou",
+          "women-tpe",
+          "women-kor"
+        ],
+        "standings": {
+          "order": [
+            "women-chn",
+            "women-rou",
+            "women-tpe",
+            "women-kor"
+          ],
+          "verification": {
+            "source_ids": [
+              "women-pool"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-2",
+        "stage": "women-seeding",
+        "name": "女子种子第2组",
+        "teams": [
+          "women-jpn",
+          "women-ger",
+          "women-fra",
+          "women-eng"
+        ],
+        "standings": {
+          "order": [
+            "women-jpn",
+            "women-ger",
+            "women-fra",
+            "women-eng"
+          ],
+          "verification": {
+            "source_ids": [
+              "women-pool"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
           }
         }
       }
@@ -1394,6 +1487,378 @@
       }
     ],
     "ties": [
+      {
+        "id": "women-seed-1-1",
+        "stage": "women-seeding",
+        "group": "women-seed-1",
+        "round": "种子第1组",
+        "slots": [
+          {
+            "team": "women-chn"
+          },
+          {
+            "team": "women-rou"
+          }
+        ],
+        "completed_date": "2026-05-02",
+        "official_result": {
+          "result_for": [
+            "women-chn",
+            "women-rou"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-1-2",
+        "stage": "women-seeding",
+        "group": "women-seed-1",
+        "round": "种子第1组",
+        "slots": [
+          {
+            "team": "women-tpe"
+          },
+          {
+            "team": "women-kor"
+          }
+        ],
+        "completed_date": "2026-05-02",
+        "official_result": {
+          "result_for": [
+            "women-tpe",
+            "women-kor"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-1-3",
+        "stage": "women-seeding",
+        "group": "women-seed-1",
+        "round": "种子第1组",
+        "slots": [
+          {
+            "team": "women-chn"
+          },
+          {
+            "team": "women-tpe"
+          }
+        ],
+        "completed_date": "2026-05-02",
+        "official_result": {
+          "result_for": [
+            "women-chn",
+            "women-tpe"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-1-4",
+        "stage": "women-seeding",
+        "group": "women-seed-1",
+        "round": "种子第1组",
+        "slots": [
+          {
+            "team": "women-rou"
+          },
+          {
+            "team": "women-kor"
+          }
+        ],
+        "completed_date": "2026-05-02",
+        "official_result": {
+          "result_for": [
+            "women-rou",
+            "women-kor"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-1-5",
+        "stage": "women-seeding",
+        "group": "women-seed-1",
+        "round": "种子第1组",
+        "slots": [
+          {
+            "team": "women-chn"
+          },
+          {
+            "team": "women-kor"
+          }
+        ],
+        "completed_date": "2026-05-03",
+        "official_result": {
+          "result_for": [
+            "women-chn",
+            "women-kor"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-1-6",
+        "stage": "women-seeding",
+        "group": "women-seed-1",
+        "round": "种子第1组",
+        "slots": [
+          {
+            "team": "women-rou"
+          },
+          {
+            "team": "women-tpe"
+          }
+        ],
+        "completed_date": "2026-05-03",
+        "official_result": {
+          "result_for": [
+            "women-rou",
+            "women-tpe"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-2-1",
+        "stage": "women-seeding",
+        "group": "women-seed-2",
+        "round": "种子第2组",
+        "slots": [
+          {
+            "team": "women-jpn"
+          },
+          {
+            "team": "women-eng"
+          }
+        ],
+        "completed_date": "2026-05-02",
+        "official_result": {
+          "result_for": [
+            "women-jpn",
+            "women-eng"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-2-2",
+        "stage": "women-seeding",
+        "group": "women-seed-2",
+        "round": "种子第2组",
+        "slots": [
+          {
+            "team": "women-ger"
+          },
+          {
+            "team": "women-fra"
+          }
+        ],
+        "completed_date": "2026-05-02",
+        "official_result": {
+          "result_for": [
+            "women-ger",
+            "women-fra"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-2-3",
+        "stage": "women-seeding",
+        "group": "women-seed-2",
+        "round": "种子第2组",
+        "slots": [
+          {
+            "team": "women-jpn"
+          },
+          {
+            "team": "women-fra"
+          }
+        ],
+        "completed_date": "2026-05-02",
+        "official_result": {
+          "result_for": [
+            "women-jpn",
+            "women-fra"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-2-4",
+        "stage": "women-seeding",
+        "group": "women-seed-2",
+        "round": "种子第2组",
+        "slots": [
+          {
+            "team": "women-eng"
+          },
+          {
+            "team": "women-ger"
+          }
+        ],
+        "completed_date": "2026-05-02",
+        "official_result": {
+          "result_for": [
+            "women-eng",
+            "women-ger"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-2-5",
+        "stage": "women-seeding",
+        "group": "women-seed-2",
+        "round": "种子第2组",
+        "slots": [
+          {
+            "team": "women-ger"
+          },
+          {
+            "team": "women-jpn"
+          }
+        ],
+        "completed_date": "2026-05-03",
+        "official_result": {
+          "result_for": [
+            "women-ger",
+            "women-jpn"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "women-seed-2-6",
+        "stage": "women-seeding",
+        "group": "women-seed-2",
+        "round": "种子第2组",
+        "slots": [
+          {
+            "team": "women-fra"
+          },
+          {
+            "team": "women-eng"
+          }
+        ],
+        "completed_date": "2026-05-03",
+        "official_result": {
+          "result_for": [
+            "women-fra",
+            "women-eng"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
       {
         "id": "men-seed-1-1",
         "stage": "men-seeding",
