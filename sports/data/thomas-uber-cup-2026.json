@@ -8,7 +8,7 @@
   },
   "notices": [
     "已核验并录入汤杯A、B、C组及尤杯全部四组，共42场小组赛和全部14场淘汰赛团体总比分；汤杯D组已取得官方赛果，但阿尔及利亚队编码ALG尚未在站点登记，暂未录入该组。",
-    "小组赛依据BWF官方赛果与排名；淘汰赛依据日本羽协官方结果及八强签位。已补12场团体对决的51场单项：日本队9场团体对决，以及中国男团对丹麦半决赛、中国女团对韩国决赛、中国男团对法国决赛；含实际阵容、出场顺序与逐局比分（含吴堇溦退赛时未完局）。其他44场团体对决仍仅有总比分，单项明细待核实。",
+    "已核验48场团体对决的231场单项，含实际阵容、出场顺序、逐局比分及弃权/退赛状态。BWF官方日期赛果接口为后补明细依据，已核对原团体总比分；日本羽协PDF及官方/主流报道作为既有交叉证据。其余8场团体对决的单项仍待补充。",
     "单项明细来源为日本羽协官方PDF第2、4–6、8–9、11–13页；淘汰赛达到三胜后未进行的场次不虚构赛果。外国选手无法确认可靠中文译名时保留官方拼写。",
     "中国男团对丹麦单项经央视体育、BRTV天天体育交叉核验，并参照亚洲羽联战报确认对手；中国女团对韩国决赛经新华社、央视网体育交叉核验。媒体转载平台相同不等于来源相同，按原始采编机构区分来源家族。",
     "汤杯中法决赛按BWF官方赛果接口及法国羽协官方战报核验：李诗沣对拉尼尔为13–21、10–21，不采用媒体19–21异文。实际顺序为一单、二单、三单、二双、一双；第四场何济霆/任翔宇对伊劳埃（Eloi Adam）/里奥（Leo Rossi）。第五场未进行，不补造比分。"
@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026汤姆斯杯暨尤伯杯",
-      "snapshot_at": "2026-11-18T02:04:40+08:00",
+      "snapshot_at": "2026-11-18T02:09:31+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Copenhagen"
     },
@@ -64,6 +64,18 @@
           {
             "id": "thomas-chn-d820bbef77a3",
             "name": "任翔宇"
+          },
+          {
+            "id": "thomas-chn-c9657d0355db",
+            "name": "陈柏阳"
+          },
+          {
+            "id": "thomas-chn-534d8798d2cd",
+            "name": "刘毅"
+          },
+          {
+            "id": "thomas-chn-3ef79fe18a7d",
+            "name": "陆光祖"
           }
         ]
       },
@@ -87,6 +99,22 @@
           {
             "id": "thomas-den-26214aaa08ec",
             "name": "马格纳斯"
+          },
+          {
+            "id": "thomas-den-9d4d9ae63e13",
+            "name": "Daniel LUNDGAARD"
+          },
+          {
+            "id": "thomas-den-14a4ad55bc45",
+            "name": "Mads VESTERGAARD"
+          },
+          {
+            "id": "thomas-den-4c3d903ce22b",
+            "name": "Mathias CHRISTIANSEN"
+          },
+          {
+            "id": "thomas-den-2282390e193d",
+            "name": "Ditlev Jaeger HOLM"
           }
         ]
       },
@@ -122,6 +150,14 @@
           {
             "id": "thomas-eng-0d7b59f8660a",
             "name": "Nadeem DALVI"
+          },
+          {
+            "id": "thomas-eng-bceb14b193a2",
+            "name": "Robin HARPER"
+          },
+          {
+            "id": "thomas-eng-c55dde2f0e61",
+            "name": "Harry WAKEFIELD"
           }
         ]
       },
@@ -149,6 +185,10 @@
           {
             "id": "thomas-fin-a996479a4fe2",
             "name": "Alvar MELLERI"
+          },
+          {
+            "id": "thomas-fin-ca9f9640dda4",
+            "name": "Kalle KOLJONEN"
           }
         ]
       },
@@ -195,7 +235,40 @@
         "id": "thomas-ind",
         "draw": "thomas",
         "team": "IND",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-ind-fc2f6a94bd68",
+            "name": "Lakshya SEN"
+          },
+          {
+            "id": "thomas-ind-6126adadb3cc",
+            "name": "Satwiksairaj RANKIREDDY"
+          },
+          {
+            "id": "thomas-ind-128d183b2911",
+            "name": "Chirag SHETTY"
+          },
+          {
+            "id": "thomas-ind-ea4c23bc3cae",
+            "name": "Ayush SHETTY"
+          },
+          {
+            "id": "thomas-ind-33384170e507",
+            "name": "Hariharan AMSAKARUNAN"
+          },
+          {
+            "id": "thomas-ind-ceb2dfdb1931",
+            "name": "M.R. ARJUN"
+          },
+          {
+            "id": "thomas-ind-42836331e511",
+            "name": "KIDAMBI Srikanth"
+          },
+          {
+            "id": "thomas-ind-6336fb49fb11",
+            "name": "PRANNOY H. S."
+          }
+        ]
       },
       {
         "id": "thomas-jpn",
@@ -276,6 +349,18 @@
           {
             "id": "thomas-mas-d736331aef3c",
             "name": "LEE Zii Jia"
+          },
+          {
+            "id": "thomas-mas-077934d50a2b",
+            "name": "Sholeh AIDIL"
+          },
+          {
+            "id": "thomas-mas-027a49ec7a35",
+            "name": "MAN Wei Chong"
+          },
+          {
+            "id": "thomas-mas-b76d5861d36f",
+            "name": "GOH Sze Fei"
           }
         ]
       },
@@ -289,7 +374,44 @@
         "id": "thomas-tpe",
         "draw": "thomas",
         "team": "TPE",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-tpe-d850ea1e18e3",
+            "name": "CHOU Tien Chen"
+          },
+          {
+            "id": "thomas-tpe-6704a04e2a6a",
+            "name": "Hsiang Chieh CHIU"
+          },
+          {
+            "id": "thomas-tpe-5dbf41a03eb4",
+            "name": "WANG Chi-Lin"
+          },
+          {
+            "id": "thomas-tpe-534e7e8b62c9",
+            "name": "CHI Yu Jen"
+          },
+          {
+            "id": "thomas-tpe-a90e726d8a17",
+            "name": "Kuang Heng LIU"
+          },
+          {
+            "id": "thomas-tpe-40847ca877af",
+            "name": "YANG Po-Hsuan"
+          },
+          {
+            "id": "thomas-tpe-5af752fef593",
+            "name": "Chia Hao LEE"
+          },
+          {
+            "id": "thomas-tpe-23a5e8a18396",
+            "name": "LEE Jhe-Huei"
+          },
+          {
+            "id": "thomas-tpe-96e8b56496ad",
+            "name": "LIN Chun-Yi"
+          }
+        ]
       },
       {
         "id": "uber-chn",
@@ -319,6 +441,22 @@
           {
             "id": "uber-chn-933beb6b71c9",
             "name": "张殊贤"
+          },
+          {
+            "id": "uber-chn-9e9f81304017",
+            "name": "韩悦"
+          },
+          {
+            "id": "uber-chn-5af510fe069a",
+            "name": "徐文婧"
+          },
+          {
+            "id": "uber-chn-cd7040324a37",
+            "name": "李怡婧"
+          },
+          {
+            "id": "uber-chn-d33fa0915f02",
+            "name": "罗徐敏"
           }
         ]
       },
@@ -326,13 +464,95 @@
         "id": "uber-den",
         "draw": "uber",
         "team": "DEN",
-        "players": []
+        "players": [
+          {
+            "id": "uber-den-b9977c176c85",
+            "name": "Line CHRISTOPHERSEN"
+          },
+          {
+            "id": "uber-den-bb862bf922ab",
+            "name": "Line Højmark KJAERSFELDT"
+          },
+          {
+            "id": "uber-den-7952420b578c",
+            "name": "Amalie Cecilie KUDSK"
+          },
+          {
+            "id": "uber-den-36ea59c2a544",
+            "name": "Mette WERGE"
+          },
+          {
+            "id": "uber-den-6fbe6172a693",
+            "name": "Amalie SCHULZ"
+          },
+          {
+            "id": "uber-den-9c1c028fa463",
+            "name": "Alexandra BØJE"
+          },
+          {
+            "id": "uber-den-03402dd89d07",
+            "name": "Christine BUSCH"
+          },
+          {
+            "id": "uber-den-9b7d9ba56ef4",
+            "name": "Mia BLICHFELDT"
+          },
+          {
+            "id": "uber-den-9d378bd7fe97",
+            "name": "Anna KLAUSHOLM"
+          },
+          {
+            "id": "uber-den-b8ab6246fe83",
+            "name": "Simona PILGAARD"
+          }
+        ]
       },
       {
         "id": "uber-ina",
         "draw": "uber",
         "team": "INA",
-        "players": []
+        "players": [
+          {
+            "id": "uber-ina-53e7a359f221",
+            "name": "Putri Kusuma WARDANI"
+          },
+          {
+            "id": "uber-ina-6842649815b9",
+            "name": "Febriana Dwipuji KUSUMA"
+          },
+          {
+            "id": "uber-ina-a71a4d049753",
+            "name": "Meilysa Trias PUSPITASARI"
+          },
+          {
+            "id": "uber-ina-a7dab33f04df",
+            "name": "Thalita Ramadhani WIRYAWAN"
+          },
+          {
+            "id": "uber-ina-270f51907458",
+            "name": "Amallia Cahaya PRATIWI"
+          },
+          {
+            "id": "uber-ina-febc94d853e4",
+            "name": "Siti Fadia Silva RAMADHANTI"
+          },
+          {
+            "id": "uber-ina-58de65254efe",
+            "name": "Ni Kadek Dhinda Amartya PRATIWI"
+          },
+          {
+            "id": "uber-ina-9dda68bbb805",
+            "name": "Ester Nurumi Tri WARDOYO"
+          },
+          {
+            "id": "uber-ina-22df67e99fe1",
+            "name": "Rachel Allessya ROSE"
+          },
+          {
+            "id": "uber-ina-a63bef6fe62e",
+            "name": "Febi SETIANINGRUM"
+          }
+        ]
       },
       {
         "id": "uber-jpn",
@@ -405,6 +625,22 @@
           {
             "id": "uber-kor-d92977d275fb",
             "name": "金慧贞"
+          },
+          {
+            "id": "uber-kor-7c7b4b52b2f7",
+            "name": "Seo Jin LEE"
+          },
+          {
+            "id": "uber-kor-acaf460bed01",
+            "name": "Yeon Woo LEE"
+          },
+          {
+            "id": "uber-kor-0081739aff3f",
+            "name": "Ga Ram KIM"
+          },
+          {
+            "id": "uber-kor-6e765351fdd4",
+            "name": "SIM Yu Jin"
           }
         ]
       },
@@ -440,6 +676,18 @@
           {
             "id": "uber-mas-99f1bb574b38",
             "name": "GOH Jin Wei"
+          },
+          {
+            "id": "uber-mas-61a1059397f1",
+            "name": "Siti ZULAIKHA"
+          },
+          {
+            "id": "uber-mas-47953760e0cf",
+            "name": "Carmen TING"
+          },
+          {
+            "id": "uber-mas-4e90b149286f",
+            "name": "CHONG Jie Yu"
           }
         ]
       },
@@ -498,6 +746,22 @@
           {
             "id": "uber-tha-4f529c3b5f29",
             "name": "Jhenicha SUDJAIPRAPARAT"
+          },
+          {
+            "id": "uber-tha-7d8c13e2737b",
+            "name": "Supanida KATETHONG"
+          },
+          {
+            "id": "uber-tha-2415e463c00e",
+            "name": "Hathaithip MIJAD"
+          },
+          {
+            "id": "uber-tha-30e805a543cf",
+            "name": "Napapakorn TUNGKASATAN"
+          },
+          {
+            "id": "uber-tha-3e44d436d174",
+            "name": "Busanan ONGBAMRUNGPHAN"
           }
         ]
       },
@@ -505,7 +769,48 @@
         "id": "uber-tpe",
         "draw": "uber",
         "team": "TPE",
-        "players": []
+        "players": [
+          {
+            "id": "uber-tpe-7cfedc4327af",
+            "name": "CHIU Pin-Chian"
+          },
+          {
+            "id": "uber-tpe-0ad967e76ba9",
+            "name": "LIN Hsiang Ti"
+          },
+          {
+            "id": "uber-tpe-4a0efa2c3458",
+            "name": "HSU Yin-Hui"
+          },
+          {
+            "id": "uber-tpe-8e274a916546",
+            "name": "LIN Jhih Yun"
+          },
+          {
+            "id": "uber-tpe-770b74d265d9",
+            "name": "SUNG Shuo Yun"
+          },
+          {
+            "id": "uber-tpe-2f058ae54ca2",
+            "name": "HSU Ya Ching"
+          },
+          {
+            "id": "uber-tpe-7fd59d4b8c26",
+            "name": "Yu-Hsuan SUNG"
+          },
+          {
+            "id": "uber-tpe-54ad76accbc3",
+            "name": "HSIEH Pei Shan"
+          },
+          {
+            "id": "uber-tpe-8e42d2e3bf14",
+            "name": "HUNG En-Tzu"
+          },
+          {
+            "id": "uber-tpe-5f721d5137fa",
+            "name": "HUANG Yu-Hsun"
+          }
+        ]
       },
       {
         "id": "uber-tur",
@@ -539,6 +844,10 @@
           {
             "id": "uber-tur-2322cf506b07",
             "name": "Zehra ERDEM"
+          },
+          {
+            "id": "uber-tur-fe3e2fcaafc0",
+            "name": "Nazlıcan INCI"
           }
         ]
       },
@@ -546,61 +855,395 @@
         "id": "thomas-can",
         "draw": "thomas",
         "team": "CAN",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-can-50b1eaf47347",
+            "name": "Victor LAI"
+          },
+          {
+            "id": "thomas-can-ca79f5569c3d",
+            "name": "Jonathan Bing Tsan LAI"
+          },
+          {
+            "id": "thomas-can-5f4d37e025f9",
+            "name": "Kevin LEE"
+          },
+          {
+            "id": "thomas-can-8789fa7331f3",
+            "name": "Brian YANG"
+          },
+          {
+            "id": "thomas-can-646854c5ee76",
+            "name": "Ty Alexander LINDEMAN"
+          },
+          {
+            "id": "thomas-can-03297078d83e",
+            "name": "Nyl YAKURA"
+          },
+          {
+            "id": "thomas-can-273b0f92067d",
+            "name": "Joshua NGUYEN"
+          },
+          {
+            "id": "thomas-can-e71016348769",
+            "name": "Kiren Milan DERAJ"
+          },
+          {
+            "id": "thomas-can-ca9857a51133",
+            "name": "Daniel LEUNG"
+          },
+          {
+            "id": "thomas-can-239b8c2ad8b4",
+            "name": "Timothy LOCK"
+          }
+        ]
       },
       {
         "id": "thomas-aus",
         "draw": "thomas",
         "team": "AUS",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-aus-b2c1120a84df",
+            "name": "Ephraim STEPHEN SAM"
+          },
+          {
+            "id": "thomas-aus-bd79c61ba0d2",
+            "name": "Rizky HIDAYAT"
+          },
+          {
+            "id": "thomas-aus-99848ce17a8d",
+            "name": "Jack YU"
+          },
+          {
+            "id": "thomas-aus-33aa9f6adc61",
+            "name": "Shrey DHAND"
+          },
+          {
+            "id": "thomas-aus-a4830768d4fc",
+            "name": "Andika RAMADIANSYAH"
+          },
+          {
+            "id": "thomas-aus-6d58bb899b99",
+            "name": "Frederick ZHAO"
+          },
+          {
+            "id": "thomas-aus-e49a48d8acfc",
+            "name": "Rishi Honda BOOPATHY"
+          }
+        ]
       },
       {
         "id": "thomas-kor",
         "draw": "thomas",
         "team": "KOR",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-kor-aa18969a6a96",
+            "name": "Tae Bin YOO"
+          },
+          {
+            "id": "thomas-kor-3eecdf82068c",
+            "name": "KI Dong Ju"
+          },
+          {
+            "id": "thomas-kor-fc691f20d074",
+            "name": "KIM Won Ho"
+          },
+          {
+            "id": "thomas-kor-c10a361ae167",
+            "name": "JIHOON CHOI"
+          },
+          {
+            "id": "thomas-kor-8b92fb359f89",
+            "name": "Yong JIN"
+          },
+          {
+            "id": "thomas-kor-c7b12fa7e221",
+            "name": "SEO Seung Jae"
+          },
+          {
+            "id": "thomas-kor-4f7b73017a6c",
+            "name": "PARK Sang Yong"
+          },
+          {
+            "id": "thomas-kor-33f2d26d2491",
+            "name": "Song Hyun JO"
+          },
+          {
+            "id": "thomas-kor-5bdb68bb9734",
+            "name": "Hyeon Woo CHO"
+          },
+          {
+            "id": "thomas-kor-754f0dec22df",
+            "name": "JONGMIN LEE"
+          }
+        ]
       },
       {
         "id": "thomas-swe",
         "draw": "thomas",
         "team": "SWE",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-swe-1a28fc396c70",
+            "name": "Gustav BJORKLER"
+          },
+          {
+            "id": "thomas-swe-2fcfdee19a1c",
+            "name": "Mio MOLIN"
+          },
+          {
+            "id": "thomas-swe-9b45955b9fde",
+            "name": "Max SVENSSON"
+          },
+          {
+            "id": "thomas-swe-4bf519768b06",
+            "name": "Kim LINELL"
+          },
+          {
+            "id": "thomas-swe-c2ee9515f1bc",
+            "name": "Ludwig AXELSSON"
+          },
+          {
+            "id": "thomas-swe-a6209382a3d6",
+            "name": "Filip KARLBORG"
+          },
+          {
+            "id": "thomas-swe-a8dc7b2d3290",
+            "name": "Romeo MAKBOUL"
+          },
+          {
+            "id": "thomas-swe-1960ec32a756",
+            "name": "Jesper BORGSTEDT"
+          },
+          {
+            "id": "thomas-swe-13883d05dffe",
+            "name": "Joel HANSSON"
+          },
+          {
+            "id": "thomas-swe-1002bcb30615",
+            "name": "Tim MÖRK"
+          }
+        ]
       },
       {
         "id": "uber-ind",
         "draw": "uber",
         "team": "IND",
-        "players": []
+        "players": [
+          {
+            "id": "uber-ind-9734b3b3fd9d",
+            "name": "PUSARLA V. Sindhu"
+          },
+          {
+            "id": "uber-ind-b2c0339073a0",
+            "name": "Unnati HOODA"
+          },
+          {
+            "id": "uber-ind-0920c78fc65f",
+            "name": "Priya KONJENGBAM"
+          },
+          {
+            "id": "uber-ind-d469adf64c04",
+            "name": "Shruti MISHRA"
+          },
+          {
+            "id": "uber-ind-a1fe442682f6",
+            "name": "Tanvi SHARMA"
+          },
+          {
+            "id": "uber-ind-36515e40a64a",
+            "name": "Tanisha CRASTO"
+          },
+          {
+            "id": "uber-ind-62bce9d48031",
+            "name": "Devika SIHAG"
+          },
+          {
+            "id": "uber-ind-d586ab57bd4e",
+            "name": "Kavipriya SELVAM"
+          },
+          {
+            "id": "uber-ind-f5bfcd0250ee",
+            "name": "Simran SINGHI"
+          },
+          {
+            "id": "uber-ind-a03f64d1e582",
+            "name": "Isharani BARUAH"
+          }
+        ]
       },
       {
         "id": "uber-ukr",
         "draw": "uber",
         "team": "UKR",
-        "players": []
+        "players": [
+          {
+            "id": "uber-ukr-c4903941bc58",
+            "name": "Sofiia LAVROVA"
+          },
+          {
+            "id": "uber-ukr-2e9f8e273a51",
+            "name": "Anastasiia ALYMOVA"
+          },
+          {
+            "id": "uber-ukr-04ceb7edf176",
+            "name": "Raiia ALMALALHA"
+          },
+          {
+            "id": "uber-ukr-a930b92d1d05",
+            "name": "Mariia STOLIARENKO"
+          },
+          {
+            "id": "uber-ukr-61e97f4db42f",
+            "name": "Polina BUHROVA"
+          },
+          {
+            "id": "uber-ukr-daee6c8468ad",
+            "name": "Yevheniia KANTEMYR"
+          }
+        ]
       },
       {
         "id": "uber-can",
         "draw": "uber",
         "team": "CAN",
-        "players": []
+        "players": [
+          {
+            "id": "uber-can-0ba3a9d46d9d",
+            "name": "Michelle LI"
+          },
+          {
+            "id": "uber-can-11aba976247b",
+            "name": "Jackie DENT"
+          },
+          {
+            "id": "uber-can-764f35362a6a",
+            "name": "Crystal LAI"
+          },
+          {
+            "id": "uber-can-9ca7fb33e0fc",
+            "name": "Wen Yu ZHANG"
+          },
+          {
+            "id": "uber-can-9f7ee217a40c",
+            "name": "Catherine CHOI"
+          },
+          {
+            "id": "uber-can-e12c5264c9f9",
+            "name": "Josephine WU"
+          },
+          {
+            "id": "uber-can-768e7441f6df",
+            "name": "Rachel CHAN"
+          },
+          {
+            "id": "uber-can-fdbde22b4c13",
+            "name": "Eliana ZHANG"
+          },
+          {
+            "id": "uber-can-810473ddf7ca",
+            "name": "Chloe HOANG"
+          }
+        ]
       },
       {
         "id": "uber-aus",
         "draw": "uber",
         "team": "AUS",
-        "players": []
+        "players": [
+          {
+            "id": "uber-aus-7cdeac0526bd",
+            "name": "Tiffany HO"
+          },
+          {
+            "id": "uber-aus-e62a16c35f35",
+            "name": "Faye HUO"
+          },
+          {
+            "id": "uber-aus-cac8ae1d807b",
+            "name": "Gronya SOMERVILLE"
+          },
+          {
+            "id": "uber-aus-1124d81d1c86",
+            "name": "Angela YU"
+          },
+          {
+            "id": "uber-aus-c7ab9b6f27d6",
+            "name": "Jesslyn CARRISIA"
+          },
+          {
+            "id": "uber-aus-d3ac9d53476e",
+            "name": "Victoria TJONADI"
+          }
+        ]
       },
       {
         "id": "uber-bul",
         "draw": "uber",
         "team": "BUL",
-        "players": []
+        "players": [
+          {
+            "id": "uber-bul-71e87a8c4768",
+            "name": "Kaloyana NALBANTOVA"
+          },
+          {
+            "id": "uber-bul-de4f449f1b08",
+            "name": "Gergana PAVLOVA"
+          },
+          {
+            "id": "uber-bul-9c343cdfaa6c",
+            "name": "Elena POPIVANOVA"
+          },
+          {
+            "id": "uber-bul-bc2d40318c03",
+            "name": "Gabriela STOEVA"
+          },
+          {
+            "id": "uber-bul-b1ddd34cb95e",
+            "name": "Stefani STOEVA"
+          },
+          {
+            "id": "uber-bul-ce074f569eff",
+            "name": "Tsvetina POPIVANOVA"
+          }
+        ]
       },
       {
         "id": "uber-esp",
         "draw": "uber",
         "team": "ESP",
-        "players": []
+        "players": [
+          {
+            "id": "uber-esp-2846741bffa9",
+            "name": "Clara AZURMENDI"
+          },
+          {
+            "id": "uber-esp-b0c1d51bc626",
+            "name": "Nikol CARULLA"
+          },
+          {
+            "id": "uber-esp-cddfff034e85",
+            "name": "Carmen Maria JIMENEZ"
+          },
+          {
+            "id": "uber-esp-03d663291a7d",
+            "name": "Cristina TERUEL"
+          },
+          {
+            "id": "uber-esp-57f386138bb9",
+            "name": "Paula LOPEZ"
+          },
+          {
+            "id": "uber-esp-a533b077ff94",
+            "name": "Lucia RODRIGUEZ"
+          },
+          {
+            "id": "uber-esp-5d4cc577d179",
+            "name": "Ines COSTERO"
+          }
+        ]
       }
     ],
     "sources": [
@@ -757,6 +1400,55 @@
         "label": "法国羽协官方决赛战报：四场单项及完整逐局比分",
         "kind": "official",
         "family": "ffbad.org"
+      },
+      {
+        "id": "bwf-detail-2026-04-25",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-matches?drawCount=1&searchKey=&tmtTab=2026-04-25&tmtId=5600&tmtType=1&courtCode=0&eventCode=0&hideTeamMatches=false&isPara=false",
+        "label": "BWF官方 2026-04-25 团体逐场赛果：阵容、顺序、逐局与异常状态",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-detail-2026-04-27",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-matches?drawCount=1&searchKey=&tmtTab=2026-04-27&tmtId=5600&tmtType=1&courtCode=0&eventCode=0&hideTeamMatches=false&isPara=false",
+        "label": "BWF官方 2026-04-27 团体逐场赛果：阵容、顺序、逐局与异常状态",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-detail-2026-04-29",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-matches?drawCount=1&searchKey=&tmtTab=2026-04-29&tmtId=5600&tmtType=1&courtCode=0&eventCode=0&hideTeamMatches=false&isPara=false",
+        "label": "BWF官方 2026-04-29 团体逐场赛果：阵容、顺序、逐局与异常状态",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-detail-2026-04-26",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-matches?drawCount=1&searchKey=&tmtTab=2026-04-26&tmtId=5600&tmtType=1&courtCode=0&eventCode=0&hideTeamMatches=false&isPara=false",
+        "label": "BWF官方 2026-04-26 团体逐场赛果：阵容、顺序、逐局与异常状态",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-detail-2026-04-24",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-matches?drawCount=1&searchKey=&tmtTab=2026-04-24&tmtId=5600&tmtType=1&courtCode=0&eventCode=0&hideTeamMatches=false&isPara=false",
+        "label": "BWF官方 2026-04-24 团体逐场赛果：阵容、顺序、逐局与异常状态",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "bwf-detail-2026-04-28",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-matches?drawCount=1&searchKey=&tmtTab=2026-04-28&tmtId=5600&tmtType=1&courtCode=0&eventCode=0&hideTeamMatches=false&isPara=false",
+        "label": "BWF官方 2026-04-28 团体逐场赛果：阵容、顺序、逐局与异常状态",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "chn-roster-2026",
+        "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c29509740/content.html",
+        "label": "国家体育总局：中国队汤尤杯20人正式中文名单（中国体育报）",
+        "kind": "official",
+        "family": "sport.gov.cn"
       }
     ],
     "rules": {
@@ -1870,7 +2562,160 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-mas-65146c571150"
+              ],
+              [
+                "thomas-eng-7131a405ced4"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                19,
+                21
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-mas-028cac2715ce",
+                "thomas-mas-880b6a8b4b67"
+              ],
+              [
+                "thomas-eng-51c565c6d976",
+                "thomas-eng-07674d83449b"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-mas-077934d50a2b"
+              ],
+              [
+                "thomas-eng-b8d653bb50ed"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                16,
+                21
+              ],
+              [
+                15,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-mas-027a49ec7a35",
+                "thomas-mas-4fb84d3a7147"
+              ],
+              [
+                "thomas-eng-f1ad9ce99b9c",
+                "thomas-eng-a157569aeb8f"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-mas-d736331aef3c"
+              ],
+              [
+                "thomas-eng-0d7b59f8660a"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-b-5",
@@ -1900,7 +2745,160 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-mas-613974b7db41"
+              ],
+              [
+                "thomas-fin-cbf588979c90"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                15,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-mas-65146c571150"
+              ],
+              [
+                "thomas-fin-ca9f9640dda4"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-mas-d736331aef3c"
+              ],
+              [
+                "thomas-fin-7d605eecdd5c"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-mas-b76d5861d36f",
+                "thomas-mas-49b77a5298cb"
+              ],
+              [
+                "thomas-fin-175a04505fe3",
+                "thomas-fin-0b14971ff0aa"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-mas-880b6a8b4b67",
+                "thomas-mas-4fb84d3a7147"
+              ],
+              [
+                "thomas-fin-7d605eecdd5c",
+                "thomas-fin-a996479a4fe2"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-b-6",
@@ -1930,7 +2928,164 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-eng-7131a405ced4"
+              ],
+              [
+                "thomas-fin-cbf588979c90"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                16,
+                21
+              ],
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-eng-b8d653bb50ed"
+              ],
+              [
+                "thomas-fin-ca9f9640dda4"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                21
+              ],
+              [
+                10,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-eng-0d7b59f8660a"
+              ],
+              [
+                "thomas-fin-175a04505fe3"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-eng-bceb14b193a2",
+                "thomas-eng-c55dde2f0e61"
+              ],
+              [
+                "thomas-fin-7d605eecdd5c",
+                "thomas-fin-a996479a4fe2"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-eng-f1ad9ce99b9c",
+                "thomas-eng-a157569aeb8f"
+              ],
+              [
+                "thomas-fin-175a04505fe3",
+                "thomas-fin-0b14971ff0aa"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-qf-1",
@@ -3055,7 +4210,172 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-mas-0e2abd21ac70"
+              ],
+              [
+                "uber-tur-6a2861c18ca8"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                13,
+                21
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-mas-e4280486e556"
+              ],
+              [
+                "uber-tur-429457a6f6b8"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                15
+              ],
+              [
+                18,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-mas-99f1bb574b38"
+              ],
+              [
+                "uber-tur-2322cf506b07"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-mas-baa44a69d580",
+                "uber-mas-89be6a82fd16"
+              ],
+              [
+                "uber-tur-2806d980361d",
+                "uber-tur-fe3e2fcaafc0"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                22,
+                20
+              ],
+              [
+                19,
+                21
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-mas-99d0876935af",
+                "uber-mas-3b79eeafe3c1"
+              ],
+              [
+                "uber-tur-50ff81b15b05",
+                "uber-tur-2322cf506b07"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                19
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-b-5",
@@ -3085,7 +4405,160 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-mas-0e2abd21ac70"
+              ],
+              [
+                "uber-rsa-e4d39afbe8ab"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                6
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-mas-e4280486e556"
+              ],
+              [
+                "uber-rsa-66e8ffaef5fe"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                8
+              ],
+              [
+                21,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-mas-61a1059397f1"
+              ],
+              [
+                "uber-rsa-2bf56bbee1ff"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-mas-baa44a69d580",
+                "uber-mas-47953760e0cf"
+              ],
+              [
+                "uber-rsa-5c14c43890cf",
+                "uber-rsa-e4d39afbe8ab"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-mas-4e90b149286f",
+                "uber-mas-99d0876935af"
+              ],
+              [
+                "uber-rsa-2bf56bbee1ff",
+                "uber-rsa-aa35abc0f396"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-b-6",
@@ -3115,7 +4588,160 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-tur-6a2861c18ca8"
+              ],
+              [
+                "uber-rsa-e4d39afbe8ab"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-tur-429457a6f6b8"
+              ],
+              [
+                "uber-rsa-66e8ffaef5fe"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                4
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-tur-2322cf506b07"
+              ],
+              [
+                "uber-rsa-2bf56bbee1ff"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-tur-2806d980361d",
+                "uber-tur-fe3e2fcaafc0"
+              ],
+              [
+                "uber-rsa-5c14c43890cf",
+                "uber-rsa-e4d39afbe8ab"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                8
+              ],
+              [
+                21,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-tur-50ff81b15b05",
+                "uber-tur-e6113ed538e7"
+              ],
+              [
+                "uber-rsa-2bf56bbee1ff",
+                "uber-rsa-aa35abc0f396"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-qf-1",
@@ -3713,7 +5339,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-chn-a7197d59336a"
+              ],
+              [
+                "thomas-aus-b2c1120a84df"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-chn-396f108eca9c",
+                "thomas-chn-c1b8078de1c0"
+              ],
+              [
+                "thomas-aus-bd79c61ba0d2",
+                "thomas-aus-99848ce17a8d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-chn-7cba76fea838"
+              ],
+              [
+                "thomas-aus-33aa9f6adc61"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-chn-c9657d0355db",
+                "thomas-chn-534d8798d2cd"
+              ],
+              [
+                "thomas-aus-a4830768d4fc",
+                "thomas-aus-6d58bb899b99"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                8
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-chn-3ef79fe18a7d"
+              ],
+              [
+                "thomas-aus-e49a48d8acfc"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-a-2",
@@ -3743,7 +5526,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-ind-fc2f6a94bd68"
+              ],
+              [
+                "thomas-can-50b1eaf47347"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                19,
+                21
+              ],
+              [
+                10,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-ind-6126adadb3cc",
+                "thomas-ind-128d183b2911"
+              ],
+              [
+                "thomas-can-ca79f5569c3d",
+                "thomas-can-5f4d37e025f9"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-ind-ea4c23bc3cae"
+              ],
+              [
+                "thomas-can-8789fa7331f3"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-ind-33384170e507",
+                "thomas-ind-ceb2dfdb1931"
+              ],
+              [
+                "thomas-can-646854c5ee76",
+                "thomas-can-03297078d83e"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-ind-42836331e511"
+              ],
+              [
+                "thomas-can-273b0f92067d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-a-3",
@@ -3773,7 +5713,160 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-ind-fc2f6a94bd68"
+              ],
+              [
+                "thomas-aus-b2c1120a84df"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-ind-ea4c23bc3cae"
+              ],
+              [
+                "thomas-aus-33aa9f6adc61"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                8
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-ind-6126adadb3cc",
+                "thomas-ind-128d183b2911"
+              ],
+              [
+                "thomas-aus-bd79c61ba0d2",
+                "thomas-aus-99848ce17a8d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-ind-6336fb49fb11"
+              ],
+              [
+                "thomas-aus-e49a48d8acfc"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-ind-33384170e507",
+                "thomas-ind-ceb2dfdb1931"
+              ],
+              [
+                "thomas-aus-a4830768d4fc",
+                "thomas-aus-b2c1120a84df"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-a-4",
@@ -3803,7 +5896,153 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-chn-a7197d59336a"
+              ],
+              [
+                "thomas-can-50b1eaf47347"
+              ]
+            ],
+            "status": "walkover",
+            "games": [],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            },
+            "winner": 1,
+            "reason": "BWF官方赛果标记弃权（未开赛），胜方按官方判定。"
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-chn-396f108eca9c",
+                "thomas-chn-c1b8078de1c0"
+              ],
+              [
+                "thomas-can-5f4d37e025f9",
+                "thomas-can-646854c5ee76"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                24,
+                22
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-chn-7cba76fea838"
+              ],
+              [
+                "thomas-can-8789fa7331f3"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                23,
+                21
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-chn-1a6af4b324ab",
+                "thomas-chn-d820bbef77a3"
+              ],
+              [
+                "thomas-can-e71016348769",
+                "thomas-can-ca9857a51133"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-chn-a742fa7f7559"
+              ],
+              [
+                "thomas-can-239b8c2ad8b4"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-a-5",
@@ -3833,7 +6072,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-can-50b1eaf47347"
+              ],
+              [
+                "thomas-aus-b2c1120a84df"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-can-5f4d37e025f9",
+                "thomas-can-646854c5ee76"
+              ],
+              [
+                "thomas-aus-bd79c61ba0d2",
+                "thomas-aus-99848ce17a8d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-can-8789fa7331f3"
+              ],
+              [
+                "thomas-aus-33aa9f6adc61"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                6
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-can-ca9857a51133",
+                "thomas-can-03297078d83e"
+              ],
+              [
+                "thomas-aus-a4830768d4fc",
+                "thomas-aus-6d58bb899b99"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                15,
+                21
+              ],
+              [
+                21,
+                19
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-can-273b0f92067d"
+              ],
+              [
+                "thomas-aus-e49a48d8acfc"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-a-6",
@@ -3863,7 +6259,176 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-chn-7cba76fea838"
+              ],
+              [
+                "thomas-ind-fc2f6a94bd68"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                8,
+                21
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-chn-396f108eca9c",
+                "thomas-chn-c1b8078de1c0"
+              ],
+              [
+                "thomas-ind-6126adadb3cc",
+                "thomas-ind-128d183b2911"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                13,
+                21
+              ],
+              [
+                26,
+                24
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-chn-a742fa7f7559"
+              ],
+              [
+                "thomas-ind-ea4c23bc3cae"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                13,
+                21
+              ],
+              [
+                15,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-chn-1a6af4b324ab",
+                "thomas-chn-d820bbef77a3"
+              ],
+              [
+                "thomas-ind-33384170e507",
+                "thomas-ind-ceb2dfdb1931"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-chn-3ef79fe18a7d"
+              ],
+              [
+                "thomas-ind-6336fb49fb11"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                22,
+                20
+              ],
+              [
+                19,
+                21
+              ],
+              [
+                11,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-c-1",
@@ -3893,7 +6458,172 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-den-66b81d1320e5"
+              ],
+              [
+                "thomas-kor-aa18969a6a96"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                21
+              ],
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-den-9d4d9ae63e13",
+                "thomas-den-14a4ad55bc45"
+              ],
+              [
+                "thomas-kor-3eecdf82068c",
+                "thomas-kor-fc691f20d074"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                23,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-den-26214aaa08ec"
+              ],
+              [
+                "thomas-kor-c10a361ae167"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-den-b2adc39e4e55",
+                "thomas-den-4c3d903ce22b"
+              ],
+              [
+                "thomas-kor-8b92fb359f89",
+                "thomas-kor-c7b12fa7e221"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                23
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-den-2282390e193d"
+              ],
+              [
+                "thomas-kor-4f7b73017a6c"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                26,
+                24
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-c-2",
@@ -3923,7 +6653,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-tpe-d850ea1e18e3"
+              ],
+              [
+                "thomas-swe-1a28fc396c70"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                18,
+                21
+              ],
+              [
+                21,
+                19
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-tpe-6704a04e2a6a",
+                "thomas-tpe-5dbf41a03eb4"
+              ],
+              [
+                "thomas-swe-2fcfdee19a1c",
+                "thomas-swe-9b45955b9fde"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-tpe-534e7e8b62c9"
+              ],
+              [
+                "thomas-swe-4bf519768b06"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-tpe-a90e726d8a17",
+                "thomas-tpe-40847ca877af"
+              ],
+              [
+                "thomas-swe-c2ee9515f1bc",
+                "thomas-swe-a6209382a3d6"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-tpe-5af752fef593"
+              ],
+              [
+                "thomas-swe-a8dc7b2d3290"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-c-3",
@@ -3953,7 +6840,160 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-den-66b81d1320e5"
+              ],
+              [
+                "thomas-swe-1a28fc396c70"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-den-b2adc39e4e55",
+                "thomas-den-376d8d3fe4be"
+              ],
+              [
+                "thomas-swe-1960ec32a756",
+                "thomas-swe-13883d05dffe"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-den-26214aaa08ec"
+              ],
+              [
+                "thomas-swe-4bf519768b06"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                8
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-den-9d4d9ae63e13",
+                "thomas-den-14a4ad55bc45"
+              ],
+              [
+                "thomas-swe-c2ee9515f1bc",
+                "thomas-swe-a6209382a3d6"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                21
+              ],
+              [
+                14,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-den-2282390e193d"
+              ],
+              [
+                "thomas-swe-a8dc7b2d3290"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-c-4",
@@ -3983,7 +7023,176 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-tpe-d850ea1e18e3"
+              ],
+              [
+                "thomas-kor-aa18969a6a96"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-tpe-6704a04e2a6a",
+                "thomas-tpe-5dbf41a03eb4"
+              ],
+              [
+                "thomas-kor-8b92fb359f89",
+                "thomas-kor-c7b12fa7e221"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                15,
+                21
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-tpe-534e7e8b62c9"
+              ],
+              [
+                "thomas-kor-c10a361ae167"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                18
+              ],
+              [
+                16,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-tpe-23a5e8a18396",
+                "thomas-tpe-40847ca877af"
+              ],
+              [
+                "thomas-kor-33f2d26d2491",
+                "thomas-kor-fc691f20d074"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                22,
+                20
+              ],
+              [
+                18,
+                21
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-tpe-5af752fef593"
+              ],
+              [
+                "thomas-kor-5bdb68bb9734"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                23
+              ],
+              [
+                21,
+                12
+              ],
+              [
+                18,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-c-5",
@@ -4013,7 +7222,160 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-kor-aa18969a6a96"
+              ],
+              [
+                "thomas-swe-1a28fc396c70"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-kor-fc691f20d074",
+                "thomas-kor-c7b12fa7e221"
+              ],
+              [
+                "thomas-swe-2fcfdee19a1c",
+                "thomas-swe-9b45955b9fde"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                3
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-kor-c10a361ae167"
+              ],
+              [
+                "thomas-swe-4bf519768b06"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-kor-33f2d26d2491",
+                "thomas-kor-754f0dec22df"
+              ],
+              [
+                "thomas-swe-c2ee9515f1bc",
+                "thomas-swe-a6209382a3d6"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-kor-5bdb68bb9734"
+              ],
+              [
+                "thomas-swe-1002bcb30615"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-c-6",
@@ -4043,7 +7405,172 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-tpe-d850ea1e18e3"
+              ],
+              [
+                "thomas-den-66b81d1320e5"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                14,
+                21
+              ],
+              [
+                21,
+                13
+              ],
+              [
+                15,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-tpe-6704a04e2a6a",
+                "thomas-tpe-5dbf41a03eb4"
+              ],
+              [
+                "thomas-den-9d4d9ae63e13",
+                "thomas-den-14a4ad55bc45"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                22,
+                20
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-tpe-96e8b56496ad"
+              ],
+              [
+                "thomas-den-26214aaa08ec"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                16
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-tpe-a90e726d8a17",
+                "thomas-tpe-40847ca877af"
+              ],
+              [
+                "thomas-den-b2adc39e4e55",
+                "thomas-den-4c3d903ce22b"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                24,
+                22
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-tpe-534e7e8b62c9"
+              ],
+              [
+                "thomas-den-2282390e193d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                9,
+                21
+              ],
+              [
+                27,
+                25
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-29"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-a-1",
@@ -4073,7 +7600,160 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-chn-c6b3938d245a"
+              ],
+              [
+                "uber-ukr-c4903941bc58"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-chn-9e9f81304017"
+              ],
+              [
+                "uber-ukr-2e9f8e273a51"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-chn-5af510fe069a"
+              ],
+              [
+                "uber-ukr-04ceb7edf176"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                6
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-chn-4fdbef2b6031",
+                "uber-chn-933beb6b71c9"
+              ],
+              [
+                "uber-ukr-2e9f8e273a51",
+                "uber-ukr-a930b92d1d05"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-chn-cd7040324a37",
+                "uber-chn-d33fa0915f02"
+              ],
+              [
+                "uber-ukr-04ceb7edf176",
+                "uber-ukr-c4903941bc58"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                5
+              ],
+              [
+                21,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-a-2",
@@ -4103,7 +7783,174 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-ind-9734b3b3fd9d"
+              ],
+              [
+                "uber-den-b9977c176c85"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                18,
+                21
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-ind-b2c0339073a0"
+              ],
+              [
+                "uber-den-bb862bf922ab"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                21
+              ],
+              [
+                23,
+                25
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-ind-0920c78fc65f",
+                "uber-ind-d469adf64c04"
+              ],
+              [
+                "uber-den-7952420b578c",
+                "uber-den-36ea59c2a544"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                23
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-ind-a1fe442682f6"
+              ],
+              [
+                "uber-den-6fbe6172a693"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                16,
+                21
+              ],
+              [
+                16,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-ind-36515e40a64a",
+                "uber-ind-9734b3b3fd9d"
+              ],
+              [
+                "uber-den-9c1c028fa463",
+                "uber-den-03402dd89d07"
+              ]
+            ],
+            "status": "retired",
+            "games": [
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            },
+            "winner": 0,
+            "reason": "BWF官方赛果标记退赛；保留已完成局，未完局单独记录，胜方按官方判定。",
+            "in_progress_game": [
+              17,
+              14
+            ]
+          }
+        ]
       },
       {
         "id": "uber-a-3",
@@ -4133,7 +7980,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-ind-b2c0339073a0"
+              ],
+              [
+                "uber-ukr-61e97f4db42f"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                22,
+                20
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-ind-a1fe442682f6"
+              ],
+              [
+                "uber-ukr-daee6c8468ad"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-ind-62bce9d48031"
+              ],
+              [
+                "uber-ukr-a930b92d1d05"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                23,
+                21
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-ind-d586ab57bd4e",
+                "uber-ind-f5bfcd0250ee"
+              ],
+              [
+                "uber-ukr-61e97f4db42f",
+                "uber-ukr-daee6c8468ad"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                21
+              ],
+              [
+                17,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-ind-36515e40a64a",
+                "uber-ind-9734b3b3fd9d"
+              ],
+              [
+                "uber-ukr-c4903941bc58",
+                "uber-ukr-a930b92d1d05"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-a-4",
@@ -4163,7 +8167,160 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-chn-9c2793a9fb0a"
+              ],
+              [
+                "uber-den-b9977c176c85"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-chn-1203d0e90028",
+                "uber-chn-922b1fdd603e"
+              ],
+              [
+                "uber-den-7952420b578c",
+                "uber-den-36ea59c2a544"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-chn-9e9f81304017"
+              ],
+              [
+                "uber-den-9b7d9ba56ef4"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-chn-4fdbef2b6031",
+                "uber-chn-933beb6b71c9"
+              ],
+              [
+                "uber-den-9d378bd7fe97",
+                "uber-den-b8ab6246fe83"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                6
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-chn-5af510fe069a"
+              ],
+              [
+                "uber-den-bb862bf922ab"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-a-5",
@@ -4193,7 +8350,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-den-b9977c176c85"
+              ],
+              [
+                "uber-ukr-61e97f4db42f"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                19,
+                21
+              ],
+              [
+                15,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-den-bb862bf922ab"
+              ],
+              [
+                "uber-ukr-c4903941bc58"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-den-6fbe6172a693"
+              ],
+              [
+                "uber-ukr-a930b92d1d05"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-den-9c1c028fa463",
+                "uber-den-b8ab6246fe83"
+              ],
+              [
+                "uber-ukr-04ceb7edf176",
+                "uber-ukr-2e9f8e273a51"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                6
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-den-7952420b578c",
+                "uber-den-36ea59c2a544"
+              ],
+              [
+                "uber-ukr-c4903941bc58",
+                "uber-ukr-a930b92d1d05"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-a-6",
@@ -4223,7 +8537,172 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-chn-9c2793a9fb0a"
+              ],
+              [
+                "uber-ind-9734b3b3fd9d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                19,
+                21
+              ],
+              [
+                21,
+                19
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-chn-1203d0e90028",
+                "uber-chn-922b1fdd603e"
+              ],
+              [
+                "uber-ind-0920c78fc65f",
+                "uber-ind-d469adf64c04"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-chn-c6b3938d245a"
+              ],
+              [
+                "uber-ind-a03f64d1e582"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                22,
+                20
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-chn-d33fa0915f02",
+                "uber-chn-933beb6b71c9"
+              ],
+              [
+                "uber-ind-36515e40a64a",
+                "uber-ind-d586ab57bd4e"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                21
+              ],
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                19
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-chn-5af510fe069a"
+              ],
+              [
+                "uber-ind-62bce9d48031"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                19,
+                21
+              ],
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-27"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-c-1",
@@ -4253,7 +8732,160 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-tpe-7cfedc4327af"
+              ],
+              [
+                "uber-aus-7cdeac0526bd"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-tpe-0ad967e76ba9"
+              ],
+              [
+                "uber-aus-e62a16c35f35"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-tpe-4a0efa2c3458",
+                "uber-tpe-8e274a916546"
+              ],
+              [
+                "uber-aus-cac8ae1d807b",
+                "uber-aus-1124d81d1c86"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-tpe-770b74d265d9"
+              ],
+              [
+                "uber-aus-c7ab9b6f27d6"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-tpe-2f058ae54ca2",
+                "uber-tpe-7fd59d4b8c26"
+              ],
+              [
+                "uber-aus-e62a16c35f35",
+                "uber-aus-d3ac9d53476e"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                5
+              ],
+              [
+                21,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-c-2",
@@ -4283,7 +8915,168 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-ina-53e7a359f221"
+              ],
+              [
+                "uber-can-0ba3a9d46d9d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                11,
+                21
+              ],
+              [
+                16,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-ina-6842649815b9",
+                "uber-ina-a71a4d049753"
+              ],
+              [
+                "uber-can-11aba976247b",
+                "uber-can-764f35362a6a"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                23,
+                21
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-ina-a7dab33f04df"
+              ],
+              [
+                "uber-can-9ca7fb33e0fc"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                19
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-ina-270f51907458",
+                "uber-ina-febc94d853e4"
+              ],
+              [
+                "uber-can-9f7ee217a40c",
+                "uber-can-e12c5264c9f9"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-ina-58de65254efe"
+              ],
+              [
+                "uber-can-768e7441f6df"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                19,
+                21
+              ],
+              [
+                11,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-25"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-c-3",
@@ -4313,7 +9106,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-ina-53e7a359f221"
+              ],
+              [
+                "uber-aus-7cdeac0526bd"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                5
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-ina-a7dab33f04df"
+              ],
+              [
+                "uber-aus-e62a16c35f35"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-ina-9dda68bbb805"
+              ],
+              [
+                "uber-aus-c7ab9b6f27d6"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-ina-270f51907458",
+                "uber-ina-febc94d853e4"
+              ],
+              [
+                "uber-aus-cac8ae1d807b",
+                "uber-aus-1124d81d1c86"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                19,
+                21
+              ],
+              [
+                21,
+                8
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-ina-6842649815b9",
+                "uber-ina-22df67e99fe1"
+              ],
+              [
+                "uber-aus-c7ab9b6f27d6",
+                "uber-aus-d3ac9d53476e"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-c-4",
@@ -4343,7 +9293,168 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-tpe-7cfedc4327af"
+              ],
+              [
+                "uber-can-0ba3a9d46d9d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                21
+              ],
+              [
+                17,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-tpe-54ad76accbc3",
+                "uber-tpe-8e42d2e3bf14"
+              ],
+              [
+                "uber-can-e12c5264c9f9",
+                "uber-can-fdbde22b4c13"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                8
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-tpe-0ad967e76ba9"
+              ],
+              [
+                "uber-can-9ca7fb33e0fc"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                19,
+                21
+              ],
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                18
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-tpe-4a0efa2c3458",
+                "uber-tpe-7fd59d4b8c26"
+              ],
+              [
+                "uber-can-9f7ee217a40c",
+                "uber-can-764f35362a6a"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                19,
+                21
+              ],
+              [
+                21,
+                19
+              ],
+              [
+                14,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-tpe-5f721d5137fa"
+              ],
+              [
+                "uber-can-768e7441f6df"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-c-5",
@@ -4373,7 +9484,162 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-can-0ba3a9d46d9d"
+              ],
+              [
+                "uber-aus-7cdeac0526bd"
+              ]
+            ],
+            "status": "retired",
+            "games": [
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            },
+            "winner": 0,
+            "reason": "BWF官方赛果标记退赛；保留已完成局，未完局单独记录，胜方按官方判定。",
+            "in_progress_game": [
+              7,
+              3
+            ]
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-can-768e7441f6df"
+              ],
+              [
+                "uber-aus-e62a16c35f35"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-can-9f7ee217a40c",
+                "uber-can-764f35362a6a"
+              ],
+              [
+                "uber-aus-cac8ae1d807b",
+                "uber-aus-1124d81d1c86"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                12,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-can-810473ddf7ca"
+              ],
+              [
+                "uber-aus-c7ab9b6f27d6"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                21,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-can-fdbde22b4c13",
+                "uber-can-9ca7fb33e0fc"
+              ],
+              [
+                "uber-aus-e62a16c35f35",
+                "uber-aus-d3ac9d53476e"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                21,
+                18
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-c-6",
@@ -4403,7 +9669,168 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-tpe-7cfedc4327af"
+              ],
+              [
+                "uber-ina-53e7a359f221"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                17,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-tpe-54ad76accbc3",
+                "uber-tpe-8e42d2e3bf14"
+              ],
+              [
+                "uber-ina-270f51907458",
+                "uber-ina-febc94d853e4"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                23,
+                21
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-tpe-0ad967e76ba9"
+              ],
+              [
+                "uber-ina-58de65254efe"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                30,
+                29
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-tpe-4a0efa2c3458",
+                "uber-tpe-8e274a916546"
+              ],
+              [
+                "uber-ina-22df67e99fe1",
+                "uber-ina-a63bef6fe62e"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                20,
+                22
+              ],
+              [
+                16,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-tpe-5f721d5137fa"
+              ],
+              [
+                "uber-ina-9dda68bbb805"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                19,
+                21
+              ],
+              [
+                12,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-d-1",
@@ -4433,7 +9860,160 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-kor-c638f4ce817b"
+              ],
+              [
+                "uber-esp-2846741bffa9"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-kor-f7fdf8c6ccd2",
+                "uber-kor-d92977d275fb"
+              ],
+              [
+                "uber-esp-b0c1d51bc626",
+                "uber-esp-cddfff034e85"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-kor-58ae78a58d1f"
+              ],
+              [
+                "uber-esp-03d663291a7d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-kor-7c7b4b52b2f7",
+                "uber-kor-acaf460bed01"
+              ],
+              [
+                "uber-esp-57f386138bb9",
+                "uber-esp-a533b077ff94"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-kor-0081739aff3f"
+              ],
+              [
+                "uber-esp-5d4cc577d179"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-d-2",
@@ -4463,7 +10043,168 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-tha-d98179db9a52"
+              ],
+              [
+                "uber-bul-71e87a8c4768"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                23,
+                21
+              ],
+              [
+                14,
+                21
+              ],
+              [
+                22,
+                24
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-tha-3e4b90339b40"
+              ],
+              [
+                "uber-bul-de4f449f1b08"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-tha-7d8c13e2737b"
+              ],
+              [
+                "uber-bul-9c343cdfaa6c"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                10
+              ],
+              [
+                21,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-tha-2299cb9a18f9",
+                "uber-tha-34367edf0488"
+              ],
+              [
+                "uber-bul-bc2d40318c03",
+                "uber-bul-b1ddd34cb95e"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                21
+              ],
+              [
+                21,
+                15
+              ],
+              [
+                9,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-tha-548fcb0702a0",
+                "uber-tha-4f529c3b5f29"
+              ],
+              [
+                "uber-bul-9c343cdfaa6c",
+                "uber-bul-ce074f569eff"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                4
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-24"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-d-3",
@@ -4493,7 +10234,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-tha-3e4b90339b40"
+              ],
+              [
+                "uber-esp-2846741bffa9"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                12,
+                21
+              ],
+              [
+                21,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-tha-2415e463c00e",
+                "uber-tha-30e805a543cf"
+              ],
+              [
+                "uber-esp-b0c1d51bc626",
+                "uber-esp-cddfff034e85"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-tha-7d8c13e2737b"
+              ],
+              [
+                "uber-esp-03d663291a7d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-tha-548fcb0702a0",
+                "uber-tha-4f529c3b5f29"
+              ],
+              [
+                "uber-esp-57f386138bb9",
+                "uber-esp-a533b077ff94"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-tha-3e44d436d174"
+              ],
+              [
+                "uber-esp-5d4cc577d179"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-d-4",
@@ -4523,7 +10421,160 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-kor-c638f4ce817b"
+              ],
+              [
+                "uber-bul-71e87a8c4768"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-kor-6e765351fdd4"
+              ],
+              [
+                "uber-bul-de4f449f1b08"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                6
+              ],
+              [
+                21,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-kor-9dc9ae9c58ff",
+                "uber-kor-1e322e57e0c8"
+              ],
+              [
+                "uber-bul-bc2d40318c03",
+                "uber-bul-b1ddd34cb95e"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-kor-0081739aff3f"
+              ],
+              [
+                "uber-bul-9c343cdfaa6c"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                18
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-kor-f7fdf8c6ccd2",
+                "uber-kor-d92977d275fb"
+              ],
+              [
+                "uber-bul-de4f449f1b08",
+                "uber-bul-ce074f569eff"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-26"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-d-5",
@@ -4553,7 +10604,158 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          2,
+          5,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-bul-71e87a8c4768"
+              ],
+              [
+                "uber-esp-2846741bffa9"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-bul-de4f449f1b08"
+              ],
+              [
+                "uber-esp-03d663291a7d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-bul-bc2d40318c03",
+                "uber-bul-b1ddd34cb95e"
+              ],
+              [
+                "uber-esp-b0c1d51bc626",
+                "uber-esp-cddfff034e85"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-bul-9c343cdfaa6c"
+              ],
+              [
+                "uber-esp-5d4cc577d179"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                18,
+                21
+              ],
+              [
+                12,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-bul-71e87a8c4768",
+                "uber-bul-de4f449f1b08"
+              ],
+              [
+                "uber-esp-57f386138bb9",
+                "uber-esp-a533b077ff94"
+              ]
+            ],
+            "status": "retired",
+            "games": [
+              [
+                12,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            },
+            "winner": 1,
+            "reason": "BWF官方赛果标记退赛；保留已完成局，未完局单独记录，胜方按官方判定。"
+          }
+        ]
       },
       {
         "id": "uber-d-6",
@@ -4583,7 +10785,164 @@
             ],
             "verified_at": "2026-11-17T01:07:15+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-kor-c638f4ce817b"
+              ],
+              [
+                "uber-tha-d98179db9a52"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-kor-9dc9ae9c58ff",
+                "uber-kor-1e322e57e0c8"
+              ],
+              [
+                "uber-tha-2415e463c00e",
+                "uber-tha-30e805a543cf"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-kor-58ae78a58d1f"
+              ],
+              [
+                "uber-tha-3e4b90339b40"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                18,
+                21
+              ],
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-kor-f7fdf8c6ccd2",
+                "uber-kor-d92977d275fb"
+              ],
+              [
+                "uber-tha-2299cb9a18f9",
+                "uber-tha-34367edf0488"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-kor-6e765351fdd4"
+              ],
+              [
+                "uber-tha-7d8c13e2737b"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                23,
+                21
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-detail-2026-04-28"
+              ],
+              "verified_at": "2026-11-18T02:09:31+08:00"
+            }
+          }
+        ]
       }
     ]
   }
