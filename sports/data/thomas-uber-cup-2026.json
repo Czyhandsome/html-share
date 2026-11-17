@@ -8,13 +8,14 @@
   },
   "notices": [
     "已核验并录入汤杯A、B、C组及尤杯全部四组，共42场小组赛和全部14场淘汰赛团体总比分；汤杯D组已取得官方赛果，但阿尔及利亚队编码ALG尚未在站点登记，暂未录入该组。",
-    "小组赛依据BWF官方赛果与排名；淘汰赛依据日本羽协官方结果及八强抽签签位。各场运动员阵容、出场顺序和逐局明细尚未录入，详情保留待核实。"
+    "小组赛依据BWF官方赛果与排名；淘汰赛依据日本羽协官方结果及八强签位。已补日本男团4场、女团5场对决的40场单项：实际阵容、出场顺序与逐局比分（含吴堇溦退赛时未完局）。其他47场团体对决仍仅有总比分，单项明细待核实。",
+    "单项明细来源为日本羽协官方PDF第2、4–6、8–9、11–13页；淘汰赛达到三胜后未进行的场次不虚构赛果。外国选手无法确认可靠中文译名时保留官方拼写。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026汤姆斯杯暨尤伯杯",
-      "snapshot_at": "2026-11-17T01:07:15+08:00",
+      "snapshot_at": "2026-11-18T00:03:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Copenhagen"
     },
@@ -45,19 +46,82 @@
         "id": "thomas-eng",
         "draw": "thomas",
         "team": "ENG",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-eng-7131a405ced4",
+            "name": "Harry HUANG"
+          },
+          {
+            "id": "thomas-eng-51c565c6d976",
+            "name": "Oliver BUTLER"
+          },
+          {
+            "id": "thomas-eng-07674d83449b",
+            "name": "Samuel JONES"
+          },
+          {
+            "id": "thomas-eng-b8d653bb50ed",
+            "name": "Cholan KAYAN"
+          },
+          {
+            "id": "thomas-eng-f1ad9ce99b9c",
+            "name": "Alex GREEN"
+          },
+          {
+            "id": "thomas-eng-a157569aeb8f",
+            "name": "Zach RUSS"
+          },
+          {
+            "id": "thomas-eng-0d7b59f8660a",
+            "name": "Nadeem DALVI"
+          }
+        ]
       },
       {
         "id": "thomas-fin",
         "draw": "thomas",
         "team": "FIN",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-fin-cbf588979c90",
+            "name": "Joakim OLDORFF"
+          },
+          {
+            "id": "thomas-fin-175a04505fe3",
+            "name": "Eliel MELLERI"
+          },
+          {
+            "id": "thomas-fin-7d605eecdd5c",
+            "name": "Ananda Galvani DANISWARA"
+          },
+          {
+            "id": "thomas-fin-0b14971ff0aa",
+            "name": "Niilo NYQVIST"
+          },
+          {
+            "id": "thomas-fin-a996479a4fe2",
+            "name": "Alvar MELLERI"
+          }
+        ]
       },
       {
         "id": "thomas-fra",
         "draw": "thomas",
         "team": "FRA",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-fra-9814ac29afc4",
+            "name": "Christo POPOV"
+          },
+          {
+            "id": "thomas-fra-5e762508ebf2",
+            "name": "Alex LANIER"
+          },
+          {
+            "id": "thomas-fra-5ff49f51acf6",
+            "name": "Toma Junior POPOV"
+          }
+        ]
       },
       {
         "id": "thomas-ind",
@@ -69,13 +133,83 @@
         "id": "thomas-jpn",
         "draw": "thomas",
         "team": "JPN",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-jpn-26f072119fca",
+            "name": "Kodai NARAOKA"
+          },
+          {
+            "id": "thomas-jpn-6118ba02887b",
+            "name": "Kakeru KUMAGAI"
+          },
+          {
+            "id": "thomas-jpn-d9f7c9417c7c",
+            "name": "Hiroki NISHI"
+          },
+          {
+            "id": "thomas-jpn-4fcef3c0988d",
+            "name": "Yushi TANAKA"
+          },
+          {
+            "id": "thomas-jpn-1579b0dfced0",
+            "name": "Takumi NOMURA"
+          },
+          {
+            "id": "thomas-jpn-2d1fc1f95677",
+            "name": "Yuichi SHIMOGAMI"
+          },
+          {
+            "id": "thomas-jpn-3f66c09fa8cc",
+            "name": "Koki WATANABE"
+          },
+          {
+            "id": "thomas-jpn-590c517653f8",
+            "name": "Yudai OKIMOTO"
+          },
+          {
+            "id": "thomas-jpn-509c0c69219d",
+            "name": "Takuro HOKI"
+          },
+          {
+            "id": "thomas-jpn-e32067c1475d",
+            "name": "Hiroki MIDORIKAWA"
+          }
+        ]
       },
       {
         "id": "thomas-mas",
         "draw": "thomas",
         "team": "MAS",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-mas-613974b7db41",
+            "name": "LEONG Jun Hao"
+          },
+          {
+            "id": "thomas-mas-028cac2715ce",
+            "name": "Aaron CHIA"
+          },
+          {
+            "id": "thomas-mas-4fb84d3a7147",
+            "name": "TEE Kai Wun"
+          },
+          {
+            "id": "thomas-mas-65146c571150",
+            "name": "Justin HOH"
+          },
+          {
+            "id": "thomas-mas-49b77a5298cb",
+            "name": "Nur IZZUDDIN"
+          },
+          {
+            "id": "thomas-mas-880b6a8b4b67",
+            "name": "SOH Wooi Yik"
+          },
+          {
+            "id": "thomas-mas-d736331aef3c",
+            "name": "LEE Zii Jia"
+          }
+        ]
       },
       {
         "id": "thomas-tha",
@@ -93,7 +227,24 @@
         "id": "uber-chn",
         "draw": "uber",
         "team": "CHN",
-        "players": []
+        "players": [
+          {
+            "id": "uber-chn-9c2793a9fb0a",
+            "name": "王祉怡"
+          },
+          {
+            "id": "uber-chn-1203d0e90028",
+            "name": "刘圣书"
+          },
+          {
+            "id": "uber-chn-922b1fdd603e",
+            "name": "谭宁"
+          },
+          {
+            "id": "uber-chn-c6b3938d245a",
+            "name": "陈雨菲"
+          }
+        ]
       },
       {
         "id": "uber-den",
@@ -111,7 +262,44 @@
         "id": "uber-jpn",
         "draw": "uber",
         "team": "JPN",
-        "players": []
+        "players": [
+          {
+            "id": "uber-jpn-b061220687e0",
+            "name": "Akane YAMAGUCHI"
+          },
+          {
+            "id": "uber-jpn-cb71d945c82c",
+            "name": "Yuki FUKUSHIMA"
+          },
+          {
+            "id": "uber-jpn-8b189d61fd5d",
+            "name": "Mayu MATSUMOTO"
+          },
+          {
+            "id": "uber-jpn-f9ef41760f3f",
+            "name": "Tomoka MIYAZAKI"
+          },
+          {
+            "id": "uber-jpn-5ed314510664",
+            "name": "Rin IWANAGA"
+          },
+          {
+            "id": "uber-jpn-1abb48247bb8",
+            "name": "Kie NAKANISHI"
+          },
+          {
+            "id": "uber-jpn-b0127a2aa162",
+            "name": "Riko GUNJI"
+          },
+          {
+            "id": "uber-jpn-cbe0235ee09d",
+            "name": "Arisa IGARASHI"
+          },
+          {
+            "id": "uber-jpn-a8c7dda8c23d",
+            "name": "Hina AKECHI"
+          }
+        ]
       },
       {
         "id": "uber-kor",
@@ -123,19 +311,94 @@
         "id": "uber-mas",
         "draw": "uber",
         "team": "MAS",
-        "players": []
+        "players": [
+          {
+            "id": "uber-mas-0e2abd21ac70",
+            "name": "Karupathevan LETSHANAA"
+          },
+          {
+            "id": "uber-mas-baa44a69d580",
+            "name": "ONG Xin Yee"
+          },
+          {
+            "id": "uber-mas-89be6a82fd16",
+            "name": "THINAAH Muralitharan"
+          },
+          {
+            "id": "uber-mas-e4280486e556",
+            "name": "WONG Ling Ching"
+          },
+          {
+            "id": "uber-mas-99d0876935af",
+            "name": "LOW Zi Yu"
+          },
+          {
+            "id": "uber-mas-3b79eeafe3c1",
+            "name": "Noraqilah MAISARAH"
+          },
+          {
+            "id": "uber-mas-99f1bb574b38",
+            "name": "GOH Jin Wei"
+          }
+        ]
       },
       {
         "id": "uber-rsa",
         "draw": "uber",
         "team": "RSA",
-        "players": []
+        "players": [
+          {
+            "id": "uber-rsa-e4d39afbe8ab",
+            "name": "Johanita SCHOLTZ"
+          },
+          {
+            "id": "uber-rsa-66e8ffaef5fe",
+            "name": "Chloe LAI"
+          },
+          {
+            "id": "uber-rsa-2bf56bbee1ff",
+            "name": "Elme DE VILLIERS"
+          },
+          {
+            "id": "uber-rsa-5c14c43890cf",
+            "name": "Amy ACKERMAN"
+          },
+          {
+            "id": "uber-rsa-aa35abc0f396",
+            "name": "Anri SCHOONEES"
+          }
+        ]
       },
       {
         "id": "uber-tha",
         "draw": "uber",
         "team": "THA",
-        "players": []
+        "players": [
+          {
+            "id": "uber-tha-d98179db9a52",
+            "name": "Ratchanok INTANON"
+          },
+          {
+            "id": "uber-tha-2299cb9a18f9",
+            "name": "Benyapa AIMSAARD"
+          },
+          {
+            "id": "uber-tha-34367edf0488",
+            "name": "Supissara PAEWSAMPRAN"
+          },
+          {
+            "id": "uber-tha-3e4b90339b40",
+            "name": "Pornpawee CHOCHUWONG"
+          },
+          {
+            "id": "uber-tha-548fcb0702a0",
+            "name": "Ornnicha JONGSATHAPORNPARN"
+          },
+          {
+            "id": "uber-tha-4f529c3b5f29",
+            "name": "Jhenicha SUDJAIPRAPARAT"
+          }
+        ]
       },
       {
         "id": "uber-tpe",
@@ -147,7 +410,36 @@
         "id": "uber-tur",
         "draw": "uber",
         "team": "TUR",
-        "players": []
+        "players": [
+          {
+            "id": "uber-tur-6a2861c18ca8",
+            "name": "Neslihan ARIN"
+          },
+          {
+            "id": "uber-tur-50ff81b15b05",
+            "name": "Yasemen BEKTAS"
+          },
+          {
+            "id": "uber-tur-2806d980361d",
+            "name": "Bengisu ERCETIN"
+          },
+          {
+            "id": "uber-tur-429457a6f6b8",
+            "name": "Ozge BAYRAK"
+          },
+          {
+            "id": "uber-tur-110d65d32ce4",
+            "name": "Ikra Elif OZYIGIT"
+          },
+          {
+            "id": "uber-tur-e6113ed538e7",
+            "name": "Sinem YILDIZ"
+          },
+          {
+            "id": "uber-tur-2322cf506b07",
+            "name": "Zehra ERDEM"
+          }
+        ]
       },
       {
         "id": "thomas-can",
@@ -252,6 +544,69 @@
         "label": "BWF官方：Uber Cup D组完整赛果及排名",
         "kind": "official",
         "family": "bwfbadminton.com"
+      },
+      {
+        "id": "nba-detail-p6",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=6",
+        "label": "日本羽协官方结果 PDF 第6页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "nba-detail-p5",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=5",
+        "label": "日本羽协官方结果 PDF 第5页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "nba-detail-p4",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=4",
+        "label": "日本羽协官方结果 PDF 第4页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "nba-detail-p2",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=2",
+        "label": "日本羽协官方结果 PDF 第2页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "nba-detail-p13",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=13",
+        "label": "日本羽协官方结果 PDF 第13页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "nba-detail-p12",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=12",
+        "label": "日本羽协官方结果 PDF 第12页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "nba-detail-p11",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=11",
+        "label": "日本羽协官方结果 PDF 第11页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "nba-detail-p8",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=8",
+        "label": "日本羽协官方结果 PDF 第8页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
+      },
+      {
+        "id": "nba-detail-p9",
+        "url": "https://www.badminton.or.jp/storage/conventions/pdf/1015/free_form_1_20260604_130948.pdf#page=9",
+        "label": "日本羽协官方结果 PDF 第9页：日本队该场出场顺序、运动员与逐局比分",
+        "kind": "official",
+        "family": "badminton.or.jp"
       }
     ],
     "rules": {
@@ -800,7 +1155,168 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-jpn-26f072119fca"
+              ],
+              [
+                "thomas-mas-613974b7db41"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p6"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-jpn-6118ba02887b",
+                "thomas-jpn-d9f7c9417c7c"
+              ],
+              [
+                "thomas-mas-028cac2715ce",
+                "thomas-mas-4fb84d3a7147"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                14,
+                21
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p6"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-jpn-4fcef3c0988d"
+              ],
+              [
+                "thomas-mas-65146c571150"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p6"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-jpn-1579b0dfced0",
+                "thomas-jpn-2d1fc1f95677"
+              ],
+              [
+                "thomas-mas-49b77a5298cb",
+                "thomas-mas-880b6a8b4b67"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                14,
+                21
+              ],
+              [
+                21,
+                19
+              ],
+              [
+                21,
+                19
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p6"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-jpn-3f66c09fa8cc"
+              ],
+              [
+                "thomas-mas-d736331aef3c"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                13,
+                21
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p6"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-b-2",
@@ -830,7 +1346,164 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-jpn-4fcef3c0988d"
+              ],
+              [
+                "thomas-eng-7131a405ced4"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p5"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-jpn-6118ba02887b",
+                "thomas-jpn-d9f7c9417c7c"
+              ],
+              [
+                "thomas-eng-51c565c6d976",
+                "thomas-eng-07674d83449b"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                21
+              ],
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p5"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-jpn-3f66c09fa8cc"
+              ],
+              [
+                "thomas-eng-b8d653bb50ed"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p5"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-jpn-1579b0dfced0",
+                "thomas-jpn-2d1fc1f95677"
+              ],
+              [
+                "thomas-eng-f1ad9ce99b9c",
+                "thomas-eng-a157569aeb8f"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                14
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p5"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-jpn-590c517653f8"
+              ],
+              [
+                "thomas-eng-0d7b59f8660a"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p5"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-b-3",
@@ -860,7 +1533,164 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-jpn-26f072119fca"
+              ],
+              [
+                "thomas-fin-cbf588979c90"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                15,
+                21
+              ],
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p4"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-jpn-3f66c09fa8cc"
+              ],
+              [
+                "thomas-fin-175a04505fe3"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p4"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-jpn-590c517653f8"
+              ],
+              [
+                "thomas-fin-7d605eecdd5c"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                12
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p4"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-jpn-509c0c69219d",
+                "thomas-jpn-e32067c1475d"
+              ],
+              [
+                "thomas-fin-175a04505fe3",
+                "thomas-fin-0b14971ff0aa"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                2
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p4"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "thomas-jpn-1579b0dfced0",
+                "thomas-jpn-2d1fc1f95677"
+              ],
+              [
+                "thomas-fin-7d605eecdd5c",
+                "thomas-fin-a996479a4fe2"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p4"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-b-4",
@@ -1037,7 +1867,100 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-fra-9814ac29afc4"
+              ],
+              [
+                "thomas-jpn-26f072119fca"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                17
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p2"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-fra-5e762508ebf2"
+              ],
+              [
+                "thomas-jpn-4fcef3c0988d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p2"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-fra-5ff49f51acf6"
+              ],
+              [
+                "thomas-jpn-3f66c09fa8cc"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                23,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p2"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-qf-4",
@@ -1183,7 +2106,166 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-jpn-b061220687e0"
+              ],
+              [
+                "uber-mas-0e2abd21ac70"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p13"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-jpn-cb71d945c82c",
+                "uber-jpn-8b189d61fd5d"
+              ],
+              [
+                "uber-mas-baa44a69d580",
+                "uber-mas-89be6a82fd16"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                9
+              ],
+              [
+                21,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p13"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-jpn-f9ef41760f3f"
+              ],
+              [
+                "uber-mas-e4280486e556"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p13"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-jpn-5ed314510664",
+                "uber-jpn-1abb48247bb8"
+              ],
+              [
+                "uber-mas-99d0876935af",
+                "uber-mas-3b79eeafe3c1"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                12
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p13"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-jpn-b0127a2aa162"
+              ],
+              [
+                "uber-mas-99f1bb574b38"
+              ]
+            ],
+            "status": "retired",
+            "games": [
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p13"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            },
+            "in_progress_game": [
+              4,
+              3
+            ],
+            "winner": 0,
+            "reason": "日本羽协官方赛果标示 GOH Jin Wei 退赛；已完第一局19–21，第二局日本方4–3时结束。"
+          }
+        ]
       },
       {
         "id": "uber-b-2",
@@ -1213,7 +2295,164 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-jpn-f9ef41760f3f"
+              ],
+              [
+                "uber-tur-6a2861c18ca8"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                18,
+                21
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p12"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-jpn-5ed314510664",
+                "uber-jpn-1abb48247bb8"
+              ],
+              [
+                "uber-tur-50ff81b15b05",
+                "uber-tur-2806d980361d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p12"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-jpn-b0127a2aa162"
+              ],
+              [
+                "uber-tur-429457a6f6b8"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                4
+              ],
+              [
+                21,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p12"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-jpn-cbe0235ee09d",
+                "uber-jpn-8b189d61fd5d"
+              ],
+              [
+                "uber-tur-110d65d32ce4",
+                "uber-tur-e6113ed538e7"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                6
+              ],
+              [
+                21,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p12"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-jpn-a8c7dda8c23d"
+              ],
+              [
+                "uber-tur-2322cf506b07"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p12"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-b-3",
@@ -1243,7 +2482,160 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          2,
+          4
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-jpn-b061220687e0"
+              ],
+              [
+                "uber-rsa-e4d39afbe8ab"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p11"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-jpn-b0127a2aa162"
+              ],
+              [
+                "uber-rsa-66e8ffaef5fe"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                2
+              ],
+              [
+                21,
+                2
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p11"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-jpn-a8c7dda8c23d"
+              ],
+              [
+                "uber-rsa-2bf56bbee1ff"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                7
+              ],
+              [
+                21,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p11"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-jpn-5ed314510664",
+                "uber-jpn-1abb48247bb8"
+              ],
+              [
+                "uber-rsa-5c14c43890cf",
+                "uber-rsa-e4d39afbe8ab"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                8
+              ],
+              [
+                21,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p11"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "uber-jpn-cb71d945c82c",
+                "uber-jpn-cbe0235ee09d"
+              ],
+              [
+                "uber-rsa-2bf56bbee1ff",
+                "uber-rsa-aa35abc0f396"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                5
+              ],
+              [
+                21,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p11"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-b-4",
@@ -1391,7 +2783,140 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-jpn-b061220687e0"
+              ],
+              [
+                "uber-tha-d98179db9a52"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                22,
+                20
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p8"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-jpn-cb71d945c82c",
+                "uber-jpn-8b189d61fd5d"
+              ],
+              [
+                "uber-tha-2299cb9a18f9",
+                "uber-tha-34367edf0488"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                22,
+                20
+              ],
+              [
+                21,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p8"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-jpn-f9ef41760f3f"
+              ],
+              [
+                "uber-tha-3e4b90339b40"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                16,
+                21
+              ],
+              [
+                19,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p8"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-jpn-cbe0235ee09d",
+                "uber-jpn-1abb48247bb8"
+              ],
+              [
+                "uber-tha-548fcb0702a0",
+                "uber-tha-4f529c3b5f29"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                19,
+                21
+              ],
+              [
+                21,
+                5
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p8"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-qf-3",
@@ -1478,7 +3003,106 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-chn-9c2793a9fb0a"
+              ],
+              [
+                "uber-jpn-b061220687e0"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                23
+              ],
+              [
+                21,
+                11
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p9"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-chn-1203d0e90028",
+                "uber-chn-922b1fdd603e"
+              ],
+              [
+                "uber-jpn-cb71d945c82c",
+                "uber-jpn-8b189d61fd5d"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p9"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-chn-c6b3938d245a"
+              ],
+              [
+                "uber-jpn-f9ef41760f3f"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                11
+              ],
+              [
+                22,
+                20
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "nba-detail-p9"
+              ],
+              "verified_at": "2026-11-18T00:03:00+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-sf-2",
