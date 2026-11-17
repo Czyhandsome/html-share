@@ -8,15 +8,16 @@
   },
   "notices": [
     "已核验并录入汤杯A、B、C组及尤杯全部四组，共42场小组赛和全部14场淘汰赛团体总比分；汤杯D组已取得官方赛果，但阿尔及利亚队编码ALG尚未在站点登记，暂未录入该组。",
-    "小组赛依据BWF官方赛果与排名；淘汰赛依据日本羽协官方结果及八强签位。已补11场团体对决的47场单项：日本队9场团体对决，以及中国男团对丹麦半决赛、中国女团对韩国决赛；含实际阵容、出场顺序与逐局比分（含吴堇溦退赛时未完局）。其他45场团体对决仍仅有总比分，单项明细待核实。",
+    "小组赛依据BWF官方赛果与排名；淘汰赛依据日本羽协官方结果及八强签位。已补12场团体对决的51场单项：日本队9场团体对决，以及中国男团对丹麦半决赛、中国女团对韩国决赛、中国男团对法国决赛；含实际阵容、出场顺序与逐局比分（含吴堇溦退赛时未完局）。其他44场团体对决仍仅有总比分，单项明细待核实。",
     "单项明细来源为日本羽协官方PDF第2、4–6、8–9、11–13页；淘汰赛达到三胜后未进行的场次不虚构赛果。外国选手无法确认可靠中文译名时保留官方拼写。",
-    "中国男团对丹麦单项经央视体育、BRTV天天体育交叉核验，并参照亚洲羽联战报确认对手；中国女团对韩国决赛经新华社、央视网体育交叉核验。媒体转载平台相同不等于来源相同，按原始采编机构区分来源家族。"
+    "中国男团对丹麦单项经央视体育、BRTV天天体育交叉核验，并参照亚洲羽联战报确认对手；中国女团对韩国决赛经新华社、央视网体育交叉核验。媒体转载平台相同不等于来源相同，按原始采编机构区分来源家族。",
+    "汤杯中法决赛按BWF官方赛果接口及法国羽协官方战报核验：李诗沣对拉尼尔为13–21、10–21，不采用媒体19–21异文。实际顺序为一单、二单、三单、二双、一双；第四场何济霆/任翔宇对伊劳埃（Eloi Adam）/里奥（Leo Rossi）。第五场未进行，不补造比分。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026汤姆斯杯暨尤伯杯",
-      "snapshot_at": "2026-11-18T01:06:24+08:00",
+      "snapshot_at": "2026-11-18T02:04:40+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Copenhagen"
     },
@@ -51,6 +52,18 @@
           {
             "id": "thomas-chn-7cba76fea838",
             "name": "李诗沣"
+          },
+          {
+            "id": "thomas-chn-a742fa7f7559",
+            "name": "翁泓阳"
+          },
+          {
+            "id": "thomas-chn-1a6af4b324ab",
+            "name": "何济霆"
+          },
+          {
+            "id": "thomas-chn-d820bbef77a3",
+            "name": "任翔宇"
           }
         ]
       },
@@ -155,6 +168,26 @@
           {
             "id": "thomas-fra-5ff49f51acf6",
             "name": "Toma Junior POPOV"
+          },
+          {
+            "id": "thomas-fra-98e878ff0b84",
+            "name": "Christo Popov"
+          },
+          {
+            "id": "thomas-fra-c9debc19079a",
+            "name": "Alex Lanier"
+          },
+          {
+            "id": "thomas-fra-536caea2a86a",
+            "name": "Toma Junior Popov"
+          },
+          {
+            "id": "thomas-fra-0b5569b751de",
+            "name": "伊劳埃"
+          },
+          {
+            "id": "thomas-fra-142d50536590",
+            "name": "里奥"
           }
         ]
       },
@@ -710,6 +743,20 @@
         "label": "央视网体育原创赛果：尤杯中国对韩国决赛四场及逐局",
         "kind": "independent",
         "family": "cctv"
+      },
+      {
+        "id": "bwf-thomas-final-detail",
+        "url": "https://extranet-lv.bwfbadminton.com/api/vue-tournament-matches?drawCount=1&searchKey=&tmtTab=2026-05-03&tmtId=5600&tmtType=1&courtCode=0&eventCode=0&hideTeamMatches=false&isPara=false",
+        "label": "BWF官方决赛赛果接口：中法阵容、实际出场顺序及逐局比分",
+        "kind": "official",
+        "family": "bwfbadminton.com"
+      },
+      {
+        "id": "ffbad-thomas-final",
+        "url": "https://www.ffbad.org/en/actualites/actualites/2026/thomas-cup-les-bleus-vice-champions-du-monde",
+        "label": "法国羽协官方决赛战报：四场单项及完整逐局比分",
+        "kind": "official",
+        "family": "ffbad.org"
       }
     ],
     "rules": {
@@ -2284,7 +2331,142 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-chn-a7197d59336a"
+              ],
+              [
+                "thomas-fra-98e878ff0b84"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                16,
+                21
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-thomas-final-detail",
+                "ffbad-thomas-final"
+              ],
+              "verified_at": "2026-11-18T02:04:40+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-chn-7cba76fea838"
+              ],
+              [
+                "thomas-fra-c9debc19079a"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                13,
+                21
+              ],
+              [
+                10,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-thomas-final-detail",
+                "ffbad-thomas-final"
+              ],
+              "verified_at": "2026-11-18T02:04:40+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-chn-a742fa7f7559"
+              ],
+              [
+                "thomas-fra-536caea2a86a"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                22,
+                20
+              ],
+              [
+                20,
+                22
+              ],
+              [
+                21,
+                19
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-thomas-final-detail",
+                "ffbad-thomas-final"
+              ],
+              "verified_at": "2026-11-18T02:04:40+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "thomas-chn-1a6af4b324ab",
+                "thomas-chn-d820bbef77a3"
+              ],
+              [
+                "thomas-fra-0b5569b751de",
+                "thomas-fra-142d50536590"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                13
+              ],
+              [
+                21,
+                16
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "bwf-thomas-final-detail",
+                "ffbad-thomas-final"
+              ],
+              "verified_at": "2026-11-18T02:04:40+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "uber-b-1",
