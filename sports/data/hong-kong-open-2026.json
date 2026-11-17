@@ -9,7 +9,7 @@
   "output": "docs/2026/11/20261113-2200-hong-kong-open-2026/index.html",
   "notices": [
     "2026年11月17–22日 · 香港启德体艺馆 · BWF超级500赛。",
-    "官方五项目正赛及资格赛签表；所有比赛尚未开始，逐场时间待发布。",
+    "已按官方最新五项目正赛及资格赛签表更新赛前签位调整和当日赛程；比赛进行中的比分为标注核验时刻快照，并非实时推送。",
     "默认北京时间，与香港当地时间相同。赛前退赛或签位调整以官方最新签表为准。",
     "中文姓名沿用已核实用名；暂无可靠中文名的保留官方原文。"
   ],
@@ -17,15 +17,15 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-13T22:06:58+08:00",
+      "snapshot_at": "2026-11-17T09:32:51+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
     "entries": [
       {
-        "id": "p-73591",
-        "name": "胡哲安",
-        "team": "CHN"
+        "id": "p-44017",
+        "name": "CHENG Ju-Sheng",
+        "team": "TPE"
       },
       {
         "id": "p-92796",
@@ -33,9 +33,9 @@
         "team": "MAS"
       },
       {
-        "id": "p-95516",
-        "name": "董天尧",
-        "team": "CHN"
+        "id": "p-84907",
+        "name": "AWAN Usman",
+        "team": "HKG"
       },
       {
         "id": "p-90218",
@@ -53,9 +53,9 @@
         "team": "DEN"
       },
       {
-        "id": "p-92508",
-        "name": "Kantaphon WANGCHAROEN",
-        "team": "THA"
+        "id": "p-88249",
+        "name": "YUNG King To",
+        "team": "HKG"
       },
       {
         "id": "p-65580",
@@ -68,9 +68,9 @@
         "team": "TPE"
       },
       {
-        "id": "p-94397",
-        "name": "苏力扬",
-        "team": "TPE"
+        "id": "p-89726",
+        "name": "LAM Ka To",
+        "team": "HKG"
       },
       {
         "id": "p-62395",
@@ -88,9 +88,9 @@
         "team": "MAS"
       },
       {
-        "id": "p-59322",
-        "name": "李佳豪",
-        "team": "TPE"
+        "id": "p-98860",
+        "name": "PUI Pang Fong",
+        "team": "MAC"
       },
       {
         "id": "p-80062",
@@ -103,9 +103,9 @@
         "team": "CHN"
       },
       {
-        "id": "p-72885",
-        "name": "小波波夫",
-        "team": "FRA"
+        "id": "p-91554",
+        "name": "Anders ANTONSEN",
+        "team": "DEN"
       },
       {
         "id": "p-85845",
@@ -118,9 +118,9 @@
         "team": "HKG"
       },
       {
-        "id": "p-62063",
-        "name": "奈良冈功大",
-        "team": "JPN"
+        "id": "p-86114",
+        "name": "林俊易",
+        "team": "TPE"
       },
       {
         "id": "p-63122",
@@ -128,14 +128,14 @@
         "team": "CAN"
       },
       {
-        "id": "p-61628",
-        "name": "大波波夫",
-        "team": "FRA"
+        "id": "p-94397",
+        "name": "苏力扬",
+        "team": "TPE"
       },
       {
-        "id": "p-91554",
-        "name": "Anders ANTONSEN",
-        "team": "DEN"
+        "id": "p-76115",
+        "name": "LOH Kean Yew",
+        "team": "SGP"
       },
       {
         "id": "p-77848",
@@ -143,9 +143,9 @@
         "team": "TPE"
       },
       {
-        "id": "p-97174",
-        "name": "渡边航贵",
-        "team": "JPN"
+        "id": "p-59322",
+        "name": "李佳豪",
+        "team": "TPE"
       },
       {
         "id": "p-85394",
@@ -153,9 +153,9 @@
         "team": "JPN"
       },
       {
-        "id": "p-76115",
-        "name": "LOH Kean Yew",
-        "team": "SGP"
+        "id": "p-68870",
+        "name": "拉克什亚·森",
+        "team": "IND"
       },
       {
         "id": "p-59543",
@@ -178,9 +178,9 @@
         "team": "MAS"
       },
       {
-        "id": "p-86114",
-        "name": "林俊易",
-        "team": "TPE"
+        "id": "p-95516",
+        "name": "董天尧",
+        "team": "CHN"
       },
       {
         "id": "p-85095",
@@ -188,9 +188,9 @@
         "team": "IRL"
       },
       {
-        "id": "p-34810",
-        "name": "周天成",
-        "team": "TPE"
+        "id": "p-61628",
+        "name": "大波波夫",
+        "team": "FRA"
       },
       {
         "id": "p-45171",
@@ -208,9 +208,9 @@
         "team": "INA"
       },
       {
-        "id": "p-94151",
-        "name": "赖浩俊",
-        "team": "CAN"
+        "id": "p-34810",
+        "name": "周天成",
+        "team": "TPE"
       },
       {
         "id": "p-97115",
@@ -223,14 +223,14 @@
         "team": "IND"
       },
       {
-        "id": "p-58089",
-        "name": "法汉",
-        "team": "INA"
+        "id": "p-97174",
+        "name": "渡边航贵",
+        "team": "JPN"
       },
       {
-        "id": "p-68870",
-        "name": "拉克什亚·森",
-        "team": "IND"
+        "id": "p-73591",
+        "name": "胡哲安",
+        "team": "CHN"
       },
       {
         "id": "p-94780",
@@ -253,9 +253,9 @@
         "team": "KOR"
       },
       {
-        "id": "p-94348",
-        "name": "HUANG Ching Ping",
-        "team": "TPE"
+        "id": "p-73746",
+        "name": "Saloni Samirbhai MEHTA",
+        "team": "HKG"
       },
       {
         "id": "p-50959",
@@ -263,19 +263,19 @@
         "team": "THA"
       },
       {
-        "id": "p-99925",
-        "name": "PAI Yu Po",
+        "id": "p-66266",
+        "name": "WONG Yi",
+        "team": "HKG"
+      },
+      {
+        "id": "p-60634",
+        "name": "PENG Yu Wei",
         "team": "TPE"
       },
       {
-        "id": "p-69012",
-        "name": "GOH Jin Wei",
-        "team": "MAS"
-      },
-      {
-        "id": "p-67828",
-        "name": "水津爱美",
-        "team": "JPN"
+        "id": "p-91021",
+        "name": "LIANG Ka Wing",
+        "team": "HKG"
       },
       {
         "id": "p-86261",
@@ -288,9 +288,9 @@
         "team": "CHN"
       },
       {
-        "id": "p-68479",
-        "name": "明地阳菜",
-        "team": "JPN"
+        "id": "p-99925",
+        "name": "PAI Yu Po",
+        "team": "TPE"
       },
       {
         "id": "p-78208",
@@ -333,8 +333,8 @@
         "team": "TPE"
       },
       {
-        "id": "p-96713",
-        "name": "奥原希望",
+        "id": "p-68479",
+        "name": "明地阳菜",
         "team": "JPN"
       },
       {
@@ -383,9 +383,9 @@
         "team": "THA"
       },
       {
-        "id": "p-90287",
-        "name": "Devika SIHAG",
-        "team": "IND"
+        "id": "p-94348",
+        "name": "HUANG Ching Ping",
+        "team": "TPE"
       },
       {
         "id": "p-96725",
@@ -423,14 +423,14 @@
         "team": "CHN"
       },
       {
-        "id": "p-75049-64729",
-        "name": "浮士德／克亚尔",
-        "team": "DEN"
+        "id": "p-88832-63670",
+        "name": "HUNG Kuei Chun／LUI Chun Wai",
+        "team": "HKG"
       },
       {
-        "id": "p-75829-92504",
-        "name": "陈子睿／林煜杰",
-        "team": "TPE"
+        "id": "p-67810-54805",
+        "name": "CHOI Sol Gyu／GOH V Shem",
+        "team": "KOR/MAS"
       },
       {
         "id": "p-87535-64023",
@@ -438,9 +438,9 @@
         "team": "TPE"
       },
       {
-        "id": "p-79732-99066",
-        "name": "谢炜杰／张御宇",
-        "team": "MAS"
+        "id": "p-70185-67533",
+        "name": "Eng Keat Wesley KOH／Junsuke KUBO",
+        "team": "SGP"
       },
       {
         "id": "p-64394-59609",
@@ -448,9 +448,9 @@
         "team": "TPE"
       },
       {
-        "id": "p-77262-62804",
-        "name": "姜珉赫／李钟民",
-        "team": "KOR"
+        "id": "p-76165-94252",
+        "name": "Haruki KAWABE／Kenta MATSUKAWA",
+        "team": "JPN"
       },
       {
         "id": "p-65491-89714",
@@ -468,9 +468,9 @@
         "team": "INA"
       },
       {
-        "id": "p-72885-61628",
-        "name": "小波波夫／大波波夫",
-        "team": "FRA"
+        "id": "p-75829-92504",
+        "name": "陈子睿／林煜杰",
+        "team": "TPE"
       },
       {
         "id": "p-68134-60507",
@@ -488,9 +488,9 @@
         "team": "IND"
       },
       {
-        "id": "p-56203-99389",
-        "name": "谢定峰／苏伟译",
-        "team": "MAS"
+        "id": "p-72435-70500",
+        "name": "Satwiksairaj RANKIREDDY／Chirag SHETTY",
+        "team": "IND"
       },
       {
         "id": "p-99102-76275",
@@ -503,9 +503,9 @@
         "team": "MAS"
       },
       {
-        "id": "p-72435-70500",
-        "name": "Satwiksairaj RANKIREDDY／Chirag SHETTY",
-        "team": "IND"
+        "id": "p-99781-55669",
+        "name": "Raymond INDRA／Nikolaus JOAQUIN",
+        "team": "INA"
       },
       {
         "id": "p-97601-62220",
@@ -533,14 +533,14 @@
         "team": "INA"
       },
       {
-        "id": "p-81657-67903",
-        "name": "保木卓朗／小林优吾",
-        "team": "JPN"
+        "id": "p-75049-64729",
+        "name": "浮士德／克亚尔",
+        "team": "DEN"
       },
       {
-        "id": "p-87432-86136",
-        "name": "古塔马／伊斯法哈尼",
-        "team": "INA"
+        "id": "p-93130-71223",
+        "name": "陈柏阳／刘毅",
+        "team": "CHN"
       },
       {
         "id": "p-92913-96514",
@@ -558,14 +558,14 @@
         "team": "INA"
       },
       {
-        "id": "p-90768-94814",
-        "name": "吴世飞／伊祖丁",
-        "team": "MAS"
+        "id": "p-87432-86136",
+        "name": "古塔马／伊斯法哈尼",
+        "team": "INA"
       },
       {
-        "id": "p-99781-55669",
-        "name": "Raymond INDRA／Nikolaus JOAQUIN",
-        "team": "INA"
+        "id": "p-77262-62804",
+        "name": "姜珉赫／李钟民",
+        "team": "KOR"
       },
       {
         "id": "p-92980-44414",
@@ -588,9 +588,9 @@
         "team": "KOR"
       },
       {
-        "id": "p-93130-71223",
-        "name": "陈柏阳／刘毅",
-        "team": "CHN"
+        "id": "p-79732-99066",
+        "name": "谢炜杰／张御宇",
+        "team": "MAS"
       },
       {
         "id": "p-86479-82009",
@@ -798,9 +798,9 @@
         "team": "HKG"
       },
       {
-        "id": "p-73936-72504",
-        "name": "Supak JOMKOH／Jhenicha SUDJAIPRAPARAT",
-        "team": "THA"
+        "id": "p-96016-43626",
+        "name": "PAR Tien Ann／Juliana Zefanya GABRIELA",
+        "team": "MAS/VEN"
       },
       {
         "id": "p-16029-60557",
@@ -868,9 +868,9 @@
         "team": "JPN"
       },
       {
-        "id": "p-81108-62713",
-        "name": "叶宏蔚／詹又蓁",
-        "team": "TPE"
+        "id": "p-92593-56352",
+        "name": "吴埙阀／赖洁敏",
+        "team": "MAS"
       },
       {
         "id": "p-62618-61882",
@@ -893,9 +893,9 @@
         "team": "MAS"
       },
       {
-        "id": "p-92593-56352",
-        "name": "吴埙阀／赖洁敏",
-        "team": "MAS"
+        "id": "p-73936-72504",
+        "name": "Supak JOMKOH／Jhenicha SUDJAIPRAPARAT",
+        "team": "THA"
       },
       {
         "id": "p-94156-92404",
@@ -1057,21 +1057,43 @@
         "round": "资格赛",
         "slots": [
           {
-            "entry": "p-73591"
+            "entry": "p-44017"
           },
           {
             "entry": "p-92796"
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
+        "scheduled_at": "2026-11-17T01:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        },
+        "result_for": [
+          "p-44017",
+          "p-92796"
+        ],
+        "games": [
+          [
+            10,
+            21
+          ]
+        ],
+        "in_progress_game": [
+          5,
+          11
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "MS-Q-0-1",
@@ -1079,7 +1101,7 @@
         "round": "资格赛",
         "slots": [
           {
-            "entry": "p-95516"
+            "entry": "p-84907"
           },
           {
             "entry": "p-90218"
@@ -1088,12 +1110,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T01:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MS-Q-0-2",
@@ -1110,12 +1139,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T01:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MS-Q-0-3",
@@ -1123,7 +1159,7 @@
         "round": "资格赛",
         "slots": [
           {
-            "entry": "p-92508"
+            "entry": "p-88249"
           },
           {
             "entry": "p-65580"
@@ -1132,12 +1168,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T01:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MS-Q-0-4",
@@ -1148,18 +1191,40 @@
             "entry": "p-98279"
           },
           {
-            "entry": "p-94397"
+            "entry": "p-89726"
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
+        "scheduled_at": "2026-11-17T01:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        },
+        "result_for": [
+          "p-98279",
+          "p-89726"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ]
+        ],
+        "in_progress_game": [
+          3,
+          4
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "MS-Q-0-5",
@@ -1174,14 +1239,36 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
+        "scheduled_at": "2026-11-17T01:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        },
+        "result_for": [
+          "p-62395",
+          "p-87029"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ]
+        ],
+        "in_progress_game": [
+          2,
+          5
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "MS-Q-0-6",
@@ -1192,18 +1279,40 @@
             "entry": "p-68392"
           },
           {
-            "entry": "p-59322"
+            "entry": "p-98860"
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
+        "scheduled_at": "2026-11-17T01:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        },
+        "result_for": [
+          "p-68392",
+          "p-98860"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ]
+        ],
+        "in_progress_game": [
+          6,
+          4
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "MS-Q-0-7",
@@ -1220,12 +1329,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T01:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MS-Q-1-0",
@@ -1242,12 +1358,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第2轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T06:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MS-Q-1-1",
@@ -1264,12 +1387,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第2轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T06:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MS-Q-1-2",
@@ -1286,12 +1416,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第2轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T06:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MS-Q-1-3",
@@ -1308,12 +1445,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-1"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第2轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T05:10:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-1"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MS-M-0-0",
@@ -1321,7 +1465,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-72885"
+            "entry": "p-91554"
           },
           {
             "winner": "MS-Q-1-0"
@@ -1330,12 +1474,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-1",
@@ -1352,12 +1496,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-2",
@@ -1365,7 +1509,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-62063"
+            "entry": "p-86114"
           },
           {
             "entry": "p-63122"
@@ -1374,12 +1518,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-3",
@@ -1390,18 +1534,18 @@
             "winner": "MS-Q-1-3"
           },
           {
-            "entry": "p-61628"
+            "entry": "p-94397"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-4",
@@ -1409,7 +1553,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-91554"
+            "entry": "p-76115"
           },
           {
             "entry": "p-77848"
@@ -1418,12 +1562,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-5",
@@ -1431,7 +1575,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-97174"
+            "entry": "p-59322"
           },
           {
             "entry": "p-85394"
@@ -1440,12 +1584,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-6",
@@ -1453,7 +1597,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-76115"
+            "entry": "p-68870"
           },
           {
             "entry": "p-59543"
@@ -1462,12 +1606,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-7",
@@ -1484,12 +1628,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-8",
@@ -1500,18 +1644,18 @@
             "entry": "p-84838"
           },
           {
-            "entry": "p-86114"
+            "entry": "p-95516"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-9",
@@ -1522,18 +1666,18 @@
             "entry": "p-85095"
           },
           {
-            "entry": "p-34810"
+            "entry": "p-61628"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-10",
@@ -1550,12 +1694,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-11",
@@ -1566,18 +1710,18 @@
             "entry": "p-60321"
           },
           {
-            "entry": "p-94151"
+            "entry": "p-34810"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-12",
@@ -1594,12 +1738,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-13",
@@ -1610,18 +1754,18 @@
             "entry": "p-93627"
           },
           {
-            "entry": "p-58089"
+            "entry": "p-97174"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-14",
@@ -1629,7 +1773,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-68870"
+            "entry": "p-73591"
           },
           {
             "entry": "p-94780"
@@ -1638,12 +1782,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-0-15",
@@ -1660,12 +1804,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-1-0",
@@ -1682,12 +1826,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-1-1",
@@ -1704,12 +1848,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-1-2",
@@ -1726,12 +1870,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-1-3",
@@ -1748,12 +1892,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-1-4",
@@ -1770,12 +1914,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-1-5",
@@ -1792,12 +1936,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-1-6",
@@ -1814,12 +1958,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-1-7",
@@ -1836,12 +1980,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-2-0",
@@ -1858,12 +2002,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-2-1",
@@ -1880,12 +2024,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-2-2",
@@ -1902,12 +2046,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-2-3",
@@ -1924,12 +2068,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-3-0",
@@ -1946,12 +2090,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-3-1",
@@ -1968,12 +2112,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MS-M-4-0",
@@ -1990,12 +2134,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-2"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-Q-0-0",
@@ -2012,12 +2156,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-3"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T02:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-3"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WS-Q-0-1",
@@ -2025,7 +2176,7 @@
         "round": "资格赛",
         "slots": [
           {
-            "entry": "p-94348"
+            "entry": "p-73746"
           },
           {
             "entry": "p-50959"
@@ -2034,12 +2185,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-3"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T03:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-3"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WS-Q-0-2",
@@ -2047,21 +2205,28 @@
         "round": "资格赛",
         "slots": [
           {
-            "entry": "p-99925"
+            "entry": "p-66266"
           },
           {
-            "entry": "p-69012"
+            "entry": "p-60634"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-3"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T03:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-3"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WS-Q-0-3",
@@ -2069,7 +2234,7 @@
         "round": "资格赛",
         "slots": [
           {
-            "entry": "p-67828"
+            "entry": "p-91021"
           },
           {
             "entry": "p-86261"
@@ -2078,12 +2243,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-3"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T05:10:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-3"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WS-M-0-0",
@@ -2094,18 +2266,18 @@
             "entry": "p-61854"
           },
           {
-            "entry": "p-68479"
+            "entry": "p-99925"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-1",
@@ -2122,12 +2294,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-2",
@@ -2144,12 +2316,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-3",
@@ -2166,12 +2338,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-4",
@@ -2188,12 +2360,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-5",
@@ -2210,12 +2382,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-6",
@@ -2223,7 +2395,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-96713"
+            "entry": "p-68479"
           },
           {
             "winner": "WS-Q-0-0"
@@ -2232,12 +2404,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-7",
@@ -2254,12 +2426,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-8",
@@ -2276,12 +2448,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-9",
@@ -2298,12 +2470,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-10",
@@ -2320,12 +2492,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-11",
@@ -2342,12 +2514,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-12",
@@ -2355,7 +2527,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-90287"
+            "entry": "p-94348"
           },
           {
             "entry": "p-96725"
@@ -2364,12 +2536,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-13",
@@ -2386,12 +2558,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-14",
@@ -2408,12 +2580,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-0-15",
@@ -2430,12 +2602,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-1-0",
@@ -2452,12 +2624,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-1-1",
@@ -2474,12 +2646,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-1-2",
@@ -2496,12 +2668,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-1-3",
@@ -2518,12 +2690,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-1-4",
@@ -2540,12 +2712,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-1-5",
@@ -2562,12 +2734,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-1-6",
@@ -2584,12 +2756,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-1-7",
@@ -2606,12 +2778,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-2-0",
@@ -2628,12 +2800,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-2-1",
@@ -2650,12 +2822,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-2-2",
@@ -2672,12 +2844,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-2-3",
@@ -2694,12 +2866,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-3-0",
@@ -2716,12 +2888,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-3-1",
@@ -2738,12 +2910,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WS-M-4-0",
@@ -2760,12 +2932,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-4"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-Q-0-0",
@@ -2773,21 +2945,28 @@
         "round": "资格赛",
         "slots": [
           {
-            "entry": "p-75049-64729"
+            "entry": "p-88832-63670"
           },
           {
-            "entry": "p-75829-92504"
+            "entry": "p-67810-54805"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-5"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T04:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-5"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-Q-0-1",
@@ -2798,18 +2977,25 @@
             "entry": "p-87535-64023"
           },
           {
-            "entry": "p-79732-99066"
+            "entry": "p-70185-67533"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-5"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T04:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-5"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-Q-0-2",
@@ -2820,18 +3006,25 @@
             "entry": "p-64394-59609"
           },
           {
-            "entry": "p-77262-62804"
+            "entry": "p-76165-94252"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-5"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T03:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-5"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-Q-0-3",
@@ -2848,12 +3041,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-5"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T05:10:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-5"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-0",
@@ -2864,18 +3064,25 @@
             "entry": "p-88876-91440"
           },
           {
-            "entry": "p-72885-61628"
+            "entry": "p-75829-92504"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T08:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-1",
@@ -2892,12 +3099,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-0-2",
@@ -2914,12 +3121,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-0-3",
@@ -2936,12 +3143,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-0-4",
@@ -2949,7 +3156,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-56203-99389"
+            "entry": "p-72435-70500"
           },
           {
             "entry": "p-99102-76275"
@@ -2958,12 +3165,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T10:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-5",
@@ -2980,12 +3194,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-0-6",
@@ -2993,7 +3207,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-72435-70500"
+            "entry": "p-99781-55669"
           },
           {
             "entry": "p-97601-62220"
@@ -3002,12 +3216,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T11:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-7",
@@ -3024,12 +3245,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T08:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-8",
@@ -3046,12 +3274,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T08:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-9",
@@ -3059,21 +3294,28 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-81657-67903"
+            "entry": "p-75049-64729"
           },
           {
-            "entry": "p-87432-86136"
+            "entry": "p-93130-71223"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T12:10:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-10",
@@ -3090,12 +3332,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-0-11",
@@ -3106,18 +3348,25 @@
             "entry": "p-68633-84786"
           },
           {
-            "entry": "p-90768-94814"
+            "entry": "p-87432-86136"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T11:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-12",
@@ -3125,7 +3374,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-99781-55669"
+            "entry": "p-77262-62804"
           },
           {
             "entry": "p-92980-44414"
@@ -3134,12 +3383,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T08:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-13",
@@ -3156,12 +3412,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T09:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-14",
@@ -3172,18 +3435,25 @@
             "entry": "p-74816-90792"
           },
           {
-            "entry": "p-93130-71223"
+            "entry": "p-79732-99066"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T12:10:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-0-15",
@@ -3200,12 +3470,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T09:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-6"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "MD-M-1-0",
@@ -3222,12 +3499,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-1-1",
@@ -3244,12 +3521,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-1-2",
@@ -3266,12 +3543,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-1-3",
@@ -3288,12 +3565,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-1-4",
@@ -3310,12 +3587,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-1-5",
@@ -3332,12 +3609,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-1-6",
@@ -3354,12 +3631,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-1-7",
@@ -3376,12 +3653,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-2-0",
@@ -3398,12 +3675,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-2-1",
@@ -3420,12 +3697,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-2-2",
@@ -3442,12 +3719,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-2-3",
@@ -3464,12 +3741,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-3-0",
@@ -3486,12 +3763,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-3-1",
@@ -3508,12 +3785,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "MD-M-4-0",
@@ -3530,12 +3807,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-6"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-Q-0-0",
@@ -3552,12 +3829,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-7"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T04:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-7"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-Q-0-1",
@@ -3574,12 +3858,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-7"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T06:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-7"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-Q-0-2",
@@ -3596,12 +3887,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-7"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T03:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-7"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-Q-0-3",
@@ -3618,12 +3916,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-7"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T05:10:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-7"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-0",
@@ -3640,12 +3945,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T08:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-1",
@@ -3662,12 +3974,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T10:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-2",
@@ -3684,12 +4003,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T08:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-3",
@@ -3706,12 +4032,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-0-4",
@@ -3728,12 +4054,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-0-5",
@@ -3750,12 +4076,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-0-6",
@@ -3772,12 +4098,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T08:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-7",
@@ -3794,12 +4127,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T11:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-8",
@@ -3816,12 +4156,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T09:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-9",
@@ -3838,12 +4185,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方暂排时间，场地及时间仍待确定。",
+        "scheduled_at": "2026-11-17T11:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-10",
@@ -3860,12 +4214,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-0-11",
@@ -3882,12 +4236,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T10:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-12",
@@ -3904,12 +4265,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-0-13",
@@ -3926,12 +4287,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T08:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-14",
@@ -3948,12 +4316,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T10:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-0-15",
@@ -3970,12 +4345,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T09:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "WD-M-1-0",
@@ -3992,12 +4374,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-1-1",
@@ -4014,12 +4396,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-1-2",
@@ -4036,12 +4418,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-1-3",
@@ -4058,12 +4440,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-1-4",
@@ -4080,12 +4462,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-1-5",
@@ -4102,12 +4484,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-1-6",
@@ -4124,12 +4506,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-1-7",
@@ -4146,12 +4528,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-2-0",
@@ -4168,12 +4550,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-2-1",
@@ -4190,12 +4572,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-2-2",
@@ -4212,12 +4594,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-2-3",
@@ -4234,12 +4616,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-3-0",
@@ -4256,12 +4638,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-3-1",
@@ -4278,12 +4660,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "WD-M-4-0",
@@ -4300,12 +4682,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-8"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-Q-0-0",
@@ -4322,12 +4704,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-9"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T02:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-9"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "XD-Q-0-1",
@@ -4338,18 +4727,25 @@
             "entry": "p-10453-61435"
           },
           {
-            "entry": "p-73936-72504"
+            "entry": "p-96016-43626"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-9"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T04:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-9"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "XD-Q-0-2",
@@ -4366,12 +4762,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-9"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T02:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-9"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "XD-Q-0-3",
@@ -4388,12 +4791,19 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-9"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "资格赛第1轮；官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "scheduled_at": "2026-11-17T02:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-9"
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
+        }
       },
       {
         "id": "XD-M-0-0",
@@ -4410,12 +4820,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-1",
@@ -4432,12 +4842,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-2",
@@ -4454,12 +4864,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-3",
@@ -4476,12 +4886,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-4",
@@ -4498,12 +4908,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-5",
@@ -4520,12 +4930,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-6",
@@ -4533,7 +4943,7 @@
         "round": "32强",
         "slots": [
           {
-            "entry": "p-81108-62713"
+            "entry": "p-92593-56352"
           },
           {
             "entry": "p-62618-61882"
@@ -4542,12 +4952,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-7",
@@ -4564,12 +4974,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-8",
@@ -4580,18 +4990,18 @@
             "entry": "p-91090-79015"
           },
           {
-            "entry": "p-92593-56352"
+            "entry": "p-73936-72504"
           }
         ],
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-9",
@@ -4608,12 +5018,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-10",
@@ -4630,12 +5040,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-11",
@@ -4652,12 +5062,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-12",
@@ -4674,12 +5084,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-13",
@@ -4696,12 +5106,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-14",
@@ -4718,12 +5128,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-0-15",
@@ -4740,12 +5150,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-1-0",
@@ -4762,12 +5172,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-1-1",
@@ -4784,12 +5194,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-1-2",
@@ -4806,12 +5216,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-1-3",
@@ -4828,12 +5238,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-1-4",
@@ -4850,12 +5260,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-1-5",
@@ -4872,12 +5282,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-1-6",
@@ -4894,12 +5304,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-1-7",
@@ -4916,12 +5326,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-2-0",
@@ -4938,12 +5348,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-2-1",
@@ -4960,12 +5370,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-2-2",
@@ -4982,12 +5392,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-2-3",
@@ -5004,12 +5414,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-3-0",
@@ -5026,12 +5436,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-3-1",
@@ -5048,12 +5458,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       },
       {
         "id": "XD-M-4-0",
@@ -5070,12 +5480,12 @@
         "rule": "badminton",
         "status": "scheduled",
         "verification": {
-          "verified_at": "2026-11-13T22:06:58+08:00",
           "source_ids": [
             "draw-10"
-          ]
+          ],
+          "verified_at": "2026-11-17T09:32:51+08:00"
         },
-        "reason": "官方签表已公布；逐场开赛时间尚待官方发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
       }
     ],
     "draws": [
