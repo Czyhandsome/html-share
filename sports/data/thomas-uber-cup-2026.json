@@ -8,14 +8,15 @@
   },
   "notices": [
     "已核验并录入汤杯A、B、C组及尤杯全部四组，共42场小组赛和全部14场淘汰赛团体总比分；汤杯D组已取得官方赛果，但阿尔及利亚队编码ALG尚未在站点登记，暂未录入该组。",
-    "小组赛依据BWF官方赛果与排名；淘汰赛依据日本羽协官方结果及八强签位。已补日本男团4场、女团5场对决的40场单项：实际阵容、出场顺序与逐局比分（含吴堇溦退赛时未完局）。其他47场团体对决仍仅有总比分，单项明细待核实。",
-    "单项明细来源为日本羽协官方PDF第2、4–6、8–9、11–13页；淘汰赛达到三胜后未进行的场次不虚构赛果。外国选手无法确认可靠中文译名时保留官方拼写。"
+    "小组赛依据BWF官方赛果与排名；淘汰赛依据日本羽协官方结果及八强签位。已补11场团体对决的47场单项：日本队9场团体对决，以及中国男团对丹麦半决赛、中国女团对韩国决赛；含实际阵容、出场顺序与逐局比分（含吴堇溦退赛时未完局）。其他45场团体对决仍仅有总比分，单项明细待核实。",
+    "单项明细来源为日本羽协官方PDF第2、4–6、8–9、11–13页；淘汰赛达到三胜后未进行的场次不虚构赛果。外国选手无法确认可靠中文译名时保留官方拼写。",
+    "中国男团对丹麦单项经央视体育、BRTV天天体育交叉核验，并参照亚洲羽联战报确认对手；中国女团对韩国决赛经新华社、央视网体育交叉核验。媒体转载平台相同不等于来源相同，按原始采编机构区分来源家族。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026汤姆斯杯暨尤伯杯",
-      "snapshot_at": "2026-11-18T00:03:00+08:00",
+      "snapshot_at": "2026-11-18T01:06:24+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Copenhagen"
     },
@@ -34,13 +35,47 @@
         "id": "thomas-chn",
         "draw": "thomas",
         "team": "CHN",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-chn-a7197d59336a",
+            "name": "石宇奇"
+          },
+          {
+            "id": "thomas-chn-396f108eca9c",
+            "name": "梁伟铿"
+          },
+          {
+            "id": "thomas-chn-c1b8078de1c0",
+            "name": "王昶"
+          },
+          {
+            "id": "thomas-chn-7cba76fea838",
+            "name": "李诗沣"
+          }
+        ]
       },
       {
         "id": "thomas-den",
         "draw": "thomas",
         "team": "DEN",
-        "players": []
+        "players": [
+          {
+            "id": "thomas-den-66b81d1320e5",
+            "name": "安东森"
+          },
+          {
+            "id": "thomas-den-b2adc39e4e55",
+            "name": "阿斯特鲁普"
+          },
+          {
+            "id": "thomas-den-376d8d3fe4be",
+            "name": "拉斯姆森"
+          },
+          {
+            "id": "thomas-den-26214aaa08ec",
+            "name": "马格纳斯"
+          }
+        ]
       },
       {
         "id": "thomas-eng",
@@ -243,6 +278,14 @@
           {
             "id": "uber-chn-c6b3938d245a",
             "name": "陈雨菲"
+          },
+          {
+            "id": "uber-chn-4fdbef2b6031",
+            "name": "贾一凡"
+          },
+          {
+            "id": "uber-chn-933beb6b71c9",
+            "name": "张殊贤"
           }
         ]
       },
@@ -305,7 +348,32 @@
         "id": "uber-kor",
         "draw": "uber",
         "team": "KOR",
-        "players": []
+        "players": [
+          {
+            "id": "uber-kor-c638f4ce817b",
+            "name": "安洗莹"
+          },
+          {
+            "id": "uber-kor-f7fdf8c6ccd2",
+            "name": "郑娜银"
+          },
+          {
+            "id": "uber-kor-1e322e57e0c8",
+            "name": "李绍希"
+          },
+          {
+            "id": "uber-kor-58ae78a58d1f",
+            "name": "金佳恩"
+          },
+          {
+            "id": "uber-kor-9dc9ae9c58ff",
+            "name": "白荷娜"
+          },
+          {
+            "id": "uber-kor-d92977d275fb",
+            "name": "金慧贞"
+          }
+        ]
       },
       {
         "id": "uber-mas",
@@ -607,6 +675,41 @@
         "label": "日本羽协官方结果 PDF 第9页：日本队该场出场顺序、运动员与逐局比分",
         "kind": "official",
         "family": "badminton.or.jp"
+      },
+      {
+        "id": "cctv-thomas-sf",
+        "url": "https://www.sina.cn/news/detail/5294400982747122.html",
+        "label": "央视体育原创赛果：汤杯中国对丹麦半决赛三场及逐局",
+        "kind": "independent",
+        "family": "cctv"
+      },
+      {
+        "id": "brtv-thomas-sf",
+        "url": "https://www.sina.cn/news/detail/5294417783031535.html",
+        "label": "BRTV天天体育原创赛果：汤杯中国对丹麦半决赛三场及逐局",
+        "kind": "independent",
+        "family": "brtv"
+      },
+      {
+        "id": "ba-thomas-sf",
+        "url": "https://badmintonasia.org/2026/05/03/thomas-cup-2026-china-close-in-on-12th-title-as-france-rewrite-history-in-horsens/",
+        "label": "亚洲羽联官方战报：汤杯半决赛双方阵容与赛果（李诗沣首局分未详列）",
+        "kind": "official",
+        "family": "badmintonasia.org"
+      },
+      {
+        "id": "xinhua-uber-final",
+        "url": "https://www.xinhuanet.com/sports/20260503/d9a5607263e34d06b2a6ad791cd2b650/c.html",
+        "label": "新华社现场报道：尤杯中国对韩国决赛四场及逐局",
+        "kind": "independent",
+        "family": "xinhua"
+      },
+      {
+        "id": "cctv-uber-final",
+        "url": "https://www.sina.cn/news/detail/5294598441665102.html",
+        "label": "央视网体育原创赛果：尤杯中国对韩国决赛四场及逐局",
+        "kind": "independent",
+        "family": "cctv"
       }
     ],
     "rules": {
@@ -2018,7 +2121,112 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "thomas-chn-a7197d59336a"
+              ],
+              [
+                "thomas-den-66b81d1320e5"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                21,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "cctv-thomas-sf",
+                "brtv-thomas-sf",
+                "ba-thomas-sf"
+              ],
+              "verified_at": "2026-11-18T01:06:24+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "thomas-chn-396f108eca9c",
+                "thomas-chn-c1b8078de1c0"
+              ],
+              [
+                "thomas-den-b2adc39e4e55",
+                "thomas-den-376d8d3fe4be"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                18
+              ],
+              [
+                21,
+                17
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "cctv-thomas-sf",
+                "brtv-thomas-sf",
+                "ba-thomas-sf"
+              ],
+              "verified_at": "2026-11-18T01:06:24+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "thomas-chn-7cba76fea838"
+              ],
+              [
+                "thomas-den-26214aaa08ec"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                19
+              ],
+              [
+                18,
+                21
+              ],
+              [
+                21,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "cctv-thomas-sf",
+                "brtv-thomas-sf",
+                "ba-thomas-sf"
+              ],
+              "verified_at": "2026-11-18T01:06:24+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-sf-2",
@@ -3160,7 +3368,140 @@
             ],
             "verified_at": "2026-11-11T11:15:57+08:00"
           }
-        }
+        },
+        "order": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "uber-chn-9c2793a9fb0a"
+              ],
+              [
+                "uber-kor-c638f4ce817b"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                21
+              ],
+              [
+                13,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "xinhua-uber-final",
+                "cctv-uber-final"
+              ],
+              "verified_at": "2026-11-18T01:06:24+08:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "uber-chn-1203d0e90028",
+                "uber-chn-922b1fdd603e"
+              ],
+              [
+                "uber-kor-f7fdf8c6ccd2",
+                "uber-kor-1e322e57e0c8"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                15
+              ],
+              [
+                21,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "xinhua-uber-final",
+                "cctv-uber-final"
+              ],
+              "verified_at": "2026-11-18T01:06:24+08:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "uber-chn-c6b3938d245a"
+              ],
+              [
+                "uber-kor-58ae78a58d1f"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                19,
+                21
+              ],
+              [
+                15,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "xinhua-uber-final",
+                "cctv-uber-final"
+              ],
+              "verified_at": "2026-11-18T01:06:24+08:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "uber-chn-4fdbef2b6031",
+                "uber-chn-933beb6b71c9"
+              ],
+              [
+                "uber-kor-9dc9ae9c58ff",
+                "uber-kor-d92977d275fb"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                21,
+                16
+              ],
+              [
+                10,
+                21
+              ],
+              [
+                13,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "xinhua-uber-final",
+                "cctv-uber-final"
+              ],
+              "verified_at": "2026-11-18T01:06:24+08:00"
+            }
+          }
+        ]
       },
       {
         "id": "thomas-a-1",
