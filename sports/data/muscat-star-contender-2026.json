@@ -1,0 +1,1820 @@
+{
+  "schema_version": 1,
+  "event_dates": {
+    "start": "2026-11-16",
+    "end": "2026-11-21"
+  },
+  "kind": "bracket-v1",
+  "id": "muscat-star-contender-2026",
+  "output": "docs/2026/11/20261116-muscat-star-contender-2026/index.html",
+  "notices": [
+    "11月16–21日 · 阿曼马斯喀特。本页当前仅收录完整女单正赛：48名选手及16个轮空签位，不含资格赛与双打；并非完整男女单赛事。",
+    "男单暂未录入：官方名单中的阿尔及利亚选手 Mehdi Bouloussa 代表队编码 ALG 尚未登记于本仓库旗帜映射，待维护者补齐后再在同一赛事页面补入完整男单签表，不删去单一选手拼成残缺签表。",
+    "女单48名选手的身份及代表队、16场首轮实赛的对阵与比赛编号已与WTT官方名单和赛程逐项核对。完整女单签表及轮空签位由Eleven与ぐぐスポ两家媒体交叉核验；未声称直接取得WTT完整签表原文件。",
+    "默认北京时间，可切换赛地Asia/Muscat时间。首轮时间来自官方计划，实际开赛可能顺延；后续轮次未公布时间，不猜测。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 WTT 马斯喀特球星挑战赛 · 女单正赛",
+      "snapshot_at": "2026-11-18T09:35:43+08:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Asia/Muscat"
+    },
+    "entries": [
+      {
+        "id": "women-133405",
+        "name": "大藤沙月",
+        "team": "JPN"
+      },
+      {
+        "id": "women-120125",
+        "name": "Filippa Bergand",
+        "team": "SWE"
+      },
+      {
+        "id": "women-133340",
+        "name": "Ece Harac",
+        "team": "TUR"
+      },
+      {
+        "id": "women-116874",
+        "name": "Audrey Zarif",
+        "team": "FRA"
+      },
+      {
+        "id": "women-123550",
+        "name": "Camille Lutz",
+        "team": "FRA"
+      },
+      {
+        "id": "women-110560",
+        "name": "Mo Zhang",
+        "team": "CAN"
+      },
+      {
+        "id": "women-133814",
+        "name": "金娜英",
+        "team": "KOR"
+      },
+      {
+        "id": "women-115402",
+        "name": "Sofia-Xuan Zhang",
+        "team": "ESP"
+      },
+      {
+        "id": "women-104092",
+        "name": "Minhyung Jee",
+        "team": "AUS"
+      },
+      {
+        "id": "women-134011",
+        "name": "Elena Zaharia",
+        "team": "ROU"
+      },
+      {
+        "id": "women-135501",
+        "name": "Charlotte Lutz",
+        "team": "FRA"
+      },
+      {
+        "id": "women-131231",
+        "name": "Elizabet Abraamian",
+        "team": "RUS"
+      },
+      {
+        "id": "women-124591",
+        "name": "长崎美柚",
+        "team": "JPN"
+      },
+      {
+        "id": "women-136403",
+        "name": "范姝涵",
+        "team": "CHN"
+      },
+      {
+        "id": "women-206219",
+        "name": "杨惠泽",
+        "team": "CHN"
+      },
+      {
+        "id": "women-209805",
+        "name": "冯怡璇",
+        "team": "CHN"
+      },
+      {
+        "id": "women-112868",
+        "name": "Xiaoxin Yang",
+        "team": "MON"
+      },
+      {
+        "id": "women-137627",
+        "name": "刘杨子",
+        "team": "AUS"
+      },
+      {
+        "id": "women-136309",
+        "name": "Kaho Akae",
+        "team": "JPN"
+      },
+      {
+        "id": "women-122842",
+        "name": "Ana Tofant",
+        "team": "SLO"
+      },
+      {
+        "id": "women-122428",
+        "name": "Andreea Dragoman",
+        "team": "ROU"
+      },
+      {
+        "id": "women-133113",
+        "name": "Sarvinoz Mirkadirova",
+        "team": "KAZ"
+      },
+      {
+        "id": "women-123848",
+        "name": "Saki Shibata",
+        "team": "JPN"
+      },
+      {
+        "id": "women-144628",
+        "name": "覃予萱",
+        "team": "CHN"
+      },
+      {
+        "id": "women-111012",
+        "name": "斯佐科斯",
+        "team": "ROU"
+      },
+      {
+        "id": "women-115920",
+        "name": "Manika Batra",
+        "team": "IND"
+      },
+      {
+        "id": "women-223247",
+        "name": "魏璟茗",
+        "team": "CHN"
+      },
+      {
+        "id": "women-144861",
+        "name": "Sachi Aoki",
+        "team": "JPN"
+      },
+      {
+        "id": "women-200907",
+        "name": "纵歌曼",
+        "team": "CHN"
+      },
+      {
+        "id": "women-137894",
+        "name": "袁嘉楠",
+        "team": "FRA"
+      },
+      {
+        "id": "women-108226",
+        "name": "萨马拉",
+        "team": "ROU"
+      },
+      {
+        "id": "women-136539",
+        "name": "王晓彤",
+        "team": "CHN"
+      },
+      {
+        "id": "women-115413",
+        "name": "Giorgia Piccolin",
+        "team": "ITA"
+      },
+      {
+        "id": "women-120294",
+        "name": "Gaia Monfardini",
+        "team": "ITA"
+      },
+      {
+        "id": "women-121714",
+        "name": "Tatiana Kukulkova",
+        "team": "SVK"
+      },
+      {
+        "id": "women-200413",
+        "name": "朱芊曦",
+        "team": "KOR"
+      },
+      {
+        "id": "women-135935",
+        "name": "Sakura Yokoi",
+        "team": "JPN"
+      },
+      {
+        "id": "women-118507",
+        "name": "Christina Kallberg",
+        "team": "SWE"
+      },
+      {
+        "id": "women-137193",
+        "name": "Yoo Yerin",
+        "team": "KOR"
+      },
+      {
+        "id": "women-111072",
+        "name": "Maria Xiao",
+        "team": "ESP"
+      },
+      {
+        "id": "women-107477",
+        "name": "Sofia Polcanova",
+        "team": "AUT"
+      },
+      {
+        "id": "women-110797",
+        "name": "郑怡静",
+        "team": "TPE"
+      },
+      {
+        "id": "women-136987",
+        "name": "叶伊恬",
+        "team": "TPE"
+      },
+      {
+        "id": "women-209670",
+        "name": "Cocona Muramatsu",
+        "team": "JPN"
+      },
+      {
+        "id": "women-135370",
+        "name": "Kim Seongjin",
+        "team": "KOR"
+      },
+      {
+        "id": "women-112280",
+        "name": "Sarah De Nutte",
+        "team": "LUX"
+      },
+      {
+        "id": "women-122718",
+        "name": "Sreeja Akula",
+        "team": "IND"
+      },
+      {
+        "id": "women-133000",
+        "name": "桥本帆乃香",
+        "team": "JPN"
+      }
+    ],
+    "sources": [
+      {
+        "id": "wtt-entries",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitestaticapifiles/3256/3256_player_seed_list_all_subevents.json",
+        "label": "WTT本届官方报名名单与协会",
+        "kind": "official",
+        "family": "wtt"
+      },
+      {
+        "id": "wtt-schedule",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3256/schedule/schedule.json",
+        "label": "WTT官方当日赛程：32场单打首轮对阵、比赛编号与时间",
+        "kind": "official",
+        "family": "wtt"
+      },
+      {
+        "id": "eleven-draw",
+        "url": "https://eleventabletennis.com/news/wtt-star-contender-muscat-2026-main-draw-dang-qiu-lind-out-odo-jorgic-seeds",
+        "label": "Eleven完整单打签表（注明转述WTT抽签）",
+        "kind": "independent",
+        "family": "eleventabletennis"
+      },
+      {
+        "id": "sportzorg-draw",
+        "url": "https://www.sportzorg24.tv/wtt-star-contender-muscat-2026/",
+        "label": "ぐぐスポ完整单打签表：与Eleven逐签位交叉核验",
+        "kind": "independent",
+        "family": "sportzorg24"
+      },
+      {
+        "id": "cn-names-youth",
+        "url": "https://www.sport.gov.cn/n20001280/n20067662/n20067613/c28303862/content.html",
+        "label": "国家体育总局：孙杨、唐乙仁、杨惠泽正式中文姓名",
+        "kind": "official",
+        "family": "gasc"
+      },
+      {
+        "id": "cn-name-feng",
+        "url": "https://tyj.hunan.gov.cn/tyj/tyxj02/202504/t20250409_33638035.html",
+        "label": "湖南省体育局：冯怡璇正式中文姓名",
+        "kind": "official",
+        "family": "hunan-sports"
+      },
+      {
+        "id": "cn-name-wei",
+        "url": "https://sport.hebei.gov.cn/jingjitiyu/2026/0312/31054.html",
+        "label": "河北省体育局：魏璟茗正式中文姓名",
+        "kind": "official",
+        "family": "hebei-sports"
+      }
+    ],
+    "rules": {
+      "bo5": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2
+      },
+      "bo7": {
+        "best_of": 7,
+        "points": 11,
+        "win_by": 2
+      }
+    },
+    "matches": [
+      {
+        "id": "women-r64-1",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-133405"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-2",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-120125"
+          },
+          {
+            "entry": "women-133340"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T13:20:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-3",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-116874"
+          },
+          {
+            "entry": "women-123550"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T18:10:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-4",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "women-110560"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-5",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-133814"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-6",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-115402"
+          },
+          {
+            "entry": "women-104092"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T12:45:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-7",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-134011"
+          },
+          {
+            "entry": "women-135501"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T18:45:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-8",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "women-131231"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-9",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-124591"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-10",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-136403"
+          },
+          {
+            "entry": "women-206219"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T19:20:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-11",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-209805"
+          },
+          {
+            "entry": "women-112868"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T13:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-12",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "women-137627"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-13",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-136309"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-14",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-122842"
+          },
+          {
+            "entry": "women-122428"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T17:35:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-15",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-133113"
+          },
+          {
+            "entry": "women-123848"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T19:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-16",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "women-144628"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-17",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-111012"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-18",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-115920"
+          },
+          {
+            "entry": "women-223247"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T18:10:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-19",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-144861"
+          },
+          {
+            "entry": "women-200907"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T13:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-20",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "women-137894"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-21",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-108226"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-22",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-136539"
+          },
+          {
+            "entry": "women-115413"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T18:45:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-23",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-120294"
+          },
+          {
+            "entry": "women-121714"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T19:20:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-24",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "women-200413"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-25",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-135935"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-26",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-118507"
+          },
+          {
+            "entry": "women-137193"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T20:30:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-27",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-111072"
+          },
+          {
+            "entry": "women-107477"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T20:30:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-28",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "women-110797"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-29",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-136987"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-30",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-209670"
+          },
+          {
+            "entry": "women-135370"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T11:35:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-31",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "women-112280"
+          },
+          {
+            "entry": "women-122718"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-18T19:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r64-32",
+        "draw": "women",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "women-133000"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-1",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-1"
+          },
+          {
+            "winner": "women-r64-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-2",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-3"
+          },
+          {
+            "winner": "women-r64-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-3",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-5"
+          },
+          {
+            "winner": "women-r64-6"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-4",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-7"
+          },
+          {
+            "winner": "women-r64-8"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-5",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-9"
+          },
+          {
+            "winner": "women-r64-10"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-6",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-11"
+          },
+          {
+            "winner": "women-r64-12"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-7",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-13"
+          },
+          {
+            "winner": "women-r64-14"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-8",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-15"
+          },
+          {
+            "winner": "women-r64-16"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-9",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-17"
+          },
+          {
+            "winner": "women-r64-18"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-10",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-19"
+          },
+          {
+            "winner": "women-r64-20"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-11",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-21"
+          },
+          {
+            "winner": "women-r64-22"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-12",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-23"
+          },
+          {
+            "winner": "women-r64-24"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-13",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-25"
+          },
+          {
+            "winner": "women-r64-26"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-14",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-27"
+          },
+          {
+            "winner": "women-r64-28"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-15",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-29"
+          },
+          {
+            "winner": "women-r64-30"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r32-16",
+        "draw": "women",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "women-r64-31"
+          },
+          {
+            "winner": "women-r64-32"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r16-1",
+        "draw": "women",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-1"
+          },
+          {
+            "winner": "women-r32-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r16-2",
+        "draw": "women",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-3"
+          },
+          {
+            "winner": "women-r32-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r16-3",
+        "draw": "women",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-5"
+          },
+          {
+            "winner": "women-r32-6"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r16-4",
+        "draw": "women",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-7"
+          },
+          {
+            "winner": "women-r32-8"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r16-5",
+        "draw": "women",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-9"
+          },
+          {
+            "winner": "women-r32-10"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r16-6",
+        "draw": "women",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-11"
+          },
+          {
+            "winner": "women-r32-12"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r16-7",
+        "draw": "women",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-13"
+          },
+          {
+            "winner": "women-r32-14"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-r16-8",
+        "draw": "women",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "women-r32-15"
+          },
+          {
+            "winner": "women-r32-16"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-qf-1",
+        "draw": "women",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-r16-1"
+          },
+          {
+            "winner": "women-r16-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-qf-2",
+        "draw": "women",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-r16-3"
+          },
+          {
+            "winner": "women-r16-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-qf-3",
+        "draw": "women",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-r16-5"
+          },
+          {
+            "winner": "women-r16-6"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-qf-4",
+        "draw": "women",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "women-r16-7"
+          },
+          {
+            "winner": "women-r16-8"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-sf-1",
+        "draw": "women",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "women-qf-1"
+          },
+          {
+            "winner": "women-qf-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-sf-2",
+        "draw": "women",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "women-qf-3"
+          },
+          {
+            "winner": "women-qf-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "women-final-1",
+        "draw": "women",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "women-sf-1"
+          },
+          {
+            "winner": "women-sf-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      }
+    ],
+    "draws": [
+      {
+        "id": "women",
+        "name": "女子单打"
+      }
+    ]
+  }
+}
