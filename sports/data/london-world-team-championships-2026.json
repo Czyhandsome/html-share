@@ -8,7 +8,7 @@
   },
   "notices": [
     "本页覆盖男、女团完整32强正赛淘汰赛62场，以及男女第1、2种子组24场团体总比分，共86场。尚未收录资格小组及资格附加赛，不能视为完整赛事档案。",
-    "球员名单及单场逐局明细尚待补录。团体总比分与32强席位均取自WTT官方结果及签表，并逐场核对双方代表队、总比分和晋级关系。",
+    "男女决赛已按WTT官方归档补齐8场单打、31局完整比分和12名实际出场球员；其他84场团体对决的单项明细及完整赛事报名名单尚待补录。团体总比分与32强席位保持原官方核验结果。男团决赛三场后结束，未虚构未上场的第四、第五单打。",
     "男子Stage 1A种子组八队全员进入正赛，小组赛决定种子位置而非淘汰资格。第1组名次为瑞典、韩国、中国、英格兰；第2组为法国、日本、德国、中华台北。正赛仍沿用WTT官方实际抽签席位，未以小组名次猜接晋级线。",
     "男子小组名次采用WTT官方组别终轮快照771220/771240：各队均已打满3场，并与全部12场赛果及独立赛果汇总交叉核验。接口将这两份快照标记INTERMEDIATE；较旧的OFFICIAL汇总尚未打完，未采用其过时名次。团体比分采用官方overallScores及FINAL_RESULT一致值，不采用不一致的resultOverallScores字段。",
     "女子Stage 1A种子组八队全员进入正赛，小组赛决定种子位置而非淘汰资格。第1组名次为中国、罗马尼亚、中华台北、韩国；第2组为日本、德国、法国、英格兰。正赛保留WTT官方实际抽签席位，不以小组名次改写晋级关系。",
@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026伦敦世乒赛团体赛",
-      "snapshot_at": "2026-11-18T07:04:27+08:00",
+      "snapshot_at": "2026-11-18T00:06:05+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/London"
     },
@@ -37,7 +37,20 @@
         "id": "men-chn",
         "draw": "men",
         "team": "CHN",
-        "players": []
+        "players": [
+          {
+            "id": "men-chn-119588",
+            "name": "梁靖崑"
+          },
+          {
+            "id": "men-chn-121558",
+            "name": "王楚钦"
+          },
+          {
+            "id": "men-chn-137237",
+            "name": "林诗栋"
+          }
+        ]
       },
       {
         "id": "men-swe",
@@ -67,7 +80,20 @@
         "id": "men-jpn",
         "draw": "men",
         "team": "JPN",
-        "players": []
+        "players": [
+          {
+            "id": "men-jpn-123980",
+            "name": "张本智和"
+          },
+          {
+            "id": "men-jpn-135996",
+            "name": "松岛辉空"
+          },
+          {
+            "id": "men-jpn-133694",
+            "name": "户上隼辅"
+          }
+        ]
       },
       {
         "id": "men-ger",
@@ -229,7 +255,20 @@
         "id": "women-chn",
         "draw": "women",
         "team": "CHN",
-        "players": []
+        "players": [
+          {
+            "id": "women-chn-121411",
+            "name": "王曼昱"
+          },
+          {
+            "id": "women-chn-131163",
+            "name": "孙颖莎"
+          },
+          {
+            "id": "women-chn-135049",
+            "name": "蒯曼"
+          }
+        ]
       },
       {
         "id": "women-kor",
@@ -253,7 +292,20 @@
         "id": "women-jpn",
         "draw": "women",
         "team": "JPN",
-        "players": []
+        "players": [
+          {
+            "id": "women-jpn-136711",
+            "name": "张本美和"
+          },
+          {
+            "id": "women-jpn-123672",
+            "name": "早田希娜"
+          },
+          {
+            "id": "women-jpn-133000",
+            "name": "桥本帆乃香"
+          }
+        ]
       },
       {
         "id": "women-ger",
@@ -467,6 +519,20 @@
         "label": "AATT女子第1、2种子组团体赛果和名次（与WTT归档交叉核验）",
         "kind": "independent",
         "family": "allabouttabletennis.com"
+      },
+      {
+        "id": "final-names-men",
+        "url": "https://paper.people.com.cn/rmrb/pc/content/202605/11/content_30156040.html",
+        "label": "人民日报：男女团决赛及男团选手中文姓名",
+        "kind": "independent",
+        "family": "people.com.cn"
+      },
+      {
+        "id": "final-names-women",
+        "url": "https://www.olympic.cn/news/focus/2026/0511/696379.html",
+        "label": "中国奥委会：中国女团决赛出场及选手中文姓名",
+        "kind": "official",
+        "family": "olympic.cn"
       }
     ],
     "rules": {
@@ -3128,7 +3194,122 @@
             ],
             "verified_at": "2026-11-16T17:08:56+00:00"
           }
-        }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-jpn-123980"
+              ],
+              [
+                "men-chn-119588"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T00:06:05+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-jpn-135996"
+              ],
+              [
+                "men-chn-121558"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                2,
+                11
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T00:06:05+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-jpn-133694"
+              ],
+              [
+                "men-chn-137237"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                9,
+                11
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T00:06:05+00:00"
+            }
+          }
+        ],
+        "completed_date": "2026-05-10"
       },
       {
         "id": "women-r3200010000",
@@ -4027,7 +4208,182 @@
             ],
             "verified_at": "2026-11-16T17:08:56+00:00"
           }
-        }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-jpn-136711"
+              ],
+              [
+                "women-chn-121411"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T00:06:05+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-jpn-123672"
+              ],
+              [
+                "women-chn-131163"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T00:06:05+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-jpn-133000"
+              ],
+              [
+                "women-chn-135049"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T00:06:05+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-jpn-136711"
+              ],
+              [
+                "women-chn-131163"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                2,
+                11
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T00:06:05+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "women-jpn-123672"
+              ],
+              [
+                "women-chn-121411"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                5,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T00:06:05+00:00"
+            }
+          }
+        ],
+        "completed_date": "2026-05-10"
       }
     ]
   }
