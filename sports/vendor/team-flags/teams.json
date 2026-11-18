@@ -4,6 +4,10 @@
       "name": "中立个人运动员",
       "flag": null
     },
+    "ALG": {
+      "name": "阿尔及利亚",
+      "flag": "4x3/dz.svg"
+    },
     "ARG": {
       "name": "阿根廷",
       "flag": "4x3/ar.svg"
