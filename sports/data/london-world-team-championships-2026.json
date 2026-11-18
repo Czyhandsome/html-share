@@ -7,19 +7,20 @@
     "end": "2026-05-10"
   },
   "notices": [
-    "本页覆盖男、女团完整32强正赛淘汰赛62场，以及男女第1、2种子组24场团体总比分，共86场。尚未收录资格小组及资格附加赛，不能视为完整赛事档案。",
-    "已按WTT官方逐场归档补齐现有86场团体对决的318场单打、1164局完整比分及实际出场球员，包含男女正赛62场及种子组24场；全部单项均为正常完赛。尚未收录资格小组、资格附加赛及未出场报名球员。原团体总比分、ID、抽签席位和晋级关系保持不变；达到三胜后未进行的单打不虚构赛果。",
+    "本页覆盖男女32强正赛62场、男女种子组24场、6个完整资格组36场，以及全部8场资格附加赛，共130场团体对决。资格小组仅含男子第8、11组和女子第3、4、5、13组，其余22组132场尚未收录，不能视为完整赛事档案。",
+    "已按WTT官方逐场归档补齐已录130场团体对决的479场单打、1748局完整比分及实际出场球员。已录单项均为正常完赛；未收录资格组中的整队弃权不在本页覆盖范围。原有团体总比分、ID、正赛抽签席位和晋级关系保持不变；达到三胜后未进行的单打不虚构赛果，出场名单不等于完整报名名单。",
     "男子Stage 1A种子组八队全员进入正赛，小组赛决定种子位置而非淘汰资格。第1组名次为瑞典、韩国、中国、英格兰；第2组为法国、日本、德国、中华台北。正赛仍沿用WTT官方实际抽签席位，未以小组名次猜接晋级线。",
     "男子小组名次采用WTT官方组别终轮快照771220/771240：各队均已打满3场，并与全部12场赛果及独立赛果汇总交叉核验。接口将这两份快照标记INTERMEDIATE；较旧的OFFICIAL汇总尚未打完，未采用其过时名次。团体比分采用官方overallScores及FINAL_RESULT一致值，不采用不一致的resultOverallScores字段。",
     "女子Stage 1A种子组八队全员进入正赛，小组赛决定种子位置而非淘汰资格。第1组名次为中国、罗马尼亚、中华台北、韩国；第2组为日本、德国、法国、英格兰。正赛保留WTT官方实际抽签席位，不以小组名次改写晋级关系。",
     "女子第1组名次采用WTT终轮快照771234（接口标记INTERMEDIATE，但四队均已打满3场）；第2组采用771182中已打满3场的OFFICIAL组别记录。771182中的第1组尚未打完，未采用其过时名次。两组名次均与12场官方完整团体赛果及独立汇总交叉核验。",
-    "单打顺序按官方比赛编号核对，不直接采用接口数组顺序；女子种子第1组罗马尼亚对韩国的第4、5场在源数组中倒置，已按实际比赛编号排列。已有中文姓名沿用，未确认可靠译名的外国球员保留官方原文。"
+    "单打顺序按官方比赛编号核对，不直接采用接口数组顺序；女子种子第1组罗马尼亚对韩国的第4、5场在源数组中倒置，已按实际比赛编号排列。已有中文姓名沿用，未确认可靠译名的外国球员保留官方原文。",
+    "资格组名次取自WTT官方完整终轮记录（每队均打满3场），不是按胜场猜测跨组资格。男子第8组克罗地亚、第11组哈萨克斯坦直接进入正赛；塞尔维亚、埃及参加附加赛。女子第3组埃及、第4组中国香港及荷兰、第5组巴西、第13组意大利直接进入正赛；比利时、哈萨克斯坦、克罗地亚参加附加赛。附加赛胜者进入32强，正赛仍沿用官方抽签确认的原签位；未为缺失资格组编造晋级连线。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026伦敦世乒赛团体赛",
-      "snapshot_at": "2026-11-18T21:02:16+00:00",
+      "snapshot_at": "2026-11-18T21:08:06+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/London"
     },
@@ -390,6 +391,10 @@
           {
             "id": "men-cro-116680",
             "name": "ZELJKO Filip"
+          },
+          {
+            "id": "men-cro-104760",
+            "name": "KOJIC Frane"
           }
         ]
       },
@@ -409,6 +414,10 @@
           {
             "id": "men-srb-134227",
             "name": "DILAS Nemanja"
+          },
+          {
+            "id": "men-srb-107324",
+            "name": "PETO Zsolt"
           }
         ]
       },
@@ -485,6 +494,14 @@
           {
             "id": "men-egy-135595",
             "name": "MOSTAFA Badr"
+          },
+          {
+            "id": "men-egy-102486",
+            "name": "ELBEIALI Mohamed"
+          },
+          {
+            "id": "men-egy-116831",
+            "name": "HELMY Mahmoud"
           }
         ]
       },
@@ -504,6 +521,14 @@
           {
             "id": "men-kaz-131150",
             "name": "KENZHIGULOV Aidos"
+          },
+          {
+            "id": "men-kaz-137569",
+            "name": "ZHUBANOV Sanzhar"
+          },
+          {
+            "id": "men-kaz-134398",
+            "name": "KHARKI Iskender"
           }
         ]
       },
@@ -898,6 +923,10 @@
           {
             "id": "women-egy-132028",
             "name": "BADAWY Farida"
+          },
+          {
+            "id": "women-egy-120725",
+            "name": "ALHODABY Marwa"
           }
         ]
       },
@@ -917,6 +946,14 @@
           {
             "id": "women-hkg-132318",
             "name": "NG Wing Lam"
+          },
+          {
+            "id": "women-hkg-132320",
+            "name": "LEE Hoi Man"
+          },
+          {
+            "id": "women-hkg-135187",
+            "name": "KONG Tsz Lam"
           }
         ]
       },
@@ -936,6 +973,10 @@
           {
             "id": "women-ned-131765",
             "name": "HELLE Tanja"
+          },
+          {
+            "id": "women-ned-131383",
+            "name": "MEN Shuohan"
           }
         ]
       },
@@ -955,6 +996,10 @@
           {
             "id": "women-bra-136420",
             "name": "WATANABE Laura"
+          },
+          {
+            "id": "women-bra-146091",
+            "name": "STRASSBURGER Victoria"
           }
         ]
       },
@@ -974,6 +1019,10 @@
           {
             "id": "women-kaz-133074",
             "name": "BAKHYT Anel"
+          },
+          {
+            "id": "women-kaz-200323",
+            "name": "KOSHKUMBAYEVA Zhanerke"
           }
         ]
       },
@@ -1225,6 +1274,14 @@
           {
             "id": "women-cro-122988",
             "name": "PAVLOVIC Andrea"
+          },
+          {
+            "id": "women-cro-113944",
+            "name": "RAKOVAC Lea"
+          },
+          {
+            "id": "women-cro-105779",
+            "name": "MALOBABIC Ivana"
           }
         ]
       },
@@ -1244,6 +1301,10 @@
           {
             "id": "women-ita-110995",
             "name": "VIVARELLI Debora"
+          },
+          {
+            "id": "women-ita-131581",
+            "name": "ARLIA Nicole"
           }
         ]
       },
@@ -1343,6 +1404,430 @@
           {
             "id": "women-sui-206951",
             "name": "WU Michelle"
+          },
+          {
+            "id": "women-sui-201110",
+            "name": "HU Enya"
+          }
+        ]
+      },
+      {
+        "id": "men-lux",
+        "draw": "men",
+        "team": "LUX",
+        "players": [
+          {
+            "id": "men-lux-136399",
+            "name": "VAN DESSEL Mael"
+          },
+          {
+            "id": "men-lux-120074",
+            "name": "MLADENOVIC Luka"
+          },
+          {
+            "id": "men-lux-136353",
+            "name": "WANTZ Gene"
+          },
+          {
+            "id": "men-lux-136158",
+            "name": "SCHOLTES Tom"
+          },
+          {
+            "id": "men-lux-146259",
+            "name": "SAHR Aaron"
+          }
+        ]
+      },
+      {
+        "id": "men-qat",
+        "draw": "men",
+        "team": "QAT",
+        "players": [
+          {
+            "id": "men-qat-131156",
+            "name": "ABDULWAHHAB Mohammed"
+          },
+          {
+            "id": "men-qat-135383",
+            "name": "ALNASER Rawad"
+          },
+          {
+            "id": "men-qat-135386",
+            "name": "AL-KUWARI Sultan"
+          },
+          {
+            "id": "men-qat-144667",
+            "name": "ABDULWAHHAB Abdullah"
+          }
+        ]
+      },
+      {
+        "id": "men-tha",
+        "draw": "men",
+        "team": "THA",
+        "players": [
+          {
+            "id": "men-tha-117914",
+            "name": "TANCHAROEN Sarayut"
+          },
+          {
+            "id": "men-tha-202414",
+            "name": "PREECHAYAN Thitaphat"
+          },
+          {
+            "id": "men-tha-108276",
+            "name": "SANGUANSIN Phakpoom"
+          }
+        ]
+      },
+      {
+        "id": "men-tur",
+        "draw": "men",
+        "team": "TUR",
+        "players": [
+          {
+            "id": "men-tur-120168",
+            "name": "GUNDUZ Ibrahim"
+          },
+          {
+            "id": "men-tur-201124",
+            "name": "OCAL Gorkem"
+          },
+          {
+            "id": "men-tur-119585",
+            "name": "YIGENLER Abdullah"
+          }
+        ]
+      },
+      {
+        "id": "women-alg",
+        "draw": "women",
+        "team": "ALG",
+        "players": [
+          {
+            "id": "women-alg-204592",
+            "name": "MORICE Tania"
+          },
+          {
+            "id": "women-alg-204591",
+            "name": "MORICE Jade"
+          },
+          {
+            "id": "women-alg-146183",
+            "name": "TAZEROUTI Amani"
+          },
+          {
+            "id": "women-alg-120750",
+            "name": "NASRI Malissa"
+          }
+        ]
+      },
+      {
+        "id": "women-rsa",
+        "draw": "women",
+        "team": "RSA",
+        "players": [
+          {
+            "id": "women-rsa-112086",
+            "name": "PATEL Danisha"
+          },
+          {
+            "id": "women-rsa-202645",
+            "name": "SONDAY Rochica"
+          },
+          {
+            "id": "women-rsa-120795",
+            "name": "SASMAN Jade"
+          }
+        ]
+      },
+      {
+        "id": "women-bel",
+        "draw": "women",
+        "team": "BEL",
+        "players": [
+          {
+            "id": "women-bel-133609",
+            "name": "VAN HAUWAERT Julie"
+          },
+          {
+            "id": "women-bel-136258",
+            "name": "MASSART Lilou"
+          },
+          {
+            "id": "women-bel-118774",
+            "name": "DEGRAEF Margo"
+          }
+        ]
+      },
+      {
+        "id": "women-mex",
+        "draw": "women",
+        "team": "MEX",
+        "players": [
+          {
+            "id": "women-mex-131618",
+            "name": "BARCENAS Clio"
+          },
+          {
+            "id": "women-mex-134356",
+            "name": "COSSIO Arantxa"
+          },
+          {
+            "id": "women-mex-134060",
+            "name": "MUNOZ Monica"
+          },
+          {
+            "id": "women-mex-134776",
+            "name": "ACEVES Marbella"
+          }
+        ]
+      },
+      {
+        "id": "women-mac",
+        "draw": "women",
+        "team": "MAC",
+        "players": [
+          {
+            "id": "women-mac-120230",
+            "name": "LEONG On Na"
+          },
+          {
+            "id": "women-mac-207490",
+            "name": "SEAK Hui Li"
+          },
+          {
+            "id": "women-mac-207487",
+            "name": "CHEONG Chi Hun"
+          },
+          {
+            "id": "women-mac-210381",
+            "name": "CHONG Iok Teng"
+          },
+          {
+            "id": "women-mac-207486",
+            "name": "KUAN Cheok Lam"
+          }
+        ]
+      },
+      {
+        "id": "women-cze",
+        "draw": "women",
+        "team": "CZE",
+        "players": [
+          {
+            "id": "women-cze-113942",
+            "name": "GROFOVA Karin"
+          },
+          {
+            "id": "women-cze-200095",
+            "name": "KODET Hanka"
+          },
+          {
+            "id": "women-cze-145746",
+            "name": "POLAKOVA Veronika"
+          }
+        ]
+      },
+      {
+        "id": "women-mgl",
+        "draw": "women",
+        "team": "MGL",
+        "players": [
+          {
+            "id": "women-mgl-144596",
+            "name": "UVGUNBURGED Baljinnyam"
+          },
+          {
+            "id": "women-mgl-132126",
+            "name": "BATMUNKH Bolor-Erdene"
+          },
+          {
+            "id": "women-mgl-210276",
+            "name": "SER-OD Ankhmaa"
+          },
+          {
+            "id": "women-mgl-210279",
+            "name": "SANJAA Burenjargal"
+          },
+          {
+            "id": "women-mgl-144600",
+            "name": "BAT-ERDENE Egshiglen"
+          }
+        ]
+      },
+      {
+        "id": "women-arg",
+        "draw": "women",
+        "team": "ARG",
+        "players": [
+          {
+            "id": "women-arg-119109",
+            "name": "ARGUELLES Camila"
+          },
+          {
+            "id": "women-arg-111053",
+            "name": "CODINA Ana"
+          },
+          {
+            "id": "women-arg-202016",
+            "name": "FRIAS Luciana"
+          },
+          {
+            "id": "women-arg-201828",
+            "name": "MARCIAL Alma"
+          }
+        ]
+      },
+      {
+        "id": "women-tur",
+        "draw": "women",
+        "team": "TUR",
+        "players": [
+          {
+            "id": "women-tur-112944",
+            "name": "ALTINKAYA Sibel"
+          },
+          {
+            "id": "women-tur-133340",
+            "name": "HARAC Ece"
+          },
+          {
+            "id": "women-tur-133026",
+            "name": "YILMAZ Ozge"
+          }
+        ]
+      },
+      {
+        "id": "women-aus",
+        "draw": "women",
+        "team": "AUS",
+        "players": [
+          {
+            "id": "women-aus-137627",
+            "name": "LIU Yangzi"
+          },
+          {
+            "id": "women-aus-131132",
+            "name": "WU Jiamuwa"
+          },
+          {
+            "id": "women-aus-145134",
+            "name": "PSIHOGIOS Constantina"
+          }
+        ]
+      },
+      {
+        "id": "women-tha",
+        "draw": "women",
+        "team": "THA",
+        "players": [
+          {
+            "id": "women-tha-120972",
+            "name": "PARANANG Orawan"
+          },
+          {
+            "id": "women-tha-111833",
+            "name": "SAWETTABUT Suthasini"
+          },
+          {
+            "id": "women-tha-123894",
+            "name": "SAWETTABUT Jinnipa"
+          }
+        ]
+      },
+      {
+        "id": "women-hun",
+        "draw": "women",
+        "team": "HUN",
+        "players": [
+          {
+            "id": "women-hun-200875",
+            "name": "NAGY Rebeka"
+          },
+          {
+            "id": "women-hun-200876",
+            "name": "NAGY Judit"
+          },
+          {
+            "id": "women-hun-200268",
+            "name": "DOHOCZKI Nora"
+          }
+        ]
+      },
+      {
+        "id": "men-mex",
+        "draw": "men",
+        "team": "MEX",
+        "players": [
+          {
+            "id": "men-mex-105679",
+            "name": "MADRID Marcos"
+          },
+          {
+            "id": "men-mex-134849",
+            "name": "CASTRO Rogelio"
+          },
+          {
+            "id": "men-mex-121278",
+            "name": "ARCE Dario"
+          }
+        ]
+      },
+      {
+        "id": "men-gre",
+        "draw": "men",
+        "team": "GRE",
+        "players": [
+          {
+            "id": "men-gre-121693",
+            "name": "SGOUROPOULOS Ioannis"
+          },
+          {
+            "id": "men-gre-103107",
+            "name": "GIONIS Panagiotis"
+          },
+          {
+            "id": "men-gre-123514",
+            "name": "STAMATOUROS Georgios"
+          }
+        ]
+      },
+      {
+        "id": "men-arg",
+        "draw": "men",
+        "team": "ARG",
+        "players": [
+          {
+            "id": "men-arg-132793",
+            "name": "LORENZO Santiago"
+          },
+          {
+            "id": "men-arg-119316",
+            "name": "CIFUENTES Horacio"
+          },
+          {
+            "id": "men-arg-117530",
+            "name": "SANCHI Francisco"
+          }
+        ]
+      },
+      {
+        "id": "men-ngr",
+        "draw": "men",
+        "team": "NGR",
+        "players": [
+          {
+            "id": "men-ngr-113563",
+            "name": "OMOTAYO Olajide"
+          },
+          {
+            "id": "men-ngr-112092",
+            "name": "ARUNA Quadri"
+          },
+          {
+            "id": "men-ngr-202627",
+            "name": "KUTI Matthew"
           }
         ]
       }
@@ -1427,6 +1912,142 @@
       }
     },
     "stages": [
+      {
+        "id": "women-qualification",
+        "draw": "women",
+        "name": "资格小组（Stage 1B，部分完整组）",
+        "kind": "group",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第1单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第2单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第3单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第4单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第5单打",
+            "kind": "singles",
+            "rule": "tt"
+          }
+        ]
+      },
+      {
+        "id": "women-playoff",
+        "draw": "women",
+        "name": "资格附加赛（胜者进入32强）",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第1单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第2单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第3单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第4单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第5单打",
+            "kind": "singles",
+            "rule": "tt"
+          }
+        ]
+      },
+      {
+        "id": "men-qualification",
+        "draw": "men",
+        "name": "资格小组（Stage 1B，部分完整组）",
+        "kind": "group",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第1单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第2单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第3单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第4单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第5单打",
+            "kind": "singles",
+            "rule": "tt"
+          }
+        ]
+      },
+      {
+        "id": "men-playoff",
+        "draw": "men",
+        "name": "资格附加赛（胜者进入32强）",
+        "kind": "knockout",
+        "mode": "first_to_three",
+        "order": [
+          {
+            "name": "第1单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第2单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第3单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第4单打",
+            "kind": "singles",
+            "rule": "tt"
+          },
+          {
+            "name": "第5单打",
+            "kind": "singles",
+            "rule": "tt"
+          }
+        ]
+      },
       {
         "id": "men-seeding",
         "draw": "men",
@@ -1662,6 +2283,156 @@
               "women-pool"
             ],
             "verified_at": "2026-11-18T07:04:27+08:00"
+          }
+        }
+      },
+      {
+        "id": "men-qual-8",
+        "stage": "men-qualification",
+        "name": "资格第8组",
+        "teams": [
+          "men-cro",
+          "men-srb",
+          "men-lux",
+          "men-qat"
+        ],
+        "standings": {
+          "order": [
+            "men-cro",
+            "men-srb",
+            "men-lux",
+            "men-qat"
+          ],
+          "verification": {
+            "source_ids": [
+              "men-pool"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        }
+      },
+      {
+        "id": "men-qual-11",
+        "stage": "men-qualification",
+        "name": "资格第11组",
+        "teams": [
+          "men-kaz",
+          "men-egy",
+          "men-tur",
+          "men-tha"
+        ],
+        "standings": {
+          "order": [
+            "men-kaz",
+            "men-egy",
+            "men-tur",
+            "men-tha"
+          ],
+          "verification": {
+            "source_ids": [
+              "men-pool"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qual-3",
+        "stage": "women-qualification",
+        "name": "资格第3组",
+        "teams": [
+          "women-egy",
+          "women-bel",
+          "women-alg",
+          "women-rsa"
+        ],
+        "standings": {
+          "order": [
+            "women-egy",
+            "women-bel",
+            "women-alg",
+            "women-rsa"
+          ],
+          "verification": {
+            "source_ids": [
+              "women-pool"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qual-4",
+        "stage": "women-qualification",
+        "name": "资格第4组",
+        "teams": [
+          "women-hkg",
+          "women-ned",
+          "women-mex",
+          "women-mac"
+        ],
+        "standings": {
+          "order": [
+            "women-hkg",
+            "women-ned",
+            "women-mex",
+            "women-mac"
+          ],
+          "verification": {
+            "source_ids": [
+              "women-pool"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qual-5",
+        "stage": "women-qualification",
+        "name": "资格第5组",
+        "teams": [
+          "women-bra",
+          "women-kaz",
+          "women-cze",
+          "women-mgl"
+        ],
+        "standings": {
+          "order": [
+            "women-bra",
+            "women-kaz",
+            "women-cze",
+            "women-mgl"
+          ],
+          "verification": {
+            "source_ids": [
+              "women-pool"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qual-13",
+        "stage": "women-qualification",
+        "name": "资格第13组",
+        "teams": [
+          "women-ita",
+          "women-cro",
+          "women-tur",
+          "women-arg"
+        ],
+        "standings": {
+          "order": [
+            "women-ita",
+            "women-cro",
+            "women-tur",
+            "women-arg"
+          ],
+          "verification": {
+            "source_ids": [
+              "women-pool"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
           }
         }
       }
@@ -2437,6 +3208,7006 @@
       }
     ],
     "ties": [
+      {
+        "id": "men-playoff-1",
+        "stage": "men-playoff",
+        "round": "资格附加赛",
+        "slots": [
+          {
+            "team": "men-mda"
+          },
+          {
+            "team": "men-gre"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "men-mda",
+            "men-gre"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-mda-122320"
+              ],
+              [
+                "men-gre-121693"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                13,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-mda-117865"
+              ],
+              [
+                "men-gre-103107"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                15,
+                13
+              ],
+              [
+                13,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-mda-119578"
+              ],
+              [
+                "men-gre-123514"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                12,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-mda-122320"
+              ],
+              [
+                "men-gre-103107"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                13
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "men-mda-117865"
+              ],
+              [
+                "men-gre-121693"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-playoff-2",
+        "stage": "men-playoff",
+        "round": "资格附加赛",
+        "slots": [
+          {
+            "team": "men-ita"
+          },
+          {
+            "team": "men-arg"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "men-ita",
+            "men-arg"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-ita-122051"
+              ],
+              [
+                "men-arg-132793"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-ita-120287"
+              ],
+              [
+                "men-arg-119316"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                2,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                14,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-ita-143942"
+              ],
+              [
+                "men-arg-117530"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                14,
+                12
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-playoff-3",
+        "stage": "men-playoff",
+        "round": "资格附加赛",
+        "slots": [
+          {
+            "team": "men-egy"
+          },
+          {
+            "team": "men-ngr"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "men-egy",
+            "men-ngr"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-egy-116723"
+              ],
+              [
+                "men-ngr-113563"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-egy-100696"
+              ],
+              [
+                "men-ngr-112092"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-egy-135595"
+              ],
+              [
+                "men-ngr-202627"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-playoff-4",
+        "stage": "men-playoff",
+        "round": "资格附加赛",
+        "slots": [
+          {
+            "team": "men-srb"
+          },
+          {
+            "team": "men-mex"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "men-srb",
+            "men-mex"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-srb-123192"
+              ],
+              [
+                "men-mex-105679"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                13,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-srb-107324"
+              ],
+              [
+                "men-mex-134849"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                6,
+                11
+              ],
+              [
+                2,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-srb-145352"
+              ],
+              [
+                "men-mex-121278"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-srb-123192"
+              ],
+              [
+                "men-mex-134849"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                14,
+                12
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-11-1",
+        "stage": "men-qualification",
+        "round": "资格第11组",
+        "slots": [
+          {
+            "team": "men-egy"
+          },
+          {
+            "team": "men-tha"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "men-egy",
+            "men-tha"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-11",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-egy-100696"
+              ],
+              [
+                "men-tha-202414"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-egy-116723"
+              ],
+              [
+                "men-tha-108276"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                11,
+                2
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-egy-116831"
+              ],
+              [
+                "men-tha-117914"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                13
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                14,
+                12
+              ],
+              [
+                7,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-egy-100696"
+              ],
+              [
+                "men-tha-108276"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-11-2",
+        "stage": "men-qualification",
+        "round": "资格第11组",
+        "slots": [
+          {
+            "team": "men-kaz"
+          },
+          {
+            "team": "men-tur"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "men-kaz",
+            "men-tur"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-11",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-kaz-117890"
+              ],
+              [
+                "men-tur-119585"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-kaz-137568"
+              ],
+              [
+                "men-tur-201124"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-kaz-131150"
+              ],
+              [
+                "men-tur-120168"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                2,
+                11
+              ],
+              [
+                12,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-kaz-117890"
+              ],
+              [
+                "men-tur-201124"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-11-3",
+        "stage": "men-qualification",
+        "round": "资格第11组",
+        "slots": [
+          {
+            "team": "men-egy"
+          },
+          {
+            "team": "men-kaz"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "men-egy",
+            "men-kaz"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-11",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-egy-100696"
+              ],
+              [
+                "men-kaz-117890"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                10,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-egy-102486"
+              ],
+              [
+                "men-kaz-137568"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-egy-116723"
+              ],
+              [
+                "men-kaz-134398"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-egy-100696"
+              ],
+              [
+                "men-kaz-137568"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "men-egy-102486"
+              ],
+              [
+                "men-kaz-117890"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                2,
+                11
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-11-4",
+        "stage": "men-qualification",
+        "round": "资格第11组",
+        "slots": [
+          {
+            "team": "men-tha"
+          },
+          {
+            "team": "men-tur"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "men-tha",
+            "men-tur"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-11",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-tha-108276"
+              ],
+              [
+                "men-tur-201124"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-tha-117914"
+              ],
+              [
+                "men-tur-120168"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-tha-202414"
+              ],
+              [
+                "men-tur-119585"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                5,
+                11
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-tha-108276"
+              ],
+              [
+                "men-tur-120168"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-11-5",
+        "stage": "men-qualification",
+        "round": "资格第11组",
+        "slots": [
+          {
+            "team": "men-tur"
+          },
+          {
+            "team": "men-egy"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "men-tur",
+            "men-egy"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-11",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-tur-120168"
+              ],
+              [
+                "men-egy-100696"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-tur-201124"
+              ],
+              [
+                "men-egy-116723"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                13
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-tur-119585"
+              ],
+              [
+                "men-egy-135595"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                14,
+                12
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-tur-120168"
+              ],
+              [
+                "men-egy-116723"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "men-tur-201124"
+              ],
+              [
+                "men-egy-100696"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                13
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-11-6",
+        "stage": "men-qualification",
+        "round": "资格第11组",
+        "slots": [
+          {
+            "team": "men-kaz"
+          },
+          {
+            "team": "men-tha"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "men-kaz",
+            "men-tha"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-11",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-kaz-117890"
+              ],
+              [
+                "men-tha-117914"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-kaz-137568"
+              ],
+              [
+                "men-tha-202414"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-kaz-137569"
+              ],
+              [
+                "men-tha-108276"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                13
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-kaz-117890"
+              ],
+              [
+                "men-tha-202414"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-8-1",
+        "stage": "men-qualification",
+        "round": "资格第8组",
+        "slots": [
+          {
+            "team": "men-lux"
+          },
+          {
+            "team": "men-cro"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "men-lux",
+            "men-cro"
+          ],
+          "score": [
+            1,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-8",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-lux-136399"
+              ],
+              [
+                "men-cro-104760"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-lux-120074"
+              ],
+              [
+                "men-cro-116532"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                5,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-lux-146259"
+              ],
+              [
+                "men-cro-102891"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-lux-136399"
+              ],
+              [
+                "men-cro-116532"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-8-2",
+        "stage": "men-qualification",
+        "round": "资格第8组",
+        "slots": [
+          {
+            "team": "men-srb"
+          },
+          {
+            "team": "men-qat"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "men-srb",
+            "men-qat"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-8",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-srb-123192"
+              ],
+              [
+                "men-qat-135386"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                15,
+                13
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-srb-107324"
+              ],
+              [
+                "men-qat-131156"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-srb-145352"
+              ],
+              [
+                "men-qat-144667"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-8-3",
+        "stage": "men-qualification",
+        "round": "资格第8组",
+        "slots": [
+          {
+            "team": "men-cro"
+          },
+          {
+            "team": "men-srb"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "men-cro",
+            "men-srb"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-8",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-cro-116532"
+              ],
+              [
+                "men-srb-145352"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-cro-102891"
+              ],
+              [
+                "men-srb-123192"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                1
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-cro-116680"
+              ],
+              [
+                "men-srb-134227"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                3
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-8-4",
+        "stage": "men-qualification",
+        "round": "资格第8组",
+        "slots": [
+          {
+            "team": "men-qat"
+          },
+          {
+            "team": "men-lux"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "men-qat",
+            "men-lux"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-8",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-qat-131156"
+              ],
+              [
+                "men-lux-136399"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-qat-144667"
+              ],
+              [
+                "men-lux-120074"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                1,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-qat-135383"
+              ],
+              [
+                "men-lux-136158"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-8-5",
+        "stage": "men-qualification",
+        "round": "资格第8组",
+        "slots": [
+          {
+            "team": "men-qat"
+          },
+          {
+            "team": "men-cro"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "men-qat",
+            "men-cro"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-8",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-qat-131156"
+              ],
+              [
+                "men-cro-122982"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-qat-135383"
+              ],
+              [
+                "men-cro-116680"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-qat-135386"
+              ],
+              [
+                "men-cro-102891"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                5,
+                11
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-qual-8-6",
+        "stage": "men-qualification",
+        "round": "资格第8组",
+        "slots": [
+          {
+            "team": "men-srb"
+          },
+          {
+            "team": "men-lux"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "men-srb",
+            "men-lux"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "men-qual-8",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-srb-123192"
+              ],
+              [
+                "men-lux-136399"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                13,
+                15
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-srb-107324"
+              ],
+              [
+                "men-lux-120074"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                6,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                2,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-srb-134227"
+              ],
+              [
+                "men-lux-136353"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "men-srb-123192"
+              ],
+              [
+                "men-lux-120074"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                20,
+                22
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-playoff-1",
+        "stage": "women-playoff",
+        "round": "资格附加赛",
+        "slots": [
+          {
+            "team": "women-kaz"
+          },
+          {
+            "team": "women-bel"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "women-kaz",
+            "women-bel"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-kaz-123228"
+              ],
+              [
+                "women-bel-133609"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-kaz-133113"
+              ],
+              [
+                "women-bel-136258"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-kaz-200323"
+              ],
+              [
+                "women-bel-118774"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                3
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-playoff-2",
+        "stage": "women-playoff",
+        "round": "资格附加赛",
+        "slots": [
+          {
+            "team": "women-sui"
+          },
+          {
+            "team": "women-hun"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "women-sui",
+            "women-hun"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-sui-111416"
+              ],
+              [
+                "women-hun-200875"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                7,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-sui-137036"
+              ],
+              [
+                "women-hun-200876"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-sui-201110"
+              ],
+              [
+                "women-hun-200268"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                5,
+                11
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                10,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-sui-111416"
+              ],
+              [
+                "women-hun-200876"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "women-sui-137036"
+              ],
+              [
+                "women-hun-200875"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-playoff-3",
+        "stage": "women-playoff",
+        "round": "资格附加赛",
+        "slots": [
+          {
+            "team": "women-tha"
+          },
+          {
+            "team": "women-pol"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "women-tha",
+            "women-pol"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-tha-120972"
+              ],
+              [
+                "women-pol-135039"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-tha-111833"
+              ],
+              [
+                "women-pol-115454"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-tha-123894"
+              ],
+              [
+                "women-pol-121041"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                13
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                7,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-tha-120972"
+              ],
+              [
+                "women-pol-115454"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                13,
+                11
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "women-tha-111833"
+              ],
+              [
+                "women-pol-135039"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-playoff-4",
+        "stage": "women-playoff",
+        "round": "资格附加赛",
+        "slots": [
+          {
+            "team": "women-aus"
+          },
+          {
+            "team": "women-cro"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "women-aus",
+            "women-cro"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-aus-137627"
+              ],
+              [
+                "women-cro-113944"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                3,
+                11
+              ],
+              [
+                13,
+                15
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-aus-131132"
+              ],
+              [
+                "women-cro-132756"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-aus-145134"
+              ],
+              [
+                "women-cro-105779"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                12,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-aus-137627"
+              ],
+              [
+                "women-cro-132756"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                3
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "women-aus-131132"
+              ],
+              [
+                "women-cro-113944"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                6,
+                11
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                10,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-13-1",
+        "stage": "women-qualification",
+        "round": "资格第13组",
+        "slots": [
+          {
+            "team": "women-cro"
+          },
+          {
+            "team": "women-arg"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-cro",
+            "women-arg"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-13",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-cro-132756"
+              ],
+              [
+                "women-arg-111053"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-cro-113944"
+              ],
+              [
+                "women-arg-119109"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                2
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-cro-105779"
+              ],
+              [
+                "women-arg-201828"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                3
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-13-2",
+        "stage": "women-qualification",
+        "round": "资格第13组",
+        "slots": [
+          {
+            "team": "women-ita"
+          },
+          {
+            "team": "women-tur"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-ita",
+            "women-tur"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-13",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-ita-120294"
+              ],
+              [
+                "women-tur-112944"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                1
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-ita-115413"
+              ],
+              [
+                "women-tur-133340"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-ita-131581"
+              ],
+              [
+                "women-tur-133026"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-13-3",
+        "stage": "women-qualification",
+        "round": "资格第13组",
+        "slots": [
+          {
+            "team": "women-ita"
+          },
+          {
+            "team": "women-cro"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "women-ita",
+            "women-cro"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-13",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-ita-120294"
+              ],
+              [
+                "women-cro-105779"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-ita-115413"
+              ],
+              [
+                "women-cro-132756"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                17,
+                15
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-ita-131581"
+              ],
+              [
+                "women-cro-113944"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                12,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-13-4",
+        "stage": "women-qualification",
+        "round": "资格第13组",
+        "slots": [
+          {
+            "team": "women-arg"
+          },
+          {
+            "team": "women-tur"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "women-arg",
+            "women-tur"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-13",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-arg-119109"
+              ],
+              [
+                "women-tur-133340"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                6,
+                11
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-arg-111053"
+              ],
+              [
+                "women-tur-112944"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-arg-202016"
+              ],
+              [
+                "women-tur-133026"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-13-5",
+        "stage": "women-qualification",
+        "round": "资格第13组",
+        "slots": [
+          {
+            "team": "women-cro"
+          },
+          {
+            "team": "women-tur"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "women-cro",
+            "women-tur"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-13",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-cro-132756"
+              ],
+              [
+                "women-tur-112944"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-cro-113944"
+              ],
+              [
+                "women-tur-133340"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                14,
+                12
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                11,
+                0
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-cro-105779"
+              ],
+              [
+                "women-tur-133026"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-cro-132756"
+              ],
+              [
+                "women-tur-133340"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                7,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "women-cro-113944"
+              ],
+              [
+                "women-tur-112944"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-13-6",
+        "stage": "women-qualification",
+        "round": "资格第13组",
+        "slots": [
+          {
+            "team": "women-ita"
+          },
+          {
+            "team": "women-arg"
+          }
+        ],
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "women-ita",
+            "women-arg"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-13",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-ita-120294"
+              ],
+              [
+                "women-arg-119109"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-ita-115413"
+              ],
+              [
+                "women-arg-111053"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-ita-131581"
+              ],
+              [
+                "women-arg-202016"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-3-1",
+        "stage": "women-qualification",
+        "round": "资格第3组",
+        "slots": [
+          {
+            "team": "women-egy"
+          },
+          {
+            "team": "women-rsa"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-egy",
+            "women-rsa"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-3",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-egy-131335"
+              ],
+              [
+                "women-rsa-112086"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                3
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-egy-111656"
+              ],
+              [
+                "women-rsa-202645"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-egy-132028"
+              ],
+              [
+                "women-rsa-120795"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                3
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-3-2",
+        "stage": "women-qualification",
+        "round": "资格第3组",
+        "slots": [
+          {
+            "team": "women-bel"
+          },
+          {
+            "team": "women-alg"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-bel",
+            "women-alg"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-3",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-bel-133609"
+              ],
+              [
+                "women-alg-120750"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                11,
+                3
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-bel-136258"
+              ],
+              [
+                "women-alg-204592"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-bel-118774"
+              ],
+              [
+                "women-alg-204591"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-3-3",
+        "stage": "women-qualification",
+        "round": "资格第3组",
+        "slots": [
+          {
+            "team": "women-alg"
+          },
+          {
+            "team": "women-egy"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "women-alg",
+            "women-egy"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-3",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-alg-204592"
+              ],
+              [
+                "women-egy-111656"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-alg-204591"
+              ],
+              [
+                "women-egy-131335"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                2,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-alg-120750"
+              ],
+              [
+                "women-egy-120725"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                2,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-3-4",
+        "stage": "women-qualification",
+        "round": "资格第3组",
+        "slots": [
+          {
+            "team": "women-bel"
+          },
+          {
+            "team": "women-rsa"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "women-bel",
+            "women-rsa"
+          ],
+          "score": [
+            3,
+            2
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-3",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-bel-133609"
+              ],
+              [
+                "women-rsa-112086"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                2
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-bel-136258"
+              ],
+              [
+                "women-rsa-202645"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                7,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-bel-118774"
+              ],
+              [
+                "women-rsa-120795"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-bel-133609"
+              ],
+              [
+                "women-rsa-202645"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "women-bel-136258"
+              ],
+              [
+                "women-rsa-112086"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                12,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-3-5",
+        "stage": "women-qualification",
+        "round": "资格第3组",
+        "slots": [
+          {
+            "team": "women-egy"
+          },
+          {
+            "team": "women-bel"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "women-egy",
+            "women-bel"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-3",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-egy-131335"
+              ],
+              [
+                "women-bel-118774"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-egy-111656"
+              ],
+              [
+                "women-bel-136258"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                3
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-egy-120726"
+              ],
+              [
+                "women-bel-133609"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                2
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-3-6",
+        "stage": "women-qualification",
+        "round": "资格第3组",
+        "slots": [
+          {
+            "team": "women-alg"
+          },
+          {
+            "team": "women-rsa"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "women-alg",
+            "women-rsa"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-3",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-alg-204592"
+              ],
+              [
+                "women-rsa-112086"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-alg-204591"
+              ],
+              [
+                "women-rsa-202645"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                14,
+                12
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-alg-146183"
+              ],
+              [
+                "women-rsa-120795"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                3,
+                11
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-alg-204592"
+              ],
+              [
+                "women-rsa-202645"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-4-1",
+        "stage": "women-qualification",
+        "round": "资格第4组",
+        "slots": [
+          {
+            "team": "women-hkg"
+          },
+          {
+            "team": "women-ned"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-hkg",
+            "women-ned"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-4",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-hkg-115543"
+              ],
+              [
+                "women-ned-113701"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                14,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-hkg-206252"
+              ],
+              [
+                "women-ned-111772"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-hkg-132318"
+              ],
+              [
+                "women-ned-131383"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                13,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-hkg-115543"
+              ],
+              [
+                "women-ned-111772"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-4-2",
+        "stage": "women-qualification",
+        "round": "资格第4组",
+        "slots": [
+          {
+            "team": "women-mac"
+          },
+          {
+            "team": "women-mex"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-mac",
+            "women-mex"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-4",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-mac-120230"
+              ],
+              [
+                "women-mex-131618"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                6,
+                11
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                6,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-mac-207490"
+              ],
+              [
+                "women-mex-134356"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                3,
+                11
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-mac-207487"
+              ],
+              [
+                "women-mex-134060"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                1
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                10,
+                12
+              ],
+              [
+                5,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-4-3",
+        "stage": "women-qualification",
+        "round": "资格第4组",
+        "slots": [
+          {
+            "team": "women-hkg"
+          },
+          {
+            "team": "women-mex"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "women-hkg",
+            "women-mex"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-4",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-hkg-115543"
+              ],
+              [
+                "women-mex-134356"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                13,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-hkg-206252"
+              ],
+              [
+                "women-mex-134060"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-hkg-132318"
+              ],
+              [
+                "women-mex-131618"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                14,
+                12
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-4-4",
+        "stage": "women-qualification",
+        "round": "资格第4组",
+        "slots": [
+          {
+            "team": "women-mac"
+          },
+          {
+            "team": "women-ned"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "women-mac",
+            "women-ned"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-4",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-mac-120230"
+              ],
+              [
+                "women-ned-113701"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                10,
+                12
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-mac-207490"
+              ],
+              [
+                "women-ned-111772"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-mac-207486"
+              ],
+              [
+                "women-ned-131383"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                9,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-4-5",
+        "stage": "women-qualification",
+        "round": "资格第4组",
+        "slots": [
+          {
+            "team": "women-mac"
+          },
+          {
+            "team": "women-hkg"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "women-mac",
+            "women-hkg"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-4",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-mac-207487"
+              ],
+              [
+                "women-hkg-132320"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                6,
+                11
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-mac-210381"
+              ],
+              [
+                "women-hkg-206252"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                3,
+                11
+              ],
+              [
+                1,
+                11
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-mac-120230"
+              ],
+              [
+                "women-hkg-135187"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-4-6",
+        "stage": "women-qualification",
+        "round": "资格第4组",
+        "slots": [
+          {
+            "team": "women-mex"
+          },
+          {
+            "team": "women-ned"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "women-mex",
+            "women-ned"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-4",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-mex-134356"
+              ],
+              [
+                "women-ned-111772"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-mex-131618"
+              ],
+              [
+                "women-ned-113701"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                5,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-mex-134776"
+              ],
+              [
+                "women-ned-131383"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                3,
+                11
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                5,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-5-1",
+        "stage": "women-qualification",
+        "round": "资格第5组",
+        "slots": [
+          {
+            "team": "women-bra"
+          },
+          {
+            "team": "women-kaz"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-bra",
+            "women-kaz"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-5",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-bra-121623"
+              ],
+              [
+                "women-kaz-133113"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                0
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-bra-133478"
+              ],
+              [
+                "women-kaz-123228"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-bra-136420"
+              ],
+              [
+                "women-kaz-200323"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-bra-121623"
+              ],
+              [
+                "women-kaz-123228"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-5-2",
+        "stage": "women-qualification",
+        "round": "资格第5组",
+        "slots": [
+          {
+            "team": "women-cze"
+          },
+          {
+            "team": "women-mgl"
+          }
+        ],
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-cze",
+            "women-mgl"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-5",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-cze-113942"
+              ],
+              [
+                "women-mgl-144596"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-cze-200095"
+              ],
+              [
+                "women-mgl-132126"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                2
+              ],
+              [
+                16,
+                14
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-cze-145746"
+              ],
+              [
+                "women-mgl-210279"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                13
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-5-3",
+        "stage": "women-qualification",
+        "round": "资格第5组",
+        "slots": [
+          {
+            "team": "women-bra"
+          },
+          {
+            "team": "women-cze"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "women-bra",
+            "women-cze"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-5",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-bra-121623"
+              ],
+              [
+                "women-cze-113942"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-bra-133478"
+              ],
+              [
+                "women-cze-145746"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-bra-136420"
+              ],
+              [
+                "women-cze-200095"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                6,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-bra-121623"
+              ],
+              [
+                "women-cze-145746"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-5-4",
+        "stage": "women-qualification",
+        "round": "资格第5组",
+        "slots": [
+          {
+            "team": "women-kaz"
+          },
+          {
+            "team": "women-mgl"
+          }
+        ],
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "women-kaz",
+            "women-mgl"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-5",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-kaz-123228"
+              ],
+              [
+                "women-mgl-210279"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-kaz-133113"
+              ],
+              [
+                "women-mgl-132126"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-kaz-133074"
+              ],
+              [
+                "women-mgl-144600"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                2
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-5-5",
+        "stage": "women-qualification",
+        "round": "资格第5组",
+        "slots": [
+          {
+            "team": "women-bra"
+          },
+          {
+            "team": "women-mgl"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "women-bra",
+            "women-mgl"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-5",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-bra-133478"
+              ],
+              [
+                "women-mgl-144596"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                3
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-bra-136420"
+              ],
+              [
+                "women-mgl-132126"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                1
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-bra-146091"
+              ],
+              [
+                "women-mgl-210276"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                3
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-5-6",
+        "stage": "women-qualification",
+        "round": "资格第5组",
+        "slots": [
+          {
+            "team": "women-cze"
+          },
+          {
+            "team": "women-kaz"
+          }
+        ],
+        "completed_date": "2026-04-30",
+        "official_result": {
+          "result_for": [
+            "women-cze",
+            "women-kaz"
+          ],
+          "score": [
+            2,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        },
+        "group": "women-qual-5",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-cze-113942"
+              ],
+              [
+                "women-kaz-133113"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                13,
+                11
+              ],
+              [
+                12,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-cze-200095"
+              ],
+              [
+                "women-kaz-123228"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-cze-145746"
+              ],
+              [
+                "women-kaz-200323"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                5,
+                11
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                5,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "women-cze-113942"
+              ],
+              [
+                "women-kaz-123228"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          },
+          {
+            "position": 5,
+            "lineup": [
+              [
+                "women-cze-200095"
+              ],
+              [
+                "women-kaz-133113"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                12,
+                14
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-18T21:08:06+00:00"
+            }
+          }
+        ]
+      },
       {
         "id": "women-seed-1-1",
         "stage": "women-seeding",
