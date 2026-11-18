@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-18T16:01:24+08:00",
+      "snapshot_at": "2026-11-18T16:31:45+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -1148,7 +1148,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "men-r64-23",
@@ -2817,12 +2818,12 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "wtt-schedule"
+            "wtt-results"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-18T16:31:45+08:00"
         },
         "scheduled_at": "2026-11-18T11:35:00+04:00",
         "schedule_verification": {
@@ -2831,7 +2832,32 @@
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
         },
-        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
+        "result_for": [
+          "women-209670",
+          "women-135370"
+        ],
+        "games": [
+          [
+            11,
+            4
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            6,
+            11
+          ]
+        ]
       },
       {
         "id": "women-r64-31",
