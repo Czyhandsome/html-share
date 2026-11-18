@@ -11,13 +11,13 @@
     "11月16–21日 · 阿曼马斯喀特。本页仅收录男女单打正赛，各48名选手及16个轮空签位；不含资格赛与双打。",
     "96名选手的身份及代表队、32场首轮实赛的对阵与比赛编号已与WTT官方名单和赛程逐项核对。完整签表及轮空签位由Eleven与ぐぐスポ两家媒体交叉核验；未声称直接取得WTT完整签表原文件。",
     "资格赛落败的Bardet及Grebnev均已出现在官方正赛赛程，不推断其递补对应关系。未收录方博资格赛弃权的占位局分。",
-    "默认北京时间，可切换赛地Asia/Muscat时间。首轮时间来自官方计划，实际开赛可能顺延；后续轮次未公布时间，不猜测。"
+    "默认北京时间，可切换赛地Asia/Muscat时间。首轮及32强赛时间来自官方计划，实际开赛可能顺延；其余轮次未公布时间，不猜测。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-19T00:29:21+08:00",
+      "snapshot_at": "2026-11-19T01:00:48+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -622,7 +622,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "men-r64-3",
@@ -744,7 +745,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "men-r64-7",
@@ -1689,11 +1691,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T18:10:00+04:00"
       },
       {
         "id": "men-r32-2",
@@ -1711,11 +1713,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T12:10:00+04:00"
       },
       {
         "id": "men-r32-3",
@@ -1733,11 +1735,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T18:45:00+04:00"
       },
       {
         "id": "men-r32-4",
@@ -1755,11 +1757,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T13:55:00+04:00"
       },
       {
         "id": "men-r32-5",
@@ -1777,11 +1779,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T11:35:00+04:00"
       },
       {
         "id": "men-r32-6",
@@ -1799,11 +1801,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T17:00:00+04:00"
       },
       {
         "id": "men-r32-7",
@@ -1821,11 +1823,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T12:45:00+04:00"
       },
       {
         "id": "men-r32-8",
@@ -1843,11 +1845,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T17:00:00+04:00"
       },
       {
         "id": "men-r32-9",
@@ -1865,11 +1867,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T12:45:00+04:00"
       },
       {
         "id": "men-r32-10",
@@ -1887,11 +1889,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T13:20:00+04:00"
       },
       {
         "id": "men-r32-11",
@@ -1909,11 +1911,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T18:10:00+04:00"
       },
       {
         "id": "men-r32-12",
@@ -1931,11 +1933,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T18:10:00+04:00"
       },
       {
         "id": "men-r32-13",
@@ -1953,11 +1955,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T19:20:00+04:00"
       },
       {
         "id": "men-r32-14",
@@ -1975,11 +1977,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T13:20:00+04:00"
       },
       {
         "id": "men-r32-15",
@@ -1997,11 +1999,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T13:55:00+04:00"
       },
       {
         "id": "men-r32-16",
@@ -2019,11 +2021,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T17:35:00+04:00"
       },
       {
         "id": "men-r16-1",
@@ -3267,7 +3269,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "women-r64-27",
@@ -3295,7 +3298,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "women-r64-28",
@@ -3408,12 +3412,12 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "wtt-schedule"
+            "wtt-results"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-19T01:00:48+08:00"
         },
         "scheduled_at": "2026-11-18T19:55:00+04:00",
         "schedule_verification": {
@@ -3422,7 +3426,32 @@
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
         },
-        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
+        "result_for": [
+          "women-112280",
+          "women-122718"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            2,
+            11
+          ]
+        ]
       },
       {
         "id": "women-r64-32",
@@ -3462,11 +3491,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T17:35:00+04:00"
       },
       {
         "id": "women-r32-2",
@@ -3484,11 +3513,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T12:10:00+04:00"
       },
       {
         "id": "women-r32-3",
@@ -3506,11 +3535,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T13:20:00+04:00"
       },
       {
         "id": "women-r32-4",
@@ -3528,11 +3557,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T18:45:00+04:00"
       },
       {
         "id": "women-r32-5",
@@ -3550,11 +3579,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T13:20:00+04:00"
       },
       {
         "id": "women-r32-6",
@@ -3572,11 +3601,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T12:10:00+04:00"
       },
       {
         "id": "women-r32-7",
@@ -3594,11 +3623,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T17:00:00+04:00"
       },
       {
         "id": "women-r32-8",
@@ -3616,11 +3645,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T12:45:00+04:00"
       },
       {
         "id": "women-r32-9",
@@ -3638,11 +3667,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T17:35:00+04:00"
       },
       {
         "id": "women-r32-10",
@@ -3660,11 +3689,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T17:00:00+04:00"
       },
       {
         "id": "women-r32-11",
@@ -3682,11 +3711,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T17:35:00+04:00"
       },
       {
         "id": "women-r32-12",
@@ -3704,11 +3733,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T12:45:00+04:00"
       },
       {
         "id": "women-r32-13",
@@ -3726,11 +3755,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T13:55:00+04:00"
       },
       {
         "id": "women-r32-14",
@@ -3748,11 +3777,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T18:10:00+04:00"
       },
       {
         "id": "women-r32-15",
@@ -3770,11 +3799,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T19:55:00+04:00"
       },
       {
         "id": "women-r32-16",
@@ -3792,11 +3821,11 @@
         "status": "scheduled",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-schedule"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-19T01:00:48+08:00"
+        },
+        "scheduled_at": "2026-11-19T13:55:00+04:00"
       },
       {
         "id": "women-r16-1",
