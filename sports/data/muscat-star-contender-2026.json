@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-18T23:31:33+08:00",
+      "snapshot_at": "2026-11-19T00:02:34+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -1005,12 +1005,12 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "wtt-schedule"
+            "wtt-results"
           ],
-          "verified_at": "2026-11-18T10:22:44+08:00"
+          "verified_at": "2026-11-19T00:02:34+08:00"
         },
         "scheduled_at": "2026-11-18T18:45:00+04:00",
         "schedule_verification": {
@@ -1019,7 +1019,28 @@
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
         },
-        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
+        "result_for": [
+          "men-134800",
+          "men-121940"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            8
+          ]
+        ]
       },
       {
         "id": "men-r64-15",
@@ -1195,7 +1216,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "men-r64-20",
@@ -1440,7 +1462,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "men-r64-28",
@@ -2506,12 +2529,12 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "wtt-schedule"
+            "wtt-results"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-19T00:02:34+08:00"
         },
         "scheduled_at": "2026-11-18T18:45:00+04:00",
         "schedule_verification": {
@@ -2520,7 +2543,32 @@
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
         },
-        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
+        "result_for": [
+          "women-134011",
+          "women-135501"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            5
+          ]
+        ]
       },
       {
         "id": "women-r64-8",
@@ -2579,12 +2627,12 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "wtt-schedule"
+            "wtt-results"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-19T00:02:34+08:00"
         },
         "scheduled_at": "2026-11-18T19:20:00+04:00",
         "schedule_verification": {
@@ -2593,7 +2641,28 @@
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
         },
-        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
+        "result_for": [
+          "women-136403",
+          "women-206219"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            7
+          ]
+        ]
       },
       {
         "id": "women-r64-11",
@@ -2757,7 +2826,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "women-r64-16",
@@ -2964,12 +3034,12 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "wtt-schedule"
+            "wtt-results"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-19T00:02:34+08:00"
         },
         "scheduled_at": "2026-11-18T18:45:00+04:00",
         "schedule_verification": {
@@ -2978,7 +3048,24 @@
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
         },
-        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
+        "result_for": [
+          "women-136539",
+          "women-115413"
+        ],
+        "games": [
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            7
+          ]
+        ]
       },
       {
         "id": "women-r64-23",
@@ -3233,7 +3320,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+        },
+        "blocker": "计划时间已过，官方赛程仍为 Start List，尚无可核实的正式单打终局结果。"
       },
       {
         "id": "women-r64-32",
