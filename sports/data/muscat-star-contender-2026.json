@@ -8,20 +8,260 @@
   "id": "muscat-star-contender-2026",
   "output": "docs/2026/11/20261116-muscat-star-contender-2026/index.html",
   "notices": [
-    "11月16–21日 · 阿曼马斯喀特。本页当前仅收录完整女单正赛：48名选手及16个轮空签位，不含资格赛与双打；并非完整男女单赛事。",
-    "男单暂未录入：官方名单中的阿尔及利亚选手 Mehdi Bouloussa 代表队编码 ALG 尚未登记于本仓库旗帜映射，待维护者补齐后再在同一赛事页面补入完整男单签表，不删去单一选手拼成残缺签表。",
-    "女单48名选手的身份及代表队、16场首轮实赛的对阵与比赛编号已与WTT官方名单和赛程逐项核对。完整女单签表及轮空签位由Eleven与ぐぐスポ两家媒体交叉核验；未声称直接取得WTT完整签表原文件。",
+    "11月16–21日 · 阿曼马斯喀特。本页仅收录男女单打正赛，各48名选手及16个轮空签位；不含资格赛与双打。",
+    "96名选手的身份及代表队、32场首轮实赛的对阵与比赛编号已与WTT官方名单和赛程逐项核对。完整签表及轮空签位由Eleven与ぐぐスポ两家媒体交叉核验；未声称直接取得WTT完整签表原文件。",
+    "资格赛落败的Bardet及Grebnev均已出现在官方正赛赛程，不推断其递补对应关系。未收录方博资格赛弃权的占位局分。",
     "默认北京时间，可切换赛地Asia/Muscat时间。首轮时间来自官方计划，实际开赛可能顺延；后续轮次未公布时间，不猜测。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
-      "name": "2026 WTT 马斯喀特球星挑战赛 · 女单正赛",
-      "snapshot_at": "2026-11-18T09:35:43+08:00",
+      "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
+      "snapshot_at": "2026-11-18T10:22:44+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
     "entries": [
+      {
+        "id": "men-118927",
+        "name": "约奇奇",
+        "team": "SLO"
+      },
+      {
+        "id": "men-200316",
+        "name": "Ankur Bhattacharjee",
+        "team": "IND"
+      },
+      {
+        "id": "men-203029",
+        "name": "孙杨",
+        "team": "CHN"
+      },
+      {
+        "id": "men-122002",
+        "name": "Lilian Bardet",
+        "team": "FRA"
+      },
+      {
+        "id": "men-116820",
+        "name": "Park Ganghyeon",
+        "team": "KOR"
+      },
+      {
+        "id": "men-121514",
+        "name": "安宰贤",
+        "team": "KOR"
+      },
+      {
+        "id": "men-116532",
+        "name": "普察尔",
+        "team": "CRO"
+      },
+      {
+        "id": "men-102841",
+        "name": "Marcos Freitas",
+        "team": "POR"
+      },
+      {
+        "id": "men-137238",
+        "name": "黄友政",
+        "team": "CHN"
+      },
+      {
+        "id": "men-145799",
+        "name": "Andre Bertelsmeier",
+        "team": "GER"
+      },
+      {
+        "id": "men-206221",
+        "name": "唐乙仁",
+        "team": "CHN"
+      },
+      {
+        "id": "men-144528",
+        "name": "科顿",
+        "team": "FRA"
+      },
+      {
+        "id": "men-124576",
+        "name": "Vladimir Sidorenko",
+        "team": "RUS"
+      },
+      {
+        "id": "men-113679",
+        "name": "Mehdi Bouloussa",
+        "team": "ALG"
+      },
+      {
+        "id": "men-123019",
+        "name": "Csaba Andras",
+        "team": "HUN"
+      },
+      {
+        "id": "men-131375",
+        "name": "田中佑汰",
+        "team": "JPN"
+      },
+      {
+        "id": "men-134169",
+        "name": "Iulian Chirita",
+        "team": "ROU"
+      },
+      {
+        "id": "men-112062",
+        "name": "西蒙·高茨",
+        "team": "FRA"
+      },
+      {
+        "id": "men-117357",
+        "name": "林钟勋",
+        "team": "KOR"
+      },
+      {
+        "id": "men-134800",
+        "name": "Nicholas Lum",
+        "team": "AUS"
+      },
+      {
+        "id": "men-121940",
+        "name": "Navid Shams",
+        "team": "IRI"
+      },
+      {
+        "id": "men-131211",
+        "name": "Borgar Haug",
+        "team": "NOR"
+      },
+      {
+        "id": "men-136757",
+        "name": "吉山僚一",
+        "team": "JPN"
+      },
+      {
+        "id": "men-135367",
+        "name": "吴晙诚",
+        "team": "KOR"
+      },
+      {
+        "id": "men-134442",
+        "name": "篠塚大登",
+        "team": "JPN"
+      },
+      {
+        "id": "men-131879",
+        "name": "Manush Shah",
+        "team": "IND"
+      },
+      {
+        "id": "men-145264",
+        "name": "川上流星",
+        "team": "JPN"
+      },
+      {
+        "id": "men-123931",
+        "name": "Maksim Grebnev",
+        "team": "RUS"
+      },
+      {
+        "id": "men-145404",
+        "name": "Emanuel Otalvaro",
+        "team": "COL"
+      },
+      {
+        "id": "men-135050",
+        "name": "陈垣宇",
+        "team": "CHN"
+      },
+      {
+        "id": "men-115396",
+        "name": "João Geraldo",
+        "team": "POR"
+      },
+      {
+        "id": "men-133848",
+        "name": "袁励岑",
+        "team": "CHN"
+      },
+      {
+        "id": "men-112409",
+        "name": "Jonathan Groth",
+        "team": "DEN"
+      },
+      {
+        "id": "men-135023",
+        "name": "Eduard Ionescu",
+        "team": "ROU"
+      },
+      {
+        "id": "men-131798",
+        "name": "Finn Luu",
+        "team": "AUS"
+      },
+      {
+        "id": "men-221452",
+        "name": "李天阳",
+        "team": "CHN"
+      },
+      {
+        "id": "men-107028",
+        "name": "迪米特里·奥恰洛夫",
+        "team": "GER"
+      },
+      {
+        "id": "men-104036",
+        "name": "Lubomir Jancarik",
+        "team": "CZE"
+      },
+      {
+        "id": "men-111050",
+        "name": "Alvaro Robles",
+        "team": "ESP"
+      },
+      {
+        "id": "men-135073",
+        "name": "Kwon Hyuk",
+        "team": "KOR"
+      },
+      {
+        "id": "men-102891",
+        "name": "Andrej Gacina",
+        "team": "CRO"
+      },
+      {
+        "id": "men-100696",
+        "name": "阿萨尔",
+        "team": "EGY"
+      },
+      {
+        "id": "men-201466",
+        "name": "Wim Verdonschot",
+        "team": "GER"
+      },
+      {
+        "id": "men-109946",
+        "name": "Ricardo Walther",
+        "team": "GER"
+      },
+      {
+        "id": "men-117002",
+        "name": "Joe Seyfried",
+        "team": "FRA"
+      },
+      {
+        "id": "men-123682",
+        "name": "Manav Thakkar",
+        "team": "IND"
+      },
+      {
+        "id": "men-120845",
+        "name": "Kang Dongsoo",
+        "team": "KOR"
+      },
+      {
+        "id": "men-133694",
+        "name": "户上隼辅",
+        "team": "JPN"
+      },
       {
         "id": "women-133405",
         "name": "大藤沙月",
@@ -327,6 +567,1488 @@
       }
     },
     "matches": [
+      {
+        "id": "men-r64-1",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-118927"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-2",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-200316"
+          },
+          {
+            "entry": "men-203029"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T20:30:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-3",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-122002"
+          },
+          {
+            "entry": "men-116820"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T13:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-4",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "men-121514"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-5",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-116532"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-6",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-102841"
+          },
+          {
+            "entry": "men-137238"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T20:30:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-7",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-145799"
+          },
+          {
+            "entry": "men-206221"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T18:10:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-8",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "men-144528"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-9",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-124576"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-10",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-113679"
+          },
+          {
+            "entry": "men-123019"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T11:00:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-11",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-131375"
+          },
+          {
+            "entry": "men-134169"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T13:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-12",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "men-112062"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-13",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-117357"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-14",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-134800"
+          },
+          {
+            "entry": "men-121940"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T18:45:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-15",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-131211"
+          },
+          {
+            "entry": "men-136757"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T13:20:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-16",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "men-135367"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-17",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-134442"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-18",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-131879"
+          },
+          {
+            "entry": "men-145264"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T12:45:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-19",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-123931"
+          },
+          {
+            "entry": "men-145404"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T19:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-20",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "men-135050"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-21",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-115396"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-22",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-133848"
+          },
+          {
+            "entry": "men-112409"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T12:10:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-23",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-135023"
+          },
+          {
+            "entry": "men-131798"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T19:20:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-24",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "men-221452"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-25",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-107028"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-26",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-104036"
+          },
+          {
+            "entry": "men-111050"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T18:10:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-27",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-135073"
+          },
+          {
+            "entry": "men-102891"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T19:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-28",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "men-100696"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-29",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-201466"
+          },
+          {
+            "bye": true
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-30",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-109946"
+          },
+          {
+            "entry": "men-117002"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T18:45:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-31",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "entry": "men-123682"
+          },
+          {
+            "entry": "men-120845"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T10:22:44+08:00"
+        },
+        "scheduled_at": "2026-11-18T19:20:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r64-32",
+        "draw": "men",
+        "round": "首轮 · 64进32",
+        "slots": [
+          {
+            "bye": true
+          },
+          {
+            "entry": "men-133694"
+          }
+        ],
+        "rule": "bo5",
+        "status": "bye",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-1",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-1"
+          },
+          {
+            "winner": "men-r64-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-2",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-3"
+          },
+          {
+            "winner": "men-r64-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-3",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-5"
+          },
+          {
+            "winner": "men-r64-6"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-4",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-7"
+          },
+          {
+            "winner": "men-r64-8"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-5",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-9"
+          },
+          {
+            "winner": "men-r64-10"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-6",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-11"
+          },
+          {
+            "winner": "men-r64-12"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-7",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-13"
+          },
+          {
+            "winner": "men-r64-14"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-8",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-15"
+          },
+          {
+            "winner": "men-r64-16"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-9",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-17"
+          },
+          {
+            "winner": "men-r64-18"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-10",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-19"
+          },
+          {
+            "winner": "men-r64-20"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-11",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-21"
+          },
+          {
+            "winner": "men-r64-22"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-12",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-23"
+          },
+          {
+            "winner": "men-r64-24"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-13",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-25"
+          },
+          {
+            "winner": "men-r64-26"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-14",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-27"
+          },
+          {
+            "winner": "men-r64-28"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-15",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-29"
+          },
+          {
+            "winner": "men-r64-30"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r32-16",
+        "draw": "men",
+        "round": "第二轮 · 32进16",
+        "slots": [
+          {
+            "winner": "men-r64-31"
+          },
+          {
+            "winner": "men-r64-32"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r16-1",
+        "draw": "men",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-1"
+          },
+          {
+            "winner": "men-r32-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r16-2",
+        "draw": "men",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-3"
+          },
+          {
+            "winner": "men-r32-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r16-3",
+        "draw": "men",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-5"
+          },
+          {
+            "winner": "men-r32-6"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r16-4",
+        "draw": "men",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-7"
+          },
+          {
+            "winner": "men-r32-8"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r16-5",
+        "draw": "men",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-9"
+          },
+          {
+            "winner": "men-r32-10"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r16-6",
+        "draw": "men",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-11"
+          },
+          {
+            "winner": "men-r32-12"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r16-7",
+        "draw": "men",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-13"
+          },
+          {
+            "winner": "men-r32-14"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-r16-8",
+        "draw": "men",
+        "round": "第三轮 · 16进8",
+        "slots": [
+          {
+            "winner": "men-r32-15"
+          },
+          {
+            "winner": "men-r32-16"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-qf-1",
+        "draw": "men",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-r16-1"
+          },
+          {
+            "winner": "men-r16-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-qf-2",
+        "draw": "men",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-r16-3"
+          },
+          {
+            "winner": "men-r16-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-qf-3",
+        "draw": "men",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-r16-5"
+          },
+          {
+            "winner": "men-r16-6"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-qf-4",
+        "draw": "men",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "men-r16-7"
+          },
+          {
+            "winner": "men-r16-8"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-sf-1",
+        "draw": "men",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "men-qf-1"
+          },
+          {
+            "winner": "men-qf-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-sf-2",
+        "draw": "men",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "men-qf-3"
+          },
+          {
+            "winner": "men-qf-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
+      {
+        "id": "men-final-1",
+        "draw": "men",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "men-sf-1"
+          },
+          {
+            "winner": "men-sf-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "verification": {
+          "source_ids": [
+            "eleven-draw",
+            "sportzorg-draw"
+          ],
+          "verified_at": "2026-11-18T09:35:43+08:00"
+        }
+      },
       {
         "id": "women-r64-1",
         "draw": "women",
@@ -1811,6 +3533,10 @@
       }
     ],
     "draws": [
+      {
+        "id": "men",
+        "name": "男子单打"
+      },
       {
         "id": "women",
         "name": "女子单打"
