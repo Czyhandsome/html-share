@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-18T09:02:24+08:00",
+      "snapshot_at": "2026-11-18T09:32:33+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -1890,22 +1890,38 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
           "source_ids": [
-            "draw-2"
+            "draw-2",
+            "day-2026-11-18"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-18T09:32:33+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
         "scheduled_at": "2026-11-18T01:00:00+00:00",
         "schedule_verification": {
           "source_ids": [
-            "draw-2"
+            "draw-2",
+            "day-2026-11-18"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-18T09:32:33+08:00"
         },
-        "blocker": "计划时间已过，官方尚未确认比赛开始或终局结果。"
+        "result_for": [
+          "p-84838",
+          "p-95516"
+        ],
+        "games": [
+          [
+            12,
+            21
+          ]
+        ],
+        "in_progress_game": [
+          10,
+          11
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "MS-M-0-9",
@@ -2840,22 +2856,38 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
           "source_ids": [
-            "draw-4"
+            "draw-4",
+            "day-2026-11-18"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-18T09:32:33+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
         "scheduled_at": "2026-11-18T01:00:00+00:00",
         "schedule_verification": {
           "source_ids": [
-            "draw-4"
+            "draw-4",
+            "day-2026-11-18"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-18T09:32:33+08:00"
         },
-        "blocker": "计划时间已过，官方尚未确认比赛开始或终局结果。"
+        "result_for": [
+          "p-75628",
+          "p-76851"
+        ],
+        "games": [
+          [
+            12,
+            21
+          ]
+        ],
+        "in_progress_game": [
+          10,
+          11
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "WS-M-0-8",
@@ -6035,22 +6067,34 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
           "source_ids": [
-            "draw-10"
+            "draw-10",
+            "day-2026-11-18"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-18T09:32:33+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
         "scheduled_at": "2026-11-18T01:00:00+00:00",
         "schedule_verification": {
           "source_ids": [
-            "draw-10"
+            "draw-10",
+            "day-2026-11-18"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-18T09:32:33+08:00"
         },
-        "blocker": "计划时间已过，官方尚未确认比赛开始或终局结果。"
+        "result_for": [
+          "p-71294-70093",
+          "p-69560-94165"
+        ],
+        "games": [
+          [
+            28,
+            26
+          ]
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "XD-M-0-2",
@@ -6216,7 +6260,7 @@
             "draw-10",
             "day-2026-11-18"
           ],
-          "verified_at": "2026-11-18T09:02:24+08:00"
+          "verified_at": "2026-11-18T09:32:33+08:00"
         },
         "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
         "scheduled_at": "2026-11-18T01:00:00+00:00",
@@ -6225,13 +6269,22 @@
             "draw-10",
             "day-2026-11-18"
           ],
-          "verified_at": "2026-11-18T09:02:24+08:00"
+          "verified_at": "2026-11-18T09:32:33+08:00"
         },
         "result_for": [
           "p-76165-85452",
           "p-63739-83074"
         ],
-        "games": [],
+        "games": [
+          [
+            13,
+            21
+          ]
+        ],
+        "in_progress_game": [
+          12,
+          12
+        ],
         "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
