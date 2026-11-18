@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-18T21:32:45+08:00",
+      "snapshot_at": "2026-11-18T22:02:13+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -5268,14 +5268,20 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "walkover",
         "verification": {
           "source_ids": [
             "draw-6"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-18T22:02:13+08:00"
         },
-        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
+        "reason": "官方签表确认 Ben LANE／Sean VENDY 弃权，KANG Min Hyuk／LEE JONGMIN 晋级；无已打局分。",
+        "winner": "p-77262-62804",
+        "result_for": [
+          "p-77262-62804",
+          "p-76278-72478"
+        ],
+        "games": []
       },
       {
         "id": "MD-M-1-7",
