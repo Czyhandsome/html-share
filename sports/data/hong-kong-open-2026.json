@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-19T17:38:22+08:00",
+      "snapshot_at": "2026-11-20T04:00:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -2471,21 +2471,41 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-2"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "官方已确认终局赛果。",
         "scheduled_at": "2026-11-19T10:30:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-2"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-86114",
+          "p-97345"
+        ],
+        "games": [
+          [
+            21,
+            16
+          ],
+          [
+            11,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-97345"
       },
       {
         "id": "MS-M-1-2",
@@ -2642,21 +2662,37 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "retired",
         "verification": {
           "source_ids": [
             "draw-2"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "官方确认退赛，保留已打局分及未完局，不补造比分。",
         "scheduled_at": "2026-11-19T10:30:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-2"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-45171",
+          "p-60321"
+        ],
+        "games": [
+          [
+            10,
+            21
+          ]
+        ],
+        "winner": "p-60321",
+        "completed_date": "2026-11-20",
+        "in_progress_game": [
+          4,
+          13
+        ]
       },
       {
         "id": "MS-M-1-6",
@@ -2671,21 +2707,41 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-2"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
-        "scheduled_at": "2026-11-19T12:10:00+00:00",
+        "reason": "官方已确认终局赛果。",
+        "scheduled_at": "2026-11-19T12:35:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-2"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-97115",
+          "p-93627"
+        ],
+        "games": [
+          [
+            21,
+            12
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-93627"
       },
       {
         "id": "MS-M-1-7",
@@ -2700,21 +2756,37 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-2"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
-        "scheduled_at": "2026-11-19T12:10:00+00:00",
+        "reason": "官方已确认终局赛果。",
+        "scheduled_at": "2026-11-19T12:30:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-2"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-94780",
+          "p-64032"
+        ],
+        "games": [
+          [
+            14,
+            21
+          ],
+          [
+            14,
+            21
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-64032"
       },
       {
         "id": "MS-M-2-0",
@@ -3823,21 +3895,37 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-4"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "官方已确认终局赛果。",
         "scheduled_at": "2026-11-19T10:30:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-4"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-61854",
+          "p-91896"
+        ],
+        "games": [
+          [
+            21,
+            13
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-61854"
       },
       {
         "id": "WS-M-1-1",
@@ -3852,21 +3940,37 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-4"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
-        "scheduled_at": "2026-11-19T11:20:00+00:00",
+        "reason": "官方已确认终局赛果。",
+        "scheduled_at": "2026-11-19T11:50:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-4"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-76890",
+          "p-50959"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            21,
+            9
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-76890"
       },
       {
         "id": "WS-M-1-2",
@@ -5591,21 +5695,41 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-6"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
-        "scheduled_at": "2026-11-19T11:20:00+00:00",
+        "reason": "官方已确认终局赛果。",
+        "scheduled_at": "2026-11-19T11:25:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-6"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-79732-99066",
+          "p-90531-55414"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            18,
+            21
+          ],
+          [
+            19,
+            21
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-90531-55414"
       },
       {
         "id": "MD-M-2-0",
@@ -6722,21 +6846,37 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-8"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
-        "scheduled_at": "2026-11-19T11:20:00+00:00",
+        "reason": "官方已确认终局赛果。",
+        "scheduled_at": "2026-11-19T11:30:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-8"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-71023-81609",
+          "p-94519-83211"
+        ],
+        "games": [
+          [
+            21,
+            14
+          ],
+          [
+            21,
+            15
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-71023-81609"
       },
       {
         "id": "WD-M-1-1",
@@ -6751,21 +6891,37 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-8"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
-        "scheduled_at": "2026-11-19T12:10:00+00:00",
+        "reason": "官方已确认终局赛果。",
+        "scheduled_at": "2026-11-19T12:25:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-8"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-67761-88097",
+          "p-76091-84839"
+        ],
+        "games": [
+          [
+            21,
+            12
+          ],
+          [
+            21,
+            7
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-67761-88097"
       },
       {
         "id": "WD-M-1-2",
@@ -8338,21 +8494,41 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-10"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "官方已确认终局赛果。",
         "scheduled_at": "2026-11-19T10:30:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-10"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-73936-72504",
+          "p-94156-92404"
+        ],
+        "games": [
+          [
+            21,
+            15
+          ],
+          [
+            13,
+            21
+          ],
+          [
+            15,
+            21
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-94156-92404"
       },
       {
         "id": "XD-M-1-5",
@@ -8367,21 +8543,41 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-10"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T04:00:00+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "官方已确认终局赛果。",
         "scheduled_at": "2026-11-19T11:20:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-10"
           ],
-          "verified_at": "2026-11-18T20:30:04+08:00"
-        }
+          "verified_at": "2026-11-20T04:00:00+08:00"
+        },
+        "result_for": [
+          "p-57924-61986",
+          "p-81458-69193"
+        ],
+        "games": [
+          [
+            22,
+            24
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            11,
+            21
+          ]
+        ],
+        "completed_date": "2026-11-20",
+        "winner": "p-81458-69193"
       },
       {
         "id": "XD-M-1-6",
