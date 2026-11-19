@@ -6,8 +6,12 @@ from html import escape
 from zoneinfo import ZoneInfo
 import re
 
-from .board import TEMPLATES, layout, source_link
+from .board import TEMPLATES, source_link
+from .board_layout import plan_board, section_for
 from .teams import flag_license, team_assets, team_codes
+
+# Match the centers of the two fixed-height player rows in team-style.css.
+TEAM_SLOT_PORTS = (20, 44)
 
 STATUS = {
     'scheduled': '待赛', 'live': '进行中', 'completed': '已完赛',
@@ -42,7 +46,8 @@ def _team_row(team, assets, *, score=None, winner=False, show_score=True):
 
 def _slot_name(slot, ties, groups):
     if 'winner' in slot:
-        return f'{ties[slot["winner"]]["round"]}胜者'
+        feeder = ties[slot['winner']]
+        return f'{feeder["round"]}第 {feeder["number"]} 场胜者'
     if 'group_rank' in slot:
         group, rank = slot['group_rank']
         return f'{groups[group]["name"]}第 {rank} 名'
@@ -87,7 +92,49 @@ def _tie_status(tie):
     return STATUS[tie['status']]
 
 
-def _tie_details(tie, pairing, roster, groups, qualifications, sources, zone, venue_zone):
+def _link_to(target, label, **data):
+    attrs = ''.join(f' data-{name.replace("_", "-")}="{escape(str(value))}"' for name, value in data.items())
+    return f'<a href="#{target}"{attrs}>{escape(label)}</a>'
+
+
+def _winner_link(source, destination, slot, direction, target, stages):
+    stage = stages[target['stage']]['name']
+    round_name = target['round']
+    scope = stage if stage == round_name else f'{stage} · {round_name}'
+    label = f'{scope} · 第 {target["number"]} 场'
+    return _link_to(target['dom'], label, origin_kind='winner', direction=direction,
+                    advance_from=source, advance_to=destination, advance_slot=slot)
+
+
+def _advancement(ties, stages, groups, qualifications, drawn):
+    links = defaultdict(list)
+    for tie in ties.values():
+        ident = tie['id']
+        for index, slot in enumerate(tie['slots']):
+            side = ('上方签位', '下方签位')[index]
+            if 'winner' in slot:
+                feeder = slot['winner']
+                if (feeder, ident, index) not in drawn:
+                    source = _winner_link(feeder, ident, index, 'source', ties[feeder], stages)
+                    destination = _winner_link(feeder, ident, index, 'destination', tie, stages)
+                    links[ident].append(f'<li>{side}来源 · {source}</li>')
+                    links[feeder].append(f'<li>胜者进入{side} · {destination}</li>')
+            elif 'group_rank' in slot:
+                group_id, rank = slot['group_rank']
+                group = groups[group_id]
+                target = f'{group["dom"]}-rank-{rank}' if group.get('standings') else f'{group["dom"]}-summary'
+                state = '' if group.get('standings') else '（排名待核实）'
+                label = f'{group["name"]}第 {rank} 名{state}'
+                origin = _link_to(target, label, origin_kind='group_rank', slot_index=index)
+                links[ident].append(f'<li>{side}来源 · {origin}</li>')
+            elif 'qualified' in slot:
+                nomination = qualifications[slot['qualified']]
+                origin = _link_to(nomination['dom'], nomination['label'], origin_kind='qualified', slot_index=index)
+                links[ident].append(f'<li>{side}来源 · {origin}</li>')
+    return links
+
+
+def _tie_details(tie, pairing, roster, groups, qualifications, sources, zone, venue_zone, advancement):
     parts = [f'<p class="tie-result">{_tie_status(tie)} · <strong>{_score(tie["score"])}</strong></p>']
     if tie.get('blocker'):
         parts.append(f'<p class="partial">{escape(tie["blocker"])}</p>')
@@ -125,6 +172,8 @@ def _tie_details(tie, pairing, roster, groups, qualifications, sources, zone, ve
             if group.get('standings'):
                 parts.append(f'<p class="evidence">{escape(group["name"])}正式排名 · '
                              f'{_links(group["standings"]["verification"], sources)}</p>')
+    if advancement:
+        parts.append(f'<ul class="advancement" aria-label="晋级签位">{"".join(advancement)}</ul>')
     matches = ''.join(_rubber(match, tie['teams'], roster, sources) for match in tie['matches'])
     if matches:
         parts.append(f'<ol class="rubbers" aria-label="单场明细">{matches}</ol>')
@@ -153,52 +202,57 @@ def _tie_card(tie, teams, ties, groups, assets, zone):
     position = ''
     if 'box' in tie:
         x, y, width, _ = tie['box']
-        position = f' style="left:{x}px;top:{y:g}px;width:{width}px"'
+        position = f' style="left:{x:g}px;top:{y:g}px;width:{width:g}px"'
     card = (f'<button type="button" class="tie-card{marker}" data-team-tie="{escape(tie["id"])}"'
-            f' data-detail="{tie["dom"]}-detail" aria-haspopup="dialog"'
+            f' id="{tie["dom"]}" data-detail="{tie["dom"]}-detail" aria-haspopup="dialog"'
             f' aria-label="{escape(tie["round"] + " · " + pairing + " · " + _score(tie["score"]) + " · " + label)}"'
             f'{position}>{rows}<span class="tie-meta"><span>{time_text}</span><span>{label}</span></span></button>')
     return card, pairing
 
 
-def _knockout(ties, cards):
+def _round_heading(column, boxes):
+    label = escape(' / '.join(column['labels']))
+    width = boxes[column['ids'][0]][2]
+    return f'<span style="left:{column["x"]:g}px;width:{width:g}px" title="{label}">{label}</span>'
+
+
+def _knockout(ties, cards, plan):
     if not ties:
         return '<p class="pending">对阵待核实</p>'
-    starts, labels, width, height, _ = layout(ties)
-    for tie in ties:
-        x, _, card_width, center = tie['box']
-        top = max(0, center - 44)
-        tie['box'] = x, top, card_width, top + 44
-    positions = {tie['id']: tie['box'] for tie in ties}
-    columns = ''.join(f'<span style="left:{x}px">{escape(" / ".join(names))}</span>'
-                      for x, names in zip(starts, labels))
-    wires = []
-    for tie in ties:
-        x, _, _, y = tie['box']
-        for feeder in tie['feeders']:
-            if feeder not in positions:
-                continue
-            fx, _, fw, fy = positions[feeder]
-            center = (fx + fw + x) / 2
-            wires.append(f'<path d="M{fx + fw:g} {fy:g} H{center:g} V{y:g} H{x:g}"/>')
+    by_id = {tie['id']: tie for tie in ties}
+    if plan['fallback']:
+        rounds = ''.join(
+            f'<section><h3>{escape(" / ".join(column["labels"]))}</h3>'
+            f'<div class="group-ties">{cards(by_id[ident] for ident in column["ids"])}</div></section>'
+            for column in plan['columns']
+        )
+        return f'<div class="round-list">{rounds}</div>'
+    width, height = plan['width'], plan['height']
+    columns = ''.join(_round_heading(column, plan['boxes']) for column in plan['columns'])
+    wires = ''.join(
+        f'<path data-from="{escape(path["from"])}" data-to="{escape(path["to"])}" data-slot="{path["slot"]}"'
+        f' d="{path["d"]}"/>' for path in plan['paths']
+    )
     return (f'<div class="board-scroll" tabindex="0" aria-label="横向滚动查看淘汰赛签表">'
-            f'<div class="board-width" style="width:{width}px"><div class="rounds">{columns}</div>'
+            f'<div class="board-width" style="width:{width:g}px"><div class="rounds">{columns}</div>'
             f'<div class="board" style="height:{height:g}px">'
-            f'<svg class="wires" viewBox="0 0 {width} {height:g}" aria-hidden="true">{"".join(wires)}</svg>'
-            f'{cards(ties)}</div></div></div>')
+            f'<svg class="wires" viewBox="0 0 {width:g} {height:g}" aria-hidden="true">{wires}</svg>'
+            f'{cards(by_id[ident] for column in plan["columns"] for ident in column["ids"])}</div></div></div>')
 
 
 def _group(group, ties, cards, teams, sources, assets):
     standings = group.get('standings')
     order = standings['order'] if standings else group['teams']
     rows = ''.join(
-        f'<tr><td>{rank if standings else "—"}</td><td>{_team_row(teams[ident], assets, show_score=False)}</td></tr>'
+        f'<tr id="{group["dom"]}-rank-{rank}" tabindex="-1"><td>{rank if standings else "—"}</td>'
+        f'<td>{_team_row(teams[ident], assets, show_score=False)}</td></tr>'
         for rank, ident in enumerate(order, 1)
     )
     ranking = _links(standings['verification'], sources) if standings else ''
     label = '官方排名' if standings else '排名待核实'
     return (f'<details class="group" data-group="{escape(group["id"])}">'
-            f'<summary>{escape(group["name"])}<small>{label} · {len(ties)} 场</small></summary>'
+            f'<summary id="{group["dom"]}-summary">{escape(group["name"])}'
+            f'<small>{label} · {len(ties)} 场</small></summary>'
             f'<table aria-label="{escape(group["name"] + "排名")}"><thead><tr><th scope="col">名次</th>'
             f'<th scope="col">代表队</th></tr></thead><tbody>{rows}</tbody></table>'
             f'<p class="evidence">{ranking}</p><div class="group-ties">{cards(ties)}</div></details>')
@@ -208,7 +262,8 @@ def _qualification_list(items, teams, sources):
     if not items:
         return ''
     rows = ''.join(
-        f'<li><strong>{escape(teams[item["team"]]["name"])}</strong> · {escape(item["label"])}'
+        f'<li id="{item["dom"]}" tabindex="-1"><strong>{escape(teams[item["team"]]["name"])}'
+        f'</strong> · {escape(item["label"])}'
         f' <span class="evidence">{_links(item["verification"], sources)}</span></li>'
         for item in items
     )
@@ -226,20 +281,39 @@ def render_team(model):
             team['name'] = assets['countries'][team['teams'][0]]
     roster = {ident: {player['id']: player['name'] for player in team['players']}
               for ident, team in teams.items()}
-    groups = {group['id']: group for group in model['groups']}
-    qualifications = {item['id']: item for item in model['qualifications']}
+    stages = {stage['id']: stage for stage in model['stages']}
+    groups = {group['id']: dict(group, dom=f'team-group-{index}')
+              for index, group in enumerate(model['groups'])}
+    qualifications = {item['id']: dict(item, dom=f'team-qualification-{index}')
+                      for index, item in enumerate(model['qualifications'])}
     stage_qualifications = defaultdict(list)
     for item in qualifications.values():
         stage_qualifications[item['stage']].append(item)
     ties = {}
-    for index, tie in enumerate(model['ties']):
-        ties[tie['id']] = dict(tie, dom=f'tie-{index}',
-                               feeders=[slot['winner'] for slot in tie['slots'] if 'winner' in slot])
     by_stage, by_group = defaultdict(list), defaultdict(list)
-    for tie in ties.values():
-        by_stage[tie['stage']].append(tie)
+    for index, raw in enumerate(model['ties']):
+        batch = by_stage[raw['stage']]
+        tie = dict(raw, dom=f'tie-{index}', number=len(batch) + 1)
+        ties[tie['id']] = tie
+        batch.append(tie)
         if tie.get('group'):
             by_group[tie['group']].append(tie)
+
+    plans = {}
+    drawn = set()
+    layout = model.get('layout', {})
+    for ident, stage in stages.items():
+        if stage['kind'] == 'knockout':
+            plan = plan_board(
+                by_stage[ident], explicit_columns=layout.get(ident, {}).get('rounds'),
+                qualification=section_for(stage['name']) == 'qualification',
+                context=f'{event["name"]} · {ident}', ports=TEAM_SLOT_PORTS,
+            )
+            plans[ident] = plan
+            for tie_id, box in plan['boxes'].items():
+                ties[tie_id]['box'] = box
+            drawn.update((path['from'], path['to'], path['slot']) for path in plan['paths'])
+    advancement = _advancement(ties, stages, groups, qualifications, drawn)
 
     detail_templates = []
 
@@ -249,7 +323,8 @@ def render_team(model):
             card, pairing = _tie_card(tie, teams, ties, groups, assets, zone)
             output.append(card)
             detail_templates.append(
-                _tie_details(tie, pairing, roster, groups, qualifications, sources, zone, venue_zone)
+                _tie_details(tie, pairing, roster, groups, qualifications, sources, zone, venue_zone,
+                             advancement[tie["id"]])
             )
         return ''.join(output)
 
@@ -265,10 +340,15 @@ def render_team(model):
                 body = ''.join(_group(group, by_group[group['id']], cards, teams, sources, assets)
                                for group in groups.values() if group['stage'] == ident)
             else:
-                body = _knockout(by_stage[ident], cards)
+                body = _knockout(by_stage[ident], cards, plans[ident])
             qualifying = _qualification_list(stage_qualifications[ident], teams, sources)
-            sections.append(f'<section class="stage" data-stage="{escape(ident)}">'
-                            f'<h2>{escape(stage["name"])}</h2>{qualifying}{body}</section>')
+            heading = f'<h2>{escape(stage["name"])}</h2>'
+            if section_for(stage['name']) == 'qualification':
+                sections.append(f'<details class="stage team-preliminaries" data-stage="{escape(ident)}">'
+                                f'<summary>{heading}</summary>{qualifying}{body}</details>')
+            else:
+                sections.append(f'<section class="stage" data-stage="{escape(ident)}">'
+                                f'{heading}{qualifying}{body}</section>')
         hidden = ' hidden' if index else ''
         panels.append(f'<div id="team-draw-{index}" role="tabpanel" aria-labelledby="team-tab-{index}"'
                       f'{hidden}>{"".join(sections)}</div>')

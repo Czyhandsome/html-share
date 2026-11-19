@@ -38,6 +38,14 @@ def fields(obj, allowed, where):
 def integer(value, low=0):
     return type(value) is int and value >= low
 
+def valid_layout_columns(columns):
+    return isinstance(columns, list) and all(
+        isinstance(column, list) and bool(column)
+        and all(isinstance(ident, str) and ident for ident in column)
+        for column in columns
+    )
+
+
 def safe_url(value):
     require(isinstance(value, str), 'source URL must be a string')
     u = urlsplit(value)
@@ -86,7 +94,7 @@ class Compiler:
     def __init__(self, data):
         self.data = copy.deepcopy(data)
         data = self.data
-        fields(data, 'schema_version event entries sources rules draws groups matches', 'root')
+        fields(data, 'schema_version event entries sources rules draws groups matches layout', 'root')
         require(type(data.get('schema_version')) is int and data['schema_version'] == 1, 'unsupported schema_version')
         self.event = data['event']
         fields(self.event, 'name snapshot_at timezone venue_timezone back_link', 'event')
@@ -124,9 +132,28 @@ class Compiler:
             require(isinstance(d.get('name'), str), 'draw name required')
         self.groups = unique(data.get('groups', []), 'groups')
         self.matches = unique(data['matches'], 'matches')
+        self.layout = self.validate_layout(data.get('layout', {}))
         self.cache, self.group_cache, self.visiting = {}, {}, set()
         self.audit = []
         self.validate_groups()
+
+    def validate_layout(self, layout):
+        require(isinstance(layout, dict), 'layout must be an object')
+        for draw, hints in layout.items():
+            where = f'{self.event["name"]} / {draw} layout'
+            require(draw in self.draws and isinstance(hints, dict), where + ': unknown draw or invalid settings')
+            fields(hints, 'sections rounds', where)
+            sections = hints.get('sections', {})
+            rounds = hints.get('rounds', {})
+            phases = ('main', 'qualification', 'placement')
+            require(isinstance(sections, dict) and isinstance(rounds, dict), where + ': sections and rounds must be objects')
+            for ident, phase in sections.items():
+                match = self.matches.get(ident)
+                require(match is not None and match.get('draw', 'main') == draw and not match.get('group')
+                        and phase in phases, f'{where}: invalid section override for {ident}')
+            for phase, columns in rounds.items():
+                require(phase in phases and valid_layout_columns(columns), f'{where}: invalid columns for {phase}')
+        return layout
 
     def evidence(self, verification, where):
         require(isinstance(verification, dict), where + ': terminal result needs verification')
@@ -360,7 +387,7 @@ class Compiler:
         return {'schema_version': 1, 'event': self.event, 'entries': list(self.entries.values()),
                 'sources': list(self.sources.values()), 'rules': self.rules, 'draws': list(self.draws.values()),
                 'groups': list(self.group_cache.values()),
-                'matches': [self.cache[k] for k in self.matches], 'audit': self.audit}
+                'matches': [self.cache[k] for k in self.matches], 'audit': self.audit, 'layout': self.layout}
 
 def compile_data(data):
     try:

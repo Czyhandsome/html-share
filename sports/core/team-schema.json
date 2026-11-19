@@ -34,6 +34,7 @@
         "stages": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/stage"}},
         "groups": {"type": "array", "items": {"$ref": "#/$defs/group"}},
         "qualifications": {"type": "array", "items": {"$ref": "#/$defs/qualification"}},
+        "layout": {"type": "object", "additionalProperties": {"$ref": "#/$defs/stageLayout"}},
         "ties": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/tie"}}
       }
     }
@@ -41,6 +42,17 @@
   "$defs": {
     "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
     "timestamp": {"type": "string", "format": "date-time"},
+    "stageLayout": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rounds"],
+      "properties": {
+        "rounds": {
+          "type": "array",
+          "items": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/text"}}
+        }
+      }
+    },
     "ids": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
     "points": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 0}},
     "event": {

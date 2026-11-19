@@ -35,7 +35,22 @@ python sports/build.py --check
 
 ## 签表页面
 
-所有 `bracket-v1` 赛事共用一套单页模板。比赛的 `draw` 和 `round` 决定项目和列，`slots` 的 `winner` 引用生成晋级连线。待定签位按轮次展示，填入明确的晋级引用后才会连线。有小组赛时，`groups` 生成积分榜，淘汰赛使用 `group_rank` 引用出线名次。模板沿用原 WTT 页的项目切换、路线高亮和单场详情。
+所有 `bracket-v1` 赛事共用一套单页模板。正赛默认展开，资格赛可以单独展开查看。正式 64 强与后续轮次连续展示。轮次标签用于分列，`slots` 中明确的 `winner` 引用决定上下签位和晋级线。跨轮、跨区的晋级来源可在比赛详情中跳转。小组赛通过 `group_rank` 引用组别和名次，未核定的名次和 `tbd` 签位保留待定。
+
+现有轮次写法能自动排布。自由轮名或重复轮名无法排出唯一列序时，页面按轮次显示比赛列表。需要补充官方签位顺序时，可以在赛事的 `data.layout` 中提供提示，常规比分更新仍只编辑比赛记录。
+
+```json
+{
+  "MS": {
+    "sections": {"qual-final": "qualification"},
+    "rounds": {"main": [["semifinal-a", "semifinal-b"], ["final"]]}
+  }
+}
+```
+
+上例是个人赛 `data.layout` 的内容，`MS` 是项目 ID。可用的区块是 `qualification`、`main` 和 `placement`。`sections` 只需填写要覆盖区块归属的比赛。`rounds` 的每个内层列表是一列，按官方签位从上往下写。某个区块提供列序时，要覆盖该区块的全部比赛各一次。提示缺项或与晋级关系冲突时，构建会报出赛事、区块和相关 ID，页面显示分轮列表。
+
+团体赛的 `data.layout` 按淘汰阶段 ID 配置，例如 `{"main-men":{"rounds":[["semi-a","semi-b"],["final"]]}}`。团体赛的阶段归属来自 `stages`，同样在详情中提供跨阶段及小组、官方晋级名额的来源。
 
 ## 团体赛录入
 
