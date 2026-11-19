@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-19T16:09:32+08:00",
+      "snapshot_at": "2026-11-19T17:38:22+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -2431,16 +2431,16 @@
             "draw-2",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T16:09:32+08:00"
+          "verified_at": "2026-11-19T17:38:22+08:00"
         },
         "reason": "官方已确认终局赛果。",
-        "scheduled_at": "2026-11-19T07:15:00+00:00",
+        "scheduled_at": "2026-11-19T07:05:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-2",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T16:09:32+08:00"
+          "verified_at": "2026-11-19T17:38:22+08:00"
         },
         "result_for": [
           "p-91554",
