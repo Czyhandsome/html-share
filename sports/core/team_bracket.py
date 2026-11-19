@@ -5,6 +5,7 @@ from datetime import date
 from itertools import product
 from pathlib import Path
 import re
+import sys
 from zoneinfo import ZoneInfo
 
 from .bracketkit import Compiler, ValidationError, fields, game_winner, integer, load, require, timestamp, unique
@@ -32,7 +33,7 @@ def distinct_ids(values):
 
 class TeamCompiler:
     def __init__(self, data):
-        fields(data, 'schema_version event draws teams sources rules stages groups qualifications ties', 'team bracket')
+        fields(data, 'schema_version event draws teams sources rules stages groups qualifications ties layout', 'team bracket')
         self.shared = Compiler({
             'schema_version': data.get('schema_version'),
             'event': data['event'],
@@ -55,6 +56,26 @@ class TeamCompiler:
         self.results = {}
         self.visiting = set()
         self.validate_structure()
+        self.layout = self.read_layout(data.get('layout', {}))
+
+    def read_layout(self, layout):
+        event = self.shared.event['name']
+        require(isinstance(layout, dict), f'{event}: team layout must be an object')
+        checked = {}
+        for ident, hint in layout.items():
+            where = f'{event} · {ident} layout'
+            require(text(ident), f'{event}: team layout stage id must be a nonempty string')
+            fields(hint, 'rounds', where)
+            rounds = hint.get('rounds')
+            require(isinstance(rounds, list) and all(
+                isinstance(column, list) and bool(column) and all(text(tie_id) for tie_id in column)
+                for column in rounds
+            ), f'{where}: rounds must contain lists of tie ids')
+            if ident not in self.stages or self.stages[ident]['kind'] != 'knockout':
+                print(f'{where}: no knockout stage for these tie ids: {rounds!r}', file=sys.stderr)
+                continue
+            checked[ident] = {'rounds': rounds}
+        return checked
 
     def evidence(self, verification, where, *, official=False):
         ids = self.shared.evidence(verification, where)
@@ -376,7 +397,7 @@ class TeamCompiler:
         return {'event': self.shared.event, 'draws': list(self.shared.draws.values()),
                 'sources': list(self.shared.sources.values()), 'teams': list(self.teams.values()),
                 'stages': list(self.stages.values()), 'groups': list(self.groups.values()),
-                'qualifications': list(self.qualifications.values()), 'ties': ties}
+                'qualifications': list(self.qualifications.values()), 'ties': ties, 'layout': self.layout}
 
 
 def compile_team_record(record):

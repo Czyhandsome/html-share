@@ -45,3 +45,18 @@ board.addEventListener('click', event => {
     detail.replaceChildren(template.content.cloneNode(true));
     dialog.showModal();
 });
+
+dialog.addEventListener('click', event => {
+    const link = event.target.closest('a[data-origin-kind]');
+    if (!link) return;
+    const target = document.getElementById(link.hash.slice(1));
+    if (!target) return;
+
+    event.preventDefault();
+    dialog.close();
+    for (let section = target.closest('details'); section; section = section.parentElement.closest('details')) {
+        section.open = true;
+    }
+    target.scrollIntoView({block: 'nearest', inline: 'nearest'});
+    target.focus({preventScroll: true});
+});

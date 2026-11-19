@@ -20,14 +20,21 @@ h1 { font-size: clamp(28px, 5vw, 50px); margin: 12px 0 4px; overflow-wrap: anywh
 [aria-selected=true], .focus[aria-pressed=true] { background: #203832; border-color: #203832; color: #fff; }
 .stage { margin: 20px 0 28px; }
 .stage h2 { margin: 0 0 10px; font-size: 22px; }
+.team-preliminaries > summary h2 { display: inline; margin: 0; }
+.team-preliminaries[open] > summary { margin-bottom: 10px; }
 .board-scroll { overflow-x: auto; max-width: 100%; padding: 4px 4px 8px; }
 .board-width { position: relative; }
 .rounds { position: relative; height: 30px; color: #54675a; font-weight: 650; }
-.rounds span { position: absolute; }
+.rounds span { position: absolute; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .board { position: relative; }
 .wires { position: absolute; inset: 0; width: 100%; height: 100%; fill: none; stroke: #a4b3a1; stroke-width: 2; }
 .tie-card { display: block; width: 100%; min-width: 0; padding: 7px 12px; text-align: left; background: #fafbf7; border: 1px solid #d8e0d5; border-radius: 10px; }
-.board .tie-card { position: absolute; height: 88px; }
+.board .tie-card { position: absolute; height: 88px; display: flex; flex-direction: column; justify-content: flex-start; appearance: none; }
+.board .player { height: 24px; flex: none; }
+.round-list section + section { margin-top: 16px; }
+.round-list h3 { margin: 0 0 8px; font-size: 16px; }
+.advancement { padding-inline-start: 20px; }
+.advancement li + li { margin-top: 4px; }
 .tie-card:hover { border-color: #348670; }
 .focus-china .known-no-cn { opacity: .28; }
 .player { display: flex; align-items: center; min-width: 0; gap: 6px; line-height: 24px; }

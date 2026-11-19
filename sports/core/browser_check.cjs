@@ -9,6 +9,85 @@ const {chromium} = require('playwright');
 const root = path.resolve(__dirname, '../..');
 const index = pathToFileURL(path.join(root, 'docs/2026/11/20261104-1042-sports-brackets/index.html')).href;
 
+async function checkBoardGeometry(scope) {
+    const location = new URL(scope.page().url()).pathname;
+    const boards = await scope.locator('.board:visible').evaluateAll(elements => elements.map(board => {
+        const rect = element => {
+            const {left, right, top, bottom} = element.getBoundingClientRect();
+            return {left, right, top, bottom};
+        };
+        const cards = Object.fromEntries([...board.querySelectorAll('.match, .tie-card')].map(card => [
+            card.dataset.matchId || card.dataset.teamTie,
+            {...rect(card), rows: [...card.querySelectorAll('.player')].map(rect)},
+        ]));
+        const wires = [...board.querySelectorAll('svg.wires path')].map(wire => {
+            const svg = wire.ownerSVGElement;
+            const {x, y, width, height} = svg.viewBox.baseVal;
+            const {left, right, top, bottom} = rect(svg);
+            const scale = Math.min((right - left) / width, (bottom - top) / height);
+            const insetX = (right - left - width * scale) / 2;
+            const insetY = (bottom - top - height * scale) / 2;
+            const toScreen = ([px, py]) => [left + insetX + (px - x) * scale, top + insetY + (py - y) * scale];
+            const d = wire.getAttribute('d');
+            const numbers = d.match(/-?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?/gi)?.map(Number) || [];
+            const [startX, startY, elbowX, endY, endX] = numbers;
+            const points = [[startX, startY], [elbowX, startY], [elbowX, endY], [endX, endY]].map(toScreen);
+            return {from: wire.dataset.from, to: wire.dataset.to, slot: wire.dataset.slot, d, points, numbers};
+        });
+        return {cards, wires};
+    }));
+    const slack = 2;
+    for (const {cards, wires} of boards) {
+        const ids = Object.keys(cards);
+        for (const [i, id] of ids.entries()) {
+            const card = cards[id];
+            for (const otherId of ids.slice(i + 1)) {
+                const other = cards[otherId];
+                const overlapX = Math.min(card.right, other.right) - Math.max(card.left, other.left);
+                const overlapY = Math.min(card.bottom, other.bottom) - Math.max(card.top, other.top);
+                assert.ok(overlapX <= slack || overlapY <= slack, id + ' overlaps ' + otherId);
+            }
+        }
+        for (const {from, to, slot, d, points, numbers} of wires) {
+            const edge = from + ' → ' + to + ' (' + slot + ') on ' + location;
+            assert.ok(cards[from] && cards[to], edge + ' has an endpoint outside its board');
+            assert.ok(slot === '0' || slot === '1', edge + ' has no target slot');
+            assert.deepEqual(d.match(/[MHV]/g), ['M', 'H', 'V', 'H'], edge + ' uses a gutter elbow');
+            assert.equal(numbers.length, 5, edge + ' has incomplete geometry');
+            const source = cards[from];
+            const target = cards[to];
+            const row = target.rows[Number(slot)];
+            assert.ok(row, edge + ' has a player row for its target slot');
+            const [[startX, startY], , , [endX, endY]] = points;
+            assert.ok(Math.abs(source.right - startX) <= slack, edge + ' starts at the source card edge');
+            assert.ok(startY >= source.top && startY <= source.bottom, edge + ' starts within the source card height');
+            assert.ok(Math.abs(target.left - endX) <= slack, edge + ' ends at the target card edge');
+            assert.ok(Math.abs((row.top + row.bottom) / 2 - endY) <= slack,
+                edge + ' misses the target row center at ' + (row.top + row.bottom) / 2 + ' with endpoint ' + endY);
+            for (const [id, card] of Object.entries(cards)) {
+                if (id === from || id === to) continue;
+                for (let i = 0; i < points.length - 1; i++) {
+                    const [x1, y1] = points[i];
+                    const [x2, y2] = points[i + 1];
+                    const overlapX = Math.min(Math.max(x1, x2), card.right) - Math.max(Math.min(x1, x2), card.left);
+                    const overlapY = Math.min(Math.max(y1, y2), card.bottom) - Math.max(Math.min(y1, y2), card.top);
+                    const horizontalHit = y1 === y2 && y1 > card.top + slack && y1 < card.bottom - slack && overlapX > slack;
+                    const verticalHit = x1 === x2 && x1 > card.left + slack && x1 < card.right - slack && overlapY > slack;
+                    assert.ok(!horizontalHit && !verticalHit, edge + ' crosses unrelated card ' + id);
+                }
+            }
+        }
+    }
+}
+
+async function columnCounts(area) {
+    return area.locator('.board .match').evaluateAll(cards => {
+        const counts = new Map();
+        for (const card of cards) counts.set(card.offsetLeft, (counts.get(card.offsetLeft) || 0) + 1);
+        return [...counts].sort((a, b) => a[0] - b[0]).map(([, count]) => count);
+    });
+}
+
 async function checkConnectedBracket(page, groupFixture = false) {
     const {draws} = JSON.parse(await page.locator('#wtt-data').textContent());
     const {countries, flags} = JSON.parse(await page.locator('#wtt-assets').textContent());
@@ -24,6 +103,8 @@ async function checkConnectedBracket(page, groupFixture = false) {
     const firstTab = tabFor(drawIds[0]);
     const wtt = /\/WTT-(Frankfurt|Montpellier)-2026\.html$/.test(new URL(page.url()).pathname);
     const kumamoto = page.url().includes('kumamoto-masters-2026');
+    const hongKong = page.url().includes('hong-kong-open-2026');
+    const worldChampionships = page.url().includes('bwf-world-championships-2026');
 
     assert.equal(await firstTab.getAttribute('aria-selected'), 'true');
     assert.equal(await tabs.count(), drawIds.length);
@@ -33,10 +114,21 @@ async function checkConnectedBracket(page, groupFixture = false) {
         assert.equal(await tabFor(draw).getAttribute('aria-selected'), 'true');
         assert.equal(await tabs.and(page.locator('[aria-selected="true"]')).count(), 1);
         assert.equal(await panel.getAttribute('aria-labelledby'), `tab-${draw}`);
+        const main = panel.locator('.main-bracket:visible');
+        const qualifiers = panel.locator('.preliminaries:visible');
         if (wtt || kumamoto) {
-            const rounds = page.locator('.columns:visible span');
+            const rounds = main.locator('.columns > span');
             assert.equal(await rounds.count(), 5);
             if (wtt) assert.equal(matches.length, 31);
+        }
+        if (hongKong && draw === 'MS') {
+            assert.equal(await qualifiers.getAttribute('open'), null, 'qualification starts collapsed');
+            assert.deepEqual(await columnCounts(main), [16, 8, 4, 2, 1]);
+            assert.equal(await main.locator('.wires path').count(), 30);
+        }
+        if (worldChampionships) {
+            assert.deepEqual(await columnCounts(main), [32, 16, 8, 4, 2, 1]);
+            assert.equal(await main.locator('.wires path').count(), 62);
         }
 
         const groupFixtures = page.locator('.group details:not([open]) summary:visible, .preliminaries:not([open]) summary:visible');
@@ -60,28 +152,38 @@ async function checkConnectedBracket(page, groupFixture = false) {
             flags: match.players.map(flagLabels),
         })).sort((a, b) => a.id.localeCompare(b.id)));
 
-        const edges = await panel.locator('.wires path').evaluateAll(paths => paths
-            .filter(path => getComputedStyle(path).display !== 'none')
-            .map(path => `${path.dataset.sex}:${path.dataset.from}:${path.dataset.to}`));
-        const preliminary = new Set(matches.filter(match => match.preliminary).map(match => match.id));
-        const expectedEdges = matches.flatMap(match => match.feeders.filter(from => !preliminary.has(from))
-            .map(from => `${draw}:${from}:${match.id}`));
-        if (wtt || kumamoto) assert.equal(edges.length, 30);
+        const edges = await panel.locator('.board:visible .wires path').evaluateAll(paths =>
+            paths.map(path => [path.dataset.from, path.dataset.to, Number(path.dataset.slot)]));
+        const linked = matches.flatMap(match => (match.links || []).filter(link =>
+            link.kind === 'winner' && link.direction === 'source').map(link => [link.from, link.to, link.slot]));
+        const destinations = matches.flatMap(match => (match.links || []).filter(link =>
+            link.kind === 'winner' && link.direction === 'destination').map(link => [link.from, link.to, link.slot]));
+        assert.deepEqual(destinations.sort(), linked.slice().sort(), 'undrawn winner links are reciprocal');
+        const expectedEdges = matches.flatMap(match => match.slots.flatMap((slot, index) =>
+            slot.winner ? [[slot.winner, match.id, index]] : []));
+        const actualEdges = edges.concat(linked);
+        assert.deepEqual(actualEdges.sort(), expectedEdges.sort(), 'every winner edge has exactly one visual representation');
+        if (wtt || kumamoto) assert.equal(await main.locator('.wires path').count(), 30);
+        if (hongKong && draw === 'MS') {
+            assert.deepEqual(await columnCounts(qualifiers), [8, 4]);
+            assert.equal(await qualifiers.locator('.wires path').count(), 8);
+            assert.equal(linked.length, 4);
+        }
         if (kumamoto) {
-            const qualifiers = matches.filter(match => match.round === '资格赛').map(match => match.id);
-            const qualifierPanel = panel.locator('.preliminaries:visible');
-            assert.equal(await qualifierPanel.count(), qualifiers.length ? 1 : 0, draw);
-            const qualifierCards = await qualifierPanel.locator('.match:visible').evaluateAll(cards =>
+            const expectedQualifiers = matches.filter(match => match.round === '资格赛').map(match => match.id);
+            assert.equal(await qualifiers.count(), expectedQualifiers.length ? 1 : 0, draw);
+            const qualifierCards = await qualifiers.locator('.match:visible').evaluateAll(cards =>
                 cards.map(card => card.dataset.matchId));
-            assert.deepEqual(qualifierCards.sort(), qualifiers.sort(), draw);
+            assert.deepEqual(qualifierCards.sort(), expectedQualifiers.sort(), draw);
+            const indexed = new Set(edges.map(edge => edge.join(':')));
             for (const [from, to, count] of [['R32', 'R16', 8], ['R16', 'QF', 4], ['QF', 'SF', 2], ['SF', 'F', 1]]) {
                 for (let i = 1; i <= count; i++) {
-                    assert.ok(edges.includes(`${draw}:${draw}-${from}-${i * 2 - 1}:${draw}-${to}-${i}`));
-                    assert.ok(edges.includes(`${draw}:${draw}-${from}-${i * 2}:${draw}-${to}-${i}`));
+                    assert.ok(indexed.has(`${draw}-${from}-${i * 2 - 1}:${draw}-${to}-${i}:0`));
+                    assert.ok(indexed.has(`${draw}-${from}-${i * 2}:${draw}-${to}-${i}:1`));
                 }
             }
         }
-        assert.deepEqual(edges.sort(), expectedEdges.sort());
+        await checkBoardGeometry(panel);
     }
 
     if (page.url().includes('WTT-Frankfurt-2026')) {
@@ -95,6 +197,22 @@ async function checkConnectedBracket(page, groupFixture = false) {
 
     await firstTab.click();
     if (drawIds.length > 1) assert.equal(await tabFor(drawIds[1]).getAttribute('aria-selected'), 'false');
+    if (hongKong) {
+        const qualifier = matchFor('MS-Q-1-0');
+        const mainMatch = matchFor('MS-M-0-0');
+        const qualificationPanel = panel.locator('.preliminaries:visible');
+        const relation = tooltip.locator('a[data-advance-from="MS-Q-1-0"][data-advance-to="MS-M-0-0"][data-advance-slot="1"]');
+        await qualificationPanel.locator('summary').click();
+        assert.equal(await qualifier.isVisible(), false);
+        await mainMatch.press('Enter');
+        await relation.and(tooltip.locator('[data-direction="source"]')).press('Enter');
+        assert.ok(await qualifier.isVisible(), 'source jump opens the qualification panel');
+        assert.ok(await qualifier.evaluate(card => document.activeElement === card));
+        await qualifier.press('Enter');
+        await relation.and(tooltip.locator('[data-direction="destination"]')).press('Enter');
+        assert.ok(await mainMatch.evaluate(card => document.activeElement === card));
+        await page.keyboard.press('Escape');
+    }
     if (kumamoto) {
         // Use a first-round card to exercise the full route regardless of which results are known.
         await matchFor('MS-R32-1').focus();
@@ -164,6 +282,12 @@ async function checkConnectedBracket(page, groupFixture = false) {
         assert.equal(await panel.locator('.wires path.hot').count(), 2);
         assert.equal(await page.locator('.group[data-group-id].selected').count(), 2);
         await page.keyboard.press('Escape');
+        await matchFor('SF1').press('Enter');
+        const groupSource = tooltip.locator('a[data-origin-kind="group_rank"]').first();
+        assert.equal(await tooltip.locator('a[data-origin-kind="group_rank"]').count(), 2);
+        await groupSource.press('Enter');
+        assert.ok(await panel.locator('[data-group-id="A"]').evaluate(group => group.contains(document.activeElement)));
+        await page.keyboard.press('Escape');
     }
 
     await page.setViewportSize({width: 390, height: 844});
@@ -173,6 +297,7 @@ async function checkConnectedBracket(page, groupFixture = false) {
         const button = document.querySelector('button.focus').getBoundingClientRect();
         return button.left >= 0 && button.right <= innerWidth + 1;
     }, null, {timeout: 3000});
+    await checkBoardGeometry(panel);
     if (wtt) assert.ok(await page.locator('.shell').evaluate(shell => shell.scrollWidth > shell.clientWidth), 'WTT bracket must scroll inside its shell on mobile');
     if (sampleMatch.players.some(player => flagLabels(player).length)) {
         const flag = firstMatch.locator('img.flag').first();
@@ -188,6 +313,23 @@ async function checkTeamBracket(page, fixture = false) {
     const dialog = page.getByRole('dialog');
     const focus = board.getByRole('button', {name: '突出中国队'});
     const tie = id => board.locator(`[data-team-tie=${JSON.stringify(id)}]`);
+    const checkDraws = async () => {
+        for (const tab of await tabs.all()) {
+            await tab.click();
+            const collapsed = board.locator('details.team-preliminaries:not([open]):visible > summary');
+            while (await collapsed.count()) await collapsed.first().click();
+            await checkBoardGeometry(board);
+        }
+        await tabs.first().click();
+    };
+    const followOrigin = async selector => {
+        const link = dialog.locator(selector);
+        const target = await link.getAttribute('href');
+        assert.ok(target.startsWith('#'));
+        await link.press('Enter');
+        assert.equal(await dialog.isVisible(), false);
+        assert.ok(await page.evaluate(id => document.activeElement.id === id, decodeURIComponent(target.slice(1))));
+    };
 
     assert.equal(await tabs.first().getAttribute('aria-selected'), 'true');
     assert.equal(await panels.count(), 1);
@@ -228,13 +370,25 @@ async function checkTeamBracket(page, fixture = false) {
         await tabs.last().click();
         const stages = await panels.locator('.stage h2').allTextContents();
         assert.deepEqual(stages, ['资格小组（1B）', '资格附加赛', '种子小组（1A）', '正赛']);
+        const playoffs = panels.locator('details.team-preliminaries[data-stage="london-playoff"]');
+        assert.equal(await playoffs.getAttribute('open'), null);
         assert.deepEqual(await tie('london-main-1').locator('.player .name').allTextContents(), ['韩国', '英格兰']);
         const qualifications = panels.locator('[data-stage="london-main"] .qualifications');
-        await qualifications.locator('summary').click();
+        await tie('london-main-1').press('Enter');
+        await followOrigin('[data-origin-kind="qualified"][data-slot-index="0"]');
         assert.match(await qualifications.locator('li').first().innerText(), /韩国/);
-        assert.ok(await qualifications.getByRole('link').count() > 0);
+        await tie('london-main-1').press('Enter');
+        await followOrigin('[data-direction="source"][data-advance-from="london-playoff-1"][data-advance-to="london-main-1"][data-advance-slot="1"]');
+        assert.ok(await tie('london-playoff-1').evaluate(card => document.activeElement === card));
+        assert.notEqual(await playoffs.getAttribute('open'), null);
+        await tie('london-playoff-1').press('Enter');
+        await followOrigin('[data-direction="destination"][data-advance-from="london-playoff-1"][data-advance-to="london-main-1"][data-advance-slot="1"]');
+        assert.ok(await tie('london-main-1').evaluate(card => document.activeElement === card));
+        await tie('london-main-2').press('Enter');
+        await followOrigin('[data-origin-kind="group_rank"][data-slot-index="0"]');
         await tabs.first().click();
     }
+    await checkDraws();
 
     const flags = await board.locator('img.flag:visible').evaluateAll(images =>
         images.map(image => image.complete && image.naturalWidth > 0 && image.src.startsWith('data:image/svg+xml')));
@@ -242,6 +396,7 @@ async function checkTeamBracket(page, fixture = false) {
     if (fixture) assert.ok(flags.length > 0);
     await page.setViewportSize({width: 390, height: 844});
     await page.waitForFunction(() => document.documentElement.scrollWidth <= innerWidth);
+    await checkDraws();
     if (fixture) {
         assert.ok(await board.locator('.board-scroll:visible').last().evaluate(area => area.scrollWidth > area.clientWidth));
         await tie('thomas-final-1').click();

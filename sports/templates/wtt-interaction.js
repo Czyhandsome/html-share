@@ -10,7 +10,7 @@ const tooltip = document.getElementById('tooltip');
 const cards = [...board.querySelectorAll('.match')];
 const paths = [...board.querySelectorAll('.wires path')];
 const groups = [...board.querySelectorAll('.group[data-group-id]')];
-const drawSections = [...board.querySelectorAll('.columns[data-sex], .group[data-sex], .board-item[data-sex], .preliminaries[data-sex]')];
+const drawPanels = [...board.querySelectorAll('.draw-panel')];
 const tabs = [...document.querySelectorAll('.tabs button')];
 const shell = document.querySelector('.shell');
 const canvas = document.querySelector('.canvas');
@@ -43,9 +43,11 @@ function show(draw) {
         tab.setAttribute('aria-selected', isActive);
         if (isActive) board.setAttribute('aria-labelledby', tab.id);
     }
-    for (const card of cards) card.hidden = card.dataset.sex !== draw;
-    for (const path of paths) path.style.display = path.dataset.sex === draw ? '' : 'none';
-    for (const section of drawSections) section.hidden = section.dataset.sex !== draw;
+    const panel = drawPanels.find(item => item.dataset.sex === draw);
+    for (const item of drawPanels) item.hidden = item !== panel;
+    canvas.style.setProperty('--board-width', panel.dataset.width + 'px');
+    canvas.style.setProperty('--board-height', panel.dataset.height + 'px');
+    shell.scrollLeft = 0;
     const matches = draws[draw];
     const final = matches.find(match => match.isFinal);
     const finished = matches.filter(match => terminal.has(match.status)).length;
@@ -59,13 +61,13 @@ function show(draw) {
         : progress;
 
     const groupMatches = matches.some(match => match.group || match.groupFeeders?.length);
-    const bracket = board.querySelector('.board');
-    const knockout = matches.filter(match => !match.group && !match.preliminary);
+    const knockout = matches.filter(match => !match.group && !match.preliminary && match.section === 'main');
+    const mainIds = new Set(knockout.map(match => match.id));
     const feederEdges = knockout.reduce((count, match) =>
-        count + match.feeders.filter(id => !lookup.get(id).preliminary).length, 0);
-    bracket.hidden = !knockout.length;
-    canvas.querySelector('.edition strong').textContent = groupMatches ? (bracket.hidden ? '分组赛' : '小组 + 淘汰')
+        count + match.feeders.filter(id => mainIds.has(id)).length, 0);
+    canvas.querySelector('.edition strong').textContent = groupMatches ? (knockout.length ? '小组 + 淘汰' : '分组赛')
         : final && feederEdges === knockout.length - 1 ? `${knockout.length + 1} → 1` : '签表';
+    fit();
 }
 
 function clearRoutes() {
@@ -108,7 +110,7 @@ function highlight(card) {
         path.classList.toggle('hot', selected.has(path.dataset.from) && selected.has(path.dataset.to));
     }
     for (const group of groups) {
-        group.classList.toggle('selected', group.dataset.sex === active && selectedGroups.has(group.dataset.groupId));
+        group.classList.toggle('selected', selectedGroups.has(group.dataset.groupId));
     }
 }
 
@@ -138,7 +140,7 @@ function tooltipContent(match) {
         content += `<div class="tip-final">${match.scores.join(' : ')}</div>`;
     }
     if (match.winner != null) {
-        const outcome = match.group ? '获胜' : match.isFinal ? '夺冠' : '晋级';
+        const outcome = match.isFinal ? '夺冠' : draws[active].some(next => next.feeders.includes(match.id)) ? '晋级' : '获胜';
         content += `<div class="tip-time">${escapeText(match.players[match.winner].name)} ${outcome}</div>`;
     }
     if (states[match.status]) {
@@ -170,6 +172,13 @@ function tooltipContent(match) {
         if (note) content += `<div class="tip-note">${escapeText(note)}</div>`;
     }
     if (pinned) {
+        if (match.links.length) {
+            const links = match.links.map(link => `<a href="#${escapeText(link.target)}"
+                data-origin-kind="${escapeText(link.kind)}" data-direction="${escapeText(link.direction)}"
+                data-advance-from="${escapeText(link.from)}" data-advance-to="${escapeText(link.to)}"
+                data-advance-slot="${link.slot}">${escapeText(link.label)}</a>`).join('');
+            content += `<div class="advancement-links" aria-label="晋级关系">${links}</div>`;
+        }
         content += sourceLinks('赛果来源', match.resultLinks || []) + sourceLinks('排期来源', match.scheduleLinks || []);
     }
     return content + '<div class="tip-pin">点击比赛固定详情 / 再次点击或按 Esc 关闭</div>';
@@ -243,6 +252,19 @@ for (const card of cards) {
         }
     });
 }
+tooltip.addEventListener('click', event => {
+    const link = event.target.closest('a[data-origin-kind]');
+    if (!link) return;
+    const target = document.getElementById(link.hash.slice(1));
+    if (!target) return;
+    event.preventDefault();
+    for (let element = target.parentElement; element && element !== board; element = element.parentElement) {
+        if (element instanceof HTMLDetailsElement) element.open = true;
+    }
+    closeTip();
+    target.focus({preventScroll: true});
+    target.scrollIntoView({block: 'nearest', inline: 'nearest'});
+});
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeTip(true); });
 document.addEventListener('click', event => {
     if (!event.target.closest('.match, #tooltip')) closeTip();
@@ -263,4 +285,4 @@ window.addEventListener('resize', fit);
 window.addEventListener('scroll', () => { if (!pinned) closeTip(); });
 shell.addEventListener('scroll', () => { if (!pinned) closeTip(); });
 if (active) show(active);
-fit();
+else fit();
