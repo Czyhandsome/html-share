@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-19T12:31:45+08:00",
+      "snapshot_at": "2026-11-19T12:59:54+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -3976,7 +3976,7 @@
             "draw-4",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
         "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
         "scheduled_at": "2026-11-19T04:35:00+00:00",
@@ -3985,17 +3985,23 @@
             "draw-4",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
         "result_for": [
           "p-77296",
           "p-35642"
         ],
-        "games": [],
+        "games": [
+          [
+            22,
+            20
+          ]
+        ],
         "in_progress_game": [
-          2,
-          4
-        ]
+          7,
+          7
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "WS-M-1-6",
@@ -4056,23 +4062,33 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
           "source_ids": [
             "draw-4",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
         "scheduled_at": "2026-11-19T04:55:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-4",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
-        }
+          "verified_at": "2026-11-19T12:59:54+08:00"
+        },
+        "result_for": [
+          "p-91807",
+          "p-78778"
+        ],
+        "games": [],
+        "in_progress_game": [
+          4,
+          6
+        ],
+        "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
       {
         "id": "WS-M-2-0",
@@ -5205,23 +5221,32 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "live",
         "verification": {
           "source_ids": [
             "draw-6",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
-        "reason": "官方赛程时间；实际开赛可能顺延。",
+        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
         "scheduled_at": "2026-11-19T05:00:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-6",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
-        }
+          "verified_at": "2026-11-19T12:59:54+08:00"
+        },
+        "result_for": [
+          "p-88876-91440",
+          "p-68134-60507"
+        ],
+        "games": [],
+        "in_progress_game": [
+          5,
+          7
+        ]
       },
       {
         "id": "MD-M-1-1",
@@ -5426,7 +5451,7 @@
             "draw-6",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
         "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
         "scheduled_at": "2026-11-19T04:15:00+00:00",
@@ -5435,16 +5460,21 @@
             "draw-6",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
         "result_for": [
           "p-57397-88322",
           "p-68633-84786"
         ],
-        "games": [],
+        "games": [
+          [
+            11,
+            21
+          ]
+        ],
         "in_progress_game": [
-          4,
-          6
+          19,
+          14
         ],
         "blocker": "官方显示比赛进行中，尚无终局结果。"
       },
@@ -6805,22 +6835,22 @@
           }
         ],
         "rule": "badminton",
-        "status": "live",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-8",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
-        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
+        "reason": "官方已确认终局赛果。",
         "scheduled_at": "2026-11-19T04:10:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-8",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
         "result_for": [
           "p-23008-71883",
@@ -6830,13 +6860,13 @@
           [
             21,
             19
+          ],
+          [
+            21,
+            18
           ]
         ],
-        "in_progress_game": [
-          0,
-          3
-        ],
-        "blocker": "官方显示比赛进行中，尚无终局结果。"
+        "completed_date": "2026-11-19"
       },
       {
         "id": "WD-M-1-6",
@@ -6851,33 +6881,38 @@
           }
         ],
         "rule": "badminton",
-        "status": "live",
+        "status": "completed",
         "verification": {
           "source_ids": [
             "draw-8",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
-        "reason": "比赛进行中；仅已结束局计入局分，当前局单独展示。",
+        "reason": "官方已确认终局赛果。",
         "scheduled_at": "2026-11-19T04:05:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-8",
             "day-2026-11-19"
           ],
-          "verified_at": "2026-11-19T12:31:45+08:00"
+          "verified_at": "2026-11-19T12:59:54+08:00"
         },
         "result_for": [
           "p-71612-59966",
           "p-69091-65708"
         ],
-        "games": [],
-        "in_progress_game": [
-          20,
-          21
+        "games": [
+          [
+            20,
+            22
+          ],
+          [
+            13,
+            21
+          ]
         ],
-        "blocker": "官方显示比赛进行中，尚无终局结果。"
+        "completed_date": "2026-11-19"
       },
       {
         "id": "WD-M-1-7",
