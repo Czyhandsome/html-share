@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-20T16:32:00+08:00",
+      "snapshot_at": "2026-11-20T17:00:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -846,6 +846,13 @@
         "family": "wtt",
         "label": "WTT官方逐场赛果：Women's Singles - Round of 16 - Match 8",
         "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEWSINGLES-----------8FNL000800----------.json"
+      },
+      {
+        "id": "wtt-card-women-r16-2",
+        "kind": "official",
+        "family": "wtt",
+        "label": "WTT官方逐场赛果：Women's Singles - Round of 16 - Match 2",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEWSINGLES-----------8FNL000200----------.json"
       }
     ],
     "rules": {
@@ -5216,14 +5223,41 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-results-full",
+            "wtt-card-women-r16-2"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-20T17:00:00+08:00"
+        },
+        "result_for": [
+          "women-133814",
+          "women-131231"
+        ],
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            14,
+            12
+          ]
+        ],
+        "completed_date": "2026-11-20"
       },
       {
         "id": "women-r16-3",
