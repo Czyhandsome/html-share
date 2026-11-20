@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-20T23:31:13+08:00",
+      "snapshot_at": "2026-11-21T00:01:42+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -923,6 +923,13 @@
         "family": "wtt",
         "label": "WTT官方逐场赛果：Men's Singles - Quarterfinal - Match 3",
         "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEMSINGLES-----------QFNL000300----------.json"
+      },
+      {
+        "id": "wtt-card-men-qf-4",
+        "kind": "official",
+        "family": "wtt",
+        "label": "WTT官方逐场赛果：Men's Singles - Quarterfinal - Match 4",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEMSINGLES-----------QFNL000400----------.json"
       }
     ],
     "rules": {
@@ -3369,13 +3376,13 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-results-full",
+            "wtt-card-men-qf-4"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-21T00:01:42+08:00"
         },
         "scheduled_at": "2026-11-20T19:05:00+04:00",
         "schedule_verification": {
@@ -3384,7 +3391,25 @@
           ],
           "verified_at": "2026-11-20T18:31:22+09:00"
         },
-        "blocker": "WTT 官方逐场卡仍为 LIVE，未发布终局。"
+        "result_for": [
+          "men-107028",
+          "men-133694"
+        ],
+        "games": [
+          [
+            10,
+            12
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            13,
+            15
+          ]
+        ],
+        "completed_date": "2026-11-20"
       },
       {
         "id": "men-sf-1",
@@ -3435,6 +3460,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-21T11:40:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-sf"
+          ],
+          "verified_at": "2026-11-21T00:01:42+08:00"
         }
       },
       {
