@@ -11,13 +11,13 @@
     "11月16–21日 · 阿曼马斯喀特。本页仅收录男女单打正赛，各48名选手及16个轮空签位；不含资格赛与双打。",
     "96名选手的身份及代表队、32场首轮实赛的对阵与比赛编号已与WTT官方名单和赛程逐项核对。完整签表及轮空签位由Eleven与ぐぐスポ两家媒体交叉核验；未声称直接取得WTT完整签表原文件。",
     "资格赛落败的Bardet及Grebnev均已出现在官方正赛赛程，不推断其递补对应关系。未收录方博资格赛弃权的占位局分。",
-    "默认北京时间，可切换赛地Asia/Muscat时间。首轮及32强赛时间来自官方计划，实际开赛可能顺延；其余轮次未公布时间，不猜测。"
+    "默认北京时间，可切换赛地Asia/Muscat时间。首轮、32强赛及八强赛时间来自官方计划，实际开赛可能顺延；尚未核实的场次不填时间。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-20T17:29:20+08:00",
+      "snapshot_at": "2026-11-20T18:31:22+09:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -860,6 +860,13 @@
         "family": "wtt",
         "label": "WTT官方逐场赛果：Men's Singles - Round of 16 - Match 7",
         "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEMSINGLES-----------8FNL000700----------.json"
+      },
+      {
+        "id": "wtt-schedule-qf",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3256/schedule/schedule_filtered.json",
+        "label": "WTT 官方单打八强对阵与计划开赛时间",
+        "kind": "official",
+        "family": "wtt"
       }
     ],
     "rules": {
@@ -3153,6 +3160,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-20T15:35:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-qf"
+          ],
+          "verified_at": "2026-11-20T18:31:22+09:00"
         }
       },
       {
@@ -3175,6 +3189,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-20T16:45:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-qf"
+          ],
+          "verified_at": "2026-11-20T18:31:22+09:00"
         }
       },
       {
@@ -3197,6 +3218,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-20T18:30:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-qf"
+          ],
+          "verified_at": "2026-11-20T18:31:22+09:00"
         }
       },
       {
@@ -3219,6 +3247,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-20T19:05:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-qf"
+          ],
+          "verified_at": "2026-11-20T18:31:22+09:00"
         }
       },
       {
@@ -5559,6 +5594,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-20T16:10:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-qf"
+          ],
+          "verified_at": "2026-11-20T18:31:22+09:00"
         }
       },
       {
@@ -5581,6 +5623,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-20T17:55:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-qf"
+          ],
+          "verified_at": "2026-11-20T18:31:22+09:00"
         }
       },
       {
@@ -5603,6 +5652,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-20T17:20:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-qf"
+          ],
+          "verified_at": "2026-11-20T18:31:22+09:00"
         }
       },
       {
@@ -5625,6 +5681,13 @@
             "sportzorg-draw"
           ],
           "verified_at": "2026-11-18T09:35:43+08:00"
+        },
+        "scheduled_at": "2026-11-20T15:00:00+04:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule-qf"
+          ],
+          "verified_at": "2026-11-20T18:31:22+09:00"
         }
       },
       {
