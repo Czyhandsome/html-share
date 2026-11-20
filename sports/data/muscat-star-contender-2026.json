@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-20T18:31:22+09:00",
+      "snapshot_at": "2026-11-20T20:01:19+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -867,6 +867,13 @@
         "label": "WTT 官方单打八强对阵与计划开赛时间",
         "kind": "official",
         "family": "wtt"
+      },
+      {
+        "id": "wtt-card-women-qf-4",
+        "kind": "official",
+        "family": "wtt",
+        "label": "WTT官方逐场赛果：Women's Singles - Quarterfinal - Match 4",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEWSINGLES-----------QFNL000400----------.json"
       }
     ],
     "rules": {
@@ -3167,7 +3174,8 @@
             "wtt-schedule-qf"
           ],
           "verified_at": "2026-11-20T18:31:22+09:00"
-        }
+        },
+        "blocker": "WTT 官方逐场卡仍为 LIVE，未发布终局。"
       },
       {
         "id": "men-qf-2",
@@ -5674,13 +5682,13 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-results-full",
+            "wtt-card-women-qf-4"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-20T20:01:19+08:00"
         },
         "scheduled_at": "2026-11-20T15:00:00+04:00",
         "schedule_verification": {
@@ -5688,7 +5696,26 @@
             "wtt-schedule-qf"
           ],
           "verified_at": "2026-11-20T18:31:22+09:00"
-        }
+        },
+        "result_for": [
+          "women-110797",
+          "women-133000"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-20"
       },
       {
         "id": "women-sf-1",
