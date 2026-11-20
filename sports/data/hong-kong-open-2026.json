@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-20T21:30:00+08:00",
+      "snapshot_at": "2026-11-20T22:00:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -2909,14 +2909,15 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "draw-2"
+            "draw-2",
+            "day-2026-11-20"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T22:00:00+08:00"
         },
-        "reason": "BWF 官方当日赛程已公布；实际开赛可能顺延。",
+        "reason": "BWF 官方确认终局赛果。",
         "scheduled_at": "2026-11-20T12:10:00+00:00",
         "schedule_verification": {
           "source_ids": [
@@ -2925,7 +2926,22 @@
           ],
           "verified_at": "2026-11-20T15:02:00+08:00"
         },
-        "blocker": "BWF 尚未发布官方终局赛果。"
+        "completed_date": "2026-11-20",
+        "winner": "p-60321",
+        "result_for": [
+          "p-61628",
+          "p-60321"
+        ],
+        "games": [
+          [
+            8,
+            21
+          ],
+          [
+            9,
+            21
+          ]
+        ]
       },
       {
         "id": "MS-M-2-3",
@@ -2994,7 +3010,15 @@
           ],
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
-        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。",
+        "scheduled_at": "2026-11-21T10:40:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-2",
+            "day-2026-11-21"
+          ],
+          "verified_at": "2026-11-20T22:00:00+08:00"
+        }
       },
       {
         "id": "MS-M-3-1",
@@ -3016,7 +3040,15 @@
           ],
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
-        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。",
+        "scheduled_at": "2026-11-21T12:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-2",
+            "day-2026-11-21"
+          ],
+          "verified_at": "2026-11-20T22:00:00+08:00"
+        }
       },
       {
         "id": "MS-M-4-0",
@@ -7705,7 +7737,15 @@
           ],
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
-        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。",
+        "scheduled_at": "2026-11-21T09:50:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8",
+            "day-2026-11-21"
+          ],
+          "verified_at": "2026-11-20T22:00:00+08:00"
+        }
       },
       {
         "id": "WD-M-3-1",
@@ -7727,7 +7767,15 @@
           ],
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
-        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。",
+        "scheduled_at": "2026-11-21T11:30:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-8",
+            "day-2026-11-21"
+          ],
+          "verified_at": "2026-11-20T22:00:00+08:00"
+        }
       },
       {
         "id": "WD-M-4-0",
@@ -9240,7 +9288,15 @@
           ],
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
-        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。",
+        "scheduled_at": "2026-11-21T05:20:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-10",
+            "day-2026-11-21"
+          ],
+          "verified_at": "2026-11-20T22:00:00+08:00"
+        }
       },
       {
         "id": "XD-M-3-1",
@@ -9262,7 +9318,15 @@
           ],
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
-        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。"
+        "reason": "官方最新签表已核验；逐场开赛时间尚待发布。",
+        "scheduled_at": "2026-11-21T09:00:00+00:00",
+        "schedule_verification": {
+          "source_ids": [
+            "draw-10",
+            "day-2026-11-21"
+          ],
+          "verified_at": "2026-11-20T22:00:00+08:00"
+        }
       },
       {
         "id": "XD-M-4-0",
