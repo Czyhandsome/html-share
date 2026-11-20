@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-20T20:01:19+08:00",
+      "snapshot_at": "2026-11-20T20:30:00+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -2815,14 +2815,15 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "draw-2"
+            "draw-2",
+            "day-2026-11-20"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T20:30:00+08:00"
         },
-        "reason": "BWF 官方当日赛程已公布；实际开赛可能顺延。",
+        "reason": "BWF 官方确认终局赛果。",
         "scheduled_at": "2026-11-20T10:30:00+00:00",
         "schedule_verification": {
           "source_ids": [
@@ -2831,7 +2832,26 @@
           ],
           "verified_at": "2026-11-20T15:02:00+08:00"
         },
-        "blocker": "BWF 尚未发布官方终局赛果。"
+        "completed_date": "2026-11-20",
+        "winner": "p-91554",
+        "result_for": [
+          "p-91554",
+          "p-97345"
+        ],
+        "games": [
+          [
+            21,
+            18
+          ],
+          [
+            14,
+            21
+          ],
+          [
+            24,
+            22
+          ]
+        ]
       },
       {
         "id": "MS-M-2-1",
@@ -2904,7 +2924,8 @@
             "day-2026-11-20"
           ],
           "verified_at": "2026-11-20T15:02:00+08:00"
-        }
+        },
+        "blocker": "BWF 尚未发布官方终局赛果。"
       },
       {
         "id": "MS-M-2-3",
@@ -2934,7 +2955,8 @@
             "day-2026-11-20"
           ],
           "verified_at": "2026-11-20T15:02:00+08:00"
-        }
+        },
+        "blocker": "BWF 尚未发布官方终局赛果。"
       },
       {
         "id": "MS-M-3-0",
@@ -7596,7 +7618,8 @@
             "day-2026-11-20"
           ],
           "verified_at": "2026-11-20T15:02:00+08:00"
-        }
+        },
+        "blocker": "BWF 尚未发布官方终局赛果。"
       },
       {
         "id": "WD-M-3-0",
@@ -9069,14 +9092,15 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "draw-10"
+            "draw-10",
+            "day-2026-11-20"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-20T20:30:00+08:00"
         },
-        "reason": "BWF 官方当日赛程已公布；实际开赛可能顺延。",
+        "reason": "BWF 官方确认终局赛果。",
         "scheduled_at": "2026-11-20T11:20:00+00:00",
         "schedule_verification": {
           "source_ids": [
@@ -9085,7 +9109,22 @@
           ],
           "verified_at": "2026-11-20T15:02:00+08:00"
         },
-        "blocker": "BWF 尚未发布官方终局赛果。"
+        "completed_date": "2026-11-20",
+        "winner": "p-81458-69193",
+        "result_for": [
+          "p-94156-92404",
+          "p-81458-69193"
+        ],
+        "games": [
+          [
+            13,
+            21
+          ],
+          [
+            17,
+            21
+          ]
+        ]
       },
       {
         "id": "XD-M-2-3",
