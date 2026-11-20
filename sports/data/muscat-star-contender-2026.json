@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-20T15:35:00+08:00",
+      "snapshot_at": "2026-11-20T15:59:45+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -804,6 +804,27 @@
         "family": "wtt",
         "label": "WTT官方逐场赛果：Women's Singles - Round of 16 - Match 7",
         "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEWSINGLES-----------8FNL000700----------.json"
+      },
+      {
+        "id": "wtt-card-men-r16-6",
+        "kind": "official",
+        "family": "wtt",
+        "label": "WTT官方逐场赛果：Men's Singles - Round of 16 - Match 6",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEMSINGLES-----------8FNL000600----------.json"
+      },
+      {
+        "id": "wtt-card-women-r16-3",
+        "kind": "official",
+        "family": "wtt",
+        "label": "WTT官方逐场赛果：Women's Singles - Round of 16 - Match 3",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEWSINGLES-----------8FNL000300----------.json"
+      },
+      {
+        "id": "wtt-card-women-r16-4",
+        "kind": "official",
+        "family": "wtt",
+        "label": "WTT官方逐场赛果：Women's Singles - Round of 16 - Match 4",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEWSINGLES-----------8FNL000400----------.json"
       }
     ],
     "rules": {
@@ -2905,14 +2926,41 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-results-full",
+            "wtt-card-men-r16-6"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-20T15:59:45+08:00"
+        },
+        "result_for": [
+          "men-133848",
+          "men-221452"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "completed_date": "2026-11-20"
       },
       {
         "id": "men-r16-7",
@@ -5119,14 +5167,33 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-results-full",
+            "wtt-card-women-r16-3"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-20T15:59:45+08:00"
+        },
+        "result_for": [
+          "women-124591",
+          "women-112868"
+        ],
+        "games": [
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "completed_date": "2026-11-20"
       },
       {
         "id": "women-r16-4",
@@ -5141,14 +5208,33 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-results-full",
+            "wtt-card-women-r16-4"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
-        }
+          "verified_at": "2026-11-20T15:59:45+08:00"
+        },
+        "result_for": [
+          "women-136309",
+          "women-144628"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "completed_date": "2026-11-20"
       },
       {
         "id": "women-r16-5",
