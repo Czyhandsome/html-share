@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-21T23:01:51+08:00",
+      "snapshot_at": "2026-11-21T23:29:22+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -972,6 +972,13 @@
         "family": "wtt",
         "label": "WTT官方逐场赛果：Women's Singles - Final - Match 1",
         "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEWSINGLES-----------FNL-000100----------.json"
+      },
+      {
+        "id": "wtt-card-men-final-1",
+        "kind": "official",
+        "family": "wtt",
+        "label": "WTT官方逐场赛果：Men's Singles - Final - Match 1",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEMSINGLES-----------FNL-000100----------.json"
       }
     ],
     "rules": {
@@ -3566,13 +3573,13 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-results-full",
+            "wtt-card-men-final-1"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-21T23:29:22+08:00"
         },
         "scheduled_at": "2026-11-21T18:10:00+04:00",
         "schedule_verification": {
@@ -3582,7 +3589,33 @@
           "verified_at": "2026-11-21T10:00:00+08:00"
         },
         "reason": "WTT 官方已公布计划场次，参赛双方待半决赛结束确认，实际开赛可能顺延。",
-        "blocker": "WTT 尚未发布官方终局赛果。"
+        "result_for": [
+          "men-116820",
+          "men-133694"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            14,
+            16
+          ]
+        ],
+        "completed_date": "2026-11-21"
       },
       {
         "id": "women-r64-1",
