@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 WTT 马斯喀特球星挑战赛 · 单打正赛",
-      "snapshot_at": "2026-11-21T15:59:36+08:00",
+      "snapshot_at": "2026-11-21T16:30:24+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Muscat"
     },
@@ -944,6 +944,13 @@
         "family": "wtt",
         "label": "WTT官方逐场赛果：Women's Singles - Semifinal - Match 1",
         "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEWSINGLES-----------SFNL000100----------.json"
+      },
+      {
+        "id": "wtt-card-men-sf-2",
+        "kind": "official",
+        "family": "wtt",
+        "label": "WTT官方逐场赛果：Men's Singles - Semifinal - Match 2",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3256/TTEMSINGLES-----------SFNL000200----------.json"
       }
     ],
     "rules": {
@@ -3467,13 +3474,13 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "eleven-draw",
-            "sportzorg-draw"
+            "wtt-results-full",
+            "wtt-card-men-sf-2"
           ],
-          "verified_at": "2026-11-18T09:35:43+08:00"
+          "verified_at": "2026-11-21T16:30:24+08:00"
         },
         "scheduled_at": "2026-11-21T11:40:00+04:00",
         "schedule_verification": {
@@ -3482,7 +3489,25 @@
           ],
           "verified_at": "2026-11-21T00:01:42+08:00"
         },
-        "blocker": "WTT 尚未发布官方终局赛果。"
+        "result_for": [
+          "men-135050",
+          "men-133694"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            3,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-21"
       },
       {
         "id": "men-final-1",
@@ -6049,7 +6074,8 @@
             "wtt-schedule-sf"
           ],
           "verified_at": "2026-11-20T23:01:07+08:00"
-        }
+        },
+        "blocker": "WTT 尚未发布官方终局赛果。"
       },
       {
         "id": "women-final-1",
