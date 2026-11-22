@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-22T15:00:33+08:00",
+      "snapshot_at": "2026-11-22T16:00:49+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -6352,23 +6352,39 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "completed",
         "verification": {
           "source_ids": [
-            "draw-6"
+            "draw-6",
+            "day-2026-11-22"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-22T16:00:49+08:00"
         },
-        "reason": "BWF 官方已公布计划开赛时间，可能顺延。",
-        "scheduled_at": "2026-11-22T06:55:00+00:00",
+        "reason": "BWF 官方确认终局赛果。",
+        "scheduled_at": "2026-11-22T07:05:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-6",
             "day-2026-11-22"
           ],
-          "verified_at": "2026-11-22T14:32:18+08:00"
+          "verified_at": "2026-11-22T16:00:49+08:00"
         },
-        "blocker": "BWF 尚未发布官方终局赛果。"
+        "completed_date": "2026-11-22",
+        "winner": "p-78409-85129",
+        "result_for": [
+          "p-78409-85129",
+          "p-68633-84786"
+        ],
+        "games": [
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            18
+          ]
+        ]
       },
       {
         "id": "WD-Q-0-0",
@@ -9599,7 +9615,8 @@
             "day-2026-11-22"
           ],
           "verified_at": "2026-11-22T14:32:18+08:00"
-        }
+        },
+        "blocker": "BWF 尚未发布官方终局赛果。"
       }
     ],
     "draws": [
