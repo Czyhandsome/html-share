@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "香港羽毛球公开赛 2026 · 五项目签表",
-      "snapshot_at": "2026-11-21T21:59:52+08:00",
+      "snapshot_at": "2026-11-22T14:32:18+08:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Hong_Kong"
     },
@@ -3108,14 +3108,15 @@
           }
         ],
         "rule": "badminton",
-        "status": "scheduled",
+        "status": "walkover",
         "verification": {
           "source_ids": [
-            "draw-2"
+            "draw-2",
+            "day-2026-11-22"
           ],
-          "verified_at": "2026-11-17T21:32:36+08:00"
+          "verified_at": "2026-11-22T14:32:18+08:00"
         },
-        "reason": "BWF 官方已公布计划开赛时间，可能顺延。",
+        "reason": "BWF 官方确认弃权，无已打局分。",
         "scheduled_at": "2026-11-22T09:20:00+00:00",
         "schedule_verification": {
           "source_ids": [
@@ -3123,7 +3124,14 @@
             "day-2026-11-22"
           ],
           "verified_at": "2026-11-21T21:59:52+08:00"
-        }
+        },
+        "completed_date": "2026-11-22",
+        "winner": "p-91554",
+        "result_for": [
+          "p-91554",
+          "p-64032"
+        ],
+        "games": []
       },
       {
         "id": "WS-Q-0-0",
@@ -4717,7 +4725,8 @@
             "day-2026-11-22"
           ],
           "verified_at": "2026-11-21T17:56:53+08:00"
-        }
+        },
+        "blocker": "BWF 尚未发布官方终局赛果。"
       },
       {
         "id": "MD-Q-0-0",
@@ -6335,13 +6344,13 @@
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
         "reason": "BWF 官方已公布计划开赛时间，可能顺延。",
-        "scheduled_at": "2026-11-22T06:50:00+00:00",
+        "scheduled_at": "2026-11-22T06:55:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-6",
             "day-2026-11-22"
           ],
-          "verified_at": "2026-11-21T17:56:53+08:00"
+          "verified_at": "2026-11-22T14:32:18+08:00"
         }
       },
       {
@@ -7973,13 +7982,13 @@
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
         "reason": "BWF 官方已公布计划开赛时间，可能顺延。",
-        "scheduled_at": "2026-11-22T08:30:00+00:00",
+        "scheduled_at": "2026-11-22T08:35:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-8",
             "day-2026-11-22"
           ],
-          "verified_at": "2026-11-21T20:29:50+08:00"
+          "verified_at": "2026-11-22T14:32:18+08:00"
         }
       },
       {
@@ -9566,13 +9575,13 @@
           "verified_at": "2026-11-17T21:32:36+08:00"
         },
         "reason": "BWF 官方已公布计划开赛时间，可能顺延。",
-        "scheduled_at": "2026-11-22T07:40:00+00:00",
+        "scheduled_at": "2026-11-22T07:45:00+00:00",
         "schedule_verification": {
           "source_ids": [
             "draw-10",
             "day-2026-11-22"
           ],
-          "verified_at": "2026-11-21T17:56:53+08:00"
+          "verified_at": "2026-11-22T14:32:18+08:00"
         }
       }
     ],
