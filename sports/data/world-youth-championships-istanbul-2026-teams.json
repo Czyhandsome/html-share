@@ -5,7 +5,7 @@
   "schema_version": 1,
   "notices": [
     "本页覆盖 U19 男团、女团及 U15 男团、女团四项。团体赛赛期为 11 月 21 日至 23 日，不含本届世青赛单打和双打。",
-    "已录入 40 场完赛团体对决的 146 盘、550 局，以及 16 个轮空和 4 场待赛决赛。队伍名下为本页已核对的实际出场球员，不等于完整报名名单。",
+    "已录入 44 场完赛团体对决的 161 盘、608 局，以及 16 个轮空；四场决赛均已核实。队伍名下为本页已核对的实际出场球员，不等于完整报名名单。",
     "11 月 23 日团体决赛计划于北京时间 23:00 同时开赛：1 号台 U19 女团、2 号台 U19 男团、3 号台 U15 女团、4 号台 U15 男团。以现场赛程为准。",
     "团体每盘单打为五局三胜，团体先赢三盘。签表与赛果均按 WTT 官方赛程和逐场对阵卡核对；比分方向与本页签位一致。"
   ],
@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · 团体签表",
-      "snapshot_at": "2026-11-23T09:48:08+08:00",
+      "snapshot_at": "2026-11-23T17:31:44+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -56,6 +56,10 @@
           {
             "id": "u19-boys-chn-209003",
             "name": "周冠宏"
+          },
+          {
+            "id": "u19-boys-chn-206904",
+            "name": "于海洋"
           }
         ]
       },
@@ -1317,6 +1321,34 @@
         "id": "wtt-u15-girls-sf-2",
         "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3377/TTEWTEAM-----------U15SFNL00020000--------.json",
         "label": "WTT 官方对阵卡 · U15女团 · CHN / KOR",
+        "kind": "official",
+        "family": "WTT"
+      },
+      {
+        "id": "wtt-u15-boys-final-1",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3377/TTEMTEAM-----------U15FNL-00010000--------.json",
+        "label": "WTT 官方决赛对阵卡 · u15-boys-final-1 · JPN / CHN",
+        "kind": "official",
+        "family": "WTT"
+      },
+      {
+        "id": "wtt-u15-girls-final-1",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3377/TTEWTEAM-----------U15FNL-00010000--------.json",
+        "label": "WTT 官方决赛对阵卡 · u15-girls-final-1 · JPN / CHN",
+        "kind": "official",
+        "family": "WTT"
+      },
+      {
+        "id": "wtt-u19-boys-final-1",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3377/TTEMTEAM-----------U19FNL-00010000--------.json",
+        "label": "WTT 官方决赛对阵卡 · u19-boys-final-1 · CHN / TPE",
+        "kind": "official",
+        "family": "WTT"
+      },
+      {
+        "id": "wtt-u19-girls-final-1",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/matchdata/3377/TTEWTEAM-----------U19FNL-00010000--------.json",
+        "label": "WTT 官方决赛对阵卡 · u19-girls-final-1 · CHN / JPN",
         "kind": "official",
         "family": "WTT"
       }
@@ -3317,7 +3349,174 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-23T09:48:08+08:00"
-        }
+        },
+        "official_result": {
+          "result_for": [
+            "u19-boys-chn",
+            "u19-boys-tpe"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "wtt-u19-boys-final-1"
+            ],
+            "verified_at": "2026-11-23T17:31:44+00:00"
+          }
+        },
+        "completed_date": "2026-11-23",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "u19-boys-chn-203472"
+              ],
+              [
+                "u19-boys-tpe-205967"
+              ]
+            ],
+            "status": "completed",
+            "winner": 1,
+            "games": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                7,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u19-boys-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "u19-boys-chn-203067"
+              ],
+              [
+                "u19-boys-tpe-137666"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u19-boys-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "u19-boys-chn-206904"
+              ],
+              [
+                "u19-boys-tpe-137068"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u19-boys-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "u19-boys-chn-203067"
+              ],
+              [
+                "u19-boys-tpe-205967"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                2
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u19-boys-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          }
+        ]
       },
       {
         "id": "u19-girls-r16-1",
@@ -5055,7 +5254,166 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-23T09:48:08+08:00"
-        }
+        },
+        "official_result": {
+          "result_for": [
+            "u19-girls-chn",
+            "u19-girls-jpn"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "wtt-u19-girls-final-1"
+            ],
+            "verified_at": "2026-11-23T17:31:44+00:00"
+          }
+        },
+        "completed_date": "2026-11-23",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "u19-girls-chn-206217"
+              ],
+              [
+                "u19-girls-jpn-145267"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u19-girls-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "u19-girls-chn-209007"
+              ],
+              [
+                "u19-girls-jpn-135937"
+              ]
+            ],
+            "status": "completed",
+            "winner": 1,
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u19-girls-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "u19-girls-chn-211409"
+              ],
+              [
+                "u19-girls-jpn-144862"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u19-girls-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "u19-girls-chn-206217"
+              ],
+              [
+                "u19-girls-jpn-135937"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                11,
+                5
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                12,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u19-girls-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          }
+        ]
       },
       {
         "id": "u15-boys-r16-1",
@@ -6913,7 +7271,170 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-23T09:48:08+08:00"
-        }
+        },
+        "official_result": {
+          "result_for": [
+            "u15-boys-jpn",
+            "u15-boys-chn"
+          ],
+          "score": [
+            3,
+            1
+          ],
+          "verification": {
+            "source_ids": [
+              "wtt-u15-boys-final-1"
+            ],
+            "verified_at": "2026-11-23T17:31:44+00:00"
+          }
+        },
+        "completed_date": "2026-11-23",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "u15-boys-jpn-202444"
+              ],
+              [
+                "u15-boys-chn-213438"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                5,
+                11
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u15-boys-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "u15-boys-jpn-209020"
+              ],
+              [
+                "u15-boys-chn-212885"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                6
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u15-boys-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "u15-boys-jpn-207770"
+              ],
+              [
+                "u15-boys-chn-222989"
+              ]
+            ],
+            "status": "completed",
+            "winner": 1,
+            "games": [
+              [
+                10,
+                12
+              ],
+              [
+                11,
+                13
+              ],
+              [
+                8,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u15-boys-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 4,
+            "lineup": [
+              [
+                "u15-boys-jpn-202444"
+              ],
+              [
+                "u15-boys-chn-212885"
+              ]
+            ],
+            "status": "completed",
+            "winner": 0,
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                12,
+                10
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u15-boys-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          }
+        ]
       },
       {
         "id": "u15-girls-r16-1",
@@ -8547,7 +9068,141 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-23T09:48:08+08:00"
-        }
+        },
+        "official_result": {
+          "result_for": [
+            "u15-girls-jpn",
+            "u15-girls-chn"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "wtt-u15-girls-final-1"
+            ],
+            "verified_at": "2026-11-23T17:31:44+00:00"
+          }
+        },
+        "completed_date": "2026-11-23",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "u15-girls-jpn-209670"
+              ],
+              [
+                "u15-girls-chn-212884"
+              ]
+            ],
+            "status": "completed",
+            "winner": 1,
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                12,
+                14
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                9,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u15-girls-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "u15-girls-jpn-209320"
+              ],
+              [
+                "u15-girls-chn-212898"
+              ]
+            ],
+            "status": "completed",
+            "winner": 1,
+            "games": [
+              [
+                11,
+                7
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u15-girls-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "u15-girls-jpn-205512"
+              ],
+              [
+                "u15-girls-chn-210320"
+              ]
+            ],
+            "status": "completed",
+            "winner": 1,
+            "games": [
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "wtt-u15-girls-final-1"
+              ],
+              "verified_at": "2026-11-23T17:31:44+00:00"
+            }
+          }
+        ]
       }
     ],
     "layout": {
