@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "event_dates": {
+    "start": "2026-11-21",
+    "end": "2026-11-28"
+  },
+  "kind": "bracket-v1",
+  "id": "world-youth-championships-istanbul-2026-mixed-doubles",
+  "output": "docs/2026/11/world-youth-championships-istanbul-2026-mixed-doubles/index.html",
+  "notices": [
+    "本页覆盖 2026 伊斯坦布尔乒乓球世青赛 U19 混合双打正赛后半程；团体赛另见同赛事团体页。",
+    "温瑞博/姜依依、李和宸/姚睿轩均已战胜各自四分之一决赛对手，至少获得铜牌并晋级半决赛。",
+    "半决赛对阵已按当日赛程和赛果核对；未可靠确认精确开赛时间，故保留为待赛状态。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 伊斯坦布尔乒乓球世青赛 · U19混合双打",
+      "snapshot_at": "2026-11-24T19:00:00+00:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/Istanbul"
+    },
+    "entries": [
+      {
+        "id": "mixed-wen-jiang",
+        "name": "温瑞博 / 姜依依",
+        "team": "CHN"
+      },
+      {
+        "id": "mixed-zyworonek-itagaki",
+        "name": "Patryk Zyworonek / Koharu Itagaki",
+        "team": "POL/JPN"
+      },
+      {
+        "id": "mixed-li-yao",
+        "name": "李和宸 / 姚睿轩",
+        "team": "CHN"
+      },
+      {
+        "id": "mixed-lee-heo",
+        "name": "Lee Hyeonho / Heo Yerim",
+        "team": "KOR"
+      },
+      {
+        "id": "mixed-nakano-takahashi",
+        "name": "Nakano Kohaku / Takahashi Aoba",
+        "team": "JPN"
+      },
+      {
+        "id": "mixed-iwaida-takamori",
+        "name": "Iwaida Shunto / Takamori Mao",
+        "team": "JPN"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ittf-event",
+        "url": "https://www.ittf.com/tournament/3377/ittf-world-youth-championships-istanbul-2026/",
+        "label": "ITTF event page",
+        "kind": "official",
+        "family": "ittf.com"
+      },
+      {
+        "id": "wtt-schedule",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3377/schedule/schedule.json",
+        "label": "WTT official schedule cache",
+        "kind": "official",
+        "family": "wtt.com"
+      },
+      {
+        "id": "eleven-event",
+        "url": "https://www.eleventabletennis.com/events/world-youth-championships-2026",
+        "label": "Eleven Table Tennis event page",
+        "kind": "independent",
+        "family": "eleventabletennis.com"
+      }
+    ],
+    "rules": {
+      "early": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2,
+        "cap": null
+      },
+      "late": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2,
+        "cap": null
+      }
+    },
+    "draws": [
+      {
+        "id": "mixed",
+        "name": "U19混合双打"
+      }
+    ],
+    "matches": [
+      {
+        "id": "mixed-qf-1",
+        "draw": "mixed",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "mixed-wen-jiang"
+          },
+          {
+            "entry": "mixed-zyworonek-itagaki"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "mixed-wen-jiang",
+          "mixed-zyworonek-itagaki"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-24T18:58:42+00:00"
+        }
+      },
+      {
+        "id": "mixed-qf-2",
+        "draw": "mixed",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "mixed-li-yao"
+          },
+          {
+            "entry": "mixed-lee-heo"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "mixed-li-yao",
+          "mixed-lee-heo"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-24T18:58:42+00:00"
+        }
+      },
+      {
+        "id": "mixed-sf-1",
+        "draw": "mixed",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "mixed-qf-1"
+          },
+          {
+            "entry": "mixed-nakano-takahashi"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      },
+      {
+        "id": "mixed-sf-2",
+        "draw": "mixed",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "mixed-qf-2"
+          },
+          {
+            "entry": "mixed-iwaida-takamori"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      },
+      {
+        "id": "mixed-final-1",
+        "draw": "mixed",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "mixed-sf-1"
+          },
+          {
+            "winner": "mixed-sf-2"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      }
+    ],
+    "layout": {
+      "mixed": {
+        "rounds": {
+          "main": [
+            [
+              "mixed-qf-1",
+              "mixed-qf-2"
+            ],
+            [
+              "mixed-sf-1",
+              "mixed-sf-2"
+            ],
+            [
+              "mixed-final-1"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}
