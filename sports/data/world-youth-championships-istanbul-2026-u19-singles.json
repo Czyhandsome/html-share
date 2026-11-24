@@ -407,6 +407,7 @@
         "scheduled_at": "2026-11-25T20:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -429,6 +430,7 @@
         "scheduled_at": "2026-11-25T20:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -451,6 +453,7 @@
         "scheduled_at": "2026-11-25T20:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -473,6 +476,7 @@
         "scheduled_at": "2026-11-25T20:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -495,6 +499,7 @@
         "scheduled_at": "2026-11-25T21:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -517,6 +522,7 @@
         "scheduled_at": "2026-11-25T21:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -539,6 +545,7 @@
         "scheduled_at": "2026-11-25T22:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -561,6 +568,7 @@
         "scheduled_at": "2026-11-25T22:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -583,6 +591,7 @@
         "scheduled_at": "2026-11-25T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -605,6 +614,7 @@
         "scheduled_at": "2026-11-25T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -627,6 +637,7 @@
         "scheduled_at": "2026-11-25T23:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -649,6 +660,7 @@
         "scheduled_at": "2026-11-25T23:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -671,6 +683,7 @@
         "scheduled_at": "2026-11-26T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -693,6 +706,7 @@
         "scheduled_at": "2026-11-26T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -715,6 +729,7 @@
         "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -737,6 +752,7 @@
         "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -984,6 +1000,7 @@
         "scheduled_at": "2026-11-25T20:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1006,6 +1023,7 @@
         "scheduled_at": "2026-11-25T20:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1028,6 +1046,7 @@
         "scheduled_at": "2026-11-25T20:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1050,6 +1069,7 @@
         "scheduled_at": "2026-11-25T20:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1072,6 +1092,7 @@
         "scheduled_at": "2026-11-25T21:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1094,6 +1115,7 @@
         "scheduled_at": "2026-11-25T21:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1116,6 +1138,7 @@
         "scheduled_at": "2026-11-25T22:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1138,6 +1161,7 @@
         "scheduled_at": "2026-11-25T22:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1160,6 +1184,7 @@
         "scheduled_at": "2026-11-25T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1182,6 +1207,7 @@
         "scheduled_at": "2026-11-25T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1204,6 +1230,7 @@
         "scheduled_at": "2026-11-25T23:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1226,6 +1253,7 @@
         "scheduled_at": "2026-11-25T23:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1248,6 +1276,7 @@
         "scheduled_at": "2026-11-26T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1270,6 +1299,7 @@
         "scheduled_at": "2026-11-26T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1292,6 +1322,7 @@
         "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
@@ -1314,6 +1345,7 @@
         "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
