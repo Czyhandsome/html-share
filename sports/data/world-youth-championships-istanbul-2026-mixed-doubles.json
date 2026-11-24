@@ -197,21 +197,21 @@
         "rule": "late",
         "status": "completed",
         "result_for": [
-          "mixed-nakano-takahashi",
-          "mixed-wen-jiang"
+          "mixed-wen-jiang",
+          "mixed-nakano-takahashi"
         ],
         "games": [
           [
-            9,
-            11
+            11,
+            9
           ],
           [
-            5,
-            11
+            11,
+            5
           ],
           [
-            6,
-            11
+            11,
+            6
           ]
         ],
         "completed_date": "2026-11-24",
@@ -238,25 +238,25 @@
         "rule": "late",
         "status": "completed",
         "result_for": [
-          "mixed-iwaida-takamori",
-          "mixed-li-yao"
+          "mixed-li-yao",
+          "mixed-iwaida-takamori"
         ],
         "games": [
           [
-            5,
-            11
+            11,
+            5
           ],
           [
-            7,
-            11
+            11,
+            7
           ],
           [
-            12,
-            10
+            10,
+            12
           ],
           [
-            7,
-            11
+            11,
+            7
           ]
         ],
         "completed_date": "2026-11-24",
