@@ -1,0 +1,660 @@
+{
+  "schema_version": 1,
+  "event_dates": {
+    "start": "2026-11-21",
+    "end": "2026-11-28"
+  },
+  "kind": "bracket-v1",
+  "id": "world-youth-championships-istanbul-2026-u19-doubles",
+  "output": "docs/2026/11/world-youth-championships-istanbul-2026-u19-doubles/index.html",
+  "notices": [
+    "本页覆盖伊斯坦布尔世青赛 U19 男子双打、女子双打四分之一决赛及半决赛签位；团体和混双另页展示。",
+    "温瑞博/李和宸、姜依依/姚睿轩均已晋级各自项目半决赛并确保至少获得铜牌。",
+    "半决赛时间按赛程页的近似时段保留为待赛，不把近似时间当作精确开赛时间。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 伊斯坦布尔乒乓球世青赛 · U19双打",
+      "snapshot_at": "2026-11-24T19:02:52+00:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/Istanbul"
+    },
+    "entries": [
+      {
+        "id": "boys-wen-li",
+        "name": "温瑞博 / 李和宸",
+        "team": "CHN"
+      },
+      {
+        "id": "boys-iwaida-nakano",
+        "name": "Iwaida Shunto / Nakano Kohaku",
+        "team": "JPN"
+      },
+      {
+        "id": "boys-kim-lee",
+        "name": "Kim Daehwan / Lee Hyeonho",
+        "team": "KOR"
+      },
+      {
+        "id": "boys-hung-lin",
+        "name": "Hung Che-Yen / Lin Chin-Ting",
+        "team": "TPE"
+      },
+      {
+        "id": "boys-kurmangaliyev-faraji",
+        "name": "Kurmangaliyev Alan / Faraji Benyamin",
+        "team": "KAZ/IRI"
+      },
+      {
+        "id": "boys-pradhivadhi-bhattacharyya",
+        "name": "Pradhivadhi Abhinandh / Bhattacharyya Priyanuj",
+        "team": "IND"
+      },
+      {
+        "id": "boys-pilard-noirault",
+        "name": "Pilard Nathan / Noirault Antoine",
+        "team": "FRA"
+      },
+      {
+        "id": "boys-rios-vila",
+        "name": "Rios Enrique / Vila Ramon",
+        "team": "PUR/DOM"
+      },
+      {
+        "id": "girls-jiang-yao",
+        "name": "姜依依 / 姚睿轩",
+        "team": "CHN"
+      },
+      {
+        "id": "girls-terekhova-shirokova",
+        "name": "Terekhova Zlata / Shirokova Eseniia",
+        "team": "RUS"
+      },
+      {
+        "id": "girls-takamori-takahashi",
+        "name": "Takamori Mao / Takahashi Aoba",
+        "team": "JPN"
+      },
+      {
+        "id": "girls-wu-wu",
+        "name": "Wu Ying Syuan / Wu Jia-En",
+        "team": "TPE"
+      },
+      {
+        "id": "girls-jeong-heo",
+        "name": "Jeong Yein / Heo Yerim",
+        "team": "KOR"
+      },
+      {
+        "id": "girls-moyland-ma",
+        "name": "Moyland Sally / Ma Lilian",
+        "team": "USA"
+      },
+      {
+        "id": "girls-hochart-nodin",
+        "name": "Hochart Leana / Nodin Alexia",
+        "team": "FRA"
+      },
+      {
+        "id": "girls-su-mak",
+        "name": "Su Tsz Tung / Mak Ming Shum",
+        "team": "HKG"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ittf-event",
+        "url": "https://www.ittf.com/tournament/3377/ittf-world-youth-championships-istanbul-2026/",
+        "label": "ITTF event page",
+        "kind": "official",
+        "family": "ittf.com"
+      },
+      {
+        "id": "wtt-schedule",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3377/schedule/schedule.json",
+        "label": "WTT official schedule cache",
+        "kind": "official",
+        "family": "wtt.com"
+      },
+      {
+        "id": "tabletennisapi-results",
+        "url": "https://tabletennisapi.com/results/2026-11-24",
+        "label": "Table Tennis API results",
+        "kind": "independent",
+        "family": "tabletennisapi.com"
+      },
+      {
+        "id": "eleven-news",
+        "url": "https://eleventabletennis.com/news/world-youth-championships-2026-u19-doubles-last-16-hana-goda-istrate-arpas-out",
+        "label": "Eleven Table Tennis report",
+        "kind": "independent",
+        "family": "eleventabletennis.com"
+      }
+    ],
+    "rules": {
+      "early": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2,
+        "cap": null
+      },
+      "late": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2,
+        "cap": null
+      }
+    },
+    "draws": [
+      {
+        "id": "boys",
+        "name": "U19男子双打"
+      },
+      {
+        "id": "girls",
+        "name": "U19女子双打"
+      }
+    ],
+    "matches": [
+      {
+        "id": "boys-qf-1",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "boys-hung-lin"
+          },
+          {
+            "entry": "boys-kim-lee"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "boys-hung-lin",
+          "boys-kim-lee"
+        ],
+        "games": [
+          [
+            11,
+            13
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "tabletennisapi-results",
+            "eleven-news"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
+      },
+      {
+        "id": "boys-qf-2",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "boys-kurmangaliyev-faraji"
+          },
+          {
+            "entry": "boys-pradhivadhi-bhattacharyya"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "boys-kurmangaliyev-faraji",
+          "boys-pradhivadhi-bhattacharyya"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "tabletennisapi-results",
+            "eleven-news"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
+      },
+      {
+        "id": "boys-qf-3",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "boys-rios-vila"
+          },
+          {
+            "entry": "boys-pilard-noirault"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "boys-rios-vila",
+          "boys-pilard-noirault"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "tabletennisapi-results",
+            "eleven-news"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
+      },
+      {
+        "id": "boys-qf-4",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "boys-wen-li"
+          },
+          {
+            "entry": "boys-iwaida-nakano"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "boys-wen-li",
+          "boys-iwaida-nakano"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "tabletennisapi-results",
+            "eleven-news"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
+      },
+      {
+        "id": "girls-qf-1",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "girls-wu-wu"
+          },
+          {
+            "entry": "girls-takamori-takahashi"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "girls-wu-wu",
+          "girls-takamori-takahashi"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            13
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "tabletennisapi-results",
+            "eleven-news"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
+      },
+      {
+        "id": "girls-qf-2",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "girls-terekhova-shirokova"
+          },
+          {
+            "entry": "girls-jiang-yao"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "girls-terekhova-shirokova",
+          "girls-jiang-yao"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "tabletennisapi-results",
+            "eleven-news"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
+      },
+      {
+        "id": "girls-qf-3",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "girls-su-mak"
+          },
+          {
+            "entry": "girls-hochart-nodin"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "girls-su-mak",
+          "girls-hochart-nodin"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "tabletennisapi-results",
+            "eleven-news"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
+      },
+      {
+        "id": "girls-qf-4",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "girls-jeong-heo"
+          },
+          {
+            "entry": "girls-moyland-ma"
+          }
+        ],
+        "rule": "early",
+        "status": "completed",
+        "result_for": [
+          "girls-jeong-heo",
+          "girls-moyland-ma"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "tabletennisapi-results",
+            "eleven-news"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
+      },
+      {
+        "id": "boys-sf-1",
+        "draw": "boys",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "boys-qf-1"
+          },
+          {
+            "winner": "boys-qf-3"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-sf-2",
+        "draw": "boys",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "boys-qf-2"
+          },
+          {
+            "winner": "boys-qf-4"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-sf-1",
+        "draw": "girls",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "girls-qf-4"
+          },
+          {
+            "winner": "girls-qf-3"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-sf-2",
+        "draw": "girls",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "girls-qf-1"
+          },
+          {
+            "winner": "girls-qf-2"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-final-1",
+        "draw": "boys",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "boys-sf-1"
+          },
+          {
+            "winner": "boys-sf-2"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-final-1",
+        "draw": "girls",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "girls-sf-1"
+          },
+          {
+            "winner": "girls-sf-2"
+          }
+        ],
+        "rule": "late",
+        "status": "scheduled"
+      }
+    ],
+    "layout": {
+      "boys": {
+        "rounds": {
+          "main": [
+            [
+              "boys-qf-1",
+              "boys-qf-2",
+              "boys-qf-3",
+              "boys-qf-4"
+            ],
+            [
+              "boys-sf-1",
+              "boys-sf-2"
+            ],
+            [
+              "boys-final-1"
+            ]
+          ]
+        }
+      },
+      "girls": {
+        "rounds": {
+          "main": [
+            [
+              "girls-qf-1",
+              "girls-qf-2",
+              "girls-qf-3",
+              "girls-qf-4"
+            ],
+            [
+              "girls-sf-1",
+              "girls-sf-2"
+            ],
+            [
+              "girls-final-1"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}
