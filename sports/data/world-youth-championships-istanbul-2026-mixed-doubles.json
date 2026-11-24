@@ -16,7 +16,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19混合双打",
-      "snapshot_at": "2026-11-24T19:00:00+00:00",
+      "snapshot_at": "2026-11-24T19:02:52+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -195,7 +195,33 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled"
+        "status": "completed",
+        "result_for": [
+          "mixed-nakano-takahashi",
+          "mixed-wen-jiang"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
       },
       {
         "id": "mixed-sf-2",
@@ -210,7 +236,37 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled"
+        "status": "completed",
+        "result_for": [
+          "mixed-iwaida-takamori",
+          "mixed-li-yao"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-24T19:02:52+00:00"
+        }
       },
       {
         "id": "mixed-final-1",
