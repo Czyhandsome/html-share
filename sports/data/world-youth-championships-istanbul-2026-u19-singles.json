@@ -668,7 +668,7 @@
         ],
         "rule": "early",
         "status": "scheduled",
-        "scheduled_at": "2026-11-25T00:30:00+08:00",
+        "scheduled_at": "2026-11-26T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "eleven-event"
@@ -690,7 +690,7 @@
         ],
         "rule": "early",
         "status": "scheduled",
-        "scheduled_at": "2026-11-25T00:30:00+08:00",
+        "scheduled_at": "2026-11-26T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "eleven-event"
@@ -712,7 +712,7 @@
         ],
         "rule": "early",
         "status": "scheduled",
-        "scheduled_at": "2026-11-25T01:15:00+08:00",
+        "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "eleven-event"
@@ -734,7 +734,7 @@
         ],
         "rule": "early",
         "status": "scheduled",
-        "scheduled_at": "2026-11-25T01:15:00+08:00",
+        "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "eleven-event"
@@ -863,7 +863,7 @@
         "status": "scheduled"
       },
       {
-        "id": "boys-r8-1",
+        "id": "boys-qf-1",
         "draw": "boys",
         "round": "四分之一决赛",
         "slots": [
@@ -878,7 +878,7 @@
         "status": "scheduled"
       },
       {
-        "id": "boys-r8-2",
+        "id": "boys-qf-2",
         "draw": "boys",
         "round": "四分之一决赛",
         "slots": [
@@ -893,7 +893,7 @@
         "status": "scheduled"
       },
       {
-        "id": "boys-r8-3",
+        "id": "boys-qf-3",
         "draw": "boys",
         "round": "四分之一决赛",
         "slots": [
@@ -908,7 +908,7 @@
         "status": "scheduled"
       },
       {
-        "id": "boys-r8-4",
+        "id": "boys-qf-4",
         "draw": "boys",
         "round": "四分之一决赛",
         "slots": [
@@ -923,45 +923,45 @@
         "status": "scheduled"
       },
       {
-        "id": "boys-r4-1",
+        "id": "boys-sf-1",
         "draw": "boys",
         "round": "半决赛",
         "slots": [
           {
-            "winner": "boys-r8-1"
+            "winner": "boys-qf-1"
           },
           {
-            "winner": "boys-r8-2"
+            "winner": "boys-qf-2"
           }
         ],
         "rule": "late",
         "status": "scheduled"
       },
       {
-        "id": "boys-r4-2",
+        "id": "boys-sf-2",
         "draw": "boys",
         "round": "半决赛",
         "slots": [
           {
-            "winner": "boys-r8-3"
+            "winner": "boys-qf-3"
           },
           {
-            "winner": "boys-r8-4"
+            "winner": "boys-qf-4"
           }
         ],
         "rule": "late",
         "status": "scheduled"
       },
       {
-        "id": "boys-r2-1",
+        "id": "boys-final-1",
         "draw": "boys",
         "round": "决赛",
         "slots": [
           {
-            "winner": "boys-r4-1"
+            "winner": "boys-sf-1"
           },
           {
-            "winner": "boys-r4-2"
+            "winner": "boys-sf-2"
           }
         ],
         "rule": "late",
@@ -1245,7 +1245,7 @@
         ],
         "rule": "early",
         "status": "scheduled",
-        "scheduled_at": "2026-11-25T00:30:00+08:00",
+        "scheduled_at": "2026-11-26T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "eleven-event"
@@ -1267,7 +1267,7 @@
         ],
         "rule": "early",
         "status": "scheduled",
-        "scheduled_at": "2026-11-25T00:30:00+08:00",
+        "scheduled_at": "2026-11-26T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "eleven-event"
@@ -1289,7 +1289,7 @@
         ],
         "rule": "early",
         "status": "scheduled",
-        "scheduled_at": "2026-11-25T01:15:00+08:00",
+        "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "eleven-event"
@@ -1311,7 +1311,7 @@
         ],
         "rule": "early",
         "status": "scheduled",
-        "scheduled_at": "2026-11-25T01:15:00+08:00",
+        "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "eleven-event"
@@ -1440,7 +1440,7 @@
         "status": "scheduled"
       },
       {
-        "id": "girls-r8-1",
+        "id": "girls-qf-1",
         "draw": "girls",
         "round": "四分之一决赛",
         "slots": [
@@ -1455,7 +1455,7 @@
         "status": "scheduled"
       },
       {
-        "id": "girls-r8-2",
+        "id": "girls-qf-2",
         "draw": "girls",
         "round": "四分之一决赛",
         "slots": [
@@ -1470,7 +1470,7 @@
         "status": "scheduled"
       },
       {
-        "id": "girls-r8-3",
+        "id": "girls-qf-3",
         "draw": "girls",
         "round": "四分之一决赛",
         "slots": [
@@ -1485,7 +1485,7 @@
         "status": "scheduled"
       },
       {
-        "id": "girls-r8-4",
+        "id": "girls-qf-4",
         "draw": "girls",
         "round": "四分之一决赛",
         "slots": [
@@ -1500,45 +1500,45 @@
         "status": "scheduled"
       },
       {
-        "id": "girls-r4-1",
+        "id": "girls-sf-1",
         "draw": "girls",
         "round": "半决赛",
         "slots": [
           {
-            "winner": "girls-r8-1"
+            "winner": "girls-qf-1"
           },
           {
-            "winner": "girls-r8-2"
+            "winner": "girls-qf-2"
           }
         ],
         "rule": "late",
         "status": "scheduled"
       },
       {
-        "id": "girls-r4-2",
+        "id": "girls-sf-2",
         "draw": "girls",
         "round": "半决赛",
         "slots": [
           {
-            "winner": "girls-r8-3"
+            "winner": "girls-qf-3"
           },
           {
-            "winner": "girls-r8-4"
+            "winner": "girls-qf-4"
           }
         ],
         "rule": "late",
         "status": "scheduled"
       },
       {
-        "id": "girls-r2-1",
+        "id": "girls-final-1",
         "draw": "girls",
         "round": "决赛",
         "slots": [
           {
-            "winner": "girls-r4-1"
+            "winner": "girls-sf-1"
           },
           {
-            "winner": "girls-r4-2"
+            "winner": "girls-sf-2"
           }
         ],
         "rule": "late",
