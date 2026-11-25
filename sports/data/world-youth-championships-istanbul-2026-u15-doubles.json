@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "event_dates": {
+    "start": "2026-11-21",
+    "end": "2026-11-28"
+  },
+  "kind": "bracket-v1",
+  "id": "world-youth-championships-istanbul-2026-u15-doubles",
+  "output": "docs/2026/11/world-youth-championships-istanbul-2026-u15-doubles/index.html",
+  "notices": [
+    "本页先覆盖 U15 男双、女双四分之一决赛至决赛；首轮暂未纳入，单打、混双另页展示。",
+    "两项各四场四分之一决赛已核对逐局比分和晋级。11 月 26 日北京时间 21:30 刘子菱／祝启慧对法国组合，22:00 刘子航／崔梓俊对西班牙／马来西亚跨协会组合。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 伊斯坦布尔乒乓球世青赛 · U15双打",
+      "snapshot_at": "2026-11-25T18:32:28+00:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/Istanbul"
+    },
+    "entries": [
+      {
+        "id": "boys-wtt-100115221",
+        "name": "Eli Ho / August Xiao",
+        "team": "NZL"
+      },
+      {
+        "id": "boys-wtt-100249286",
+        "name": "Sheung Man Lam / Lunxi Ji",
+        "team": "HKG"
+      },
+      {
+        "id": "boys-wtt-100139556",
+        "name": "Tien Nghia Phong / Lukas Wang",
+        "team": "GER"
+      },
+      {
+        "id": "boys-wtt-100175811",
+        "name": "Louis Fegerl / Ladimir Mayorov",
+        "team": "AUT/ESP"
+      },
+      {
+        "id": "boys-wtt-100154632",
+        "name": "Emil Ellermann / Volodymyr Nevizhyn",
+        "team": "SWE/UKR"
+      },
+      {
+        "id": "boys-wtt-100206009",
+        "name": "刘子航 / 崔梓俊",
+        "team": "CHN"
+      },
+      {
+        "id": "boys-wtt-100262207",
+        "name": "Ryeowon Kim / Kanggeon Choi",
+        "team": "KOR"
+      },
+      {
+        "id": "boys-wtt-100219237",
+        "name": "Alexander Malov / Yong Ren Lai",
+        "team": "ESP/MAS"
+      },
+      {
+        "id": "girls-wtt-100187509",
+        "name": "刘子菱 / 祝启慧",
+        "team": "CHN"
+      },
+      {
+        "id": "girls-wtt-100216342",
+        "name": "Varvara Tolmacheva / Amina Ilimbetova",
+        "team": "RUS"
+      },
+      {
+        "id": "girls-wtt-100266651",
+        "name": "Xinrou Chen / Jia Yu Zhang",
+        "team": "HKG"
+      },
+      {
+        "id": "girls-wtt-100175853",
+        "name": "Albane Rochut / Eva Lam",
+        "team": "FRA"
+      },
+      {
+        "id": "girls-wtt-100196739",
+        "name": "Haelin Lee / Gyurin Kim",
+        "team": "KOR"
+      },
+      {
+        "id": "girls-wtt-100121805",
+        "name": "Irene Yeoh / Abigail Yu",
+        "team": "USA"
+      },
+      {
+        "id": "girls-wtt-100268785",
+        "name": "Chih Yen Chen / Yixuan Liao",
+        "team": "TPE"
+      },
+      {
+        "id": "girls-wtt-100179438",
+        "name": "Miku Matsushima / Cocona Muramatsu",
+        "team": "JPN"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ittf-event",
+        "url": "https://www.ittf.com/tournament/3377/ittf-world-youth-championships-istanbul-2026/",
+        "label": "ITTF：世青赛赛事主页",
+        "kind": "official",
+        "family": "ittf.com"
+      },
+      {
+        "id": "wtt-schedule",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3377/schedule/schedule.json",
+        "label": "WTT：官方签表、协会与赛程",
+        "kind": "official",
+        "family": "wtt.com"
+      },
+      {
+        "id": "gsa-results",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-24&sp=table_tennis&widget_client_id=1",
+        "label": "Global Sports Archive：11 月 24 日逐局比分",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-results",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "label": "ぐぐスポ：U15 签表和逐局比分",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
+      },
+      {
+        "id": "fftt-event",
+        "url": "https://www.fftt.com/actualites/france-jeunes/championnats-du-monde-jeunes-2026-programme-et-resultats/",
+        "label": "法国乒协：女双赛果及半决赛开球时间",
+        "kind": "official",
+        "family": "fftt.com"
+      },
+      {
+        "id": "doubles-format",
+        "url": "https://www.tabletennisdaily.com/forum/topics/ittf-world-youth-championships-2026-nov-21-26-istanbul-turkey.40119/page-2",
+        "label": "TableTennisDaily：世青赛赛制汇总",
+        "kind": "independent",
+        "family": "tabletennisdaily.com"
+      }
+    ],
+    "rules": {
+      "bo5": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2,
+        "cap": null
+      }
+    },
+    "draws": [
+      {
+        "id": "boys",
+        "name": "U15男子双打"
+      },
+      {
+        "id": "girls",
+        "name": "U15女子双打"
+      }
+    ],
+    "matches": [
+      {
+        "id": "boys-qf-1",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "boys-wtt-100115221"
+          },
+          {
+            "entry": "boys-wtt-100249286"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T21:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100115221",
+          "boys-wtt-100249286"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            15,
+            13
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "boys-qf-2",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "boys-wtt-100139556"
+          },
+          {
+            "entry": "boys-wtt-100175811"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T21:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100139556",
+          "boys-wtt-100175811"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "boys-qf-3",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "boys-wtt-100154632"
+          },
+          {
+            "entry": "boys-wtt-100206009"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T22:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100154632",
+          "boys-wtt-100206009"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "boys-qf-4",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "boys-wtt-100262207"
+          },
+          {
+            "entry": "boys-wtt-100219237"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T22:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100262207",
+          "boys-wtt-100219237"
+        ],
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            17,
+            19
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "boys-sf-1",
+        "draw": "boys",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "boys-qf-1"
+          },
+          {
+            "winner": "boys-qf-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T21:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "boys-sf-2",
+        "draw": "boys",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "boys-qf-3"
+          },
+          {
+            "winner": "boys-qf-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T22:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "boys-final-1",
+        "draw": "boys",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "boys-sf-1"
+          },
+          {
+            "winner": "boys-sf-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-qf-1",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "girls-wtt-100187509"
+          },
+          {
+            "entry": "girls-wtt-100216342"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T21:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100187509",
+          "girls-wtt-100216342"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "girls-qf-2",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "girls-wtt-100266651"
+          },
+          {
+            "entry": "girls-wtt-100175853"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T21:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100266651",
+          "girls-wtt-100175853"
+        ],
+        "games": [
+          [
+            11,
+            3
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results",
+            "fftt-event"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "girls-qf-3",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "girls-wtt-100196739"
+          },
+          {
+            "entry": "girls-wtt-100121805"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T22:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100196739",
+          "girls-wtt-100121805"
+        ],
+        "games": [
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "girls-qf-4",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "entry": "girls-wtt-100268785"
+          },
+          {
+            "entry": "girls-wtt-100179438"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T22:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100268785",
+          "girls-wtt-100179438"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "girls-sf-1",
+        "draw": "girls",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "girls-qf-1"
+          },
+          {
+            "winner": "girls-qf-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T21:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "fftt-event"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "girls-sf-2",
+        "draw": "girls",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "girls-qf-3"
+          },
+          {
+            "winner": "girls-qf-4"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T22:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:32:28+00:00"
+        }
+      },
+      {
+        "id": "girls-final-1",
+        "draw": "girls",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "girls-sf-1"
+          },
+          {
+            "winner": "girls-sf-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled"
+      }
+    ],
+    "layout": {
+      "boys": {
+        "rounds": {
+          "main": [
+            [
+              "boys-qf-1",
+              "boys-qf-2",
+              "boys-qf-3",
+              "boys-qf-4"
+            ],
+            [
+              "boys-sf-1",
+              "boys-sf-2"
+            ],
+            [
+              "boys-final-1"
+            ]
+          ]
+        }
+      },
+      "girls": {
+        "rounds": {
+          "main": [
+            [
+              "girls-qf-1",
+              "girls-qf-2",
+              "girls-qf-3",
+              "girls-qf-4"
+            ],
+            [
+              "girls-sf-1",
+              "girls-sf-2"
+            ],
+            [
+              "girls-final-1"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}
