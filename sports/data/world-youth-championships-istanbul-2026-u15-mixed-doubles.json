@@ -9,13 +9,13 @@
   "output": "docs/2026/11/world-youth-championships-istanbul-2026-u15-mixed-doubles/index.html",
   "notices": [
     "本页覆盖 U15 混双两场半决赛与决赛签位，不含前序轮次。",
-    "刘子航 / 祝启慧与崔梓俊 / 刘子菱会师决赛；决赛具体开赛时间待官方赛程核实。"
+    "刘子航 / 祝启慧与崔梓俊 / 刘子菱会师决赛；WTT 赛程列出的计划开赛时间为北京时间 11 月 27 日 00:30。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15混合双打",
-      "snapshot_at": "2026-11-25T04:03:09+00:00",
+      "snapshot_at": "2026-11-25T07:31:00+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -207,7 +207,14 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T00:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T07:31:00+00:00"
+        }
       }
     ]
   }

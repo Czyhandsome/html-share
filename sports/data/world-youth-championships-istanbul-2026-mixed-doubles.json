@@ -9,14 +9,14 @@
   "output": "docs/2026/11/world-youth-championships-istanbul-2026-mixed-doubles/index.html",
   "notices": [
     "本页覆盖 2026 伊斯坦布尔乒乓球世青赛 U19 混合双打正赛后半程；团体赛另见同赛事团体页。",
-    "温瑞博/姜依依、李和宸/姚睿轩均已战胜各自四分之一决赛对手，至少获得铜牌并晋级半决赛。",
-    "半决赛对阵已按当日赛程和赛果核对；未可靠确认精确开赛时间，故保留为待赛状态。"
+    "温瑞博 / 姜依依与李和宸 / 姚睿轩均已赢得半决赛，会师决赛。",
+    "WTT 赛程列出的计划开赛时间为北京时间 11 月 27 日 01:00。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19混合双打",
-      "snapshot_at": "2026-11-24T19:02:52+00:00",
+      "snapshot_at": "2026-11-25T07:31:00+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -281,7 +281,14 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T01:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T07:31:00+00:00"
+        }
       }
     ],
     "layout": {
