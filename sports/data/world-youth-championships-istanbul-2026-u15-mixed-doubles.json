@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "event_dates": {
+    "start": "2026-11-21",
+    "end": "2026-11-28"
+  },
+  "kind": "bracket-v1",
+  "id": "world-youth-championships-istanbul-2026-u15-mixed-doubles",
+  "output": "docs/2026/11/world-youth-championships-istanbul-2026-u15-mixed-doubles/index.html",
+  "notices": [
+    "本页覆盖 U15 混双两场半决赛与决赛签位，不含前序轮次。",
+    "刘子航 / 祝启慧与崔梓俊 / 刘子菱会师决赛；决赛具体开赛时间待官方赛程核实。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 伊斯坦布尔乒乓球世青赛 · U15混合双打",
+      "snapshot_at": "2026-11-25T04:03:09+00:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/Istanbul"
+    },
+    "entries": [
+      {
+        "id": "liu-zhu",
+        "name": "刘子航 / 祝启慧",
+        "team": "CHN"
+      },
+      {
+        "id": "chen-chen",
+        "name": "陳凱程 / 陳芷妍",
+        "team": "TPE"
+      },
+      {
+        "id": "cui-liu",
+        "name": "崔梓俊 / 刘子菱",
+        "team": "CHN"
+      },
+      {
+        "id": "wu-liao",
+        "name": "吳沅鍇 / 廖頤暄",
+        "team": "TPE"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ittf-event",
+        "url": "https://www.ittf.com/tournament/3377/ittf-world-youth-championships-istanbul-2026/",
+        "label": "ITTF 官方赛事页",
+        "kind": "official",
+        "family": "ittf.com"
+      },
+      {
+        "id": "wtt-schedule",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3377/schedule/schedule.json",
+        "label": "WTT 官方签位及报名归属",
+        "kind": "official",
+        "family": "worldtabletennis.com"
+      },
+      {
+        "id": "cttta-roster",
+        "url": "https://www.cttta.org.tw/news_detail.asp?nid=4099",
+        "label": "中国台北桌球协会参赛名单与原名",
+        "kind": "official",
+        "family": "cttta.org.tw"
+      },
+      {
+        "id": "match-liu-zhu",
+        "url": "https://tabletennisapi.com/matches/mt_zg5jbjv3",
+        "label": "Table Tennis API：第一场半决赛逐局比分",
+        "kind": "independent",
+        "family": "tabletennisapi.com"
+      },
+      {
+        "id": "match-cui-liu",
+        "url": "https://tabletennisapi.com/matches/mt_d3ztn2gc",
+        "label": "Table Tennis API：第二场半决赛逐局比分",
+        "kind": "independent",
+        "family": "tabletennisapi.com"
+      },
+      {
+        "id": "migu-semifinals",
+        "url": "https://kandian.sina.cn/article_6320391439_178b9850f04001d8xj.html?from=sports",
+        "label": "咪咕体育：两场半决赛逐局比分",
+        "kind": "independent",
+        "family": "migu.cn"
+      }
+    ],
+    "rules": {
+      "bo5": {
+        "best_of": 5,
+        "points": 11,
+        "win_by": 2,
+        "cap": null
+      }
+    },
+    "draws": [
+      {
+        "id": "u15-xd",
+        "name": "U15混合双打"
+      }
+    ],
+    "matches": [
+      {
+        "id": "u15-xd-sf-1",
+        "draw": "u15-xd",
+        "round": "半决赛",
+        "slots": [
+          {
+            "entry": "liu-zhu"
+          },
+          {
+            "entry": "chen-chen"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "result_for": [
+          "liu-zhu",
+          "chen-chen"
+        ],
+        "games": [
+          [
+            13,
+            15
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "match-liu-zhu",
+            "migu-semifinals"
+          ],
+          "verified_at": "2026-11-25T04:03:09+00:00"
+        }
+      },
+      {
+        "id": "u15-xd-sf-2",
+        "draw": "u15-xd",
+        "round": "半决赛",
+        "slots": [
+          {
+            "entry": "cui-liu"
+          },
+          {
+            "entry": "wu-liao"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "result_for": [
+          "cui-liu",
+          "wu-liao"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "match-cui-liu",
+            "migu-semifinals"
+          ],
+          "verified_at": "2026-11-25T04:03:09+00:00"
+        }
+      },
+      {
+        "id": "u15-xd-final",
+        "draw": "u15-xd",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "u15-xd-sf-1"
+          },
+          {
+            "winner": "u15-xd-sf-2"
+          }
+        ],
+        "rule": "bo5",
+        "status": "scheduled"
+      }
+    ]
+  }
+}
