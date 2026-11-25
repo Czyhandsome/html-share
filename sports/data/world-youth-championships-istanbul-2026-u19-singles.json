@@ -10,6 +10,7 @@
   "notices": [
     "本页覆盖伊斯坦布尔乒乓球世青赛 U19 男子单打、女子单打 32 强签表及后续晋级关系；团体、双打和混双另页展示。",
     "首轮对阵与北京时间按 Eleven 赛事页公布的 2026-11-25 赛程录入；赛程时间为近似开赛时间，不能据此认定比赛已开始或完赛。",
+    "本届 U19 单打采用七局四胜；首轮已按实际赛果复核。",
     "Ramon Vila 的公开签表协会标注为 DOM；仓库当前队伍映射未登记 DOM，页面暂以已登记的 PUR 展示，姓名和对阵仍按公开签表保存。",
     "Wassim Essid 的公开签表协会标注为 TUN；仓库当前队伍映射未登记 TUN，页面暂以已登记的 PUR 展示，姓名和对阵仍按公开签表保存。"
   ],
@@ -17,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-24T22:00:00+00:00",
+      "snapshot_at": "2026-11-25T12:29:36+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -364,11 +365,32 @@
         "label": "Eleven World Youth Championships event page",
         "kind": "independent",
         "family": "eleventabletennis.com"
+      },
+      {
+        "id": "singles-format",
+        "url": "https://www.tabletennisdaily.com/forum/topics/ittf-world-youth-championships-2026-nov-21-26-istanbul-turkey.40119/page-2",
+        "label": "TableTennisDaily：单打竞赛规程摘要",
+        "kind": "independent",
+        "family": "tabletennisdaily.com"
+      },
+      {
+        "id": "gsa-results",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-25&sp=table_tennis&widget_client_id=1",
+        "label": "Global Sports Archive：11 月 25 日逐局比分",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-results",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "label": "ぐぐスポ：世青赛 U19 逐局比分",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
       }
     ],
     "rules": {
       "early": {
-        "best_of": 5,
+        "best_of": 7,
         "points": 11,
         "win_by": 2,
         "cap": null
@@ -404,7 +426,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T20:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -412,6 +434,36 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
+        },
+        "result_for": [
+          "boys-wen",
+          "boys-faso"
+        ],
+        "games": [
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            2
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T12:29:36+00:00"
         }
       },
       {
@@ -435,7 +487,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "boys-r32-3",
@@ -1005,7 +1058,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "girls-r32-2",
@@ -1028,7 +1082,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "girls-r32-3",
