@@ -8,16 +8,16 @@
   "id": "world-youth-championships-istanbul-2026-u19-doubles",
   "output": "docs/2026/11/world-youth-championships-istanbul-2026-u19-doubles/index.html",
   "notices": [
-    "本页覆盖伊斯坦布尔世青赛 U19 男子双打、女子双打四分之一决赛及半决赛签位；团体和混双另页展示。",
+    "本页覆盖伊斯坦布尔世青赛 U19 男子双打、女子双打四分之一决赛至决赛；团体和混双另页展示。",
     "温瑞博/李和宸、姜依依/姚睿轩均已晋级各自项目半决赛并确保至少获得铜牌。",
-    "半决赛时间按赛程页的近似时段保留为待赛，不把近似时间当作精确开赛时间。",
+    "男双半决赛已按 WTT 和 Eleven 核对对阵及计划时间。女双半决赛对阵已核对，但两份赛程对两场的开赛时段标注相反，具体时间待确认。",
     "Rios/Vila 的公开赛果标注为 PUR/DOM；仓库当前队伍映射未登记 DOM，页面暂以首个已登记协会 PUR 展示，姓名和赛果仍按官方结果保存。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19双打",
-      "snapshot_at": "2026-11-24T19:02:52+00:00",
+      "snapshot_at": "2026-11-25T08:08:54+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -129,6 +129,13 @@
         "id": "eleven-news",
         "url": "https://eleventabletennis.com/news/world-youth-championships-2026-u19-doubles-last-16-hana-goda-istrate-arpas-out",
         "label": "Eleven Table Tennis report",
+        "kind": "independent",
+        "family": "eleventabletennis.com"
+      },
+      {
+        "id": "eleven-draw",
+        "url": "https://eleventabletennis.com/events/world-youth-championships-2026",
+        "label": "Eleven：世青赛双打签表与赛程",
         "kind": "independent",
         "family": "eleventabletennis.com"
       }
@@ -532,14 +539,22 @@
         "round": "半决赛",
         "slots": [
           {
-            "winner": "boys-qf-1"
+            "winner": "boys-qf-4"
           },
           {
             "winner": "boys-qf-3"
           }
         ],
         "rule": "late",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T22:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "eleven-draw"
+          ],
+          "verified_at": "2026-11-25T08:08:54+00:00"
+        }
       },
       {
         "id": "boys-sf-2",
@@ -550,11 +565,19 @@
             "winner": "boys-qf-2"
           },
           {
-            "winner": "boys-qf-4"
+            "winner": "boys-qf-1"
           }
         ],
         "rule": "late",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T23:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "eleven-draw"
+          ],
+          "verified_at": "2026-11-25T08:08:54+00:00"
+        }
       },
       {
         "id": "girls-sf-1",
@@ -589,7 +612,7 @@
       {
         "id": "boys-final-1",
         "draw": "boys",
-        "round": "半决赛",
+        "round": "决赛",
         "slots": [
           {
             "winner": "boys-sf-1"
@@ -604,7 +627,7 @@
       {
         "id": "girls-final-1",
         "draw": "girls",
-        "round": "半决赛",
+        "round": "决赛",
         "slots": [
           {
             "winner": "girls-sf-1"
@@ -622,10 +645,10 @@
         "rounds": {
           "main": [
             [
-              "boys-qf-1",
-              "boys-qf-2",
+              "boys-qf-4",
               "boys-qf-3",
-              "boys-qf-4"
+              "boys-qf-2",
+              "boys-qf-1"
             ],
             [
               "boys-sf-1",
@@ -641,10 +664,10 @@
         "rounds": {
           "main": [
             [
-              "girls-qf-1",
-              "girls-qf-2",
+              "girls-qf-4",
               "girls-qf-3",
-              "girls-qf-4"
+              "girls-qf-1",
+              "girls-qf-2"
             ],
             [
               "girls-sf-1",
