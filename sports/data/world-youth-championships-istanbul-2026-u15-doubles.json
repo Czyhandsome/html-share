@@ -8,14 +8,14 @@
   "id": "world-youth-championships-istanbul-2026-u15-doubles",
   "output": "docs/2026/11/world-youth-championships-istanbul-2026-u15-doubles/index.html",
   "notices": [
-    "本页先覆盖 U15 男双、女双四分之一决赛至决赛；首轮暂未纳入，单打、混双另页展示。",
-    "两项各四场四分之一决赛已核对逐局比分和晋级。11 月 26 日北京时间 21:30 刘子菱／祝启慧对法国组合，22:00 刘子航／崔梓俊对西班牙／马来西亚跨协会组合。"
+    "本页覆盖 U15 男双、女双十六强至决赛；单打、混双另页展示。",
+    "两项共 16 场十六强、8 场四分之一决赛已核对逐局比分和晋级。11 月 26 日北京时间 21:30 刘子菱／祝启慧对法国组合，22:00 刘子航／崔梓俊对西班牙／马来西亚跨协会组合。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15双打",
-      "snapshot_at": "2026-11-25T18:32:28+00:00",
+      "snapshot_at": "2026-11-25T18:34:28+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -99,6 +99,86 @@
         "id": "girls-wtt-100179438",
         "name": "Miku Matsushima / Cocona Muramatsu",
         "team": "JPN"
+      },
+      {
+        "id": "boys-wtt-100269277",
+        "name": "Shangyu Jiang / Abdulrahman Al Taher",
+        "team": "CAN/KSA"
+      },
+      {
+        "id": "boys-wtt-100268778",
+        "name": "Faraz Shakiba / Gorkem Ocal",
+        "team": "IRI/TUR"
+      },
+      {
+        "id": "boys-wtt-100269043",
+        "name": "Asser Sameh / Kuzey Gundogdu",
+        "team": "EGY/TUR"
+      },
+      {
+        "id": "boys-wtt-100213700",
+        "name": "Aditya Das / Vatsal Duklan",
+        "team": "IND"
+      },
+      {
+        "id": "boys-wtt-100270312",
+        "name": "Matthew Cao / Matthew Kuti",
+        "team": "PUR/NGR"
+      },
+      {
+        "id": "boys-wtt-100268784",
+        "name": "Kai-Cheng Chen / Yuan-Kai Wu",
+        "team": "TPE"
+      },
+      {
+        "id": "boys-wtt-100160670",
+        "name": "Vitor Thiofilo / Lucca Lobo",
+        "team": "BRA/CRC"
+      },
+      {
+        "id": "boys-wtt-100166623",
+        "name": "Soma Ono / Ukyo Kobayashi",
+        "team": "JPN"
+      },
+      {
+        "id": "girls-wtt-100263421",
+        "name": "Qinle Xia / Kavyaa Madaan",
+        "team": "AUS"
+      },
+      {
+        "id": "girls-wtt-100212783",
+        "name": "Ankolika Chakraborty / Naisha Rewaskar",
+        "team": "IND"
+      },
+      {
+        "id": "girls-wtt-100175815",
+        "name": "Amelie Jia / Anna Walter",
+        "team": "GER"
+      },
+      {
+        "id": "girls-wtt-100269035",
+        "name": "Anzhuo Han / Malak Zaki",
+        "team": "NZL/EGY"
+      },
+      {
+        "id": "girls-wtt-100268771",
+        "name": "Ela Yonter / Elvin Kale",
+        "team": "TUR"
+      },
+      {
+        "id": "girls-wtt-100204824",
+        "name": "Siri Benjegard / Adela Brhelova",
+        "team": "SWE/CZE"
+      },
+      {
+        "id": "girls-wtt-100268859",
+        "name": "Sophia Pichler / Bianca Borges",
+        "team": "AUT/BRA"
+      },
+      {
+        "id": "girls-wtt-100270311",
+        "name": "Dania Mohd / Barbora Guassardo",
+        "team": "MAS/SVK"
       }
     ],
     "sources": [
@@ -143,6 +223,13 @@
         "label": "TableTennisDaily：世青赛赛制汇总",
         "kind": "independent",
         "family": "tabletennisdaily.com"
+      },
+      {
+        "id": "ttwiki-results",
+        "url": "https://tt-wiki.info/jugend-wm-2026-in-istanbul/",
+        "label": "tt-wiki：U15 双打十六强逐局比分",
+        "kind": "independent",
+        "family": "tt-wiki.info"
       }
     ],
     "rules": {
@@ -165,15 +252,823 @@
     ],
     "matches": [
       {
-        "id": "boys-qf-1",
+        "id": "boys-r16-1",
         "draw": "boys",
-        "round": "四分之一决赛",
+        "round": "十六强",
         "slots": [
           {
             "entry": "boys-wtt-100115221"
           },
           {
+            "entry": "boys-wtt-100269277"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T14:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100115221",
+          "boys-wtt-100269277"
+        ],
+        "games": [
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            13,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "boys-r16-2",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
             "entry": "boys-wtt-100249286"
+          },
+          {
+            "entry": "boys-wtt-100268778"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T14:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100249286",
+          "boys-wtt-100268778"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "boys-r16-3",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "boys-wtt-100139556"
+          },
+          {
+            "entry": "boys-wtt-100269043"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T14:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100139556",
+          "boys-wtt-100269043"
+        ],
+        "games": [
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "boys-r16-4",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "boys-wtt-100213700"
+          },
+          {
+            "entry": "boys-wtt-100175811"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T14:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100213700",
+          "boys-wtt-100175811"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "boys-r16-5",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "boys-wtt-100270312"
+          },
+          {
+            "entry": "boys-wtt-100154632"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T15:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100270312",
+          "boys-wtt-100154632"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "boys-r16-6",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "boys-wtt-100268784"
+          },
+          {
+            "entry": "boys-wtt-100206009"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T15:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100268784",
+          "boys-wtt-100206009"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "boys-r16-7",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "boys-wtt-100160670"
+          },
+          {
+            "entry": "boys-wtt-100262207"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T15:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100160670",
+          "boys-wtt-100262207"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "boys-r16-8",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "boys-wtt-100166623"
+          },
+          {
+            "entry": "boys-wtt-100219237"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T15:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "boys-wtt-100166623",
+          "boys-wtt-100219237"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-1",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "girls-wtt-100187509"
+          },
+          {
+            "entry": "girls-wtt-100263421"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T14:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100187509",
+          "girls-wtt-100263421"
+        ],
+        "games": [
+          [
+            13,
+            11
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-2",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "girls-wtt-100216342"
+          },
+          {
+            "entry": "girls-wtt-100212783"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T14:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100216342",
+          "girls-wtt-100212783"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-3",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "girls-wtt-100266651"
+          },
+          {
+            "entry": "girls-wtt-100175815"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T14:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100266651",
+          "girls-wtt-100175815"
+        ],
+        "games": [
+          [
+            11,
+            2
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-4",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "girls-wtt-100269035"
+          },
+          {
+            "entry": "girls-wtt-100175853"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T14:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100269035",
+          "girls-wtt-100175853"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-5",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "girls-wtt-100196739"
+          },
+          {
+            "entry": "girls-wtt-100268771"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T15:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100196739",
+          "girls-wtt-100268771"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            15,
+            13
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-6",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "girls-wtt-100204824"
+          },
+          {
+            "entry": "girls-wtt-100121805"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T15:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100204824",
+          "girls-wtt-100121805"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-7",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "girls-wtt-100268859"
+          },
+          {
+            "entry": "girls-wtt-100268785"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T15:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100268859",
+          "girls-wtt-100268785"
+        ],
+        "games": [
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-8",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "entry": "girls-wtt-100270311"
+          },
+          {
+            "entry": "girls-wtt-100179438"
+          }
+        ],
+        "rule": "bo5",
+        "status": "completed",
+        "scheduled_at": "2026-11-24T15:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        },
+        "result_for": [
+          "girls-wtt-100270311",
+          "girls-wtt-100179438"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-24",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "ttwiki-results"
+          ],
+          "verified_at": "2026-11-25T18:34:28+00:00"
+        }
+      },
+      {
+        "id": "boys-qf-1",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "boys-r16-1"
+          },
+          {
+            "winner": "boys-r16-2"
           }
         ],
         "rule": "bo5",
@@ -226,10 +1121,10 @@
         "round": "四分之一决赛",
         "slots": [
           {
-            "entry": "boys-wtt-100139556"
+            "winner": "boys-r16-3"
           },
           {
-            "entry": "boys-wtt-100175811"
+            "winner": "boys-r16-4"
           }
         ],
         "rule": "bo5",
@@ -282,10 +1177,10 @@
         "round": "四分之一决赛",
         "slots": [
           {
-            "entry": "boys-wtt-100154632"
+            "winner": "boys-r16-5"
           },
           {
-            "entry": "boys-wtt-100206009"
+            "winner": "boys-r16-6"
           }
         ],
         "rule": "bo5",
@@ -334,10 +1229,10 @@
         "round": "四分之一决赛",
         "slots": [
           {
-            "entry": "boys-wtt-100262207"
+            "winner": "boys-r16-7"
           },
           {
-            "entry": "boys-wtt-100219237"
+            "winner": "boys-r16-8"
           }
         ],
         "rule": "bo5",
@@ -445,10 +1340,10 @@
         "round": "四分之一决赛",
         "slots": [
           {
-            "entry": "girls-wtt-100187509"
+            "winner": "girls-r16-1"
           },
           {
-            "entry": "girls-wtt-100216342"
+            "winner": "girls-r16-2"
           }
         ],
         "rule": "bo5",
@@ -501,10 +1396,10 @@
         "round": "四分之一决赛",
         "slots": [
           {
-            "entry": "girls-wtt-100266651"
+            "winner": "girls-r16-3"
           },
           {
-            "entry": "girls-wtt-100175853"
+            "winner": "girls-r16-4"
           }
         ],
         "rule": "bo5",
@@ -554,10 +1449,10 @@
         "round": "四分之一决赛",
         "slots": [
           {
-            "entry": "girls-wtt-100196739"
+            "winner": "girls-r16-5"
           },
           {
-            "entry": "girls-wtt-100121805"
+            "winner": "girls-r16-6"
           }
         ],
         "rule": "bo5",
@@ -602,10 +1497,10 @@
         "round": "四分之一决赛",
         "slots": [
           {
-            "entry": "girls-wtt-100268785"
+            "winner": "girls-r16-7"
           },
           {
-            "entry": "girls-wtt-100179438"
+            "winner": "girls-r16-8"
           }
         ],
         "rule": "bo5",
@@ -714,6 +1609,16 @@
         "rounds": {
           "main": [
             [
+              "boys-r16-1",
+              "boys-r16-2",
+              "boys-r16-3",
+              "boys-r16-4",
+              "boys-r16-5",
+              "boys-r16-6",
+              "boys-r16-7",
+              "boys-r16-8"
+            ],
+            [
               "boys-qf-1",
               "boys-qf-2",
               "boys-qf-3",
@@ -732,6 +1637,16 @@
       "girls": {
         "rounds": {
           "main": [
+            [
+              "girls-r16-1",
+              "girls-r16-2",
+              "girls-r16-3",
+              "girls-r16-4",
+              "girls-r16-5",
+              "girls-r16-6",
+              "girls-r16-7",
+              "girls-r16-8"
+            ],
             [
               "girls-qf-1",
               "girls-qf-2",
