@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-25T17:29:14+00:00",
+      "snapshot_at": "2026-11-25T17:57:23+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1198,7 +1198,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1207,7 +1207,40 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "boys-priyanuj",
+          "boys-rios"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T17:57:23+00:00"
+        }
       },
       {
         "id": "boys-r32-16",
@@ -1222,7 +1255,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1231,7 +1264,36 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "boys-nakano",
+          "boys-otalvaro"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T17:57:23+00:00"
+        }
       },
       {
         "id": "boys-r16-1",
@@ -2257,7 +2319,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T01:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2266,7 +2328,40 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "girls-psihogios",
+          "girls-sonday"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T17:57:23+00:00"
+        }
       },
       {
         "id": "girls-r32-16",
