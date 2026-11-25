@@ -1,0 +1,1654 @@
+{
+  "schema_version": 1,
+  "event_dates": {
+    "start": "2026-11-21",
+    "end": "2026-11-28"
+  },
+  "kind": "bracket-v1",
+  "id": "world-youth-championships-istanbul-2026-u15-singles",
+  "output": "docs/2026/11/world-youth-championships-istanbul-2026-u15-singles/index.html",
+  "notices": [
+    "本页覆盖伊斯坦布尔乒乓球世青赛 U15 男、女单打各 32 人及从首轮到决赛的晋级路线。",
+    "首轮对阵、代表协会及计划时间以 WTT 签表为准，时间按北京时间显示。尚无充分证据的比分保留待核实，计划时间已过不代表比赛未打或已结束。"
+  ],
+  "data": {
+    "schema_version": 1,
+    "event": {
+      "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
+      "snapshot_at": "2026-11-25T08:23:27+00:00",
+      "timezone": "Asia/Shanghai",
+      "venue_timezone": "Europe/Istanbul"
+    },
+    "entries": [
+      {
+        "id": "boys-202444",
+        "name": "大野颯真",
+        "team": "JPN"
+      },
+      {
+        "id": "boys-201054",
+        "name": "Lukas Wang",
+        "team": "GER"
+      },
+      {
+        "id": "boys-202627",
+        "name": "Matthew Kuti",
+        "team": "NGR"
+      },
+      {
+        "id": "boys-202683",
+        "name": "August Xiao",
+        "team": "NZL"
+      },
+      {
+        "id": "boys-209397",
+        "name": "Sheung Man Lam",
+        "team": "HKG"
+      },
+      {
+        "id": "boys-202751",
+        "name": "Aditya Das",
+        "team": "IND"
+      },
+      {
+        "id": "boys-201315",
+        "name": "Asser Sameh",
+        "team": "EGY"
+      },
+      {
+        "id": "boys-202895",
+        "name": "Yong Ren Lai",
+        "team": "MAS"
+      },
+      {
+        "id": "boys-212894",
+        "name": "刘子航",
+        "team": "CHN"
+      },
+      {
+        "id": "boys-201122",
+        "name": "Kuzey Gundogdu",
+        "team": "TUR"
+      },
+      {
+        "id": "boys-205960",
+        "name": "吳沅鍇",
+        "team": "TPE"
+      },
+      {
+        "id": "boys-200669",
+        "name": "Lucca Lobo",
+        "team": "CRC"
+      },
+      {
+        "id": "boys-205880",
+        "name": "Ryeowon Kim",
+        "team": "KOR"
+      },
+      {
+        "id": "boys-200266",
+        "name": "Abdulrahman Al Taher",
+        "team": "KSA"
+      },
+      {
+        "id": "boys-221587",
+        "name": "Shangyu Jiang",
+        "team": "CAN"
+      },
+      {
+        "id": "boys-201839",
+        "name": "Ladimir Mayorov",
+        "team": "ESP"
+      },
+      {
+        "id": "boys-203201",
+        "name": "陳凱程",
+        "team": "TPE"
+      },
+      {
+        "id": "boys-201053",
+        "name": "Volodymyr Nevizhyn",
+        "team": "UKR"
+      },
+      {
+        "id": "boys-209398",
+        "name": "Lunxi Ji",
+        "team": "HKG"
+      },
+      {
+        "id": "boys-200231",
+        "name": "Eli Ho",
+        "team": "NZL"
+      },
+      {
+        "id": "boys-205514",
+        "name": "小林右京",
+        "team": "JPN"
+      },
+      {
+        "id": "boys-201299",
+        "name": "Faraz Shakiba",
+        "team": "IRI"
+      },
+      {
+        "id": "boys-201442",
+        "name": "Tien Nghia Phong",
+        "team": "GER"
+      },
+      {
+        "id": "boys-201423",
+        "name": "Louis Fegerl",
+        "team": "AUT"
+      },
+      {
+        "id": "boys-213438",
+        "name": "崔梓俊",
+        "team": "CHN"
+      },
+      {
+        "id": "boys-206088",
+        "name": "Kanggeon Choi",
+        "team": "KOR"
+      },
+      {
+        "id": "boys-202129",
+        "name": "Vatsal Duklan",
+        "team": "IND"
+      },
+      {
+        "id": "boys-204850",
+        "name": "Vitor Thiofilo",
+        "team": "BRA"
+      },
+      {
+        "id": "boys-201107",
+        "name": "Alexander Malov",
+        "team": "ESP"
+      },
+      {
+        "id": "boys-202954",
+        "name": "Matthew Cao",
+        "team": "PUR"
+      },
+      {
+        "id": "boys-202476",
+        "name": "Emil Ellermann",
+        "team": "SWE"
+      },
+      {
+        "id": "boys-201124",
+        "name": "Gorkem Ocal",
+        "team": "TUR"
+      },
+      {
+        "id": "girls-205512",
+        "name": "松島美空",
+        "team": "JPN"
+      },
+      {
+        "id": "girls-211628",
+        "name": "Bianca Borges",
+        "team": "BRA"
+      },
+      {
+        "id": "girls-205709",
+        "name": "Gyurin Kim",
+        "team": "KOR"
+      },
+      {
+        "id": "girls-203956",
+        "name": "Albane Rochut",
+        "team": "FRA"
+      },
+      {
+        "id": "girls-201145",
+        "name": "Ankolika Chakraborty",
+        "team": "IND"
+      },
+      {
+        "id": "girls-207556",
+        "name": "Barbora Guassardo",
+        "team": "SVK"
+      },
+      {
+        "id": "girls-204111",
+        "name": "Ela Yonter",
+        "team": "TUR"
+      },
+      {
+        "id": "girls-200564",
+        "name": "Abigail Yu",
+        "team": "USA"
+      },
+      {
+        "id": "girls-203509",
+        "name": "陳芷妍",
+        "team": "TPE"
+      },
+      {
+        "id": "girls-221618",
+        "name": "Varvara Tolmacheva",
+        "team": "RUS"
+      },
+      {
+        "id": "girls-201476",
+        "name": "Anna Walter",
+        "team": "GER"
+      },
+      {
+        "id": "girls-202817",
+        "name": "Dania Mohd",
+        "team": "MAS"
+      },
+      {
+        "id": "girls-201265",
+        "name": "Jia Yu Zhang",
+        "team": "HKG"
+      },
+      {
+        "id": "girls-203270",
+        "name": "Malak Zaki",
+        "team": "EGY"
+      },
+      {
+        "id": "girls-203188",
+        "name": "Kavyaa Madaan",
+        "team": "AUS"
+      },
+      {
+        "id": "girls-212898",
+        "name": "刘子菱",
+        "team": "CHN"
+      },
+      {
+        "id": "girls-209670",
+        "name": "村松心菜",
+        "team": "JPN"
+      },
+      {
+        "id": "girls-202452",
+        "name": "Eva Lam",
+        "team": "FRA"
+      },
+      {
+        "id": "girls-201477",
+        "name": "Amelie Jia",
+        "team": "GER"
+      },
+      {
+        "id": "girls-222004",
+        "name": "Xinrou Chen",
+        "team": "HKG"
+      },
+      {
+        "id": "girls-201097",
+        "name": "Siri Benjegard",
+        "team": "SWE"
+      },
+      {
+        "id": "girls-201791",
+        "name": "Adela Brhelova",
+        "team": "CZE"
+      },
+      {
+        "id": "girls-203030",
+        "name": "Qinle Xia",
+        "team": "AUS"
+      },
+      {
+        "id": "girls-204010",
+        "name": "Haelin Lee",
+        "team": "KOR"
+      },
+      {
+        "id": "girls-210320",
+        "name": "祝启慧",
+        "team": "CHN"
+      },
+      {
+        "id": "girls-201420",
+        "name": "Sophia Pichler",
+        "team": "AUT"
+      },
+      {
+        "id": "girls-221624",
+        "name": "Amina Ilimbetova",
+        "team": "RUS"
+      },
+      {
+        "id": "girls-201137",
+        "name": "廖頤暄",
+        "team": "TPE"
+      },
+      {
+        "id": "girls-202752",
+        "name": "Naisha Rewaskar",
+        "team": "IND"
+      },
+      {
+        "id": "girls-201117",
+        "name": "Elvin Kale",
+        "team": "TUR"
+      },
+      {
+        "id": "girls-146272",
+        "name": "Anzhuo Han",
+        "team": "NZL"
+      },
+      {
+        "id": "girls-200606",
+        "name": "Irene Yeoh",
+        "team": "USA"
+      }
+    ],
+    "sources": [
+      {
+        "id": "wtt-schedule",
+        "url": "https://wtt-web-frontdoor-cthahjeqhbh6aqe3.a01.azurefd.net/websitecacheddata/3377/schedule/schedule.json",
+        "label": "WTT 官方首轮签表、协会及赛程",
+        "kind": "official",
+        "family": "wtt.com"
+      },
+      {
+        "id": "cttta-roster",
+        "url": "https://www.cttta.org.tw/news_detail.asp?nid=4099",
+        "label": "中国台北桌球协会参赛名单与原名",
+        "kind": "official",
+        "family": "cttta.org.tw"
+      },
+      {
+        "id": "jtta",
+        "url": "https://jtta.or.jp/tour/35455",
+        "label": "日本乒协赛事及选手资料",
+        "kind": "official",
+        "family": "jtta.or.jp"
+      }
+    ],
+    "rules": {
+      "bo7": {
+        "best_of": 7,
+        "points": 11,
+        "win_by": 2,
+        "cap": null
+      }
+    },
+    "draws": [
+      {
+        "id": "boys",
+        "name": "U15男子单打"
+      },
+      {
+        "id": "girls",
+        "name": "U15女子单打"
+      }
+    ],
+    "matches": [
+      {
+        "id": "boys-r32-1",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-202444"
+          },
+          {
+            "entry": "boys-201054"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T14:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "boys-r32-2",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-202627"
+          },
+          {
+            "entry": "boys-202683"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T14:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "boys-r32-3",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-209397"
+          },
+          {
+            "entry": "boys-202751"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T14:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "boys-r32-4",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-201315"
+          },
+          {
+            "entry": "boys-202895"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T14:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "boys-r32-5",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-212894"
+          },
+          {
+            "entry": "boys-201122"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T15:20:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "boys-r32-6",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-205960"
+          },
+          {
+            "entry": "boys-200669"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T15:20:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "boys-r32-7",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-205880"
+          },
+          {
+            "entry": "boys-200266"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T16:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "boys-r32-8",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-221587"
+          },
+          {
+            "entry": "boys-201839"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T16:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "boys-r32-9",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-203201"
+          },
+          {
+            "entry": "boys-201053"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T16:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "boys-r32-10",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-209398"
+          },
+          {
+            "entry": "boys-200231"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T16:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "boys-r32-11",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-205514"
+          },
+          {
+            "entry": "boys-201299"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T17:20:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "boys-r32-12",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-201442"
+          },
+          {
+            "entry": "boys-201423"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T17:20:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "boys-r32-13",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-213438"
+          },
+          {
+            "entry": "boys-206088"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T18:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "boys-r32-14",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-202129"
+          },
+          {
+            "entry": "boys-204850"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T18:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "boys-r32-15",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-201107"
+          },
+          {
+            "entry": "boys-202954"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T18:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "boys-r32-16",
+        "draw": "boys",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "boys-202476"
+          },
+          {
+            "entry": "boys-201124"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T18:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "boys-r16-1",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "boys-r32-1"
+          },
+          {
+            "winner": "boys-r32-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-r16-2",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "boys-r32-3"
+          },
+          {
+            "winner": "boys-r32-4"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-r16-3",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "boys-r32-5"
+          },
+          {
+            "winner": "boys-r32-6"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-r16-4",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "boys-r32-7"
+          },
+          {
+            "winner": "boys-r32-8"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-r16-5",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "boys-r32-9"
+          },
+          {
+            "winner": "boys-r32-10"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-r16-6",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "boys-r32-11"
+          },
+          {
+            "winner": "boys-r32-12"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-r16-7",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "boys-r32-13"
+          },
+          {
+            "winner": "boys-r32-14"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-r16-8",
+        "draw": "boys",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "boys-r32-15"
+          },
+          {
+            "winner": "boys-r32-16"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-qf-1",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "boys-r16-1"
+          },
+          {
+            "winner": "boys-r16-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-qf-2",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "boys-r16-3"
+          },
+          {
+            "winner": "boys-r16-4"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-qf-3",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "boys-r16-5"
+          },
+          {
+            "winner": "boys-r16-6"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-qf-4",
+        "draw": "boys",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "boys-r16-7"
+          },
+          {
+            "winner": "boys-r16-8"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-sf-1",
+        "draw": "boys",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "boys-qf-1"
+          },
+          {
+            "winner": "boys-qf-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-sf-2",
+        "draw": "boys",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "boys-qf-3"
+          },
+          {
+            "winner": "boys-qf-4"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "boys-final-1",
+        "draw": "boys",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "boys-sf-1"
+          },
+          {
+            "winner": "boys-sf-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-r32-1",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-205512"
+          },
+          {
+            "entry": "girls-211628"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T14:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "girls-r32-2",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-205709"
+          },
+          {
+            "entry": "girls-203956"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T14:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "girls-r32-3",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-201145"
+          },
+          {
+            "entry": "girls-207556"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T14:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "girls-r32-4",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-204111"
+          },
+          {
+            "entry": "girls-200564"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T14:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "girls-r32-5",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-203509"
+          },
+          {
+            "entry": "girls-221618"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T15:20:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "girls-r32-6",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-201476"
+          },
+          {
+            "entry": "girls-202817"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T15:20:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "girls-r32-7",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-201265"
+          },
+          {
+            "entry": "girls-203270"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T16:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "girls-r32-8",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-203188"
+          },
+          {
+            "entry": "girls-212898"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T16:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+      },
+      {
+        "id": "girls-r32-9",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-209670"
+          },
+          {
+            "entry": "girls-202452"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T16:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "girls-r32-10",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-201477"
+          },
+          {
+            "entry": "girls-222004"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T16:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "girls-r32-11",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-201097"
+          },
+          {
+            "entry": "girls-201791"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T17:20:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "girls-r32-12",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-203030"
+          },
+          {
+            "entry": "girls-204010"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T17:20:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "girls-r32-13",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-210320"
+          },
+          {
+            "entry": "girls-201420"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T18:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "girls-r32-14",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-221624"
+          },
+          {
+            "entry": "girls-201137"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T18:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "girls-r32-15",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-202752"
+          },
+          {
+            "entry": "girls-201117"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T18:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "girls-r32-16",
+        "draw": "girls",
+        "round": "三十二强",
+        "slots": [
+          {
+            "entry": "girls-146272"
+          },
+          {
+            "entry": "girls-200606"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled",
+        "scheduled_at": "2026-11-25T18:40:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-25T08:23:27+00:00"
+        }
+      },
+      {
+        "id": "girls-r16-1",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "girls-r32-1"
+          },
+          {
+            "winner": "girls-r32-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-r16-2",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "girls-r32-3"
+          },
+          {
+            "winner": "girls-r32-4"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-r16-3",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "girls-r32-5"
+          },
+          {
+            "winner": "girls-r32-6"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-r16-4",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "girls-r32-7"
+          },
+          {
+            "winner": "girls-r32-8"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-r16-5",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "girls-r32-9"
+          },
+          {
+            "winner": "girls-r32-10"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-r16-6",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "girls-r32-11"
+          },
+          {
+            "winner": "girls-r32-12"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-r16-7",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "girls-r32-13"
+          },
+          {
+            "winner": "girls-r32-14"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-r16-8",
+        "draw": "girls",
+        "round": "十六强",
+        "slots": [
+          {
+            "winner": "girls-r32-15"
+          },
+          {
+            "winner": "girls-r32-16"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-qf-1",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "girls-r16-1"
+          },
+          {
+            "winner": "girls-r16-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-qf-2",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "girls-r16-3"
+          },
+          {
+            "winner": "girls-r16-4"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-qf-3",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "girls-r16-5"
+          },
+          {
+            "winner": "girls-r16-6"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-qf-4",
+        "draw": "girls",
+        "round": "四分之一决赛",
+        "slots": [
+          {
+            "winner": "girls-r16-7"
+          },
+          {
+            "winner": "girls-r16-8"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-sf-1",
+        "draw": "girls",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "girls-qf-1"
+          },
+          {
+            "winner": "girls-qf-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-sf-2",
+        "draw": "girls",
+        "round": "半决赛",
+        "slots": [
+          {
+            "winner": "girls-qf-3"
+          },
+          {
+            "winner": "girls-qf-4"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      },
+      {
+        "id": "girls-final-1",
+        "draw": "girls",
+        "round": "决赛",
+        "slots": [
+          {
+            "winner": "girls-sf-1"
+          },
+          {
+            "winner": "girls-sf-2"
+          }
+        ],
+        "rule": "bo7",
+        "status": "scheduled"
+      }
+    ],
+    "layout": {
+      "boys": {
+        "rounds": {
+          "main": [
+            [
+              "boys-r32-1",
+              "boys-r32-2",
+              "boys-r32-3",
+              "boys-r32-4",
+              "boys-r32-5",
+              "boys-r32-6",
+              "boys-r32-7",
+              "boys-r32-8",
+              "boys-r32-9",
+              "boys-r32-10",
+              "boys-r32-11",
+              "boys-r32-12",
+              "boys-r32-13",
+              "boys-r32-14",
+              "boys-r32-15",
+              "boys-r32-16"
+            ],
+            [
+              "boys-r16-1",
+              "boys-r16-2",
+              "boys-r16-3",
+              "boys-r16-4",
+              "boys-r16-5",
+              "boys-r16-6",
+              "boys-r16-7",
+              "boys-r16-8"
+            ],
+            [
+              "boys-qf-1",
+              "boys-qf-2",
+              "boys-qf-3",
+              "boys-qf-4"
+            ],
+            [
+              "boys-sf-1",
+              "boys-sf-2"
+            ],
+            [
+              "boys-final-1"
+            ]
+          ]
+        }
+      },
+      "girls": {
+        "rounds": {
+          "main": [
+            [
+              "girls-r32-1",
+              "girls-r32-2",
+              "girls-r32-3",
+              "girls-r32-4",
+              "girls-r32-5",
+              "girls-r32-6",
+              "girls-r32-7",
+              "girls-r32-8",
+              "girls-r32-9",
+              "girls-r32-10",
+              "girls-r32-11",
+              "girls-r32-12",
+              "girls-r32-13",
+              "girls-r32-14",
+              "girls-r32-15",
+              "girls-r32-16"
+            ],
+            [
+              "girls-r16-1",
+              "girls-r16-2",
+              "girls-r16-3",
+              "girls-r16-4",
+              "girls-r16-5",
+              "girls-r16-6",
+              "girls-r16-7",
+              "girls-r16-8"
+            ],
+            [
+              "girls-qf-1",
+              "girls-qf-2",
+              "girls-qf-3",
+              "girls-qf-4"
+            ],
+            [
+              "girls-sf-1",
+              "girls-sf-2"
+            ],
+            [
+              "girls-final-1"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}
