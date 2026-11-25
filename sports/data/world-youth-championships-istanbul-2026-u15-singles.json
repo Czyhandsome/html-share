@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-25T12:00:15+00:00",
+      "snapshot_at": "2026-11-25T19:06:30+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -374,6 +374,13 @@
         "id": "gugu-results",
         "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
         "label": "ぐぐスポ：世青赛 U15 逐局比分",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
+      },
+      {
+        "id": "r16-japanese-schedule",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "label": "ぐぐスポ：十六强对阵与开赛时间（日本时间）",
         "kind": "independent",
         "family": "sportzorg24.tv"
       }
@@ -1310,7 +1317,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T14:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-2",
@@ -1325,7 +1340,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T16:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-3",
@@ -1340,7 +1363,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T16:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-4",
@@ -1355,7 +1386,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T15:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-5",
@@ -1370,7 +1409,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T15:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-6",
@@ -1385,7 +1432,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T14:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-7",
@@ -1400,7 +1455,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T16:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-8",
@@ -1415,7 +1478,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T16:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-qf-1",
@@ -2435,7 +2506,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T14:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-2",
@@ -2450,7 +2529,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T15:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-3",
@@ -2465,7 +2552,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T16:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-4",
@@ -2480,7 +2575,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T15:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-5",
@@ -2495,7 +2598,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T16:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-6",
@@ -2510,7 +2621,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T14:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-7",
@@ -2525,7 +2644,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T16:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-8",
@@ -2540,7 +2667,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T16:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-qf-1",

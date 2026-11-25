@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-25T17:57:23+00:00",
+      "snapshot_at": "2026-11-25T19:06:30+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -393,6 +393,13 @@
         "label": "法国乒协：世青赛赛程与赛果（法国时间）",
         "kind": "official",
         "family": "fftt.com"
+      },
+      {
+        "id": "r16-japanese-schedule",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "label": "ぐぐスポ：十六强对阵与开赛时间（日本时间）",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
       }
     ],
     "rules": {
@@ -1308,7 +1315,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T17:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-2",
@@ -1323,7 +1339,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T17:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-3",
@@ -1338,7 +1363,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T19:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-4",
@@ -1353,7 +1387,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T19:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-5",
@@ -1368,7 +1411,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T18:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-6",
@@ -1383,7 +1435,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T19:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-7",
@@ -1398,7 +1459,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T18:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-r16-8",
@@ -1413,7 +1483,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T19:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "boys-qf-1",
@@ -2433,9 +2512,12 @@
         "scheduled_at": "2026-11-26T17:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event",
             "fftt-event-schedule"
           ],
-          "verified_at": "2026-11-25T16:00:22+00:00"
+          "verified_at": "2026-11-25T19:06:30+00:00"
         }
       },
       {
@@ -2451,7 +2533,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T19:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-3",
@@ -2466,7 +2557,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T19:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-4",
@@ -2481,7 +2581,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T19:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-5",
@@ -2496,7 +2605,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T19:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-6",
@@ -2511,7 +2629,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T18:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-7",
@@ -2526,7 +2653,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T17:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-r16-8",
@@ -2541,7 +2677,16 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T18:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "r16-japanese-schedule",
+            "eleven-event"
+          ],
+          "verified_at": "2026-11-25T19:06:30+00:00"
+        }
       },
       {
         "id": "girls-qf-1",
