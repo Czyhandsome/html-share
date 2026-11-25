@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-25T08:59:30+00:00",
+      "snapshot_at": "2026-11-25T09:31:32+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -907,7 +907,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "boys-r32-12",
@@ -929,7 +930,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "boys-r32-13",
@@ -1697,7 +1699,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T16:40:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1705,7 +1707,44 @@
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "girls-209670",
+          "girls-202452"
+        ],
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T09:31:32+00:00"
+        }
       },
       {
         "id": "girls-r32-10",
@@ -1720,7 +1759,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T16:40:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1728,7 +1767,44 @@
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "girls-201477",
+          "girls-222004"
+        ],
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T09:31:32+00:00"
+        }
       },
       {
         "id": "girls-r32-11",
@@ -1750,7 +1826,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "girls-r32-12",
@@ -1772,7 +1849,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "girls-r32-13",
