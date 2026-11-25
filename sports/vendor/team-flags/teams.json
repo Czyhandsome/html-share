@@ -52,6 +52,10 @@
       "name": "哥伦比亚",
       "flag": "4x3/co.svg"
     },
+    "CRC": {
+      "name": "哥斯达黎加",
+      "flag": "4x3/cr.svg"
+    },
     "CRO": {
       "name": "克罗地亚",
       "flag": "4x3/hr.svg"
@@ -155,6 +159,10 @@
     "KOR": {
       "name": "韩国",
       "flag": "4x3/kr.svg"
+    },
+    "KSA": {
+      "name": "沙特阿拉伯",
+      "flag": "4x3/sa.svg"
     },
     "LTU": {
       "name": "立陶宛",
