@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-25T09:31:32+00:00",
+      "snapshot_at": "2026-11-25T09:59:14+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -854,7 +854,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T16:40:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -862,7 +862,44 @@
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "boys-203201",
+          "boys-201053"
+        ],
+        "games": [
+          [
+            12,
+            14
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T09:59:14+00:00"
+        }
       },
       {
         "id": "boys-r32-10",
@@ -877,7 +914,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T16:40:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -885,7 +922,40 @@
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "boys-209398",
+          "boys-200231"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T09:59:14+00:00"
+        }
       },
       {
         "id": "boys-r32-11",
