@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-25T11:31:35+00:00",
+      "snapshot_at": "2026-11-25T12:00:15+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -2371,7 +2371,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T18:40:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2379,7 +2379,48 @@
           ],
           "verified_at": "2026-11-25T08:23:27+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "girls-146272",
+          "girls-200606"
+        ],
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T12:00:15+00:00"
+        }
       },
       {
         "id": "girls-r16-1",
