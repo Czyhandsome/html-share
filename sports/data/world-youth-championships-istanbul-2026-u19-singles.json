@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-25T15:00:25+00:00",
+      "snapshot_at": "2026-11-25T15:31:29+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1704,7 +1704,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1713,7 +1713,36 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "girls-su",
+          "girls-leal"
+        ],
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T15:31:29+00:00"
+        }
       },
       {
         "id": "girls-r32-10",
