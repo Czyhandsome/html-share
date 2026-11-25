@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-25T14:29:57+00:00",
+      "snapshot_at": "2026-11-25T15:00:25+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -765,7 +765,7 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "blocker": "已核实逐局比分，但 Wassim Essid 的官方协会 TUN 尚未登记，待修正代表队后再发布赛果与晋级。"
       },
       {
         "id": "boys-r32-8",
@@ -780,7 +780,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T22:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -789,7 +789,48 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "boys-nie",
+          "boys-kurmangaliyev"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T15:00:25+00:00"
+        }
       },
       {
         "id": "boys-r32-9",
@@ -812,7 +853,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "boys-r32-10",
@@ -835,7 +877,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "boys-r32-11",
@@ -1543,7 +1586,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T22:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1552,7 +1595,48 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "girls-takahashi",
+          "girls-heo"
+        ],
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T15:00:25+00:00"
+        }
       },
       {
         "id": "girls-r32-8",
@@ -1567,7 +1651,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T22:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1576,7 +1660,36 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "girls-mak",
+          "girls-goda"
+        ],
+        "games": [
+          [
+            2,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T15:00:25+00:00"
+        }
       },
       {
         "id": "girls-r32-9",
@@ -1599,7 +1712,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "girls-r32-10",
@@ -1622,7 +1736,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "girls-r32-11",
