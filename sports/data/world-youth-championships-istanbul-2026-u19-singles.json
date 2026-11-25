@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-25T15:31:29+00:00",
+      "snapshot_at": "2026-11-25T16:29:29+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -386,6 +386,13 @@
         "label": "ぐぐスポ：世青赛 U19 逐局比分",
         "kind": "independent",
         "family": "sportzorg24.tv"
+      },
+      {
+        "id": "fftt-event-schedule",
+        "url": "https://www.fftt.com/actualites/france-jeunes/championnats-du-monde-jeunes-2026-programme-et-resultats/",
+        "label": "法国乒协：世青赛赛程与赛果（法国时间）",
+        "kind": "official",
+        "family": "fftt.com"
       }
     ],
     "rules": {
@@ -845,7 +852,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -854,7 +861,44 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "boys-li-ki-ho",
+          "boys-oztoprak"
+        ],
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T16:29:29+00:00"
+        }
       },
       {
         "id": "boys-r32-10",
@@ -869,7 +913,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -878,7 +922,40 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "boys-noirault",
+          "boys-arpas"
+        ],
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T16:29:29+00:00"
+        }
       },
       {
         "id": "boys-r32-11",
@@ -893,7 +970,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T23:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -901,6 +978,40 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
+        },
+        "result_for": [
+          "boys-michna",
+          "boys-lee"
+        ],
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T16:29:29+00:00"
         }
       },
       {
@@ -924,7 +1035,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "boys-r32-13",
@@ -1757,7 +1869,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1766,7 +1878,40 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
+        "result_for": [
+          "girls-berzosa",
+          "girls-hochart"
+        ],
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            3,
+            11
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T16:29:29+00:00"
+        }
       },
       {
         "id": "girls-r32-11",
@@ -1789,7 +1934,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
-        }
+        },
+        "blocker": "计划开赛时段已到，尚未取得足够证据确认赛况与完整逐局比分。"
       },
       {
         "id": "girls-r32-12",
@@ -1804,7 +1950,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T23:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1812,6 +1958,36 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
+        },
+        "result_for": [
+          "girls-skerbinz",
+          "girls-yao"
+        ],
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            13
+          ]
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-25T16:29:29+00:00"
         }
       },
       {
@@ -1919,7 +2095,14 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-26T17:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "fftt-event-schedule"
+          ],
+          "verified_at": "2026-11-25T16:00:22+00:00"
+        }
       },
       {
         "id": "girls-r16-2",
