@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-26T11:31:18Z",
+      "snapshot_at": "2026-11-26T12:00:58Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -220,7 +220,7 @@
       },
       {
         "id": "girls-wu-ying",
-        "name": "Wu Ying Syuan",
+        "name": "吳映萱",
         "team": "TPE"
       },
       {
@@ -421,6 +421,13 @@
         "url": "https://www.sport.org.cn/shouye/jjty/2026/1125/716951.html",
         "kind": "official",
         "family": "sport.org.cn"
+      },
+      {
+        "id": "cttta-wu-ying-syuan",
+        "label": "中国台北桌球协会：吳映萱中文原名",
+        "url": "https://www.cttta.org.tw/news_detail.asp?nid=3989",
+        "kind": "official",
+        "family": "cttta.org.tw"
       }
     ],
     "rules": {
@@ -1511,7 +1518,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-r16-5",
@@ -1709,7 +1717,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-qf-1",
@@ -2780,7 +2789,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T19:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2789,6 +2798,40 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
+        },
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "result_for": [
+          "girls-mei-rosu",
+          "girls-wu-ying"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:00:58Z"
         }
       },
       {
@@ -2813,7 +2856,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-r16-4",
