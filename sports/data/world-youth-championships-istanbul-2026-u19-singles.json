@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-26T09:59:15Z",
+      "snapshot_at": "2026-11-26T10:31:54Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -45,7 +45,7 @@
       },
       {
         "id": "boys-hung",
-        "name": "Hung Che-Yen",
+        "name": "洪哲砚",
         "team": "TPE"
       },
       {
@@ -414,6 +414,13 @@
         "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
         "kind": "independent",
         "family": "sportzorg24.tv"
+      },
+      {
+        "id": "sport-cn-youth-teams",
+        "label": "中华全国体育总会：洪哲砚中文名及男团决赛战报",
+        "url": "https://www.sport.org.cn/shouye/jjty/2026/1125/716951.html",
+        "kind": "official",
+        "family": "sport.org.cn"
       }
     ],
     "rules": {
@@ -1383,7 +1390,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T17:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1393,7 +1400,40 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            12,
+            14
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "result_for": [
+          "boys-hung",
+          "boys-kahraman"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T10:31:54Z"
+        }
       },
       {
         "id": "boys-r16-3",
@@ -1465,7 +1505,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-r16-6",
@@ -1513,7 +1554,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-r16-8",
@@ -2553,7 +2595,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T17:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2564,7 +2606,36 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "result_for": [
+          "girls-jiang",
+          "girls-nodin"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T10:31:54Z"
+        }
       },
       {
         "id": "girls-r16-2",
@@ -2684,7 +2755,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-r16-7",
@@ -2733,7 +2805,8 @@
             "eleven-event"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-qf-1",
