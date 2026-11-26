@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19双打",
-      "snapshot_at": "2026-11-26T15:29:33Z",
+      "snapshot_at": "2026-11-26T16:01:44Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -679,7 +679,7 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T22:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -688,7 +688,40 @@
           ],
           "verified_at": "2026-11-25T17:59:59+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            13,
+            11
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "result_for": [
+          "girls-takamori-takahashi",
+          "girls-jiang-yao"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-doubles-nov26",
+            "gugu-doubles-nov26"
+          ],
+          "verified_at": "2026-11-26T16:01:44Z"
+        }
       },
       {
         "id": "boys-final-1",
