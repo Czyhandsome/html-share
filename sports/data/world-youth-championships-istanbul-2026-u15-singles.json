@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-26T09:00:30+00:00",
+      "snapshot_at": "2026-11-26T09:30:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -82,7 +82,7 @@
       },
       {
         "id": "boys-205880",
-        "name": "Ryeowon Kim",
+        "name": "金吕原",
         "team": "KOR"
       },
       {
@@ -404,6 +404,13 @@
         "label": "中国香港乒乓总会：青少年队员中文原名",
         "kind": "official",
         "family": "hktta.org.hk"
+      },
+      {
+        "id": "migu-kim-ryeowon",
+        "url": "https://kandian.sina.cn/article_6320391439_178b9850f04001d7pn.html",
+        "label": "咪咕体育：韩国选手金吕原中文名",
+        "kind": "independent",
+        "family": "migu.cn"
       }
     ],
     "rules": {
@@ -1741,7 +1748,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T16:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1750,7 +1757,44 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "result_for": [
+          "boys-201107",
+          "boys-201124"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:29:30Z"
+        }
       },
       {
         "id": "boys-qf-1",
@@ -1765,7 +1809,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T17:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:30:00Z"
+        }
       },
       {
         "id": "boys-qf-2",
@@ -1780,7 +1832,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T15:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:30:00Z"
+        }
       },
       {
         "id": "boys-qf-3",
@@ -1795,7 +1855,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T16:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:30:00Z"
+        }
       },
       {
         "id": "boys-qf-4",
@@ -1810,7 +1878,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T15:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:30:00Z"
+        }
       },
       {
         "id": "boys-sf-1",
@@ -2876,7 +2952,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T16:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2885,7 +2961,44 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "result_for": [
+          "girls-203509",
+          "girls-202817"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:29:30Z"
+        }
       },
       {
         "id": "girls-r16-4",
@@ -3140,7 +3253,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T15:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:30:00Z"
+        }
       },
       {
         "id": "girls-qf-2",
@@ -3155,7 +3276,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T16:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:30:00Z"
+        }
       },
       {
         "id": "girls-qf-3",
@@ -3170,7 +3299,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T15:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T09:30:00Z"
+        }
       },
       {
         "id": "girls-qf-4",
