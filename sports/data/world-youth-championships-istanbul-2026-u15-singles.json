@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-26T07:03:00+00:00",
+      "snapshot_at": "2026-11-26T07:30:30+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -242,7 +242,7 @@
       },
       {
         "id": "girls-201265",
-        "name": "Jia Yu Zhang",
+        "name": "张嘉钰",
         "team": "HKG"
       },
       {
@@ -277,7 +277,7 @@
       },
       {
         "id": "girls-222004",
-        "name": "Xinrou Chen",
+        "name": "陈心柔",
         "team": "HKG"
       },
       {
@@ -397,6 +397,13 @@
         "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
         "kind": "independent",
         "family": "sportzorg24.tv"
+      },
+      {
+        "id": "hktta-2026-youth-names",
+        "url": "https://web.hktta.org.hk/hkteam/youth_player/PDF/YouthSelectionPh1_20260123.pdf",
+        "label": "中国香港乒乓总会：青少年队员中文原名",
+        "kind": "official",
+        "family": "hktta.org.hk"
       }
     ],
     "rules": {
@@ -1331,7 +1338,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T14:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1340,7 +1347,36 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "result_for": [
+          "boys-202444",
+          "boys-202683"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T07:30:30+00:00"
+        }
       },
       {
         "id": "boys-r16-2",
@@ -1409,7 +1445,8 @@
             "r16-japanese-schedule"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-r16-5",
@@ -1432,7 +1469,8 @@
             "r16-japanese-schedule"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-r16-6",
@@ -1447,7 +1485,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T14:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1456,7 +1494,40 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            11,
+            4
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "result_for": [
+          "boys-205514",
+          "boys-201442"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T07:30:30+00:00"
+        }
       },
       {
         "id": "boys-r16-7",
@@ -2583,7 +2654,8 @@
             "r16-japanese-schedule"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-r16-3",
@@ -2629,7 +2701,8 @@
             "r16-japanese-schedule"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-r16-5",
@@ -2667,7 +2740,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T14:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2676,7 +2749,36 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            12,
+            14
+          ]
+        ],
+        "result_for": [
+          "girls-201097",
+          "girls-204010"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T07:30:30+00:00"
+        }
       },
       {
         "id": "girls-r16-7",

@@ -931,11 +931,11 @@
         "players": [
           {
             "id": "u15-girls-hkg-201265",
-            "name": "ZHANG Jia Yu"
+            "name": "张嘉钰"
           },
           {
             "id": "u15-girls-hkg-222004",
-            "name": "CHEN Xinrou"
+            "name": "陈心柔"
           },
           {
             "id": "u15-girls-hkg-205829",
@@ -1351,6 +1351,13 @@
         "label": "WTT 官方决赛对阵卡 · u19-girls-final-1 · CHN / JPN",
         "kind": "official",
         "family": "WTT"
+      },
+      {
+        "id": "hktta-2026-youth-names",
+        "url": "https://web.hktta.org.hk/hkteam/youth_player/PDF/YouthSelectionPh1_20260123.pdf",
+        "label": "中国香港乒乓总会：青少年队员中文原名",
+        "kind": "official",
+        "family": "hktta.org.hk"
       }
     ],
     "rules": {

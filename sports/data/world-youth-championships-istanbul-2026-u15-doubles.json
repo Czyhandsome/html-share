@@ -72,7 +72,7 @@
       },
       {
         "id": "girls-wtt-100266651",
-        "name": "Xinrou Chen / Jia Yu Zhang",
+        "name": "陈心柔 / 张嘉钰",
         "team": "HKG"
       },
       {
@@ -230,6 +230,13 @@
         "label": "tt-wiki：U15 双打十六强逐局比分",
         "kind": "independent",
         "family": "tt-wiki.info"
+      },
+      {
+        "id": "hktta-2026-youth-names",
+        "url": "https://web.hktta.org.hk/hkteam/youth_player/PDF/YouthSelectionPh1_20260123.pdf",
+        "label": "中国香港乒乓总会：青少年队员中文原名",
+        "kind": "official",
+        "family": "hktta.org.hk"
       }
     ],
     "rules": {
