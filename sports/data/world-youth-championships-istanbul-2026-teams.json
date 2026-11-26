@@ -470,11 +470,11 @@
         "players": [
           {
             "id": "u19-girls-hkg-201271",
-            "name": "MAK Ming Shum"
+            "name": "麦明芯"
           },
           {
             "id": "u19-girls-hkg-206252",
-            "name": "SU Tsz Tung"
+            "name": "苏籽童"
           },
           {
             "id": "u19-girls-hkg-201799",
@@ -1356,6 +1356,13 @@
         "id": "hktta-2026-youth-names",
         "url": "https://web.hktta.org.hk/hkteam/youth_player/PDF/YouthSelectionPh1_20260123.pdf",
         "label": "中国香港乒乓总会：青少年队员中文原名",
+        "kind": "official",
+        "family": "hktta.org.hk"
+      },
+      {
+        "id": "hktta-u19-chinese-names",
+        "url": "https://hktta.org.hk/hkteam/youth_player/index.html",
+        "label": "中国香港乒乓总会：青少年队员中文名",
         "kind": "official",
         "family": "hktta.org.hk"
       }

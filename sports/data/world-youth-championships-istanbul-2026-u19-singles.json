@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-26T12:00:58Z",
+      "snapshot_at": "2026-11-26T12:32:02Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -105,7 +105,7 @@
       },
       {
         "id": "boys-li-ki-ho",
-        "name": "Li Ki Ho",
+        "name": "黎骐豪",
         "team": "HKG"
       },
       {
@@ -255,7 +255,7 @@
       },
       {
         "id": "girls-mak",
-        "name": "Mak Ming Shum",
+        "name": "麦明芯",
         "team": "HKG"
       },
       {
@@ -265,7 +265,7 @@
       },
       {
         "id": "girls-su",
-        "name": "Su Tsz Tung",
+        "name": "苏籽童",
         "team": "HKG"
       },
       {
@@ -428,6 +428,13 @@
         "url": "https://www.cttta.org.tw/news_detail.asp?nid=3989",
         "kind": "official",
         "family": "cttta.org.tw"
+      },
+      {
+        "id": "hktta-u19-chinese-names",
+        "url": "https://hktta.org.hk/hkteam/youth_player/index.html",
+        "label": "中国香港乒乓总会：青少年队员中文名",
+        "kind": "official",
+        "family": "hktta.org.hk"
       }
     ],
     "rules": {
@@ -1519,7 +1526,7 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "blocker": "逐局比分已交叉核验；上轮赛果因 Wassim Essid 的官方协会 TUN 尚未登记而待发布，本轮晋级也暂不录入。"
       },
       {
         "id": "boys-r16-5",
@@ -1708,7 +1715,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T19:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1718,7 +1725,36 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            5,
+            11
+          ]
+        ],
+        "result_for": [
+          "boys-priyanuj",
+          "boys-otalvaro"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "boys-qf-1",
@@ -1733,7 +1769,15 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T19:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "boys-qf-2",
@@ -1748,7 +1792,15 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T20:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "boys-qf-3",
@@ -1763,7 +1815,15 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T21:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "boys-qf-4",
@@ -1778,7 +1838,15 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T19:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "boys-sf-1",
@@ -2847,7 +2915,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T19:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2857,7 +2925,48 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "result_for": [
+          "girls-bhowmick",
+          "girls-bogdanowicz"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "girls-r16-4",
@@ -2926,7 +3035,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T19:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2936,7 +3045,40 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "result_for": [
+          "girls-su",
+          "girls-hochart"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "girls-r16-6",
@@ -3141,7 +3283,15 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T20:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "girls-qf-2",
@@ -3156,7 +3306,15 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T21:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "girls-qf-3",
@@ -3171,7 +3329,15 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T19:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "girls-qf-4",
@@ -3186,7 +3352,15 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T19:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T12:32:02Z"
+        }
       },
       {
         "id": "girls-sf-1",

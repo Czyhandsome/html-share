@@ -99,7 +99,7 @@
       },
       {
         "id": "girls-su-mak",
-        "name": "Su Tsz Tung / Mak Ming Shum",
+        "name": "苏籽童 / 麦明芯",
         "team": "HKG"
       }
     ],
@@ -152,6 +152,13 @@
         "label": "ぐぐスポ：世青赛赛程（日本时间）",
         "kind": "independent",
         "family": "sportzorg24.tv"
+      },
+      {
+        "id": "hktta-u19-chinese-names",
+        "url": "https://hktta.org.hk/hkteam/youth_player/index.html",
+        "label": "中国香港乒乓总会：青少年队员中文名",
+        "kind": "official",
+        "family": "hktta.org.hk"
       }
     ],
     "rules": {
