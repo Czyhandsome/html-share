@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15双打",
-      "snapshot_at": "2026-11-26T14:30:23Z",
+      "snapshot_at": "2026-11-26T14:59:29Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1365,7 +1365,7 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T22:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1373,7 +1373,36 @@
           ],
           "verified_at": "2026-11-25T18:32:28+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            10,
+            12
+          ],
+          [
+            13,
+            15
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "result_for": [
+          "boys-wtt-100206009",
+          "boys-wtt-100219237"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-doubles-nov26",
+            "gugu-doubles-nov26"
+          ],
+          "verified_at": "2026-11-26T14:59:09Z"
+        }
       },
       {
         "id": "boys-final-1",
@@ -1388,7 +1417,15 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-27T23:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-doubles-nov26"
+          ],
+          "verified_at": "2026-11-26T14:59:29Z"
+        }
       },
       {
         "id": "girls-qf-1",
