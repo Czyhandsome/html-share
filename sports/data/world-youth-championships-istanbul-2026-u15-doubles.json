@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15双打",
-      "snapshot_at": "2026-11-25T18:34:28+00:00",
+      "snapshot_at": "2026-11-26T14:30:23Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -237,6 +237,20 @@
         "label": "中国香港乒乓总会：青少年队员中文原名",
         "kind": "official",
         "family": "hktta.org.hk"
+      },
+      {
+        "id": "gsa-doubles-nov26",
+        "label": "Global Sports Archive：11 月 26 日双打逐局比分",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-26&sp=table_tennis&widget_client_id=1",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-doubles-nov26",
+        "label": "ぐぐスポ：世青赛双打对阵、时间及逐局比分",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
       }
     ],
     "rules": {
@@ -1295,13 +1309,47 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T21:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "wtt-schedule"
           ],
           "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "games": [
+          [
+            2,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "result_for": [
+          "boys-wtt-100115221",
+          "boys-wtt-100139556"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-doubles-nov26",
+            "gugu-doubles-nov26"
+          ],
+          "verified_at": "2026-11-26T14:30:23Z"
         }
       },
       {
@@ -1324,7 +1372,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-25T18:32:28+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-final-1",
@@ -1563,7 +1612,7 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T21:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1571,6 +1620,40 @@
             "fftt-event"
           ],
           "verified_at": "2026-11-25T18:32:28+00:00"
+        },
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "result_for": [
+          "girls-wtt-100187509",
+          "girls-wtt-100175853"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-doubles-nov26",
+            "gugu-doubles-nov26"
+          ],
+          "verified_at": "2026-11-26T14:30:23Z"
         }
       },
       {
@@ -1593,7 +1676,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-25T18:32:28+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-final-1",
