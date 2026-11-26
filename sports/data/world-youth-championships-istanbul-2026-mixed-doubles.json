@@ -9,14 +9,13 @@
   "output": "docs/2026/11/world-youth-championships-istanbul-2026-mixed-doubles/index.html",
   "notices": [
     "本页覆盖 2026 伊斯坦布尔乒乓球世青赛 U19 混合双打正赛后半程；团体赛另见同赛事团体页。",
-    "温瑞博 / 姜依依与李和宸 / 姚睿轩均已赢得半决赛，会师决赛。",
-    "WTT 赛程列出的计划开赛时间为北京时间 11 月 27 日 01:00。"
+    "温瑞博 / 姜依依以 3:1 战胜李和宸 / 姚睿轩，获得 U19 混双冠军。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19混合双打",
-      "snapshot_at": "2026-11-25T07:31:00+00:00",
+      "snapshot_at": "2026-11-26T18:01:05Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -73,6 +72,20 @@
         "label": "Eleven Table Tennis event page",
         "kind": "independent",
         "family": "eleventabletennis.com"
+      },
+      {
+        "id": "gsa-doubles-nov26",
+        "label": "Global Sports Archive：11 月 26 日双打逐局比分",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-26&sp=table_tennis&widget_client_id=1",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-doubles-nov26",
+        "label": "ぐぐスポ：世青赛双打对阵、时间及逐局比分",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
       }
     ],
     "rules": {
@@ -281,13 +294,43 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T01:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "wtt-schedule"
           ],
           "verified_at": "2026-11-25T07:31:00+00:00"
+        },
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "result_for": [
+          "mixed-wen-jiang",
+          "mixed-li-yao"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-doubles-nov26",
+            "gugu-doubles-nov26"
+          ],
+          "verified_at": "2026-11-26T18:01:05Z"
         }
       }
     ],
