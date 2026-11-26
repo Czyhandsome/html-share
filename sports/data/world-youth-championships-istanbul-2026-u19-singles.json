@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-26T10:31:54Z",
+      "snapshot_at": "2026-11-26T10:59:08Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1545,7 +1545,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T18:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1555,7 +1555,40 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            11,
+            2
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "result_for": [
+          "boys-li",
+          "boys-trevisan"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T10:59:08Z"
+        }
       },
       {
         "id": "boys-r16-8",
@@ -2746,7 +2779,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T18:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2756,7 +2789,48 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            8,
+            11
+          ]
+        ],
+        "result_for": [
+          "girls-shirokova",
+          "girls-yao"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T10:59:08Z"
+        }
       },
       {
         "id": "girls-r16-7",
@@ -2771,7 +2845,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T17:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2781,7 +2855,48 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "result_for": [
+          "girls-das",
+          "girls-wu-jia"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T10:59:08Z"
+        }
       },
       {
         "id": "girls-r16-8",
@@ -2796,7 +2911,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T18:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2806,7 +2921,40 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
+        "games": [
+          [
+            12,
+            10
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            3,
+            11
+          ]
+        ],
+        "result_for": [
+          "girls-psihogios",
+          "girls-takamori"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T10:59:08Z"
+        }
       },
       {
         "id": "girls-qf-1",
