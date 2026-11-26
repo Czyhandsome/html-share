@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19双打",
-      "snapshot_at": "2026-11-25T17:59:59+00:00",
+      "snapshot_at": "2026-11-26T15:29:33Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -159,6 +159,20 @@
         "label": "中国香港乒乓总会：青少年队员中文名",
         "kind": "official",
         "family": "hktta.org.hk"
+      },
+      {
+        "id": "gsa-doubles-nov26",
+        "label": "Global Sports Archive：11 月 26 日双打逐局比分",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-26&sp=table_tennis&widget_client_id=1",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-doubles-nov26",
+        "label": "ぐぐスポ：世青赛双打对阵、时间及逐局比分",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
       }
     ],
     "rules": {
@@ -567,7 +581,7 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T22:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -575,6 +589,32 @@
             "eleven-draw"
           ],
           "verified_at": "2026-11-25T08:08:54+00:00"
+        },
+        "games": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "result_for": [
+          "boys-wen-li",
+          "boys-pilard-noirault"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-doubles-nov26",
+            "gugu-doubles-nov26"
+          ],
+          "verified_at": "2026-11-26T15:29:33Z"
         }
       },
       {
@@ -598,7 +638,8 @@
             "eleven-draw"
           ],
           "verified_at": "2026-11-25T08:08:54+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-sf-1",
@@ -622,7 +663,8 @@
             "fftt-event-schedule"
           ],
           "verified_at": "2026-11-25T17:59:59+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-sf-2",
@@ -645,7 +687,8 @@
             "gugu-event-schedule"
           ],
           "verified_at": "2026-11-25T17:59:59+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-final-1",
