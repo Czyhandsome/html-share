@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-25T19:06:30+00:00",
+      "snapshot_at": "2026-11-26T07:03:00+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -381,6 +381,20 @@
         "id": "r16-japanese-schedule",
         "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
         "label": "ぐぐスポ：十六强对阵与开赛时间（日本时间）",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
+      },
+      {
+        "id": "gsa-results-nov26",
+        "label": "Global Sports Archive：11 月 26 日逐局比分",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-26&sp=table_tennis&widget_client_id=1",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-results-nov26",
+        "label": "ぐぐスポ：11 月 26 日逐局比分",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
         "kind": "independent",
         "family": "sportzorg24.tv"
       }
@@ -1325,7 +1339,8 @@
             "r16-japanese-schedule"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-r16-2",
@@ -1440,7 +1455,8 @@
             "r16-japanese-schedule"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "boys-r16-7",
@@ -2506,7 +2522,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T14:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2514,6 +2530,36 @@
             "r16-japanese-schedule"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
+        },
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "result_for": [
+          "girls-205512",
+          "girls-203956"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "gugu-results-nov26"
+          ],
+          "verified_at": "2026-11-26T07:03:00+00:00"
         }
       },
       {
@@ -2629,7 +2675,8 @@
             "r16-japanese-schedule"
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
-        }
+        },
+        "blocker": "已到计划开赛时间，尚未取得可交叉核对的逐局终局比分。"
       },
       {
         "id": "girls-r16-7",
