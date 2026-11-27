@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-27T09:01:37+00:00",
+      "snapshot_at": "2026-11-27T09:31:28+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1831,7 +1831,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T09:30:00Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "boys-qf-2",
@@ -1903,7 +1904,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T16:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1912,7 +1913,40 @@
           ],
           "verified_at": "2026-11-26T09:30:00Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "result_for": [
+          "boys-203201",
+          "boys-205514"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T09:31:28+00:00"
+        }
       },
       {
         "id": "boys-qf-4",
@@ -3430,7 +3464,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T16:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -3439,7 +3473,44 @@
           ],
           "verified_at": "2026-11-26T09:30:00Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "result_for": [
+          "girls-203509",
+          "girls-212898"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T09:31:28+00:00"
+        }
       },
       {
         "id": "girls-qf-3",
@@ -3527,7 +3598,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T09:59:15Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "girls-sf-1",
