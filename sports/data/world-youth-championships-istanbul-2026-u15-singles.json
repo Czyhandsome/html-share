@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-26T09:59:15Z",
+      "snapshot_at": "2026-11-27T08:00:55+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -411,6 +411,20 @@
         "label": "咪咕体育：韩国选手金吕原中文名",
         "kind": "independent",
         "family": "migu.cn"
+      },
+      {
+        "id": "gsa-results-nov27",
+        "label": "Global Sports Archive：11 月 27 日逐局比分",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-27&sp=table_tennis&widget_client_id=1",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-results-nov27",
+        "label": "ぐぐスポ：11 月 27 日逐局比分",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
       }
     ],
     "rules": {
@@ -1832,7 +1846,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T15:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1840,6 +1854,40 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T09:30:00Z"
+        },
+        "games": [
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "result_for": [
+          "boys-212894",
+          "boys-205880"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T08:00:55+00:00"
         }
       },
       {
@@ -1886,7 +1934,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T09:30:00Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "boys-sf-1",
@@ -3286,7 +3335,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T15:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -3294,6 +3343,40 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T09:30:00Z"
+        },
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            8
+          ]
+        ],
+        "result_for": [
+          "girls-205512",
+          "girls-201145"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T08:00:55+00:00"
         }
       },
       {
@@ -3340,7 +3423,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T09:30:00Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "girls-qf-4",
