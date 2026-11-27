@@ -15,14 +15,14 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15双打",
-      "snapshot_at": "2026-11-26T15:29:33Z",
+      "snapshot_at": "2026-11-27T16:00:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
     "entries": [
       {
         "id": "boys-wtt-100115221",
-        "name": "Eli Ho / August Xiao",
+        "name": "何倚天 / August Xiao",
         "team": "NZL"
       },
       {
@@ -251,6 +251,20 @@
         "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
         "kind": "independent",
         "family": "sportzorg24.tv"
+      },
+      {
+        "id": "gsa-results-nov27",
+        "label": "Global Sports Archive：11 月 27 日逐局比分",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-27&sp=table_tennis&widget_client_id=1",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "eli-ho-chinese-name",
+        "label": "何倚天教练团队：运动员中英文原名",
+        "url": "https://iftt04.com/eli-ho-%E4%BD%95%E5%80%9A%E5%A4%A9/",
+        "kind": "independent",
+        "family": "iftt04.com"
       }
     ],
     "rules": {
@@ -1425,7 +1439,8 @@
             "gugu-doubles-nov26"
           ],
           "verified_at": "2026-11-26T14:59:29Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "girls-qf-1",
@@ -1762,7 +1777,7 @@
           }
         ],
         "rule": "bo5",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T23:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1770,6 +1785,36 @@
             "gugu-doubles-nov26"
           ],
           "verified_at": "2026-11-26T15:29:33Z"
+        },
+        "games": [
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "result_for": [
+          "girls-wtt-100175853",
+          "girls-wtt-100196739"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results"
+          ],
+          "verified_at": "2026-11-27T16:00:00Z"
         }
       }
     ],
