@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-27T14:00:00Z",
+      "snapshot_at": "2026-11-27T14:30:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1860,7 +1860,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T21:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1869,7 +1869,48 @@
           ],
           "verified_at": "2026-11-26T12:32:02Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "result_for": [
+          "boys-noirault",
+          "boys-sareen"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T14:30:00Z"
+        }
       },
       {
         "id": "boys-qf-4",
@@ -1968,7 +2009,15 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-28T16:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T14:30:00Z"
+        }
       },
       {
         "id": "boys-final-1",
