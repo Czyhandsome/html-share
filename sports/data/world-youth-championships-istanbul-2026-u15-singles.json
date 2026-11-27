@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-27T09:31:28+00:00",
+      "snapshot_at": "2026-11-27T10:00:08+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1823,7 +1823,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T17:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1832,7 +1832,36 @@
           ],
           "verified_at": "2026-11-26T09:30:00Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "result_for": [
+          "boys-202444",
+          "boys-202895"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T10:00:08+00:00"
+        }
       },
       {
         "id": "boys-qf-2",
@@ -2022,7 +2051,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-28T15:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T10:00:08+00:00"
+        }
       },
       {
         "id": "boys-sf-2",
@@ -2037,7 +2074,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-28T15:00:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T10:00:08+00:00"
+        }
       },
       {
         "id": "boys-final-1",
@@ -3590,7 +3635,7 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T17:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -3599,7 +3644,36 @@
           ],
           "verified_at": "2026-11-26T09:59:15Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "result_for": [
+          "girls-210320",
+          "girls-202752"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T10:00:08+00:00"
+        }
       },
       {
         "id": "girls-sf-1",
@@ -3614,7 +3688,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-28T15:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T10:00:08+00:00"
+        }
       },
       {
         "id": "girls-sf-2",
@@ -3629,7 +3711,15 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-28T15:45:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T10:00:08+00:00"
+        }
       },
       {
         "id": "girls-final-1",
