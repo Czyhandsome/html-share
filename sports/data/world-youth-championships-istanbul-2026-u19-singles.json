@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-26T12:32:02Z",
+      "snapshot_at": "2026-11-27T12:01:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -435,6 +435,20 @@
         "label": "中国香港乒乓总会：青少年队员中文名",
         "kind": "official",
         "family": "hktta.org.hk"
+      },
+      {
+        "id": "gsa-results-nov27",
+        "label": "Global Sports Archive：11 月 27 日逐局比分",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-27&sp=table_tennis&widget_client_id=1",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-results-nov27",
+        "label": "ぐぐスポ：11 月 27 日逐局比分",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
       }
     ],
     "rules": {
@@ -1769,7 +1783,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T19:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1777,6 +1791,36 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T12:32:02Z"
+        },
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "result_for": [
+          "boys-wen",
+          "boys-hung"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T12:01:00Z"
         }
       },
       {
@@ -1846,7 +1890,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T12:32:02Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "boys-sf-1",
@@ -3337,7 +3382,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T12:32:02Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "girls-qf-4",
@@ -3352,7 +3398,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T19:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -3360,6 +3406,36 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T12:32:02Z"
+        },
+        "games": [
+          [
+            7,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "result_for": [
+          "girls-das",
+          "girls-takamori"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T12:01:00Z"
         }
       },
       {
