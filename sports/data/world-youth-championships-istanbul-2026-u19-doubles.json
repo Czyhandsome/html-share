@@ -17,7 +17,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19双打",
-      "snapshot_at": "2026-11-27T17:00:00Z",
+      "snapshot_at": "2026-11-27T17:30:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -804,7 +804,7 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-28T00:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -813,7 +813,32 @@
           ],
           "verified_at": "2026-11-26T16:29:45Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "result_for": [
+          "boys-wen-li",
+          "boys-kim-lee"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-event-schedule"
+          ],
+          "verified_at": "2026-11-27T17:30:00Z"
+        }
       },
       {
         "id": "girls-final-1",
