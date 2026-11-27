@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-27T12:30:00Z",
+      "snapshot_at": "2026-11-27T13:30:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1845,7 +1845,7 @@
           ],
           "verified_at": "2026-11-26T12:32:02Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "blocker": "逐局比分已由两家独立来源核实；对手 Wassim Essid 的官方协会 TUN 尚未登记，上游签位与本场赛果暂未录入。"
       },
       {
         "id": "boys-qf-3",
@@ -1868,7 +1868,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T12:32:02Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "boys-qf-4",
@@ -3366,7 +3367,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T20:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -3375,7 +3376,48 @@
           ],
           "verified_at": "2026-11-26T12:32:02Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "result_for": [
+          "girls-jiang",
+          "girls-wu-ying"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T13:30:00Z"
+        }
       },
       {
         "id": "girls-qf-2",
@@ -3398,7 +3440,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T12:32:02Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "girls-qf-3",
