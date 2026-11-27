@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-27T12:01:00Z",
+      "snapshot_at": "2026-11-27T12:30:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -1844,7 +1844,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T12:32:02Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "boys-qf-3",
@@ -1882,7 +1883,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T19:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1891,7 +1892,44 @@
           ],
           "verified_at": "2026-11-26T12:32:02Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "result_for": [
+          "boys-li",
+          "boys-otalvaro"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T12:30:00Z"
+        }
       },
       {
         "id": "boys-sf-1",
@@ -3336,7 +3374,8 @@
             "gugu-results-nov26"
           ],
           "verified_at": "2026-11-26T12:32:02Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "girls-qf-2",
@@ -3374,7 +3413,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T19:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -3383,7 +3422,44 @@
           ],
           "verified_at": "2026-11-26T12:32:02Z"
         },
-        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
+        "games": [
+          [
+            4,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "result_for": [
+          "girls-hochart",
+          "girls-yao"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-27T12:30:00Z"
+        }
       },
       {
         "id": "girls-qf-4",
