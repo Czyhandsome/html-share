@@ -16,7 +16,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-28T10:31:41Z",
+      "snapshot_at": "2026-11-28T15:30:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -2233,13 +2233,51 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-28T22:00:00+08:00",
         "schedule_verification": {
           "source_ids": [
             "wtt-schedule"
           ],
           "verified_at": "2026-11-28T00:00:00Z"
+        },
+        "games": [
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            14,
+            12
+          ]
+        ],
+        "result_for": [
+          "boys-wen",
+          "boys-li"
+        ],
+        "completed_date": "2026-11-28",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov28",
+            "gugu-results-nov28"
+          ],
+          "verified_at": "2026-11-28T15:30:00Z"
         }
       },
       {
@@ -3993,7 +4031,8 @@
             "wtt-schedule"
           ],
           "verified_at": "2026-11-28T00:00:00Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       }
     ],
     "layout": {
