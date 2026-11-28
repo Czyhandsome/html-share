@@ -15,7 +15,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U15单打",
-      "snapshot_at": "2026-11-27T10:00:08+00:00",
+      "snapshot_at": "2026-11-28T00:00:00Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -2097,7 +2097,14 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-28T20:30:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-28T00:00:00Z"
+        }
       },
       {
         "id": "girls-r32-1",
@@ -3734,7 +3741,14 @@
           }
         ],
         "rule": "bo7",
-        "status": "scheduled"
+        "status": "scheduled",
+        "scheduled_at": "2026-11-28T21:15:00+08:00",
+        "schedule_verification": {
+          "source_ids": [
+            "wtt-schedule"
+          ],
+          "verified_at": "2026-11-28T00:00:00Z"
+        }
       }
     ],
     "layout": {
