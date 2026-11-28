@@ -7,20 +7,20 @@
     "end": "2026-05-10"
   },
   "notices": [
-    "本页覆盖男女32强正赛62场、男女种子组24场、6个完整资格组36场，以及全部8场资格附加赛，共130场团体对决。资格小组仅含男子第8、11组和女子第3、4、5、13组，其余22组132场尚未收录，不能视为完整赛事档案。",
-    "已按WTT官方逐场归档补齐已录130场团体对决的479场单打、1748局完整比分及实际出场球员。已录单项均为正常完赛；未收录资格组中的整队弃权不在本页覆盖范围。原有团体总比分、ID、正赛抽签席位和晋级关系保持不变；达到三胜后未进行的单打不虚构赛果，出场名单不等于完整报名名单。",
+    "本页覆盖男女32强正赛62场、男女种子组24场、7个完整资格组42场，以及全部8场资格附加赛，共136场团体对决。资格小组仅含男子第8、11组和女子第3、4、5、10、13组，其余21组126场尚未收录，不能视为完整赛事档案。",
+    "已按WTT官方逐场归档补齐已录136场团体对决的488场实打单打、1781局完整比分及实际出场球员。女子资格第10组含巴巴多斯3场整队弃权，按官方团体比分记0–3，不计判罚局或登记为实际出场。达到三胜后未进行的单打不虚构赛果，出场名单不等于完整报名名单。",
     "男子Stage 1A种子组八队全员进入正赛，小组赛决定种子位置而非淘汰资格。第1组名次为瑞典、韩国、中国、英格兰；第2组为法国、日本、德国、中华台北。正赛仍沿用WTT官方实际抽签席位，未以小组名次猜接晋级线。",
     "男子小组名次采用WTT官方组别终轮快照771220/771240：各队均已打满3场，并与全部12场赛果及独立赛果汇总交叉核验。接口将这两份快照标记INTERMEDIATE；较旧的OFFICIAL汇总尚未打完，未采用其过时名次。团体比分采用官方overallScores及FINAL_RESULT一致值，不采用不一致的resultOverallScores字段。",
     "女子Stage 1A种子组八队全员进入正赛，小组赛决定种子位置而非淘汰资格。第1组名次为中国、罗马尼亚、中华台北、韩国；第2组为日本、德国、法国、英格兰。正赛保留WTT官方实际抽签席位，不以小组名次改写晋级关系。",
     "女子第1组名次采用WTT终轮快照771234（接口标记INTERMEDIATE，但四队均已打满3场）；第2组采用771182中已打满3场的OFFICIAL组别记录。771182中的第1组尚未打完，未采用其过时名次。两组名次均与12场官方完整团体赛果及独立汇总交叉核验。",
     "单打顺序按官方比赛编号核对，不直接采用接口数组顺序；女子种子第1组罗马尼亚对韩国的第4、5场在源数组中倒置，已按实际比赛编号排列。已有中文姓名沿用，未确认可靠译名的外国球员保留官方原文。",
-    "资格组名次取自WTT官方完整终轮记录（每队均打满3场），不是按胜场猜测跨组资格。男子第8组克罗地亚、第11组哈萨克斯坦直接进入正赛；塞尔维亚、埃及参加附加赛。女子第3组埃及、第4组中国香港及荷兰、第5组巴西、第13组意大利直接进入正赛；比利时、哈萨克斯坦、克罗地亚参加附加赛。附加赛胜者进入32强，正赛仍沿用官方抽签确认的原签位；未为缺失资格组编造晋级连线。"
+    "资格组名次取自WTT官方完整终轮记录（每队均有3场记录，含官方判定的弃权），不是按胜场猜测跨组资格。男子第8组克罗地亚、第11组哈萨克斯坦直接进入正赛；塞尔维亚、埃及参加附加赛。女子第3组埃及、第4组中国香港及荷兰、第5组巴西、第10组葡萄牙及卢森堡、第13组意大利直接进入正赛；比利时、哈萨克斯坦、克罗地亚参加附加赛。附加赛胜者进入32强，正赛仍沿用官方抽签确认的原签位；未为缺失资格组编造晋级连线。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026伦敦世乒赛团体赛",
-      "snapshot_at": "2026-11-18T21:08:06+00:00",
+      "snapshot_at": "2026-11-28T15:00:28+00:00",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/London"
     },
@@ -1179,6 +1179,10 @@
           {
             "id": "women-por-135660",
             "name": "PINTO Matilde"
+          },
+          {
+            "id": "women-por-145615",
+            "name": "LEAL Julia"
           }
         ]
       },
@@ -1830,6 +1834,35 @@
             "name": "KUTI Matthew"
           }
         ]
+      },
+      {
+        "id": "women-gua",
+        "draw": "women",
+        "team": "GUA",
+        "players": [
+          {
+            "id": "women-gua-118028",
+            "name": "CORDERO Lucia"
+          },
+          {
+            "id": "women-gua-134769",
+            "name": "CUX Jenny"
+          },
+          {
+            "id": "women-gua-200033",
+            "name": "MOSCOSO Andrea"
+          },
+          {
+            "id": "women-gua-200031",
+            "name": "LINARES Daniela"
+          }
+        ]
+      },
+      {
+        "id": "women-bar",
+        "draw": "women",
+        "team": "BAR",
+        "players": []
       }
     ],
     "sources": [
@@ -1902,6 +1935,13 @@
         "label": "中国奥委会：伦敦世乒赛中国队正式中文名单",
         "kind": "official",
         "family": "olympic.cn"
+      },
+      {
+        "id": "england-women-stage1b",
+        "url": "https://www.tabletennisengland.co.uk/news/2026/find-out-who-qualified-from-stage-1b/",
+        "label": "英格兰乒协：女子资格组出线与附加赛结果",
+        "kind": "official",
+        "family": "tabletennisengland.co.uk"
       }
     ],
     "rules": {
@@ -2408,6 +2448,31 @@
               "women-pool"
             ],
             "verified_at": "2026-11-18T21:08:06+00:00"
+          }
+        }
+      },
+      {
+        "id": "women-qual-10",
+        "stage": "women-qualification",
+        "name": "资格第10组",
+        "teams": [
+          "women-por",
+          "women-lux",
+          "women-gua",
+          "women-bar"
+        ],
+        "standings": {
+          "order": [
+            "women-por",
+            "women-lux",
+            "women-gua",
+            "women-bar"
+          ],
+          "verification": {
+            "source_ids": [
+              "women-pool"
+            ],
+            "verified_at": "2026-11-28T15:00:28+00:00"
           }
         }
       },
@@ -2958,12 +3023,13 @@
         "id": "women-por-main-entry",
         "stage": "women-main",
         "team": "women-por",
-        "label": "官方正赛签表确认32强席位",
+        "label": "女子资格第10组第1名，直通32强（官方正赛签位）",
         "verification": {
           "source_ids": [
-            "women-bracket"
+            "women-bracket",
+            "england-women-stage1b"
           ],
-          "verified_at": "2026-11-16T17:08:56+00:00"
+          "verified_at": "2026-11-28T15:00:28+00:00"
         }
       },
       {
@@ -3174,12 +3240,13 @@
         "id": "women-lux-main-entry",
         "stage": "women-main",
         "team": "women-lux",
-        "label": "官方正赛签表确认32强席位",
+        "label": "女子资格第10组第2名，直通32强（官方正赛签位）",
         "verification": {
           "source_ids": [
-            "women-bracket"
+            "women-bracket",
+            "england-women-stage1b"
           ],
-          "verified_at": "2026-11-16T17:08:56+00:00"
+          "verified_at": "2026-11-28T15:00:28+00:00"
         }
       },
       {
@@ -6623,6 +6690,528 @@
             }
           }
         ]
+      },
+      {
+        "id": "women-qual-10-1",
+        "stage": "women-qualification",
+        "round": "资格第10组",
+        "slots": [
+          {
+            "team": "women-por"
+          },
+          {
+            "team": "women-bar"
+          }
+        ],
+        "scheduled_at": "2026-04-28T17:00:00+01:00",
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-por",
+            "women-bar"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-28T15:00:28+00:00"
+          },
+          "status": "walkover",
+          "winner": 0,
+          "reason": "WTT 官方归档判定巴巴多斯整队弃权，计 0–3；未进行单打。"
+        },
+        "group": "women-qual-10",
+        "matches": []
+      },
+      {
+        "id": "women-qual-10-2",
+        "stage": "women-qualification",
+        "round": "资格第10组",
+        "slots": [
+          {
+            "team": "women-gua"
+          },
+          {
+            "team": "women-lux"
+          }
+        ],
+        "scheduled_at": "2026-04-28T17:00:00+01:00",
+        "completed_date": "2026-04-28",
+        "official_result": {
+          "result_for": [
+            "women-gua",
+            "women-lux"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-28T15:00:28+00:00"
+          }
+        },
+        "group": "women-qual-10",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-gua-118028"
+              ],
+              [
+                "women-lux-112280"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                7,
+                11
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                5,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-gua-134769"
+              ],
+              [
+                "women-lux-106706"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                1,
+                11
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                2,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-gua-200033"
+              ],
+              [
+                "women-lux-136401"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                3,
+                11
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                4,
+                11
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-10-3",
+        "stage": "women-qualification",
+        "round": "资格第10组",
+        "slots": [
+          {
+            "team": "women-por"
+          },
+          {
+            "team": "women-lux"
+          }
+        ],
+        "scheduled_at": "2026-04-29T17:00:00+01:00",
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "women-por",
+            "women-lux"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-28T15:00:28+00:00"
+          }
+        },
+        "group": "women-qual-10",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-por-121401"
+              ],
+              [
+                "women-lux-112280"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                5
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-por-102863"
+              ],
+              [
+                "women-lux-106706"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                8,
+                11
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                3
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-por-135660"
+              ],
+              [
+                "women-lux-136401"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                12,
+                10
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-10-4",
+        "stage": "women-qualification",
+        "round": "资格第10组",
+        "slots": [
+          {
+            "team": "women-gua"
+          },
+          {
+            "team": "women-bar"
+          }
+        ],
+        "scheduled_at": "2026-04-29T17:00:00+01:00",
+        "completed_date": "2026-04-29",
+        "official_result": {
+          "result_for": [
+            "women-gua",
+            "women-bar"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-28T15:00:28+00:00"
+          },
+          "status": "walkover",
+          "winner": 0,
+          "reason": "WTT 官方归档判定巴巴多斯整队弃权，计 0–3；未进行单打。"
+        },
+        "group": "women-qual-10",
+        "matches": []
+      },
+      {
+        "id": "women-qual-10-5",
+        "stage": "women-qualification",
+        "round": "资格第10组",
+        "slots": [
+          {
+            "team": "women-por"
+          },
+          {
+            "team": "women-gua"
+          }
+        ],
+        "scheduled_at": "2026-05-01T10:00:00+01:00",
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "women-por",
+            "women-gua"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-28T15:00:28+00:00"
+          }
+        },
+        "group": "women-qual-10",
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "women-por-121401"
+              ],
+              [
+                "women-gua-200031"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                2
+              ],
+              [
+                11,
+                3
+              ],
+              [
+                11,
+                4
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "women-por-145615"
+              ],
+              [
+                "women-gua-118028"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                11
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                11,
+                9
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                11,
+                9
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "women-por-135660"
+              ],
+              [
+                "women-gua-134769"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                11,
+                4
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                11,
+                2
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "results"
+              ],
+              "verified_at": "2026-11-28T15:00:28+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "women-qual-10-6",
+        "stage": "women-qualification",
+        "round": "资格第10组",
+        "slots": [
+          {
+            "team": "women-lux"
+          },
+          {
+            "team": "women-bar"
+          }
+        ],
+        "scheduled_at": "2026-05-01T10:00:00+01:00",
+        "completed_date": "2026-05-01",
+        "official_result": {
+          "result_for": [
+            "women-lux",
+            "women-bar"
+          ],
+          "score": [
+            3,
+            0
+          ],
+          "verification": {
+            "source_ids": [
+              "results"
+            ],
+            "verified_at": "2026-11-28T15:00:28+00:00"
+          },
+          "status": "walkover",
+          "winner": 0,
+          "reason": "WTT 官方归档判定巴巴多斯整队弃权，计 0–3；未进行单打。"
+        },
+        "group": "women-qual-10",
+        "matches": []
       },
       {
         "id": "women-qual-13-1",
