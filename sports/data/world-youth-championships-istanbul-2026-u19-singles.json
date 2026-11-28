@@ -18,7 +18,7 @@
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-28T00:00:00Z",
+      "snapshot_at": "2026-11-28T09:30:14Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -446,6 +446,20 @@
       {
         "id": "gugu-results-nov27",
         "label": "ぐぐスポ：11 月 27 日逐局比分",
+        "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
+        "kind": "independent",
+        "family": "sportzorg24.tv"
+      },
+      {
+        "id": "gsa-results-nov28",
+        "label": "Global Sports Archive：11 月 28 日逐局比分",
+        "url": "https://globalsportsarchive.com/sport_ajax_tennis.php?d=2026-11-28&sp=table_tennis&widget_client_id=1",
+        "kind": "independent",
+        "family": "globalsportsarchive.com"
+      },
+      {
+        "id": "gugu-results-nov28",
+        "label": "ぐぐスポ：11 月 28 日逐局比分",
         "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
         "kind": "independent",
         "family": "sportzorg24.tv"
@@ -1994,7 +2008,8 @@
             "gugu-results-nov27"
           ],
           "verified_at": "2026-11-27T14:00:00Z"
-        }
+        },
+        "blocker": "已交叉核验本场完赛比分；上游岩井田駿斗的晋级路线因突尼斯协会 TUN 尚未登记而待补，本场暂不录入。"
       },
       {
         "id": "boys-sf-2",
@@ -2009,7 +2024,7 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-28T16:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2017,6 +2032,40 @@
             "gugu-results-nov27"
           ],
           "verified_at": "2026-11-27T14:30:00Z"
+        },
+        "games": [
+          [
+            3,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            11
+          ]
+        ],
+        "result_for": [
+          "boys-sareen",
+          "boys-li"
+        ],
+        "completed_date": "2026-11-28",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov28",
+            "gugu-results-nov28"
+          ],
+          "verified_at": "2026-11-28T09:30:14Z"
         }
       },
       {
@@ -3671,7 +3720,8 @@
             "gugu-results-nov27"
           ],
           "verified_at": "2026-11-27T14:00:00Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "girls-sf-2",
@@ -3694,7 +3744,8 @@
             "gugu-results-nov27"
           ],
           "verified_at": "2026-11-27T14:00:00Z"
-        }
+        },
+        "blocker": "计划开赛时间已过，尚无可交叉核验的完赛逐局比分。"
       },
       {
         "id": "girls-final-1",
