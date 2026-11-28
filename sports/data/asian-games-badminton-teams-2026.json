@@ -7,16 +7,16 @@
     "end": "2026-09-24"
   },
   "notices": [
-    "本页已录入男、女团21场团体对阵及官方总比分，含全部八强至决赛。男团首轮孟加拉国0比3印度因本届官方队伍编码 BAN 尚未登记，暂未收录；不是完整赛事档案。",
-    "首轮轮空不另建虚拟比赛。直接晋级八强及印度的八强席位均以官方四分之一决赛日报确认。",
-    "已依亚运会官方9月20至24日赛果日报补齐现有21场团体对决的77场单项，含实际阵容、出场顺序、逐局比分和退赛；76场正常完成，1场退赛。男团八强戚又仁对泰国Panitchaphon的第二局9–5为未完局，不计入完整局；官方未赛项目不补造赛果。男团首轮孟加拉国对印度仍因BAN编码未登记而缺席，不能称完整赛事档案。",
+    "本页覆盖男、女团22场实际团体对阵及官方总比分，含首轮至决赛。",
+    "首轮轮空不另建虚拟比赛。直接晋级八强的席位以官方四分之一决赛日报确认。",
+    "已录入22场团体对决的80场单项，含实际阵容、出场顺序、逐局比分和退赛；79场正常完成，1场退赛。男团八强戚又仁对泰国Panitchaphon的第二局9–5为未完局，不计入完整局；未赛项目不补造赛果。",
     "决赛逐局采用亚运会官方9月24日报告2.0，团体总比分另与印尼羽协（PBSI）及日本羽协（BAJ）官方报道交叉核对。所有既有团体ID及总比分保持不变。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026爱知·名古屋亚运会羽毛球团体赛",
-      "snapshot_at": "2026-11-18T05:03:08+08:00",
+      "snapshot_at": "2026-11-28T14:05:47Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Asia/Tokyo"
     },
@@ -133,6 +133,25 @@
         ]
       },
       {
+        "id": "men-ban",
+        "draw": "men",
+        "team": "BAN",
+        "players": [
+          {
+            "id": "men-ban-jaman",
+            "name": "Ayman Ibn JAMAN"
+          },
+          {
+            "id": "men-ban-singha",
+            "name": "Gourab SINGHA"
+          },
+          {
+            "id": "men-ban-jumar",
+            "name": "Al Amin JUMAR"
+          }
+        ]
+      },
+      {
         "id": "men-ind",
         "draw": "men",
         "team": "IND",
@@ -160,6 +179,10 @@
           {
             "id": "men-ind-3b34bca0211f",
             "name": "MADATHIL R Arjun"
+          },
+          {
+            "id": "men-ind-srikanth",
+            "name": "Srikanth KIDAMBI"
           }
         ]
       },
@@ -750,6 +773,13 @@
         "label": "亚运会官方9月24日决赛赛果日报（版本2.0）：男女团单项完整结果",
         "kind": "official",
         "family": "Aichi-Nagoya-2026"
+      },
+      {
+        "id": "akashvani-ban-ind",
+        "url": "https://newsonair.gov.in/india-beat-bangladesh-3-0-to-reach-mens-badminton-qfs-at-asian-games/",
+        "label": "印度公共广播 Akashvani：孟加拉国对印度逐局赛果",
+        "kind": "independent",
+        "family": "newsonair.gov.in"
       }
     ],
     "rules": {
@@ -920,18 +950,6 @@
         "stage": "women-ko",
         "team": "women-jpn",
         "label": "官方四分之一决赛日报确认参赛席位（首轮轮空不另建比赛）",
-        "verification": {
-          "source_ids": [
-            "day-22"
-          ],
-          "verified_at": "2026-11-16T17:12:47+00:00"
-        }
-      },
-      {
-        "id": "men-ind-qf-entry",
-        "stage": "men-ko",
-        "team": "men-ind",
-        "label": "官方四分之一决赛日报确认印度参赛席位；首轮比赛待补录",
         "verification": {
           "source_ids": [
             "day-22"
@@ -1189,6 +1207,133 @@
                 "day-21"
               ],
               "verified_at": "2026-11-18T04:04:55+08:00"
+            }
+          }
+        ]
+      },
+      {
+        "id": "men-r16-3",
+        "stage": "men-ko",
+        "round": "16强",
+        "slots": [
+          {
+            "team": "men-ban"
+          },
+          {
+            "team": "men-ind"
+          }
+        ],
+        "completed_date": "2026-09-21",
+        "official_result": {
+          "result_for": [
+            "men-ban",
+            "men-ind"
+          ],
+          "score": [
+            0,
+            3
+          ],
+          "verification": {
+            "source_ids": [
+              "day-21",
+              "akashvani-ban-ind"
+            ],
+            "verified_at": "2026-11-28T14:05:47Z"
+          }
+        },
+        "order": [
+          1,
+          3,
+          5,
+          4,
+          2
+        ],
+        "matches": [
+          {
+            "position": 1,
+            "lineup": [
+              [
+                "men-ban-jaman"
+              ],
+              [
+                "men-ind-fc2f6a94bd68"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                21
+              ],
+              [
+                12,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "day-21",
+                "akashvani-ban-ind"
+              ],
+              "verified_at": "2026-11-28T14:05:47Z"
+            }
+          },
+          {
+            "position": 2,
+            "lineup": [
+              [
+                "men-ban-singha"
+              ],
+              [
+                "men-ind-ea4c23bc3cae"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                4,
+                21
+              ],
+              [
+                13,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "day-21",
+                "akashvani-ban-ind"
+              ],
+              "verified_at": "2026-11-28T14:05:47Z"
+            }
+          },
+          {
+            "position": 3,
+            "lineup": [
+              [
+                "men-ban-jumar"
+              ],
+              [
+                "men-ind-srikanth"
+              ]
+            ],
+            "status": "completed",
+            "games": [
+              [
+                15,
+                21
+              ],
+              [
+                9,
+                21
+              ]
+            ],
+            "verification": {
+              "source_ids": [
+                "day-21",
+                "akashvani-ban-ind"
+              ],
+              "verified_at": "2026-11-28T14:05:47Z"
             }
           }
         ]
@@ -1849,7 +1994,7 @@
         "round": "四分之一决赛",
         "slots": [
           {
-            "qualified": "men-ind-qf-entry"
+            "winner": "men-r16-3"
           },
           {
             "winner": "men-r16-4"

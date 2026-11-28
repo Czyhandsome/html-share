@@ -24,6 +24,10 @@
       "name": "阿塞拜疆",
       "flag": "4x3/az.svg"
     },
+    "BAN": {
+      "name": "孟加拉国",
+      "flag": "4x3/bd.svg"
+    },
     "BEL": {
       "name": "比利时",
       "flag": "4x3/be.svg"
