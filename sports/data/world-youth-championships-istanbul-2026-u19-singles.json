@@ -11,14 +11,13 @@
     "本页覆盖伊斯坦布尔乒乓球世青赛 U19 男子单打、女子单打 32 强签表及后续晋级关系；团体、双打和混双另页展示。",
     "首轮对阵与北京时间按 Eleven 赛事页公布的 2026-11-25 赛程录入；赛程时间为近似开赛时间，不能据此认定比赛已开始或完赛。",
     "本届 U19 单打采用七局四胜；首轮已按实际赛果复核。",
-    "Ramon Vila 的公开签表协会标注为 DOM；仓库当前队伍映射未登记 DOM，页面暂以已登记的 PUR 展示，姓名和对阵仍按公开签表保存。",
-    "Wassim Essid 的公开签表协会标注为 TUN；仓库当前队伍映射未登记 TUN，页面暂以已登记的 PUR 展示，姓名和对阵仍按公开签表保存。"
+    "Ramon Vila 的公开签表协会标注为 DOM；仓库当前队伍映射未登记 DOM，页面暂以已登记的 PUR 展示，姓名和对阵仍按公开签表保存。"
   ],
   "data": {
     "schema_version": 1,
     "event": {
       "name": "2026 伊斯坦布尔乒乓球世青赛 · U19单打",
-      "snapshot_at": "2026-11-28T09:30:14Z",
+      "snapshot_at": "2026-11-28T09:45:52Z",
       "timezone": "Asia/Shanghai",
       "venue_timezone": "Europe/Istanbul"
     },
@@ -91,7 +90,7 @@
       {
         "id": "boys-essid",
         "name": "Wassim Essid",
-        "team": "PUR"
+        "team": "TUN"
       },
       {
         "id": "boys-nie",
@@ -463,6 +462,20 @@
         "url": "https://www.sportzorg24.tv/wtt-world-youth-championships-istanbul-2026/",
         "kind": "independent",
         "family": "sportzorg24.tv"
+      },
+      {
+        "id": "eleven-day5",
+        "label": "Eleven：世青赛第 5 日完整赛果",
+        "url": "https://eleventabletennis.com/news/world-youth-championships-2026-day-five-review-results-highlights",
+        "kind": "independent",
+        "family": "eleventabletennis.com"
+      },
+      {
+        "id": "eleven-day6",
+        "label": "Eleven：世青赛第 6 日完整赛果",
+        "url": "https://eleventabletennis.com/news/world-youth-championships-2026-day-six-review-results-highlights",
+        "kind": "independent",
+        "family": "eleventabletennis.com"
       }
     ],
     "rules": {
@@ -833,7 +846,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-25T22:15:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -842,7 +855,48 @@
           ],
           "verified_at": "2026-11-24T22:00:00+00:00"
         },
-        "blocker": "已核实逐局比分，但 Wassim Essid 的官方协会 TUN 尚未登记，待修正代表队后再发布赛果与晋级。"
+        "games": [
+          [
+            15,
+            13
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "result_for": [
+          "boys-kahn",
+          "boys-essid"
+        ],
+        "completed_date": "2026-11-25",
+        "verification": {
+          "source_ids": [
+            "gsa-results",
+            "eleven-day5"
+          ],
+          "verified_at": "2026-11-28T09:45:52Z"
+        }
       },
       {
         "id": "boys-r32-8",
@@ -1544,7 +1598,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-26T19:45:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1554,7 +1608,40 @@
           ],
           "verified_at": "2026-11-25T19:06:30+00:00"
         },
-        "blocker": "逐局比分已交叉核验；上轮赛果因 Wassim Essid 的官方协会 TUN 尚未登记而待发布，本轮晋级也暂不录入。"
+        "games": [
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "result_for": [
+          "boys-essid",
+          "boys-nie"
+        ],
+        "completed_date": "2026-11-26",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov26",
+            "eleven-day6"
+          ],
+          "verified_at": "2026-11-28T09:45:52Z"
+        }
       },
       {
         "id": "boys-r16-5",
@@ -1850,7 +1937,7 @@
           }
         ],
         "rule": "early",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-27T20:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -1859,7 +1946,40 @@
           ],
           "verified_at": "2026-11-26T12:32:02Z"
         },
-        "blocker": "逐局比分已由两家独立来源核实；对手 Wassim Essid 的官方协会 TUN 尚未登记，上游签位与本场赛果暂未录入。"
+        "games": [
+          [
+            11,
+            6
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            3
+          ]
+        ],
+        "result_for": [
+          "boys-iwaida",
+          "boys-essid"
+        ],
+        "completed_date": "2026-11-27",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov27",
+            "gugu-results-nov27"
+          ],
+          "verified_at": "2026-11-28T09:45:52Z"
+        }
       },
       {
         "id": "boys-qf-3",
@@ -2000,7 +2120,7 @@
           }
         ],
         "rule": "late",
-        "status": "scheduled",
+        "status": "completed",
         "scheduled_at": "2026-11-28T16:30:00+08:00",
         "schedule_verification": {
           "source_ids": [
@@ -2009,7 +2129,40 @@
           ],
           "verified_at": "2026-11-27T14:00:00Z"
         },
-        "blocker": "已交叉核验本场完赛比分；上游岩井田駿斗的晋级路线因突尼斯协会 TUN 尚未登记而待补，本场暂不录入。"
+        "games": [
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ]
+        ],
+        "result_for": [
+          "boys-wen",
+          "boys-iwaida"
+        ],
+        "completed_date": "2026-11-28",
+        "verification": {
+          "source_ids": [
+            "gsa-results-nov28",
+            "gugu-results-nov28"
+          ],
+          "verified_at": "2026-11-28T09:45:52Z"
+        }
       },
       {
         "id": "boys-sf-2",

@@ -300,6 +300,10 @@
       "name": "中国台北",
       "flag": "4x3/tpe.svg"
     },
+    "TUN": {
+      "name": "突尼斯",
+      "flag": "4x3/tn.svg"
+    },
     "TUR": {
       "name": "土耳其",
       "flag": "4x3/tr.svg"
